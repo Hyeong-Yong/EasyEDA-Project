@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11T12:46:20.503Z",
+  "document": "PCB1",
+  "boardSizeMm": [
+    89.9922,
+    59.9948
+  ],
+  "components": 58,
+  "pads": 177,
+  "nets": 35,
+  "connectedPins": 169,
+  "schematicMismatch": [],
+  "placementMismatch": [],
+  "componentBoundsOverlaps": [],
+  "outsidePads": [],
+  "tracks": 523,
+  "vias": 37,
+  "drc": [],
+  "groundPours": 2,
+  "smaSignalPins": [
+    "J2.5",
+    "J3.5"
+  ],
+  "smaGroundPins": [
+    "J2.1",
+    "J2.2",
+    "J2.3",
+    "J2.4",
+    "J3.1",
+    "J3.2",
+    "J3.3",
+    "J3.4"
+  ],
+  "notes": [
+    "SMA connector bodies intentionally overhang the right edge; pads are on board.",
+    "Electrical performance, power integrity and enclosure clearances require prototype/design review before production."
+  ]
+}
