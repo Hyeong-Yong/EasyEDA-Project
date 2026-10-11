@@ -1,0 +1,65 @@
+[
+  {
+    "name": "dfb_100_22_tran_r1000000_c0_v2.5_fine",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 6.586596473023795e-10,
+    "settling1PercentUs": 12.441881520869996,
+    "lateRippleVpp": 1.3000017728970192e-12,
+    "baselineOutputV": -8.167870908733048e-06,
+    "targetOutputV": 0.1003933592799387
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c470_v2.5_fine",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 7.525820913424967e-10,
+    "settling1PercentUs": 12.259003587019997,
+    "lateRippleVpp": 1.4000051118401302e-12,
+    "baselineOutputV": -8.167871459033144e-06,
+    "targetOutputV": 0.1003933592794444
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c5000_v2.5_fine",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 1.3619554710020223e-05,
+    "settling1PercentUs": 10.03832897277,
+    "lateRippleVpp": 9.000022949123831e-13,
+    "baselineOutputV": -8.167871648543679e-06,
+    "targetOutputV": 0.10039335928015908
+  }
+]

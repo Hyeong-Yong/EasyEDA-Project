@@ -1,0 +1,26 @@
+DAC8562 high-Z stability design comparison tolerance_99_231_tran_r1000000_c0_v2.5
+.include "models/pspice/OPAx277.LIB"
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 itl1=500 itl4=500
+VCC vp 0 11.97231
+VEE vn 0 -12.13
+VREF ref 0 2.5
+VDAC dac 0 PWL(0 2.5 50u 2.5 50.02u 2.525 250u 2.525 250.02u 2.5 500u 2.5)
+RI dac plus 24900
+RG plus 0 100000
+RR ref mix 24900
+RF out mix 100000
+XU4 plus mix vp vn raw OPAx277
+RISO raw out 99
+CF raw mix 2.31e-11
+COUT out 0 100p
+RL out 0 1000000
+.nodeset v(raw)=0 v(out)=0 v(plus)=2.00160128102482 v(mix)=2.00160128102482
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 20n 500u 0 20n
+wrdata highz/results/tolerance_99_231_tran_r1000000_c0_v2.5.dat v(dac) v(out) v(raw)
+quit
+.endc
+.end

@@ -1,0 +1,62 @@
+DAC8562 high-impedance stability revision (2026-10-12)
+
+Reconnection review completed on 2026-10-12: 0 schematic errors / 29 warnings.
+Eight unnamed power/ground flags were repaired and checked after save/reopen.
+Remaining warnings: 27 identical duplicate net labels and 2 supplier-metadata
+warnings. See schematic-drc-reviewed.txt and schematic-erc-repair.json.
+PCB DRC and 35-net / 173-connected-pin comparison pass. Procurement/DFM and
+hardware checks are still required; this is NOT a fabrication-approved or
+laser-connection-approved design.
+
+Run from the TEST_DAC8562 project directory with Node.js >= 22, Python 3,
+numpy and matplotlib. Tested with ngspice 47 and the unmodified TI
+OPAx277 Final 1.4 model (15 June 2022) from:
+https://www.ti.com/lit/zip/sbom063
+
+Install a full ngspice build with XSPICE support. Set NGSPICE_BIN to its
+console executable. If omitted, the runner uses the locally installed
+tmp/simulation-tools/Spice64/bin/ngspice_con.exe. Binaries are not included.
+
+Create simulation/.spiceinit for YOUR installation, containing:
+  set ngbehavior=ps
+  set num_threads=1
+  set filetype=ascii
+For the Windows distribution used here, also load the XSPICE libraries
+with three codemodel commands using absolute installation paths to:
+  lib/ngspice/analog.cm
+  lib/ngspice/spice2poly.cm
+  lib/ngspice/table.cm
+These paths are installation-specific; do not copy another computer's paths.
+Official ngspice setup reference:
+https://ngspice.sourceforge.io/ngspice-tutorial.html
+
+Commands (working directory: TEST_DAC8562):
+  node simulation/highz-stability.mjs verify dfb_100_22
+  node simulation/highz-stability.mjs corners
+  node simulation/highz-stability.mjs refine
+  python simulation/analyze-highz.py verify
+  python simulation/analyze-highz.py corners
+  python simulation/analyze-highz.py refine
+  python simulation/highz-report.py
+
+verify: 48 DC/AC/loop/transient cases at 1 MOhm, 100 kOhm and 10 kOhm.
+corners: 43 cases including selected output biases, RISO +/-1%, CF +/-5%,
+and a full-range ramp. refine: 3 smaller-timestep transient comparisons.
+Extra cable capacitance: 0, 100, 470, 1000 and 5000 pF, plus fixed 100 pF.
+Rail sources are IDEAL +11.97231 V and -12.13 V; temperature is 27 C.
+Physical nodesets and a startup ramp avoid unphysical macro-model DC roots.
+Do not count solver failures or nonphysical operating points as passes.
+
+The runner regenerates cases and raw tables under simulation/highz.
+Summary JSON, manifests, verification JSON, and compressed plot-waveforms.npz
+preserve the reported results and displayed waveforms. Large raw tables are
+local generated outputs, not required to view the report or regenerate plots.
+Optional screening: node simulation/highz-stability.mjs screen
+
+Hardware validation is still required for supply startup/ripple, DAC buffer
+headroom, resistor mismatch, PCB/cable parasitics, temperature and laser input
+limits. Actual SolsTiS PZT INPUT impedance is NOT established by this work.
+Nominal amplifier full scale is about +/-10.04 V. Apply calibrated firmware
+limits if the equipment permits only +/-10.00 V. Start dummy-load tests with
+slow ramps and +/-9.5 V, not by directly connecting the laser during power-up.
+This output is NOT designed for a 50 Ohm termination.

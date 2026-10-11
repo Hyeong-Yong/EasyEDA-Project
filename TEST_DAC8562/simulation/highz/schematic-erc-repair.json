@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-11T23:32:53.346Z",
+  "applicationVersion": "3.2.149.88089769",
+  "cause": "One error category listed eight unnamed net flags surrounding C18/C19/C20/C21. The wire net labels retained electrical connectivity; blank Name overrides caused ERC.",
+  "changes": [
+    {
+      "id": "18093a22ee84d107",
+      "net": "VPOS12"
+    },
+    {
+      "id": "012e8b3f44d91252",
+      "net": "VNEG12"
+    },
+    {
+      "id": "47b66fd46f635b42",
+      "net": "VPOS12"
+    },
+    {
+      "id": "ece0cc04b3540a18",
+      "net": "VNEG12"
+    },
+    {
+      "id": "43954dafa119e2b0",
+      "net": "GND"
+    },
+    {
+      "id": "a7d34291efc59498",
+      "net": "GND"
+    },
+    {
+      "id": "ee6c60733da818be",
+      "net": "GND"
+    },
+    {
+      "id": "acf069aaa3389464",
+      "net": "GND"
+    }
+  ],
+  "before": {
+    "errors": 1,
+    "warnings": 37
+  },
+  "after": {
+    "errors": 0,
+    "warnings": 29
+  },
+  "persistedAfterReopen": true,
+  "connectedPinNetsUnchanged": true,
+  "remainingWarnings": {
+    "duplicateIdenticalNetNames": 27,
+    "supplierMetadataWarnings": 2,
+    "total": 29,
+    "log": "simulation/highz/schematic-drc-reviewed.txt",
+    "disposition": "Duplicate labels have identical names, not different-net shorts. Supplier metadata must be standardized/checked against MPN and footprint before ordering; no automatic part substitution was performed."
+  }
+}

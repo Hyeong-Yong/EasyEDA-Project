@@ -1,38 +1,468 @@
 {
-  "date": "2026-10-11T12:46:20.503Z",
+  "date": "2026-10-11T23:32:53.346Z",
+  "status": "layout-and-pin-connectivity-pass; schematic-error-free-with-reviewed-warnings; prototype-validation-required",
   "document": "PCB1",
   "boardSizeMm": [
-    89.9922,
-    59.9948
+    90,
+    60
   ],
-  "components": 58,
-  "pads": 177,
+  "components": 60,
+  "electricalPads": 175,
   "nets": 35,
-  "connectedPins": 169,
+  "connectedPins": 173,
   "schematicMismatch": [],
   "placementMismatch": [],
   "componentBoundsOverlaps": [],
-  "outsidePads": [],
-  "tracks": 523,
-  "vias": 37,
+  "mountingHoles": [
+    {
+      "number": "MH1",
+      "xMm": 5.00000016,
+      "yMm": 5.00000016,
+      "diameterMm": 3.20000122,
+      "plated": false,
+      "keepoutDiameterMm": 7
+    },
+    {
+      "number": "MH2",
+      "xMm": 85.00000017999999,
+      "yMm": 5.00000016,
+      "diameterMm": 3.20000122,
+      "plated": false,
+      "keepoutDiameterMm": 7
+    },
+    {
+      "number": "MH3",
+      "xMm": 5.00000016,
+      "yMm": 54.99999922,
+      "diameterMm": 3.20000122,
+      "plated": false,
+      "keepoutDiameterMm": 7
+    },
+    {
+      "number": "MH4",
+      "xMm": 85.00000017999999,
+      "yMm": 54.99999922,
+      "diameterMm": 3.20000122,
+      "plated": false,
+      "keepoutDiameterMm": 7
+    }
+  ],
+  "mountingKeepoutRegions": 8,
+  "tracks": 649,
+  "vias": 40,
   "drc": [],
-  "groundPours": 2,
-  "smaSignalPins": [
-    "J2.5",
-    "J3.5"
+  "schematicDrc": [
+    {
+      "type": "warn",
+      "count": 29
+    }
   ],
-  "smaGroundPins": [
-    "J2.1",
-    "J2.2",
-    "J2.3",
-    "J2.4",
-    "J3.1",
-    "J3.2",
-    "J3.3",
-    "J3.4"
+  "schematicDrcDetailsAvailable": true,
+  "criticalPinNets": {
+    "U1.2": "GND",
+    "U1.3": "GND",
+    "U1.5": "VIN_RAW",
+    "U1.6": "VIN_RAW",
+    "U1.19": "GND",
+    "U1.25": "GND",
+    "U3.3": "GND",
+    "U3.10": "VREF2V5",
+    "U3.9": "VDD5",
+    "U3.8": "DIN_DAC",
+    "U4.1": "OA_RAW",
+    "U4.2": "A_MINUS",
+    "U4.3": "A_PLUS",
+    "U4.4": "VNEG12",
+    "U4.5": "B_PLUS",
+    "U4.6": "B_MINUS",
+    "U4.7": "OB_RAW",
+    "U4.8": "VPOS12",
+    "C25.1": "A_MINUS",
+    "C25.2": "OA_RAW",
+    "C26.1": "B_MINUS",
+    "C26.2": "OB_RAW",
+    "J2.5": "OUT_A",
+    "J3.5": "OUT_B"
+  },
+  "partPositionsMm": [
+    {
+      "designator": "C1",
+      "x": 16.002,
+      "y": 30.860999999999997,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C2",
+      "x": 34.036,
+      "y": 20.573999999999998,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C3",
+      "x": 27.939999999999998,
+      "y": 26.669999999999998,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C4",
+      "x": 27.432,
+      "y": 18.288,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C5",
+      "x": 23.368,
+      "y": 22.86,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C6",
+      "x": 12.192,
+      "y": 17.526,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C7",
+      "x": 16.002,
+      "y": 12.446,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C8",
+      "x": 19.558,
+      "y": 8.128,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C9",
+      "x": 20.828,
+      "y": 32.512,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C10",
+      "x": 26.924,
+      "y": 32.512,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C11",
+      "x": 36.576,
+      "y": 13.969999999999999,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C12",
+      "x": 42.672,
+      "y": 12.446,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C13",
+      "x": 40.132,
+      "y": 21.843999999999998,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C14",
+      "x": 47.498,
+      "y": 22.352,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C15",
+      "x": 49.784,
+      "y": 14.732,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C16",
+      "x": 40.64,
+      "y": 37.592,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C17",
+      "x": 40.385999999999996,
+      "y": 32.004,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C18",
+      "x": 64.51599999999999,
+      "y": 37.083999999999996,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C19",
+      "x": 73.152,
+      "y": 28.701999999999998,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C20",
+      "x": 64.51599999999999,
+      "y": 41.656,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C21",
+      "x": 76.708,
+      "y": 28.701999999999998,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C22",
+      "x": 79.502,
+      "y": 17.779999999999998,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "C23",
+      "x": 79.502,
+      "y": 43.18,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "D1",
+      "x": 21.59,
+      "y": 26.669999999999998,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "D2",
+      "x": 31.75,
+      "y": 13.969999999999999,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "J1",
+      "x": 38.1,
+      "y": 5.842,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "L1",
+      "x": 13.969999999999999,
+      "y": 24.13,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "L2",
+      "x": 25.4,
+      "y": 8.889999999999999,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "LED1",
+      "x": 15.24,
+      "y": 39.37,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "Q1",
+      "x": 11.176,
+      "y": 10.921999999999999,
+      "rotationDeg": 180
+    },
+    {
+      "designator": "R1",
+      "x": 20.32,
+      "y": 21.209,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "R2",
+      "x": 26.416,
+      "y": 21.971,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "R3",
+      "x": 29.464,
+      "y": 21.336,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R4",
+      "x": 29.464,
+      "y": 23.622,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R5",
+      "x": 16.509999999999998,
+      "y": 16.509999999999998,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R6",
+      "x": 36.068,
+      "y": 37.083999999999996,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R7",
+      "x": 36.068,
+      "y": 34.544,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R8",
+      "x": 53.086,
+      "y": 36.068,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R9",
+      "x": 53.086,
+      "y": 39.37,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R10",
+      "x": 41.402,
+      "y": 42.164,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R11",
+      "x": 11.176,
+      "y": 39.37,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R12",
+      "x": 71.88199999999999,
+      "y": 23.875999999999998,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R13",
+      "x": 75.184,
+      "y": 22.352,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "R14",
+      "x": 63.754,
+      "y": 21.59,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R15",
+      "x": 69.342,
+      "y": 20.192999999999998,
+      "rotationDeg": 180
+    },
+    {
+      "designator": "R17",
+      "x": 72.136,
+      "y": 38.608,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R18",
+      "x": 75.692,
+      "y": 39.37,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "R19",
+      "x": 74.16799999999999,
+      "y": 35.814,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R20",
+      "x": 68.58,
+      "y": 38.608,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "U1",
+      "x": 21.59,
+      "y": 16.509999999999998,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "U2",
+      "x": 44.704,
+      "y": 17.526,
+      "rotationDeg": 180
+    },
+    {
+      "designator": "U3",
+      "x": 46.989999999999995,
+      "y": 37.083999999999996,
+      "rotationDeg": 90
+    },
+    {
+      "designator": "J2",
+      "x": 85.85199999999999,
+      "y": 17.779999999999998,
+      "rotationDeg": 180
+    },
+    {
+      "designator": "J3",
+      "x": 85.85199999999999,
+      "y": 43.18,
+      "rotationDeg": 180
+    },
+    {
+      "designator": "U4",
+      "x": 68.58,
+      "y": 29.209999999999997,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "R16",
+      "x": 63.245999999999995,
+      "y": 26.416,
+      "rotationDeg": 180
+    },
+    {
+      "designator": "R21",
+      "x": 64.008,
+      "y": 32.512,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C24",
+      "x": 45.466,
+      "y": 30.988,
+      "rotationDeg": 0
+    },
+    {
+      "designator": "C25",
+      "x": 67.31,
+      "y": 23.114,
+      "rotationDeg": 180
+    },
+    {
+      "designator": "C26",
+      "x": 68.58,
+      "y": 35.559999999999995,
+      "rotationDeg": 180
+    }
   ],
+  "sha256": {
+    "project": "8f9a25378df8e113a49af49d1eb9cb68bd2e7a3ac309fe7cf58ae3f126f550c3",
+    "export": "4c79ebfa7c906353938b72318c4f8a4b1877125f2db6323af0495d69732b39aa"
+  },
   "notes": [
-    "SMA connector bodies intentionally overhang the right edge; pads are on board.",
-    "Electrical performance, power integrity and enclosure clearances require prototype/design review before production."
-  ]
+    "Symmetric M3 NPTH holes: 5 mm from each 90 x 60 mm board corner; drill file independently checked.",
+    "No component bounding-box overlap; SMA bodies intentionally overhang board edge.",
+    "J1 moved to lower board edge; OPA2277 is a single SOIC-8 dual amplifier.",
+    "Schematic strict DRC: 0 fatal errors, 0 errors, 29 reviewed warnings. Eight moved decoupler net flags had blank Name overrides; restored VPOS12/VNEG12/GND and verified after save/reopen.",
+    "Remaining warnings are identical duplicate net labels and supplier metadata; information messages also flag empty Value fields and two unused net labels. These have not been suppressed.",
+    "No hardware, power/startup, cable transmission-line, complete worst-case, or full manufacturing approval. Prototype validation and procurement/DFM review are still required."
+  ],
+  "schematicWarningReview": {
+    "duplicateIdenticalNetNames": 27,
+    "supplierMetadataWarnings": 2,
+    "total": 29,
+    "log": "simulation/highz/schematic-drc-reviewed.txt",
+    "disposition": "Duplicate labels have identical names, not different-net shorts. Supplier metadata must be standardized/checked against MPN and footprint before ordering; no automatic part substitution was performed."
+  }
 }

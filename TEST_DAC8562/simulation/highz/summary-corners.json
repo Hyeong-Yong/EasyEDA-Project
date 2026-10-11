@@ -1,0 +1,924 @@
+[
+  {
+    "name": "dfb_100_22_loop_r1000000_c0_v0.05",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 0,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 0.05,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 754913.785429835,
+        "phaseMarginDeg": 85.92240353470469
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c0_v0.05",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 0.05,
+    "riseTimeUs": 500,
+    "status": "passed",
+    "overshootPercent": 3.345480142454896e-08,
+    "settling1PercentUs": 12.441168323600051,
+    "lateRippleVpp": 1.6999734953060397e-11,
+    "baselineOutputV": -9.839357828970149,
+    "targetOutputV": -9.73895630199659
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c470_v0.05",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 470,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 0.05,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 736355.149648614,
+        "phaseMarginDeg": 81.61586406366082
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c470_v0.05",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 0.05,
+    "riseTimeUs": 500,
+    "status": "passed",
+    "overshootPercent": 3.511082205673409e-08,
+    "settling1PercentUs": 12.275793051900056,
+    "lateRippleVpp": 1.5999646052478056e-11,
+    "baselineOutputV": -9.83935782897172,
+    "targetOutputV": -9.738956301998252
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c5000_v0.05",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 0.05,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 562443.1641907683,
+        "phaseMarginDeg": 90.45841999487763
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c5000_v0.05",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 0.05,
+    "riseTimeUs": 500,
+    "status": "passed",
+    "overshootPercent": 1.3680094515502932e-05,
+    "settling1PercentUs": 10.05718198270003,
+    "lateRippleVpp": 1.5999646052478056e-11,
+    "baselineOutputV": -9.839357828982566,
+    "targetOutputV": -9.738956302009024
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 0,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 754913.7854285691,
+        "phaseMarginDeg": 85.92240353490392
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 4.482028794375631e-09,
+    "settling1PercentUs": 12.452432444769999,
+    "lateRippleVpp": 2.0000667788622195e-13,
+    "baselineOutputV": -8.17799936198853e-06,
+    "targetOutputV": 0.10039334905009997
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 470,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 736355.149644045,
+        "phaseMarginDeg": 81.6158640647393
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 3.8633293798094565e-11,
+    "settling1PercentUs": 12.268081933930002,
+    "lateRippleVpp": 2.0000667788622195e-13,
+    "baselineOutputV": -8.177999128563793e-06,
+    "targetOutputV": 0.10039334905046121
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 562443.1641947307,
+        "phaseMarginDeg": 90.45841999654643
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 1.3620424118164096e-05,
+    "settling1PercentUs": 10.051142256999999,
+    "lateRippleVpp": 2.999961390415251e-13,
+    "baselineOutputV": -8.177999356964039e-06,
+    "targetOutputV": 0.10039334904998619
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c0_v4.925",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 0,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 4.925,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 754913.7854273166,
+        "phaseMarginDeg": 85.92240353510257
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c0_v4.925",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 4.925,
+    "riseTimeUs": 500,
+    "status": "passed",
+    "overshootPercent": 8.150947693192239e-09,
+    "settling1PercentUs": 12.440055581300056,
+    "lateRippleVpp": 1.6999734953060397e-11,
+    "baselineOutputV": 9.738939945919915,
+    "targetOutputV": 9.839341473044817
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c470_v4.925",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 470,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 4.925,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 736355.1496395218,
+        "phaseMarginDeg": 81.615864065811
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c470_v4.925",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 4.925,
+    "riseTimeUs": 500,
+    "status": "passed",
+    "overshootPercent": 9.45311776090823e-09,
+    "settling1PercentUs": 12.276184638200009,
+    "lateRippleVpp": 1.6999734953060397e-11,
+    "baselineOutputV": 9.738939945921096,
+    "targetOutputV": 9.83934147304651
+  },
+  {
+    "name": "dfb_100_22_loop_r1000000_c5000_v4.925",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 4.925,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 562443.1641986523,
+        "phaseMarginDeg": 90.45841999819737
+      }
+    ]
+  },
+  {
+    "name": "dfb_100_22_tran_r1000000_c5000_v4.925",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 4.925,
+    "riseTimeUs": 500,
+    "status": "passed",
+    "overshootPercent": 1.356082916292175e-05,
+    "settling1PercentUs": 10.039228812499983,
+    "lateRippleVpp": 1.6999734953060397e-11,
+    "baselineOutputV": 9.738939945932286,
+    "targetOutputV": 9.83934147305772
+  },
+  {
+    "name": "tolerance_99_209_loop_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_99_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.09e-11
+    },
+    "cap": 0,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 745320.963416657,
+        "phaseMarginDeg": 87.86744891326134
+      }
+    ]
+  },
+  {
+    "name": "tolerance_99_209_tran_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_99_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.09e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 2.2051386497607546e-09,
+    "settling1PercentUs": 11.96451996756,
+    "lateRippleVpp": 2.999961390415251e-13,
+    "baselineOutputV": -8.178016766429105e-06,
+    "targetOutputV": 0.100393349032786
+  },
+  {
+    "name": "tolerance_99_209_loop_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_99_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.09e-11
+    },
+    "cap": 470,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 726146.5952824169,
+        "phaseMarginDeg": 83.66836543213803
+      }
+    ]
+  },
+  {
+    "name": "tolerance_99_209_tran_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_99_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.09e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 2.4271936997921415e-11,
+    "settling1PercentUs": 11.772533113460002,
+    "lateRippleVpp": 1.9999280009841414e-13,
+    "baselineOutputV": -8.178017104426648e-06,
+    "targetOutputV": 0.10039334903287563
+  },
+  {
+    "name": "tolerance_99_209_loop_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_99_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.09e-11
+    },
+    "cap": 5000,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 549110.7400568725,
+        "phaseMarginDeg": 92.86669439605461
+      }
+    ]
+  },
+  {
+    "name": "tolerance_99_209_tran_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_99_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.09e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 1.8312247178655497e-05,
+    "settling1PercentUs": 9.552676448000003,
+    "lateRippleVpp": 1.0000056338554941e-12,
+    "baselineOutputV": -8.178017282811899e-06,
+    "targetOutputV": 0.1003933490330242
+  },
+  {
+    "name": "tolerance_99_231_loop_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_99_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.31e-11
+    },
+    "cap": 0,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 763410.728622818,
+        "phaseMarginDeg": 84.1510784805042
+      }
+    ]
+  },
+  {
+    "name": "tolerance_99_231_tran_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_99_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.31e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 1.330809848611387e-10,
+    "settling1PercentUs": 12.93567178465,
+    "lateRippleVpp": 2.999961390415251e-13,
+    "baselineOutputV": -8.17801663970934e-06,
+    "targetOutputV": 0.10039334903326638
+  },
+  {
+    "name": "tolerance_99_231_loop_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_99_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.31e-11
+    },
+    "cap": 470,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 745938.8204722959,
+        "phaseMarginDeg": 79.69156969107081
+      }
+    ]
+  },
+  {
+    "name": "tolerance_99_231_tran_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_99_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.31e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 7.388012713764642e-11,
+    "settling1PercentUs": 12.747594194480001,
+    "lateRippleVpp": 1.0000333894311098e-13,
+    "baselineOutputV": -8.178017195739445e-06,
+    "targetOutputV": 0.10039334903292582
+  },
+  {
+    "name": "tolerance_99_231_loop_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_99_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.31e-11
+    },
+    "cap": 5000,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 572368.2024129041,
+        "phaseMarginDeg": 88.02789533851885
+      }
+    ]
+  },
+  {
+    "name": "tolerance_99_231_tran_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_99_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 99,
+      "cf": 2.31e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 9.47866640058438e-06,
+    "settling1PercentUs": 10.591854788370004,
+    "lateRippleVpp": 2.999961390415251e-13,
+    "baselineOutputV": -8.178017283429386e-06,
+    "targetOutputV": 0.1003933490328742
+  },
+  {
+    "name": "tolerance_101_209_loop_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_101_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.09e-11
+    },
+    "cap": 0,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 745243.643086761,
+        "phaseMarginDeg": 87.87213318275913
+      }
+    ]
+  },
+  {
+    "name": "tolerance_101_209_tran_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_101_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.09e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 2.27304754869018e-09,
+    "settling1PercentUs": 11.969955800769998,
+    "lateRippleVpp": 2.0000667788622195e-13,
+    "baselineOutputV": -8.177981507718694e-06,
+    "targetOutputV": 0.10039334906681782
+  },
+  {
+    "name": "tolerance_101_209_loop_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_101_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.09e-11
+    },
+    "cap": 470,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 725523.0798433195,
+        "phaseMarginDeg": 83.73395054345264
+      }
+    ]
+  },
+  {
+    "name": "tolerance_101_209_tran_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_101_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.09e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 8.933344465817469e-11,
+    "settling1PercentUs": 11.776108676230006,
+    "lateRippleVpp": 1.9999280009841414e-13,
+    "baselineOutputV": -8.177981668934341e-06,
+    "targetOutputV": 0.1003933490669103
+  },
+  {
+    "name": "tolerance_101_209_loop_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_101_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.09e-11
+    },
+    "cap": 5000,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 550867.7630804655,
+        "phaseMarginDeg": 93.121865460714
+      }
+    ]
+  },
+  {
+    "name": "tolerance_101_209_tran_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_101_209",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.09e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 1.9453643751877033e-05,
+    "settling1PercentUs": 9.47742873454,
+    "lateRippleVpp": 7.999989559692722e-13,
+    "baselineOutputV": -8.177982266982311e-06,
+    "targetOutputV": 0.10039334906694461
+  },
+  {
+    "name": "tolerance_101_231_loop_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_101_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.31e-11
+    },
+    "cap": 0,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 763339.6933748514,
+        "phaseMarginDeg": 84.15528419263053
+      }
+    ]
+  },
+  {
+    "name": "tolerance_101_231_tran_r1000000_c0_v2.5",
+    "cfg": {
+      "name": "tolerance_101_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.31e-11
+    },
+    "cap": 0,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 6.705191707226774e-11,
+    "settling1PercentUs": 12.941770408840005,
+    "lateRippleVpp": 2.0000667788622195e-13,
+    "baselineOutputV": -8.17798155441616e-06,
+    "targetOutputV": 0.10039334906673268
+  },
+  {
+    "name": "tolerance_101_231_loop_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_101_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.31e-11
+    },
+    "cap": 470,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 745332.6280881597,
+        "phaseMarginDeg": 79.75479522480937
+      }
+    ]
+  },
+  {
+    "name": "tolerance_101_231_tran_r1000000_c470_v2.5",
+    "cfg": {
+      "name": "tolerance_101_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.31e-11
+    },
+    "cap": 470,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 4.868486132984529e-10,
+    "settling1PercentUs": 12.751358000310008,
+    "lateRippleVpp": 7.999989559692722e-13,
+    "baselineOutputV": -8.177981642308411e-06,
+    "targetOutputV": 0.1003933490670112
+  },
+  {
+    "name": "tolerance_101_231_loop_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_101_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.31e-11
+    },
+    "cap": 5000,
+    "test": "loop",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "crossings": [
+      {
+        "frequencyHz": 574119.3596696866,
+        "phaseMarginDeg": 88.27226164064285
+      }
+    ]
+  },
+  {
+    "name": "tolerance_101_231_tran_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "tolerance_101_231",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 101,
+      "cf": 2.31e-11
+    },
+    "cap": 5000,
+    "test": "tran",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "overshootPercent": 1.0049971444224634e-05,
+    "settling1PercentUs": 10.533811097030004,
+    "lateRippleVpp": 2.999961390415251e-13,
+    "baselineOutputV": -8.177981517389886e-06,
+    "targetOutputV": 0.1003933490668752
+  },
+  {
+    "name": "dfb_100_22_large_r1000000_c5000_v2.5",
+    "cfg": {
+      "name": "dfb_100_22",
+      "model": "models/pspice/OPAx277.LIB",
+      "ic": "OPAx277",
+      "riso": 100,
+      "cf": 2.1999999999999998e-11
+    },
+    "cap": 5000,
+    "test": "large",
+    "R": 1000000,
+    "bias": 2.5,
+    "riseTimeUs": 50,
+    "status": "passed",
+    "minV": -10.04016121503,
+    "maxV": 10.04014519101,
+    "maximumOutputCurrentA": 0.002108275690780008
+  }
+]

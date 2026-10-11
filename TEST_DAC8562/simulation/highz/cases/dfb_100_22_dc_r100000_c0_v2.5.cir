@@ -1,0 +1,26 @@
+DAC8562 high-Z stability design comparison dfb_100_22_dc_r100000_c0_v2.5
+.include "models/pspice/OPAx277.LIB"
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 itl1=500 itl4=500
+VCC vp 0 11.97231
+VEE vn 0 -12.13
+VREF ref 0 2.5
+VDAC dac 0 DC 2.5
+RI dac plus 24900
+RG plus 0 100000
+RR ref mix 24900
+RF out mix 100000
+XU4 plus mix vp vn raw OPAx277
+RISO raw out 100
+CF raw mix 2.1999999999999998e-11
+COUT out 0 100p
+RL out 0 100000
+.nodeset v(raw)=-10.050200803212851 v(out)=-10.040160642570282 v(plus)=0 v(mix)=0
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+dc VDAC 0 5 0.01
+wrdata highz/results/dfb_100_22_dc_r100000_c0_v2.5.dat v(dac) v(out) v(raw)
+quit
+.endc
+.end
