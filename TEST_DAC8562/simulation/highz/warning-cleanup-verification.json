@@ -1,0 +1,946 @@
+{
+  "date": "2026-10-12T00:04:34.864Z",
+  "applicationVersion": "3.2.149.88089769",
+  "before": {
+    "errors": 0,
+    "warnings": 29
+  },
+  "after": {
+    "errors": 0,
+    "warnings": 0,
+    "informationIssues": 0
+  },
+  "persistedAfterReopen": true,
+  "strictDrcEnabled": true,
+  "rulesSuppressed": false,
+  "duplicateWarningGroupsRemoved": 27,
+  "redundantNetAttributesRemoved": 44,
+  "unusedFloatingLabelsRemoved": [
+    {
+      "id": "b58f3317591a7951",
+      "net": "DACA"
+    },
+    {
+      "id": "3de2fdbb2e7fe7aa",
+      "net": "OUT_A"
+    }
+  ],
+  "supplierMetadataWarningGroupsRemoved": 2,
+  "physicalParts": 60,
+  "bomGroups": 28,
+  "connectedPins": 173,
+  "nets": 35,
+  "metadataAttributeUpdates": 641,
+  "nativeProjectIntegrity": "ok",
+  "exportIntegrity": "ok",
+  "physicalPartsAndFootprintsUnchanged": true,
+  "pcbPlacementUnchanged": true,
+  "schematicAndPcbPinNetsUnchanged": true,
+  "procedure": "Retain one identical NET attribute per existing wire primitive. Remove two inspected unused root-level _NETLABEL_ attributes. Exact MPN + manufacturer lookup in EasyEDA system supplier library; canonical display names and supplier attributes, preserving symbols/footprints/part IDs.",
+  "procurementNotes": [
+    "J1의 C9900168935는 일반 커넥터 라이브러리 번호이며 실제 주문 가능한 제조사 SKU는 확인되지 않았습니다. 기존 풋프린트에 맞는 2×5핀, 피치 2.54mm 암형 관통형 헤더를 선정하고 치수를 확인해야 합니다.",
+    "Q1 SI2323DS-T1-E3는 공급업체 라이브러리에 단종으로 표시됩니다. 회로·풋프린트를 임의로 바꾸지 않았습니다. 원래 부품의 재고를 확보하거나 대체 부품을 별도로 검토해야 합니다.",
+    "제조사·부품 번호·패키지 정보를 대조했습니다. 실시간 재고·가격·실장 가능 여부를 보증하지 않습니다.",
+    "C13/C15는 4.7µF 25V X5R을 유지합니다. DC 바이어스에서의 유효 용량과 ESR이 실제 LP2985 리비전의 요구 조건을 만족하는지 확인해야 합니다."
+  ],
+  "sources": [
+    {
+      "title": "EasyEDA system device library",
+      "queriedAt": "2026-10-12T00:04:34.864Z",
+      "match": "Exact manufacturer part + manufacturer"
+    },
+    {
+      "title": "LCSC OPA2277UA/2K5 C24460",
+      "url": "https://www.lcsc.com/product-detail/Precision-OpAmps_Texas-span-style-background-color-ff0-Instruments-span-OPA2277UA-2K5_C24460.html"
+    },
+    {
+      "title": "LCSC RT0603BRE0724K9L C861775",
+      "url": "https://item.szlcsc.com/922113.html"
+    }
+  ],
+  "parts": 60,
+  "partReview": [
+    {
+      "designator": "U1",
+      "mpn": "TPS65131RGER",
+      "manufacturer": "TI(德州仪器)",
+      "supplierId": "C87663",
+      "package": "QFN-24-EP(4x4)",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://www.ti.com/cn/lit/ds/symlink/tps65130.pdf"
+    },
+    {
+      "designator": "U2",
+      "mpn": "LP2985-50DBVR",
+      "manufacturer": "TI(德州仪器)",
+      "supplierId": "C74511",
+      "package": "SOT-23-5",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://www.ti.com/cn/lit/ds/symlink/lp2985.pdf"
+    },
+    {
+      "designator": "U3",
+      "mpn": "DAC8562TDGSR",
+      "manufacturer": "TI(德州仪器)",
+      "supplierId": "C1554732",
+      "package": "VSSOP-10-0.5mm",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://www.ti.com/cn/lit/ds/symlink/dac8162t.pdf"
+    },
+    {
+      "designator": "Q1",
+      "mpn": "SI2323DS-T1-E3",
+      "manufacturer": "VISHAY(威世)",
+      "supplierId": "C141511",
+      "package": "SOT-23",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/SI2323DS-T1-E3/152842.html"
+    },
+    {
+      "designator": "L1",
+      "mpn": "B82462G4472M000",
+      "manufacturer": "TDK",
+      "supplierId": "C2041780",
+      "package": "SMD,6.3x6.3mm",
+      "value": "4.7uH",
+      "tolerance": "±20%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/B82462G4472M000/2133343.html"
+    },
+    {
+      "designator": "L2",
+      "mpn": "B82462G4472M000",
+      "manufacturer": "TDK",
+      "supplierId": "C2041780",
+      "package": "SMD,6.3x6.3mm",
+      "value": "4.7uH",
+      "tolerance": "±20%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/B82462G4472M000/2133343.html"
+    },
+    {
+      "designator": "D1",
+      "mpn": "SS34",
+      "manufacturer": "MDD(辰达半导体)",
+      "supplierId": "C8678",
+      "package": "SMA(DO-214AC)",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/SS34/9178.html"
+    },
+    {
+      "designator": "D2",
+      "mpn": "SS34",
+      "manufacturer": "MDD(辰达半导体)",
+      "supplierId": "C8678",
+      "package": "SMA(DO-214AC)",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/SS34/9178.html"
+    },
+    {
+      "designator": "R1",
+      "mpn": "0603WAF8873T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C23259",
+      "package": "0603",
+      "value": "887kΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF8873T5E/23986.html"
+    },
+    {
+      "designator": "R2",
+      "mpn": "0603WAF1003T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C25803",
+      "package": "0603",
+      "value": "100kΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF1003T5E/26546.html"
+    },
+    {
+      "designator": "R4",
+      "mpn": "0603WAF1003T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C25803",
+      "package": "0603",
+      "value": "100kΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF1003T5E/26546.html"
+    },
+    {
+      "designator": "R3",
+      "mpn": "0603WAF1004T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C22935",
+      "package": "0603",
+      "value": "1MΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF1004T5E/23662.html"
+    },
+    {
+      "designator": "C1",
+      "mpn": "CC0603CRNPO9BN6R8",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C282251",
+      "package": "0603",
+      "value": "6.8pF",
+      "tolerance": "",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603CRNPO9BN6R8/268271.html"
+    },
+    {
+      "designator": "C2",
+      "mpn": "CC0603CRNPO9BN6R8",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C282251",
+      "package": "0603",
+      "value": "6.8pF",
+      "tolerance": "",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603CRNPO9BN6R8/268271.html"
+    },
+    {
+      "designator": "C3",
+      "mpn": "CL10B224KA8NNNC",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C21120",
+      "package": "0603",
+      "value": "220nF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL10B224KA8NNNC/21832.html"
+    },
+    {
+      "designator": "C24",
+      "mpn": "CL10B224KA8NNNC",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C21120",
+      "package": "0603",
+      "value": "220nF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL10B224KA8NNNC/21832.html"
+    },
+    {
+      "designator": "C4",
+      "mpn": "0603B103K500NT",
+      "manufacturer": "FH(风华)",
+      "supplierId": "C57112",
+      "package": "0603",
+      "value": "10nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603B103K500NT/58143.html"
+    },
+    {
+      "designator": "C14",
+      "mpn": "0603B103K500NT",
+      "manufacturer": "FH(风华)",
+      "supplierId": "C57112",
+      "package": "0603",
+      "value": "10nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603B103K500NT/58143.html"
+    },
+    {
+      "designator": "C5",
+      "mpn": "CL10B472KB8NNNC",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C1621",
+      "package": "0603",
+      "value": "4.7nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL10B472KB8NNNC/1973.html"
+    },
+    {
+      "designator": "C6",
+      "mpn": "CL21A475KAQNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C1779",
+      "package": "0805",
+      "value": "4.7uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL21A475KAQNNNE/2131.html"
+    },
+    {
+      "designator": "C7",
+      "mpn": "CL21A475KAQNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C1779",
+      "package": "0805",
+      "value": "4.7uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL21A475KAQNNNE/2131.html"
+    },
+    {
+      "designator": "C13",
+      "mpn": "CL21A475KAQNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C1779",
+      "package": "0805",
+      "value": "4.7uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL21A475KAQNNNE/2131.html"
+    },
+    {
+      "designator": "C15",
+      "mpn": "CL21A475KAQNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C1779",
+      "package": "0805",
+      "value": "4.7uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL21A475KAQNNNE/2131.html"
+    },
+    {
+      "designator": "C17",
+      "mpn": "CL21A475KAQNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C1779",
+      "package": "0805",
+      "value": "4.7uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL21A475KAQNNNE/2131.html"
+    },
+    {
+      "designator": "R5",
+      "mpn": "0603WAF1000T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C22775",
+      "package": "0603",
+      "value": "100Ω",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+    },
+    {
+      "designator": "R16",
+      "mpn": "0603WAF1000T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C22775",
+      "package": "0603",
+      "value": "100Ω",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+    },
+    {
+      "designator": "R21",
+      "mpn": "0603WAF1000T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C22775",
+      "package": "0603",
+      "value": "100Ω",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+    },
+    {
+      "designator": "C8",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14663",
+      "package": "0603",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html"
+    },
+    {
+      "designator": "C16",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14663",
+      "package": "0603",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html"
+    },
+    {
+      "designator": "C18",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14663",
+      "package": "0603",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html"
+    },
+    {
+      "designator": "C19",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14663",
+      "package": "0603",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html"
+    },
+    {
+      "designator": "C20",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14663",
+      "package": "0603",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html"
+    },
+    {
+      "designator": "C21",
+      "mpn": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14663",
+      "package": "0603",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html"
+    },
+    {
+      "designator": "C9",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C12891",
+      "package": "1206",
+      "value": "22uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL31A226KAHNNNE/13537.html"
+    },
+    {
+      "designator": "C10",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C12891",
+      "package": "1206",
+      "value": "22uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL31A226KAHNNNE/13537.html"
+    },
+    {
+      "designator": "C11",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C12891",
+      "package": "1206",
+      "value": "22uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL31A226KAHNNNE/13537.html"
+    },
+    {
+      "designator": "C12",
+      "mpn": "CL31A226KAHNNNE",
+      "manufacturer": "SAMSUNG(三星)",
+      "supplierId": "C12891",
+      "package": "1206",
+      "value": "22uF",
+      "tolerance": "±10%",
+      "voltageRating": "25V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CL31A226KAHNNNE/13537.html"
+    },
+    {
+      "designator": "C22",
+      "mpn": "CC0603JRNPO9BN101",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14665",
+      "package": "0603",
+      "value": "100pF",
+      "tolerance": "±5%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603JRNPO9BN101/15333.html"
+    },
+    {
+      "designator": "C23",
+      "mpn": "CC0603JRNPO9BN101",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C14665",
+      "package": "0603",
+      "value": "100pF",
+      "tolerance": "±5%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603JRNPO9BN101/15333.html"
+    },
+    {
+      "designator": "J1",
+      "mpn": "2x5P 2.54mm",
+      "manufacturer": "",
+      "supplierId": "C9900168935",
+      "package": "插件,P=2.54mm,2x5P",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": ""
+    },
+    {
+      "designator": "R6",
+      "mpn": "0603WAF330JT5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C23140",
+      "package": "0603",
+      "value": "33Ω",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF330JT5E/23867.html"
+    },
+    {
+      "designator": "R7",
+      "mpn": "0603WAF330JT5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C23140",
+      "package": "0603",
+      "value": "33Ω",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF330JT5E/23867.html"
+    },
+    {
+      "designator": "R8",
+      "mpn": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C25804",
+      "package": "0603",
+      "value": "10kΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+    },
+    {
+      "designator": "R9",
+      "mpn": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C25804",
+      "package": "0603",
+      "value": "10kΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+    },
+    {
+      "designator": "R10",
+      "mpn": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C25804",
+      "package": "0603",
+      "value": "10kΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+    },
+    {
+      "designator": "R11",
+      "mpn": "0603WAF1001T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "supplierId": "C21190",
+      "package": "0603",
+      "value": "1kΩ",
+      "tolerance": "±1%",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/0603WAF1001T5E/21904.html"
+    },
+    {
+      "designator": "LED1",
+      "mpn": "KT-0603R",
+      "manufacturer": "KENTO",
+      "supplierId": "C2286",
+      "package": "0603",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://item.szlcsc.com/datasheet/KT-0603R/2659.html"
+    },
+    {
+      "designator": "R12",
+      "mpn": "RT0603BRE0724K9L",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C861775",
+      "package": "0603",
+      "value": "24.9kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200610/C326738_5639A9F1B6EB6E4AE2197577D3456E7F.pdf"
+    },
+    {
+      "designator": "R14",
+      "mpn": "RT0603BRE0724K9L",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C861775",
+      "package": "0603",
+      "value": "24.9kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200610/C326738_5639A9F1B6EB6E4AE2197577D3456E7F.pdf"
+    },
+    {
+      "designator": "R17",
+      "mpn": "RT0603BRE0724K9L",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C861775",
+      "package": "0603",
+      "value": "24.9kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200610/C326738_5639A9F1B6EB6E4AE2197577D3456E7F.pdf"
+    },
+    {
+      "designator": "R19",
+      "mpn": "RT0603BRE0724K9L",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C861775",
+      "package": "0603",
+      "value": "24.9kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200610/C326738_5639A9F1B6EB6E4AE2197577D3456E7F.pdf"
+    },
+    {
+      "designator": "R13",
+      "mpn": "RT0603BRE07100KL",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C326758",
+      "package": "0603",
+      "value": "100kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20181031/C326758_29924CAA275546702F4E1B334BE68F89.pdf"
+    },
+    {
+      "designator": "R15",
+      "mpn": "RT0603BRE07100KL",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C326758",
+      "package": "0603",
+      "value": "100kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20181031/C326758_29924CAA275546702F4E1B334BE68F89.pdf"
+    },
+    {
+      "designator": "R18",
+      "mpn": "RT0603BRE07100KL",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C326758",
+      "package": "0603",
+      "value": "100kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20181031/C326758_29924CAA275546702F4E1B334BE68F89.pdf"
+    },
+    {
+      "designator": "R20",
+      "mpn": "RT0603BRE07100KL",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C326758",
+      "package": "0603",
+      "value": "100kΩ",
+      "tolerance": "±0.1%",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20181031/C326758_29924CAA275546702F4E1B334BE68F89.pdf"
+    },
+    {
+      "designator": "J2",
+      "mpn": "STA-10204",
+      "manufacturer": "STA(思大)",
+      "supplierId": "C2913579",
+      "package": "插件",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211103/7D354F8DE7A29C6216F4994DB7AA59B6.pdf"
+    },
+    {
+      "designator": "J3",
+      "mpn": "STA-10204",
+      "manufacturer": "STA(思大)",
+      "supplierId": "C2913579",
+      "package": "插件",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211103/7D354F8DE7A29C6216F4994DB7AA59B6.pdf"
+    },
+    {
+      "designator": "U4",
+      "mpn": "OPA2277UA/2K5",
+      "manufacturer": "TI(德州仪器)",
+      "supplierId": "C24460",
+      "package": "SOIC-8",
+      "value": "",
+      "tolerance": "",
+      "voltageRating": "",
+      "datasheet": "https://www.ti.com/cn/lit/ds/symlink/opa2277.pdf"
+    },
+    {
+      "designator": "C25",
+      "mpn": "CC0603JRNPO9BN220",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C105620",
+      "package": "0603",
+      "value": "22pF",
+      "tolerance": "±5%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603JRNPO9BN220/106835.html"
+    },
+    {
+      "designator": "C26",
+      "mpn": "CC0603JRNPO9BN220",
+      "manufacturer": "YAGEO(国巨)",
+      "supplierId": "C105620",
+      "package": "0603",
+      "value": "22pF",
+      "tolerance": "±5%",
+      "voltageRating": "50V",
+      "datasheet": "https://item.szlcsc.com/datasheet/CC0603JRNPO9BN220/106835.html"
+    }
+  ],
+  "removedNetAttributes": [
+    {
+      "id": "dc73645387bca6ec",
+      "wire": "fa181d411b44fa84",
+      "net": "VIN_SW"
+    },
+    {
+      "id": "3d45cef119740322",
+      "wire": "90ef7e49158c40f9",
+      "net": "SWP"
+    },
+    {
+      "id": "e9d6e77b1d78d548",
+      "wire": "90ef7e49158c40f9",
+      "net": "SWP"
+    },
+    {
+      "id": "76bba9b98502c375",
+      "wire": "ed45530a4d7a83ac",
+      "net": "VPOS12"
+    },
+    {
+      "id": "147e3169d450163f",
+      "wire": "ed45530a4d7a83ac",
+      "net": "VPOS12"
+    },
+    {
+      "id": "5a1a47d65d3ab8cd",
+      "wire": "ed45530a4d7a83ac",
+      "net": "VPOS12"
+    },
+    {
+      "id": "267d1bba0ba6841f",
+      "wire": "ed45530a4d7a83ac",
+      "net": "VPOS12"
+    },
+    {
+      "id": "0fe844f3997ca302",
+      "wire": "ed45530a4d7a83ac",
+      "net": "VPOS12"
+    },
+    {
+      "id": "97b30f9d542a67a3",
+      "wire": "f9aad216f2236246",
+      "net": "FBP"
+    },
+    {
+      "id": "80b7a7ceea7c9a24",
+      "wire": "f9aad216f2236246",
+      "net": "FBP"
+    },
+    {
+      "id": "7d5453c3a9768fca",
+      "wire": "ffa0cd91c6c6e18d",
+      "net": "SWN"
+    },
+    {
+      "id": "5cd6c8f7863a2049",
+      "wire": "ffa0cd91c6c6e18d",
+      "net": "SWN"
+    },
+    {
+      "id": "f3de8db07105a86e",
+      "wire": "2327765ada1ec9af",
+      "net": "VNEG12"
+    },
+    {
+      "id": "aeace56af34690ad",
+      "wire": "2327765ada1ec9af",
+      "net": "VNEG12"
+    },
+    {
+      "id": "3af3f99f821907a2",
+      "wire": "6be5b23c31bd38b1",
+      "net": "VNEG12"
+    },
+    {
+      "id": "3f7c4ab4b85c7c9a",
+      "wire": "f3a514de65bcc426",
+      "net": "FBN"
+    },
+    {
+      "id": "3be570bc62377744",
+      "wire": "f3a514de65bcc426",
+      "net": "FBN"
+    },
+    {
+      "id": "6fe9ffdb863c2866",
+      "wire": "1f765b0568459f8b",
+      "net": "VREF1V2"
+    },
+    {
+      "id": "27f3972b36a95905",
+      "wire": "875d75ad7b9fc112",
+      "net": "VIN_CTRL"
+    },
+    {
+      "id": "4ac0ae35285e74ac",
+      "wire": "875d75ad7b9fc112",
+      "net": "VIN_CTRL"
+    },
+    {
+      "id": "8e952c920d8516a7",
+      "wire": "875d75ad7b9fc112",
+      "net": "VIN_CTRL"
+    },
+    {
+      "id": "e012780f18c6baf1",
+      "wire": "8273aa1d3e39185c",
+      "net": "VIN_RAW"
+    },
+    {
+      "id": "85201990f52f8981",
+      "wire": "9ec3d1cfa6d910a2",
+      "net": "VPOS12"
+    },
+    {
+      "id": "1ace703ea8fbb531",
+      "wire": "9ec3d1cfa6d910a2",
+      "net": "VPOS12"
+    },
+    {
+      "id": "9d17b442a92ac22e",
+      "wire": "4d8aa16bc1b2cfba",
+      "net": "VDD5"
+    },
+    {
+      "id": "24ea43563ac2b110",
+      "wire": "4d8aa16bc1b2cfba",
+      "net": "VDD5"
+    },
+    {
+      "id": "f3d5de94273873ab",
+      "wire": "70900b4b3545e580",
+      "net": "VIN_RAW"
+    },
+    {
+      "id": "f712d67706f0e700",
+      "wire": "0b03e125ee8f61bf",
+      "net": "SYNC_N"
+    },
+    {
+      "id": "1576c5e3b3f87092",
+      "wire": "836b14e83ddb0c06",
+      "net": "LDAC_N"
+    },
+    {
+      "id": "5c244b9127c98107",
+      "wire": "b24bb23e0a4b81a9",
+      "net": "CLR_N"
+    },
+    {
+      "id": "bf61c5261c080b98",
+      "wire": "9738717c10352393",
+      "net": "VDD5"
+    },
+    {
+      "id": "58961f2a2bbc529b",
+      "wire": "46b007338df643c4",
+      "net": "VREF2V5"
+    },
+    {
+      "id": "adfdc3eba6dbc23f",
+      "wire": "3c8080a861f9a3bd",
+      "net": "A_PLUS"
+    },
+    {
+      "id": "f2dfe4efa9415175",
+      "wire": "3306e4e113795d7a",
+      "net": "A_MINUS"
+    },
+    {
+      "id": "d0adfcb78c094260",
+      "wire": "3306e4e113795d7a",
+      "net": "A_MINUS"
+    },
+    {
+      "id": "0fca4e4d308197d1",
+      "wire": "17db769b017698b6",
+      "net": "OA_RAW"
+    },
+    {
+      "id": "4e48496d8f9370f9",
+      "wire": "7db3f18e679210f9",
+      "net": "OUT_A"
+    },
+    {
+      "id": "f1406f59ba28f7fd",
+      "wire": "7db3f18e679210f9",
+      "net": "OUT_A"
+    },
+    {
+      "id": "3c22e03a33c6c18d",
+      "wire": "7b73ce733e268dba",
+      "net": "B_PLUS"
+    },
+    {
+      "id": "c2996dbaaa049b83",
+      "wire": "3b8dcd907b064332",
+      "net": "B_MINUS"
+    },
+    {
+      "id": "b05bdb76be420464",
+      "wire": "3b8dcd907b064332",
+      "net": "B_MINUS"
+    },
+    {
+      "id": "7b76d3adda64fb61",
+      "wire": "8bab806a5e49f23a",
+      "net": "OB_RAW"
+    },
+    {
+      "id": "5cc2e062584f92d0",
+      "wire": "3f8983c2c172a1e5",
+      "net": "OUT_B"
+    },
+    {
+      "id": "469d4ea47923d577",
+      "wire": "3f8983c2c172a1e5",
+      "net": "OUT_B"
+    }
+  ]
+}

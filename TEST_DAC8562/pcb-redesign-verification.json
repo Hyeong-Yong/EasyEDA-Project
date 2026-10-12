@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11T23:32:53.346Z",
-  "status": "layout-and-pin-connectivity-pass; schematic-error-free-with-reviewed-warnings; prototype-validation-required",
+  "date": "2026-10-12T00:04:34.864Z",
+  "status": "schematic-and-pcb-drc-pass; pin-connectivity-and-metadata-pass; prototype-validation-required",
   "document": "PCB1",
   "boardSizeMm": [
     90,
@@ -51,12 +51,7 @@
   "tracks": 649,
   "vias": 40,
   "drc": [],
-  "schematicDrc": [
-    {
-      "type": "warn",
-      "count": 29
-    }
-  ],
+  "schematicDrc": [],
   "schematicDrcDetailsAvailable": true,
   "criticalPinNets": {
     "U1.2": "GND",
@@ -447,22 +442,23 @@
     }
   ],
   "sha256": {
-    "project": "8f9a25378df8e113a49af49d1eb9cb68bd2e7a3ac309fe7cf58ae3f126f550c3",
-    "export": "4c79ebfa7c906353938b72318c4f8a4b1877125f2db6323af0495d69732b39aa"
+    "project": "5481e16c57c5c6162a487e7f8ccfde87bba9f472283f93b6508ea427589d158a",
+    "export": "cd567239eeac62a3238dd003c8e5a2af99af71460be6bee33523a0d41b5f3df7"
   },
   "notes": [
     "Symmetric M3 NPTH holes: 5 mm from each 90 x 60 mm board corner; drill file independently checked.",
     "No component bounding-box overlap; SMA bodies intentionally overhang board edge.",
     "J1 moved to lower board edge; OPA2277 is a single SOIC-8 dual amplifier.",
-    "Schematic strict DRC: 0 fatal errors, 0 errors, 29 reviewed warnings. Eight moved decoupler net flags had blank Name overrides; restored VPOS12/VNEG12/GND and verified after save/reopen.",
-    "Remaining warnings are identical duplicate net labels and supplier metadata; information messages also flag empty Value fields and two unused net labels. These have not been suppressed.",
-    "No hardware, power/startup, cable transmission-line, complete worst-case, or full manufacturing approval. Prototype validation and procurement/DFM review are still required."
+    "Strict schematic DRC: 0 fatal errors, 0 errors, 0 warnings after save/reopen. Duplicate labels and supplier attributes corrected.",
+    "BOM: 28 groups / 60 physical parts; exact MPN and manufacturer matched. Generic J1 SKU and discontinued Q1 require procurement review.",
+    "No hardware, power/startup, cable transmission-line, complete worst-case, or full manufacturing approval. Prototype validation and procurement/DFM review remain required."
   ],
   "schematicWarningReview": {
-    "duplicateIdenticalNetNames": 27,
-    "supplierMetadataWarnings": 2,
-    "total": 29,
-    "log": "simulation/highz/schematic-drc-reviewed.txt",
-    "disposition": "Duplicate labels have identical names, not different-net shorts. Supplier metadata must be standardized/checked against MPN and footprint before ordering; no automatic part substitution was performed."
+    "total": 0,
+    "duplicateIdenticalNetNames": 0,
+    "supplierMetadataWarnings": 0,
+    "log": "simulation/highz/schematic-drc-clean.txt",
+    "audit": "simulation/highz/warning-cleanup-verification.json",
+    "disposition": "All 29 prior warnings corrected without suppressing rules or substituting components."
   }
 }
