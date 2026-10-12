@@ -1,0 +1,68 @@
+{
+  "tracks": 1777,
+  "vias": 133,
+  "routeVias": 126,
+  "thermalVias": [
+    {
+      "part": "U1",
+      "requested": 4,
+      "added": 4,
+      "locationsMm": [
+        [
+          22.349873,
+          81.33742699999999
+        ],
+        [
+          22.349873,
+          81.987427
+        ],
+        [
+          22.349873,
+          82.637427
+        ],
+        [
+          22.999872999999997,
+          81.33742699999999
+        ]
+      ]
+    },
+    {
+      "part": "U2",
+      "requested": 3,
+      "added": 3,
+      "locationsMm": [
+        [
+          42.58,
+          86.68
+        ],
+        [
+          42.58,
+          87.32
+        ],
+        [
+          43.42,
+          87.32
+        ]
+      ]
+    }
+  ],
+  "groundPours": [
+    {
+      "layer": 1,
+      "areaMm2": 8028.44191296356,
+      "islands": 3
+    },
+    {
+      "layer": 2,
+      "areaMm2": 7898.293890291792,
+      "islands": 3
+    }
+  ],
+  "sesResolution": [
+    "resolution",
+    "mil",
+    "1000"
+  ],
+  "sesToMil": 0.001,
+  "routedNets": 90
+}

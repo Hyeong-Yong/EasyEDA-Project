@@ -1,0 +1,138 @@
+{
+  "project": "DAC8562 module",
+  "scope": "Only the two existing schematic pages; no PCB/panel work.",
+  "savedFile": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\DAC8562 module.eprj2",
+  "revisionCopy": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\output\\schematic-correction\\DAC8562 module_schematic_corrected.eprj2",
+  "revisionCopySha256": "d998e0cead8f2d3820105fab9586e8cf22b7869b6f4efb4782e2104c2a7d0a99",
+  "backupFile": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\backups\\DAC8562 module_before_schematic_correction_2026-10-12_17-37-46.eprj2",
+  "liveBackup": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\backups\\DAC8562_live_before_schematic_correction_2026-10-12.epro2",
+  "nativeSaved": true,
+  "saveReopenVerified": {
+    "pages": [
+      {
+        "page": "e58bcc16379b10f4",
+        "saved": true,
+        "closed": true,
+        "reopened": "e58bcc16379b10f4@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03",
+        "details": [
+          {
+            "type": "warn",
+            "count": 1
+          }
+        ],
+        "passed": false
+      },
+      {
+        "page": "e3a1c5f417017755",
+        "saved": true,
+        "closed": true,
+        "reopened": "e3a1c5f417017755@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03",
+        "details": [
+          {
+            "type": "warn",
+            "count": 1
+          }
+        ],
+        "passed": false
+      }
+    ]
+  },
+  "ercPassed": false,
+  "ercStatus": "One warning remains in the full schematic. Detail unavailable through v3.2 API; native UI access was not approved. Do not classify this revision as manufacturing-ready.",
+  "connectivity": {
+    "pages": [
+      {
+        "page": "e58bcc16379b10f4",
+        "shorts": [],
+        "floating": [
+          {
+            "pin": "U1.12",
+            "point": [
+              265.0,
+              -2370.0
+            ]
+          },
+          {
+            "pin": "U1.20",
+            "point": [
+              355.0,
+              -2440.0
+            ]
+          },
+          {
+            "pin": "U2.3",
+            "point": [
+              1075.0,
+              -2570.0
+            ]
+          },
+          {
+            "pin": "U2.7",
+            "point": [
+              985.0,
+              -2580.0
+            ]
+          },
+          {
+            "pin": "U6.6",
+            "point": [
+              505.0,
+              -1360.0
+            ]
+          },
+          {
+            "pin": "U6.8",
+            "point": [
+              595.0,
+              -1350.0
+            ]
+          },
+          {
+            "pin": "U6.11",
+            "point": [
+              595.0,
+              -1380.0
+            ]
+          },
+          {
+            "pin": "U11.1",
+            "point": [
+              210.0,
+              -870.0
+            ]
+          }
+        ]
+      },
+      {
+        "page": "e3a1c5f417017755",
+        "shorts": [],
+        "floating": []
+      }
+    ],
+    "constraintFailures": [],
+    "geometryNativeMismatches": [],
+    "nets": 90,
+    "pcbUnchanged": true,
+    "panelUnchanged": true
+  },
+  "physicalParts": 154,
+  "missingManufacturerPart": [],
+  "changes": [
+    "Q1 Si2323DS-T1-E3 -> Si2323DDS-T1-GE3, pin map preserved.",
+    "C4 CN=4.7nF, C5 CP=10nF.",
+    "U2 TPS7A4901DGNR; OUT1 FB2 NC3 GND4 EN5 NR/SS6 DNC7 IN8 EP9. Nominal 1.185*(1+34k/10k)=5.214V.",
+    "DAC gain resistors: 100k/24.3k, Susumu RG1608N 0.05%, 10ppm/C, manual procurement.",
+    "DAC-control pull-ups now use DAC AVDD; TTL/Ioff buffers and default-muted output relay added.",
+    "+12V/AVDD/-12V power-good supervision added; negative domain uses optocoupler.",
+    "Page 2 DAC_MCU has two SMA receiver/buffer/difference-amplifier channels, tracking external MCU VREF+. Separate input/output relay enables."
+  ],
+  "limitations": [
+    "Prior output/validated-revision projects are superseded and must not be used for fabrication. Their TPS7A49 mapping was incorrect.",
+    "The MCU receiver assumes external VDDA/VREF+=3.3V, high-Z output loading, common ground. No 50-ohm termination.",
+    "Source-side cable driver may be needed to meet the MCU DAC CL<=50pF condition.",
+    "Relay release is not an instantaneous clamp on unexpected power loss.",
+    "AVDD overshoot, power-rail/output transients, effective capacitor values, thermal performance, cable stability, load capability and calibrated accuracy need physical qualification.",
+    "PCB is intentionally unchanged and does not implement the revised schematic.",
+    "R5/inductor/compensation conditional qualifications still require input-slew and load measurements."
+  ]
+}

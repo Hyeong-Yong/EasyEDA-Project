@@ -1,0 +1,144 @@
+{
+  "status": "Schematic and PCB editing complete; native saved/reopened ERC and DRC passed",
+  "nativeFile": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\DAC8562 module.eprj2",
+  "validatedCopy": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\output\\pcb-two-zone\\DAC8562 module_two_zone_PCB_DRC_clean.eprj2",
+  "validatedCopySha256": "732e30a1fe90b2cb9831a21df5c5b18dc67d4c3da4aea766c093c33a718d4e8c",
+  "editableProjectExport": "DAC8562 module_two_zone_PCB_DRC_clean.epro2",
+  "boardSizeMm": [
+    100,
+    100
+  ],
+  "copperLayers": 2,
+  "zones": {
+    "upper": {
+      "page": "DAC8562",
+      "parts": 106
+    },
+    "lower": {
+      "page": "DAC_MCU",
+      "parts": 48
+    }
+  },
+  "commonNets": [
+    "GND",
+    "VIN_RAW",
+    "VPOS12",
+    "VNEG12",
+    "MCU_3V3",
+    "DAC_HW_PGOOD"
+  ],
+  "electricallyIsolated": false,
+  "schematicErcPassed": true,
+  "schematicErcDetails": [],
+  "pcbDrcPassed": true,
+  "pcbDrcDetails": [],
+  "savedAndReopened": true,
+  "independentElectricalComparison": {
+    "counts": {
+      "schematicComponents": 154,
+      "pcbComponents": 154,
+      "schematicNets": 90,
+      "pcbNets": 90
+    },
+    "pinNetDifferences": {}
+  },
+  "applyEffect": {
+    "channelIdAddedToParts": 154,
+    "layoutRoutingCopperChanged": false,
+    "recoveryRequired": false
+  },
+  "nativePrimitiveCounts": {
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "NET": 91,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 91,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 133,
+    "PAD": 4,
+    "LINE": 1763,
+    "POLY": 1,
+    "FILL": 6,
+    "REGION": 8,
+    "POUR": 2,
+    "STRING": 11,
+    "COMPONENT": 154,
+    "ATTR": 462,
+    "PAD_NET": 489
+  },
+  "exportNormalizationDifferences": {
+    "RULE_SELECTOR": 91,
+    "ELE_PLACEHOLDER": 18,
+    "LINE": 9,
+    "POURED": 2,
+    "META": 1,
+    "LAYER": 2
+  },
+  "exportNormalizationExplanation": "Native project export retains two orphan POURED caches without live POUR borders, nine sub-0.101mil degenerate segments, stream placeholders and META; live API supplies empty default net rule selectors and normalizes inactive colors. All components, pad-net assignments and meaningful physical geometry match. Live saved/reopened source and native Gerber are the fabrication reference, not flattening historical export caches.",
+  "panelUnchanged": true,
+  "geometryReference": "placement-audit.json (unchanged by Apply)",
+  "gerberNativeExport": "DAC8562_DAC_MCU_100x100_Gerber.zip",
+  "gerberDfmCopy": "DAC8562_DAC_MCU_100x100_Gerber_DFM.zip",
+  "gerberDfmProcessing": {
+    "input": "DAC8562_DAC_MCU_100x100_Gerber.zip",
+    "output": "DAC8562_DAC_MCU_100x100_Gerber_DFM.zip",
+    "changedFiles": [
+      "Gerber_TopSilkscreenLayer.GTO"
+    ],
+    "copperMasksOutlineDrillsByteIdentical": true,
+    "clearanceToMaskMm": 0.15,
+    "boardInsetMm": 0.15,
+    "polygons": 961,
+    "silkAreaBeforeMm2": 442.387754514586,
+    "silkAreaAfterMm2": 350.3284992418011,
+    "quantizedGeometryDifferenceMm2": 0.000309844748221248,
+    "clearanceToMaskActuallyMeasuredMm": 0.14998826505971408,
+    "prototypeDfmNotAssemblyApproval": true
+  },
+  "gerberOutlineMm": [
+    0.0,
+    0.0,
+    100.000001,
+    100.000001
+  ],
+  "gerberNpthHolesMm": [
+    [
+      5.0,
+      5.0
+    ],
+    [
+      95.000001,
+      5.0
+    ],
+    [
+      5.0,
+      95.000001
+    ],
+    [
+      95.000001,
+      95.000001
+    ]
+  ],
+  "gerberViaDrillCount": 133,
+  "nativeComparisonApiLimitation": "SYS_Tool.netlistComparison reports empty PCB net2 arrays in this runtime even after successful native DRC. Exported Protel pin/net comparison is independently exact; this inconsistent beta API is not reported as a successful comparison.",
+  "gitPushRequested": true,
+  "gitDeliveryEvidence": "Check the actual commit and origin/main HEAD; EDA evidence does not assert a future push.",
+  "limitations": [
+    "Ground copper is six calculated SOLID fills. Recompute after moving components or routing; POURED import is unsupported in this v3.2 source API.",
+    "The DFM ZIP changes only the top-silkscreen file (mask opening + 0.15mm, board inset 0.15mm); copper, mask, outline and drills are byte-identical to the native export. Native CAD footprint silkscreen is preserved.",
+    "Combined PTH drill includes all vias; Via-only DRL is redundant reference data, not an additional drilling pass.",
+    "Board outline is 100x100mm; horizontal SMA connector bodies protrude beyond the edges.",
+    "J1 retains the original generic 2x5 2.54mm female header; verify its actual mating geometry before procurement.",
+    "Precision Susumu resistors require separate procurement; do not substitute generic library supplier resistors for the specified precision parts.",
+    "High-impedance outputs only, not 50-ohm terminated load drivers; external STM32H747 source/cable capacitance may require a source-side buffer.",
+    "No hardware has been built or tested. Prototype qualification remains: supply ramp/overshoot, DAC initialization, relay timing, output/cable stability and calibrated accuracy.",
+    "Fabricator DFM/assembly review is still required before ordering. No fabrication or assembly order has been submitted.",
+    "Older output/validated-revision and separate stm32h747-dac-sma artifacts are superseded; use only this project's existing DAC8562 and DAC_MCU pages."
+  ]
+}

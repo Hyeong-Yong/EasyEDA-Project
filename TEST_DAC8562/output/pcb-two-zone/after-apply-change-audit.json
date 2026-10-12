@@ -1,0 +1,6262 @@
+{
+  "backup": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\backups\\DAC8562 module_after_user_Apply_2026-10-12.eprj2",
+  "beforeCounts": {
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "NET": 91,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 91,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 133,
+    "PAD": 4,
+    "LINE": 1763,
+    "POLY": 1,
+    "FILL": 6,
+    "REGION": 8,
+    "POUR": 2,
+    "STRING": 11,
+    "COMPONENT": 154,
+    "ATTR": 462,
+    "PAD_NET": 489
+  },
+  "afterCounts": {
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "NET": 91,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 91,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 133,
+    "PAD": 4,
+    "LINE": 1763,
+    "POLY": 1,
+    "FILL": 6,
+    "REGION": 8,
+    "POUR": 2,
+    "STRING": 11,
+    "COMPONENT": 154,
+    "ATTR": 462,
+    "PAD_NET": 489
+  },
+  "changesByType": {
+    "COMPONENT": 154
+  },
+  "changes": {
+    "COMPONENT": [
+      {
+        "id": "ac356ea004b70808",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 2952.7559,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "gge38",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 2952.7559,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "gge38",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I138"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "c4cf19ad6150e709",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2322.8346,
+          "y": 3188.9764,
+          "angle": 90,
+          "attrs": {
+            "Name": "10kΩ",
+            "Unique ID": "gge44",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2322.8346,
+          "y": 3188.9764,
+          "angle": 90,
+          "attrs": {
+            "Name": "10kΩ",
+            "Unique ID": "gge44",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I160"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "80e31fe41d6f7481",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2470.4724,
+          "y": 3218.5039,
+          "angle": 90,
+          "attrs": {
+            "Name": "10kΩ",
+            "Unique ID": "gge45",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2470.4724,
+          "y": 3218.5039,
+          "angle": 90,
+          "attrs": {
+            "Name": "10kΩ",
+            "Unique ID": "gge45",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I161"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "875409b58299afee",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 748.0315,
+          "y": 2204.7244,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS3700DDCR",
+            "Unique ID": "schematic-correction-U9",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U9"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 748.0315,
+          "y": 2204.7244,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS3700DDCR",
+            "Unique ID": "schematic-correction-U9",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U9",
+            "Channel ID": "$1I1423"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "ea225ef331d20fe7",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2480.315,
+          "y": 2401.5748,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U13",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U13"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2480.315,
+          "y": 2401.5748,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U13",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U13",
+            "Channel ID": "$1I1427"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "4d91602417fc56aa",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 787.4016,
+          "y": 2559.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS3700DDCR",
+            "Unique ID": "schematic-correction-U7",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U7"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 787.4016,
+          "y": 2559.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS3700DDCR",
+            "Unique ID": "schematic-correction-U7",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U7",
+            "Channel ID": "$1I1421"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "ed03cefdfd1e2185",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3110.2362,
+          "y": 846.4567,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "schematic-correction-R117",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R117"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3110.2362,
+          "y": 846.4567,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "schematic-correction-R117",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R117",
+            "Channel ID": "$2I46"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "09d9d34abb996e00",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 850.3937,
+          "y": 3377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "887kΩ",
+            "Unique ID": "gge11",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 850.3937,
+          "y": 3377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "887kΩ",
+            "Unique ID": "gge11",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I60"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "573ea9476a888efd",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 787.4016,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "G6K-2F-Y DC5",
+            "Unique ID": "schematic-correction-K101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-K101"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 787.4016,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "G6K-2F-Y DC5",
+            "Unique ID": "schematic-correction-K101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-K101",
+            "Channel ID": "$2I60"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "fb5f35904a5a047f",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "schematic-correction-C111",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C111"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "schematic-correction-C111",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C111",
+            "Channel ID": "$2I44"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "193101881eb8ab86",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1633.8583,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R33",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R33"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1633.8583,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R33",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R33",
+            "Channel ID": "$1I1392"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "83dea3448cd9c677",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2677.1654,
+          "y": 2952.7559,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge56",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2677.1654,
+          "y": 2952.7559,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge56",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃",
+            "Channel ID": "$1I201"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "746c3bd924b5ad09",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1968.5039,
+          "y": 275.5906,
+          "angle": 0,
+          "attrs": {
+            "Name": "TSW-105-07-G-D",
+            "Unique ID": "schematic-correction-J105",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J105"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1968.5039,
+          "y": 275.5906,
+          "angle": 0,
+          "attrs": {
+            "Name": "TSW-105-07-G-D",
+            "Unique ID": "schematic-correction-J105",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J105",
+            "Channel ID": "$2I49"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "945782767407fa0b",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 728.3465,
+          "y": 3061.0236,
+          "angle": -90,
+          "attrs": {
+            "Name": "4.7uF",
+            "Unique ID": "gge21",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 728.3465,
+          "y": 3061.0236,
+          "angle": -90,
+          "attrs": {
+            "Name": "4.7uF",
+            "Unique ID": "gge21",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I89"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "6c394b8545cc983d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2716.5354,
+          "y": 1259.8425,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R103",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R103"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2716.5354,
+          "y": 1259.8425,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R103",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R103",
+            "Channel ID": "$2I35"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "6f57964f506bffdc",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1210.6299,
+          "y": 3661.4173,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge24",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1210.6299,
+          "y": 3661.4173,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge24",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I108"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "c2678dd567261727",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1072.8346,
+          "y": 1279.5276,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thick Film Resistor Resistance:10MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R102"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1072.8346,
+          "y": 1279.5276,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thick Film Resistor Resistance:10MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R102",
+            "Channel ID": "$2I33"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "0aae20d32f7f3279",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1102.3622,
+          "y": 1062.9921,
+          "angle": -90,
+          "attrs": {
+            "Name": "1N4148W-G3-18",
+            "Unique ID": "schematic-correction-D101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-D101"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1102.3622,
+          "y": 1062.9921,
+          "angle": -90,
+          "attrs": {
+            "Name": "1N4148W-G3-18",
+            "Unique ID": "schematic-correction-D101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-D101",
+            "Channel ID": "$2I66"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "0b858ca287b00481",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 708.6614,
+          "y": 2352.3622,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C32",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C32"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 708.6614,
+          "y": 2352.3622,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C32",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C32",
+            "Channel ID": "$1I1401"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "89e1e32763f6eeed",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1062.9921,
+          "y": 2883.8583,
+          "angle": -90,
+          "attrs": {
+            "Name": "SS34",
+            "Unique ID": "gge10",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1062.9921,
+          "y": 2883.8583,
+          "angle": -90,
+          "attrs": {
+            "Name": "SS34",
+            "Unique ID": "gge10",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I59"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "24932bb18b8f11cb",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1082.6772,
+          "y": 2500,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R27",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R27"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1082.6772,
+          "y": 2500,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R27",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R27",
+            "Channel ID": "$1I1389"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "b823c3319bf7f2e1",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3385.8268,
+          "y": 3267.7165,
+          "angle": 180,
+          "attrs": {
+            "Name": "G6K-2F-Y DC5",
+            "Unique ID": "schematic-correction-K1",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-K1"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3385.8268,
+          "y": 3267.7165,
+          "angle": 180,
+          "attrs": {
+            "Name": "G6K-2F-Y DC5",
+            "Unique ID": "schematic-correction-K1",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-K1",
+            "Channel ID": "$1I1428"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "6b3530355dc996ed",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2726.378,
+          "y": 1141.7323,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C126",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C126"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2726.378,
+          "y": 1141.7323,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C126",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C126",
+            "Channel ID": "$2I57"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "d647e2cc869fb521",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 354.3307,
+          "y": 2559.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "KT-0603R",
+            "Unique ID": "gge48",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 354.3307,
+          "y": 2559.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "KT-0603R",
+            "Unique ID": "gge48",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I193"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "74db1b282020503c",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 590.5512,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J104",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J104"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 590.5512,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J104",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J104",
+            "Channel ID": "$2I24"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "987e707fb0e11b48",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 748.0315,
+          "y": 2933.0709,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "gge22",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 748.0315,
+          "y": 2933.0709,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "gge22",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I90"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "3bbbbba3768e41b6",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 905.5118,
+          "y": 2145.6693,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07260KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "260k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "260k",
+            "Unique ID": "schematic-correction-R34",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R34"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 905.5118,
+          "y": 2145.6693,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07260KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "260k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "260k",
+            "Unique ID": "schematic-correction-R34",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R34",
+            "Channel ID": "$1I1411"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "ea057c542aebd14d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1692.9134,
+          "y": 3149.6063,
+          "angle": 0,
+          "attrs": {
+            "Name": "10nF",
+            "Unique ID": "schematic-correction-C27",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C27"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1692.9134,
+          "y": 3149.6063,
+          "angle": 0,
+          "attrs": {
+            "Name": "10nF",
+            "Unique ID": "schematic-correction-C27",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C27",
+            "Channel ID": "$1I1386"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "24c884ce4548be22",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2992.126,
+          "y": 1377.9528,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R105",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R105"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2992.126,
+          "y": 1377.9528,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R105",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R105",
+            "Channel ID": "$2I39"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "614a2f43892477ea",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3385.8268,
+          "y": 1771.6535,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R126",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R126"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3385.8268,
+          "y": 1771.6535,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R126",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R126",
+            "Channel ID": "$2I71"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "789efa4dd8e13e3d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 826.7717,
+          "y": 1653.5433,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U104",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U104"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 826.7717,
+          "y": 1653.5433,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U104",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U104",
+            "Channel ID": "$2I62"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "e6edcd2085821366",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3464.5669,
+          "y": 1574.8031,
+          "angle": 180,
+          "attrs": {
+            "Name": "AO3400A",
+            "Unique ID": "schematic-correction-Q102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q102"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3464.5669,
+          "y": 1574.8031,
+          "angle": 180,
+          "attrs": {
+            "Name": "AO3400A",
+            "Unique ID": "schematic-correction-Q102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q102",
+            "Channel ID": "$2I65"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "027e6d9572425400",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3100.3937,
+          "y": 3051.1811,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge33",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3100.3937,
+          "y": 3051.1811,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge33",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I133"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "5133d264e2f9d795",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1929.1339,
+          "y": 1102.3622,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1002-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "10k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "10k",
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R121",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R121"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1929.1339,
+          "y": 1102.3622,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1002-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "10k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "10k",
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R121",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R121",
+            "Channel ID": "$2I50"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "56e7cad269073ef7",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3385.8268,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "G6K-2F-Y DC5",
+            "Unique ID": "schematic-correction-K102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-K102"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3385.8268,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "G6K-2F-Y DC5",
+            "Unique ID": "schematic-correction-K102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-K102",
+            "Channel ID": "$2I61"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "7515201580ea697c",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1771.6535,
+          "y": 2992.126,
+          "angle": 0,
+          "attrs": {
+            "Name": "2N7002P,215",
+            "Unique ID": "schematic-correction-Q2",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q2"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1771.6535,
+          "y": 2992.126,
+          "angle": 0,
+          "attrs": {
+            "Name": "2N7002P,215",
+            "Unique ID": "schematic-correction-Q2",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q2",
+            "Channel ID": "$1I1419"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "044850563c12607d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 2992.126,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "highz-C26",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 2992.126,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "highz-C26",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I1261"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "5a4aa8935df4ba0b",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2795.2756,
+          "y": 2834.6457,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge54",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2795.2756,
+          "y": 2834.6457,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge54",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃",
+            "Channel ID": "$1I199"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "619ebd655896cd14",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 344.4882,
+          "y": 3139.7638,
+          "angle": -90,
+          "attrs": {
+            "Name": "4.7uF",
+            "Unique ID": "gge20",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 344.4882,
+          "y": 3139.7638,
+          "angle": -90,
+          "attrs": {
+            "Name": "4.7uF",
+            "Unique ID": "gge20",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I88"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "a4ca77d0ef288e53",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1082.6772,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R29",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R29"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1082.6772,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R29",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R29",
+            "Channel ID": "$1I1390"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "33f978223ed992e2",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 679.1339,
+          "y": 1574.8031,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R123",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R123"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 679.1339,
+          "y": 1574.8031,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R123",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R123",
+            "Channel ID": "$2I68"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "e6238df6c55e3ac8",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1535.4331,
+          "y": 2244.0945,
+          "angle": 90,
+          "attrs": {
+            "Name": "LTV-817S-TA1",
+            "Unique ID": "schematic-correction-U10",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U10"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1535.4331,
+          "y": 2244.0945,
+          "angle": 90,
+          "attrs": {
+            "Name": "LTV-817S-TA1",
+            "Unique ID": "schematic-correction-U10",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U10",
+            "Channel ID": "$1I1424"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "b0a2da2c28c0ad61",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1210.6299,
+          "y": 2667.3228,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C31",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C31"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1210.6299,
+          "y": 2667.3228,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C31",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C31",
+            "Channel ID": "$1I1400"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "44c6028f0610a0b6",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1852.3622,
+          "y": 3523.622,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C28",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C28"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1852.3622,
+          "y": 3523.622,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C28",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C28",
+            "Channel ID": "$1I1397"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "d4aa5e64324f046c",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 590.5512,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "schematic-correction-C112",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C112"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 590.5512,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "schematic-correction-C112",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C112",
+            "Channel ID": "$2I48"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "f1cff092a048ee6f",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1702.7559,
+          "y": 3228.3465,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R22",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R22"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1702.7559,
+          "y": 3228.3465,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R22",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R22",
+            "Channel ID": "$1I1387"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "e87d91e563f46d4e",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 472.4409,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "1kΩ",
+            "Unique ID": "schematic-correction-R101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R101"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 472.4409,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "1kΩ",
+            "Unique ID": "schematic-correction-R101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R101",
+            "Channel ID": "$2I25"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "06ab2b5ac8c6345d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1377.9528,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "schematic-correction-U101",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "schematic-correction-U101"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1377.9528,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "schematic-correction-U101",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "schematic-correction-U101",
+            "Channel ID": "$2I27"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "f6df2f324a5b8788",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2440.9449,
+          "y": 3110.2362,
+          "angle": 0,
+          "attrs": {
+            "Name": "33Ω",
+            "Unique ID": "gge42",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2440.9449,
+          "y": 3110.2362,
+          "angle": 0,
+          "attrs": {
+            "Name": "33Ω",
+            "Unique ID": "gge42",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I158"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "4d8b3a60aa498eab",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2992.126,
+          "y": 3503.937,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge50",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2992.126,
+          "y": 3503.937,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge50",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I195"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "1b6e38064411f038",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1476.378,
+          "y": 2795.2756,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge27",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1476.378,
+          "y": 2795.2756,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge27",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I111"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "3c9b6280474126bd",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2834.6457,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R104",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R104"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2834.6457,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R104",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R104",
+            "Channel ID": "$2I36"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "8d57dae60f98bbc9",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2559.0551,
+          "y": 3602.3622,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7uF",
+            "Unique ID": "gge32",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2559.0551,
+          "y": 3602.3622,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7uF",
+            "Unique ID": "gge32",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I132"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "86ee735385c53e90",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2677.1654,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R113",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R113"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2677.1654,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R113",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R113",
+            "Channel ID": "$2I37"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "55e46779c9a05992",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1082.6772,
+          "y": 1200.7874,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C122",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C122"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1082.6772,
+          "y": 1200.7874,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C122",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C122",
+            "Channel ID": "$2I53"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "20b7d9390182ba4f",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1807.0866,
+          "y": 3610.2362,
+          "angle": 0,
+          "attrs": {
+            "Name": "10nF",
+            "Unique ID": "gge29",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1807.0866,
+          "y": 3610.2362,
+          "angle": 0,
+          "attrs": {
+            "Name": "10nF",
+            "Unique ID": "gge29",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I113"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "355ba43ddea52d26",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2165.3543,
+          "y": 2401.5748,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U12",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U12"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2165.3543,
+          "y": 2401.5748,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U12",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U12",
+            "Channel ID": "$1I1426"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "0ca4226f8fda6145",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 163.3858,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J101"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 163.3858,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J101",
+            "Channel ID": "$2I21"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "43309531f5178b1f",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 163.3858,
+          "y": 590.5512,
+          "angle": 0,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J102"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 163.3858,
+          "y": 590.5512,
+          "angle": 0,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J102",
+            "Channel ID": "$2I23"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "8c37a9ff7b5318f0",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1377.9528,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C121",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C121"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1377.9528,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C121",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C121",
+            "Channel ID": "$2I52"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "e07c8dee76d8fb40",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1496.063,
+          "y": 2500,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07116KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "116k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "116k",
+            "Unique ID": "schematic-correction-R30",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R30"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1496.063,
+          "y": 2500,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07116KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "116k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "116k",
+            "Unique ID": "schematic-correction-R30",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R30",
+            "Channel ID": "$1I1409"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "bc84f5d446ad5344",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2401.5748,
+          "y": 3582.6772,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge31",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2401.5748,
+          "y": 3582.6772,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge31",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I131"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "02a3e756c4ed0b24",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "schematic-correction-U103",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "schematic-correction-U103"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 1062.9921,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "schematic-correction-U103",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "schematic-correction-U103",
+            "Channel ID": "$2I28"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "274870bb7d6669fe",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3070.8661,
+          "y": 3228.3465,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge35",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3070.8661,
+          "y": 3228.3465,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge35",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I135"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "5d7c5df595dd1bd4",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 3188.9764,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "highz-opa2277-dual",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "highz-opa2277-dual"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2913.3858,
+          "y": 3188.9764,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "highz-opa2277-dual",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "highz-opa2277-dual",
+            "Channel ID": "$1I1256"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "5137c34f8c4b7129",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1633.8583,
+          "y": 2529.5276,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R31",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R31"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1633.8583,
+          "y": 2529.5276,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R31",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R31",
+            "Channel ID": "$1I1391"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "7ecc656f73bc4353",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 354.3307,
+          "y": 2677.1654,
+          "angle": 90,
+          "attrs": {
+            "Name": "1kΩ",
+            "Unique ID": "gge47",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 354.3307,
+          "y": 2677.1654,
+          "angle": 90,
+          "attrs": {
+            "Name": "1kΩ",
+            "Unique ID": "gge47",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I163"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "4ffc9c0d4531561c",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 3513.7795,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "gge37",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 3513.7795,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "gge37",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I137"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "c4660f161a3ce654",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1496.063,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07127KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "127k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "127k",
+            "Unique ID": "schematic-correction-R32",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R32"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1496.063,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07127KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "127k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "127k",
+            "Unique ID": "schematic-correction-R32",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R32",
+            "Channel ID": "$1I1410"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "c97e08fee23416e0",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1120.0787,
+          "y": 3366.1417,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7nF",
+            "Unique ID": "gge18",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1120.0787,
+          "y": 3366.1417,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7nF",
+            "Unique ID": "gge18",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I86"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "ca1d3bab79f0827a",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1250,
+          "y": 2795.2756,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge26",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1250,
+          "y": 2795.2756,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge26",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I110"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "55c27ed5bb468cde",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 944.8819,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07312KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "312k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "312k",
+            "Unique ID": "schematic-correction-R28",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R28"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 944.8819,
+          "y": 2618.1102,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07312KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "312k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "312k",
+            "Unique ID": "schematic-correction-R28",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R28",
+            "Channel ID": "$1I1408"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "42cf8e42e0909daf",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 708.6614,
+          "y": 1456.6929,
+          "angle": 180,
+          "attrs": {
+            "Name": "AO3400A",
+            "Unique ID": "schematic-correction-Q101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q101"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 708.6614,
+          "y": 1456.6929,
+          "angle": 180,
+          "attrs": {
+            "Name": "AO3400A",
+            "Unique ID": "schematic-correction-Q101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q101",
+            "Channel ID": "$2I64"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "1f11d081786d7ca1",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1377.9528,
+          "y": 2391.7323,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD071K8L",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "1.8k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "1.8k",
+            "Unique ID": "schematic-correction-R39",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R39"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1377.9528,
+          "y": 2391.7323,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD071K8L",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "1.8k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "1.8k",
+            "Unique ID": "schematic-correction-R39",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R39",
+            "Channel ID": "$1I1414"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "38cc74da71228443",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1543.3071,
+          "y": 3238.189,
+          "angle": 180,
+          "attrs": {
+            "Name": "10uF",
+            "Description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:25V Temperature Coefficient:X5R",
+            "Unique ID": "gge30",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1543.3071,
+          "y": 3238.189,
+          "angle": 180,
+          "attrs": {
+            "Name": "10uF",
+            "Description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:25V Temperature Coefficient:X5R",
+            "Unique ID": "gge30",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I114"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "e6fd427c81855bf5",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1023.622,
+          "y": 3543.3071,
+          "angle": -90,
+          "attrs": {
+            "Name": "SS34",
+            "Unique ID": "gge9",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1023.622,
+          "y": 3543.3071,
+          "angle": -90,
+          "attrs": {
+            "Name": "SS34",
+            "Unique ID": "gge9",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I58"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "2babf98f4ae3e393",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 905.5118,
+          "y": 2263.7795,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07320KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "320k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "320k",
+            "Unique ID": "schematic-correction-R36",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R36"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 905.5118,
+          "y": 2263.7795,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07320KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "320k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "320k",
+            "Unique ID": "schematic-correction-R36",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R36",
+            "Channel ID": "$1I1412"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "b24015153a00c2a2",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2066.9291,
+          "y": 1102.3622,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1002-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "10k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "10k",
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R122",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R122"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2066.9291,
+          "y": 1102.3622,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1002-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "10k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "10k",
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R122",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R122",
+            "Channel ID": "$2I51"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "a43ef20a26ef7008",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 669.2913,
+          "y": 1732.2835,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C127",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C127"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 669.2913,
+          "y": 1732.2835,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C127",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C127",
+            "Channel ID": "$2I58"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "21b1ed6a1ae9b1b3",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2755.9055,
+          "y": 3110.2362,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge36",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2755.9055,
+          "y": 3110.2362,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge36",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I136"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "61b671f440e58dd8",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3425.1969,
+          "y": 2637.7953,
+          "angle": 180,
+          "attrs": {
+            "Name": "AO3400A",
+            "Unique ID": "schematic-correction-Q4",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q4"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3425.1969,
+          "y": 2637.7953,
+          "angle": 180,
+          "attrs": {
+            "Name": "AO3400A",
+            "Unique ID": "schematic-correction-Q4",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q4",
+            "Channel ID": "$1I1429"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "44084b74c6218bce",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3110.2362,
+          "y": 3336.6142,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "highz-R16",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3110.2362,
+          "y": 3336.6142,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "highz-R16",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I1258"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "803e65344d141f2d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1645.6693,
+          "y": 3610.2362,
+          "angle": 0,
+          "attrs": {
+            "Name": "10uF",
+            "Description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:25V Temperature Coefficient:X5R",
+            "Unique ID": "gge28",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1645.6693,
+          "y": 3610.2362,
+          "angle": 0,
+          "attrs": {
+            "Name": "10uF",
+            "Description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:25V Temperature Coefficient:X5R",
+            "Unique ID": "gge28",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I112"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "0ae32dcbb581d51c",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2972.4409,
+          "y": 1259.8425,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "schematic-correction-C101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C101"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2972.4409,
+          "y": 1259.8425,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "schematic-correction-C101",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C101",
+            "Channel ID": "$2I43"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "4ae2bbaf09e3f8e4",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1889.7638,
+          "y": 3001.9685,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R24",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R24"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1889.7638,
+          "y": 3001.9685,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R24",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R24",
+            "Channel ID": "$1I1405"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "e0808a553c0c6a39",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 866.1417,
+          "y": 3051.1811,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge23",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 866.1417,
+          "y": 3051.1811,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge23",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I107"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "1cb512879a767848",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1200.7874,
+          "y": 2322.8346,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R38",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R38"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1200.7874,
+          "y": 2322.8346,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R38",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R38",
+            "Channel ID": "$1I1413"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "338ce7aa5f7aa94f",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2952.7559,
+          "y": 2834.6457,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge55",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2952.7559,
+          "y": 2834.6457,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge55",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I200"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "133bbf1086818c5d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2637.7953,
+          "y": 984.252,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R116",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R116"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2637.7953,
+          "y": 984.252,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R116",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R116",
+            "Channel ID": "$2I42"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "2f9710a13c35678e",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1102.3622,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thick Film Resistor Resistance:10MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R112",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R112"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1102.3622,
+          "y": 866.1417,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thick Film Resistor Resistance:10MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R112",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R112",
+            "Channel ID": "$2I34"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "1e58e2330359a121",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1181.1024,
+          "y": 2204.7244,
+          "angle": 0,
+          "attrs": {
+            "Name": "2N7002P,215",
+            "Unique ID": "schematic-correction-Q3",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q3"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1181.1024,
+          "y": 2204.7244,
+          "angle": 0,
+          "attrs": {
+            "Name": "2N7002P,215",
+            "Unique ID": "schematic-correction-Q3",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-Q3",
+            "Channel ID": "$1I1420"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "d6d81f52ee7d69d6",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1850.3937,
+          "y": 2529.5276,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R40",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R40"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1850.3937,
+          "y": 2529.5276,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R40",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R40",
+            "Channel ID": "$1I1415"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "0834a177c00aea02",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2155.5118,
+          "y": 728.3465,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C123",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C123"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2155.5118,
+          "y": 728.3465,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C123",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C123",
+            "Channel ID": "$2I54"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "475b4324eeaf4812",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 944.8819,
+          "y": 1653.5433,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R124",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R124"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 944.8819,
+          "y": 1653.5433,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R124",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R124",
+            "Channel ID": "$2I70"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "f77bd57503fe11d9",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1437.0079,
+          "y": 3661.4173,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge25",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1437.0079,
+          "y": 3661.4173,
+          "angle": 0,
+          "attrs": {
+            "Name": "22uF",
+            "Unique ID": "gge25",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I109"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "eb0cb5b3658f0cf5",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2598.4252,
+          "y": 2401.5748,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R42",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R42"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2598.4252,
+          "y": 2401.5748,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R42",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R42",
+            "Channel ID": "$1I1417"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "0bc0e088a0d2cf63",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3700.7874,
+          "y": 3188.9764,
+          "angle": 0,
+          "attrs": {
+            "Name": "1N4148W-G3-18",
+            "Unique ID": "schematic-correction-D3",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-D3"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3700.7874,
+          "y": 3188.9764,
+          "angle": 0,
+          "attrs": {
+            "Name": "1N4148W-G3-18",
+            "Unique ID": "schematic-correction-D3",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-D3",
+            "Channel ID": "$1I1430"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "8be64e76bfa2f7b8",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2972.4409,
+          "y": 3385.8268,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "highz-C25",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2972.4409,
+          "y": 3385.8268,
+          "angle": 0,
+          "attrs": {
+            "Name": "22pF",
+            "Unique ID": "highz-C25",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I1260"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "d77d5ecbd59e1905",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2716.5354,
+          "y": 3385.8268,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge51",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2716.5354,
+          "y": 3385.8268,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge51",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃",
+            "Channel ID": "$1I196"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "06c914da5cd8e499",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1692.9134,
+          "y": 3425.1969,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS7A4901DGNR",
+            "Unique ID": "gge2",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1692.9134,
+          "y": 3425.1969,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS7A4901DGNR",
+            "Unique ID": "gge2",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I3"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "12accc040d13aadf",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1836.6142,
+          "y": 3228.3465,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R23",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R23"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1836.6142,
+          "y": 3228.3465,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R23",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R23",
+            "Channel ID": "$1I1388"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "8f67944d45080894",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3238.189,
+          "y": 3031.4961,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "highz-R21",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3238.189,
+          "y": 3031.4961,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "highz-R21",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I1259"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "6df2ea25d6ae481d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1043.3071,
+          "y": 2145.6693,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R35",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R35"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1043.3071,
+          "y": 2145.6693,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R35",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R35",
+            "Channel ID": "$1I1393"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "59c6f6af07aad76e",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1090.5512,
+          "y": 3222.4409,
+          "angle": 180,
+          "attrs": {
+            "Name": "6.8pF",
+            "Unique ID": "gge16",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1090.5512,
+          "y": 3222.4409,
+          "angle": 180,
+          "attrs": {
+            "Name": "6.8pF",
+            "Unique ID": "gge16",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I84"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "218a9cb0d2513234",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2165.3543,
+          "y": 3740.1575,
+          "angle": 0,
+          "attrs": {
+            "Name": "TSW-105-07-G-D",
+            "Unique ID": "schematic-correction-J4",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J4"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2165.3543,
+          "y": 3740.1575,
+          "angle": 0,
+          "attrs": {
+            "Name": "TSW-105-07-G-D",
+            "Unique ID": "schematic-correction-J4",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J4",
+            "Channel ID": "$1I1431"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "8812724448b03c8e",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2834.6457,
+          "y": 3503.937,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge49",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2834.6457,
+          "y": 3503.937,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-2432-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "24.3k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "24.3k",
+            "Description": "Type:Thin Film Resistor Resistance:24.3kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "gge49",
+            "Convert to PCB": "yes",
+            "Operating Temperature Range": "-55℃~+155℃",
+            "Channel ID": "$1I194"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "8a575ec8f20a9bd4",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1968.5039,
+          "y": 866.1417,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "schematic-correction-U102",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "schematic-correction-U102"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1968.5039,
+          "y": 866.1417,
+          "angle": 180,
+          "attrs": {
+            "Name": "OPA2277UA/2K5",
+            "Unique ID": "schematic-correction-U102",
+            "Convert to PCB": "yes",
+            "Relevance": "[]",
+            "Multi-Part Group": "schematic-correction-U102",
+            "Channel ID": "$2I31"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "b0fb34a5e872e146",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 944.8819,
+          "y": 2500,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07274KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "274k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "274k",
+            "Unique ID": "schematic-correction-R26",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R26"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 944.8819,
+          "y": 2500,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD07274KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "274k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "274k",
+            "Unique ID": "schematic-correction-R26",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R26",
+            "Channel ID": "$1I1407"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "5c2d6e65141504aa",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3267.7165,
+          "y": 1653.5433,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U105",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U105"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3267.7165,
+          "y": 1653.5433,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G08DBVR",
+            "Unique ID": "schematic-correction-U105",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U105",
+            "Channel ID": "$2I63"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "a9addc0e84108212",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2352.3622,
+          "y": 2322.8346,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C35",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C35"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2352.3622,
+          "y": 2322.8346,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C35",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C35",
+            "Channel ID": "$1I1404"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "8dd06d781cf7fa67",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2047.2441,
+          "y": 2952.7559,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LV125ATPWR",
+            "Unique ID": "schematic-correction-U6",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U6"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2047.2441,
+          "y": 2952.7559,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LV125ATPWR",
+            "Unique ID": "schematic-correction-U6",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U6",
+            "Channel ID": "$1I1396"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "886e88eece89ab77",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1090.5512,
+          "y": 3059.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "100kΩ",
+            "Unique ID": "gge14",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1090.5512,
+          "y": 3059.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "100kΩ",
+            "Unique ID": "gge14",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I63"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "285888e7f6302eba",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 1377.9528,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J103",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J103"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 1377.9528,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "schematic-correction-J103",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-J103",
+            "Channel ID": "$2I22"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "fbeba6218a5aab21",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1200.7874,
+          "y": 3448.8189,
+          "angle": 0,
+          "attrs": {
+            "Name": "220nF",
+            "Unique ID": "gge17",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1200.7874,
+          "y": 3448.8189,
+          "angle": 0,
+          "attrs": {
+            "Name": "220nF",
+            "Unique ID": "gge17",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I85"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "1e2f18d66aec1452",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1309.0551,
+          "y": 3179.1339,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7uH",
+            "Unique ID": "gge8",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1309.0551,
+          "y": 3179.1339,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7uH",
+            "Unique ID": "gge8",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I57"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "c2abfbdb8e05b936",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1850.3937,
+          "y": 2421.2598,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G04DBVR",
+            "Unique ID": "schematic-correction-U11",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U11"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1850.3937,
+          "y": 2421.2598,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LVC1G04DBVR",
+            "Unique ID": "schematic-correction-U11",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U11",
+            "Channel ID": "$1I1425"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "e00066a808fed0b7",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2795.2756,
+          "y": 748.0315,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R114",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R114"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2795.2756,
+          "y": 748.0315,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1402-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "14k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "14k",
+            "Description": "Type:Thin Film Resistor Resistance:14kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R114",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R114",
+            "Channel ID": "$2I38"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "d4e867eabf464d5f",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 748.0315,
+          "y": 2706.6929,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C30",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C30"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 748.0315,
+          "y": 2706.6929,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C30",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C30",
+            "Channel ID": "$1I1399"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "61efca0df7280071",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 629.9213,
+          "y": 3740.1575,
+          "angle": 0,
+          "attrs": {
+            "Name": "2x5P 2.54mm",
+            "Unique ID": "gge39",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 629.9213,
+          "y": 3740.1575,
+          "angle": 0,
+          "attrs": {
+            "Name": "2x5P 2.54mm",
+            "Unique ID": "gge39",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I155"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "ec39e09c4edb1d3b",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1090.5512,
+          "y": 3141.7323,
+          "angle": 180,
+          "attrs": {
+            "Name": "1MΩ",
+            "Unique ID": "gge13",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1090.5512,
+          "y": 3141.7323,
+          "angle": 180,
+          "attrs": {
+            "Name": "1MΩ",
+            "Unique ID": "gge13",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I62"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "97beb2707b9b34ac",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2125.9843,
+          "y": 2519.685,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R41",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R41"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2125.9843,
+          "y": 2519.685,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R41",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R41",
+            "Channel ID": "$1I1416"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "11871413fc70c8e0",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2047.2441,
+          "y": 3425.1969,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LV125ATPWR",
+            "Unique ID": "schematic-correction-U5",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U5"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2047.2441,
+          "y": 3425.1969,
+          "angle": 0,
+          "attrs": {
+            "Name": "SN74LV125ATPWR",
+            "Unique ID": "schematic-correction-U5",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U5",
+            "Channel ID": "$1I1395"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "a9e958a7a28ad35e",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2952.7559,
+          "y": 748.0315,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R115",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R115"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2952.7559,
+          "y": 748.0315,
+          "angle": 180,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R115",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R115",
+            "Channel ID": "$2I41"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "f774cf64eab2f3c7",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2559.0551,
+          "y": 3031.4961,
+          "angle": 0,
+          "attrs": {
+            "Name": "33Ω",
+            "Unique ID": "gge43",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2559.0551,
+          "y": 3031.4961,
+          "angle": 0,
+          "attrs": {
+            "Name": "33Ω",
+            "Unique ID": "gge43",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I159"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "c953c1daf1bbf667",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2618.1102,
+          "y": 3267.7165,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge52",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2618.1102,
+          "y": 3267.7165,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge52",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I197"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "38b435e8ef74c7ca",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2244.0945,
+          "y": 3582.6772,
+          "angle": 180,
+          "attrs": {
+            "Name": "220nF",
+            "Unique ID": "gge17_0",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2244.0945,
+          "y": 3582.6772,
+          "angle": 180,
+          "attrs": {
+            "Name": "220nF",
+            "Unique ID": "gge17_0",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I1250"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "fc8ccfce00069d14",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2362.2047,
+          "y": 3385.8268,
+          "angle": 0,
+          "attrs": {
+            "Name": "DAC8562TDGSR",
+            "Unique ID": "gge3",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2362.2047,
+          "y": 3385.8268,
+          "angle": 0,
+          "attrs": {
+            "Name": "DAC8562TDGSR",
+            "Unique ID": "gge3",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I4"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "3744fd2d40d900c7",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 472.4409,
+          "y": 590.5512,
+          "angle": 0,
+          "attrs": {
+            "Name": "1kΩ",
+            "Unique ID": "schematic-correction-R111",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R111"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 472.4409,
+          "y": 590.5512,
+          "angle": 0,
+          "attrs": {
+            "Name": "1kΩ",
+            "Unique ID": "schematic-correction-R111",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R111",
+            "Channel ID": "$2I26"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "d14ad41757f43b87",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3464.5669,
+          "y": 1692.9134,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R125",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R125"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3464.5669,
+          "y": 1692.9134,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R125",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R125",
+            "Channel ID": "$2I69"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "42bc60c5108f359b",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2618.1102,
+          "y": 1141.7323,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R106",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R106"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2618.1102,
+          "y": 1141.7323,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R106",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R106",
+            "Channel ID": "$2I40"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "81357f811040bab3",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "schematic-correction-C102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C102"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3553.1496,
+          "y": 1377.9528,
+          "angle": 0,
+          "attrs": {
+            "Name": "100pF",
+            "Unique ID": "schematic-correction-C102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C102",
+            "Channel ID": "$2I47"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "00006099047ac42b",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1732.2835,
+          "y": 2874.0157,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R25",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R25"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1732.2835,
+          "y": 2874.0157,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R25",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R25",
+            "Channel ID": "$1I1406"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "37d1b522bc8e50c9",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 307.0866,
+          "y": 3307.0866,
+          "angle": 0,
+          "attrs": {
+            "Name": "Si2323DDS-T1-GE3",
+            "Unique ID": "gge6",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 307.0866,
+          "y": 3307.0866,
+          "angle": 0,
+          "attrs": {
+            "Name": "Si2323DDS-T1-GE3",
+            "Unique ID": "gge6",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I55"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "4266c81256ffcb42",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2480.315,
+          "y": 2519.685,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R43",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R43"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2480.315,
+          "y": 2519.685,
+          "angle": 0,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "YAGEO",
+            "Manufacturer Part": "RT0603BRD0747KL",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rt_51_rohs_l.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "47k",
+            "Tolerance": "±0.1%",
+            "Temperature Coefficient": "±25ppm/C",
+            "Name": "47k",
+            "Unique ID": "schematic-correction-R43",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R43",
+            "Channel ID": "$1I1418"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "c24786ce995687b3",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1781.4961,
+          "y": 944.8819,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C124",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C124"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1781.4961,
+          "y": 944.8819,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C124",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C124",
+            "Channel ID": "$2I55"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "64f289020b8bb28d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2726.378,
+          "y": 3228.3465,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge34",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2726.378,
+          "y": 3228.3465,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "gge34",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I134"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "7925d39a8fe49d5c",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1864.1732,
+          "y": 3110.2362,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C29",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C29"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1864.1732,
+          "y": 3110.2362,
+          "angle": 180,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C29",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C29",
+            "Channel ID": "$1I1398"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "690c79c0766a5ebc",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1043.3071,
+          "y": 2263.7795,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R37",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R37"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1043.3071,
+          "y": 2263.7795,
+          "angle": 0,
+          "attrs": {
+            "Description": "Type:Thin Film Resistor Resistance:10kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+            "Unique ID": "schematic-correction-R37",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R37",
+            "Channel ID": "$1I1394"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "4e0be3c8a77cdd9d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3139.7638,
+          "y": 1574.8031,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C128",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C128"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3139.7638,
+          "y": 1574.8031,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C128",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C128",
+            "Channel ID": "$2I59"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "9bc3245badaecfd3",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3700.7874,
+          "y": 984.252,
+          "angle": 0,
+          "attrs": {
+            "Name": "1N4148W-G3-18",
+            "Unique ID": "schematic-correction-D102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-D102"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3700.7874,
+          "y": 984.252,
+          "angle": 0,
+          "attrs": {
+            "Name": "1N4148W-G3-18",
+            "Unique ID": "schematic-correction-D102",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-D102",
+            "Channel ID": "$2I67"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "09459b2ef044f675",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 2952.7559,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "gge60",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 2952.7559,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "gge60",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I233"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "6eaccf2c07c50d5b",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2037.4016,
+          "y": 2322.8346,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C34",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C34"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2037.4016,
+          "y": 2322.8346,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C34",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C34",
+            "Channel ID": "$1I1403"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "43cb3968049ab040",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2244.0945,
+          "y": 3188.9764,
+          "angle": 90,
+          "attrs": {
+            "Name": "10kΩ",
+            "Unique ID": "gge46",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2244.0945,
+          "y": 3188.9764,
+          "angle": 90,
+          "attrs": {
+            "Name": "10kΩ",
+            "Unique ID": "gge46",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I162"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "6e4b645cd391d02d",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 984.252,
+          "y": 3368.1102,
+          "angle": 180,
+          "attrs": {
+            "Name": "100kΩ",
+            "Unique ID": "gge12",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 984.252,
+          "y": 3368.1102,
+          "angle": 180,
+          "attrs": {
+            "Name": "100kΩ",
+            "Unique ID": "gge12",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I61"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "5d89aaf0a2c13c7b",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3110.2362,
+          "y": 1220.4724,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "schematic-correction-R107",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R107"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3110.2362,
+          "y": 1220.4724,
+          "angle": 0,
+          "attrs": {
+            "Name": "100Ω",
+            "Unique ID": "schematic-correction-R107",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-R107",
+            "Channel ID": "$2I45"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "6b0296efae60ab78",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 905.5118,
+          "y": 3228.3465,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS65131RGER",
+            "Unique ID": "gge1",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 905.5118,
+          "y": 3228.3465,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS65131RGER",
+            "Unique ID": "gge1",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I2"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "3dd7ff7fc6b4ea53",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3100.3937,
+          "y": 925.1969,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C125",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C125"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3100.3937,
+          "y": 925.1969,
+          "angle": 0,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C125",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C125",
+            "Channel ID": "$2I56"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "9dfa2b578be5b4b2",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 738.189,
+          "y": 3452.7559,
+          "angle": 90,
+          "attrs": {
+            "Name": "10nF",
+            "Unique ID": "gge19",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 738.189,
+          "y": 3452.7559,
+          "angle": 90,
+          "attrs": {
+            "Name": "10nF",
+            "Unique ID": "gge19",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I87"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "b8298726302a50a3",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2677.1654,
+          "y": 3070.8661,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge57",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 2677.1654,
+          "y": 3070.8661,
+          "angle": 90,
+          "attrs": {
+            "LCSC Part Name": "",
+            "Supplier Part": "",
+            "Manufacturer": "Susumu",
+            "Manufacturer Part": "RG1608N-1003-W-T5",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+            "Supplier": "Manual procurement",
+            "Value": "100k",
+            "Tolerance": "±0.05%",
+            "Temperature Coefficient": "±10ppm/C",
+            "Name": "100k",
+            "Description": "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/℃ Temperature Coefficient:±25ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+            "Unique ID": "gge57",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I202"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "58c6f83eb3ca1bb9",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 541.3386,
+          "y": 3297.2441,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7uH",
+            "Unique ID": "gge7",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 541.3386,
+          "y": 3297.2441,
+          "angle": 0,
+          "attrs": {
+            "Name": "4.7uH",
+            "Unique ID": "gge7",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I56"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "3e19defade8b5810",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 3425.1969,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "gge59",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 3773.622,
+          "y": 3425.1969,
+          "angle": 180,
+          "attrs": {
+            "Name": "STA-10204",
+            "Unique ID": "gge59",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I230"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "0e63bce1037534a1",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 807.0866,
+          "y": 3562.9921,
+          "angle": 0,
+          "attrs": {
+            "Name": "6.8pF",
+            "Unique ID": "gge15",
+            "Convert to PCB": "yes"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 807.0866,
+          "y": 3562.9921,
+          "angle": 0,
+          "attrs": {
+            "Name": "6.8pF",
+            "Unique ID": "gge15",
+            "Convert to PCB": "yes",
+            "Channel ID": "$1I83"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "7ddbd5fb6ca2591a",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1338.5827,
+          "y": 2559.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS3700DDCR",
+            "Unique ID": "schematic-correction-U8",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U8"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1338.5827,
+          "y": 2559.0551,
+          "angle": 0,
+          "attrs": {
+            "Name": "TPS3700DDCR",
+            "Unique ID": "schematic-correction-U8",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-U8",
+            "Channel ID": "$1I1422"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "9741a24402ca9e75",
+        "before": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1722.4409,
+          "y": 2421.2598,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C33",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C33"
+          },
+          "locked": false,
+          "zIndex": -1
+        },
+        "after": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1722.4409,
+          "y": 2421.2598,
+          "angle": 90,
+          "attrs": {
+            "Name": "100nF",
+            "Unique ID": "schematic-correction-C33",
+            "Convert to PCB": "yes",
+            "Multi-Part Group": "schematic-correction-C33",
+            "Channel ID": "$1I1402"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      }
+    ]
+  }
+}

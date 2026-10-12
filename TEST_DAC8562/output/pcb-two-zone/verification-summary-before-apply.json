@@ -1,0 +1,170 @@
+{
+  "status": "PCB DRC pending — do not fabricate or claim completion",
+  "nativeFile": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\DAC8562 module.eprj2",
+  "draftCopy": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\output\\pcb-two-zone\\DAC8562 module_two_zone_PCB_DRC_pending.eprj2",
+  "draftCopySha256": "f1d9d94c211e9e77f527f0774e3b8a8118131522dfe6a242874846ad3a2cb0ab",
+  "boardSizeMm": [
+    100,
+    100
+  ],
+  "copperLayers": 2,
+  "zones": {
+    "upper": "DAC8562: 106 parts",
+    "lower": "DAC_MCU: 48 parts"
+  },
+  "commonNets": [
+    "GND",
+    "VIN_RAW",
+    "VPOS12",
+    "VNEG12",
+    "MCU_3V3",
+    "DAC_HW_PGOOD"
+  ],
+  "schematicErcPassed": true,
+  "pcbDrcPassed": false,
+  "pcbDrcDetails": [
+    {
+      "name": "Netlist Error",
+      "list": [
+        {
+          "name": "Netlist Error",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Netlist Error",
+              "errorObjType": "Netlist Error",
+              "ruleName": "Import Changes",
+              "ruleTypeName": "Import Changes",
+              "obj1": {
+                "typeName": "Schematic Netlist",
+                "suffix": ""
+              },
+              "obj2": {
+                "typeName": "PCB Netlist",
+                "suffix": ""
+              },
+              "objs": [
+                "err1"
+              ],
+              "explanation": {
+                "str": "PCB and schematic netlist does not match. You can click on the rule name \"Import Changes\" to view the difference.",
+                "param": {}
+              },
+              "globalIndex": "err1",
+              "parentId": "DRCTab|_|Errors|_|Netlist Error|_|Netlist Error"
+            }
+          ],
+          "count": 1,
+          "title": [
+            "Netlist Error",
+            "(1)"
+          ],
+          "visible": true
+        }
+      ],
+      "visible": true,
+      "count": 1,
+      "title": [
+        "Netlist Error",
+        "(1)"
+      ]
+    }
+  ],
+  "savedAndReopened": true,
+  "electricalNetlistComparison": {
+    "schematicComponents": 154,
+    "pcbComponents": 154,
+    "schematicNets": 90,
+    "pcbNets": 90,
+    "pinNetDifferences": {}
+  },
+  "placementAudit": {
+    "components": 154,
+    "pads": 493,
+    "padMismatch": [],
+    "placementMismatch": [],
+    "bboxOverlaps": []
+  },
+  "routing": {
+    "tracks": 1777,
+    "vias": 133,
+    "routeVias": 126,
+    "thermalVias": [
+      {
+        "part": "U1",
+        "requested": 4,
+        "added": 4,
+        "locationsMm": [
+          [
+            22.349873,
+            81.33742699999999
+          ],
+          [
+            22.349873,
+            81.987427
+          ],
+          [
+            22.349873,
+            82.637427
+          ],
+          [
+            22.999872999999997,
+            81.33742699999999
+          ]
+        ]
+      },
+      {
+        "part": "U2",
+        "requested": 3,
+        "added": 3,
+        "locationsMm": [
+          [
+            42.58,
+            86.68
+          ],
+          [
+            42.58,
+            87.32
+          ],
+          [
+            43.42,
+            87.32
+          ]
+        ]
+      }
+    ],
+    "groundPours": [
+      {
+        "layer": 1,
+        "areaMm2": 8028.44191296356,
+        "islands": 3
+      },
+      {
+        "layer": 2,
+        "areaMm2": 7898.293890291792,
+        "islands": 3
+      }
+    ],
+    "sesResolution": [
+      "resolution",
+      "mil",
+      "1000"
+    ],
+    "sesToMil": 0.001,
+    "routedNets": 90
+  },
+  "panelUnchanged": true,
+  "gitPushPerformed": false,
+  "remaining": [
+    "Resolve EasyEDA Import Changes / Netlist Error without losing current routing or layout. Native comparison reports missing PCB linkage despite matching exported electrical pin assignments.",
+    "Inspect native Import Changes difference dialog; app screen access is not approved, and no blind Apply Changes should be performed.",
+    "Final PCB DRC and manufacturing-data verification remain incomplete."
+  ],
+  "limitations": [
+    "Ground copper is stored as six calculated SOLID regions because read-only POURED records are not imported through the v3.2 source API. Regenerate these regions after layout changes.",
+    "The original J1 generic 2x5 2.54mm female header is retained; verify its mating hardware at procurement.",
+    "High-input-impedance outputs only, not a 50-ohm load driver.",
+    "Prototype measurements must qualify rail startup, AVDD overshoot, relay release timing, output/cable stability and calibrated accuracy.",
+    "Older output/validated-revision files are superseded and are not fabrication references."
+  ]
+}

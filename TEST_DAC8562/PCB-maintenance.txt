@@ -1,0 +1,44 @@
+Current design: DAC8562 module.eprj2
+Validated copy: output/pcb-two-zone/DAC8562 module_two_zone_PCB_DRC_clean.eprj2
+Latest report: output/pcb-two-zone/pcb-status.html
+
+Use the existing Board1, schematic page 1 DAC8562, page 2 DAC_MCU, and PCB1.
+The 100x100mm board has DAC8562 above and DAC_MCU below. Shared GND, supply
+and control nets are intentional; this is not galvanically isolated.
+
+2026-10-12: both schematic ERCs and PCB DRC passed after save/close/reopen.
+The user's native Import Changes Apply added Channel ID to all 154 components
+without changing physical layout, tracks, vias or fills. Never replace the PCB
+with older generated source that lacks these native Channel IDs.
+
+Ground copper is stored in six calculated SOLID FILL regions. When relocating
+parts or changing routing, recompute those regions from the current geometry,
+or replace them with properly rebuilt native pours. Do not merely keep an old
+ground polygon beneath newly moved foreign-net copper. Preserve native component
+IDs and Channel IDs and run strict native DRC again after every such change.
+
+The DFM Gerber ZIP is a separate, documented manufacturing-data copy. Only its
+top-silkscreen file was clipped to mask openings + 0.15mm and the board - 0.15mm.
+Copper, masks, outline and drills are byte-identical to the raw native export.
+This does not change the editable library-footprint silk in the CAD project.
+The combined PTH drill already includes vias; Via-only DRL is redundant data.
+Both exports need a fabricator's DFM review before an order. No order was placed.
+
+SMA bodies extend outside the 100x100mm board outline. Retained J1 is a generic
+2x5, 2.54mm female header: verify mating dimensions before purchasing. Specified
+Susumu precision resistors require separate procurement. Outputs are intended
+for high-impedance loads, not 50-ohm termination. Prototype tests must qualify
+startup/overshoot, DAC initialization, relay timing, cable stability and accuracy.
+
+Verification scripts use Node.js, Python 3, Pillow, and Shapely 2.2 for vector
+silkscreen clipping. The local task dependencies were under .tools/pcb-python
+and are intentionally not committed. API action .js files are async function
+bodies for the EasyEDA gateway, not standalone Node.js command-line programs.
+Read .tools/easyeda-api/SKILL.md and the relevant method references before using
+live actions. Do not run source import or native change import blindly.
+
+Older output/validated-revision and separate stm32h747-dac-sma projects are
+superseded. Historical DRC-pending captures exist only as recovery evidence.
+The main project, validated copy, native ERC/DRC evidence and latest report take
+precedence. Remaining SYS_Tool.netlistComparison beta-API inconsistency is
+documented; independent exported Protel pin/net comparison has zero differences.
