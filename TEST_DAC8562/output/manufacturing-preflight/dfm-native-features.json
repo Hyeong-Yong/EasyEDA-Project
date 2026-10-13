@@ -1,0 +1,28 @@
+{
+  "process": "2 layer / 1oz / green, offline not manufacturer approval",
+  "source": "https://jlcpcb.com/capabilities/pcb-",
+  "minimumTrackWidthMm": 0.153162,
+  "publishedMinimumWidthMm": 0.1,
+  "viaDrillRangeMm": [
+    0.30479999999999996,
+    0.30479999999999996
+  ],
+  "minimumViaAnnulusMm": 0.152654,
+  "minimumViaHoleToDifferentNetTrackMm": 0.3059805934364857,
+  "publishedMinimumViaHoleToTrackMm": 0.2,
+  "viaHoleTrackExceptions": [],
+  "minimumViaHoleToViaHoleMm": 0.3352012600000054,
+  "publishedViaHoleToHoleMm": 0.2,
+  "headerHoleNominalMm": 1.100023,
+  "headerPadDiameterMm": 1.7,
+  "headerAnnulusMm": 0.2999885,
+  "headerTailDiagonalApproxMm": 0.8900561780022652,
+  "mountingHoles": 4,
+  "mountingHoleDiameterMm": 3.2,
+  "limitations": [
+    "Native DRC reports only the protected R102 netlist difference, not a fabrication release.",
+    "Soldermask-to-neighboring-track ownership and full paste stencil/assembly DFM not certified.",
+    "Native designator text 0.762mm is below the 1mm manufacturer recommendation; printing readability requires manufacturer review/assembly map.",
+    "SMA bodies protrude from board; mating cable clearance and assembled 3D enclosure fit not certified."
+  ]
+}

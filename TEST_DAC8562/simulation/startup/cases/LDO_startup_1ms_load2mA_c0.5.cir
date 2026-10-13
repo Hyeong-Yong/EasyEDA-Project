@@ -1,0 +1,21 @@
+TI TPS7A4901 Final 1.2 startup screening LDO_startup_1ms_load2mA_c0.5
+.include "../../.tools/TPS7A49_unencrypted/TPS7A4901_TRANS.LIB"
+.options reltol=1e-4 abstol=1e-10 vntol=1e-7 itl4=1000
+VIN vp 0 PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)
+CIN vp 0 10u
+XU2 0 vp fb vp nc nr dnc avdd 0 TPS7A4901_TRANS
+R22 avdd fb 34k
+R23 fb 0 10k
+C14 nr 0 10n
+C27 avdd fb 10n
+COUT avdd 0 5.15u
+RLOAD avdd 0 2607
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 20u 175m 0 20u
+wrdata results/LDO_startup_1ms_load2mA_c0.5.dat v(vp) v(avdd) v(nr) v(fb)
+quit
+.endc
+.end

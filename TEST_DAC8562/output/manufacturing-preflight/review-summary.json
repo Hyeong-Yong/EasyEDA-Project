@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-13",
+  "reviewCompleted": true,
+  "fabricationReleased": false,
+  "status": "Review checkpoint; fabrication HOLD",
+  "parts": 154,
+  "symbolInstances": 158,
+  "bomGroups": 53,
+  "schematicGlobalWarnings": 1,
+  "schematicErrors": 0,
+  "pcbNetlistErrors": 1,
+  "otherNativePcbDrcGroups": 0,
+  "protectedR102NotChanged": true,
+  "physicalCopperShorts": 0,
+  "physicalCopperDisconnectedNets": 0,
+  "startupOnlyCases": 24,
+  "startupOnlySolverPasses": 24,
+  "startupOnlyRangePasses": 24,
+  "startupPeakAvddV": 5.246308814858,
+  "combinedCases": 27,
+  "combinedSolverFailures": [
+    "LDO_rise0.1ms_load20mA_c0.5",
+    "LDO_rise1ms_load2mA_c1",
+    "LDO_rise10ms_load20mA_c1",
+    "LDO_rise100ms_load2mA_c1",
+    "LDO_rise100ms_load10mA_c1",
+    "LDO_rise100ms_load20mA_c0.5",
+    "LDO_brownout_load2mA"
+  ],
+  "ldoSupplyAssumptions": "Ideal prescribed 0.1/1/10/100ms input ramps; 2/10/20mA resistive output loads; COUT factor 0.5/1, CNR 10nF, CFF 10nF. TI model VREF 1.192V retained, distinct from datasheet typical 1.185V.",
+  "panelDecision": "Single 100x100mm, 2 layers; no panel copies or mouse-bites, Panel1 unchanged",
+  "checkpoint": {
+    "nativeCheckpoint": "DAC8562_review_checkpoint_R102_pending.eprj2",
+    "sha256": "1a5c75f4b282ee721be110aab8978c64d3447d359cf018c3333dfc8a2b27fe68",
+    "integrityCheck": "ok",
+    "fabricationReleased": false,
+    "portableCheckpoint": "DAC8562_review_checkpoint_R102_pending.epro2",
+    "portableSha256": "b9e12863ad004583e6b140b5306b0cdc88c25f3d1ffc092e664930837613d49f"
+  },
+  "limitations": [
+    "R102.1 미연결은 사용자 요청으로 수정하지 않았습니다. 회로도 ERC Warning 1건 및 PCB Netlist Error 1건이 남아 있으므로 제작 보류입니다.",
+    "U3 솔더마스크는 API 편집 화면/현재 Gerber에서는 1mil로 수정되지만 저장 프로젝트 export의 풋프린트 PAD는 2.008mil을 유지했습니다. 마스크 수정의 CAD 저장은 완료하지 못했습니다. 편집 화면 소스와 실제 export를 대조해 발견한 제한이며, 재생성하면 좁은 간격이 재발할 수 있습니다. CAD 풋프린트에서 10개 패드 상면 확장을 0.0254mm로 저장한 뒤 새 Gerber 재검사가 필요합니다.",
+    "현재 검토용 Gerber는 0.10mm 미만 마스크 브리지 0곳입니다. 프로젝트 저장 재현성 문제가 있어 제작 승인 Gerber가 아니며 주문에 사용하지 마십시오.",
+    "PCB 부품 번호 실크는 0.762mm로 제조사 권장 1mm보다 작습니다. 실크 패드 간격은 보정했지만 작은 글자는 일부 잘릴 수 있습니다. 제조사 실크 검토 및 조립 참조도가 필요합니다.",
+    "마스크 개구와 이웃 네트 트랙의 소유권별 검사, 전체 스텐실/실장 DFM, SMA 케이블·기구물 3D 간섭은 승인하지 않았습니다. 제조사 서버에 업로드하거나 주문하지 않았습니다.",
+    "Q2 2N7002P,215는 Nexperia Not For Design In(NRND) 상태입니다. 단종 확인과는 다르며 이번 시제품 BOM에는 유지했습니다. 지속 생산용이면 대체품 조달 검토가 남습니다.",
+    "수동 조달되는 Susumu/YAGEO/Samtec 부품은 정확한 설계 MPN을 선택했지만 재고 예약, 납기, 가격, 실장업체 승인까지 확정한 것은 아닙니다.",
+    "TPS65131의 공식 스위칭 모델을 제조사 제공 목록에서 찾지 못했습니다. 인덕터 포화/실제 리플/입력 돌입/열/MLCC DC-bias를 포함한 전체 전원 기동 보증은 하지 않습니다.",
+    "전원 하강·브라운아웃 27건 중 7건은 TI 모델 UVLO 불연속에서 수렴 실패했습니다. 성공으로 집계하지 않았고 종료 시 출력 무글리치를 보증하지 않습니다.",
+    "PGOOD은 DAC 초기화 완료 신호가 아닙니다. 전원 정상 확인 후 mute 상태에서 SPI/DAC 초기화·안정화를 완료하고 출력 enable을 켜야 하며, PGOOD 하강 시 enable을 내리고 회복 때 재초기화해야 합니다. 릴레이/플라이백 다이오드의 지연과 바운스는 모델링하지 않았습니다.",
+    "이전 아날로그 58건 시뮬레이션은 R102가 의도대로 연결된 회로를 전제로 합니다. 현재 미연결 회로의 입력 탈락 동작 검증 결과로 사용할 수 없습니다. 측정·보정·케이블 안정성·기동/종료 실측은 이번 범위에서 제외했습니다."
+  ],
+  "sources": {
+    "manufacturing": "https://jlcpcb.com/capabilities/pcb-",
+    "ldo": "https://www.ti.com/product/TPS7A49",
+    "model": "https://www.ti.com/lit/zip/sbvm528",
+    "dcDc": "https://www.ti.com/product/TPS65131",
+    "header": "https://suddendocs.samtec.com/prints/ssw-d.pdf",
+    "precisionResistors": "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf",
+    "q2": "https://www.nexperia.com/product/2N7002P"
+  }
+}

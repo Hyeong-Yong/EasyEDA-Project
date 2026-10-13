@@ -9,7 +9,8 @@ from shapely.geometry import Point,LineString,Polygon,box
 from shapely.affinity import rotate,translate,scale
 from shapely.ops import unary_union
 from shapely.strtree import STRtree
-capture=json.loads((m.OUT/'pcb-native-review.json').read_text(encoding='utf8'))
+if len(sys.argv)>1:m.OUT=Path(sys.argv[1]).resolve()
+capture=json.loads((m.OUT/(sys.argv[2] if len(sys.argv)>2 else 'pcb-native-review.json')).read_text(encoding='utf8'))
 doc=next(iter(m.io.documents(capture['source']).values()));aa=m.io.attrs(doc)
 schematic=json.loads((m.OUT/'source-audit.json').read_text(encoding='utf8'))['pinNets']
 padnets={}
@@ -67,7 +68,9 @@ netgroups=defaultdict(lambda:defaultdict(list))
 for i,n in enumerate(nodes):
     if n['pin']:netgroups[n['net']][root(i)].append(n['pin'])
 disconnected={net:list(groups.values()) for net,groups in netgroups.items() if len(groups)>1}
-before=json.loads((m.OUT/'before-pcb.json').read_text(encoding='utf8'))
+before_path=m.OUT/'before-pcb.json'
+if not before_path.exists():before_path=m.ROOT/'output/readability/before-pcb.json'
+before=json.loads(before_path.read_text(encoding='utf8'))
 unchanged=m.io.data_hash(next(iter(m.io.documents(before['source']).values())))==m.io.data_hash(doc)
 bd=next(iter(m.io.documents(before['source']).values()));physical_changes=[]
 for k in set(bd['records'])|set(doc['records']):

@@ -1,0 +1,59 @@
+{
+  "layers": [
+    {
+      "layer": "Gerber_TopLayer.GTL",
+      "symmetricDifferenceAreaMm2": 0.014845303364803374,
+      "hausdorffDistanceMm": 0.0015632851627213446,
+      "oldBounds": [
+        0.49996799999999997,
+        0.499999,
+        99.50003,
+        99.499999
+      ],
+      "newBounds": [
+        0.49996799999999997,
+        0.499999,
+        99.50003,
+        99.499999
+      ]
+    },
+    {
+      "layer": "Gerber_BottomLayer.GBL",
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffDistanceMm": 0.0,
+      "oldBounds": [
+        0.49996799999999997,
+        0.499999,
+        99.50003,
+        99.499999
+      ],
+      "newBounds": [
+        0.49996799999999997,
+        0.499999,
+        99.50003,
+        99.499999
+      ]
+    },
+    {
+      "layer": "Gerber_BoardOutlineLayer.GKO",
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffDistanceMm": 0.0,
+      "oldBounds": [
+        -0.127,
+        -0.127,
+        100.12700099999999,
+        100.12700099999999
+      ],
+      "newBounds": [
+        -0.127,
+        -0.127,
+        100.12700099999999,
+        100.12700099999999
+      ]
+    }
+  ],
+  "explanation": "Native master component/pad/trace/via/fill and pad-net records are unchanged. Gerber uses unstable unused aperture definitions and quantized generated pad dimensions. Actual layer geometry is compared separately. Not a byte-identical CAM claim.",
+  "fabricationReleased": false,
+  "maximumBoundaryDeviationMm": 0.0015632851627213446,
+  "exactGeometryEquality": false
+}

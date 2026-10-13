@@ -4,10 +4,14 @@ const root = path.resolve(import.meta.dirname, '..');
 const targetUuid = 'dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03';
 const output = path.join(root, 'output/schematic-correction');
 await fs.mkdir(output, {recursive:true});
-const [action, ...args] = process.argv.slice(2);
+const cli = process.argv.slice(2);
+let requestedWindow;
+if(cli[0]==='--window-id'){cli.shift();requestedWindow=cli.shift();}
+const [action, ...args] = cli;
 const inventory = await (await fetch('http://127.0.0.1:49620/eda-windows')).json();
-if(inventory.count!==1) throw new Error('Exactly one connected EasyEDA window is required.');
-const windowId = inventory.windows[0].windowId;
+if(!requestedWindow&&inventory.count!==1) throw new Error('Exactly one connected EasyEDA window or an explicit verified --window-id is required.');
+if(requestedWindow&&!inventory.windows.some(w=>w.windowId===requestedWindow&&w.connected))throw new Error('Specified EasyEDA window is not connected');
+const windowId = requestedWindow||inventory.windows[0].windowId;
 async function run(code) {
   const guard=`const p=await eda.dmt_Project.getCurrentProjectInfo();if(p?.uuid!==${JSON.stringify(targetUuid)}||p.friendlyName!=="DAC8562 module")throw new Error("Refusing to modify a different project");`;
   const response=await (await fetch('http://127.0.0.1:49620/execute',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({windowId,code:guard+code})})).json();
@@ -45,5 +49,5 @@ if(action==='code') {
   result=await run(`const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();if(d?.uuid!=="4e08f91f9a2c4fe4"||d.documentType!==3)throw new Error("Wrong PCB");const f=await eda.pcb_ManufactureData.getDsnFile("two-zone");if(!f)throw new Error("DSN export failed");return {saved:await eda.sys_FileSystem.saveFileToFileSystem(${JSON.stringify(destination)},f,undefined,false),size:f.size};`);
 } else throw new Error('Unknown action: '+action);
 if(action==='code'&&args[1]) await fs.writeFile(args[1],JSON.stringify(result,null,2));
-const summary=result?.source?{...Object.fromEntries(Object.entries(result).filter(([k])=>!['source','beforeSource','comparison','netlist','components','pads'].includes(k))),sourceLength:result.source.length}:result?.pages?{...result,pages:result.pages.map(({source,netlist,...p})=>({...p,sourceLength:source?.length,netlistLength:netlist?.length}))}:result?.netlist?{...Object.fromEntries(Object.entries(result).filter(([k])=>k!=='netlist')),netlistLength:result.netlist.length}:result;
+const summary=result?.source?{...Object.fromEntries(Object.entries(result).filter(([k])=>!['source','beforeSource','comparison','netlist','components','pads'].includes(k))),sourceLength:result.source.length}:result?.pages?{...result,pages:result.pages.map(({source,netlist,wires,...p})=>({...p,sourceLength:source?.length,netlistLength:netlist?.length,wireCount:wires?.length}))}:result?.netlist?{...Object.fromEntries(Object.entries(result).filter(([k])=>k!=='netlist')),netlistLength:result.netlist.length}:result;
 console.log(JSON.stringify(summary,null,2));

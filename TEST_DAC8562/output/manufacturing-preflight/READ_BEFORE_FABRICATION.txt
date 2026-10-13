@@ -1,0 +1,13 @@
+FABRICATION HOLD / 제작 보류 — 2026-10-13
+This is a DFM REFERENCE ONLY, NOT AN APPROVED ORDER ZIP.
+R102.1 remains intentionally unmodified/unconnected at the user's instruction.
+Native ERC has 1 warning and PCB has 1 schematic-netlist mismatch.
+U3 mask edits appear in this reference CAM but did not persist in the project's
+exported footprint PAD definitions. Regeneration may restore the 8 close gaps.
+The exact CAD footprint must be fixed, saved and regenerated before fabrication.
+Native top-CAM pad generation also has micron-level rounding differences; the
+native copper master records were not edited. See review-summary and CAM proof.
+Silkscreen ref text 0.762mm is below the manufacturer's 1mm recommendation.
+Manufacturer DFM / assembler approval / procurement stock are not confirmed.
+Combined PTH contains vias; Via-only DRL is redundant, not a second drill pass.
+Do not order from this ZIP. Use the reviewed, regenerated, synchronized release.

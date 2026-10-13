@@ -1,0 +1,249 @@
+{
+  "model": "Unmodified TI TPS7A4901_TRANS Final 1.2, SBVM528A",
+  "source": "https://www.ti.com/lit/zip/sbvm528",
+  "capacitance": "COUT=10.3uF nominal (C15+C16+C28+C29); 0.5x/1x assumed effective capacity, NOT measured MLCC bias",
+  "load": "Resistive loads corresponding to 2/10/20mA at 5.214V; not a dynamic full-board current model",
+  "input": "Prescribed ideal VPOS12 ramp, NOT TPS65131 switch-mode simulation",
+  "jobs": [
+    {
+      "name": "LDO_startup_0.1ms_load2mA_c0.5",
+      "riseMs": 0.1,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_0.1ms_load2mA_c1",
+      "riseMs": 0.1,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_0.1ms_load10mA_c0.5",
+      "riseMs": 0.1,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_0.1ms_load10mA_c1",
+      "riseMs": 0.1,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_0.1ms_load20mA_c0.5",
+      "riseMs": 0.1,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_0.1ms_load20mA_c1",
+      "riseMs": 0.1,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_1ms_load2mA_c0.5",
+      "riseMs": 1,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_1ms_load2mA_c1",
+      "riseMs": 1,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_1ms_load10mA_c0.5",
+      "riseMs": 1,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_1ms_load10mA_c1",
+      "riseMs": 1,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_1ms_load20mA_c0.5",
+      "riseMs": 1,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_1ms_load20mA_c1",
+      "riseMs": 1,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_10ms_load2mA_c0.5",
+      "riseMs": 10,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_10ms_load2mA_c1",
+      "riseMs": 10,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_10ms_load10mA_c0.5",
+      "riseMs": 10,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_10ms_load10mA_c1",
+      "riseMs": 10,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_10ms_load20mA_c0.5",
+      "riseMs": 10,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_10ms_load20mA_c1",
+      "riseMs": 10,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_100ms_load2mA_c0.5",
+      "riseMs": 100,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_100ms_load2mA_c1",
+      "riseMs": 100,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_100ms_load10mA_c0.5",
+      "riseMs": 100,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_100ms_load10mA_c1",
+      "riseMs": 100,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_100ms_load20mA_c0.5",
+      "riseMs": 100,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_startup_100ms_load20mA_c1",
+      "riseMs": 100,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_only",
+      "exitCode": 0,
+      "solverPassed": true
+    }
+  ]
+}

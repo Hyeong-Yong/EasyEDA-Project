@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-13",
+  "schematicWarnings": [
+    {
+      "type": "warn",
+      "count": 1
+    }
+  ],
+  "cadWarningInterpretation": "One global schematic warning: protected R102.1 singleton $2N434 confirmed. The same global warning is returned when either schematic page is active; do not add these two counts.",
+  "schematicPinDifferencesFromPriorCommittedValidNetlist": {
+    "R102.1": {
+      "lastCommittedSchematic": "MCU_RECEIVE_A",
+      "currentSchematic": "$2N434"
+    }
+  },
+  "protectedR102PayloadsUnchanged": [
+    [
+      "COMPONENT",
+      "f0e7ec41305e4c9d"
+    ],
+    [
+      "ATTR",
+      "f8c03e8e4cea423a"
+    ],
+    [
+      "ATTR",
+      "06468d0fdd284a09"
+    ],
+    [
+      "ATTR",
+      "be6d5242bbff4f7f"
+    ],
+    [
+      "ATTR",
+      "7fe2631174904eaa"
+    ],
+    [
+      "ATTR",
+      "c1087d9cc6184f18"
+    ],
+    [
+      "ATTR",
+      "ae05adc986784a28"
+    ],
+    [
+      "ATTR",
+      "55a671c5fb704fe5"
+    ],
+    [
+      "ATTR",
+      "f65ba4e182d04aaa"
+    ],
+    [
+      "ATTR",
+      "74bcce1e311d4e7a"
+    ],
+    [
+      "ATTR",
+      "4dbf644b20084d15"
+    ],
+    [
+      "ATTR",
+      "22cbcdcecc6e4e36"
+    ],
+    [
+      "ATTR",
+      "8f6bb563f590488f"
+    ],
+    [
+      "ATTR",
+      "1ab1de6fad46404d"
+    ],
+    [
+      "ATTR",
+      "f84ed458f862458d"
+    ],
+    [
+      "ATTR",
+      "164eb7127f324f75"
+    ],
+    [
+      "ATTR",
+      "2d7cabb2b7294c41"
+    ],
+    [
+      "ATTR",
+      "1e057019ae5d4529"
+    ],
+    [
+      "ATTR",
+      "dc856775746747b6"
+    ],
+    [
+      "ATTR",
+      "fce62b8deb464aee"
+    ],
+    [
+      "ATTR",
+      "16ed8436d9874260"
+    ],
+    [
+      "ATTR",
+      "3906b6e625a24bc1"
+    ],
+    [
+      "ATTR",
+      "753e7d5f5fbf4b82"
+    ],
+    [
+      "ATTR",
+      "422dfdef8a514790"
+    ],
+    [
+      "ATTR",
+      "298754b763cb4e0e"
+    ],
+    [
+      "ATTR",
+      "5ad18b3622044bad"
+    ],
+    [
+      "ATTR",
+      "0bac97f6137649a4"
+    ],
+    [
+      "ATTR",
+      "dd8487932a3849ee"
+    ],
+    [
+      "ATTR",
+      "dbaabcd3c58b48e2"
+    ],
+    [
+      "ATTR",
+      "ee6922ae0df54472"
+    ],
+    [
+      "ATTR",
+      "e5adf23bcec64d9f"
+    ],
+    [
+      "ATTR",
+      "4e6c51bd25b84cfb"
+    ],
+    [
+      "WIRE",
+      "2499435c58e74be8"
+    ],
+    [
+      "ATTR",
+      "cec63523b5ac849c"
+    ],
+    [
+      "LINE",
+      "ad2fc6e173fa4f13"
+    ]
+  ],
+  "pcbPadNetCopperGeometryUnchanged": true,
+  "onlyPcbManufacturingAttributeEdits": [],
+  "dacMaskExpansion": {
+    "scope": "DFM Gerber reference only; U3 virtual mask set to 1mil",
+    "referenceGerberExpansionMm": 0.0254,
+    "nativeFootprintRetainsExpansionMil": 2.008,
+    "nativeMaskCorrectionPersisted": false,
+    "bottomPasteAndViaRulesUnchanged": true,
+    "limitation": "Virtual pad and source rule edits were not serialized in the project export. Actual CAD footprint master must be updated and its regenerated CAM reviewed before fabrication."
+  },
+  "nativeCamFilesEquivalentAfterRemovingComments": [
+    "Drill_PTH_Through.DRL",
+    "Drill_NPTH_Through.DRL",
+    "Drill_PTH_Through_Via.DRL"
+  ],
+  "nativeCamSerializationDifferencesRequireGeometryComparison": [
+    "Gerber_BoardOutlineLayer.GKO",
+    "Gerber_BottomLayer.GBL",
+    "Gerber_TopLayer.GTL"
+  ],
+  "componentDesignatorSilkFontHeightsMm": {
+    "0.762": 154
+  },
+  "silkLegibilityLimitation": "JLC recommendation >=1.0mm height and 0.15mm stroke: retained densely packed designator fonts are smaller; some text is clipped for pad clearance. Assembly drawing/native ref map required, manufacturer silkscreen review pending.",
+  "nativePrimitiveCounts": {
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "NET": 91,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 91,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 134,
+    "PAD": 4,
+    "LINE": 1733,
+    "POLY": 1,
+    "FILL": 6,
+    "REGION": 8,
+    "POUR": 2,
+    "STRING": 11,
+    "COMPONENT": 154,
+    "ATTR": 462,
+    "PAD_NET": 489
+  },
+  "bomGroups": 53,
+  "fabricationReleased": false
+}

@@ -1,0 +1,279 @@
+{
+  "model": "Unmodified TI TPS7A4901_TRANS Final 1.2, SBVM528A",
+  "source": "https://www.ti.com/lit/zip/sbvm528",
+  "capacitance": "COUT=10.3uF nominal (C15+C16+C28+C29); 0.5x/1x assumed effective capacity, NOT measured MLCC bias",
+  "load": "Resistive loads corresponding to 2/10/20mA at 5.214V; not a dynamic full-board current model",
+  "input": "Prescribed ideal VPOS12 ramp, NOT TPS65131 switch-mode simulation",
+  "jobs": [
+    {
+      "name": "LDO_rise0.1ms_load2mA_c0.5",
+      "riseMs": 0.1,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise0.1ms_load2mA_c1",
+      "riseMs": 0.1,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise0.1ms_load10mA_c0.5",
+      "riseMs": 0.1,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise0.1ms_load10mA_c1",
+      "riseMs": 0.1,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise0.1ms_load20mA_c0.5",
+      "riseMs": 0.1,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "LDO_rise0.1ms_load20mA_c1",
+      "riseMs": 0.1,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 0.6m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise1ms_load2mA_c0.5",
+      "riseMs": 1,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise1ms_load2mA_c1",
+      "riseMs": 1,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "LDO_rise1ms_load10mA_c0.5",
+      "riseMs": 1,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise1ms_load10mA_c1",
+      "riseMs": 1,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise1ms_load20mA_c0.5",
+      "riseMs": 1,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise1ms_load20mA_c1",
+      "riseMs": 1,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise10ms_load2mA_c0.5",
+      "riseMs": 10,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise10ms_load2mA_c1",
+      "riseMs": 10,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise10ms_load10mA_c0.5",
+      "riseMs": 10,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise10ms_load10mA_c1",
+      "riseMs": 10,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise10ms_load20mA_c0.5",
+      "riseMs": 10,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise10ms_load20mA_c1",
+      "riseMs": 10,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 10.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "LDO_rise100ms_load2mA_c0.5",
+      "riseMs": 100,
+      "loadMa": 2,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise100ms_load2mA_c1",
+      "riseMs": 100,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "LDO_rise100ms_load10mA_c0.5",
+      "riseMs": 100,
+      "loadMa": 10,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_rise100ms_load10mA_c1",
+      "riseMs": 100,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "LDO_rise100ms_load20mA_c0.5",
+      "riseMs": 100,
+      "loadMa": 20,
+      "capacitanceFactor": 0.5,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "LDO_rise100ms_load20mA_c1",
+      "riseMs": 100,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 100.5m 12 180m 12 181m 0 300m 0)",
+      "scenario": "startup_and_shutdown",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_brownout_load2mA",
+      "riseMs": 1,
+      "loadMa": 2,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 100m 12 101m 2 140m 2 141m 12 250m 12 251m 0 300m 0)",
+      "scenario": "brownout_mcu_stays_powered",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "LDO_brownout_load10mA",
+      "riseMs": 1,
+      "loadMa": 10,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 100m 12 101m 2 140m 2 141m 12 250m 12 251m 0 300m 0)",
+      "scenario": "brownout_mcu_stays_powered",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "LDO_brownout_load20mA",
+      "riseMs": 1,
+      "loadMa": 20,
+      "capacitanceFactor": 1,
+      "vin": "PWL(0 0 .5m 0 1.5m 12 100m 12 101m 2 140m 2 141m 12 250m 12 251m 0 300m 0)",
+      "scenario": "brownout_mcu_stays_powered",
+      "exitCode": 0,
+      "solverPassed": true
+    }
+  ]
+}

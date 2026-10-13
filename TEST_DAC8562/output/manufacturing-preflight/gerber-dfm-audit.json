@@ -1,0 +1,142 @@
+{
+  "status": "Native Gerber export parsed; visual review required",
+  "layers": {
+    "GTL": {
+      "regions": 3,
+      "flashes": 627,
+      "draws": 25575,
+      "coordinateBoundsMm": [
+        0.499999,
+        0.499999,
+        99.499999,
+        99.499999
+      ]
+    },
+    "GBL": {
+      "regions": 3,
+      "flashes": 198,
+      "draws": 12881,
+      "coordinateBoundsMm": [
+        0.499999,
+        0.499999,
+        99.499999,
+        99.499999
+      ]
+    },
+    "GTO": {
+      "regions": 961,
+      "flashes": 0,
+      "draws": 229631,
+      "coordinateBoundsMm": [
+        0.15,
+        3.000015,
+        99.85,
+        99.142984
+      ]
+    },
+    "GTS": {
+      "regions": 0,
+      "flashes": 493,
+      "draws": 0,
+      "coordinateBoundsMm": [
+        1.599966,
+        5.0,
+        98.400032,
+        96.270001
+      ]
+    },
+    "GKO": {
+      "regions": 0,
+      "flashes": 0,
+      "draws": 4,
+      "coordinateBoundsMm": [
+        0.0,
+        0.0,
+        100.000001,
+        100.000001
+      ]
+    }
+  },
+  "npthHolesMm": [
+    [
+      5.0,
+      5.0
+    ],
+    [
+      95.000001,
+      5.0
+    ],
+    [
+      5.0,
+      95.000001
+    ],
+    [
+      95.000001,
+      95.000001
+    ]
+  ],
+  "viaDrillCount": 134,
+  "platedDrillCount": 194,
+  "viaDrillsIncludedInCombinedPthFile": true,
+  "silkscreenWithinApprox015mmOfMaskPixels": 12987,
+  "pixelSizeMm": 0.041666666666666664,
+  "unsupportedRecords": 0,
+  "files": [
+    {
+      "name": "Gerber_TopLayer.GTL",
+      "bytes": 701315
+    },
+    {
+      "name": "Gerber_BottomLayer.GBL",
+      "bytes": 340270
+    },
+    {
+      "name": "Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 5996942
+    },
+    {
+      "name": "Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 641
+    },
+    {
+      "name": "Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 16217
+    },
+    {
+      "name": "Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 2858
+    },
+    {
+      "name": "Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 132549
+    },
+    {
+      "name": "Gerber_BoardOutlineLayer.GKO",
+      "bytes": 754
+    },
+    {
+      "name": "Gerber_DocumentLayer.GDL",
+      "bytes": 6206
+    },
+    {
+      "name": "Drill_PTH_Through.DRL",
+      "bytes": 4255
+    },
+    {
+      "name": "Drill_NPTH_Through.DRL",
+      "bytes": 272
+    },
+    {
+      "name": "Drill_PTH_Through_Via.DRL",
+      "bytes": 2979
+    },
+    {
+      "name": "FlyingProbeTesting.json",
+      "bytes": 141468
+    },
+    {
+      "name": "PCB下单必读.txt",
+      "bytes": 97
+    }
+  ]
+}
