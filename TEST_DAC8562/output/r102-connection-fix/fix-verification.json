@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-13",
+  "r102CorrectConnection": "MCU_RECEIVE_A -> R102 (10Mohm) -> MCU_VBIAS",
+  "schematicErcPassed": true,
+  "schematicErcWarnings": 0,
+  "schematicErcErrors": 0,
+  "pinChanges": {
+    "R102.1": [
+      "$2N434",
+      "MCU_RECEIVE_A"
+    ]
+  },
+  "redTJunctionVerifiedInNativeSvg": true,
+  "savedClosedReopened": true,
+  "portableExportPersistsConnection": true,
+  "nativeCheckpoint": "DAC8562_R102_connected.eprj2",
+  "nativeSha256": "08810119d5093a0c51feb501e9eff38fccc8f3714689414954dc0a32cdedb6b3",
+  "portableExport": "DAC8562_R102_connected.epro2",
+  "portableSha256": "ebc6cec01e34e5902c82820d1b3ec957badb69c413e5551b5b7151308d73969b",
+  "pcbPrimitivesUnchanged": true,
+  "pcbPadCount": 489,
+  "connectedPcbPinsMatchingSchematic": 481,
+  "electricalPinNetDifferences": 0,
+  "nativePcbDrcPassed": false,
+  "nativePcbDrcDetails": [
+    {
+      "name": "Netlist Error",
+      "list": [
+        {
+          "name": "Netlist Error",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Netlist Error",
+              "errorObjType": "Netlist Error",
+              "ruleName": "Import Changes",
+              "ruleTypeName": "Import Changes",
+              "obj1": {
+                "typeName": "Schematic Netlist",
+                "suffix": ""
+              },
+              "obj2": {
+                "typeName": "PCB Netlist",
+                "suffix": ""
+              },
+              "objs": [
+                "err1"
+              ],
+              "explanation": {
+                "str": "PCB and schematic netlist does not match. You can click on the rule name \"Import Changes\" to view the difference.",
+                "param": {}
+              },
+              "globalIndex": "err1",
+              "parentId": "DRCTab|_|Errors|_|Netlist Error|_|Netlist Error"
+            }
+          ],
+          "count": 1,
+          "title": [
+            "Netlist Error",
+            "(1)"
+          ],
+          "visible": true
+        }
+      ],
+      "visible": true,
+      "count": 1,
+      "title": [
+        "Netlist Error",
+        "(1)"
+      ]
+    }
+  ],
+  "pcbRemainingLimitation": "Native Netlist Error indicator remains 1 despite 481 actual connected pin nets matching. No cause is asserted without the GUI change-comparison details. PCB copper/layout/parts were not altered.",
+  "simulationMeaning": "Nonconvergence is an incomplete mathematical calculation, not an observed board malfunction. These seven runs abort near the LDO UVLO/enable model mode transition on final power-off. Discontinuous model behavior/numerical convergence is a supported inference, not proof of the exact root cause or actual shutdown safety.",
+  "startupOnlyScreensPassed": 24,
+  "mixedSolverFailures": [
+    {
+      "case": "LDO_rise0.1ms_load20mA_c0.5",
+      "failureTimeMs": 180.758,
+      "error": "doAnalyses: TRAN:  Timestep too small; time = 0.180758, timestep = 2.4152e-17: trouble with node \"vin#branch\"",
+      "phase": "final power-off ramp; not the earlier brownout event"
+    },
+    {
+      "case": "LDO_rise1ms_load2mA_c1",
+      "failureTimeMs": 180.758,
+      "error": "doAnalyses: TRAN:  Timestep too small; time = 0.180758, timestep = 3.39411e-17: trouble with node \"vin#branch\"",
+      "phase": "final power-off ramp; not the earlier brownout event"
+    },
+    {
+      "case": "LDO_rise10ms_load20mA_c1",
+      "failureTimeMs": 180.758,
+      "error": "doAnalyses: TRAN:  Timestep too small; time = 0.180758, timestep = 2.47654e-17: trouble with node \"vin#branch\"",
+      "phase": "final power-off ramp; not the earlier brownout event"
+    },
+    {
+      "case": "LDO_rise100ms_load2mA_c1",
+      "failureTimeMs": 180.758,
+      "error": "doAnalyses: TRAN:  Timestep too small; time = 0.180758, timestep = 6.1695e-17: trouble with node \"xu2.vin_en_ok\"",
+      "phase": "final power-off ramp; not the earlier brownout event"
+    },
+    {
+      "case": "LDO_rise100ms_load10mA_c1",
+      "failureTimeMs": 180.758,
+      "error": "doAnalyses: TRAN:  Timestep too small; time = 0.180758, timestep = 2.68159e-17: trouble with node \"vin#branch\"",
+      "phase": "final power-off ramp; not the earlier brownout event"
+    },
+    {
+      "case": "LDO_rise100ms_load20mA_c0.5",
+      "failureTimeMs": 180.758,
+      "error": "doAnalyses: TRAN:  Timestep too small; time = 0.180758, timestep = 2.4e-17: trouble with node \"xu2.vin_en_ok\"",
+      "phase": "final power-off ramp; not the earlier brownout event"
+    },
+    {
+      "case": "LDO_brownout_load2mA",
+      "failureTimeMs": 250.75799999999998,
+      "error": "doAnalyses: TRAN:  Timestep too small; time = 0.250758, timestep = 5.79655e-17: trouble with node \"xu2.vin_en_ok\"",
+      "phase": "final power-off ramp; not the earlier brownout event"
+    }
+  ],
+  "source": "https://techweb.rohm.com/product/circuit-design/simulation/8143/",
+  "fabricationReleased": false,
+  "otherExistingHolds": "Native soldermask persistence and manufacturer silk/assembly DFM remain unchanged; see prior manufacturing-preflight review."
+}

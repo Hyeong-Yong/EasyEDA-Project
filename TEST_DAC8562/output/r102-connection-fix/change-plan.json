@@ -1,0 +1,28 @@
+{
+  "backup": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\backups\\DAC8562_before_R102_connection_fix_2026-10-13.eprj2",
+  "backupSha256": "1a5c75f4b282ee721be110aab8978c64d3447d359cf018c3333dfc8a2b27fe68",
+  "page": "DAC_MCU",
+  "change": "R102.1: singleton $2N434 -> MCU_RECEIVE_A",
+  "junction": {
+    "x": 490,
+    "y": -1820,
+    "sharedWireParent": "13478fd0989e44f0",
+    "horizontalWireSplitAtT": true
+  },
+  "unchanged": "All component/part/BOM attributes, R102 value, lower MCU_VBIAS wire, unrelated wiring and all PCB copper.",
+  "removedUnconnectedBranchRecords": [
+    [
+      "WIRE",
+      "2499435c58e74be8"
+    ],
+    [
+      "ATTR",
+      "cec63523b5ac849c"
+    ]
+  ],
+  "changedLineIds": [
+    "ebc43c3410044772",
+    "ad2fc6e173fa4f13",
+    "dbe06dea4eed48ab"
+  ]
+}

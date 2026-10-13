@@ -1,7 +1,8 @@
 """Render actual native SVG export for final schematic visual inspection."""
 import json,sys,xml.etree.ElementTree as ET
 from pathlib import Path
-root=Path(__file__).resolve().parents[1];out=root/'output/manufacturing-preflight'
+root=Path(__file__).resolve().parents[1];out=Path(sys.argv[2]) if len(sys.argv)>2 else root/'output/manufacturing-preflight'
+out.mkdir(parents=True,exist_ok=True)
 sys.path.insert(0,str(root/'.tools/pcb-python'))
 import pymupdf
 results=[]

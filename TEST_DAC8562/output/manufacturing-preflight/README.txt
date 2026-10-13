@@ -1,4 +1,10 @@
-Latest review: preflight-report.html / review-summary.json.
+UPDATE: R102 was subsequently connected at the user's instruction.
+Latest R102 result: ../r102-connection-fix/fix-status.html.
+Current schematic ERC is 0; actual connected PCB pin nets match (481 pins).
+Native PCB comparison indicator 1 and existing DFM limitations remain.
+The following preflight report/data are retained as historical review evidence.
+
+Earlier review: preflight-report.html / review-summary.json.
 CAD original: ../../DAC8562 module.eprj2.
 This folder contains review checkpoints, NOT a fabrication-approved release.
 

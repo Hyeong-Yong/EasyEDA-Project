@@ -1,0 +1,16 @@
+await eda.dmt_EditorControl.openDocument('e3a1c5f417017755');
+let d=await eda.dmt_SelectControl.getCurrentDocumentInfo();
+if(d?.uuid!=='e3a1c5f417017755'||d.documentType!==1)throw new Error('Wrong schematic');
+if(!await eda.sch_Drc.check(true,false,false))throw new Error('Schematic ERC must pass');
+const ESYS_NetlistType={PROTEL2:'Protel2'};
+const netlist=await eda.sch_Netlist.getNetlist(ESYS_NetlistType.PROTEL2);
+await eda.dmt_EditorControl.openDocument('4e08f91f9a2c4fe4');
+d=await eda.dmt_SelectControl.getCurrentDocumentInfo();
+if(d?.uuid!=='4e08f91f9a2c4fe4'||d.documentType!==3)throw new Error('Wrong PCB');
+const beforeSource=await eda.sys_FileManager.getDocumentSource();
+const updated=await eda.pcb_Net.setNetlist(ESYS_NetlistType.PROTEL2,netlist);
+if(!updated)throw new Error('Netlist update failed');
+if(!await eda.pcb_Document.save())throw new Error('Save failed; will not close');
+await eda.dmt_EditorControl.closeDocument(d.tabId);
+const reopened=await eda.dmt_EditorControl.openDocument('4e08f91f9a2c4fe4');
+return {updated,reopened,beforeSource,source:await eda.sys_FileManager.getDocumentSource(),passed:await eda.pcb_Drc.check(true,true,false),details:await eda.pcb_Drc.check(true,true,true)};
