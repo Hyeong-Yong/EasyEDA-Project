@@ -1,0 +1,10 @@
+await eda.dmt_EditorControl.openDocument('4e08f91f9a2c4fe4');
+const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();
+if(d?.uuid!=='4e08f91f9a2c4fe4'||d.documentType!==3)throw new Error('Wrong PCB');
+if(!await eda.pcb_Drc.check(true,true,false))throw new Error('DRC must pass before export');
+const f=await eda.pcb_ManufactureData.getGerberFile('DAC8562_DAC_MCU_100x100_final');
+if(!f)throw new Error('Gerber export failed');
+const destination='C:/Dev/EasyEDA/EasyEDA-Project/TEST_DAC8562/output/final-review/DAC8562_DAC_MCU_100x100_final_Gerber.zip';
+const saved=await eda.sys_FileSystem.saveFileToFileSystem(destination,f,undefined,false);
+if(!saved)throw new Error('Gerber save failed or destination exists');
+return {saved,size:f.size,name:f.name};

@@ -152,7 +152,7 @@ def render(text, vector=False):
     return image, stats, unary_union(geometry) if vector else None
 
 
-def audit(archive, prefix="gerber"):
+def audit(archive, prefix="gerber", expected_vias=133):
   with zipfile.ZipFile(archive) as z:
     layers = {}
     stats = {}
@@ -168,7 +168,7 @@ def audit(archive, prefix="gerber"):
     assert stats["GKO"]["coordinateBoundsMm"] == [0,0,100.000001,100.000001]
     assert len(holes) == 4
     assert all(min(math.dist(h,q) for q in [(5,5),(95,5),(5,95),(95,95)]) < 1e-4 for h in holes)
-    assert len(via_positions) == 133 and len(set(via_positions)) == 133
+    assert len(via_positions) == expected_vias and len(set(via_positions)) == expected_vias
     assert all(p in pth_positions for p in via_positions)
     assert stats["GTL"]["regions"] == stats["GBL"]["regions"] == 3
     copper = layers["GTL"].convert("L")

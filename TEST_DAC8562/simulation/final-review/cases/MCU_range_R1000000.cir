@@ -1,0 +1,29 @@
+Current analog transfer MCU_dc_R1000000
+.include "../../models/pspice/OPAx277.LIB"
+VCC vp 0 11.97231
+VEE vn 0 -12.13
+VREF ref 0 1.65
+VIN input 0 PWL(0 1.65 50u 1.65 150u 0.25 350u 0.25 550u 3.05 750u 3.05 850u 1.65 1000u 1.65)
+RS input received 1000
+RBIAS received ref 10meg
+XBUF received buffered vp vn buffered OPAx277
+RI buffered plus 14000
+RG plus 0 100000
+RR ref mix 14000
+RF sense mix 100000
+XAMP plus mix vp vn raw OPAx277
+RISO raw sense 100
+CF raw mix 22p
+RCONTACT sense out .1
+COUT out 0 100p
+RL out 0 1000000
+.nodeset v(raw)=0 v(out)=0 v(sense)=0 v(plus)=1.4473684210526316 v(mix)=1.4473684210526316
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 100n 1000u 0 100n
+wrdata results/MCU_range_R1000000.dat v(input) v(out) v(raw)
+quit
+.endc
+.end

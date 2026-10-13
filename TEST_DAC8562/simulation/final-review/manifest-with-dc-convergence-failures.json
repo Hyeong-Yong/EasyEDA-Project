@@ -1,0 +1,533 @@
+{
+  "model": "TI OPAx277 Final 1.4 (unmodified)",
+  "rails": [
+    11.97231,
+    -12.13
+  ],
+  "temperatureC": 27,
+  "limits": "Ideal DAC/reference and rails; nominal relay contact closed at 0.1 ohm. Not a switch-mode power/startup/safety qualification. Both channel topologies are symmetric after R117 schematic repair.",
+  "jobs": [
+    {
+      "name": "DAC8562_ac_R10000_C0",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R10000_C0",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R10000_C0",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R10000_C470",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R10000_C470",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R10000_C470",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R10000_C5000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R10000_C5000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R10000_C5000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R100000_C0",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R100000_C0",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R100000_C0",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R100000_C470",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R100000_C470",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R100000_C470",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R100000_C5000",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R100000_C5000",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R100000_C5000",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R1000000_C0",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R1000000_C0",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R1000000_C0",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R1000000_C470",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R1000000_C470",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R1000000_C470",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R1000000_C5000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R1000000_C5000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R1000000_C5000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R10000_C0",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R10000_C0",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R10000_C0",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R10000_C470",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R10000_C470",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R10000_C470",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R10000_C5000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R10000_C5000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R10000_C5000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R100000_C0",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R100000_C0",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R100000_C0",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R100000_C470",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R100000_C470",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R100000_C470",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R100000_C5000",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R100000_C5000",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R100000_C5000",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R1000000_C0",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R1000000_C0",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R1000000_C0",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R1000000_C470",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R1000000_C470",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R1000000_C470",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_ac_R1000000_C5000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_loop_R1000000_C5000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "MCU_tran_R1000000_C5000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true
+    },
+    {
+      "name": "DAC8562_dc_R10000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "dc",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "DAC8562_dc_R1000000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "dc",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "MCU_dc_R10000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "dc",
+      "exitCode": 0,
+      "solverPassed": false
+    },
+    {
+      "name": "MCU_dc_R1000000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "dc",
+      "exitCode": 0,
+      "solverPassed": false
+    }
+  ]
+}

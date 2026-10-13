@@ -15,8 +15,10 @@ from shapely.ops import unary_union
 spec = importlib.util.spec_from_file_location("gerber", root / "scripts/audit-gerber.py")
 gerber = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(gerber)
-original = out / "DAC8562_DAC_MCU_100x100_Gerber.zip"
-target = out / "DAC8562_DAC_MCU_100x100_Gerber_DFM.zip"
+original = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else out / "DAC8562_DAC_MCU_100x100_Gerber.zip"
+target = Path(sys.argv[2]).resolve() if len(sys.argv) > 2 else out / "DAC8562_DAC_MCU_100x100_Gerber_DFM.zip"
+out = target.parent
+gerber.out = out
 if target.exists():
     raise FileExistsError(target)
 with zipfile.ZipFile(original) as z:
@@ -51,4 +53,4 @@ with zipfile.ZipFile(original) as z:
     result = {"input":original.name,"output":target.name,"changedFiles":changed,"copperMasksOutlineDrillsByteIdentical":True,"clearanceToMaskMm":0.15,"boardInsetMm":0.15,"polygons":len(pieces),"silkAreaBeforeMm2":silk.area,"silkAreaAfterMm2":actual.area,"quantizedGeometryDifferenceMm2":allowed.symmetric_difference(actual).area,"clearanceToMaskActuallyMeasuredMm":actual.distance(mask),"prototypeDfmNotAssemblyApproval":True}
     (out / "gerber-dfm-processing.json").write_text(json.dumps(result,indent=2),encoding="utf8")
     print(json.dumps(result,indent=2))
-gerber.audit(target,"gerber-dfm")
+gerber.audit(target,"gerber-dfm",expected_vias=int(sys.argv[3]) if len(sys.argv)>3 else 133)

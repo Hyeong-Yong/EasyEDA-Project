@@ -1,0 +1,1478 @@
+{
+  "pages": [
+    {
+      "file": "DAC8562.readable-source.txt",
+      "identityFailures": [],
+      "shorts": [],
+      "pinFailures": [],
+      "connectedPins": 327
+    },
+    {
+      "file": "DAC_MCU.readable-source.txt",
+      "identityFailures": [],
+      "shorts": [],
+      "pinFailures": [],
+      "connectedPins": 154
+    }
+  ],
+  "approvedElectricalChanges": {
+    "R117.2": "formerly $2N56 -> MCU_SENSE_B (PCB was already correct)"
+  },
+  "approvedPartChanges": {
+    "Q3": "AO3400A -> onsemi 2N7002LT1G C16338; 1=G 2=S 3=D; actual supplier SOT-23 footprint"
+  },
+  "pinNets": {
+    "U1.1": [
+      "SWP"
+    ],
+    "U1.2": [
+      "GND"
+    ],
+    "U1.3": [
+      "GND"
+    ],
+    "U1.4": [
+      "VIN_CTRL"
+    ],
+    "U1.5": [
+      "VIN_RAW"
+    ],
+    "U1.6": [
+      "VIN_RAW"
+    ],
+    "U1.7": [
+      "BSW_GATE"
+    ],
+    "U1.8": [
+      "VIN_CTRL"
+    ],
+    "U1.9": [
+      "GND"
+    ],
+    "U1.10": [
+      "VIN_CTRL"
+    ],
+    "U1.11": [
+      "GND"
+    ],
+    "U1.12": [],
+    "U1.13": [
+      "SWN"
+    ],
+    "U1.14": [
+      "SWN"
+    ],
+    "U1.15": [
+      "VNEG12"
+    ],
+    "U1.16": [
+      "FBN"
+    ],
+    "U1.17": [
+      "VREF1V2"
+    ],
+    "U1.18": [
+      "CN"
+    ],
+    "U1.19": [
+      "GND"
+    ],
+    "U1.20": [],
+    "U1.21": [
+      "CP"
+    ],
+    "U1.22": [
+      "FBP"
+    ],
+    "U1.23": [
+      "VPOS12"
+    ],
+    "U1.24": [
+      "SWP"
+    ],
+    "U1.25": [
+      "GND"
+    ],
+    "U2.1": [
+      "VDD5"
+    ],
+    "U2.2": [
+      "DAC_AVDD_FB"
+    ],
+    "U2.3": [],
+    "U2.4": [
+      "GND"
+    ],
+    "U2.5": [
+      "VPOS12"
+    ],
+    "U2.6": [
+      "LDO_BYP"
+    ],
+    "U2.7": [],
+    "U2.8": [
+      "VPOS12"
+    ],
+    "U2.9": [
+      "GND"
+    ],
+    "U3.1": [
+      "DACA"
+    ],
+    "U3.2": [
+      "DACB"
+    ],
+    "U3.3": [
+      "GND"
+    ],
+    "U3.4": [
+      "LDAC_N"
+    ],
+    "U3.5": [
+      "CLR_N"
+    ],
+    "U3.6": [
+      "SYNC_N"
+    ],
+    "U3.7": [
+      "SCLK_DAC"
+    ],
+    "U3.8": [
+      "DIN_DAC"
+    ],
+    "U3.9": [
+      "VDD5"
+    ],
+    "U3.10": [
+      "VREF2V5"
+    ],
+    "Q1.1": [
+      "BSW_GATE"
+    ],
+    "Q1.3": [
+      "VIN_SW"
+    ],
+    "Q1.2": [
+      "VIN_RAW"
+    ],
+    "L1.1": [
+      "VIN_SW"
+    ],
+    "L1.2": [
+      "SWP"
+    ],
+    "L2.1": [
+      "SWN"
+    ],
+    "L2.2": [
+      "GND"
+    ],
+    "D1.2": [
+      "SWP"
+    ],
+    "D1.1": [
+      "VPOS12"
+    ],
+    "D2.2": [
+      "VNEG12"
+    ],
+    "D2.1": [
+      "SWN"
+    ],
+    "R1.2": [
+      "FBP"
+    ],
+    "R1.1": [
+      "VPOS12"
+    ],
+    "R2.2": [
+      "GND"
+    ],
+    "R2.1": [
+      "FBP"
+    ],
+    "R3.2": [
+      "FBN"
+    ],
+    "R3.1": [
+      "VNEG12"
+    ],
+    "R4.2": [
+      "VREF1V2"
+    ],
+    "R4.1": [
+      "FBN"
+    ],
+    "C1.1": [
+      "VPOS12"
+    ],
+    "C1.2": [
+      "FBP"
+    ],
+    "C2.1": [
+      "VNEG12"
+    ],
+    "C2.2": [
+      "FBN"
+    ],
+    "C3.1": [
+      "VREF1V2"
+    ],
+    "C3.2": [
+      "GND"
+    ],
+    "C4.2": [
+      "GND"
+    ],
+    "C4.1": [
+      "CN"
+    ],
+    "C5.2": [
+      "GND"
+    ],
+    "C5.1": [
+      "CP"
+    ],
+    "C6.1": [
+      "VIN_SW"
+    ],
+    "C6.2": [
+      "GND"
+    ],
+    "C7.1": [
+      "VIN_RAW"
+    ],
+    "C7.2": [
+      "GND"
+    ],
+    "R5.2": [
+      "VIN_CTRL"
+    ],
+    "R5.1": [
+      "VIN_RAW"
+    ],
+    "C8.1": [
+      "VIN_CTRL"
+    ],
+    "C8.2": [
+      "GND"
+    ],
+    "C9.1": [
+      "VPOS12"
+    ],
+    "C9.2": [
+      "GND"
+    ],
+    "C10.1": [
+      "VPOS12"
+    ],
+    "C10.2": [
+      "GND"
+    ],
+    "C11.1": [
+      "VNEG12"
+    ],
+    "C11.2": [
+      "GND"
+    ],
+    "C12.1": [
+      "VNEG12"
+    ],
+    "C12.2": [
+      "GND"
+    ],
+    "C13.2": [
+      "GND"
+    ],
+    "C13.1": [
+      "VPOS12"
+    ],
+    "C14.2": [
+      "GND"
+    ],
+    "C14.1": [
+      "LDO_BYP"
+    ],
+    "C15.2": [
+      "GND"
+    ],
+    "C15.1": [
+      "VDD5"
+    ],
+    "C16.1": [
+      "VDD5"
+    ],
+    "C16.2": [
+      "GND"
+    ],
+    "C17.1": [
+      "VREF2V5"
+    ],
+    "C17.2": [
+      "GND"
+    ],
+    "C18.1": [
+      "VPOS12"
+    ],
+    "C18.2": [
+      "GND"
+    ],
+    "C19.1": [
+      "VNEG12"
+    ],
+    "C19.2": [
+      "GND"
+    ],
+    "C20.1": [
+      "VPOS12"
+    ],
+    "C20.2": [
+      "GND"
+    ],
+    "C21.1": [
+      "VNEG12"
+    ],
+    "C21.2": [
+      "GND"
+    ],
+    "C22.1": [
+      "OUT_A"
+    ],
+    "C22.2": [
+      "GND"
+    ],
+    "C23.1": [
+      "OUT_B"
+    ],
+    "C23.2": [
+      "GND"
+    ],
+    "J1.1": [
+      "VIN_RAW"
+    ],
+    "J1.10": [
+      "DAC_HOST_DIN"
+    ],
+    "J1.3": [
+      "GND"
+    ],
+    "J1.8": [
+      "DAC_HOST_SYNC"
+    ],
+    "J1.5": [
+      "GND"
+    ],
+    "J1.6": [
+      "DAC_HOST_CLR"
+    ],
+    "J1.7": [
+      "DAC_HOST_LDAC"
+    ],
+    "J1.4": [
+      "GND"
+    ],
+    "J1.9": [
+      "DAC_HOST_SCLK"
+    ],
+    "J1.2": [
+      "VIN_RAW"
+    ],
+    "R6.2": [
+      "SCLK_DAC"
+    ],
+    "R6.1": [
+      "SCLK"
+    ],
+    "R7.2": [
+      "DIN_DAC"
+    ],
+    "R7.1": [
+      "DIN"
+    ],
+    "R8.2": [
+      "LDAC_N"
+    ],
+    "R8.1": [
+      "VDD5"
+    ],
+    "R9.2": [
+      "CLR_N"
+    ],
+    "R9.1": [
+      "VDD5"
+    ],
+    "R10.2": [
+      "SYNC_N"
+    ],
+    "R10.1": [
+      "VDD5"
+    ],
+    "R11.2": [
+      "LED_A"
+    ],
+    "R11.1": [
+      "VIN_RAW"
+    ],
+    "LED1.2": [
+      "GND"
+    ],
+    "LED1.1": [
+      "LED_A"
+    ],
+    "R12.2": [
+      "A_PLUS"
+    ],
+    "R12.1": [
+      "DACA"
+    ],
+    "R13.2": [
+      "GND"
+    ],
+    "R13.1": [
+      "A_PLUS"
+    ],
+    "R14.2": [
+      "A_MINUS"
+    ],
+    "R14.1": [
+      "VREF2V5"
+    ],
+    "R15.2": [
+      "A_MINUS"
+    ],
+    "R15.1": [
+      "OUT_A"
+    ],
+    "R17.2": [
+      "B_PLUS"
+    ],
+    "R17.1": [
+      "DACB"
+    ],
+    "R18.2": [
+      "GND"
+    ],
+    "R18.1": [
+      "B_PLUS"
+    ],
+    "R19.2": [
+      "B_MINUS"
+    ],
+    "R19.1": [
+      "VREF2V5"
+    ],
+    "R20.2": [
+      "OUT_B"
+    ],
+    "R20.1": [
+      "B_MINUS"
+    ],
+    "J2.1": [
+      "GND"
+    ],
+    "J2.2": [
+      "GND"
+    ],
+    "J2.3": [
+      "GND"
+    ],
+    "J2.4": [
+      "GND"
+    ],
+    "J2.5": [
+      "DAC_SMA_A"
+    ],
+    "J3.1": [
+      "GND"
+    ],
+    "J3.2": [
+      "GND"
+    ],
+    "J3.3": [
+      "GND"
+    ],
+    "J3.4": [
+      "GND"
+    ],
+    "J3.5": [
+      "DAC_SMA_B"
+    ],
+    "C24.1": [
+      "VREF2V5"
+    ],
+    "C24.2": [
+      "GND"
+    ],
+    "U4.1": [
+      "OA_RAW"
+    ],
+    "U4.3": [
+      "A_PLUS"
+    ],
+    "U4.2": [
+      "A_MINUS"
+    ],
+    "U4.4": [
+      "VNEG12"
+    ],
+    "U4.8": [
+      "VPOS12"
+    ],
+    "U4.7": [
+      "OB_RAW"
+    ],
+    "U4.5": [
+      "B_PLUS"
+    ],
+    "U4.6": [
+      "B_MINUS"
+    ],
+    "R16.2": [
+      "OUT_A"
+    ],
+    "R16.1": [
+      "OA_RAW"
+    ],
+    "R21.2": [
+      "OUT_B"
+    ],
+    "R21.1": [
+      "OB_RAW"
+    ],
+    "C25.1": [
+      "A_MINUS"
+    ],
+    "C25.2": [
+      "OA_RAW"
+    ],
+    "C26.1": [
+      "B_MINUS"
+    ],
+    "C26.2": [
+      "OB_RAW"
+    ],
+    "C27.2": [
+      "DAC_AVDD_FB"
+    ],
+    "C27.1": [
+      "VDD5"
+    ],
+    "R22.2": [
+      "DAC_AVDD_FB"
+    ],
+    "R22.1": [
+      "VDD5"
+    ],
+    "R23.2": [
+      "GND"
+    ],
+    "R23.1": [
+      "DAC_AVDD_FB"
+    ],
+    "R27.2": [
+      "GND"
+    ],
+    "R27.1": [
+      "U7_UV"
+    ],
+    "R29.2": [
+      "GND"
+    ],
+    "R29.1": [
+      "U7_OV"
+    ],
+    "R31.2": [
+      "GND"
+    ],
+    "R31.1": [
+      "U8_UV"
+    ],
+    "R33.2": [
+      "GND"
+    ],
+    "R33.1": [
+      "U8_OV"
+    ],
+    "R35.2": [
+      "VNEG12"
+    ],
+    "R35.1": [
+      "U9_UV"
+    ],
+    "R37.2": [
+      "VNEG12"
+    ],
+    "R37.1": [
+      "U9_OV"
+    ],
+    "U5.1": [
+      "DAC_SPI_OE_N"
+    ],
+    "U5.2": [
+      "DAC_HOST_SCLK"
+    ],
+    "U5.3": [
+      "SCLK"
+    ],
+    "U5.4": [
+      "DAC_SPI_OE_N"
+    ],
+    "U5.5": [
+      "DAC_HOST_DIN"
+    ],
+    "U5.6": [
+      "DIN"
+    ],
+    "U5.7": [
+      "GND"
+    ],
+    "U5.8": [
+      "SYNC_N"
+    ],
+    "U5.9": [
+      "DAC_HOST_SYNC"
+    ],
+    "U5.10": [
+      "DAC_SPI_OE_N"
+    ],
+    "U5.11": [
+      "LDAC_N"
+    ],
+    "U5.12": [
+      "DAC_HOST_LDAC"
+    ],
+    "U5.13": [
+      "DAC_SPI_OE_N"
+    ],
+    "U5.14": [
+      "VDD5"
+    ],
+    "U6.1": [
+      "DAC_SPI_OE_N"
+    ],
+    "U6.2": [
+      "DAC_HOST_CLR"
+    ],
+    "U6.3": [
+      "CLR_N"
+    ],
+    "U6.4": [
+      "VDD5"
+    ],
+    "U6.5": [
+      "GND"
+    ],
+    "U6.6": [],
+    "U6.7": [
+      "GND"
+    ],
+    "U6.8": [],
+    "U6.9": [
+      "GND"
+    ],
+    "U6.10": [
+      "VDD5"
+    ],
+    "U6.11": [],
+    "U6.12": [
+      "GND"
+    ],
+    "U6.13": [
+      "VDD5"
+    ],
+    "U6.14": [
+      "VDD5"
+    ],
+    "C28.1": [
+      "VDD5"
+    ],
+    "C28.2": [
+      "GND"
+    ],
+    "C29.1": [
+      "VDD5"
+    ],
+    "C29.2": [
+      "GND"
+    ],
+    "C30.1": [
+      "VIN_RAW"
+    ],
+    "C30.2": [
+      "GND"
+    ],
+    "C31.1": [
+      "VIN_RAW"
+    ],
+    "C31.2": [
+      "GND"
+    ],
+    "C32.1": [
+      "GND"
+    ],
+    "C32.2": [
+      "VNEG12"
+    ],
+    "C33.1": [
+      "MCU_3V3"
+    ],
+    "C33.2": [
+      "GND"
+    ],
+    "C34.1": [
+      "MCU_3V3"
+    ],
+    "C34.2": [
+      "GND"
+    ],
+    "C35.1": [
+      "MCU_3V3"
+    ],
+    "C35.2": [
+      "GND"
+    ],
+    "R24.2": [
+      "DAC_SPI_OE_N"
+    ],
+    "R24.1": [
+      "VDD5"
+    ],
+    "R25.2": [
+      "GND"
+    ],
+    "R25.1": [
+      "DAC_SPI_ENABLE"
+    ],
+    "R26.2": [
+      "U7_UV"
+    ],
+    "R26.1": [
+      "VPOS12"
+    ],
+    "R28.2": [
+      "U7_OV"
+    ],
+    "R28.1": [
+      "VPOS12"
+    ],
+    "R30.2": [
+      "U8_UV"
+    ],
+    "R30.1": [
+      "VDD5"
+    ],
+    "R32.2": [
+      "U8_OV"
+    ],
+    "R32.1": [
+      "VDD5"
+    ],
+    "R34.2": [
+      "U9_UV"
+    ],
+    "R34.1": [
+      "GND"
+    ],
+    "R36.2": [
+      "U9_OV"
+    ],
+    "R36.1": [
+      "GND"
+    ],
+    "R38.2": [
+      "DAC_NEG_LOCAL"
+    ],
+    "R38.1": [
+      "GND"
+    ],
+    "R39.2": [
+      "DAC_NEG_LED_A"
+    ],
+    "R39.1": [
+      "GND"
+    ],
+    "R40.2": [
+      "DAC_NEG_VALID_N"
+    ],
+    "R40.1": [
+      "MCU_3V3"
+    ],
+    "R41.2": [
+      "DAC_POS_GOOD"
+    ],
+    "R41.1": [
+      "MCU_3V3"
+    ],
+    "R42.2": [
+      "GND"
+    ],
+    "R42.1": [
+      "DAC_RELAY_ENABLE"
+    ],
+    "R43.2": [
+      "GND"
+    ],
+    "R43.1": [
+      "DAC_OUTPUT_ENABLE"
+    ],
+    "Q2.3": [
+      "DAC_SPI_OE_N"
+    ],
+    "Q2.1": [
+      "DAC_SPI_ENABLE"
+    ],
+    "Q2.2": [
+      "GND"
+    ],
+    "Q3.3": [
+      "DAC_NEG_LED_K"
+    ],
+    "Q3.1": [
+      "DAC_NEG_LOCAL"
+    ],
+    "Q3.2": [
+      "VNEG12"
+    ],
+    "U7.1": [
+      "DAC_POS_GOOD"
+    ],
+    "U7.2": [
+      "GND"
+    ],
+    "U7.3": [
+      "U7_UV"
+    ],
+    "U7.4": [
+      "U7_OV"
+    ],
+    "U7.5": [
+      "VIN_RAW"
+    ],
+    "U7.6": [
+      "DAC_POS_GOOD"
+    ],
+    "U8.1": [
+      "DAC_POS_GOOD"
+    ],
+    "U8.2": [
+      "GND"
+    ],
+    "U8.3": [
+      "U8_UV"
+    ],
+    "U8.4": [
+      "U8_OV"
+    ],
+    "U8.5": [
+      "VIN_RAW"
+    ],
+    "U8.6": [
+      "DAC_POS_GOOD"
+    ],
+    "U9.1": [
+      "DAC_NEG_LOCAL"
+    ],
+    "U9.2": [
+      "VNEG12"
+    ],
+    "U9.3": [
+      "U9_UV"
+    ],
+    "U9.4": [
+      "U9_OV"
+    ],
+    "U9.5": [
+      "GND"
+    ],
+    "U9.6": [
+      "DAC_NEG_LOCAL"
+    ],
+    "U10.1": [
+      "DAC_NEG_LED_A"
+    ],
+    "U10.2": [
+      "DAC_NEG_LED_K"
+    ],
+    "U10.3": [
+      "GND"
+    ],
+    "U10.4": [
+      "DAC_NEG_VALID_N"
+    ],
+    "U11.1": [],
+    "U11.2": [
+      "DAC_NEG_VALID_N"
+    ],
+    "U11.3": [
+      "GND"
+    ],
+    "U11.4": [
+      "DAC_NEG_GOOD"
+    ],
+    "U11.5": [
+      "MCU_3V3"
+    ],
+    "U12.1": [
+      "DAC_POS_GOOD"
+    ],
+    "U12.2": [
+      "DAC_NEG_GOOD"
+    ],
+    "U12.3": [
+      "GND"
+    ],
+    "U12.4": [
+      "DAC_HW_PGOOD"
+    ],
+    "U12.5": [
+      "MCU_3V3"
+    ],
+    "U13.1": [
+      "DAC_HW_PGOOD"
+    ],
+    "U13.2": [
+      "DAC_OUTPUT_ENABLE"
+    ],
+    "U13.3": [
+      "GND"
+    ],
+    "U13.4": [
+      "DAC_RELAY_ENABLE"
+    ],
+    "U13.5": [
+      "MCU_3V3"
+    ],
+    "K1.1": [
+      "VIN_RAW"
+    ],
+    "K1.2": [
+      "GND"
+    ],
+    "K1.3": [
+      "DAC_SMA_A"
+    ],
+    "K1.4": [
+      "OUT_A"
+    ],
+    "K1.5": [
+      "OUT_B"
+    ],
+    "K1.6": [
+      "DAC_SMA_B"
+    ],
+    "K1.7": [
+      "GND"
+    ],
+    "K1.8": [
+      "DAC_OUT_COIL_N"
+    ],
+    "Q4.3": [
+      "DAC_OUT_COIL_N"
+    ],
+    "Q4.1": [
+      "DAC_RELAY_ENABLE"
+    ],
+    "Q4.2": [
+      "GND"
+    ],
+    "D3.1": [
+      "VIN_RAW"
+    ],
+    "D3.2": [
+      "DAC_OUT_COIL_N"
+    ],
+    "J4.1": [
+      "MCU_3V3"
+    ],
+    "J4.10": [
+      "GND"
+    ],
+    "J4.3": [
+      "DAC_SPI_ENABLE"
+    ],
+    "J4.8": [
+      "GND"
+    ],
+    "J4.5": [
+      "DAC_HW_PGOOD"
+    ],
+    "J4.6": [
+      "GND"
+    ],
+    "J4.7": [
+      "GND"
+    ],
+    "J4.4": [
+      "DAC_OUTPUT_ENABLE"
+    ],
+    "J4.9": [
+      "GND"
+    ],
+    "J4.2": [
+      "GND"
+    ],
+    "J101.1": [
+      "GND"
+    ],
+    "J101.2": [
+      "GND"
+    ],
+    "J101.3": [
+      "GND"
+    ],
+    "J101.4": [
+      "GND"
+    ],
+    "J101.5": [
+      "MCU_IN_A"
+    ],
+    "J103.1": [
+      "GND"
+    ],
+    "J103.2": [
+      "GND"
+    ],
+    "J103.3": [
+      "GND"
+    ],
+    "J103.4": [
+      "GND"
+    ],
+    "J103.5": [
+      "MCU_OUT_A"
+    ],
+    "J102.1": [
+      "GND"
+    ],
+    "J102.2": [
+      "GND"
+    ],
+    "J102.3": [
+      "GND"
+    ],
+    "J102.4": [
+      "GND"
+    ],
+    "J102.5": [
+      "MCU_IN_B"
+    ],
+    "J104.1": [
+      "GND"
+    ],
+    "J104.2": [
+      "GND"
+    ],
+    "J104.3": [
+      "GND"
+    ],
+    "J104.4": [
+      "GND"
+    ],
+    "J104.5": [
+      "MCU_OUT_B"
+    ],
+    "R101.2": [
+      "MCU_RCV_EXTERNAL_A"
+    ],
+    "R101.1": [
+      "MCU_IN_A"
+    ],
+    "R111.2": [
+      "MCU_RCV_EXTERNAL_B"
+    ],
+    "R111.1": [
+      "MCU_IN_B"
+    ],
+    "U101.1": [
+      "MCU_BUFFER_A"
+    ],
+    "U101.3": [
+      "MCU_RECEIVE_A"
+    ],
+    "U101.2": [
+      "MCU_BUFFER_A"
+    ],
+    "U101.4": [
+      "VNEG12"
+    ],
+    "U101.8": [
+      "VPOS12"
+    ],
+    "U103.1": [
+      "MCU_RAW_A"
+    ],
+    "U103.3": [
+      "MCU_PLUS_A"
+    ],
+    "U103.2": [
+      "MCU_MINUS_A"
+    ],
+    "U103.4": [
+      "VNEG12"
+    ],
+    "U103.8": [
+      "VPOS12"
+    ],
+    "U101.7": [
+      "MCU_BUFFER_B"
+    ],
+    "U101.5": [
+      "MCU_RECEIVE_B"
+    ],
+    "U101.6": [
+      "MCU_BUFFER_B"
+    ],
+    "U103.7": [
+      "MCU_RAW_B"
+    ],
+    "U103.5": [
+      "MCU_PLUS_B"
+    ],
+    "U103.6": [
+      "MCU_MINUS_B"
+    ],
+    "U102.1": [
+      "MCU_VBIAS"
+    ],
+    "U102.3": [
+      "MCU_VHALF"
+    ],
+    "U102.2": [
+      "MCU_VBIAS"
+    ],
+    "U102.4": [
+      "VNEG12"
+    ],
+    "U102.8": [
+      "VPOS12"
+    ],
+    "U102.7": [
+      "MCU_SPARE"
+    ],
+    "U102.5": [
+      "GND"
+    ],
+    "U102.6": [
+      "MCU_SPARE"
+    ],
+    "R102.2": [
+      "MCU_VBIAS"
+    ],
+    "R102.1": [
+      "MCU_RECEIVE_A"
+    ],
+    "R112.2": [
+      "MCU_VBIAS"
+    ],
+    "R112.1": [
+      "MCU_RECEIVE_B"
+    ],
+    "R103.2": [
+      "MCU_PLUS_A"
+    ],
+    "R103.1": [
+      "MCU_BUFFER_A"
+    ],
+    "R104.2": [
+      "MCU_MINUS_A"
+    ],
+    "R104.1": [
+      "MCU_VBIAS"
+    ],
+    "R113.2": [
+      "MCU_PLUS_B"
+    ],
+    "R113.1": [
+      "MCU_BUFFER_B"
+    ],
+    "R114.2": [
+      "MCU_MINUS_B"
+    ],
+    "R114.1": [
+      "MCU_VBIAS"
+    ],
+    "R105.2": [
+      "MCU_SENSE_A"
+    ],
+    "R105.1": [
+      "MCU_MINUS_A"
+    ],
+    "R106.2": [
+      "GND"
+    ],
+    "R106.1": [
+      "MCU_PLUS_A"
+    ],
+    "R115.2": [
+      "MCU_SENSE_B"
+    ],
+    "R115.1": [
+      "MCU_MINUS_B"
+    ],
+    "R116.2": [
+      "GND"
+    ],
+    "R116.1": [
+      "MCU_PLUS_B"
+    ],
+    "C101.1": [
+      "MCU_MINUS_A"
+    ],
+    "C101.2": [
+      "MCU_RAW_A"
+    ],
+    "C111.1": [
+      "MCU_MINUS_B"
+    ],
+    "C111.2": [
+      "MCU_RAW_B"
+    ],
+    "R107.2": [
+      "MCU_SENSE_A"
+    ],
+    "R107.1": [
+      "MCU_RAW_A"
+    ],
+    "R117.2": [
+      "MCU_SENSE_B"
+    ],
+    "R117.1": [
+      "MCU_RAW_B"
+    ],
+    "C102.1": [
+      "MCU_OUT_A"
+    ],
+    "C102.2": [
+      "GND"
+    ],
+    "C112.1": [
+      "MCU_OUT_B"
+    ],
+    "C112.2": [
+      "GND"
+    ],
+    "J105.1": [
+      "MCU_3V3"
+    ],
+    "J105.10": [
+      "GND"
+    ],
+    "J105.3": [
+      "MCU_VREF_PLUS"
+    ],
+    "J105.8": [
+      "GND"
+    ],
+    "J105.5": [
+      "MCU_OUTPUT_ENABLE"
+    ],
+    "J105.6": [
+      "DAC_HW_PGOOD"
+    ],
+    "J105.7": [
+      "GND"
+    ],
+    "J105.4": [
+      "MCU_INPUT_ENABLE"
+    ],
+    "J105.9": [
+      "GND"
+    ],
+    "J105.2": [
+      "GND"
+    ],
+    "R121.2": [
+      "MCU_VHALF"
+    ],
+    "R121.1": [
+      "MCU_VREF_PLUS"
+    ],
+    "R122.2": [
+      "GND"
+    ],
+    "R122.1": [
+      "MCU_VHALF"
+    ],
+    "C121.1": [
+      "VPOS12"
+    ],
+    "C121.2": [
+      "GND"
+    ],
+    "C122.1": [
+      "VNEG12"
+    ],
+    "C122.2": [
+      "GND"
+    ],
+    "C123.1": [
+      "VPOS12"
+    ],
+    "C123.2": [
+      "GND"
+    ],
+    "C124.1": [
+      "VNEG12"
+    ],
+    "C124.2": [
+      "GND"
+    ],
+    "C125.1": [
+      "VPOS12"
+    ],
+    "C125.2": [
+      "GND"
+    ],
+    "C126.1": [
+      "VNEG12"
+    ],
+    "C126.2": [
+      "GND"
+    ],
+    "C127.1": [
+      "MCU_3V3"
+    ],
+    "C127.2": [
+      "GND"
+    ],
+    "C128.1": [
+      "MCU_3V3"
+    ],
+    "C128.2": [
+      "GND"
+    ],
+    "K101.1": [
+      "VIN_RAW"
+    ],
+    "K101.2": [
+      "MCU_VBIAS"
+    ],
+    "K101.3": [
+      "MCU_RECEIVE_A"
+    ],
+    "K101.4": [
+      "MCU_RCV_EXTERNAL_A"
+    ],
+    "K101.5": [
+      "MCU_RCV_EXTERNAL_B"
+    ],
+    "K101.6": [
+      "MCU_RECEIVE_B"
+    ],
+    "K101.7": [
+      "MCU_VBIAS"
+    ],
+    "K101.8": [
+      "MCU_IN_COIL_N"
+    ],
+    "K102.1": [
+      "VIN_RAW"
+    ],
+    "K102.2": [
+      "GND"
+    ],
+    "K102.3": [
+      "MCU_OUT_A"
+    ],
+    "K102.4": [
+      "MCU_SENSE_A"
+    ],
+    "K102.5": [
+      "MCU_SENSE_B"
+    ],
+    "K102.6": [
+      "MCU_OUT_B"
+    ],
+    "K102.7": [
+      "GND"
+    ],
+    "K102.8": [
+      "MCU_OUT_COIL_N"
+    ],
+    "U104.1": [
+      "DAC_HW_PGOOD"
+    ],
+    "U104.2": [
+      "MCU_INPUT_ENABLE"
+    ],
+    "U104.3": [
+      "GND"
+    ],
+    "U104.4": [
+      "MCU_INPUT_SAFE"
+    ],
+    "U104.5": [
+      "MCU_3V3"
+    ],
+    "U105.1": [
+      "DAC_HW_PGOOD"
+    ],
+    "U105.2": [
+      "MCU_OUTPUT_ENABLE"
+    ],
+    "U105.3": [
+      "GND"
+    ],
+    "U105.4": [
+      "MCU_OUTPUT_SAFE"
+    ],
+    "U105.5": [
+      "MCU_3V3"
+    ],
+    "Q101.3": [
+      "MCU_IN_COIL_N"
+    ],
+    "Q101.1": [
+      "MCU_INPUT_SAFE"
+    ],
+    "Q101.2": [
+      "GND"
+    ],
+    "Q102.3": [
+      "MCU_OUT_COIL_N"
+    ],
+    "Q102.1": [
+      "MCU_OUTPUT_SAFE"
+    ],
+    "Q102.2": [
+      "GND"
+    ],
+    "D101.1": [
+      "VIN_RAW"
+    ],
+    "D101.2": [
+      "MCU_IN_COIL_N"
+    ],
+    "D102.1": [
+      "VIN_RAW"
+    ],
+    "D102.2": [
+      "MCU_OUT_COIL_N"
+    ],
+    "R123.2": [
+      "GND"
+    ],
+    "R123.1": [
+      "MCU_INPUT_SAFE"
+    ],
+    "R125.2": [
+      "GND"
+    ],
+    "R125.1": [
+      "MCU_OUTPUT_SAFE"
+    ],
+    "R124.2": [
+      "GND"
+    ],
+    "R124.1": [
+      "MCU_INPUT_ENABLE"
+    ],
+    "R126.2": [
+      "GND"
+    ],
+    "R126.1": [
+      "MCU_OUTPUT_ENABLE"
+    ]
+  },
+  "passed": true
+}

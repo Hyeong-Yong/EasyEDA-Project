@@ -1,0 +1,26 @@
+Current analog transfer DAC8562_dc_R10000
+.include "../../models/pspice/OPAx277.LIB"
+VCC vp 0 11.97231
+VEE vn 0 -12.13
+VREF ref 0 2.5
+VIN input 0 PWL(0 2.5 50u 2.5 150u 0 350u 0 550u 5 750u 5 850u 2.5 1000u 2.5)
+RI input plus 24300
+RG plus 0 100000
+RR ref mix 24300
+RF sense mix 100000
+XAMP plus mix vp vn raw OPAx277
+RISO raw sense 100
+CF raw mix 22p
+RCONTACT sense out .1
+COUT out 0 100p
+RL out 0 10000
+.nodeset v(raw)=0 v(out)=0 v(sense)=0 v(plus)=2.011263073209976 v(mix)=2.011263073209976
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 100n 1000u 0 100n
+wrdata results/DAC8562_range_R10000.dat v(input) v(out) v(raw)
+quit
+.endc
+.end

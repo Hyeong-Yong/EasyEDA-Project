@@ -1,0 +1,31 @@
+Final-current-netlist analog screening MCU_tran_R100000_C5000
+.include "../../models/pspice/OPAx277.LIB"
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 itl1=500 itl4=500
+VCC vp 0 11.97231
+VEE vn 0 -12.13
+VREF ref 0 1.65
+VIN input 0 PWL(0 1.65 50u 1.65 50.02u 1.6749999999999998 250u 1.6749999999999998 250.02u 1.65 500u 1.65)
+RS input received 1000
+RBIAS received ref 10meg
+XBUF received buffered vp vn buffered OPAx277
+RI buffered plus 14000
+RG plus 0 100000
+RR ref mix 14000
+RF sense mix 100000
+XAMP plus mix vp vn raw OPAx277
+RISO raw sense 100
+CF raw mix 22p
+RCONTACT sense out .1
+COUT out 0 100p
+RL out 0 100000
+CCABLE out 0 5000p
+.nodeset v(raw)=0 v(sense)=0 v(out)=0 v(plus)=1.4473684210526316 v(mix)=1.4473684210526316 v(buffered)=1.65 v(received)=1.65
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 20n 500u 0 20n
+wrdata results/MCU_tran_R100000_C5000.dat v(input) v(out) v(raw)
+quit
+.endc
+.end

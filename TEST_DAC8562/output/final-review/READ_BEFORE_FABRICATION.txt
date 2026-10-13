@@ -1,0 +1,33 @@
+2026-10-13 CAD review complete - conditional prototype release only
+
+Use the original project DAC8562 module.eprj2: page1 DAC8562, page2 DAC_MCU.
+Backups from before all current edits are preserved in backups.
+
+Current changes: schematic readability; R117 schematic connection repaired;
+Q3 changed from AO3400A to 2N7002LT1G C16338 (+/-20V gate); stock footprint,
+nearby VNEG12 clearance and R38 GND via corrected. Original PCB placement,
+100x100mm two-zone design maintained. Panel1 is unchanged, single-board choice.
+
+Native SCH and PCB saved/reopened ERC/DRC both pass with no reported issues.
+The last Q3 Name-only ECO is synchronized; its automatic collinear track split
+changes no physical copper. Independent actual pad-net/copper audit passes:
+489 component pads, 481 connected, 8 NC, 90 nets, no disconnected/shorted nets.
+Use DAC8562 module_final_review_ERC_DRC_clean.eprj2 (or portable .epro2).
+
+Previous pcb-two-zone Gerber ZIPs have the old Q3 footprint. DO NOT use them
+to fabricate this latest revision. Latest revised files are:
+DAC8562_DAC_MCU_100x100_final_Gerber.zip - native EasyEDA export
+DAC8562_DAC_MCU_100x100_final_Gerber_DFM.zip - only top silk clearance clipped
+Copper/mask/outline/drills are byte-identical between these ZIPs. 134 vias and
+four 3.2mm NPTH holes checked. Combined PTH includes vias; Via-only DRL is
+redundant reference, NOT an additional drilling pass. Read release-verification.
+No fabrication/assembly order has been made. Fabricator DFM is still required.
+
+See final-review.html, BOM-reviewed.html, review-summary.json and the reproducible
+simulation/final-review assets. Simulation covers nominal analog stability;
+power startup/shutdown and relay/hardware accuracy qualification remain pending.
+Native schematic PNG/SVG export times out in EasyEDA 3.2.149. Cached thumbnails
+are not presented as fresh final visual proof; saved native sources, pin nets,
+wire geometry and portable project export are independently matched.
+SMA bodies protrude. Outputs are for high-impedance loads, NOT 50-ohm termination.
+Confirm J1 mating geometry and separately source precision manual BOM parts.

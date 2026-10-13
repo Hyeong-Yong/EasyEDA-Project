@@ -1,0 +1,63 @@
+Current CAD revision: 2026-10-13
+
+Continue editing the existing DAC8562 module.eprj2. Page1 DAC8562 and
+Page2 DAC_MCU retain their original identities; upper/lower PCB zones retained.
+Pre-change backups are in backups; do not use these as latest fabrication data.
+
+Latest validated native copy and portable export:
+output/final-review/DAC8562 module_final_review_ERC_DRC_clean.eprj2
+output/final-review/DAC8562 module_final_review_ERC_DRC_clean.epro2
+
+Review / BOM / measured CAD evidence:
+output/final-review/final-review.html
+output/final-review/BOM-reviewed.html
+output/final-review/release-verification.json
+output/final-review/READ_BEFORE_FABRICATION.txt
+
+Latest fabrication candidates (fabricator DFM still required; no order placed):
+output/final-review/DAC8562_DAC_MCU_100x100_final_Gerber.zip
+output/final-review/DAC8562_DAC_MCU_100x100_final_Gerber_DFM.zip
+DFM copy changes ONLY the top silkscreen. Copper/mask/outline/drills unchanged.
+Older pcb-two-zone Gerbers have the prior Q3 footprint and are superseded.
+Do not flatten historical export orphan POURED or LINE caches into fabrication.
+
+Native save/reopen checks: both SCH ERC 0, PCB DRC 0; independent copper
+audit: 489 electric component pads, 481 connected / 8 NC, 90 nets, no shorts
+or disconnected nets. Final Name-only Q3 ECO has no physical geometry change.
+Q3 AO3400A (+/-12V VGS) changed to 2N7002LT1G (+/-20V VGS), stock SOT-23
+footprint with 1=G/2=S/3=D. Nearby VNEG clearance and R38 GND via corrected.
+R117.2 SCH corrected to MCU_SENSE_B; original PCB was already connected.
+
+Small prototype batch assumption: keep a SINGLE 100x100mm 2-layer PCB.
+No mouse-bite copies or Panel1 changes. Exact delivered quote not obtained.
+See JLCPCB pricing source and panel decision rationale in the report.
+
+Simulation: simulation/final-review/README.txt and summary.json.
+58 nominal analog screening cases pass, not a complete power/relay simulation.
+Power ramp, overshoot, DAC initialization, relay timing, cable stability,
+calibrated accuracy and thermal / supply-current qualification remain pending.
+Outputs require high impedance, NOT 50-ohm termination. Precision manual BOM
+items require separate procurement; confirm original J1 mating geometry.
+No unconditional production / safety approval. No hardware built or measured.
+
+Native schematic PNG/SVG export times out in EasyEDA 3.2.149; cached thumbnails
+are not current final visual proof. Native saved source geometry, all part
+properties / pin nets and portable export are independently matched.
+
+Read-only/reproducible audit commands (Python numpy/shapely as noted below):
+python scripts/audit-readable-schematics.py
+python scripts/check-final-schematic-export.py
+python scripts/audit-q3-name-sync.py
+python scripts/audit-final-physical.py
+python scripts/audit-final-gerber.py
+python scripts/build-final-review-report.py
+Generated native captures are in output/readability. Geometry tools load
+shapely from .tools/pcb-python (or normal Python installation). No downloaded
+runtime or local .spiceinit is committed. Do not rerun source import/generation
+against a later changed board without fresh backups and native checks.
+
+DFM reproduction requires a NEW, nonexisting target ZIP:
+python scripts/clip-gerber-silkscreen.py INPUT_NATIVE_ZIP NEW_DFM_ZIP 134
+Final native copy generator is intentionally non-overwriting.
+Git delivery is verified by actual commit and origin/main HEAD, not predicted
+by this CAD evidence file.

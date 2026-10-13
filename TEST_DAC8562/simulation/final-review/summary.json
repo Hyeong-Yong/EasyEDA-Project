@@ -1,0 +1,891 @@
+{
+  "passed": true,
+  "caseCount": 58,
+  "families": {
+    "DAC8562": {
+      "cases": 29,
+      "solverFailures": [],
+      "screenFailures": [],
+      "minimumPhaseMarginDeg": 82.238687419713,
+      "maxPeakingDb": 0.0,
+      "maxSettling1PercentUs": 12.666584148750005,
+      "maxOvershootPercent": 1.3360217679242943e-05
+    },
+    "MCU": {
+      "cases": 29,
+      "solverFailures": [],
+      "screenFailures": [],
+      "minimumPhaseMarginDeg": 101.54336970233496,
+      "maxPeakingDb": 0.0,
+      "maxSettling1PercentUs": 15.198048933570005,
+      "maxOvershootPercent": 5.9756297213467886e-06
+    }
+  },
+  "rows": [
+    {
+      "name": "DAC8562_ac_R10000_C0",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115181717550403,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R10000_C0",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        86.67145469593933
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R10000_C0",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.666584148750005,
+      "overshootPercent": 1.0186621880392022e-09,
+      "lateRippleVpp": 2.0999868510784836e-12,
+      "baselineOutputV": -7.4172777479379e-06,
+      "targetOutputV": 0.102872127717652,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R10000_C470",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115181719834013,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R10000_C470",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        82.49027903603508
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R10000_C470",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.475932164820001,
+      "overshootPercent": 1.163497400615814e-09,
+      "lateRippleVpp": 1.9999973899231804e-12,
+      "baselineOutputV": -7.417277845526626e-06,
+      "targetOutputV": 0.102872127717603,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R10000_C5000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.1151817418457295,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R10000_C5000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        91.24390555816882
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R10000_C5000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 10.312477958909998,
+      "overshootPercent": 8.908715736581837e-06,
+      "lateRippleVpp": 2.1000007288662914e-12,
+      "baselineOutputV": -7.41727786471181e-06,
+      "targetOutputV": 0.10287212771775378,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R100000_C0",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115218801386416,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R100000_C0",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        86.5386615923535
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R100000_C0",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.551316927380006,
+      "overshootPercent": 9.932797592099607e-10,
+      "lateRippleVpp": 2.0000112677109882e-12,
+      "baselineOutputV": -7.417344651709606e-06,
+      "targetOutputV": 0.1028730547230781,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R100000_C470",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115218803670046,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R100000_C470",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        82.26175042103596
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R100000_C470",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.356457593489997,
+      "overshootPercent": 9.189271003824091e-10,
+      "lateRippleVpp": 1.9999973899231804e-12,
+      "baselineOutputV": -7.417344577428015e-06,
+      "targetOutputV": 0.1028730547231546,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R100000_C5000",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115218825677223,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R100000_C5000",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        91.23245598155223
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R100000_C5000",
+      "family": "DAC8562",
+      "load": 100000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 10.15195834319,
+      "overshootPercent": 1.2910204491009758e-05,
+      "lateRippleVpp": 1.8999940509800695e-12,
+      "baselineOutputV": -7.41734450076855e-06,
+      "targetOutputV": 0.10287305472332067,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R1000000_C0",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115222509808296,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R1000000_C0",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        86.52522882552485
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R1000000_C0",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.531762271010004,
+      "overshootPercent": 9.102931702171682e-10,
+      "lateRippleVpp": 2.0000112677109882e-12,
+      "baselineOutputV": -7.41735131299298e-06,
+      "targetOutputV": 0.10287314742446349,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R1000000_C470",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115222512087191,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R1000000_C470",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        82.238687419713
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R1000000_C470",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.351741059170006,
+      "overshootPercent": 9.054100718419294e-10,
+      "lateRippleVpp": 2.0000112677109882e-12,
+      "baselineOutputV": -7.417351371323581e-06,
+      "targetOutputV": 0.10287314742446851,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_ac_R1000000_C5000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 4.115222534099125,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_loop_R1000000_C5000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        91.23132752457353
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_tran_R1000000_C5000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 10.131906318240002,
+      "overshootPercent": 1.3360217679242943e-05,
+      "lateRippleVpp": 1.8999940509800695e-12,
+      "baselineOutputV": -7.417351230293235e-06,
+      "targetOutputV": 0.1028731474247326,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R10000_C0",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142060994985587,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R10000_C0",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        105.2895103157486
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R10000_C0",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 15.198048933570005,
+      "overshootPercent": 2.9497760824210154e-09,
+      "lateRippleVpp": 1.0500017522119265e-11,
+      "baselineOutputV": 7.076310831339089e-05,
+      "targetOutputV": 0.17862229129493312,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R10000_C470",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142060999573801,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R10000_C470",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        101.84812771908217
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R10000_C470",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 15.015415607520001,
+      "overshootPercent": 2.945128170866656e-09,
+      "lateRippleVpp": 1.049998976654365e-11,
+      "baselineOutputV": 7.076310832172636e-05,
+      "targetOutputV": 0.17862229129494142,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R10000_C5000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142061043737393,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R10000_C5000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        113.64482717726563
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R10000_C5000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.990045413080004,
+      "overshootPercent": 3.7536935702928857e-06,
+      "lateRippleVpp": 1.0400014183176154e-11,
+      "baselineOutputV": 7.076310866717854e-05,
+      "targetOutputV": 0.17862229129542276,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R100000_C0",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142125403440512,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R100000_C0",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        105.09510102684268
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R100000_C0",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 15.053254406719994,
+      "overshootPercent": 2.8445739434738554e-09,
+      "lateRippleVpp": 1.0200007505289932e-11,
+      "baselineOutputV": 7.07637468257006e-05,
+      "targetOutputV": 0.17862390209232093,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R100000_C470",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142125408028764,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R100000_C470",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        101.57131501511674
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R100000_C470",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 14.882229353769995,
+      "overshootPercent": 2.8580201215300614e-09,
+      "lateRippleVpp": 1.0200007505289932e-11,
+      "baselineOutputV": 7.076374687934945e-05,
+      "targetOutputV": 0.17862390209239692,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R100000_C5000",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142125452192756,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R100000_C5000",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        113.62932274491502
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R100000_C5000",
+      "family": "MCU",
+      "load": 100000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.829661247859997,
+      "overshootPercent": 5.746264002481131e-06,
+      "lateRippleVpp": 1.0199979749714316e-11,
+      "baselineOutputV": 7.07637470982292e-05,
+      "targetOutputV": 0.1786239020927653,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R1000000_C0",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.1421318443557755,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R1000000_C0",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        105.07542231031123
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R1000000_C0",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 15.040937429070002,
+      "overshootPercent": 2.851255599480848e-09,
+      "lateRippleVpp": 1.0100004166346821e-11,
+      "baselineOutputV": 7.07638107032597e-05,
+      "targetOutputV": 0.178624063173709,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R1000000_C470",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 470,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142131848935809,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R1000000_C470",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 470,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        101.54336970233496
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R1000000_C470",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 470,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 14.859474687939999,
+      "overshootPercent": 2.83735863723594e-09,
+      "lateRippleVpp": 1.0200007505289932e-11,
+      "baselineOutputV": 7.07638107582893e-05,
+      "targetOutputV": 0.1786240631737338,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_ac_R1000000_C5000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "ac",
+      "exitCode": 0,
+      "solverPassed": true,
+      "peakingDb": 0.0,
+      "lowFrequencyGain": 7.142131893108064,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_loop_R1000000_C5000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "loop",
+      "exitCode": 0,
+      "solverPassed": true,
+      "phaseMarginsDeg": [
+        113.62779556050837
+      ],
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_tran_R1000000_C5000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 5000,
+      "test": "tran",
+      "exitCode": 0,
+      "solverPassed": true,
+      "settling1PercentUs": 12.809622997980005,
+      "overshootPercent": 5.9756297213467886e-06,
+      "lateRippleVpp": 1.0100004166346821e-11,
+      "baselineOutputV": 7.07638109855045e-05,
+      "targetOutputV": 0.17862406317411597,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_range_R10000",
+      "family": "DAC8562",
+      "load": 10000,
+      "cap": 0,
+      "test": "range",
+      "exitCode": 0,
+      "solverPassed": true,
+      "negativePlateauV": -10.287961916029383,
+      "positivePlateauV": 10.287947111859365,
+      "peakOutputV": 10.28796191678,
+      "maxOutputCurrentA": 0.0011327056392000045,
+      "screenPassed": true
+    },
+    {
+      "name": "DAC8562_range_R1000000",
+      "family": "DAC8562",
+      "load": 1000000,
+      "cap": 0,
+      "test": "range",
+      "exitCode": 0,
+      "solverPassed": true,
+      "negativePlateauV": -10.288063894127093,
+      "positivePlateauV": 10.28804908985069,
+      "peakOutputV": 10.28806389491,
+      "maxOutputCurrentA": 0.00012081145619999845,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_range_R10000",
+      "family": "MCU",
+      "load": 10000,
+      "cap": 0,
+      "test": "range",
+      "exitCode": 0,
+      "solverPassed": true,
+      "negativePlateauV": -9.998814810999392,
+      "positivePlateauV": 9.998956360880543,
+      "peakOutputV": 9.998956361754,
+      "maxOutputCurrentA": 0.0011030648271700017,
+      "screenPassed": true
+    },
+    {
+      "name": "MCU_range_R1000000",
+      "family": "MCU",
+      "load": 1000000,
+      "cap": 0,
+      "test": "range",
+      "exitCode": 0,
+      "solverPassed": true,
+      "negativePlateauV": -9.998913996148815,
+      "positivePlateauV": 9.999055547253194,
+      "peakOutputV": 9.999055548555,
+      "maxOutputCurrentA": 0.00011888873758000074,
+      "screenPassed": true
+    }
+  ],
+  "resistorCorners": {
+    "DAC8562": {
+      "resistorOnlyWorstUncalibratedErrorV": 0.010293212449845157,
+      "corners": 16,
+      "resistorsTolerance": 0.0005,
+      "excludes": "DAC offset/gain/INL, reference and divider, op-amp errors, temperature, contact/cable/PCB parasitics"
+    },
+    "MCU": {
+      "resistorOnlyWorstUncalibratedErrorV": 0.010443983981161864,
+      "corners": 16,
+      "resistorsTolerance": 0.0005,
+      "excludes": "DAC offset/gain/INL, reference and divider, op-amp errors, temperature, contact/cable/PCB parasitics"
+    }
+  },
+  "powerWindowsV": {
+    "positive12": {
+      "lower": {
+        "nominal": 11.36,
+        "minimum": 11.22472087912088,
+        "maximum": 11.495761361361359
+      },
+      "upper": {
+        "nominal": 12.880000000000003,
+        "minimum": 12.726514285714291,
+        "maximum": 13.03403483483483
+      }
+    },
+    "avdd": {
+      "lower": {
+        "nominal": 5.04,
+        "minimum": 4.98042197802198,
+        "maximum": 5.0997821821821825
+      },
+      "upper": {
+        "nominal": 5.48,
+        "minimum": 5.4151516483516495,
+        "maximum": 5.545071871871872
+      }
+    },
+    "negativeMagnitude": {
+      "lower": {
+        "nominal": 10.8,
+        "minimum": 10.671428571428573,
+        "maximum": 10.929029029029028
+      },
+      "upper": {
+        "nominal": 13.200000000000001,
+        "minimum": 13.042681318681323,
+        "maximum": 13.357881881881879
+      }
+    }
+  },
+  "enableTruthTable": [
+    {
+      "pgood": 0,
+      "enable": 0,
+      "relayCommand": 0
+    },
+    {
+      "pgood": 0,
+      "enable": 1,
+      "relayCommand": 0
+    },
+    {
+      "pgood": 1,
+      "enable": 0,
+      "relayCommand": 0
+    },
+    {
+      "pgood": 1,
+      "enable": 1,
+      "relayCommand": 1
+    }
+  ],
+  "gateReview": {
+    "Q3New": "2N7002LT1G +/-20V",
+    "normalGateVoltageV": 12.13,
+    "monitoredUpperNominalV": 13.2,
+    "oldAO3400ALimitV": 12,
+    "optoMinimumCurrentAt10VGateA": 0.005178207458822234,
+    "gatePullupLeakageWorstDropV": 0.0047
+  },
+  "limitations": [
+    "Nominal TI macro-model, ideal DAC/reference and supply rails, 27C only.",
+    "AC uses documented optran 0 0 0 20n 100u 0 initialization; first direct-OP/DC convergence failures are retained, not counted as passing DC sweeps.",
+    "Four slow full-range transient plateaus replace failed direct DC sweeps; resistor corners are separate ideal linear algebra.",
+    "No validated TPS65131 switching/startup simulation, no relay release/flyback or hot-plug/contact-bounce qualification, no Monte Carlo silicon/thermal hardware proof.",
+    "Power-good truth-table/window arithmetic is not a transistor-level power-sequence simulation."
+  ]
+}

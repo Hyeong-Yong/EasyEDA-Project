@@ -1,0 +1,28 @@
+Final-current-netlist analog screening DAC8562_tran_R1000000_C470
+.include "../../models/pspice/OPAx277.LIB"
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 itl1=500 itl4=500
+VCC vp 0 11.97231
+VEE vn 0 -12.13
+VREF ref 0 2.5
+VIN input 0 PWL(0 2.5 50u 2.5 50.02u 2.525 250u 2.525 250.02u 2.5 500u 2.5)
+RI input plus 24300
+RG plus 0 100000
+RR ref mix 24300
+RF sense mix 100000
+XAMP plus mix vp vn raw OPAx277
+RISO raw sense 100
+CF raw mix 22p
+RCONTACT sense out .1
+COUT out 0 100p
+RL out 0 1000000
+CCABLE out 0 470p
+.nodeset v(raw)=0 v(sense)=0 v(out)=0 v(plus)=2.011263073209976 v(mix)=2.011263073209976
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 20n 500u 0 20n
+wrdata results/DAC8562_tran_R1000000_C470.dat v(input) v(out) v(raw)
+quit
+.endc
+.end

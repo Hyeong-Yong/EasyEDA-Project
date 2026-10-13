@@ -1,0 +1,89 @@
+{
+  "status": "CAD checks complete; conditional prototype release, fabrication DFM and hardware qualification pending",
+  "date": "2026-10-13",
+  "schematicErcPassed": true,
+  "pcbDrcPassed": true,
+  "savedAndReopened": true,
+  "nativeFile": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\output\\final-review\\DAC8562 module_final_review_ERC_DRC_clean.eprj2",
+  "nativeFileSha256": "b5c46be0931a27810977909ac231bb47506b7d46976e978eb0a8a98d25e10554",
+  "portableProjectExport": "DAC8562 module_final_review_ERC_DRC_clean.epro2",
+  "portableExportSha256": "cac861bb025273b63042b8e098ddf224f007009787a44cf46a9db18791535f86",
+  "nativePrimitiveCounts": {
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "NET": 91,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 91,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 134,
+    "PAD": 4,
+    "LINE": 1733,
+    "POLY": 1,
+    "FILL": 6,
+    "REGION": 8,
+    "POUR": 2,
+    "STRING": 11,
+    "COMPONENT": 154,
+    "ATTR": 462,
+    "PAD_NET": 489
+  },
+  "pcbExportNormalizationDifferences": {
+    "RULE_SELECTOR": 91,
+    "LAYER": 2,
+    "ELE_PLACEHOLDER": 88,
+    "LINE": 9,
+    "POURED": 2,
+    "META": 1
+  },
+  "exportNormalizationExplanation": "Only placeholders, empty default selectors, inactive colors, sub-0.101mil degenerate tracks and orphan historical POURED caches differ. All meaningful PCB components, pad nets and geometry match the saved/reopened native source.",
+  "schematicExportAudit": "schematic-export-audit.json",
+  "q3DisplayNameOnlyAudit": "q3-name-change-audit.json",
+  "physicalEditScopeAudit": {
+    "passed": true,
+    "all154ComponentPositionsAndAnglesUnchanged": true,
+    "onlyChangedFootprint": "Q3",
+    "changedPadMappingsOnlyQ3": true,
+    "physicalTrackViaFillChangesConfinedMm": [
+      26,
+      52,
+      34,
+      62
+    ],
+    "coordinateToleranceMil": 0.03,
+    "physicalCopperChanges": [
+      {
+        "net": "GND",
+        "layer": 12,
+        "changedCopperAreaMm2": 0.29188075038649136
+      },
+      {
+        "net": "GND",
+        "layer": 1,
+        "changedCopperAreaMm2": 2.9142599283015893
+      },
+      {
+        "net": "VNEG12",
+        "layer": 1,
+        "changedCopperAreaMm2": 3.3713677019263524
+      }
+    ]
+  },
+  "panelDecision": "Single 100x100mm, Panel1 unchanged",
+  "panelUnchanged": true,
+  "copperLayers": 2,
+  "nativeGerber": "DAC8562_DAC_MCU_100x100_final_Gerber.zip",
+  "dfmGerber": "DAC8562_DAC_MCU_100x100_final_Gerber_DFM.zip",
+  "dfmOnlySilkscreenChanged": true,
+  "gerberPreview": "gerber-dfm-top-preview.png",
+  "gerberVisualInspection": "Top preview visually inspected; upper/lower zones, four holes and edge SMA positions preserved.",
+  "drillNote": "Combined PTH contains vias. Via-only DRL is redundant reference, not a second drilling pass.",
+  "schematicImageExportLimitation": "Native PNG/SVG export times out in connected EasyEDA 3.2.149. Cached project thumbnails are not asserted as current final schematic visual proof. Current source geometry, saved/reopened ERC and portable export topology were independently verified.",
+  "noOrderPlaced": true,
+  "gitDeliveryEvidence": "Verify actual repository commit and remote HEAD; CAD proof does not predict future push."
+}

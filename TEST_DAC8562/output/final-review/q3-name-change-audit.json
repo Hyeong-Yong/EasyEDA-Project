@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "changesByType": {
+    "COMPONENT": 1,
+    "LINE": 3
+  },
+  "q3NameOnly": true,
+  "layoutRoutingCopperPadNetsUnchanged": true,
+  "nameStorage": "Fixed Name override removed; native getter resolves device default ={Manufacturer Part}.",
+  "nativeNormalization": "One existing collinear VNEG12 track split into two; exact centerline, width, layer and net unchanged.",
+  "changes": [
+    {
+      "type": "COMPONENT",
+      "id": "1e58e2330359a121",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 1181.1024,
+        "y": 2204.7244,
+        "angle": 0,
+        "attrs": {
+          "Name": "2N7002LT1G",
+          "Unique ID": "schematic-correction-Q3",
+          "Convert to PCB": "yes",
+          "Multi-Part Group": "schematic-correction-Q3",
+          "Channel ID": "$1I1420"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 1181.1024,
+        "y": 2204.7244,
+        "angle": 0,
+        "attrs": {
+          "Unique ID": "schematic-correction-Q3",
+          "Convert to PCB": "yes",
+          "Multi-Part Group": "schematic-correction-Q3",
+          "Channel ID": "$1I1420"
+        },
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "35e60e0e3b2eb860",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "VNEG12",
+        "layerId": 1,
+        "startX": 1121.582,
+        "startY": 2242.12,
+        "endX": 1251.232,
+        "endY": 2242.12,
+        "width": 10.05,
+        "locked": false,
+        "zIndex": -1
+      },
+      "after": null
+    },
+    {
+      "type": "LINE",
+      "id": "a095d88de0df39da",
+      "before": null,
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "VNEG12",
+        "layerId": 1,
+        "startX": 1121.582,
+        "startY": 2242.12,
+        "endX": 1226.3774,
+        "endY": 2242.12,
+        "width": 10.05,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "a2172cf8d865de1c",
+      "before": null,
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "VNEG12",
+        "layerId": 1,
+        "startX": 1226.3774,
+        "startY": 2242.12,
+        "endX": 1251.232,
+        "endY": 2242.12,
+        "width": 10.05,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ]
+}

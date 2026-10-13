@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "all154ComponentPositionsAndAnglesUnchanged": true,
+  "onlyChangedFootprint": "Q3",
+  "changedPadMappingsOnlyQ3": true,
+  "physicalTrackViaFillChangesConfinedMm": [
+    26,
+    52,
+    34,
+    62
+  ],
+  "coordinateToleranceMil": 0.03,
+  "physicalCopperChanges": [
+    {
+      "net": "GND",
+      "layer": 12,
+      "changedCopperAreaMm2": 0.29188075038649136
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "changedCopperAreaMm2": 2.9142599283015893
+    },
+    {
+      "net": "VNEG12",
+      "layer": 1,
+      "changedCopperAreaMm2": 3.3713677019263524
+    }
+  ]
+}
