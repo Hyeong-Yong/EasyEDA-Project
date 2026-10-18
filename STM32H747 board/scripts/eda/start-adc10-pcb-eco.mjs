@@ -1,0 +1,14 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong PCB');
+const parse=s=>s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||'),v=x.slice(p+2).replace(/\|$/,'');return{h:JSON.parse(x.slice(0,p)),b:v?JSON.parse(v):''};});
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const file=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-adc10-pcb-dnp_removed-20261017.epru');
+if(!file)throw new Error('Fresh PCB baseline absent');
+const baseline=parse(await file.text()),live=parse(await eda.sys_FileManager.getDocumentSource()),map=new Map(live.map(r=>[r.h.type+':'+r.h.id,r]));
+if(live.length!==baseline.length)throw new Error('PCB baseline record count changed');
+for(const r of baseline)if(!['DOCHEAD','CANVAS'].includes(r.h.type)&&canonical(map.get(r.h.type+':'+r.h.id)?.b)!==canonical(r.b))throw new Error('PCB changed since checkpoint '+r.h.type+':'+r.h.id);
+const started=Date.now(),result=await eda.pcb_Document.importChanges('416c10313f778784');
+const path=root+'/output/validation/native-adc10-eco-start-20261017.json';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([JSON.stringify({started,result,meaning:'Workflow launch only; not proof of applied ECO'},null,2)]),undefined,false))throw new Error('ECO launch record not saved');
+return{result,path,meaning:'Inspect comparison UI and actual PCB delta before proceeding'};

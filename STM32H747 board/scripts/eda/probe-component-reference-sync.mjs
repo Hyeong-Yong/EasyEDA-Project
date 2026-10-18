@@ -1,0 +1,13 @@
+await eda.dmt_EditorControl.openDocument('e8a4e3fabe30ab59');
+await new Promise(r=>setTimeout(r,500));
+const all=await eda.sch_PrimitiveComponent.getAll();
+const r1=all.find(c=>c.getState_Designator()==='R1');
+if(!r1)throw new Error('R1 missing');
+const footprint=r1.getState_Footprint();
+const device=r1.getState_Component();
+if(footprint?.libraryUuid!=='project'||device?.libraryUuid!=='project')throw new Error('R1 references are not local project libraries');
+const changed=await eda.sch_PrimitiveComponent.modify(r1,{otherProperty:{Footprint:footprint.uuid,Device:device.uuid}});
+if(!changed)throw new Error('Native component reference sync failed');
+const source=await eda.sys_FileManager.getDocumentSource();
+const saved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-component-reference-sync-probe.epru',new Blob([source]),undefined,false);
+return {id:r1.getState_PrimitiveId(),footprint,device,saved,ercPassed:await eda.sch_Drc.check(true,true,false)};

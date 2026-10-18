@@ -1,0 +1,16 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='a07bf8e4331877a8',id='f4ba1d7115d2fc19';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong ADC page');
+const parse=s=>s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||');return{h:JSON.parse(x.slice(0,p)),b:JSON.parse(x.slice(p+2).replace(/\|$/,''))};});
+const before=parse(await eda.sys_FileManager.getDocumentSource()),target=before.find(r=>r.h.id===id);
+if(target?.h.type!=='TEXT'||target.b.value!=='ADC1 DC coupled'||target.b.x!==130||target.b.y!==-735)throw new Error('Temporary text identity changed');
+if(!await eda.sch_PrimitiveText.delete(id))throw new Error('Temporary text deletion failed');
+if(!await eda.sch_Document.save())throw new Error('Temporary text deletion save failed');
+const tab=(await eda.dmt_SelectControl.getCurrentDocumentInfo()).tabId||uuid;
+await eda.dmt_EditorControl.closeDocument(tab);
+await eda.dmt_EditorControl.openDocument(uuid);
+const source=await eda.sys_FileManager.getDocumentSource(),after=parse(source);
+if(after.some(r=>r.h.id===id)||after.length!==2883)throw new Error('Temporary text returned after save/reopen');
+const path=root+'/output/validation/native-adc-dc-clean-reopened-20261016.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false))throw new Error('Clean source capture not saved');
+return{removed:id,saved:true,path,records:after.length};

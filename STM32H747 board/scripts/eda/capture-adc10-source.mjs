@@ -1,0 +1,13 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board';
+const stage=__taskArgs[0],domain=__taskArgs[1]||'sch';
+const date=__taskArgs[2]||'20261017';
+if(!/^202610(?:17|18)$/.test(date))throw new Error('Reviewed capture date required');
+if(!stage||!/^[a-z0-9_-]{3,60}$/.test(stage)||!['sch','pcb'].includes(domain))throw new Error('Scoped capture stage/domain required');
+const uuid=domain==='sch'?'a07bf8e4331877a8':'0ac2a19168000d8e';
+if(!await eda.dmt_EditorControl.openDocument(uuid))throw new Error('Could not open target');
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong document');
+const source=await eda.sys_FileManager.getDocumentSource();
+if(!source||!source.includes('"uuid":"'+uuid+'"'))throw new Error('Source identity unavailable');
+const path=root+'/output/validation/native-adc10-'+domain+'-'+stage+'-'+date+'.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false))throw new Error('Source capture not saved');
+return{path,bytes:source.length,uuid};

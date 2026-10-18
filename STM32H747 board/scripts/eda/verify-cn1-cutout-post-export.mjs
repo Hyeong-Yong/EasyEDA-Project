@@ -1,0 +1,15 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong dedicated PCB');
+const file=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-multilayer-cn1_cutout_192_20261016-reopened.epru');
+if(!file)throw new Error('Final saved CN1 source missing');
+const parse=s=>s.split(/\r?\n/).filter(l=>l.includes('||')).map(l=>{const p=l.indexOf('||');return{h:JSON.parse(l.slice(0,p)),b:JSON.parse(l.slice(p+2).replace(/\|$/,''))};});
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const before=parse(await file.text()),source=await eda.sys_FileManager.getDocumentSource(),after=parse(source),actual=new Map(after.map(r=>[r.h.type+':'+r.h.id,r.b])),differences=[];
+for(const r of before)if(!['DOCHEAD','CANVAS','ACTIVE_LAYER'].includes(r.h.type)&&canonical(r.b)!==canonical(actual.get(r.h.type+':'+r.h.id)))differences.push(r.h.type+':'+r.h.id);
+if(before.length!==after.length)differences.push('record-count');
+const sourceSha256=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(source)))).map(b=>b.toString(16).padStart(2,'0')).join('');
+const receiptPath=root+'/output/validation/native-cn1-cutout-post-export-preservation-20261016.json';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(receiptPath,new Blob([JSON.stringify({uuid,passed:!differences.length,recordCount:after.length,sourceSha256,differences,scope:'Final Gerber/netlist export did not change any non-UI PCB body after the approved CN1 save/reopen.'},null,2)]),undefined,false))throw new Error('Post-export receipt not saved');
+if(differences.length)throw new Error('Post-export native PCB changed; inspect '+receiptPath);
+return{uuid,passed:true,recordCount:after.length,sourceSha256,receiptPath};

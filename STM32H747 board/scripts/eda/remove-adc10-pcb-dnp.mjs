@@ -1,0 +1,20 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong PCB');
+const parse=s=>s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||'),v=x.slice(p+2).replace(/\|$/,'');return{h:JSON.parse(x.slice(0,p)),b:v?JSON.parse(v):''};});
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const file=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-adc10-pcb-before-20261017.epru');
+if(!file)throw new Error('Fresh PCB checkpoint missing');
+const baseline=parse(await file.text()),before=parse(await eda.sys_FileManager.getDocumentSource()),map=new Map(before.map(r=>[r.h.type+':'+r.h.id,r]));
+if(before.length!==baseline.length)throw new Error('PCB baseline record count changed');
+for(const r of baseline)if(!['DOCHEAD','CANVAS'].includes(r.h.type)&&canonical(map.get(r.h.type+':'+r.h.id)?.b)!==canonical(r.b))throw new Error('PCB changed since checkpoint '+r.h.type+':'+r.h.id);
+const refs=['R146','R147','R148','R158','R159','R160','R173','R174','R175','R176'],targets=[];
+for(const ref of refs){const a=before.filter(r=>r.h.type==='ATTR'&&r.b.key==='Designator'&&r.b.value===ref);if(a.length!==1)throw new Error('DNP reference not unique '+ref);const id=a[0].b.parentId,c=map.get('COMPONENT:'+id);if(c?.b.attrs?.Name!=='30k_NC')throw new Error('DNP identity changed '+ref);targets.push({ref,id});}
+if(!await eda.pcb_PrimitiveComponent.delete(targets.map(t=>t.id)))throw new Error('Approved DNP removal failed; inspect actual delta before retry');
+const source=await eda.sys_FileManager.getDocumentSource(),after=parse(source);
+if(after.filter(r=>r.h.type==='COMPONENT').length!==before.filter(r=>r.h.type==='COMPONENT').length-10)throw new Error('Unexpected DNP component delta');
+const path=root+'/output/validation/native-adc10-pcb-dnp_removed-20261017.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false))throw new Error('Post-DNP source not captured');
+const receipt=root+'/output/validation/native-adc10-pcb-dnp-removal-20261017.json';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(receipt,new Blob([JSON.stringify({targets,sourcePath:path,saved:false,recoveryCheckpoint:'STM32H747_before_adc10_20261017.epro2'},null,2)]),undefined,false))throw new Error('DNP receipt not captured');
+return{removed:targets,path,saved:false};

@@ -1,0 +1,142 @@
+{
+  "schema": "stm32h747-routed-saved-reload-typed-preservation-independent-20261018-v1",
+  "passed": true,
+  "errors": [],
+  "applied": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-remaining6_lines_0-20261018.epru",
+    "sha256": "0f512be4d920ecac2743e30925f7fe44895ae96c2e710145140c2e17f44d3932"
+  },
+  "saved": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-routed_drc0_saved-20261018.epru",
+    "sha256": "e86d514095be241a45f3c0d0bde132a9089756b5e3a5eebed292692158a586ae"
+  },
+  "readback": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-routed_reopen_probe-20261018.epru",
+    "sha256": "8731b8a06570881f4478c390aafc41f1c5c8486f1d1bfdf93695763e35c1e154"
+  },
+  "primitiveCount": 13185,
+  "savedAllBodiesExact": true,
+  "qualifiedNormalizations": [
+    {
+      "type": "FILL",
+      "id": "c667926ae983cbc8",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "41fd0322eb2cc785",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "23f25be226b43a88",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "ef12098577a13cc7",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "1cd997827b0241d6",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "d8ad16a3b68b1fd9",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "e680230ef8d2c5dd",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "647c91cbbc161db2",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "9bbb881293539c05",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "a1d7888349e74585",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "f9e70adc3ac35fbd",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "ca6da24ce03912de",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "a7cecc90c6e5b57b",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "2fb535085249015d",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "4390d61d8c7f4f80",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    },
+    {
+      "type": "FILL",
+      "id": "daa2e5885d92eda0",
+      "rule": "Exact inert FILL.refs [null]\u2192null stored/reloaded normalization",
+      "passed": true
+    }
+  ],
+  "everyOtherNativeBodyExact": true,
+  "priorDochead": {
+    "docType": "PCB",
+    "client": "3f3dfc435ba0d9b9",
+    "uuid": "0ac2a19168000d8e",
+    "updateTime": 1792290913781,
+    "version": "1792290913781",
+    "editVersion": "3.2.206"
+  },
+  "readbackDochead": {
+    "docType": "PCB",
+    "client": "35846d48e38cb361",
+    "uuid": "0ac2a19168000d8e",
+    "updateTime": 1792291024503,
+    "version": "1792291024503",
+    "editVersion": "3.2.206"
+  },
+  "newClientIsConsistentWithReload": true,
+  "lifecycleToolOutcome": "Close/open call timed out; source data alone does not prove lifecycle completion.",
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0,
+  "limits": [
+    "Readback state is exactly preserved apart from16explicit inert refs normalizations; no geometry, nets, membership, rule or drill exception.",
+    "Root independently verifies current active PCB UUID/UI document state. Preserve timeout evidence, do not rerun mutation merely to replace an ambiguous receipt."
+  ]
+}

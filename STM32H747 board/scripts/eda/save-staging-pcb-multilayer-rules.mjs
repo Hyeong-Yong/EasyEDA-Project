@@ -1,0 +1,16 @@
+const uuid='6da689cbfc28e476';
+const projectUuid='761c4fdb8e3e1a273a7eb212bd6961ba8b6efdb0e27d1b0c207735a7e696c24c';
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong scoped staging PCB');
+if(!await eda.pcb_Document.save())throw new Error('Multilayer rule save failed');
+await eda.dmt_EditorControl.closeDocument(uuid+'@'+projectUuid);
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong reopened scoped PCB');
+const rule=await eda.pcb_Drc.getCurrentRuleConfiguration();
+if(!/Multiple Layers/i.test(rule?.name||''))throw new Error('Multilayer rule selection not durable');
+const source=await eda.sys_FileManager.getDocumentSource();
+const base='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/';
+const captured=await eda.sys_FileSystem.saveFileToFileSystem(base+'native-staging-pcb-multilayer-rules-reopened.epru',new Blob([source]),undefined,false);
+const ruleSaved=await eda.sys_FileSystem.saveFileToFileSystem(base+'native-pcb-multilayer-rules.json',new Blob([JSON.stringify(rule,null,2)]),undefined,false);
+const details=await eda.pcb_Drc.check(true,true,true);
+const detailsSaved=await eda.sys_FileSystem.saveFileToFileSystem(base+'native-pcb-drc-multilayer-details.json',new Blob([JSON.stringify({pcbUuid:uuid,ruleName:rule.name,details},null,2)]),undefined,false);
+return {captured,ruleSaved,detailsSaved,ruleName:rule.name,categories:Array.isArray(details)?details.length:null};

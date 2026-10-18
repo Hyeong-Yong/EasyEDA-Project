@@ -1,0 +1,10 @@
+await eda.dmt_EditorControl.openDocument('3ca9811d1a42d086');
+await new Promise(r=>setTimeout(r,500));
+const pcb=await eda.dmt_Pcb.getCurrentPcbInfo();
+if(pcb?.uuid!=='3ca9811d1a42d086')throw new Error('Wrong dedicated PCB');
+const removed=await eda.pcb_PrimitivePad.delete(['0ff4b103a4ba322b','6649e711d7ee29e4']);
+if(!removed)throw new Error('Probe cleanup failed');
+const source=await eda.sys_FileManager.getDocumentSource();
+const sourceSaved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-blank-runtime.epru',new Blob([source]),undefined,false);
+const saved=await eda.pcb_Document.save();
+return {removed,sourceSaved,saved,pcbUuid:pcb.uuid};

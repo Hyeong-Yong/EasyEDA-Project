@@ -1,0 +1,12 @@
+const file=await eda.sys_FileSystem.readFileFromFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/semantic/reference-netlist.json');
+const reference=JSON.parse(await file.text());
+const needed=new Set(reference.pins.filter(p=>p.ref==='U1' && p.page===1 && p.no_connect).map(p=>p.number));
+const pins=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId('b2fcb205582158a7');
+const pin=pins.find(p=>needed.has(p.pinNumber));
+if(!pin)throw new Error('No known NC pin found');
+const asyncPin=pin.toAsync();
+asyncPin.setState_NoConnected(true);
+await asyncPin.done();
+await new Promise(r=>setTimeout(r,500));
+const source=await eda.sys_FileManager.getDocumentSource();
+return {number:pin.pinNumber,id:pin.primitiveId,lines:source.split('\n').filter(x=>x.includes('NO_CONNECT'))};

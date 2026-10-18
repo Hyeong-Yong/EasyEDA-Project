@@ -1,0 +1,16 @@
+const before=await eda.dmt_Pcb.getAllPcbsInfo();
+if(before.length)throw new Error('Existing PCB must be inspected before creating the dedicated draft');
+const pcbUuid=await eda.dmt_Pcb.createPcb();
+if(!pcbUuid)throw new Error('PCB draft creation failed');
+await new Promise(r=>setTimeout(r,1000));
+const tab=await eda.dmt_EditorControl.openDocument(pcbUuid);
+await new Promise(r=>setTimeout(r,800));
+const current=await eda.dmt_Pcb.getCurrentPcbInfo();
+if(current?.uuid!==pcbUuid)throw new Error('Wrong PCB focus');
+const first=await eda.pcb_PrimitivePad.create(1,'1',100,100,0,['ELLIPSE',40,40],'',null,0,0,0,false,0);
+const second=await eda.pcb_PrimitivePad.create(1,'2',100,200,0,['ELLIPSE',40,40],'',null,0,0,0,false,0);
+if(!first||!second)throw new Error('Coordinate probe pads failed');
+const source=await eda.sys_FileManager.getDocumentSource();
+const saved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-coordinate-probe.epru',new Blob([source]),undefined,false);
+const zoom=await eda.dmt_EditorControl.zoomToAllPrimitives(tab);
+return {pcbUuid,saved,zoom,probePadIds:[first.getState_PrimitiveId(),second.getState_PrimitiveId()]};

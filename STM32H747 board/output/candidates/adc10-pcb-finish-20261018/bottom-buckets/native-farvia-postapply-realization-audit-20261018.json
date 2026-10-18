@@ -1,0 +1,400 @@
+{
+  "schema": "adc10-native-farvia-postapply-realization-audit-20261018-v1",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-remaining6_lines_0-20261018.epru",
+  "sourceSha256": "0f512be4d920ecac2743e30925f7fe44895ae96c2e710145140c2e17f44d3932",
+  "frozenManifestSha256": "60735a1709cdb441f51c99bbcf4d139a76bcce569176408e6851ebf6044e2780",
+  "passed": true,
+  "nativeCallsPerformed": false,
+  "allOriginal634ViaBodiesExact": true,
+  "allOriginal793PhysicalDrillsExact": true,
+  "new6ViasMatchAtNative4DecimalMil": true,
+  "new31LinesMatchAtNative4DecimalMil": true,
+  "finalViaCount": 640,
+  "finalPhysicalDrillCount": 799,
+  "newViaIds": [
+    "e9adaaa08c95ccc6",
+    "6d5f8ecde0a8d26f",
+    "c4c89a9246c8cda9",
+    "a4c18578d5f6b5f1",
+    "a18f5fa4c4ab59a2",
+    "60303b86c8797037"
+  ],
+  "newLineIds": [
+    "14d4ddca7fd3551d",
+    "2cdc9741c50116cf",
+    "33925c5984f09a32",
+    "0295983be2aed3dc",
+    "dd6983a415e28a48",
+    "7da03f0407461514",
+    "5bb11061e1c2c1fc",
+    "d3ad7085ac0a07a8",
+    "803d756f20412a5b",
+    "82b83d0d8f947fbb",
+    "18a03f93c58d12a4",
+    "8cdb2d6e6d4e72b6",
+    "aa5d39632646f118",
+    "bf32998e45a813fb",
+    "140664d9815206b1",
+    "3cf3f90bf985a9d7",
+    "6653f8b785e69cf8",
+    "f2146402038e4751",
+    "24588b278091349b",
+    "d81f5a6828a04184",
+    "77d48d9856bf69de",
+    "93fd4ab9502709b8",
+    "1ff8e6b33b3447fb",
+    "eda02df76ca11a12",
+    "5b3a0cd5ed33fe9c",
+    "09c36bc041866f09",
+    "36ec7f8dff96e063",
+    "7a6943e61f6f2c9b",
+    "c2f234f96ea24b81",
+    "9d4dfe42dc46f967",
+    "bd8b7f58c524e640"
+  ],
+  "all10CapacitorNativeWorldPadAudit": [
+    {
+      "ref": "C88",
+      "nativeAngleDegrees": 180,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            52.7600001948,
+            82.9999991
+          ],
+          "requiredXYmm": [
+            52.76,
+            83.0
+          ],
+          "errorMm": 9.208404025045078e-07
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            53.7200002052,
+            82.9999991
+          ],
+          "requiredXYmm": [
+            53.72,
+            83.0
+          ],
+          "errorMm": 9.230964452739909e-07
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C81",
+      "nativeAngleDegrees": 0,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            56.7199992852,
+            82.44000022
+          ],
+          "requiredXYmm": [
+            56.72,
+            82.44
+          ],
+          "errorMm": 7.47889727863481e-07
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            55.7599992748,
+            82.44000022
+          ],
+          "requiredXYmm": [
+            55.76,
+            82.44
+          ],
+          "errorMm": 7.578357579541205e-07
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C86",
+      "nativeAngleDegrees": 180,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            56.1200010948,
+            83.80000003999999
+          ],
+          "requiredXYmm": [
+            56.12,
+            83.8
+          ],
+          "errorMm": 1.0955304882906951e-06
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            57.0800011052,
+            83.80000003999999
+          ],
+          "requiredXYmm": [
+            57.08,
+            83.8
+          ],
+          "errorMm": 1.1059236126791474e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C96",
+      "nativeAngleDegrees": 90,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            51.23999911999999,
+            80.20000058519999
+          ],
+          "requiredXYmm": [
+            51.24,
+            80.2
+          ],
+          "errorMm": 1.0568155172133706e-06
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            51.23999911999999,
+            79.24000057479999
+          ],
+          "requiredXYmm": [
+            51.24,
+            79.24
+          ],
+          "errorMm": 1.0510923142586187e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C87",
+      "nativeAngleDegrees": 180,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            57.520000834799994,
+            82.5999999
+          ],
+          "requiredXYmm": [
+            57.52,
+            82.6
+          ],
+          "errorMm": 8.407681152608288e-07
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            58.48000084519999,
+            82.5999999
+          ],
+          "requiredXYmm": [
+            58.48,
+            82.6
+          ],
+          "errorMm": 8.510951914473516e-07
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C93",
+      "nativeAngleDegrees": 0,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            50.0799998652,
+            75.51999882
+          ],
+          "requiredXYmm": [
+            50.08,
+            75.52
+          ],
+          "errorMm": 1.1876746334025057e-06
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            49.1199998548,
+            75.51999882
+          ],
+          "requiredXYmm": [
+            49.12,
+            75.52
+          ],
+          "errorMm": 1.188899926408472e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C94",
+      "nativeAngleDegrees": 270,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            50.6000004,
+            78.24000003479999
+          ],
+          "requiredXYmm": [
+            50.6,
+            78.24
+          ],
+          "errorMm": 4.0151094351346807e-07
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            50.6000004,
+            79.20000004519999
+          ],
+          "requiredXYmm": [
+            50.6,
+            79.2
+          ],
+          "errorMm": 4.0254569487985024e-07
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C82",
+      "nativeAngleDegrees": 270,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            58.04000076,
+            83.7199992348
+          ],
+          "requiredXYmm": [
+            58.04,
+            83.72
+          ],
+          "errorMm": 1.0784855295302886e-06
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            58.04000076,
+            84.6799992452
+          ],
+          "requiredXYmm": [
+            58.04,
+            84.68
+          ],
+          "errorMm": 1.0711316714452757e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C80",
+      "nativeAngleDegrees": 270,
+      "layerId": 2,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 2,
+          "actualXYmm": [
+            58.95999891999999,
+            83.6799993148
+          ],
+          "requiredXYmm": [
+            58.96,
+            83.68
+          ],
+          "errorMm": 1.2790227025834568e-06
+        },
+        {
+          "pin": "2",
+          "layerId": 2,
+          "actualXYmm": [
+            58.95999891999999,
+            84.6399993252
+          ],
+          "requiredXYmm": [
+            58.96,
+            84.64
+          ],
+          "errorMm": 1.2734814770611626e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "ref": "C95",
+      "nativeAngleDegrees": 0,
+      "layerId": 1,
+      "pads": [
+        {
+          "pin": "1",
+          "layerId": 1,
+          "actualXYmm": [
+            54.4800012252,
+            77.30000034
+          ],
+          "requiredXYmm": [
+            54.48,
+            77.3
+          ],
+          "errorMm": 1.271501098879782e-06
+        },
+        {
+          "pin": "2",
+          "layerId": 1,
+          "actualXYmm": [
+            53.520001214800004,
+            77.30000034
+          ],
+          "requiredXYmm": [
+            53.52,
+            77.3
+          ],
+          "errorMm": 1.2614828743674463e-06
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "original793InventorySha256": "7201d2092b3d2b625cc33b94d6688ed93bc30dbdbae14ef6ec487afa921bfb3d",
+  "strictNativeDrcStillRequired": true,
+  "scope": "Realization/preservation of six VIAs,31 LINEs,20 capacitor worldpads,634 old VIA bodies and793 old physicaldrills; final FILL topology/all44GND connectivity/nativeDRC and CAM audited separately."
+}

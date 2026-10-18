@@ -1,0 +1,73 @@
+{
+  "schema": "adc10-c95-approved-rotation0-move-only-20261018-v1",
+  "status": "GUARDED_MOVE_ONLY_PENDING_FAR_VIA_COPPER_PROOF",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-remaining6_move-20261018.epru",
+  "sourceSha256": "af83b97cf7b775d834fc8339eb627beade225247ff077c2a234b3a50a4f808d4",
+  "componentMoves": [
+    {
+      "ref": "C95",
+      "primitiveId": "32cf88e1aaf87f50",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 2125.9843,
+        "y": 3043.3071,
+        "angle": 180,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "086b10aa9eea5342",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I59"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeComponentBodySha256": "90dfe9148daa6b4623e533dc2d4139a487624d2187009b1792262acc6180a787",
+      "targetLayerId": 1,
+      "targetXYmil": [
+        2125.9843,
+        3043.3071
+      ],
+      "axisAngleWorldDegrees": 0,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC3_INP7",
+          "xyMm": [
+            54.48,
+            77.3
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            53.52,
+            77.3
+          ]
+        }
+      },
+      "assemblyBoundingBoxMm": [
+        53.05,
+        76.8,
+        54.95,
+        77.8
+      ],
+      "allowedChangedComponentFields": [
+        "angle"
+      ]
+    }
+  ],
+  "lineCreates": [],
+  "viaCreates": [],
+  "fillModifyOperations": [],
+  "fillCreateOperations": [],
+  "nativeCalls": 0,
+  "reason": "Parent approved rotating C95 only at unchanged54,77.3mm center so a far-x55.36,78.44 signal via can avoid the original layer17 GND neck. Signal and GND routing are unapplied and must be regenerated/verified separately.",
+  "operationGates": [
+    "Far-via option passes all-six-layer copper/drill/body and original-neighbor GND-anchor preservation proof.",
+    "Change only C95 angle180->0. All other component fields, copper, original drills and rules must remain exact; owned ATTR display rigid transforms may follow native behavior.",
+    "Verify actual native PIN1ADC3_INP7right54.48,77.3 and PIN2GNDleft53.52,77.3 before applying final revised-copper contract."
+  ],
+  "manufacturingReady": false
+}

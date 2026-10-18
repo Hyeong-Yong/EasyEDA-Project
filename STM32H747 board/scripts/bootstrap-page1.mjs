@@ -1,0 +1,22 @@
+import { readFile, mkdir, readdir, writeFile } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const output = resolve(root, 'output', 'page1');
+const destination = resolve(root, 'native-project');
+const projectName = 'STM32H747_MCU_BOARD_v19';
+const windowId = process.argv[2];
+if (!windowId) throw new Error('An explicit empty bootstrap window ID is required.');
+await mkdir(destination, { recursive: true });
+if ((await readdir(destination)).length) throw new Error('Native destination is not empty; refusing import.');
+const filePath = resolve(output, projectName + '_page1.epro2');
+await readFile(filePath);
+const health = await (await fetch('http://127.0.0.1:49620/health')).json();
+if (health.service !== 'easyeda-bridge') throw new Error('Bridge handshake mismatch.');
+const code = `const p=await eda.dmt_Project.getCurrentProjectInfo();if(p){throw new Error('Bootstrap window must have no active project');}const f=await eda.sys_FileSystem.readFileFromFileSystem(${JSON.stringify(filePath)});if(!f){throw new Error('Bootstrap project is unreadable');}const imported=await eda.sys_FileManager.importProjectByProjectFile(f,'EasyEDA Pro',{importOption:'ImportDocument'},{operation:'Offline Client Local Path',folderPath:${JSON.stringify(destination)}});const after=await eda.dmt_Project.getCurrentProjectInfo();return {imported,before:p,after};`;
+const response = await fetch('http://127.0.0.1:49620/execute', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({windowId, code}), signal: AbortSignal.timeout(35000) });
+const value = await response.json();
+await writeFile(resolve(output, 'native-import.json'), JSON.stringify(value, null, 2));
+if (!value.success || value.result?.imported?.friendlyName !== projectName) throw new Error(JSON.stringify(value));
+console.log(JSON.stringify(value, null, 2));

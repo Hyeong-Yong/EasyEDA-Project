@@ -1,0 +1,79 @@
+{
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/bottom-buckets/c95-rotation0-move-only-guard-20261018.json",
+  "manifestHash": "5a7a8f5230f5fd685db33633d2f1d2ceba285fbfd17f9db605eb459d3affad88",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-c95_rotation0-20261018.epru",
+  "sourceSha256": "598bd2694227a85311622ba69d091830a3aafcc099b818e54857a816facb7b5f",
+  "containmentPassed": true,
+  "padChecks": [
+    {
+      "number": "1",
+      "net": "ADC3_INP7",
+      "layer": 1,
+      "xyMm": [
+        54.48046,
+        77.29982
+      ],
+      "expected": {
+        "net": "ADC3_INP7",
+        "xyMm": [
+          54.48,
+          77.3
+        ]
+      },
+      "passed": true
+    },
+    {
+      "number": "2",
+      "net": "GND",
+      "layer": 1,
+      "xyMm": [
+        53.52034,
+        77.29982
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          53.52,
+          77.3
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "changes": [
+    {
+      "key": "COMPONENT:32cf88e1aaf87f50",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:32cf88e1aaf87f50ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:32cf88e1aaf87f50ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:32cf88e1aaf87f50e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    }
+  ],
+  "issues": [],
+  "copperApplied": false,
+  "saved": false,
+  "manufacturingReady": false
+}

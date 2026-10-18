@@ -1,0 +1,10 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong dedicated PCB');
+const stage=__taskArgs[0]||'';
+if(stage&&!/^direction_v2$/.test(stage))throw new Error('Explicit final silk direction export required');
+const filename='STM32H747_corners_j18'+(stage?'_'+stage:'')+'_20261016_DIAGNOSTIC_NOT_FOR_FAB',file=await eda.pcb_ManufactureData.getGerberFile(filename);
+if(!file||file.size<10000)throw new Error('Native diagnostic export incomplete');
+const path=root+'/output/validation/'+filename+'.zip';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,file,undefined,false))throw new Error('Diagnostic file save failed');
+return{path,bytes:file.size,manufacturingApproved:false};

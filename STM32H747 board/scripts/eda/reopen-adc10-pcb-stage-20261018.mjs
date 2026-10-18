@@ -1,0 +1,14 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e',stage=__taskArgs[0];
+if(!/^[a-z0-9_-]{3,50}$/.test(stage||''))throw new Error('Scoped reopen stage required');
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Saved approved PCB must remain active');
+const f=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-adc10-pcb-'+stage+'_saved-20261018.epru');
+if(!f)throw new Error('Stage save evidence unavailable');
+const parse=s=>new Map(s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const i=x.indexOf('||'),h=JSON.parse(x.slice(0,i));return[h.type+':'+h.id,x.slice(i+2)];}));
+const a=parse(await f.text()),b=parse(await eda.sys_FileManager.getDocumentSource());
+if(a.size!==b.size)throw new Error('PCB changed after stage save');
+for(const[k,v]of a)if(!k.startsWith('DOCHEAD:')&&b.get(k)!==v)throw new Error('PCB changed after stage save '+k);
+if(!await eda.dmt_EditorControl.closeDocument((await eda.dmt_SelectControl.getCurrentDocumentInfo()).tabId||uuid))throw new Error('Saved PCB close failed');
+if(!await eda.dmt_EditorControl.openDocument(uuid))throw new Error('Saved PCB reopen failed');
+const source=await eda.sys_FileManager.getDocumentSource(),path=root+'/output/validation/native-adc10-pcb-'+stage+'_reopened-20261018.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false))throw new Error('Reopened PCB capture failed');
+return{path,saved:true,manufacturingReady:false};

@@ -1,0 +1,20 @@
+const uuid='6da689cbfc28e476';
+const projectUuid='761c4fdb8e3e1a273a7eb212bd6961ba8b6efdb0e27d1b0c207735a7e696c24c';
+if((await eda.dmt_Project.getCurrentProjectInfo())?.uuid!==projectUuid)throw new Error('Wrong dedicated project');
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong routed staging PCB');
+const sourceBefore=await eda.sys_FileManager.getDocumentSource();
+const liveBefore=(await eda.pcb_PrimitiveComponent.getAll(1)).length;
+if(liveBefore!==330)throw new Error('Staging component contract changed');
+const saved=await eda.pcb_Document.save();
+if(!saved)throw new Error('Routed staging inspection save failed');
+await eda.dmt_EditorControl.closeDocument(uuid+'@'+projectUuid);
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong reopened staging PCB');
+const source=await eda.sys_FileManager.getDocumentSource();
+const liveComponents=(await eda.pcb_PrimitiveComponent.getAll(1)).length;
+const counts={};
+for(const row of source.split(/\r?\n/).filter(l=>l.includes('||'))){const type=JSON.parse(row.split('||')[0]).type;counts[type]=(counts[type]||0)+1;}
+if(liveComponents!==330||counts.ARC!==2184||counts.VIA!==634||counts.PAD_NET!==1176)throw new Error('Saved staging runtime contract changed');
+const path='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-routed-staging-reopened.epru';
+const captured=await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false);
+return {saved,captured,path,liveComponents,counts,status:'intermediate-inspection-only',geometryAuditPending:true};

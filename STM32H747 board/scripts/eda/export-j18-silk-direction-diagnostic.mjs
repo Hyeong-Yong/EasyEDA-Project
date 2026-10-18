@@ -1,0 +1,12 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e',mode=__taskArgs[0],stage=__taskArgs[1]||'';
+if(!['mirror','nomirror'].includes(mode))throw new Error('Explicit silk direction required');
+if(stage&&!/^[a-z0-9_]{3,40}$/.test(stage))throw new Error('Invalid silk diagnostic stage');
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong dedicated PCB');
+const EPCB_LayerId={BOTTOM_SILKSCREEN:4};
+const filename='STM32H747_j18_silk_'+mode+(stage?'_'+stage:'')+'_DIAGNOSTIC_NOT_FOR_FAB';
+const file=await eda.pcb_ManufactureData.getGerberFile(filename,false,undefined,undefined,undefined,[{layerId:EPCB_LayerId.BOTTOM_SILKSCREEN,isMirror:mode==='mirror'}],['Text']);
+if(!file)throw new Error('Silk diagnostic export missing');
+const path=root+'/output/validation/'+filename+'.zip';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,file,undefined,false))throw new Error('Silk diagnostic save failed');
+return{path,bytes:file.size,mode};

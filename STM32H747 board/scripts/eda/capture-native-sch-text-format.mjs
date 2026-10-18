@@ -1,0 +1,17 @@
+await eda.dmt_EditorControl.openDocument('a07bf8e4331877a8');
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!=='a07bf8e4331877a8')throw new Error('Wrong ADC page');
+const before=await eda.sys_FileManager.getDocumentSource();
+const ESCH_PrimitiveTextAlignMode={LEFT_BOTTOM:3};
+const text=await eda.sch_PrimitiveText.create(130,735,'ADC1 DC coupled',0,'#006666','Arial',6,false,false,false,ESCH_PrimitiveTextAlignMode.LEFT_BOTTOM);
+if(!text)throw new Error('Native annotation creation unavailable');
+const id=text.getState_PrimitiveId();
+const source=await eda.sys_FileManager.getDocumentSource();
+const row=source.split(/\r?\n/).find(x=>x.includes('"id":"'+id+'"'));
+if(!await eda.sch_PrimitiveText.delete(id))throw new Error('Temporary annotation cleanup failed');
+const after=await eda.sys_FileManager.getDocumentSource();
+const parse=s=>s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const i=x.indexOf('||');return{h:JSON.parse(x.slice(0,i)),b:JSON.parse(x.slice(i+2).replace(/\|$/,''))};});
+const a=parse(after),b=parse(before),map=new Map(a.map(r=>[r.h.type+':'+r.h.id,r.b]));
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort()):q);
+const changes=b.filter(r=>!['DOCHEAD','CANVAS'].includes(r.h.type)&&canonical(r.b)!==canonical(map.get(r.h.type+':'+r.h.id)));
+if(changes.length||a.length!==b.length)throw new Error('Annotation cleanup source preservation failed');
+return {row,restoredRecords:a.length,differences:0};

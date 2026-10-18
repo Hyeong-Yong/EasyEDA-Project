@@ -1,0 +1,13 @@
+await eda.dmt_EditorControl.openDocument('6cbee023e77e073a');
+await new Promise(r=>setTimeout(r,500));
+const components=await eda.sch_PrimitiveComponent.getAll();
+const c1=components.find(c=>c.getState_Designator()==='C1');
+if(!c1)throw new Error('C1 missing');
+const before={footprint:c1.getState_Footprint(),pcb:c1.getState_AddIntoPcb()};
+const component=await eda.sch_PrimitiveComponent.create({libraryUuid:'project',uuid:'d7270171e70fd42d'},1800,-1200,'A',0,false,false,true);
+if(!component)throw new Error('Native current-device probe failed');
+const id=component.getState_PrimitiveId();
+const source=await eda.sys_FileManager.getDocumentSource();
+const saved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-device-link-probe.epru',new Blob([source]),undefined,false);
+const removed=await eda.sch_PrimitiveComponent.delete(id);
+return {before,id,saved,removed};

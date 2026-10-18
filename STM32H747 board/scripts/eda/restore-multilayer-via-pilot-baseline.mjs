@@ -1,0 +1,13 @@
+const pcbUuid='0ac2a19168000d8e',id='e917297287b005ea';
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==pcbUuid)throw new Error('Wrong dedicated PCB');
+const source=await eda.sys_FileManager.getDocumentSource();
+const line=source.split(/\r?\n/).find(l=>l.startsWith('{"type":"VIA"')&&l.includes('"id":"'+id+'"'));
+if(!line)throw new Error('Pilot missing');
+const body=JSON.parse(line.split('||')[1].replace(/\|$/,''));
+if(body.netName!=='D10'||body.centerX!==2531.4961||body.centerY!==4097.4409||body.holeDiameter!==7.8||Math.abs(body.viaDiameter-13.7795)>.000051)throw new Error('Unexpected pilot recovery state');
+if(!await eda.pcb_PrimitiveVia.modify(id,{diameter:15.748,holeDiameter:7.874}))throw new Error('Pilot baseline restore rejected');
+const after=await eda.sys_FileManager.getDocumentSource();
+const restored=after.split(/\r?\n/).find(l=>l.startsWith('{"type":"VIA"')&&l.includes('"id":"'+id+'"'));
+const actual=JSON.parse(restored.split('||')[1].replace(/\|$/,''));
+if(actual.holeDiameter!==7.874||actual.viaDiameter!==15.748)throw new Error('Exact pilot drill/diameter baseline not restored');
+return {pcbUuid,id,restoredBody:actual};

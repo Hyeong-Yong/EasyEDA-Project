@@ -1,0 +1,11 @@
+const pcbUuid='3ca9811d1a42d086';
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==pcbUuid)throw new Error('Wrong dedicated PCB');
+const file=await eda.sys_FileSystem.readFileFromFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/native-pcb/native-pcb-placement-manifest.json');
+const plan=JSON.parse(await file.text());
+const target=plan.placements.find(p=>p.reference==='C1');
+if(!target)throw new Error('Exact C1 placement missing');
+const updated=await eda.pcb_PrimitiveComponent.modify(target.component_id,{x:target.placed_mil[0],y:target.placed_mil[1],rotation:0});
+const source=await eda.sys_FileManager.getDocumentSource();
+const sourceSaved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-component-placement-probe.epru',new Blob([source]),undefined,false);
+const saved=await eda.pcb_Document.save();
+return {updated:!!updated,saved,sourceSaved,target};

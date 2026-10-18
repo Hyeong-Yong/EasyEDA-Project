@@ -1,0 +1,1863 @@
+{
+  "schema": "stm32h747-selective-git-publication-20261018-v1",
+  "scope": "STM32H747 board",
+  "inputPath": "config/publication-input-20261018.json",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 143,
+      "sha256": "ecbfd45dafd28651136f26949328411acb0af753df74d940fd55d152624e17f1"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 318,
+      "sha256": "22206d2ece649d413226e89bfbdd0e2819e64c38a36cd152ef2346377b496a09"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 5045,
+      "sha256": "8a899262d5de6071e1e3393cbe90eb49d2d16cea91c2410edda027620f1564b9"
+    },
+    {
+      "path": "EasyEDA-Bridge.local.cmd.example",
+      "bytes": 274,
+      "sha256": "a46ca764414227f77dec891ec5ba743279282bfb384069f367a49f13200040b4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 20862,
+      "sha256": "c7de1ef6c16f4108dda97e16f11534dd34ceb4319654c46713f558021d75c0a4"
+    },
+    {
+      "path": "Start-EasyEDA-Bridge.bat",
+      "bytes": 425,
+      "sha256": "7568477b4f6b36a87a7dcbcd196e7fe72bc688605c2648ebe2f7e9db0f6613bc"
+    },
+    {
+      "path": "config/adc-dc-corners-j18-status.md",
+      "bytes": 23720,
+      "sha256": "3d320dcb93f253afc56e0abbe811d79646353484e90333412b4bd06c500e85f0"
+    },
+    {
+      "path": "config/easyeda-project.json",
+      "bytes": 1143,
+      "sha256": "e49de7aa2f40c3be45862dc5080ce35aba3e621db45834bed0dcf39df52a7bb6"
+    },
+    {
+      "path": "config/multilayer-clearance-status.md",
+      "bytes": 6603,
+      "sha256": "8a4a42fe78d5a0ffb921f276cc2c9bc5b4f8dca69a9db5bc39d064172e236a9e"
+    },
+    {
+      "path": "config/page-components.md",
+      "bytes": 1929,
+      "sha256": "169d9b4b39e3b26cb5451c7be665a67b9f2e68f2417de09c3b6a580b91540e31"
+    },
+    {
+      "path": "config/page-plan.md",
+      "bytes": 3719,
+      "sha256": "64befd97ea69e84ec7e9ad6efa5b3c32c7c8332b8fc629853cfa32bc01dc2eff"
+    },
+    {
+      "path": "config/publication-input-20261018.json",
+      "bytes": 2874,
+      "sha256": "3fafa719c09982927d61a6dda4fb937823de8f177b38487a13184c4bfaa8597d"
+    },
+    {
+      "path": "config/revision-diff.md",
+      "bytes": 1523,
+      "sha256": "06b53dd65770d7198ba888ddd165f8b3b0616eb8577e7d5f8a83922cf5c47f87"
+    },
+    {
+      "path": "config/setup-status.md",
+      "bytes": 10636,
+      "sha256": "47601276e1ac6a75c98a436ad0fbe68d7824c875b72595055f5102f88a8a5c98"
+    },
+    {
+      "path": "config/source-manifest.json",
+      "bytes": 2445,
+      "sha256": "03af522dd255e5eb5f28ab49d1fb9409779b754e358bb5f7b2fc3a87a10a2cbd"
+    },
+    {
+      "path": "native-project/STM32H747_MCU_BOARD_v19.eprj2",
+      "bytes": 89174016,
+      "sha256": "cb26ad4835b7dd65f6769f4cbbf1e86fbc676e6806f8e03ba8ac6a48b489466d"
+    },
+    {
+      "path": "output/candidates/adc-inline-wiring/audit-inline-final-project.py",
+      "bytes": 7856,
+      "sha256": "0776d988d84998e8ed47680c5fbef853a19747112bdeeb426257eeea1dd0380f"
+    },
+    {
+      "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-expected-full-pin-contract-20261017.json",
+      "bytes": 105372,
+      "sha256": "e8243cd0d59917095d50d3cf123b5e97537fed8390e791fae2da344648a91b89"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/adc10-final-route-project-scope-independent-audit-20261018.json",
+      "bytes": 70776,
+      "sha256": "eebe0230623034dc164c7e7dcfb08c96804aeea4a1ebece570bd30d0772be2f5"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/adc10-final60735-prospective-six-via-drill-independent-audit-20261018.json",
+      "bytes": 5276,
+      "sha256": "2ceae635e7c7fefdc6baa5cb8fcf705e8f473339f68310dd2628f643541a2984"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/adc10-focused-diagnostic-gerber-audit-20261018.json",
+      "bytes": 3971,
+      "sha256": "c140b1a9d8db60767c68b7d4ff0dc3976abbdb9c83a8cfbdbdcb6e30097690a0"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/adc10-postcut-all44-ground-routed-reopen-actual-independent-audit-20261018.json",
+      "bytes": 333828,
+      "sha256": "73ff08d2fa6aa114dc0c110ff98e4a1d93928343d6764d6fb1c5c60452b3ae65"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/adc10-routed-reopen-actual-literal-signal-chains-independent-audit-20261018.json",
+      "bytes": 194964,
+      "sha256": "e4f16c47ac384da2138512a129ace3645ccd3f6bb27e496670d09613d4d71f95"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/adc10-routed-reopen-final-native-scope-electrical-drill-independent-audit-20261018.json",
+      "bytes": 13856,
+      "sha256": "a105316fe71fbc84f7e319d9818eb7a5900cf117151275fcbddc784fb3e9858e"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/adc10-routed-saved-reload-typed-preservation-independent-audit-20261018.json",
+      "bytes": 4845,
+      "sha256": "b951a97950a75ae43fe511e510d11c3d0c40080be714cfc50344d720fbd57812"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-bottom-direct4-actual-20261018.py",
+      "bytes": 10940,
+      "sha256": "4e1bbb3e58acd1ca3ffc65eaa04c89cb050a01c834025fcfa437fbaa5d5597ec"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-bottom-direct4-prospective-20261018.py",
+      "bytes": 10595,
+      "sha256": "a6c11c37d5576b3ba01847e3952b8bf707176fc7011c048be4865a1a9dce8cec"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-c95-top-candidate-20261018.py",
+      "bytes": 9992,
+      "sha256": "d7164047edc2d14599c26b34edec43d772839285706b5372068b83f3667ab7fc"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-copper-cut-normalized-readback-20261018.py",
+      "bytes": 11430,
+      "sha256": "b2ed95bca02ecf006efd299217e40252eb984040b9d0961b43eecef19cad73cb"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-copper-cut-readback-20261018.py",
+      "bytes": 8907,
+      "sha256": "bb6962c9498f4cbf1ae268406372abad53c32a110c2d7a77b8776a22e4d98415"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-final-literal-signal-chains-20261018.py",
+      "bytes": 9261,
+      "sha256": "200145919fe46543b7adb19d88b6a784fdc93f78ba4c9b4a3c6d4bb9b622fa9a"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-final-native-scope-20261018.py",
+      "bytes": 11807,
+      "sha256": "ee31abb28666eb2545e90e906d72ad57eae7bbd510ff1bad9a4c5ef23c50911d"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-postcut-all44-ground-20261018.py",
+      "bytes": 13816,
+      "sha256": "bf205377108f6b59916a822d94af7db727bd7ebe9e568f86a3c4b821f3da177f"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-prospective-six-via-drills-20261018.py",
+      "bytes": 4526,
+      "sha256": "134c6803636036f07723e12e15ac94abca1aa397c5687ed589829a6787f17f1e"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-reference-courtyard-readback-20261018.py",
+      "bytes": 9539,
+      "sha256": "4a94e01505d46d9e54461f8ef0b3b33cc36a50233fba30c24adb82f10cf3a394"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-reference-nested-hole-readback-20261018.py",
+      "bytes": 5498,
+      "sha256": "73e8454d4a2351f55c1fbf1bd71d3e93d27938fe95035c57bef1b67198960850"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-remaining6-moves-20261018.py",
+      "bytes": 5745,
+      "sha256": "50238740c9c52072dcc8997fb8235ffe7bd87208fe44f0d80eeeddb53bffcfb4"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-routed-reopen-readback-20261018.py",
+      "bytes": 3387,
+      "sha256": "4703a569d6186dabe755b5b0333d04e88a4a224d30db4632379b1a9ad1eaa030"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-strip-dc-graph-ground-20261018.py",
+      "bytes": 10447,
+      "sha256": "078e89af5b3de9b640be1663438cbca9eddb8cdd0ffdee3c7d441e3de6ef9303"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-strip-fill-v3-readback-20261018.py",
+      "bytes": 6682,
+      "sha256": "8ab3378a091fee4cf43764ffb2c6466324b6e9c43549c7d159fb505a0ee71a99"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-strip-placement-readback-20261018.py",
+      "bytes": 7738,
+      "sha256": "efbef3753ec5a4810ab847b54e65dbfafbd04c74ee359094b534f585388269ce"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/audit-adc10-strip-route-unions-20261018.py",
+      "bytes": 9909,
+      "sha256": "06393328b14e012cf3cce1b76119eaf58863190712f0ec1a0999da0cee03a921"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/audit-fill-clipping-residues.py",
+      "bytes": 2139,
+      "sha256": "47f7a9c6dc300bdf420b2faf7688d03b056b9ebb41d64faa7778531f26b197d1"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/audit-full-original-drills.py",
+      "bytes": 2649,
+      "sha256": "555040df8044616b24917053a76eec9c97b45fd181a902f12936a92834959884"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/audit-native-farvia-fills.py",
+      "bytes": 4006,
+      "sha256": "9cd1ef803be47a5f85291c25ed893ebb47dcf9c3d462f51b91c1ffbab2a58d06"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/audit-native-farvia-postapply.py",
+      "bytes": 5898,
+      "sha256": "c7148e82ccaa8e91562e14645acd53c5e072cdf4f7801052566e71bc6d88b0b7"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/build-local-fill-operations.py",
+      "bytes": 17937,
+      "sha256": "00230207813d4dcbc41fd5df97babf1c229eff79ca6af8caf5381b42e47a265c"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/build-remaining6-native-operations.py",
+      "bytes": 15219,
+      "sha256": "8e58bcc9c1927c9453fbd3d00e9755b021db84865a14fd60599e405731bfb527"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/c95-rotation0-move-only-guard-20261018.json",
+      "bytes": 2456,
+      "sha256": "5a7a8f5230f5fd685db33633d2f1d2ceba285fbfd17f9db605eb459d3affad88"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/finalize-direct4-data.py",
+      "bytes": 7949,
+      "sha256": "f0fab3f773dc041c5d929b04b27ba464364f2036e951c880bb7a51daa79b1e31"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/native-c95-rotation0-receipt-20261018.json",
+      "bytes": 1671,
+      "sha256": "f63edd85c3b954f4845371443123174d2b864e5d0f147e2e37a457ddb4aa3249"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/native-farvia-exact13fills1lobe-audit-20261018.json",
+      "bytes": 10019,
+      "sha256": "43c00f2b3daff4a3a97fcc57463a26212a5a31a13baf6d191b1f2827c8872405"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/native-farvia-postapply-realization-audit-20261018.json",
+      "bytes": 9330,
+      "sha256": "1475d232f31ff9c0c0b55775059684e01f76b29a3f817d1c50a0f71ade1d9e54"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/plan-bottom-buckets.py",
+      "bytes": 25928,
+      "sha256": "1f97650a01682052b569d83ffe4ef16345b6759e513acc15a70b8398eed5fcf2"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/plan-inner15-branches.py",
+      "bytes": 2950,
+      "sha256": "86eff82b69a26ef7332e39b47b0d8ea38bb15f23b0849c19a8347dc9514d8294"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/plan-inner3-branches.py",
+      "bytes": 10304,
+      "sha256": "dabb88b18f6e670c191bd5ac5c61b1e17e507032e39efbeaddfe8fdf622c0226"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/plan-tap-vias.py",
+      "bytes": 10309,
+      "sha256": "8b87846319a16a09edb50d332a42be65b10923d8700f872834a26f1bf2b74eb5"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/rebase-remaining6-current-guards.py",
+      "bytes": 3718,
+      "sha256": "9f877171e116f0c7484d7f2ac9929484a0f69cc5ffbe4c826716cb23292059db"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/remaining6-move-only-guarded-20261018.json",
+      "bytes": 9096,
+      "sha256": "e41bcb02cd1b7bbf31f93c8c2b6c0ef89230c1da7835ffc5462eb8f9bff560b2"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/remaining6-native-operations-c95-farvia-20261018.json",
+      "bytes": 36650104,
+      "sha256": "60735a1709cdb441f51c99bbcf4d139a76bcce569176408e6851ebf6044e2780"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/run-farvia-full-drill-audit.py",
+      "bytes": 995,
+      "sha256": "07be4db4507d296d2abac036a7b81ac92faf246895d83a6d94101a6eac98c6c5"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/bottom-buckets/test-c95-lower-vias.py",
+      "bytes": 1227,
+      "sha256": "95895af25eea9c93dc262b4b937cc4206ad808b0771a439b6bd6ba61e500866f"
+    },
+    {
+      "path": "output/candidates/adc10-pcb-finish-20261018/build-adc10-copper-cut-execution-manifest-20261018.py",
+      "bytes": 15961,
+      "sha256": "5a6fe5a84fa143d78c177f9cce372140731e1e1aeb01757d840d6518b3cf8b3c"
+    },
+    {
+      "path": "output/checkpoints/STM32H747_adc10_routed_verified_20261018.epro2",
+      "bytes": 20762963,
+      "sha256": "97fb82a0b4b739f6c1b1656ea9e24b4a097beb149dafd7195a07bd6af744892e"
+    },
+    {
+      "path": "output/checkpoints/STM32H747_before_pcb_route_20261018.epro2",
+      "bytes": 20589548,
+      "sha256": "91a9e562b064db87de81befe10b00c70f8babf891f8375dfdc99f50b1f4282be"
+    },
+    {
+      "path": "output/validation/STM32H747_adc10_routed_20261018_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "bytes": 3472249,
+      "sha256": "af168c61f367eaa980b4e9140824e6c2cf6ee3e718466cae9c51a08004ce9405"
+    },
+    {
+      "path": "output/validation/native-adc10-pcb-baseline-20261018.epru",
+      "bytes": 13735213,
+      "sha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b"
+    },
+    {
+      "path": "output/validation/native-adc10-pcb-routed_drc0_saved-20261018.epru",
+      "bytes": 14173523,
+      "sha256": "e86d514095be241a45f3c0d0bde132a9089756b5e3a5eebed292692158a586ae"
+    },
+    {
+      "path": "output/validation/native-adc10-pcb-routed_reopen_probe-20261018.epru",
+      "bytes": 14173491,
+      "sha256": "8731b8a06570881f4478c390aafc41f1c5c8486f1d1bfdf93695763e35c1e154"
+    },
+    {
+      "path": "output/validation/native-adc10-routed-Protel2-20261018.net",
+      "bytes": 216970,
+      "sha256": "2e8ccad866d2957231351cab4b14c83d1084339ae8e2b18bf33250c68c3fb0d1"
+    },
+    {
+      "path": "output/validation/native-adc10-routed-erc-20261018.json",
+      "bytes": 62,
+      "sha256": "7d1ad27be83f9e2acceae552eccfd3f79d241dcbca173f27df3fefcf632d03b8"
+    },
+    {
+      "path": "output/validation/native-adc10-sch-baseline-20261018.epru",
+      "bytes": 2234827,
+      "sha256": "2fed55b03754358a49d4c2acd0a8a1a877bacb847ac258ea781bd32395729dff"
+    },
+    {
+      "path": "output/validation/native-diagnostic-gerber-export-adc10_routed_20261018-receipt.json",
+      "bytes": 467,
+      "sha256": "7eb7951e5bfd75c7953905910e62d4a1a13459a08718b6cc6199b497a77e0ab9"
+    },
+    {
+      "path": "output/validation/native-pcb-Protel2_adc10_routed_reopened_20261018.net",
+      "bytes": 258148,
+      "sha256": "b1f803fbb495be172edde20c570c47dbaea5bf59ae444e7719358e91aa8dada9"
+    },
+    {
+      "path": "output/validation/native-pcb-drc-0ac2a19168000d8e-adc10_routed_20261018.json",
+      "bytes": 147,
+      "sha256": "4456251d143b51a6e284e3c6fe23970ccd97a3d207b646c658273a580f71d8ed"
+    },
+    {
+      "path": "output/validation/native-pcb-drc-0ac2a19168000d8e-adc10_routed_reopened_20261018.json",
+      "bytes": 147,
+      "sha256": "10d1d1dc3ac326a20afa589c3f6bc0aed5f0fa79b751ef3f244d2e2718973c39"
+    },
+    {
+      "path": "reference/schematic-pages/v19_260827/page-1.png",
+      "bytes": 85595,
+      "sha256": "dc1f2db8d404772efb24fceb713fc249ea730b91daa68baad162f149585cbb18"
+    },
+    {
+      "path": "reference/schematic-pages/v19_260827/page-2.png",
+      "bytes": 455331,
+      "sha256": "fb9449db721f91102dcd9ed6601d5f5a05f06e134efd317b3d4718b1a0ebcc1b"
+    },
+    {
+      "path": "reference/schematic-pages/v19_260827/page-3.png",
+      "bytes": 264112,
+      "sha256": "8698d77dd5b001ef5351956e4bb56ed5ef0b49221d6bb683896a35731ea3abf1"
+    },
+    {
+      "path": "reference/schematic-pages/v19_260827/page-4.png",
+      "bytes": 267001,
+      "sha256": "c1ade7f054988b5983d82b993461a0aacdc4e83e8d56e91b5142d39bf3d672d8"
+    },
+    {
+      "path": "reference/schematic-pages/v19_260827/page-5.png",
+      "bytes": 427369,
+      "sha256": "1fd35e4e68bd5189641c89176a109b832e91a0c77e13f6ae70a23997d643b541"
+    },
+    {
+      "path": "reference/schematic-pages/v19_260827/page-6.png",
+      "bytes": 194358,
+      "sha256": "96081b5e9c55c55008de44ad94a54a9d79407ab6c8204ea70d5bfd74c9d5291b"
+    },
+    {
+      "path": "scripts/Repair-SymbolBatch.ps1",
+      "bytes": 1941,
+      "sha256": "82c866122b95c6a3f231b8e3efc586eddd2b4afa8ec9ab6b81c6cc1ddbc05a23"
+    },
+    {
+      "path": "scripts/Start-EasyEDA-Bridge.ps1",
+      "bytes": 6242,
+      "sha256": "56a86b285fda876eda7f717ef1a06203031bfd7d31d0050d74b5d64e7ed0cd72"
+    },
+    {
+      "path": "scripts/Test-Workspace.ps1",
+      "bytes": 3529,
+      "sha256": "086015ea88d2aa76b17a0c228240c32ceed0bbb35acb4773796f568bdb9f163a"
+    },
+    {
+      "path": "scripts/analyze-native-pcb-clearance-drc.py",
+      "bytes": 42962,
+      "sha256": "d0660d5ed3976835130c5ff058ae19e942bc46785d2fa2f79a826028c5a851f9"
+    },
+    {
+      "path": "scripts/analyze-native-svg-overlays.py",
+      "bytes": 15417,
+      "sha256": "1628db396424a8079c6cd9c6728687f5b0a6b0a729c21377788947d3be20097b"
+    },
+    {
+      "path": "scripts/audit-adc10-final-wip-scope.py",
+      "bytes": 2911,
+      "sha256": "77995c093d95e1470351cf4e9756b7f3652aba03d3da7af3410224364f1e1b8a"
+    },
+    {
+      "path": "scripts/audit-adc10-focused-diagnostic-gerber-20261018.py",
+      "bytes": 5516,
+      "sha256": "f38ca49115e3b5094f7ce63516393c3b0530b4dea46d1acc4f86714db79c333c"
+    },
+    {
+      "path": "scripts/audit-adc10-inner17-local-shard-20261018.py",
+      "bytes": 5994,
+      "sha256": "87ec43f85c0aca29d6e3d926d32c32860328caf25338caafe677ea24c519788b"
+    },
+    {
+      "path": "scripts/audit-adc10-oriented.py",
+      "bytes": 2881,
+      "sha256": "18476774328757076a1a84d739ff1c33537573225c40a8da501755f7e63aa3a7"
+    },
+    {
+      "path": "scripts/audit-adc10-pcb-eco-preservation-20261017.py",
+      "bytes": 6756,
+      "sha256": "8a36402ae3c0146d8459ccce8de48722a74510226d6d2664fb1128d67f3beebf"
+    },
+    {
+      "path": "scripts/audit-adc10-pcb-eco-readonly-20261017.py",
+      "bytes": 11270,
+      "sha256": "557402f7a7e907ee6e1267913c61e22fe73101963611576b377094986003f2e3"
+    },
+    {
+      "path": "scripts/audit-adc10-readback.py",
+      "bytes": 5875,
+      "sha256": "80149e591e7d09d28b3502e477347915903c3da038d1532aee6e9e37c4e2832c"
+    },
+    {
+      "path": "scripts/audit-adc10-remaining6-fill-validity-20261018.py",
+      "bytes": 3842,
+      "sha256": "c06183d834289b694485792b92741fccea4d102aadf7aa494686c1a409841936"
+    },
+    {
+      "path": "scripts/audit-adc10-route-final-project-scope-20261018.py",
+      "bytes": 5758,
+      "sha256": "e48e813775dbbfbee5b5c3428edcdb76d751d79f52e6c8a01ad83a54a7f0c2fb"
+    },
+    {
+      "path": "scripts/audit-adc10-strip-placement-envelopes-20261018.py",
+      "bytes": 5252,
+      "sha256": "d36d0c0cd2f7cdb4feb2bc4a2b12a2c710a5609652b8dd67f924da4d41236e41"
+    },
+    {
+      "path": "scripts/audit-adc10-unmerged-route-prefix-20261018.mjs",
+      "bytes": 3656,
+      "sha256": "ced0ff52df4d5bfa439b04f4cf6291dda74597a4803fc66e5acd1516934e0909"
+    },
+    {
+      "path": "scripts/audit-cn1-cutout-final-preservation.py",
+      "bytes": 23959,
+      "sha256": "9097cdfcb49622eb185a1dea26c6d5eacedd8e17188adcf4404cf427c6917968"
+    },
+    {
+      "path": "scripts/audit-cn1-cutout-gerber-20261016.py",
+      "bytes": 14855,
+      "sha256": "190bdea4c654c62efec9101da4d40764a0fd4240547d930596151f6605c37ce1"
+    },
+    {
+      "path": "scripts/audit-diagnostic-gerber-drill-zip.py",
+      "bytes": 42730,
+      "sha256": "a3fc886e931495de1da98c22d7c0c5c6adb0f175834b9ddaaeb8c782fe69ee79"
+    },
+    {
+      "path": "scripts/audit-final-diagnostic-gerber-copper.py",
+      "bytes": 22263,
+      "sha256": "8b5c8c0b62ebe4cca6c38bd60cd35d00f24c12e516abf5b65bbfff8e6eb47fca"
+    },
+    {
+      "path": "scripts/audit-final-native-component-copper-centers.py",
+      "bytes": 23294,
+      "sha256": "091ef76575f84df3507e46bfaa58f09fe365564cd6eb342334c103dc8bcebf8c"
+    },
+    {
+      "path": "scripts/audit-final-native-drill-inventory.py",
+      "bytes": 27168,
+      "sha256": "769e2db93595ce0aca9b4a167d8dc33aff30391e9d3c6169b31053c01b6b5835"
+    },
+    {
+      "path": "scripts/audit-final-native-physical-stack.py",
+      "bytes": 11829,
+      "sha256": "7f455ab4a9760263b281e0731b9dbae8bd813536efa9d8d25dc297ea85df4c0d"
+    },
+    {
+      "path": "scripts/audit-final-pcb-project-association.py",
+      "bytes": 16332,
+      "sha256": "c65836d00f9bb14b25668f7a884aec6bd355a748b695022f50891901d4dca476"
+    },
+    {
+      "path": "scripts/audit-installed-footprint-update-handler.py",
+      "bytes": 11812,
+      "sha256": "d42be0725afeffa4826c638ed92bdbaa1af8e55e0c12c9a4ed23a24099e8e197"
+    },
+    {
+      "path": "scripts/audit-latest-revision-bias-gaps.py",
+      "bytes": 15305,
+      "sha256": "75f41a67115850db2b9a82d1713bd712c06857717dc153d572a60370ca009284"
+    },
+    {
+      "path": "scripts/audit-missing-sma-ground-pths.py",
+      "bytes": 15172,
+      "sha256": "5a7d799ba298276bbcadd9b57e899463205a97f1bd429030294281f7c8046394"
+    },
+    {
+      "path": "scripts/audit-missing-sw1-duplicate-smd-pads.py",
+      "bytes": 12580,
+      "sha256": "492ffa5666e1b97789f96ab814f2a9f0feb0a1a5ff6fada15e3a87e1193f65b7"
+    },
+    {
+      "path": "scripts/audit-multilayer-geometry-preservation.py",
+      "bytes": 47657,
+      "sha256": "a32913a755d336097522b875f9e40b664eec52e1d22d48adc1547b915fe58cdb"
+    },
+    {
+      "path": "scripts/audit-multilayer-gerber-changed-copper.py",
+      "bytes": 27004,
+      "sha256": "066dd7ae9e623e08bca2fce96866627d43010dce28e7abe7fb4baedeabc5145f"
+    },
+    {
+      "path": "scripts/audit-native-pcb-compatible-checkpoint.py",
+      "bytes": 41799,
+      "sha256": "ebf2074b4f216e67db162631e64701e79e5687e3e7d9def9c07cf242ef07109f"
+    },
+    {
+      "path": "scripts/audit-native-pcb-rule-change.py",
+      "bytes": 9955,
+      "sha256": "8cb0a72c3182b680288cecee9d299908b0f05f10dcaedf4f76b936485f2d0eaa"
+    },
+    {
+      "path": "scripts/audit-native-pcb-staging-checkpoint.py",
+      "bytes": 25369,
+      "sha256": "61fd05263e1d5833659d7fd83645a5b010a66c7d73f9f9d6997fb9720db6a8ab"
+    },
+    {
+      "path": "scripts/audit-pcb-replacement-safety.py",
+      "bytes": 18108,
+      "sha256": "fa3b7eeb2e434777e45df1c3ce8467e1bbda96624cf61bcfae79578a576a6320"
+    },
+    {
+      "path": "scripts/audit-rebase-adc10-strip-fill-v3-20261018.py",
+      "bytes": 4962,
+      "sha256": "8cc67f9caa83679e8f51bc586aca9236f03acd7d6d215b363dbd334fe78dd451"
+    },
+    {
+      "path": "scripts/audit-unused-inner-layer-gerber-voids.py",
+      "bytes": 10907,
+      "sha256": "979a35d0141e9d419f9f9b50b1fcb427a8f7abfbe45b6d8d47bca88411b48b25"
+    },
+    {
+      "path": "scripts/bootstrap-page1.mjs",
+      "bytes": 1980,
+      "sha256": "c47044f6f4033c6cd3a861860e0f35454fb2e0e1b6d0f4c17cc17e03a0511bbd"
+    },
+    {
+      "path": "scripts/build-adc-dc-libraries.py",
+      "bytes": 25711,
+      "sha256": "4adc730d920045e291606aa6934283b416ea5b7c668484589d53dee6c3bf3921"
+    },
+    {
+      "path": "scripts/build-adc-dc-schematic-patch.py",
+      "bytes": 12504,
+      "sha256": "d4235acd95aa285f2dd510bec7df50f29c050d860c010b3b394328c24be345f7"
+    },
+    {
+      "path": "scripts/build-adc10-c95-rotation-guard-20261018.py",
+      "bytes": 2416,
+      "sha256": "d1110c3d33da54915979ed1adcf18b581e13c3f9650128b44e9b56a27d9deb16"
+    },
+    {
+      "path": "scripts/build-adc10-nested-ground-contour-fix-20261018.py",
+      "bytes": 3409,
+      "sha256": "8c482005b6109411349c4feca61191d780a51d84c6eee5ffbc37110a969d499f"
+    },
+    {
+      "path": "scripts/build-adc10-reference-courtyard-correction-20261018.py",
+      "bytes": 9899,
+      "sha256": "f5f71eaab8f526413ac91022271286d46756d76ae64e0a945b5574cd194514e8"
+    },
+    {
+      "path": "scripts/build-adc10-remaining6-moves-only-20261018.py",
+      "bytes": 2955,
+      "sha256": "4d02cb8670176f2a0dcfd283923ac532872ef95e567323b3014e4d6330a5f4bc"
+    },
+    {
+      "path": "scripts/build-adc10-strip-operations-20261018.py",
+      "bytes": 9823,
+      "sha256": "9ccea5ccd927225f0447f5faf6aea4b321e4c6edbc88d578affae4e89b73ea23"
+    },
+    {
+      "path": "scripts/build-adc10-strip-routes-20261018.py",
+      "bytes": 11011,
+      "sha256": "357b547f0e2a0b7ebdf28955d12ab10b46cd9b35faea7227a077ddffedba4bdf"
+    },
+    {
+      "path": "scripts/build-electrical-links.py",
+      "bytes": 28690,
+      "sha256": "dd761a72663a2b66ba63d193e2cb1da3eb86550ca6985e88ab571f40cd98c2b3"
+    },
+    {
+      "path": "scripts/build-footprint-arc-compatibility-plan.py",
+      "bytes": 19076,
+      "sha256": "d868902d48ee761558a078e577dce1e916afd677507f907856f30f8d92f33312"
+    },
+    {
+      "path": "scripts/build-global-silkscreen-reference.py",
+      "bytes": 26067,
+      "sha256": "f3998db65d0b64fb090139f2acf1aa9298477a0258a75dd24227c8df525e2a1f"
+    },
+    {
+      "path": "scripts/build-native-component-rebind-plan.py",
+      "bytes": 30349,
+      "sha256": "e51c36bfdb366822f38a93d6b762b7438d7e8733227cecfda60ebde973814d31"
+    },
+    {
+      "path": "scripts/build-native-libraries.py",
+      "bytes": 94704,
+      "sha256": "34dd0b7866c5117325876183098f16fb89f400e7b24ff48f3f63661d32718ab9"
+    },
+    {
+      "path": "scripts/build-native-pcb-decoder-compatible-routing.py",
+      "bytes": 41270,
+      "sha256": "a5dc1b731b576407e6120f7857aeda4de9db3516604611068186dfd9172949d5"
+    },
+    {
+      "path": "scripts/build-native-pcb-routes.py",
+      "bytes": 56735,
+      "sha256": "73bcd59d2600a2c63f5e92f3712ec1c3c27ba13861d81cb6909438ed470559d1"
+    },
+    {
+      "path": "scripts/build-native-schematic-pages.py",
+      "bytes": 14610,
+      "sha256": "90cf93a5b5f84dba465ec9df975c2d873f0b90b39d0cc2b99829d21557b36a24"
+    },
+    {
+      "path": "scripts/build-page1-project.py",
+      "bytes": 8387,
+      "sha256": "94d537accf4d211e538cfad19ee87599a3ab55579c1aaa2142e118d9c9f1890a"
+    },
+    {
+      "path": "scripts/build-pcb-arc-compatibility.py",
+      "bytes": 12085,
+      "sha256": "408451258df362b6c083c95ecd18be333b678e3b4a30ece369e92277d42ea8a3"
+    },
+    {
+      "path": "scripts/build-reference-netlist.py",
+      "bytes": 7466,
+      "sha256": "850b93d6374937b41a6d7137dfb27ec1e843f45a85f96578283f365cfa0a4591"
+    },
+    {
+      "path": "scripts/build-ui-physical-stack.py",
+      "bytes": 3420,
+      "sha256": "375b022ecde32c81c816b7ddf7517ef871eaf16a790ba4509cc43591d188b3fe"
+    },
+    {
+      "path": "scripts/build-unused-inner-layer-pad-plan.py",
+      "bytes": 37877,
+      "sha256": "5447b2f3c13086f16d37e05fabb8d2020808677d0c9e421425449e977b583b40"
+    },
+    {
+      "path": "scripts/build-via031-track013-clearance-plan.py",
+      "bytes": 13125,
+      "sha256": "028b2783f0dbf36fffb5aa3018bbf2f3adb42e22bf52dde27b4e8c256653ada2"
+    },
+    {
+      "path": "scripts/check-eda-syntax.mjs",
+      "bytes": 360,
+      "sha256": "b27c5a63a02f790e71870399c969d477c02c236b728d00eefdad95daae6f2876"
+    },
+    {
+      "path": "scripts/draft-adc10-bucket-placement-readonly-20261017.py",
+      "bytes": 14957,
+      "sha256": "a5cd3cfcf2c90881a923db6b25ae26bf2211c4c88f5991484f02ce2751d479cc"
+    },
+    {
+      "path": "scripts/draft-adc10-new-parts-placement-readonly-20261017.py",
+      "bytes": 9538,
+      "sha256": "b785f3dcd911ee4af99cd6a5d1e3586649f4ba4dc3ddaf4510c6b3461520f0e8"
+    },
+    {
+      "path": "scripts/easyeda-safe-client.mjs",
+      "bytes": 5745,
+      "sha256": "3e8711f0f20f769cac5c9b6d1e30eba6d08f25b36357eb6809296b162f9a65d2"
+    },
+    {
+      "path": "scripts/eda/README.md",
+      "bytes": 2566,
+      "sha256": "98c6ec87ccbb1a227d54f38d677899a05fee72bd17782ecc190a8cffc7126fb5"
+    },
+    {
+      "path": "scripts/eda/add-j18-bottom-labels.mjs",
+      "bytes": 3239,
+      "sha256": "e1bccc84816211e66866448dab2fa1a844e1ee6cc03e2ef285523378978bdb90"
+    },
+    {
+      "path": "scripts/eda/apply-adc-dc-schematic.mjs",
+      "bytes": 4751,
+      "sha256": "8c086e0e2fa16f681e5fb76d9e64dda7c17c3a81bbaeb070d6830bcac9ee5d83"
+    },
+    {
+      "path": "scripts/eda/apply-adc-display-labels.mjs",
+      "bytes": 3483,
+      "sha256": "9c5814550f5acbd5288dcce0d3fe8d774fb65639e626ed6d3794920af01df97e"
+    },
+    {
+      "path": "scripts/eda/apply-adc-inline-reviewed.mjs",
+      "bytes": 4052,
+      "sha256": "2d39fe1800c271fa93f0eba54b8788b357ec0ec65bbe421c78fb29d12e5827e5"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-copper-cuts-20261018.mjs",
+      "bytes": 9384,
+      "sha256": "6aa6a0b6e85e372b056a851bcfe2f724516ee50b0bf5009021699f7aea10fc89"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-direct4-buckets-20261018.mjs",
+      "bytes": 7738,
+      "sha256": "8de543439b10fba90808b38cc586038be15f7ec897749a8c250938c32842e173"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-passive-orientations.mjs",
+      "bytes": 2607,
+      "sha256": "a7c48f70d04e80743a99ba9e70ba5d7ffa04c05d6db9354aceb9ed3f41069381"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-reference-clearance-20261018.mjs",
+      "bytes": 5803,
+      "sha256": "bdaf22e62adbfa9249cf1a163f013988af62ca9e5d4092cf840db857d47ef9b9"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-remaining6-copper-20261018.mjs",
+      "bytes": 8978,
+      "sha256": "c3a393d94b5469d49b55cc1c7e4d08e72071683db6bf03c82bf964dc11fab906"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-remaining6-moves-20261018.mjs",
+      "bytes": 5183,
+      "sha256": "f809951086546005267720c8a8e7330eadc51ad35109329fe53bba76544954c5"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-reviewed.mjs",
+      "bytes": 2791,
+      "sha256": "c13c08e61721915a3fa41d4af6cfaf26e2bc8a85f673a50f9e75c7df6f39cc6c"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-strip-placement-20261018.mjs",
+      "bytes": 5679,
+      "sha256": "14e8d4d423f60121b3ea88dfe89c24f3f6a0e34860fed83b27e929d4c609c8f3"
+    },
+    {
+      "path": "scripts/eda/apply-adc10-strip-routes-20261018.mjs",
+      "bytes": 5376,
+      "sha256": "25ceaf5dd0305f52ba7243991c591dad33ba06282f0a5499454db81c817c76ad"
+    },
+    {
+      "path": "scripts/eda/apply-cn1-cutout-192.mjs",
+      "bytes": 6414,
+      "sha256": "02cdb1426864e9cada755e15f5222e716830a1bec44ba56c9f35e18f1fa3e3ee"
+    },
+    {
+      "path": "scripts/eda/apply-corner-holes-inward.mjs",
+      "bytes": 4971,
+      "sha256": "406bc1b787e6822247ac5edeb8992076b74ed36a48360a6dde1b1a6bc93a4860"
+    },
+    {
+      "path": "scripts/eda/apply-decoder-compatible-routed-pcb.mjs",
+      "bytes": 5174,
+      "sha256": "26eeb40c0817d6dd7366eef4f49d31264408b7acf39076f6eeedd43eb95bb09d"
+    },
+    {
+      "path": "scripts/eda/apply-layered-thermal-pad-shapes.mjs",
+      "bytes": 2411,
+      "sha256": "32aaeffb1b87b29809d15d842e7115085313018f511565d6d9afba358e175afe"
+    },
+    {
+      "path": "scripts/eda/apply-multilayer-fill-clearance.mjs",
+      "bytes": 7679,
+      "sha256": "cebf321e0eb1688838befef820c20ea15dc47b0669b7a386470b39ba929abb53"
+    },
+    {
+      "path": "scripts/eda/apply-multilayer-local-routes.mjs",
+      "bytes": 8232,
+      "sha256": "9f4ba67ff62817da9e7fae1b621619905935f372f4cd681c65902a745d261e96"
+    },
+    {
+      "path": "scripts/eda/apply-multilayer-via-clearance.mjs",
+      "bytes": 6409,
+      "sha256": "287c58e52e103916870628484a74d7dd9d08dec63c0b1491177f6cfd4075d2d1"
+    },
+    {
+      "path": "scripts/eda/apply-multilayer-via-track-widths.mjs",
+      "bytes": 9193,
+      "sha256": "c99c667e1db7129a86becefe5249d843b8c0a956780cef6e18512c36ee1bd7ad"
+    },
+    {
+      "path": "scripts/eda/apply-native-pcb-placement.mjs",
+      "bytes": 1404,
+      "sha256": "b397a5dd89b316995ad782a6ee0b2a81a7dbf296546627e70cbdde3bf09109a4"
+    },
+    {
+      "path": "scripts/eda/apply-native-pcb-routing.mjs",
+      "bytes": 3414,
+      "sha256": "3066250627b9f4fb17e0c4ec1bca1968c9f70a521e0136329c69771076b61c54"
+    },
+    {
+      "path": "scripts/eda/apply-plated-slot-footprint-fix.mjs",
+      "bytes": 2314,
+      "sha256": "67ee1a50bdedef6105a9ca288238e5906ec93dea9e299ea06343105f42c212c1"
+    },
+    {
+      "path": "scripts/eda/apply-routed-pcb-to-fresh-document.mjs",
+      "bytes": 2567,
+      "sha256": "03c79ad381f0e92b2872cb5614ec94b71e75ec4e4dd6ca9ce0c2c2100a71ae19"
+    },
+    {
+      "path": "scripts/eda/apply-sma-owned-post-inner-layers.mjs",
+      "bytes": 4889,
+      "sha256": "dd55cb29cc2f9c62485c8d2c3c989b9a919e8a891ae3b922d1f8a08a292a8474"
+    },
+    {
+      "path": "scripts/eda/apply-u4-multilayer-land-fix.mjs",
+      "bytes": 4507,
+      "sha256": "911f65730b34f69fec9127ba93bb914190d0e514c78ba45d984d3b6b0d119eb0"
+    },
+    {
+      "path": "scripts/eda/apply-u5-u7-thermal-pth-pads.mjs",
+      "bytes": 4791,
+      "sha256": "926fcdddcef9208c70208ff0a1f0a8a9908da6a875b725f5e8f1b7096ee3faeb"
+    },
+    {
+      "path": "scripts/eda/apply-unused-inner-pad-layers.mjs",
+      "bytes": 3800,
+      "sha256": "18f637dde29a190c19c5ac2df483c585fa628fb7b1135467e37724565af93fb5"
+    },
+    {
+      "path": "scripts/eda/apply-usbc-absolute-pad-paths.mjs",
+      "bytes": 2071,
+      "sha256": "219ff93ceaabadb8e9f743618e28652a5b2c762b1d8e5766cb4d2f7cd9f1231b"
+    },
+    {
+      "path": "scripts/eda/bind-missing-owned-pad-children.mjs",
+      "bytes": 8249,
+      "sha256": "7bb2eefe0c48ca4d1966e7b1b8d7b48eb3ab8c088d14cd588d5926bd5b984308"
+    },
+    {
+      "path": "scripts/eda/bind-restored-owned-thermal-pads.mjs",
+      "bytes": 3824,
+      "sha256": "7da21e72971a2643eea584dacb7e161eb712497352b22b03e5dc6cf28fd0a323"
+    },
+    {
+      "path": "scripts/eda/capture-adc-dc-before.mjs",
+      "bytes": 1232,
+      "sha256": "8bbbe4564a8df571c076085fb176fa08945794cfef655d22d9c59b1fa7bcb464"
+    },
+    {
+      "path": "scripts/eda/capture-adc-inline-before.mjs",
+      "bytes": 661,
+      "sha256": "9f9e8358e49eb415c846943cf36a039a81b8758914ccb3b1f443cdb009bb1e64"
+    },
+    {
+      "path": "scripts/eda/capture-adc10-source.mjs",
+      "bytes": 1058,
+      "sha256": "22a3a81e7ee26d61d18fc1b725941b87ca8635a2f8e92a7e5b35860a98f228ae"
+    },
+    {
+      "path": "scripts/eda/capture-cn1-cutout-before.mjs",
+      "bytes": 1816,
+      "sha256": "5710c48f66321ca736dc3ebfe33002f7e26e1523950edc0947432371503c2ff6"
+    },
+    {
+      "path": "scripts/eda/capture-cn1-runtime-pad.mjs",
+      "bytes": 750,
+      "sha256": "703bac01707f3d9103d5b47f8c4954f2749070eeb6bac2c947150fe55573b8db"
+    },
+    {
+      "path": "scripts/eda/capture-current-stm-source.mjs",
+      "bytes": 450,
+      "sha256": "aaa4ebe6293891d638107eabe7bf3ac2bda6caee8e2406bbd63a8b1c40016f1c"
+    },
+    {
+      "path": "scripts/eda/capture-fresh-pcb-live-components.mjs",
+      "bytes": 630,
+      "sha256": "bd0dcdcbbbd1110870b78e97effe6e6bb1a28536ce3b92effe4769eb159b6bf6"
+    },
+    {
+      "path": "scripts/eda/capture-generated-pcb.mjs",
+      "bytes": 785,
+      "sha256": "a9eb252044596c389543476103626afe08b3c61465de2ef4b38e11459f484baf"
+    },
+    {
+      "path": "scripts/eda/capture-multilayer-clearance-source.mjs",
+      "bytes": 1731,
+      "sha256": "c4d27ecc2a578a652531544ed15c4ccf68dabb65672c575cb7ccd5d853095e13"
+    },
+    {
+      "path": "scripts/eda/capture-native-decoder-log.mjs",
+      "bytes": 299,
+      "sha256": "828c41a55ce896ebd253b59c94968cadc3d7120fb7f69d02efac7dfae43e2728"
+    },
+    {
+      "path": "scripts/eda/capture-native-sch-text-format.mjs",
+      "bytes": 1523,
+      "sha256": "34df220fe285462516add4bb3a8221a2bf41115183a239183d955df488ddd2b1"
+    },
+    {
+      "path": "scripts/eda/check-final-schematic.mjs",
+      "bytes": 1575,
+      "sha256": "3daa618f866beaf81175911a0bddde437aab18c0d595e8ea90fdeec5cc6a7bd4"
+    },
+    {
+      "path": "scripts/eda/check-pcb-drc.mjs",
+      "bytes": 1290,
+      "sha256": "4af634b9c85189218d37affa005c45789b4c5306fe9dbd66fc77d02dc6bc0ec9"
+    },
+    {
+      "path": "scripts/eda/check-schematic-erc.mjs",
+      "bytes": 337,
+      "sha256": "f1d75c7dd812874c3cdc1b3bf6739fdf58392762ad958870a72b24d7b4efec66"
+    },
+    {
+      "path": "scripts/eda/clean-schematic-visual-overlays.mjs",
+      "bytes": 3774,
+      "sha256": "f1285110bd6b13969be9bc6c2c278f427760f11ff4af9f458e5b418e3f2960cd"
+    },
+    {
+      "path": "scripts/eda/cleanup-own-pcb-probes.mjs",
+      "bytes": 2151,
+      "sha256": "00dd53283532f97bad74ce8989787c74eaf921e58960d78ed702c4baa4bf2b2d"
+    },
+    {
+      "path": "scripts/eda/cleanup-schematic-checkpoints.mjs",
+      "bytes": 1965,
+      "sha256": "1bba4cdc32303b0b82c27af1bb19b8ec8483a7d55fc55f005b8546019115d287"
+    },
+    {
+      "path": "scripts/eda/clear-pcb-coordinate-probes.mjs",
+      "bytes": 723,
+      "sha256": "8712c003b6faf0d256387a1e050e4619f2ddc495724560a3a5c6184345addbc4"
+    },
+    {
+      "path": "scripts/eda/close-saved-schematic-tabs.mjs",
+      "bytes": 470,
+      "sha256": "8b3319a554e59102e2212a7cc8c6d4de846c7d58e8b62095b8247e678328e94f"
+    },
+    {
+      "path": "scripts/eda/close-stm32-pcb-cache-tabs.mjs",
+      "bytes": 865,
+      "sha256": "b0de1f59fad8fb1eec0dec77d6980aa9d24f9c5c22cd0e7edd9188d1a7b73b8c"
+    },
+    {
+      "path": "scripts/eda/configure-six-layer-pcb.mjs",
+      "bytes": 2044,
+      "sha256": "6775510aee5da1773f5920c2cf00f2947d4edac74f79c162f26136b0e65eec01"
+    },
+    {
+      "path": "scripts/eda/continue-adc10-copper-cuts-20261018.mjs",
+      "bytes": 9449,
+      "sha256": "5a47e2b40f90b8748a35a0a1f3592fe7ceb450271bc4c4339306d312fc8cfec7"
+    },
+    {
+      "path": "scripts/eda/copy-staging-pcb-to-final-board.mjs",
+      "bytes": 1451,
+      "sha256": "22dd40f6d4ea4ef2f1acc681e88dcd5813b8d2f5c7a798d0ba4dbe9365e6fdcc"
+    },
+    {
+      "path": "scripts/eda/correct-j18-bottom-direction.mjs",
+      "bytes": 2697,
+      "sha256": "d2d885beadbe1e7c4bb272d5a73ff26db05a2f37bd5d6c6f5e92a06aaef06981"
+    },
+    {
+      "path": "scripts/eda/create-missing-owned-pad-children.mjs",
+      "bytes": 6930,
+      "sha256": "ae8f3b37374f88c9a0114456954a8b209062ca6fd564bd4f6d572454829fc2ce"
+    },
+    {
+      "path": "scripts/eda/create-one-u5-owned-thermal-pad.mjs",
+      "bytes": 2218,
+      "sha256": "d02144e6801fd070c4373c824098d4a2a35156b4a0e81d0645d25cd12429f14b"
+    },
+    {
+      "path": "scripts/eda/create-pin-fixture.mjs",
+      "bytes": 501,
+      "sha256": "5024bb8c6ba72ed59f89bcb7281f7271aba04c8fe93b45f21b7d5e97d9a5b8b9"
+    },
+    {
+      "path": "scripts/eda/create-remaining-u5-u7-owned-thermal-pads.mjs",
+      "bytes": 5158,
+      "sha256": "d163bf8ed33647a4b2f41cba7611f8d70d6db255b251ac6e5315a54560207595"
+    },
+    {
+      "path": "scripts/eda/export-corners-j18-diagnostic.mjs",
+      "bytes": 841,
+      "sha256": "b977db946b16a73d3e2416b7fb15ceec0ff425c513aecc994f778a14d25cd190"
+    },
+    {
+      "path": "scripts/eda/export-diagnostic-final-pcb-gerber.mjs",
+      "bytes": 1920,
+      "sha256": "14b5d9b35603e787744d004e659e374846549886cb38bfe1b806e4d61917bbd9"
+    },
+    {
+      "path": "scripts/eda/export-final-schematic-svg.mjs",
+      "bytes": 449,
+      "sha256": "bad14b03961b04b3e5dc199d0735c57c23713050f1fb22bb40ee3e6b95ea9da4"
+    },
+    {
+      "path": "scripts/eda/export-j18-silk-direction-diagnostic.mjs",
+      "bytes": 1045,
+      "sha256": "0822af242d2f7034a6625e13f1f3abe2fc720ecde9f499015501440c2b525690"
+    },
+    {
+      "path": "scripts/eda/export-native-pcb-netlist.mjs",
+      "bytes": 892,
+      "sha256": "9023ca2a3d5a43099abb9445d4e4d0849101fe90ae2dc0ef76202dbd38791d4c"
+    },
+    {
+      "path": "scripts/eda/export-native-schematic-checkpoint.mjs",
+      "bytes": 908,
+      "sha256": "160a45bcaf775f5c4333a39c465a9db3862ffec90d3273105a1b4cdbcf052d79"
+    },
+    {
+      "path": "scripts/eda/export-verified-native-netlist.mjs",
+      "bytes": 950,
+      "sha256": "976eca748cb5c59c2e24261edc2b4242e2c57dd3699bb8aec0035eff01213b19"
+    },
+    {
+      "path": "scripts/eda/finalize-adc-dc-schematic.mjs",
+      "bytes": 3389,
+      "sha256": "d4827bc726a55d659e74f77e3acca62de9a69f378471928ef1d961f245a1ea55"
+    },
+    {
+      "path": "scripts/eda/finalize-adc-inline-reviewed.mjs",
+      "bytes": 4653,
+      "sha256": "02c649449231b407b17367b44a67711c2cf572c3f52bf2789463b022186cad99"
+    },
+    {
+      "path": "scripts/eda/finalize-multilayer-fill-pilot.mjs",
+      "bytes": 2716,
+      "sha256": "ce8d5cb34581e5f21fc39ba81846963b39add962a79ab8b0e10edfda6d1b9657"
+    },
+    {
+      "path": "scripts/eda/finalize-schematic-tree.mjs",
+      "bytes": 2598,
+      "sha256": "5c885a06152900e7e096b5d12e52a56e59b44ec725543655ac90b004630d04ec"
+    },
+    {
+      "path": "scripts/eda/harmonize-u1-multipart-metadata.mjs",
+      "bytes": 3412,
+      "sha256": "0de0b44d469585e4ed812311b4ebcd1c2d691244c3c3566e02a8db5d4ab74130"
+    },
+    {
+      "path": "scripts/eda/hide-auto-wire-label-font.mjs",
+      "bytes": 2084,
+      "sha256": "39464d03e1f9fde83efa2ccda405f800fad34a4e0840f25d975aa15de0ac8489"
+    },
+    {
+      "path": "scripts/eda/import-adc-dc-libraries.mjs",
+      "bytes": 1906,
+      "sha256": "4e25c108a4b1f1e593010708834f88759687c046584485a5a7e34978930e015c"
+    },
+    {
+      "path": "scripts/eda/import-native-schematics.mjs",
+      "bytes": 927,
+      "sha256": "45c723fd8f9cdd2f7d90497beb80521c40ca6294a23ee27f218cf4a04f2ab8c2"
+    },
+    {
+      "path": "scripts/eda/import-schematic-draft.mjs",
+      "bytes": 943,
+      "sha256": "16ebd5c20859e958a0583173e54c6208f2e635b28b4ce5aca8ab35a778204ec0"
+    },
+    {
+      "path": "scripts/eda/inspect-component-format.mjs",
+      "bytes": 501,
+      "sha256": "d7cbbc095dae83fd79edb7bb05a60181eadb9e47c11be62f94612c0d7cfd8cdf"
+    },
+    {
+      "path": "scripts/eda/inspect-final-library-runtime.mjs",
+      "bytes": 1597,
+      "sha256": "9bec209bf10af73bfa230a87c92270ce8aaec6574ce37b25ed3f3fb7462c7c71"
+    },
+    {
+      "path": "scripts/eda/inspect-imported-draft.mjs",
+      "bytes": 726,
+      "sha256": "c6bf2d6e72f7368e5547f85e6280d0b088f023953c5c8ce06dffc1bc6fbe89c9"
+    },
+    {
+      "path": "scripts/eda/inspect-multilayer-via-pilot.mjs",
+      "bytes": 590,
+      "sha256": "6d256cfba3938460513453b17b36ee62b9b04b6e24642ecce8b0ed45fe29d612"
+    },
+    {
+      "path": "scripts/eda/inspect-native-library.mjs",
+      "bytes": 333,
+      "sha256": "152e6ad95b23e389f924f884b662ed37b9f325929e8f3639f32befd36a29a871"
+    },
+    {
+      "path": "scripts/eda/inspect-native-pcb-entities.mjs",
+      "bytes": 596,
+      "sha256": "93c2040160acb9c5836ac12bc13d37f60db87d84b87d2131ad51f6c906ecd0d1"
+    },
+    {
+      "path": "scripts/eda/inspect-native-pins.mjs",
+      "bytes": 705,
+      "sha256": "4bf239ce13341e02d391f8a189e9264bc3c2393bef26cfc333c9592627cf7bf8"
+    },
+    {
+      "path": "scripts/eda/inspect-native-project-footprint.mjs",
+      "bytes": 716,
+      "sha256": "423eed66254868a570fb225f556df13e031397b785dffddac98d2a3b255a26aa"
+    },
+    {
+      "path": "scripts/eda/inspect-project-footprint-by-reference.mjs",
+      "bytes": 1123,
+      "sha256": "d375c275abff87cfd1a8e74ffe8ad49bafbdf89dfb2b4caae174e348468c0d01"
+    },
+    {
+      "path": "scripts/eda/inspect-render-primitives.mjs",
+      "bytes": 196,
+      "sha256": "c26ed21d8caffaf5956b618b518c5acf0fdb3264b39c814f916bd672bbdbaac2"
+    },
+    {
+      "path": "scripts/eda/inspect-wire-format.mjs",
+      "bytes": 349,
+      "sha256": "e398f6261d1a7539f9715a167bc7f4432140159c2ee03da46bcc24c1ac11e30e"
+    },
+    {
+      "path": "scripts/eda/link-and-generate-pcb.mjs",
+      "bytes": 1460,
+      "sha256": "ea765143eee255d9cd50710523d1d529635d601f9c1edb743993ad3985242a2a"
+    },
+    {
+      "path": "scripts/eda/list-schematic-checkpoints.mjs",
+      "bytes": 158,
+      "sha256": "43735d9403fd319c554e52e6dffded830d9e8ce7221813d5968be11e5dac3138"
+    },
+    {
+      "path": "scripts/eda/load-page2-draft.mjs",
+      "bytes": 800,
+      "sha256": "4823fe03979f603c473f2c6e65d741bb001b1d42bf6746dd8a33e8414abe67f6"
+    },
+    {
+      "path": "scripts/eda/name-and-verify-final-pcb.mjs",
+      "bytes": 1945,
+      "sha256": "1c2ef77dd50493bb6969b9652525c4da4e59ee5ef819f2c5ac50dd2fe2c0875c"
+    },
+    {
+      "path": "scripts/eda/open-final-schematic.mjs",
+      "bytes": 221,
+      "sha256": "92a7e39b0b6b404ff08b0dac73736a5fe376826a9c8bce24086e40eb02f7954f"
+    },
+    {
+      "path": "scripts/eda/persist-adc-revision-source.mjs",
+      "bytes": 2392,
+      "sha256": "276b12fe8294f65b0ca5bfdb0b589e9f4bb387f99118c953586cec351c1f0502"
+    },
+    {
+      "path": "scripts/eda/pilot-symbol-visual-fix.mjs",
+      "bytes": 2819,
+      "sha256": "1926171ac5ffa227ce8cd42cec5dd76e410a37d4b1c7eff958861b7e371dd63e"
+    },
+    {
+      "path": "scripts/eda/prepare-electrical-pages.mjs",
+      "bytes": 1972,
+      "sha256": "a4a62f76002df9efa5213f87ee5f98e731f9bdb0bbb0321909f9df59bd704b45"
+    },
+    {
+      "path": "scripts/eda/probe-adc10-bottom-c88-20261018.mjs",
+      "bytes": 4896,
+      "sha256": "621670d198a153ecd4b544fcee24abf533108d8603e3cd8fb234ef4cfde6f919"
+    },
+    {
+      "path": "scripts/eda/probe-component-constructor-error.mjs",
+      "bytes": 2459,
+      "sha256": "75d9a1b29ffeaf26bc7a4b3ded11cd7332c32c2d94339a7e6d94199c172aa813"
+    },
+    {
+      "path": "scripts/eda/probe-component-reference-sync.mjs",
+      "bytes": 1034,
+      "sha256": "d41605bac2f580d4ab460a1d59a6ec58bc28bc63a09ede2818ed51ba2473cffc"
+    },
+    {
+      "path": "scripts/eda/probe-electrical-wire-association.mjs",
+      "bytes": 517,
+      "sha256": "51d6d057f792ccba4b4246facad0c76a8ea50af7ed5df1bae1d21a47f11762e2"
+    },
+    {
+      "path": "scripts/eda/probe-fresh-pcb-constructor.mjs",
+      "bytes": 1980,
+      "sha256": "06c9b0571a41563340f6b509655cbeb8b0ac6224d2c6d84e21f9769eb45bd1d6"
+    },
+    {
+      "path": "scripts/eda/probe-native-cn1-create.mjs",
+      "bytes": 906,
+      "sha256": "1f603a81b131e48edca2e16001b9ae2fb369b58cb753d9cda99764a08fa78642"
+    },
+    {
+      "path": "scripts/eda/probe-native-component-link-repair.mjs",
+      "bytes": 1020,
+      "sha256": "146ce73c002c6d30e324e4223630f7c349093c2de1945a1cf4021578b647fd7e"
+    },
+    {
+      "path": "scripts/eda/probe-native-device-link-format.mjs",
+      "bytes": 938,
+      "sha256": "87b6990772f0a45dc687bbc3b4d29b538ee2fc697a35c7c7af5fe137bd00a323"
+    },
+    {
+      "path": "scripts/eda/probe-native-netflag.mjs",
+      "bytes": 551,
+      "sha256": "c46e220906b05e97509880f5b2acd66bdd91020700a92b0eee946fdd31d45ad1"
+    },
+    {
+      "path": "scripts/eda/probe-native-noconnect.mjs",
+      "bytes": 795,
+      "sha256": "77d2af80f2f6a5744c1f54a971bef5ac131b18881c69d34e5cf2fea94d6fb799"
+    },
+    {
+      "path": "scripts/eda/probe-native-pcb-component-placement.mjs",
+      "bytes": 955,
+      "sha256": "eaba9b5f6fe82a96fcd6149671c6f00edef29415cededb178460764bda828583"
+    },
+    {
+      "path": "scripts/eda/probe-pcb-coordinate-system.mjs",
+      "bytes": 1215,
+      "sha256": "40c9c6267ee3c38214b045b4c1beafa6d055f5b6b9d61fd7a073a209c6a71604"
+    },
+    {
+      "path": "scripts/eda/probe-pcb-source-roundtrip.mjs",
+      "bytes": 642,
+      "sha256": "a904b6dce25a9dd754d9b6ed7e7552dc60f398c6ab156a04724d2e50aa500d84"
+    },
+    {
+      "path": "scripts/eda/probe-polygon-format.mjs",
+      "bytes": 467,
+      "sha256": "5507a51ef4477f939ed35da94073e4cda735e7d3411b7fc3b2169577be1ec2b9"
+    },
+    {
+      "path": "scripts/eda/read-live-footprint-probe.mjs",
+      "bytes": 918,
+      "sha256": "4b73dad72a201a78efc741b86bdd047e04d62eff9bd2bdbae2106ea9b1cbbc1d"
+    },
+    {
+      "path": "scripts/eda/read-pcb-rule-config.mjs",
+      "bytes": 478,
+      "sha256": "41feb78467f2301bff5ab71541df6480d3982786175fd7c6f28658b81d4cfe1c"
+    },
+    {
+      "path": "scripts/eda/read-staging-pcb-drc-details.mjs",
+      "bytes": 609,
+      "sha256": "5553b05636850453df014dd73d113c1f82c94128e086d9dfc1a6a1aea84067ac"
+    },
+    {
+      "path": "scripts/eda/read-wire-format.mjs",
+      "bytes": 166,
+      "sha256": "5d0ac34873a8dde2308686054ba5cca0454883948cfb4772ba7ce183038ec3dd"
+    },
+    {
+      "path": "scripts/eda/rebase-native-pcb-placement.mjs",
+      "bytes": 1756,
+      "sha256": "a7b32fb2214514ef5fcc197262b954ae4a6652244f1b7bbda675c5bcb628cb59"
+    },
+    {
+      "path": "scripts/eda/rebind-native-library-page.mjs",
+      "bytes": 2817,
+      "sha256": "5981f4381743a9b3444da9387f1d5300bbbd064bba6cbd00e64d26c2d70e3868"
+    },
+    {
+      "path": "scripts/eda/reconcile-adc10-ref-nested-contour-20261018.mjs",
+      "bytes": 3806,
+      "sha256": "1bb8312310d5d4d92dece8057f71a1e4cc8de3cfc002836621e9611122ae9f1b"
+    },
+    {
+      "path": "scripts/eda/remove-adc-temporary-format-text.mjs",
+      "bytes": 1522,
+      "sha256": "239887628e6c41bec153a0d7267898a17fe9dc0c8a708258823e7a3e95d12977"
+    },
+    {
+      "path": "scripts/eda/remove-adc10-pcb-dnp.mjs",
+      "bytes": 2609,
+      "sha256": "989bd7742de16ccedf6b51af9746a61cc4cf3ad0cae5df571b494b6a9c18af15"
+    },
+    {
+      "path": "scripts/eda/reopen-adc10-pcb-only.mjs",
+      "bytes": 784,
+      "sha256": "b2561795f819ebe99db22064a44c7589e4dd5737bc711bb74659119815bb99e7"
+    },
+    {
+      "path": "scripts/eda/reopen-adc10-pcb-stage-20261018.mjs",
+      "bytes": 1532,
+      "sha256": "445c4bace0e8e6c499763b2a893e6631f4b364229f576d39f57035c6b9ce7016"
+    },
+    {
+      "path": "scripts/eda/reopen-pcb-model.mjs",
+      "bytes": 748,
+      "sha256": "e80c11222a8fa7b1ae407e120d1afaede76046d49ada1288980b5a53c2ccaff3"
+    },
+    {
+      "path": "scripts/eda/repair-adc-revision-annotation.mjs",
+      "bytes": 1791,
+      "sha256": "77a6deee125b82fd9a93bbd2d7b6348ae39b544ad98b1300d3607c368340fedb"
+    },
+    {
+      "path": "scripts/eda/repair-corner-pad-preservation.mjs",
+      "bytes": 2919,
+      "sha256": "bc20e517eac1d33f5cacff973eae71e19f64f43dd467fda4dfd216c0e49b549a"
+    },
+    {
+      "path": "scripts/eda/repair-footprint-arc-compatibility.mjs",
+      "bytes": 15896,
+      "sha256": "40941cec9423f3afcae46a2bce5f06918eaadc15163cd4a68568d55cceeb9235"
+    },
+    {
+      "path": "scripts/eda/repair-library-body-metadata.mjs",
+      "bytes": 3966,
+      "sha256": "fb8be0ecf71715d2099988d9e782cf1f366305e29bb384846f996d6e0e7e50b4"
+    },
+    {
+      "path": "scripts/eda/repair-netflag-name-consistency.mjs",
+      "bytes": 1284,
+      "sha256": "8aff5295f7b883066d3a473e6e5370b43eeba302b7900ff0bd3e5f5d6b90cee1"
+    },
+    {
+      "path": "scripts/eda/repair-oval-footprint-compatibility.mjs",
+      "bytes": 3700,
+      "sha256": "9ac5f314114482fdc76be662a1b5858e73b2229e71c531b30fb33a8145ab6cd2"
+    },
+    {
+      "path": "scripts/eda/repair-power-driver-pcb-exclusion.mjs",
+      "bytes": 1152,
+      "sha256": "a55d2ff1d35007fbd616297e487389eb50aa8fd755fd483f90b3990c78e46087"
+    },
+    {
+      "path": "scripts/eda/repair-project-symbol-visuals.mjs",
+      "bytes": 11579,
+      "sha256": "d94eec4785cdb2dabec91a1197a8abb44279784573f21096a5026a7df445df38"
+    },
+    {
+      "path": "scripts/eda/repair-root-schematic-visuals.mjs",
+      "bytes": 10980,
+      "sha256": "c5c05b9624e0c3ade83a3de77d086688d07f1722096469700134b16c93abb5d2"
+    },
+    {
+      "path": "scripts/eda/replace-scoped-initial-pcb.mjs",
+      "bytes": 2445,
+      "sha256": "6d714c1552467004e028a86e46e0defaff033397bfb0e47575e04356778b71c1"
+    },
+    {
+      "path": "scripts/eda/restore-multilayer-via-pilot-baseline.mjs",
+      "bytes": 1152,
+      "sha256": "c256249a40cedf9b714df3e626e56cff4923d89d8fb58b7ff7ecfdaceb1d0404"
+    },
+    {
+      "path": "scripts/eda/rotate-adc10-c95-final-20261018.mjs",
+      "bytes": 4253,
+      "sha256": "b4614f26e2f928c90ff733743693b415355be81893ba28b6cdcfb24e3267f667"
+    },
+    {
+      "path": "scripts/eda/save-adc10-pcb-oriented.mjs",
+      "bytes": 1342,
+      "sha256": "ea7517f0f4a16db196bb35deda8bc82eb39d0f7aa1d22e68b79d33058d099bdd"
+    },
+    {
+      "path": "scripts/eda/save-adc10-pcb-stage-20261018.mjs",
+      "bytes": 717,
+      "sha256": "e14202509131bd4043572ebff183d865fadd8e0eb9f9907becf9de7f3af29d15"
+    },
+    {
+      "path": "scripts/eda/save-and-capture-final-pcb.mjs",
+      "bytes": 5418,
+      "sha256": "9250c4e1f65d76d884a419861dd5f988d6ac62b078469200681e2cd6f3546a20"
+    },
+    {
+      "path": "scripts/eda/save-final-pcb-after-pad-fix.mjs",
+      "bytes": 1889,
+      "sha256": "b0a8badad9e35d35c53fd4484d9299f24b62d2748fdd89dbf885042170d8d319"
+    },
+    {
+      "path": "scripts/eda/save-format-fixture.mjs",
+      "bytes": 456,
+      "sha256": "00c67e7e478755057e303a4a3af8842e59f47a41824d7579cde1d3aaacc63e7b"
+    },
+    {
+      "path": "scripts/eda/save-pilot-symbol.mjs",
+      "bytes": 557,
+      "sha256": "d4be9683ef7b9946b9f7719db1f2f1bd7537f921de916c2042224dc5175b1aef"
+    },
+    {
+      "path": "scripts/eda/save-project-checkpoint.mjs",
+      "bytes": 832,
+      "sha256": "57c3bcf93ed96ebd12eea442d39940236991f52ab73e0ac2adba93bac9b4175b"
+    },
+    {
+      "path": "scripts/eda/save-reopen-adc10-pcb-eco.mjs",
+      "bytes": 1853,
+      "sha256": "a07c24ecc19c2f86855ae7bd4b32b34d14d7fc6021886239aedc4e3ab399c024"
+    },
+    {
+      "path": "scripts/eda/save-reopen-adc10-reviewed.mjs",
+      "bytes": 2175,
+      "sha256": "e1ed2a41fb2aa64f8bb5545477f24bab2642977fbc0e36c21ef6118028a03e20"
+    },
+    {
+      "path": "scripts/eda/save-reopen-multilayer-pcb.mjs",
+      "bytes": 4309,
+      "sha256": "a08f10590a756bea5302a66d3f08c0d053bae4cdd2b88ea1cca43928e064df55"
+    },
+    {
+      "path": "scripts/eda/save-routed-staging-inspection.mjs",
+      "bytes": 1649,
+      "sha256": "6876c4230816dbd42ea3867ce8baa9fdf13f2676127c9f2238c34537a5096095"
+    },
+    {
+      "path": "scripts/eda/save-staging-pcb-multilayer-rules.mjs",
+      "bytes": 1508,
+      "sha256": "ea3cf8be092614d2f7277d3b3774100c31afcc0373ad46759d7c91863727edb0"
+    },
+    {
+      "path": "scripts/eda/save-staging-pcb-stack-ui.mjs",
+      "bytes": 1622,
+      "sha256": "96d72373cb60e15e5a14748d38ff3f6c711f613886c5af9c234c4512f28fa5a1"
+    },
+    {
+      "path": "scripts/eda/set-u1-metadata-attributes.mjs",
+      "bytes": 3446,
+      "sha256": "dc3f35095d3f1e1c6e23569ca384e656db9176b2deda9380c792a5d68dbd50e8"
+    },
+    {
+      "path": "scripts/eda/show-adc10-schematic.mjs",
+      "bytes": 352,
+      "sha256": "d42ce65ec2653466d4eb8bb7f85bf7fc9ae5969f5bab34b4c57043594f10f002"
+    },
+    {
+      "path": "scripts/eda/show-pcb-staging.mjs",
+      "bytes": 479,
+      "sha256": "3128b208697d007bf64a464b2a516192f192255d5e3c52afc58e1af690a8dd7d"
+    },
+    {
+      "path": "scripts/eda/start-adc10-pcb-eco.mjs",
+      "bytes": 1688,
+      "sha256": "f24e8358dfd73f984ee15805f556fc091c14710c5b7710abab48b07602a2109c"
+    },
+    {
+      "path": "scripts/eda/test-source-roundtrip.mjs",
+      "bytes": 222,
+      "sha256": "4e9f6d1c3bcdb24532cf2e463619d4425278eed2ec6a0a477d89ebd0aa9cb4ca"
+    },
+    {
+      "path": "scripts/eda/update-library-footprint-arcs-direct.mjs",
+      "bytes": 3787,
+      "sha256": "4921baf1068b2e0295730d8c8fede038f65395b39778bc592303bd6b6d844b31"
+    },
+    {
+      "path": "scripts/eda/verify-cn1-cutout-post-export.mjs",
+      "bytes": 1996,
+      "sha256": "f39f3c25755d1fa25adf49593d0b879fdbd5b75953b8b608b798f75cefbcebc8"
+    },
+    {
+      "path": "scripts/eda/verify-export-adc-dc.mjs",
+      "bytes": 1549,
+      "sha256": "3ed653236b468423d6f40f216fec199d566817280349d117adcca7e9eeb5fd34"
+    },
+    {
+      "path": "scripts/eda/verify-export-adc-inline.mjs",
+      "bytes": 1273,
+      "sha256": "e0aae537f8b5fc997968d64b80dc2b2fcba224bb3ff3c1bb14b17423d300e4b5"
+    },
+    {
+      "path": "scripts/eda/verify-export-adc10.mjs",
+      "bytes": 1446,
+      "sha256": "d564f5e49386f5b9157432c6ce333c2a039a81ba5345f19b11360af3b6d544f5"
+    },
+    {
+      "path": "scripts/eda/verify-multilayer-after-export.mjs",
+      "bytes": 1960,
+      "sha256": "a4a8f70088b648dfc2c2b9c59660e99c7e254246d2b6ac5cf63797c216140591"
+    },
+    {
+      "path": "scripts/eda/verify-native-schematic-runtime.mjs",
+      "bytes": 1399,
+      "sha256": "7f36f6fca04ca518185ac6f9267795eeb692d389720d8b784021ffb23de83614"
+    },
+    {
+      "path": "scripts/eda/verify-page1.mjs",
+      "bytes": 1829,
+      "sha256": "559edbe0798980c8080a3e75d4c8a7aeaa18b6d00cc1f3c9dda5a2c41e04189c"
+    },
+    {
+      "path": "scripts/eda/verify-symbol-pilot-reopen.mjs",
+      "bytes": 1105,
+      "sha256": "cc4448ba02bb7d9b06f9c01977c9bd55355743da802fdb739d0a94db66223402"
+    },
+    {
+      "path": "scripts/extract_gerber_reconstruction.py",
+      "bytes": 35424,
+      "sha256": "20523601d971c78d13dfdc0098f765a154a1435d91645e9bad614c41cf27060a"
+    },
+    {
+      "path": "scripts/extract_page1_vectors.py",
+      "bytes": 23689,
+      "sha256": "fa1685e5d1b6f5e4fef5a54eaf3f8f632762b0a6c0e010ab60c042b47a4ff014"
+    },
+    {
+      "path": "scripts/extract_schematic_semantics.py",
+      "bytes": 69453,
+      "sha256": "224e67c0ee07cf7bbb757019ca3bf5adb982c2754aef7d257f469a60e2d0fc8a"
+    },
+    {
+      "path": "scripts/inspect-portable-project.py",
+      "bytes": 1868,
+      "sha256": "139694c89b3c5d055f3455b81462ac80da74ac506d0f2586272dc3b1d30214e4"
+    },
+    {
+      "path": "scripts/merge-native-pcb-routing.py",
+      "bytes": 71552,
+      "sha256": "724136f0125b6dfff12f4372a36801c1e35d20b38911bfb432269b0220b77171"
+    },
+    {
+      "path": "scripts/place-native-pcb.py",
+      "bytes": 55502,
+      "sha256": "a9c655c40213d78afdfe1ec049b8fbc2c96e522af2e98f57d7f944d5e6979129"
+    },
+    {
+      "path": "scripts/plan-adc10-c95-layer18-independent-20261018.py",
+      "bytes": 3880,
+      "sha256": "2d39b19349383ac74b5aedb1f91fa14278877d3f903c66c89f71cca507a3893f"
+    },
+    {
+      "path": "scripts/plan-adc10-c95-top-exterior-20261018.py",
+      "bytes": 9709,
+      "sha256": "4ea0c3bf42cc33f24a18a86dacdcf4a58172f108445797fd872057cb56547a53"
+    },
+    {
+      "path": "scripts/plan-adc10-passive-orientation-20261017.py",
+      "bytes": 4859,
+      "sha256": "71d6ef2fb450253bd1d846b00997271ad48e3be139ee44cf56a88144133ce877"
+    },
+    {
+      "path": "scripts/plan-c23-clearance.py",
+      "bytes": 15252,
+      "sha256": "2702e06798ea4ee5b433ae8aea1166355b316aa0ba80c1c27fb818d2715d512b"
+    },
+    {
+      "path": "scripts/plan-corner-holes-inward-20261016.py",
+      "bytes": 15921,
+      "sha256": "3ce4407730e8d2773e3e97f3f7399c54708f1fcad524613f1d61ea3d836321c9"
+    },
+    {
+      "path": "scripts/plan-multilayer-fill-clearance.py",
+      "bytes": 67771,
+      "sha256": "1e80f9a01d3b1cb35cfef425eac8a8b700b2655be6bf2f1edd10279884725b40"
+    },
+    {
+      "path": "scripts/plan-multilayer-route-clearance.py",
+      "bytes": 45114,
+      "sha256": "7dfb36e7b7c4b3bc9d8152edede4995afc45d0925214fe3815d318a7eed22890"
+    },
+    {
+      "path": "scripts/plan-u1-r17-clearance.py",
+      "bytes": 13424,
+      "sha256": "d918843aba389dfc3c19ae1193ed6cb60bb08fa23ca7057c1c24a2a06bb54eba"
+    },
+    {
+      "path": "scripts/plan-u4-bga-escape-clearance.py",
+      "bytes": 17321,
+      "sha256": "8e62e81aff7fa529019a3322e62c135f4d629b4d6c81e4ec847f58bb08e6759e"
+    },
+    {
+      "path": "scripts/plan-u4-bga-escape-complete.py",
+      "bytes": 18316,
+      "sha256": "fa0a16ea02f991a000dca521e2f0c92ab62506a7a34dd9d42e6c76e5b934a886"
+    },
+    {
+      "path": "scripts/prepare-outline5p-polygon-pad-fix.py",
+      "bytes": 18151,
+      "sha256": "fc73cce5f6b65b85c5b931ec178a61b307ac06f1bed6b1f81cd0b9f103679ea1"
+    },
+    {
+      "path": "scripts/prepare-plated-slot-pad-fix.py",
+      "bytes": 18761,
+      "sha256": "0154e3e44acf5c18e6904d262a5d2786f526c301d6bdaf3910136c213f49d44a"
+    },
+    {
+      "path": "scripts/prepare-sma-owned-post-inner-layer-candidates.py",
+      "bytes": 13307,
+      "sha256": "1895eb40f890517e4467f5e45baddd434c0c6afd559c92e1aad8588b9135ca38"
+    },
+    {
+      "path": "scripts/prepare-stm32-publication-20261018.mjs",
+      "bytes": 4253,
+      "sha256": "b4a26eccc095fd4c8555448d627fcf20dcae3f06aaf4595f646262dad994e9cc"
+    },
+    {
+      "path": "scripts/prepare-u4-multilayer-land-fix.py",
+      "bytes": 3860,
+      "sha256": "70454fe84cc35cf94a8ae1177ee14c68ae1dfb1e1ee66e071b314eaedc79ed26"
+    },
+    {
+      "path": "scripts/prepare-u5-u7-special-pad-fix.py",
+      "bytes": 17073,
+      "sha256": "6fab63c634365723b9b94877092c1f2ba141af3ce9393b6c0e7e8a715a265eb0"
+    },
+    {
+      "path": "scripts/prepare-u5-u7-thermal-pth-pad-fix.py",
+      "bytes": 30029,
+      "sha256": "07000c331d2a881d1ab8541986a2e6fe919e9cf28293ce7884054faa6aab8e46"
+    },
+    {
+      "path": "scripts/qa-native-svg.py",
+      "bytes": 13386,
+      "sha256": "84e2935021c6340847d960ae8d3eeb689767bd696c2ce15616e9cfcfb4c4a41c"
+    },
+    {
+      "path": "scripts/rebase-multilayer-via-track-width-plan.py",
+      "bytes": 10409,
+      "sha256": "d9cac552796fb7796426c7d2c2568dc32d465bc3c3befe5a8161e3a05e065b33"
+    },
+    {
+      "path": "scripts/render-adc10-bottom-search-context-20261017.py",
+      "bytes": 2980,
+      "sha256": "67e608f3a418348590ec96b73c94582a0197736fa408e0471cd42b8e45bb3bf5"
+    },
+    {
+      "path": "scripts/serialize-adc10-strip-explicit-api-closure-20261018.py",
+      "bytes": 3012,
+      "sha256": "7a39a6680d18b29b7f47b5dd21ecfea1c255cae0b0d56d4e082fc37db594eb61"
+    },
+    {
+      "path": "scripts/simulate-native-svg-visual-repair.py",
+      "bytes": 10541,
+      "sha256": "0a5c8549b5142b8994a45e5c4ed4636db5f4c00429f7a2380841e8489e622f9f"
+    },
+    {
+      "path": "scripts/validate-native-component-links.py",
+      "bytes": 17191,
+      "sha256": "74b1d33f282cd511f94feb1dfb095b9c3ca780565af4f353e672f4484bbf88ab"
+    },
+    {
+      "path": "scripts/validate-native-source.py",
+      "bytes": 43719,
+      "sha256": "cdc4e802301ecac659046c81e667a201eb981f3ccc218c433372f80a79a1449c"
+    },
+    {
+      "path": "scripts/verify-footprint-arc-compatibility-checkpoint.py",
+      "bytes": 16109,
+      "sha256": "58a6bb005937fb4f755fdc862cc4d4c1a0086563b84a639f244591c88b5ae7c0"
+    },
+    {
+      "path": "scripts/verify-footprint-geometry-golden.py",
+      "bytes": 49681,
+      "sha256": "b76c3536d4a9962ab9670ac35912e855b6ea6a85a10eecbd2da00a2b8e8d24fb"
+    },
+    {
+      "path": "scripts/verify-missing-owned-pad-children-final.py",
+      "bytes": 31148,
+      "sha256": "b0b3bb50e5fc7feddb8c7914b033b00ea9c770ecf0bcb0f11af0df72a1edc400"
+    },
+    {
+      "path": "scripts/verify-native-netlist.py",
+      "bytes": 20580,
+      "sha256": "a410d0bda9612bfbb849168a9b1d3c5fa3c45cb13b014766cdb3a5d41978a6bd"
+    },
+    {
+      "path": "scripts/verify-plated-slot-checkpoint.py",
+      "bytes": 20425,
+      "sha256": "3791a3463653611cb174c899fa9b55c831a0895b170901334553f4fbdfe9345c"
+    },
+    {
+      "path": "scripts/verify-sma-owned-post-inner-layer-checkpoint.py",
+      "bytes": 17044,
+      "sha256": "85fed8db78e86e6013ca485d7f9b31fd5137157536adbd3bdb7751b7004e2d02"
+    },
+    {
+      "path": "scripts/verify-symbol-visual-repairs.py",
+      "bytes": 23015,
+      "sha256": "cda359caa1b2e8c68571763596f03911bf510b27d037b709501a5fb19ecdf479"
+    },
+    {
+      "path": "scripts/verify-u4-multilayer-land-fix.py",
+      "bytes": 3746,
+      "sha256": "302921e955afd263bb1ab357e661efff7623d1394bfcd1700bc2a3a70310f823"
+    },
+    {
+      "path": "scripts/verify-u5-u7-owned-thermal-pth-checkpoint.py",
+      "bytes": 56817,
+      "sha256": "5facf43d62906fd0a281068f4e380da1d234ec71a8f17b1c4d332ae61f6a339d"
+    },
+    {
+      "path": "scripts/verify-u5-u7-special-pad-checkpoint.py",
+      "bytes": 35226,
+      "sha256": "ea07a816bfacc1961373b7cfd513f324b5bcd92e440365d18fbcbb726d972510"
+    },
+    {
+      "path": "scripts/verify-unused-inner-layer-pad-checkpoint.py",
+      "bytes": 16818,
+      "sha256": "636c9f48dd4eec63be5f03c887abcda80331fe7440392078f99799737472cece"
+    },
+    {
+      "path": "scripts/verify-usbc-pad-fix-checkpoint.py",
+      "bytes": 26283,
+      "sha256": "430fb6effeb979372cf0a752db8bd9361d157be668013a56da436332a8e1b86c"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD.step",
+      "bytes": 8162670,
+      "sha256": "db0b1ddb40318053e4bee5212ebc6c44201b839d464ca432b66323c3b91891f9"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_Gerber.pdf",
+      "bytes": 8997190,
+      "sha256": "0dd83646a2c6a50cfbda4c1e0cf7b497c451c47f7fe8ff965295836a98caf25d"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616.pdf",
+      "bytes": 4673042,
+      "sha256": "8b50c1f0991383979ec35dba603662240797affb26ecca8e5b6e13442fb10372"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber.zip",
+      "bytes": 1684920,
+      "sha256": "f246e1b0a2f00a1b70a05378ebbe6289b5819030f1dbb9a5e8d6da2c7016d3b2"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Cu.gbr",
+      "bytes": 846994,
+      "sha256": "3db1e2fc2e90fd3ddf48b99a767b30b42cdea5f6d11b00bba574ed1553e51901"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Mask.gbr",
+      "bytes": 13132,
+      "sha256": "46498dbb25850ac9d3b9588ccf65140a221a6743e8e0e958b0538bb9c3bc3f1e"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Paste.gbr",
+      "bytes": 6205,
+      "sha256": "820279f3a879c8c1887819d674303f82ef1843f2ee2416998bded693e49c9753"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Silkscreen.gbr",
+      "bytes": 336738,
+      "sha256": "62b651a85f65e24d86086d39d5cff84a13b7dfb2dc76395c29a6409afb650012"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-Edge_Cuts.gbr",
+      "bytes": 1019,
+      "sha256": "f3391332de9e407c027d32b0d17412579e03b1eac439afa4716109e1000d172a"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Cu.gbr",
+      "bytes": 1273653,
+      "sha256": "963ee5a7aabaffe9f90f1960a078cb0f40f01191e5955dcd960e4150c0f35187"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Mask.gbr",
+      "bytes": 42745,
+      "sha256": "67a1a0699eac2b839f552947635a41bc3ffe140913fe96330eb66c93a0c60919"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Paste.gbr",
+      "bytes": 39984,
+      "sha256": "a08296aed17355f01d9df944019d01b8c08f31d3b7da82d9fc3b933e679e1907"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Silkscreen.gbr",
+      "bytes": 1655485,
+      "sha256": "051feda41f96daf298919e49161d10f20c64c13a4435f5ac3df04c2d52a761f5"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In1_Cu.gbr",
+      "bytes": 746775,
+      "sha256": "4ca6c2f95f0776df1ac9f373853e8bcc240a56999047cb1137699f6442ae4065"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In2_Cu.gbr",
+      "bytes": 861878,
+      "sha256": "e7c39431aaf87f908b78becb63efd2f37c9673f19d05a267637a8430f3cc8e8d"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In3_Cu.gbr",
+      "bytes": 769565,
+      "sha256": "d9d7f57b65c3a7ed257687df680919baf8328fa1b8ca49b6934f170a2ffb5715"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In4_Cu.gbr",
+      "bytes": 746775,
+      "sha256": "10c2f994583237ef8d0b61a8fdaa574bdef28a0e5ffd26d30a91237147afa085"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-NPTH.drl",
+      "bytes": 831,
+      "sha256": "336caa62e3a94aacf3d96e801021b480de16b364a7d2a9a8508211186ea3da80"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-PTH.drl",
+      "bytes": 15261,
+      "sha256": "b17fa688634f78790b16f20240b1a4022f88d3605d21bdc2a932ee15a6d7a95e"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-job.gbrjob",
+      "bytes": 4840,
+      "sha256": "30f6b85c10508668feda47cdf1cfbc8be9f4a3ce0c20b41ca3c99e46b68c83e0"
+    },
+    {
+      "path": "보드 자료/MCU_BOARD_v19_260827.pdf",
+      "bytes": 4632346,
+      "sha256": "d6bb4066987492c2cdb01ac217ab7f45a9440df4cf533d9d2ca4443f9e682307"
+    }
+  ],
+  "selectedFiles": 370,
+  "bytes": 256241125,
+  "selfPath": "config/publication-manifest-20261018.json",
+  "selfHashIntentionallyOmitted": true,
+  "routingVerified": true,
+  "manufacturingReady": false,
+  "strictNativeDrcPath": "output/validation/native-pcb-drc-0ac2a19168000d8e-adc10_routed_reopened_20261018.json",
+  "secretSignatureHits": [],
+  "secretScanLimit": "Recognized signatures in selected readable text only; binary artifacts not certified secret-free.",
+  "exclusions": "TEST_DAC8562, unrelated en/, runtime, cache, auto-backups and bulk intermediate outputs are not staged. No files deleted.",
+  "noGitMutationPerformed": true
+}

@@ -1,0 +1,10 @@
+const tab = await eda.dmt_EditorControl.openDocument('6e1143375f4d7b58');
+if (!tab) throw new Error('Could not open page 2');
+const page = await eda.dmt_Schematic.getCurrentSchematicPageInfo();
+if (page?.uuid !== '6e1143375f4d7b58') throw new Error('Wrong active page');
+const file = await eda.sys_FileSystem.readFileFromFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/native-schematics/02_MCU.epru');
+const source = (await file.text()).split('\n').filter(x=>!x.startsWith('{"type":"META"')).join('\n');
+const updated = await eda.sys_FileManager.setDocumentSource(source);
+if (!updated) throw new Error('Source import failed');
+const saved = await eda.sch_Document.save();
+return {updated,saved,sourceLength:source.length,zoom:await eda.dmt_EditorControl.zoomToAllPrimitives(tab)};

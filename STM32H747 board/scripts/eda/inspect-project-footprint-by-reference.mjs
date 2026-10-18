@@ -1,0 +1,13 @@
+const reference=__taskArgs[0];
+if(!/^[A-Z]+[0-9]+$/.test(reference))throw new Error('Explicit physical reference required');
+const library=(await eda.dmt_Project.getCurrentProjectInfo()).uuid;
+const mapFile=await eda.sys_FileSystem.readFileFromFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-component-link-rebind-plan.json');
+const map=JSON.parse(await mapFile.text());
+const item=map.library_map.footprint.find(x=>x.title.startsWith(reference+'_'));
+if(!item)throw new Error('Exact imported footprint missing');
+const tab=await eda.lib_Footprint.openInEditor(item.imported_uuid,library);
+if(!tab)throw new Error('Project footprint failed to open');
+const source=await eda.sys_FileManager.getDocumentSource();
+if(!source.includes(item.imported_uuid))throw new Error('Footprint identity mismatch');
+const saved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-project-'+reference+'-footprint.epru',new Blob([source]),undefined,false);
+return {reference,library,uuid:item.imported_uuid,tab,saved,bytes:source.length};

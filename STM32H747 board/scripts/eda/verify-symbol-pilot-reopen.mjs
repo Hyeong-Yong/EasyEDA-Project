@@ -1,0 +1,10 @@
+const symbol='480221a36a8c0287';
+const library=(await eda.dmt_Project.getCurrentProjectInfo()).uuid;
+const closed=await eda.dmt_EditorControl.closeDocument(symbol+'@'+library);
+const tab=await eda.lib_Symbol.openInEditor(symbol,library);
+if(!tab)throw new Error('C1 pilot symbol did not reopen');
+const source=await eda.sys_FileManager.getDocumentSource();
+const rows=source.split(/\r?\n/).filter(l=>l.includes('||')).map(l=>{const [h,b]=l.split('||');const raw=b.replace(/\|$/,'');return {head:JSON.parse(h),body:raw?JSON.parse(raw):null};});
+const pins=rows.filter(r=>r.head.type==='PIN');
+const saved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-C1-symbol-visual-fixed-reopened.epru',new Blob([source]),undefined,false);
+return {saved,closed,tab,persisted:pins.length===2&&pins.every(r=>r.body.length===0.001),filledGlyphs:rows.filter(r=>r.head.type==='POLY'&&r.body.fillStyle==='SOLID'&&r.body.strokeWidth===0.001).length,pins:pins.map(r=>({id:r.head.id,x:r.body.x,y:r.body.y,rotation:r.body.rotation,length:r.body.length}))};

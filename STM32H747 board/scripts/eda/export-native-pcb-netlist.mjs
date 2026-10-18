@@ -1,0 +1,11 @@
+const pcbUuid=__taskArgs[1]||'0ac2a19168000d8e';
+if(!['0ac2a19168000d8e','6da689cbfc28e476'].includes(pcbUuid))throw new Error('PCB UUID is outside scoped final/staging documents');
+const stage=__taskArgs[0];
+if(!stage||!/^[a-z0-9_-]{3,50}$/.test(stage))throw new Error('Scoped PCB verification stage required');
+await eda.dmt_EditorControl.openDocument(pcbUuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==pcbUuid)throw new Error('Wrong dedicated PCB');
+const file=await eda.pcb_ManufactureData.getNetlistFile('STM32H747_PCB_Protel2','Protel2');
+if(!file)throw new Error('Native PCB netlist not produced');
+const destination='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-Protel2_'+stage+'.net';
+const saved=await eda.sys_FileSystem.saveFileToFileSystem(destination,file,undefined,false);
+return {saved,path:destination,name:file.name,bytes:file.size};

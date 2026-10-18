@@ -1,0 +1,12 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Oriented PCB must remain active');
+const f=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-adc10-pcb-oriented-20261017.epru');
+if(!f)throw new Error('Audited orientation source missing');
+const parse=s=>new Map(s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||'),h=JSON.parse(x.slice(0,p));return[h.type+':'+(h.id||''),JSON.parse(x.slice(p+2).replace(/\|$/,''))];}));
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const a=parse(await f.text()),b=parse(await eda.sys_FileManager.getDocumentSource());
+if(a.size!==b.size)throw new Error('PCB count changed since orientation audit');
+for(const[k,v]of a)if(!k.startsWith('DOCHEAD:')&&!k.startsWith('CANVAS:')&&canonical(b.get(k))!==canonical(v))throw new Error('PCB changed since orientation audit '+k);
+const saved=await eda.pcb_Document.save();
+if(!saved)throw new Error('PCB WIP orientation save failed');
+return{saved,manufacturingReady:false,stage:'10-channel ECO and passive orientations only; 34 parts still awaiting placement and routing'};

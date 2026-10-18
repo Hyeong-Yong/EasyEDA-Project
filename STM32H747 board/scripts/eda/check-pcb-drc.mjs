@@ -1,0 +1,17 @@
+const pcbUuid=__taskArgs[0]||'0ac2a19168000d8e';
+if(!['0ac2a19168000d8e','6da689cbfc28e476'].includes(pcbUuid))throw new Error('PCB UUID is outside scoped final/staging documents');
+const stage=__taskArgs[1];
+if(stage&&!/^[a-z0-9_-]{3,60}$/.test(stage))throw new Error('Scoped DRC stage required');
+await eda.dmt_EditorControl.openDocument(pcbUuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==pcbUuid)throw new Error('Wrong dedicated PCB');
+const started=Date.now();
+const details=await eda.pcb_Drc.check(true,true,true);
+if(!Array.isArray(details))throw new Error('Detailed native DRC returned an unsupported result');
+const violations=details.reduce((sum,category)=>sum+Number(category.count||0),0);
+const passed=violations===0;
+const logs=(await eda.sys_Log.sort()).filter(item=>Number(item.timestamp)>=started);
+const counts={};
+for(const category of details)counts[category.name]=Number(category.count||0);
+const path='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-drc-'+pcbUuid+(stage?'-'+stage:'')+'.json';
+const reportSaved=await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([JSON.stringify({pcbUuid,started,passed,violations,counts,details,logs},null,2)]),undefined,false);
+return {pcbUuid,passed,violations,counts,reportSaved,path};

@@ -1,0 +1,12 @@
+const stage=__taskArgs[0];
+if(!stage||!/^[a-z0-9_-]{3,50}$/.test(stage))throw new Error('A scoped checkpoint stage is required');
+const date=__taskArgs[1]||'20261015';
+if(!/^202610(?:15|16|17|18)$/.test(date))throw new Error('Reviewed checkpoint date required');
+const project=await eda.dmt_Project.getCurrentProjectInfo();
+const name='STM32H747_'+stage+'_'+date;
+const file=await eda.sys_FileManager.getProjectFileByProjectUuid(project.uuid,name,undefined,'epro2');
+if(!file||file.size<100000)throw new Error('Native project checkpoint is incomplete');
+const path='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/checkpoints/'+name+'.epro2';
+const saved=await eda.sys_FileSystem.saveFileToFileSystem(path,file,undefined,false);
+if(!saved)throw new Error('Recovery checkpoint not saved');
+return {saved,path,bytes:file.size};

@@ -1,0 +1,16 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong PCB');
+const parse=s=>new Map(s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||'),h=JSON.parse(x.slice(0,p));return[h.type+':'+(h.id||''),JSON.parse(x.slice(p+2).replace(/\|$/,''))];}));
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const f=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-adc10-pcb-eco_applied-20261017.epru');
+if(!f)throw new Error('Audited ECO source absent');
+const expected=parse(await f.text()),actual=parse(await eda.sys_FileManager.getDocumentSource());
+if(expected.size!==actual.size)throw new Error('ECO source count changed');
+for(const[k,v]of expected)if(!k.startsWith('DOCHEAD:')&&!k.startsWith('CANVAS:')&&canonical(actual.get(k))!==canonical(v))throw new Error('ECO changed since audit '+k);
+if(!await eda.pcb_Document.save())throw new Error('PCB ECO WIP save failed');
+if(!await eda.dmt_EditorControl.closeDocument((await eda.dmt_SelectControl.getCurrentDocumentInfo()).tabId||uuid))throw new Error('PCB ECO tab close failed');
+if(!await eda.dmt_EditorControl.openDocument(uuid))throw new Error('PCB ECO reopen failed');
+const source=await eda.sys_FileManager.getDocumentSource(),path=root+'/output/validation/native-adc10-pcb-eco_reopened-20261017.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false))throw new Error('PCB ECO reopened source not captured');
+return{saved:true,path,manufacturingReady:false,stage:'ADC10 ECO in progress; placement/routing/DRC not complete'};

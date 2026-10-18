@@ -1,0 +1,10 @@
+const pcbUuid='3ca9811d1a42d086';
+const closed=await eda.dmt_EditorControl.closeDocument(pcbUuid);
+const tab=await eda.dmt_EditorControl.openDocument(pcbUuid);
+await new Promise(r=>setTimeout(r,1000));
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==pcbUuid)throw new Error('Wrong dedicated PCB');
+const components=await eda.pcb_PrimitiveComponent.getAll(1);
+const source=await eda.sys_FileManager.getDocumentSource();
+const sourceSaved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-reopened-model.epru',new Blob([source]),undefined,false);
+const zoom=await eda.dmt_EditorControl.zoomToAllPrimitives(tab);
+return {closed,tab,count:components.length,sourceSaved,zoom};

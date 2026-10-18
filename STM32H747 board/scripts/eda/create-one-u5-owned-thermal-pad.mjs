@@ -1,0 +1,23 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board';
+const uuid='b098cceac55eab69';
+const projectUuid='761c4fdb8e3e1a273a7eb212bd6961ba8b6efdb0e27d1b0c207735a7e696c24c';
+const tab=await eda.lib_Footprint.openInEditor(uuid,projectUuid);
+if(!tab||tab!==uuid+'@'+projectUuid)throw new Error('Wrong U5 footprint tab');
+await new Promise(r=>setTimeout(r,1500));
+const source=await eda.sys_FileManager.getDocumentSource();
+const first=source.split(/\r?\n/).find(l=>l.includes('||'));
+const meta=JSON.parse(first.slice(first.indexOf('||')+2).replace(/\|$/,''));
+if(meta.uuid!==uuid||!['FOOTPRINT','PCB'].includes(meta.docType))throw new Error('Wrong U5 footprint source: '+JSON.stringify({uuid:meta.uuid,docType:meta.docType,tab}));
+const before=await eda.pcb_PrimitivePad.getAll();
+if(before.length!==25||before.filter(p=>p.getState_PadNumber()==='25').length!==1)throw new Error('Unexpected pre-create U5 pad inventory');
+let created,error;
+try{created=await eda.pcb_PrimitivePad.create(12,'25',-25.5906,-27.5591,0,['ELLIPSE',23.622047,23.622047],'',['ROUND',11.811],0,0,0,true,0);}catch(e){error=String(e?.stack||e);}
+const after=await eda.pcb_PrimitivePad.getAll();
+const added=after.filter(p=>!before.some(q=>q.getState_PrimitiveId()===p.getState_PrimitiveId())).map(p=>({id:p.getState_PrimitiveId(),num:p.getState_PadNumber(),x:p.getState_X(),y:p.getState_Y(),layer:p.getState_Layer(),pad:p.getState_Pad(),hole:p.getState_Hole(),plated:p.getState_Metallization(),net:p.getState_Net()}));
+const expected=added.length===1&&added[0].num==='25'&&added[0].layer===12&&added[0].plated&&added[0].hole?.[0]==='ROUND'&&Math.abs(added[0].x+25.5906)<.051&&Math.abs(added[0].y+27.5591)<.051;
+const saved=expected?await eda.pcb_Document.save():false;
+const receipt={uuid,tab,before:before.length,after:after.length,createdReturned:!!created,error,added,expected,saved};
+await eda.sys_FileSystem.saveFileToFileSystem(root+'/output/validation/native-U5-direct-thermal-pad-create-receipt.json',new Blob([JSON.stringify(receipt,null,2)]),undefined,false);
+if(!expected||!saved)throw new Error('Direct U5 thermal pad creation not verified; inspect saved receipt');
+await eda.dmt_EditorControl.closeDocument(tab);
+return receipt;

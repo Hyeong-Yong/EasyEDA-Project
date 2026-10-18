@@ -1,0 +1,23 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='a07bf8e4331877a8',id='f4ba1d7115d2fc19';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong ADC page');
+const parse=s=>s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||');return{h:JSON.parse(x.slice(0,p)),b:JSON.parse(x.slice(p+2).replace(/\|$/,''))};});
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const source=await eda.sys_FileManager.getDocumentSource(),before=parse(source),target=before.find(r=>r.h.id===id);
+if(target?.h.type!=='TEXT'||target.b.value!=='ADC1 DC coupled'||target.b.x!==130||target.b.y!==-735)throw new Error('Unexpected revision annotation');
+target.b.x=1045;target.b.y=735;target.b.value='ADC1 DC revision 2026-10-16';
+const candidate=before.map(r=>JSON.stringify(r.h)+'||'+JSON.stringify(r.b)+'|').join('\n')+'\n';
+if(!await eda.sys_FileManager.setDocumentSource(candidate))throw new Error('Revision source rejected');
+if(!await eda.sch_Document.save())throw new Error('Revision source save failed');
+await eda.dmt_EditorControl.closeDocument((await eda.dmt_SelectControl.getCurrentDocumentInfo()).tabId||uuid);
+await eda.dmt_EditorControl.openDocument(uuid);
+const actualSource=await eda.sys_FileManager.getDocumentSource(),actual=parse(actualSource),map=new Map(actual.map(r=>[r.h.type+':'+r.h.id,r]));
+const errors=[];
+for(const r of before){if(['DOCHEAD','CANVAS'].includes(r.h.type))continue;const a=map.get(r.h.type+':'+r.h.id);if(!a||canonical(a.b)!==canonical(r.b))errors.push({type:r.h.type,id:r.h.id,expected:r.b,actual:a?.b});}
+if(actual.length!==before.length)errors.push({error:'record count',before:before.length,after:actual.length});
+const path=root+'/output/validation/native-adc-dc-final-reopened-20261016.epru';
+await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([actualSource]),undefined,false);
+const receipt={saved:true,path,records:actual.length,errors};
+await eda.sys_FileSystem.saveFileToFileSystem(root+'/output/validation/native-adc-revision-source-receipt-20261016.json',new Blob([JSON.stringify(receipt,null,2)]),undefined,false);
+if(errors.length)throw new Error('Revision preservation failed '+errors.length);
+return receipt;

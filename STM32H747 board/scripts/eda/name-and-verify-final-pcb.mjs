@@ -1,0 +1,24 @@
+const uuid='0ac2a19168000d8e';
+const projectUuid='761c4fdb8e3e1a273a7eb212bd6961ba8b6efdb0e27d1b0c207735a7e696c24c';
+const board=await eda.dmt_Board.getBoardInfo('mcu_board');
+if(board?.pcb?.uuid!==uuid||board?.schematic?.uuid!=='416c10313f778784')throw new Error('Final PCB association mismatch');
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong final PCB');
+if(!await eda.dmt_Pcb.modifyPcbName(uuid,'MCU_BOARD_PCB'))throw new Error('Final PCB rename failed');
+await new Promise(r=>setTimeout(r,1200));
+if(!await eda.pcb_Document.save())throw new Error('Final PCB save failed');
+await eda.dmt_EditorControl.closeDocument(uuid+'@'+projectUuid);
+const tab=await eda.dmt_EditorControl.openDocument(uuid);
+const info=await eda.dmt_Pcb.getCurrentPcbInfo();
+if(info?.uuid!==uuid||info?.name.toLowerCase()!=='mcu_board_pcb')throw new Error('Final PCB rename not durable');
+const source=await eda.sys_FileManager.getDocumentSource();
+const counts={};
+for(const line of source.split(/\r?\n/).filter(l=>l.includes('||'))){const i=line.indexOf('||');const head=JSON.parse(line.slice(0,i));counts[head.type]=(counts[head.type]||0)+1;}
+const expected={COMPONENT:330,PAD_NET:1176,NET:280,LINE:5424,ARC:2184,POLY:500,FILL:730,VIA:634,PAD:4,LAYER:64,LAYER_PHYS:17};
+for(const [kind,number]of Object.entries(expected))if(counts[kind]!==number)throw new Error('Final PCB '+kind+' count mismatch');
+const liveComponents=(await eda.pcb_PrimitiveComponent.getAll(1)).length;
+if(liveComponents!==330)throw new Error('Final PCB native model count mismatch');
+const path='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-final-pcb-associated-reopened.epru';
+const captured=await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false);
+await eda.dmt_EditorControl.zoomToAllPrimitives(tab);
+return {captured,path,info,counts,liveComponents};

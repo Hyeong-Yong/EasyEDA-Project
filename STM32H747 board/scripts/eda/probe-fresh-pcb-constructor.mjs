@@ -1,0 +1,20 @@
+const name='STM32H747_PCB_WORK';
+let info=(await eda.dmt_Pcb.getAllPcbsInfo()).find(p=>p.name===name);
+let uuid=info?.uuid;
+if(!uuid){uuid=await eda.dmt_Pcb.createPcb();if(!uuid)throw new Error('Dedicated PCB staging creation failed');await eda.dmt_Pcb.modifyPcbName(uuid,name);}
+const tab=await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong staging PCB');
+const base=await eda.sys_FileManager.getDocumentSource();
+const original=await eda.sys_FileSystem.readFileFromFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-generated.epru');
+const rows=(await original.text()).split(/\r?\n/).filter(l=>l.includes('||')).map(l=>{const [h,b]=l.split('||');return {head:JSON.parse(h),body:JSON.parse(b.replace(/\|$/,''))};});
+const id='84b1ab3682614f8a';
+const append=rows.filter(r=>r.head.id===id||r.head.type==='ATTR'&&r.body.parentId===id||r.head.type==='PAD_NET'&&r.head.id.includes(id)||r.head.type==='NET'&&['["NET","GND"]','["NET","NET-(C1-PAD1)"]'].includes(r.head.id));
+if(append.filter(r=>r.head.type==='COMPONENT').length!==1||append.filter(r=>r.head.type==='PAD_NET').length!==2)throw new Error('Exact C1 constructor fixture missing');
+append.find(r=>r.head.type==='COMPONENT').body.x=500;append.find(r=>r.head.type==='COMPONENT').body.y=500;
+const source=base+'|\n'+append.map(r=>JSON.stringify(r.head)+'||'+JSON.stringify(r.body)).join('|\n');
+const accepted=await eda.sys_FileManager.setDocumentSource(source);
+const components=await eda.pcb_PrimitiveComponent.getAll(1);
+const actual=await eda.sys_FileManager.getDocumentSource();
+const sourceSaved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-pcb-fresh-constructor.epru',new Blob([actual]),undefined,false);
+await eda.dmt_EditorControl.zoomToAllPrimitives(tab);
+return {uuid,name,accepted,liveComponents:components.length,sourceSaved};

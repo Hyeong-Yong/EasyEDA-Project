@@ -1,0 +1,15 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board';
+const pages={6:'a07bf8e4331877a8',3:'360993a3108b5759'};
+const page=Number(__taskArgs[0]);
+if(!pages[page])throw new Error('Only reviewed ADC or power page may be captured');
+const tab=await eda.dmt_EditorControl.openDocument(pages[page]);
+if(!tab)throw new Error('Schematic page open failed');
+const info=await eda.dmt_SelectControl.getCurrentDocumentInfo();
+const selected=await eda.dmt_Schematic.getCurrentSchematicPageInfo();
+const source=await eda.sys_FileManager.getDocumentSource();
+if(info?.uuid!==pages[page]||selected?.uuid!==pages[page]||!source)throw new Error('Wrong schematic page');
+const rows=source.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||');return {h:JSON.parse(x.slice(0,p)),b:JSON.parse(x.slice(p+2).replace(/\|$/,''))};});
+if(rows[0]?.b.uuid!==pages[page]||rows[0]?.b.docType!=='SCH_PAGE')throw new Error('Wrong source identity');
+const path=root+'/output/validation/native-adc-dc-before-page-'+page+'-20261016.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false))throw new Error('Before source capture not saved');
+return {page,uuid:pages[page],path,records:rows.length};

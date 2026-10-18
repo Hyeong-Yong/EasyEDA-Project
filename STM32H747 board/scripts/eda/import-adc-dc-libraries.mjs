@@ -1,0 +1,18 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board';
+const project=await eda.dmt_Project.getCurrentProjectInfo();
+const file=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/candidates/adc-dc-buffer/STM32H747_adc_dc_new_libraries_20261016.epro2');
+if(!file)throw new Error('New-only ADC library bundle missing');
+const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',await file.arrayBuffer()))).map(v=>v.toString(16).padStart(2,'0')).join('');
+if(hash!=='addd1c758302cee56b5087afc241065d4575496cf9e4cf085ea69a59628e2960')throw new Error('Reviewed library package changed');
+const ESYS_ImportProjectImportOption={IMPORT_DOCUMENT:'ImportDocument'};
+const imported=await eda.sys_FileManager.importProjectByProjectFile(file,'EasyEDA Pro',{importOption:ESYS_ImportProjectImportOption.IMPORT_DOCUMENT},{operation:'Existing Project',existingProjectUuid:project.uuid});
+if(!imported)throw new Error('ADC library import failed; do not retry without inspection');
+await eda.dmt_EditorControl.openDocument('a07bf8e4331877a8');
+const prefix='STM_H747_ADC_DC_20261016_';
+const devices=(await eda.lib_Device.search('',project.uuid,undefined,undefined,1000,1)).filter(x=>x.name?.startsWith(prefix));
+const symbols=(await eda.lib_Symbol.search('',project.uuid,undefined,undefined,1000,1)).filter(x=>x.name?.startsWith(prefix));
+const footprints=(await eda.lib_Footprint.search('',project.uuid,undefined,1000,1)).filter(x=>x.name?.startsWith(prefix));
+const report={projectUuid:project.uuid,packageSha256:hash,imported,devices,symbols,footprints};
+const path=root+'/output/validation/native-adc-dc-library-import-map-20261016.json';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([JSON.stringify(report,null,2)]),undefined,false))throw new Error('ADC import map not saved');
+return {path,devices:devices.length,symbols:symbols.length,footprints:footprints.length};

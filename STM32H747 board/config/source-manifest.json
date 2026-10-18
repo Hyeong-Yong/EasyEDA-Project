@@ -1,0 +1,65 @@
+{
+  "project": "STM32H747_MCU_BOARD_v19",
+  "generatedOn": "2026-10-13",
+  "schematicSourceOfTruth": {
+    "path": "보드 자료/MCU_BOARD_v19_260827.pdf",
+    "sha256": "D6BB4066987492C2CDB01AC217AB7F45A9440DF4CF533D9D2CA4443F9E682307",
+    "sizeBytes": 4632346,
+    "creator": "KiCad Eeschema-PDF",
+    "pages": 6,
+    "paper": "A3 landscape",
+    "pagePlan": [
+      { "page": 1, "easyedaName": "01_HIERARCHY", "title": "Hierarchy / index" },
+      { "page": 2, "easyedaName": "02_MCU", "title": "MCU" },
+      { "page": 3, "easyedaName": "03_MCU_POWER", "title": "MCU & POWER" },
+      { "page": 4, "easyedaName": "04_SDRAM", "title": "MEMORY - SDRAM" },
+      { "page": 5, "easyedaName": "05_ENET_USB_VCP", "title": "ENET & USB & VCP" },
+      { "page": 6, "easyedaName": "06_ADC_TIM_SPI", "title": "ADC & TIM & SPI" }
+    ]
+  },
+  "comparisonSchematic": {
+    "path": "보드 자료/MCU_BOARD_v19_260616.pdf",
+    "sha256": "8B50C1F0991383979EC35DBA603662240797AFFB26ECCA8E5B6E13442FB10372",
+    "sizeBytes": 4673042,
+    "pages": 6,
+    "note": "Older revision. At 200 dpi, pages 1-4 are pixel-identical to the canonical PDF; pages 5 and 6 differ."
+  },
+  "pcbReferences": {
+    "gerberZip": {
+      "path": "보드 자료/MCU_BOARD_v19_260616_Gerber.zip",
+      "sha256": "F246E1B0A2F00A1B70A05378EBBE6289B5819030F1DBB9A5E8D6DA2C7016D3B2",
+      "sizeBytes": 1684920,
+      "created": "2026-06-16T09:18:35+09:00",
+      "layers": 6,
+      "boardSizeMm": { "x": 100.5, "y": 154.5 },
+      "boardThicknessMm": 1.58,
+      "material": "FR4"
+    },
+    "gerberReferencePdf": {
+      "path": "보드 자료/MCU_BOARD_Gerber.pdf",
+      "sha256": "0DD83646A2C6A50CFBDA4C1E0CF7B497C451C47F7FE8FF965295836A98CAF25D",
+      "sizeBytes": 8997190,
+      "pages": 8
+    },
+    "step": {
+      "path": "보드 자료/MCU_BOARD.step",
+      "sha256": "DB0B1DDB40318053E4BEE5212EBC6C44201B839D464CA432B66323C3B91891F9",
+      "sizeBytes": 8162670,
+      "note": "Mechanical reference only; not an electrical PCB source."
+    }
+  },
+  "nativeEditableSourcesPresent": false,
+  "renderedSchematicReference": {
+    "directory": "reference/schematic-pages/v19_260827",
+    "format": "PNG",
+    "dpi": 200,
+    "pixelSize": { "width": 3307, "height": 2339 },
+    "pages": 6
+  },
+  "bridge": {
+    "repository": "https://github.com/easyeda/easyeda-api-skill.git",
+    "revision": "20e08dd62ec4faa5eb527332df2c29c9dc0fbaf4",
+    "ports": "49620-49629"
+  }
+}
+

@@ -1,0 +1,11 @@
+await eda.dmt_EditorControl.openDocument('6cbee023e77e073a');
+await new Promise(r=>setTimeout(r,500));
+const components=await eda.sch_PrimitiveComponent.getAll();
+const c1=components.find(c=>c.getState_Designator()==='C1');
+if(!c1)throw new Error('C1 missing');
+const before={footprint:c1.getState_Footprint(),device:c1.getState_Component(),pcb:c1.getState_AddIntoPcb()};
+const result=await eda.sch_PrimitiveComponent.modify(c1,{otherProperty:{Footprint:'e7d109b2b1ec398a',Device:'d7270171e70fd42d'}});
+const source=await eda.sys_FileManager.getDocumentSource();
+const saved=await eda.sys_FileSystem.saveFileToFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-component-link-repair-probe.epru',new Blob([source]),undefined,false);
+const refreshed=await eda.sch_PrimitiveComponent.get(c1.getState_PrimitiveId());
+return {before,modified:Boolean(result),saved,after:{footprint:refreshed?.getState_Footprint(),device:refreshed?.getState_Component(),pcb:refreshed?.getState_AddIntoPcb()}};

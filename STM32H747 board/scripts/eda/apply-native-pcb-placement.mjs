@@ -1,0 +1,18 @@
+const pcbUuid='3ca9811d1a42d086';
+await eda.dmt_EditorControl.openDocument(pcbUuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==pcbUuid)throw new Error('Wrong dedicated PCB');
+const file=await eda.sys_FileSystem.readFileFromFileSystem('C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/native-pcb/native-pcb-placed.epru');
+const original=await file.text();
+const noMountingPads=__taskArgs[0]==='no_mounting_pads';
+const candidate=noMountingPads?original.split('\n').filter(l=>!l.startsWith('{"type":"PAD",')).join('\n'):original;
+const live=await eda.sys_FileManager.getDocumentSource();
+const head=live.split('\n').find(l=>l.startsWith('{"type":"DOCHEAD"}'));
+if(!head)throw new Error('Current PCB document header missing');
+const source=candidate.split('\n').map(l=>l.startsWith('{"type":"DOCHEAD"}')?head:l).join('\n');
+const rows=source.split('\n').filter(l=>l.includes('||')).map(l=>{const [h,b]=l.split('||');return {head:JSON.parse(h),body:JSON.parse(b.replace(/\|$/,''))};});
+if(rows.filter(r=>r.head.type==='COMPONENT').length!==330||rows.filter(r=>r.head.type==='PAD_NET').length!==1176)throw new Error('PCB placement count invalid');
+const accepted=await eda.sys_FileManager.setDocumentSource(source);
+if(!accepted)return {accepted:false};
+const saved=await eda.pcb_Document.save();
+await eda.dmt_EditorControl.zoomToAllPrimitives(pcbUuid);
+return {accepted,saved,noMountingPads};

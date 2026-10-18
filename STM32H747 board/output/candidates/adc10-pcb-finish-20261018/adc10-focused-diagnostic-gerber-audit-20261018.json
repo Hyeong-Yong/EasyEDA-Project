@@ -1,0 +1,141 @@
+{
+  "schema": "adc10-focused-diagnostic-gerber-20261018-v1",
+  "status": "PASS_FOCUSED_DIAGNOSTIC_ONLY",
+  "zipPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_adc10_routed_20261018_DIAGNOSTIC_NOT_FOR_FAB.zip",
+  "zipSha256": "af168c61f367eaa980b4e9140824e6c2cf6ee3e718466cae9c51a08004ce9405",
+  "baselineZipPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_corners_j18_direction_v2_20261016_DIAGNOSTIC_NOT_FOR_FAB.zip",
+  "baselineZipSha256": "607a7d818614af8e467392ae7fad2d90d405138735b85e6ccea2b9b764f7b1ee",
+  "checks": {
+    "frozenZipHash": true,
+    "exportedPhysicalDrills799": true,
+    "all793PriorDrillsSlotsNPTHPreserved": true,
+    "exactly6NewPTHRoundDrills": true,
+    "all6NewDrills0_20mmAtNativeCenters": true,
+    "all8OutlineObjectsExactAgainstPriorApprovedCN1Corners": true,
+    "outer100x154mm": true,
+    "CN1Square1_92mm": true
+  },
+  "drills": {
+    "before793": 793,
+    "after799": 799,
+    "beforeCounts": {
+      "pth_round": 767,
+      "pth_slot": 13,
+      "npth_round": 13
+    },
+    "afterCounts": {
+      "pth_round": 773,
+      "pth_slot": 13,
+      "npth_round": 13
+    },
+    "lostPrior": [],
+    "newDrillMatches": [
+      {
+        "net": "ADC2_INP12",
+        "expectedXYmm": [
+          57.52,
+          83.16
+        ],
+        "matchedExportXYmm": [
+          57.52,
+          83.16
+        ],
+        "diameterMm": 0.2,
+        "passed": true
+      },
+      {
+        "net": "ADC3_INP2",
+        "expectedXYmm": [
+          52.24,
+          76.16
+        ],
+        "matchedExportXYmm": [
+          52.24,
+          76.16
+        ],
+        "diameterMm": 0.2,
+        "passed": true
+      },
+      {
+        "net": "ADC3_INP6",
+        "expectedXYmm": [
+          51.64,
+          77.84
+        ],
+        "matchedExportXYmm": [
+          51.64,
+          77.84
+        ],
+        "diameterMm": 0.2,
+        "passed": true
+      },
+      {
+        "net": "ADC1_INP16",
+        "expectedXYmm": [
+          58.040000000000006,
+          83.2
+        ],
+        "matchedExportXYmm": [
+          58.04,
+          83.2
+        ],
+        "diameterMm": 0.2,
+        "passed": true
+      },
+      {
+        "net": "ADC1_INP0",
+        "expectedXYmm": [
+          58.96,
+          83.16
+        ],
+        "matchedExportXYmm": [
+          58.96,
+          83.16
+        ],
+        "diameterMm": 0.2,
+        "passed": true
+      },
+      {
+        "net": "ADC3_INP7",
+        "expectedXYmm": [
+          55.36,
+          78.44
+        ],
+        "matchedExportXYmm": [
+          55.36,
+          78.44
+        ],
+        "diameterMm": 0.2,
+        "passed": true
+      }
+    ],
+    "viaOnlySupplementDuplicateFileHandledByExistingParser": true
+  },
+  "outline": {
+    "resolvedObjectsExact": true,
+    "outerBoundsMm": [
+      0.0,
+      0.0,
+      100.0,
+      154.0
+    ],
+    "CN1SizeMm": [
+      1.9199999999999875,
+      1.92
+    ]
+  },
+  "bottomSilk": {
+    "priorAuditedBottomSilkObjects": 697,
+    "currentBottomSilkObjects": 1207,
+    "priorObjectSequenceMultisetFullyRetained": true,
+    "scope": "Exact resolved-aperture stroke identity against previously actual-backside-readability-verified v2 GBO; no new mirror inference or fresh visual readability claim."
+  },
+  "nativeCalls": 0,
+  "nativeWrites": 0,
+  "manufacturingApproved": false,
+  "limitations": [
+    "Focused Excellon inventory and protected mechanical outline only; not a complete copper CAM/DRC/impedance/manufacturing audit.",
+    "Prior unresolved inner-layer Gerber corner/export comparison caveats remain in force; this report does not clear them.",
+    "J18 direction can only inherit the prior verified backside result if the exact prior bottom-silk stroke multiset is retained; no new rendered visual review was performed."
+  ]
+}

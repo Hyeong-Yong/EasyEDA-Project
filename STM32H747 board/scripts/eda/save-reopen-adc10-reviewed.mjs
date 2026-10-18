@@ -1,0 +1,18 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='a07bf8e4331877a8',reviewedHash=__taskArgs[0];
+if(!/^[a-f0-9]{64}$/.test(reviewedHash||''))throw new Error('Audited accepted source SHA256 required');
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Audited ADC page must remain active');
+const file=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-adc10-sch-accepted-20261017.epru');
+if(!file)throw new Error('Audited accepted source missing');
+const accepted=await file.text(),digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(accepted)))).map(x=>x.toString(16).padStart(2,'0')).join('');
+if(digest!==reviewedHash)throw new Error('Audited source file changed');
+const parse=s=>new Map(s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||'),h=JSON.parse(x.slice(0,p));return[h.type+':'+(h.id||''),JSON.parse(x.slice(p+2).replace(/\|$/,''))];}));
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const expected=parse(accepted),current=parse(await eda.sys_FileManager.getDocumentSource());
+if(expected.size!==current.size)throw new Error('Live source count changed');
+for(const[k,v]of expected)if(!k.startsWith('DOCHEAD:')&&canonical(current.get(k))!==canonical(v))throw new Error('Live body changed since readback audit '+k);
+if(!await eda.sch_Document.save())throw new Error('ADC10 save failed');
+if(!await eda.dmt_EditorControl.closeDocument((await eda.dmt_SelectControl.getCurrentDocumentInfo()).tabId||uuid))throw new Error('ADC10 tab close failed');
+if(!await eda.dmt_EditorControl.openDocument(uuid))throw new Error('ADC10 reopen failed');
+const reopened=await eda.sys_FileManager.getDocumentSource(),path=root+'/output/validation/native-adc10-sch-reopened-20261017.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([reopened]),undefined,false))throw new Error('ADC10 reopened source not captured');
+return{saved:true,path,auditedAcceptedSha256:reviewedHash,bytes:reopened.length};

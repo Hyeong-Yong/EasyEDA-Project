@@ -1,0 +1,337 @@
+{
+  "schema": "adc10-remaining-six-cap-move-only-20261018-v1",
+  "status": "READY_FOR_GUARDED_MOVE_ONLY_NATIVE_REVIEW",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-direct4_copper-20261018.epru",
+  "sourceSha256": "f4c4fd15b00355d60b78391249c64aff1dd99903597fdbf937ed5dbb48c9fc4a",
+  "layoutPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\bottom-buckets\\remaining6-rebased-layout.json",
+  "layoutSha256": "bb5d51e301bdadd7015ad51eea6a2f61ff4bfb85b2c0d0434d13a89564c5ef2e",
+  "componentMoves": [
+    {
+      "ref": "C87",
+      "primitiveId": "3fd1d2dd2ba483fc",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 3373.8189,
+        "angle": -90,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "5e8c2e6a192f56fc",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I55"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeComponentBodySha256": "835b6636280fe3f3e44668c5692a01665a28be9c481d1121d7a1eb41bcbbd70a",
+      "targetLayerId": 2,
+      "targetXYmil": [
+        2283.464566929134,
+        3251.968503937008
+      ],
+      "axisAngleWorldDegrees": 180,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC2_INP12",
+          "xyMm": [
+            57.52,
+            82.6
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            58.48,
+            82.6
+          ]
+        }
+      },
+      "assemblyBoundingBoxMm": [
+        57.5,
+        82.35,
+        58.5,
+        82.85
+      ],
+      "electricalEscapeToCapPathMm": 6.117176594016453
+    },
+    {
+      "ref": "C93",
+      "primitiveId": "d73bedd5072ec1a9",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 2271.8504,
+        "angle": -90,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "72678adef72d5ddc",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I57"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeComponentBodySha256": "fee19550a883fb632e8bbce0bb4f525d1d21ad628962fc9dd846749ac97b6bee",
+      "targetLayerId": 2,
+      "targetXYmil": [
+        1952.7559055118109,
+        2973.228346456693
+      ],
+      "axisAngleWorldDegrees": 0,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC3_INP2",
+          "xyMm": [
+            50.08,
+            75.52
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            49.12,
+            75.52
+          ]
+        }
+      },
+      "assemblyBoundingBoxMm": [
+        49.099999999999994,
+        75.27,
+        50.099999999999994,
+        75.77
+      ],
+      "electricalEscapeToCapPathMm": 8.774319458466676
+    },
+    {
+      "ref": "C94",
+      "primitiveId": "8b84e0ff9041f44b",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 1720.2756,
+        "angle": -90,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "09d9181a8ced5c16",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I58"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeComponentBodySha256": "332fc66583db6f478f17dbbca4053939832410d49b3e0043794c8144c51e5e4a",
+      "targetLayerId": 2,
+      "targetXYmil": [
+        1992.1259842519687,
+        3099.212598425197
+      ],
+      "axisAngleWorldDegrees": 270,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC3_INP6",
+          "xyMm": [
+            50.6,
+            78.24
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            50.6,
+            79.2
+          ]
+        }
+      },
+      "assemblyBoundingBoxMm": [
+        50.35,
+        78.22,
+        50.85,
+        79.22
+      ],
+      "electricalEscapeToCapPathMm": 4.9243524551635565
+    },
+    {
+      "ref": "C82",
+      "primitiveId": "f2c0f427d4d6b785",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 4476.5748,
+        "angle": -90,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "36505e4cf6a15058",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I53"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeComponentBodySha256": "b844375a1f6e523b5207a1a0424a499f30672513989e19ba9afff819a1b64992",
+      "targetLayerId": 2,
+      "targetXYmil": [
+        2285.0393700787404,
+        3314.96062992126
+      ],
+      "axisAngleWorldDegrees": 270,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC1_INP16",
+          "xyMm": [
+            58.04,
+            83.72
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            58.04,
+            84.68
+          ]
+        }
+      },
+      "assemblyBoundingBoxMm": [
+        57.79,
+        83.7,
+        58.29,
+        84.7
+      ],
+      "electricalEscapeToCapPathMm": 5.018216583649351
+    },
+    {
+      "ref": "C80",
+      "primitiveId": "518aa576dd1f4a0e",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 5577.9528,
+        "angle": -90,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "75ec64e834085d51",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I51"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeComponentBodySha256": "84d87afbef2ad7e394cedf25d66eff3dc67d1a108bed9888a368ca981f19daa4",
+      "targetLayerId": 2,
+      "targetXYmil": [
+        2321.259842519685,
+        3313.3858267716537
+      ],
+      "axisAngleWorldDegrees": 270,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC1_INP0",
+          "xyMm": [
+            58.96,
+            83.68
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            58.96,
+            84.64
+          ]
+        }
+      },
+      "assemblyBoundingBoxMm": [
+        58.71,
+        83.66,
+        59.21,
+        84.66
+      ],
+      "electricalEscapeToCapPathMm": 4.881816564008606
+    },
+    {
+      "ref": "C95",
+      "primitiveId": "32cf88e1aaf87f50",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 1170.6693,
+        "angle": -90,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "086b10aa9eea5342",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I59"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeComponentBodySha256": "eeb8e4063547bb76feb39b02bfc9c1f7383d1d17a0dd69c088af772591ea6b03",
+      "targetLayerId": 1,
+      "targetXYmil": [
+        2125.984251968504,
+        3043.3070866141734
+      ],
+      "axisAngleWorldDegrees": 180,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC3_INP7",
+          "xyMm": [
+            53.52,
+            77.3
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            54.48,
+            77.3
+          ]
+        }
+      },
+      "assemblyBoundingBoxMm": [
+        53.05,
+        76.8,
+        54.95,
+        77.8
+      ],
+      "electricalEscapeToCapPathMm": 5.729181454594867
+    }
+  ],
+  "lineCreates": [],
+  "viaCreates": [],
+  "fillModifyOperations": [],
+  "fillCreateOperations": [],
+  "nativeCalls": 0,
+  "beforeSourcePhysicalComponents": 354,
+  "connectedPinsUnchanged": 1136,
+  "allExistingCopperAndOriginalDrillsMustRemainExactDuringThisStage": true,
+  "postMoveRequired": "Capture source. Only six COMPONENT x/y/angle/layerId and owned ATTR display transforms may change. Confirm all twelve native world pin coordinates/net names before any copper operations. This move-only state is not expected to pass DRC until the separately reviewed cuts/routing are applied.",
+  "bottomRotationCalibration": "Actual native C88 BOTTOM angle180 placed PIN1 left and PIN2 right; observed world local+X follows native angle, no guessed X reflection.",
+  "C80C82PhysicalPairProof": {
+    "bothAxisMinusY": true,
+    "centerDeltaXmm": 0.92,
+    "package1005XwidthMm": 0.5,
+    "bodyGapMm": 0.42,
+    "nativePadXwidthMm": 0.62,
+    "padGapMm": 0.3,
+    "importedSilkProxyOverlapMm": 0.08,
+    "noDRCChecksSuppressed": true
+  },
+  "manufacturingReady": false
+}

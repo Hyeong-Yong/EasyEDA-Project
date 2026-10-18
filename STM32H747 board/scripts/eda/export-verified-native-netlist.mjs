@@ -1,0 +1,13 @@
+await eda.dmt_EditorControl.openDocument('e8a4e3fabe30ab59');
+await new Promise(r=>setTimeout(r,500));
+const page=await eda.dmt_Schematic.getCurrentSchematicPageInfo();
+if(page?.uuid!=='e8a4e3fabe30ab59')throw new Error('Wrong final schematic');
+const type=__taskArgs[0]||'EasyEDA';
+if(!['EasyEDA','Protel2'].includes(type))throw new Error('Unsupported scoped netlist type');
+const file=await eda.sch_ManufactureData.getNetlistFile('STM32H747_native_'+type,type);
+if(!file)throw new Error('Native netlist file not produced');
+const suffix=__taskArgs[1]||'';
+if(suffix&&!/^[a-z0-9_-]{1,35}$/.test(suffix))throw new Error('Unsafe netlist verification stage');
+const destination='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-final-'+type+(suffix?'_'+suffix:'')+'.net';
+const saved=await eda.sys_FileSystem.saveFileToFileSystem(destination,file,undefined,false);
+return {saved,name:file.name,bytes:file.size,path:destination};

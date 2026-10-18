@@ -1,0 +1,17 @@
+/.tools/
+/tmp/
+/EasyEDA-Bridge.local.cmd
+*.log
+*.tmp
+**/__pycache__/
+*.py[cod]
+**/node_modules/
+/native-project/*_backup/
+/native-project/*-wal
+/native-project/*-shm
+*.lock
+/STM32H747 board/
+# Large intermediate CAD captures stay local. Publication uses exact reviewed paths.
+/output/validation/
+/output/checkpoints/
+

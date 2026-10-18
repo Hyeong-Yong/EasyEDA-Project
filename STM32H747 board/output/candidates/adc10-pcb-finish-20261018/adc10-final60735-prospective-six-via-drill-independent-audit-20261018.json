@@ -1,0 +1,213 @@
+{
+  "schema": "stm32h747-prospective-native-grid-six-via-drills-independent-20261018-v1",
+  "passed": true,
+  "mode": "PROSPECTIVE_NATIVE4DECIMALMIL_GRID",
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\bottom-buckets\\remaining6-native-operations-c95-farvia-20261018.json",
+  "manifestSha256": "60735a1709cdb441f51c99bbcf4d139a76bcce569176408e6851ebf6044e2780",
+  "baselinePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-baseline-20261018.epru",
+  "baselineSha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b",
+  "originalDrillCount": 793,
+  "originalDrillCategories": {
+    "originalVIA": 634,
+    "boardNPTH": 4,
+    "componentSlot": 13,
+    "componentNPTH": 9,
+    "componentRound": 133
+  },
+  "newDrills": [
+    {
+      "ref": "C87",
+      "net": "ADC2_INP12",
+      "center": [
+        57.51999925999999,
+        83.15999878
+      ],
+      "radius": 0.09999979999999999
+    },
+    {
+      "ref": "C93",
+      "net": "ADC3_INP2",
+      "center": [
+        52.239999659999995,
+        76.16000008
+      ],
+      "radius": 0.09999979999999999
+    },
+    {
+      "ref": "C94",
+      "net": "ADC3_INP6",
+      "center": [
+        51.640000859999994,
+        77.83999925999998
+      ],
+      "radius": 0.09999979999999999
+    },
+    {
+      "ref": "C82",
+      "net": "ADC1_INP16",
+      "center": [
+        58.04000076,
+        83.20000123999999
+      ],
+      "radius": 0.09999979999999999
+    },
+    {
+      "ref": "C80",
+      "net": "ADC1_INP0",
+      "center": [
+        58.95999891999999,
+        83.15999878
+      ],
+      "radius": 0.09999979999999999
+    },
+    {
+      "ref": "C95",
+      "net": "ADC3_INP7",
+      "center": [
+        55.36000103999999,
+        78.44000059999999
+      ],
+      "radius": 0.09999979999999999
+    }
+  ],
+  "exactSelectedMinimumMm": 0.29999939999999997,
+  "newToOriginal": [
+    {
+      "newRef": "C87",
+      "nearestOriginalDrill": "a5fa35d42ec20e61",
+      "edgeGapMm": 0.47091254820093087,
+      "passed": true
+    },
+    {
+      "newRef": "C93",
+      "nearestOriginalDrill": "df2dbb14d465623c",
+      "edgeGapMm": 1.5046496114806207,
+      "passed": true
+    },
+    {
+      "newRef": "C94",
+      "nearestOriginalDrill": "7cf575fe34f87956",
+      "edgeGapMm": 1.9448377034813071,
+      "passed": true
+    },
+    {
+      "newRef": "C82",
+      "nearestOriginalDrill": "a5fa35d42ec20e61",
+      "edgeGapMm": 0.9923617331542116,
+      "passed": true
+    },
+    {
+      "newRef": "C80",
+      "nearestOriginalDrill": "88d52786ba4ba046",
+      "edgeGapMm": 1.8463240334963253,
+      "passed": true
+    },
+    {
+      "newRef": "C95",
+      "nearestOriginalDrill": "d7aadede784b6d3e",
+      "edgeGapMm": 0.9986770629916641,
+      "passed": true
+    }
+  ],
+  "newToNew": [
+    {
+      "a": "C87",
+      "b": "C93",
+      "edgeGapMm": 8.56803196791772,
+      "passed": true
+    },
+    {
+      "a": "C87",
+      "b": "C94",
+      "edgeGapMm": 7.729488156267922,
+      "passed": true
+    },
+    {
+      "a": "C87",
+      "b": "C82",
+      "edgeGapMm": 0.32153827667657287,
+      "passed": true
+    },
+    {
+      "a": "C87",
+      "b": "C80",
+      "edgeGapMm": 1.240000059999998,
+      "passed": true
+    },
+    {
+      "a": "C87",
+      "b": "C95",
+      "edgeGapMm": 4.990759027561729,
+      "passed": true
+    },
+    {
+      "a": "C93",
+      "b": "C94",
+      "edgeGapMm": 1.5839274738463647,
+      "passed": true
+    },
+    {
+      "a": "C93",
+      "b": "C82",
+      "edgeGapMm": 8.921493100912631,
+      "passed": true
+    },
+    {
+      "a": "C93",
+      "b": "C80",
+      "edgeGapMm": 9.503524082374462,
+      "passed": true
+    },
+    {
+      "a": "C93",
+      "b": "C95",
+      "edgeGapMm": 3.6642999461534944,
+      "passed": true
+    },
+    {
+      "a": "C94",
+      "b": "C82",
+      "edgeGapMm": 8.148031302290914,
+      "passed": true
+    },
+    {
+      "a": "C94",
+      "b": "C80",
+      "edgeGapMm": 8.849020595093169,
+      "passed": true
+    },
+    {
+      "a": "C94",
+      "b": "C95",
+      "edgeGapMm": 3.568077223420912,
+      "passed": true
+    },
+    {
+      "a": "C82",
+      "b": "C80",
+      "edgeGapMm": 0.7208678232534352,
+      "passed": true
+    },
+    {
+      "a": "C82",
+      "b": "C95",
+      "edgeGapMm": 5.26260093381176,
+      "passed": true
+    },
+    {
+      "a": "C80",
+      "b": "C95",
+      "edgeGapMm": 5.736191734113804,
+      "passed": true
+    }
+  ],
+  "minimumNewToOriginalMm": 0.47091254820093087,
+  "minimumNewToNewMm": 0.32153827667657287,
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0,
+  "limits": [
+    "Native4decimal-mil serialized centers/drill diameters, not ideal rounded-mm routing coordinates.",
+    "All13component slots conservatively enclosed by max-axis circles; a PASS is conservative. Native rule-specific strict DRC remains required.",
+    "Prospective proof only. All793original drill bodies/owners/library definitions must be separately preserved in final native/checkpoint. No fabrication approval."
+  ]
+}

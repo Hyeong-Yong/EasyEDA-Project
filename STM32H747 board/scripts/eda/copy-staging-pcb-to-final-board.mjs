@@ -1,0 +1,18 @@
+const sourceUuid='6da689cbfc28e476';
+const schematicUuid='416c10313f778784';
+const boardName='mcu_board';
+const before=await eda.dmt_Board.getBoardInfo(boardName);
+if(before?.schematic?.uuid!==schematicUuid||before?.pcb?.uuid!=='3ca9811d1a42d086')throw new Error('Final board association changed');
+const source=await eda.dmt_Pcb.getPcbInfo(sourceUuid);
+if(source?.name!=='STM32H747_PCB_WORK'||source.parentBoardName)throw new Error('Staging PCB identity changed');
+const pages=await eda.dmt_Schematic.getAllSchematicPagesInfo();
+const expected=['e8a4e3fabe30ab59','360993a3108b5759','c0b1ffcb620d758f','3c13ef086afba6f5','a07bf8e4331877a8'];
+if(pages.length!==5||expected.some(uuid=>!pages.some(p=>p.uuid===uuid&&p.parentSchematicUuid===schematicUuid)))throw new Error('Five-page schematic guard failed');
+const copiedUuid=await eda.dmt_Pcb.copyPcb(sourceUuid,boardName);
+await new Promise(r=>setTimeout(r,1600));
+const after=await eda.dmt_Board.getBoardInfo(boardName);
+const info=copiedUuid?await eda.dmt_Pcb.getPcbInfo(copiedUuid):null;
+const report={copiedUuid,before,after,info,pcbs:await eda.dmt_Pcb.getAllPcbsInfo(),pages:await eda.dmt_Schematic.getAllSchematicPagesInfo()};
+const path='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-final-pcb-copy-receipt.json';
+const saved=await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([JSON.stringify(report,null,2)]),undefined,false);
+return {saved,path,...report};

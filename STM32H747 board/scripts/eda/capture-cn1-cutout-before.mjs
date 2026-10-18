@@ -1,0 +1,14 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_Pcb.getCurrentPcbInfo())?.uuid!==uuid)throw new Error('Wrong dedicated PCB');
+const file=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-multilayer-copper_clearances-reopened.epru');
+if(!file)throw new Error('Reviewed pre-cutout source missing');
+const parse=s=>s.split(/\r?\n/).filter(l=>l.includes('||')).map(l=>{const p=l.indexOf('||');return{h:JSON.parse(l.slice(0,p)),b:JSON.parse(l.slice(p+2).replace(/\|$/,''))};});
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const before=parse(await file.text()),source=await eda.sys_FileManager.getDocumentSource(),actual=parse(source),actualMap=new Map(actual.map(r=>[r.h.type+':'+r.h.id,r.b])),differences=[];
+if(actual[0]?.b.uuid!==uuid||actual.length!==before.length)throw new Error('Current source identity/inventory changed');
+for(const r of before)if(!['DOCHEAD','CANVAS','ACTIVE_LAYER'].includes(r.h.type)&&canonical(r.b)!==canonical(actualMap.get(r.h.type+':'+r.h.id)))differences.push(r.h.type+':'+r.h.id);
+if(differences.length)throw new Error('Unexpected changes since reviewed copper checkpoint: '+differences.join(','));
+const path=root+'/output/validation/native-cn1-cutout-192-before-20261016.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(path,new Blob([source]),undefined,false))throw new Error('Current pre-cutout source not saved');
+return{uuid,path,records:actual.length,protectedBodyDifferences:0,targets:actual.filter(r=>r.h.type==='POLY'&&['5b55024cb3a23233','6e8dd66b3e3db1b0','e94386c2e1a58187','f614cce4900c7115'].includes(r.h.id))};

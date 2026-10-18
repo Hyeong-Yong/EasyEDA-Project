@@ -1,0 +1,281 @@
+{
+  "schema": "adc10-native-farvia-exact13fills1lobe-audit-20261018-v1",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-remaining6_lines_0-20261018.epru",
+  "sourceSha256": "0f512be4d920ecac2743e30925f7fe44895ae96c2e710145140c2e17f44d3932",
+  "frozenManifestSha256": "60735a1709cdb441f51c99bbcf4d139a76bcce569176408e6851ebf6044e2780",
+  "passedGeometryAudit": true,
+  "metadataReviewRequired": true,
+  "status": "GEOMETRY_PASS_NATIVE_ZINDEX_NORMALIZATION_REVIEW",
+  "modifiedFillCount": 13,
+  "createdFillCount": 1,
+  "all14FullOuterPlusHolePathsExactlyMatchFrozenOperationsAtNative4DecimalMil": true,
+  "toleranceNotUsedForPathMatching": true,
+  "nativeCallsPerformed": false,
+  "fills": [
+    {
+      "id": "c667926ae983cbc8",
+      "operation": "modify",
+      "layerId": 1,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "51c7ac772a575c1e4b0184398e660cd85652e0d8e845bafecefa45a435423571",
+      "actualPathSha256": "a11d8a83efda837ab414f0f260538f702fceb3453b1ff8f8d058ed0fc2413d5c",
+      "rings": 3,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "f9e70adc3ac35fbd",
+      "operation": "modify",
+      "layerId": 15,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "8ce1194657ab81be96b9705b8fa8c894a1ee2502a9bbd4f7c1e01c27207511a6",
+      "actualPathSha256": "8ce1194657ab81be96b9705b8fa8c894a1ee2502a9bbd4f7c1e01c27207511a6",
+      "rings": 314,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "4390d61d8c7f4f80",
+      "operation": "modify",
+      "layerId": 15,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "da367b83cdae5546542257b0ad7ee616cfcc9196355b19f65363883fce135f53",
+      "actualPathSha256": "da367b83cdae5546542257b0ad7ee616cfcc9196355b19f65363883fce135f53",
+      "rings": 87,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "41fd0322eb2cc785",
+      "operation": "modify",
+      "layerId": 16,
+      "net": "+3V3",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "8cbcc282c8d164ccaad92b472abf7499055ba60bb5ab2898fbdec702378c99d8",
+      "actualPathSha256": "8cbcc282c8d164ccaad92b472abf7499055ba60bb5ab2898fbdec702378c99d8",
+      "rings": 367,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "ef12098577a13cc7",
+      "operation": "modify",
+      "layerId": 18,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "7cfb3ef6a157e9e4a760b692f42bf2fc49b949ca417281a272a30edc256c3337",
+      "actualPathSha256": "d83dcd5056c08e39f46b2b190f9ce1514ad4951ba1d6157e4ee1553d6bc3d682",
+      "rings": 316,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "daa2e5885d92eda0",
+      "operation": "modify",
+      "layerId": 18,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "9efb56e1bbf26d409bb6a43ee65c7ee1bebaa55a64b62fe3e13b85a9d2f45b67",
+      "actualPathSha256": "304b7a38cca8cddf96887ee81c7b531fc9040efa5391a9819cc339b39639e28b",
+      "rings": 103,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "a1d7888349e74585",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "e76619ddea0e6242f19850c7c58197cc79fb778d6bb663bf0f8384d38e5ebbfe",
+      "actualPathSha256": "e76619ddea0e6242f19850c7c58197cc79fb778d6bb663bf0f8384d38e5ebbfe",
+      "rings": 13,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": false,
+      "otherPropertyChanges": {
+        "zIndex": [
+          8280,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "1cd997827b0241d6",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "80a784652a35cdbd631611b1f2a9395fc081a2c0f21269504d65b506e934783c",
+      "actualPathSha256": "80a784652a35cdbd631611b1f2a9395fc081a2c0f21269504d65b506e934783c",
+      "rings": 1,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "a7cecc90c6e5b57b",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "5e18b2f59a0792b387baecf3b84364613d8cfb0f58604621729c6340b3efe3ba",
+      "actualPathSha256": "5e18b2f59a0792b387baecf3b84364613d8cfb0f58604621729c6340b3efe3ba",
+      "rings": 1,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "2fb535085249015d",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "ab9ab7751cf9bba40f4e09edfc193b4573518be5be113de9dcd40d68e54ad54d",
+      "actualPathSha256": "ab9ab7751cf9bba40f4e09edfc193b4573518be5be113de9dcd40d68e54ad54d",
+      "rings": 207,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "9bbb881293539c05",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "NET-(U1D-VDDA)",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "318ad07fcf3d0d89e5dc93c1e16ca6ed52ccbfb2c610438c158fb9cd3df32933",
+      "actualPathSha256": "318ad07fcf3d0d89e5dc93c1e16ca6ed52ccbfb2c610438c158fb9cd3df32933",
+      "rings": 1,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": false,
+      "otherPropertyChanges": {
+        "zIndex": [
+          8315,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "d8ad16a3b68b1fd9",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "NET-(U1D-VREF+)",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "7b1eb9ee72593722ab4a1e0fc37d659cde39192b0e90c293ca0c8e32d4d73301",
+      "actualPathSha256": "7b1eb9ee72593722ab4a1e0fc37d659cde39192b0e90c293ca0c8e32d4d73301",
+      "rings": 1,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": false,
+      "otherPropertyChanges": {
+        "zIndex": [
+          8316,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "23f25be226b43a88",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "ccd2aa57fccd3d2511fc8fb3166c63dab96919bc1ce6a2345405b4174516ab08",
+      "actualPathSha256": "ccd2aa57fccd3d2511fc8fb3166c63dab96919bc1ce6a2345405b4174516ab08",
+      "rings": 1,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": true,
+      "otherPropertyChanges": {}
+    },
+    {
+      "id": "ca6da24ce03912de",
+      "operation": "create",
+      "semanticId": "4390d61d8c7f4f80:retained-lobe:1",
+      "layerId": 15,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "allExpectedStyleAndNetFields": true,
+      "expectedPathSha256": "c890d83ced904b096d4803d51e0b8c013dd2311eba1643619eac0f52da46bf51",
+      "actualPathSha256": "c890d83ced904b096d4803d51e0b8c013dd2311eba1643619eac0f52da46bf51",
+      "rings": 6
+    }
+  ],
+  "explicitMetadataChanges": [
+    {
+      "id": "a1d7888349e74585",
+      "changes": {
+        "zIndex": [
+          8280,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "9bbb881293539c05",
+      "changes": {
+        "zIndex": [
+          8315,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "d8ad16a3b68b1fd9",
+      "changes": {
+        "zIndex": [
+          8316,
+          -1
+        ]
+      }
+    }
+  ],
+  "errors": [
+    {
+      "id": "a1d7888349e74585",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "GND",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "e76619ddea0e6242f19850c7c58197cc79fb778d6bb663bf0f8384d38e5ebbfe",
+      "actualPathSha256": "e76619ddea0e6242f19850c7c58197cc79fb778d6bb663bf0f8384d38e5ebbfe",
+      "rings": 13,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": false,
+      "otherPropertyChanges": {
+        "zIndex": [
+          8280,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "9bbb881293539c05",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "NET-(U1D-VDDA)",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "318ad07fcf3d0d89e5dc93c1e16ca6ed52ccbfb2c610438c158fb9cd3df32933",
+      "actualPathSha256": "318ad07fcf3d0d89e5dc93c1e16ca6ed52ccbfb2c610438c158fb9cd3df32933",
+      "rings": 1,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": false,
+      "otherPropertyChanges": {
+        "zIndex": [
+          8315,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "d8ad16a3b68b1fd9",
+      "operation": "modify",
+      "layerId": 2,
+      "net": "NET-(U1D-VREF+)",
+      "exactFullPathAtNative4DecimalMil": true,
+      "expectedPathSha256": "7b1eb9ee72593722ab4a1e0fc37d659cde39192b0e90c293ca0c8e32d4d73301",
+      "actualPathSha256": "7b1eb9ee72593722ab4a1e0fc37d659cde39192b0e90c293ca0c8e32d4d73301",
+      "rings": 1,
+      "allOtherFillFieldsPreservedExceptNativeRefsNormalization": false,
+      "otherPropertyChanges": {
+        "zIndex": [
+          8316,
+          -1
+        ]
+      }
+    }
+  ]
+}
