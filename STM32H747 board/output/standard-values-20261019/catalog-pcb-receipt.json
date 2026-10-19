@@ -1,0 +1,54 @@
+{
+  "stage": "pcb",
+  "changes": {
+    "R197": {
+      "Value": "4.7Ω"
+    },
+    "R200": {
+      "Value": "4.7Ω"
+    },
+    "R201": {
+      "Value": "1.2Ω",
+      "Manufacturer": "UNI-ROYAL(厚声)",
+      "Tolerance": "±1%",
+      "Temperature Coefficient": "±400ppm/℃",
+      "Description": "REF5025 output capacitor series ESR resistor; 1.2 ohm, 1%, 0402, 62.5mW; conservative catalog TCR 400 ppm/K"
+    },
+    "R202": {
+      "Value": "14.7kΩ",
+      "Manufacturer": "RESI(开步睿思)",
+      "Tolerance": "±0.1%",
+      "Temperature Coefficient": "±10ppm/℃"
+    },
+    "R203": {
+      "Value": "9.31kΩ",
+      "Manufacturer": "RESI(开步睿思)",
+      "Tolerance": "±0.1%",
+      "Temperature Coefficient": "±10ppm/℃"
+    }
+  },
+  "delta": [
+    {
+      "key": "COMPONENT:2829b3f44dbb9615",
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:bbfb4b3264a541be",
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:8165776b12213814",
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:6eb1a2f698c02c69",
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:a958fcefe3fc5eb6",
+      "allowed": true
+    }
+  ],
+  "errors": [],
+  "saved": true
+}

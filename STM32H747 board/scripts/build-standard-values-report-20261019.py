@@ -1,0 +1,52 @@
+"""Build STM32-only review data and a Korean report from audited current files."""
+from pathlib import Path
+import collections,copy,hashlib,html,json,math,shutil
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'output/standard-values-20261019';OLD=ROOT/'output/jlcpcb-20261019-review'
+def read(p):return json.loads(p.read_text(encoding='utf8'))
+def dump(name,x):(OUT/name).write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf8')
+specs=read(OUT/'standard-resistors-final-specs.json');stock=read(OUT/'selected-stock-evidence.json');analysis=read(OUT/'circuit-review.json');audit=read(OUT/'DURABLE_AUDIT.json');cam=read(OUT/'CAM_CONTINUITY_AUDIT.json')
+assert audit['electricalAndPhysicalRecordsPreserved'] and cam['allGerberPrimitiveGeometryUnchanged']
+data=read(OLD/'review-data.json');lookup={x['ref']:x for x in specs}
+for p in data['parts']:
+    if p['ref'] in lookup:
+        t=lookup[p['ref']]
+        for k in ['value','mpn','manufacturer','package','lcsc','description','tolerance','tcr']:p[k]=t[k]
+        p['supplier']='LCSC';p['notes']='Applied to native SCH and PCB; live LCSC stock unreserved; JLC matching/release pending'
+    if not p['excluded']:
+        p['layer']=next(x['physicalSide'] for x in read(OLD/'PLACEMENT_AUDIT.json') if x['ref']==p['ref'])
+for r in data['candidateBom']:
+    if r['Designator'] in lookup:
+        p=lookup[r['Designator']];r.update({'Comment':p['value'],'Footprint':'0402','Manufacturer Part':p['mpn'],'Manufacturer':p['manufacturer'],'LCSC Part #':p['lcsc'],'Quantity':1,'Status':'Applied to CAD; LCSC live stock checked, unreserved; JLC review pending'})
+assert len(data['candidateBom'])==412 and all(r['Manufacturer Part'] for r in data['candidateBom'])
+data['unresolvedParts']=[]
+data['summary'].update({'source':'native/final/STM32H747_standard_values_verified_20261019.epro2','sourceSHA256':audit['sourceAfterSHA256'],'noExactMpn':107,'appliedStandardResistorParts':25,'unresolvedAfterProposals':0,'proposedNewMpnParts':107,'manufacturingApproved':False,'ercFatalErrors':0,'ercErrors':0,'ercWarningGroups':1,'ercWarningParts':['R197','R200','R201','R202','R203'],'strictDrcErrors':0,'holds':['Native ERC retains one supplier-attribute warning group for R197/R200/R201/R202/R203; custom footprint/library mapping needs review.','107 other new MPNs remain sourcing proposals, not applied CAD selections or reserved stock.','70 complex/polarized canonical CPL rotations and JLC assembly preview require confirmation.','External DFM, stackup, stock reservation and final assembly release remain pending.']})
+dump('review-data.json',data)
+groups=[]
+bycode=collections.defaultdict(list)
+for p in specs:bycode[p['lcsc']].append(p)
+for s in stock['parts']:
+    ps=bycode[s['lcsc']];p=ps[0]
+    groups.append({'Refs':', '.join(x['ref'] for x in ps),'Qty/board':len(ps),'Before':p['beforeValue'],'After':p['value'],'Tolerance':p['tolerance'],'TCR':p['tcr'],'Power':p['power'],'Package':'0402','Manufacturer':p['manufacturer'],'MPN':p['mpn'],'LCSC':p['lcsc'],'Stock':s['stockAtCheck'],'Stock date':'2026-10-19','Source':s['url'],'Status':'CAD applied; stock unreserved; JLC review pending'})
+dump('resistor-table.json',groups)
+for p in (OUT/'native').glob('erc_final-*.json'):shutil.copyfile(p,OUT/'native/final'/p.name)
+shutil.copyfile(OUT/'native/strict-drc-final.json',OUT/'native/final/strict-drc-final.json')
+dump('VALIDATION_SUMMARY.json',{'sourceSHA256':audit['sourceAfterSHA256'],'strictDrc':read(OUT/'native/final/strict-drc-final.json'),'ercPages':[read(p) for p in sorted((OUT/'native/final').glob('erc_final-*.json'))],'ercUiEvidence':'ERC_WARNING_UI.txt','ercInterpretation':'0 fatal, 0 error, 1 supplier attribute mismatch warning group (5 POWER resistors); not ERC zero. Existing mechanical/unrepresented pin INFO items remain visible.','manufacturingApproved':False})
+def esc(v):return html.escape(str(v))
+def dcsvg():
+    def path(offset,gain):return ' '.join(('M' if i==0 else 'L')+f'{60+i*4.9:.2f},{230-(offset-gain*(-2+4*i/100))/3.3*190:.2f}' for i in range(101))
+    return f'<svg viewBox="0 0 600 285" role="img" aria-label="SMA 입력 전압에 따른 ADC 명목 출력"><path d="M60 35V230H550" fill="none" stroke="#7e8b9b"/><text x="7" y="33">ADC V</text><text x="486" y="266">SMA VIN</text><text x="45" y="250">−2 V</text><text x="289" y="250">0 V</text><text x="530" y="250">+2 V</text><text x="30" y="232">0</text><text x="18" y="44">3.3</text><path d="{path(1.6472868217,.7)}" fill="none" stroke="#b7becb" stroke-width="5"/><path d="{path(1.6445832064,.6965174129)}" fill="none" stroke="#116b93" stroke-width="2.8"/><text x="90" y="38" fill="#116b93">변경 후</text><text x="195" y="38" fill="#7e8b9b">변경 전</text></svg>'
+rows=''.join('<tr>'+''.join(f'<td>{esc(r[k])}</td>' for k in ['Refs','Qty/board','Before','After','Tolerance','TCR','Power','MPN'])+f'<td><a href="{esc(next(s["url"] for s in stock["parts"] if s["lcsc"]==r["LCSC"]))}">{esc(r["LCSC"])}</a><br>{r["Stock"]:,}개</td></tr>' for r in groups)
+links=[('STANDARD_VALUES_REVIEW.xlsx','검토표 Excel'),('BOM_CANDIDATE_REVIEW_ONLY.csv','전체 실장 BOM 후보 (412개)'),('CPL_CANDIDATE_REVIEW_ONLY.csv','실장 좌표 후보 · 회전 검토 필요'),('native/final/GERBER_REVIEW_NOT_FOR_ORDER.zip','새 Gerber · 검토용'),('native/final/STM32H747_standard_values_verified_20261019.epro2','전체 원본 복구본'),('DURABLE_AUDIT.json','원본 변경 전수 대조'),('CAM_CONTINUITY_AUDIT.json','Gerber 형상 대조'),('VALIDATION_SUMMARY.json','실제 ERC/DRC 결과')]
+linkhtml=''.join(f'<li><a href="{esc(u)}">{esc(t)}</a></li>' for u,t in links)
+sources=''.join(f'<li><a href="{esc(s["url"])}">{esc(s["title"])}</a> — {esc(s["section"])}</li>' for s in analysis['sources'])
+page=f'''<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>STM32H747 표준 저항 재검토 · 2026-10-19</title><style>
+body{{margin:0;background:#f3f6fa;color:#203244;font:16px/1.65 system-ui,"Malgun Gothic",sans-serif}}main{{max-width:1160px;margin:38px auto;padding:0 24px 60px}}h1{{font-size:31px;letter-spacing:-.8px}}h2{{font-size:22px;margin-top:0}}section{{background:white;border:1px solid #d6dfea;border-radius:15px;padding:25px;margin:23px 0}}.hold{{border-left:5px solid #bc651b;background:#fff5e9;padding:20px}}.muted{{color:#5e6f82}}.grid{{display:grid;grid-template-columns:1fr 1fr;gap:24px}}.formula{{font-size:21px;color:#116b93;font-weight:650}}table{{border-collapse:collapse;width:100%;font-size:13px}}td,th{{border:1px solid #d5deea;padding:9px;text-align:left;vertical-align:top}}th{{background:#e9f0f6}}a{{color:#126b92}}code{{background:#edf2f7;padding:2px 5px;word-break:break-all}}.wide{{overflow:auto}}svg{{max-width:100%;font-size:14px}}@media(max-width:760px){{.grid{{grid-template-columns:1fr}}h1{{font-size:25px}}main{{padding:0 14px}}section{{padding:18px}}}}
+</style><main><p class="muted">2026-10-19 · STM32H747_MCU_BOARD_v19 · 최신 표준 저항 검토본</p><h1>구입 가능한 저항으로 원본 반영·재검토 완료</h1>
+<div class="hold"><b>제조·실장 최종 승인은 보류 상태입니다.</b><br>저항 25개의 실제 품번을 지정했고 13개의 명목값을 바꿨습니다. 엄격 PCB DRC는 0건입니다. ERC의 공급사 속성 경고 1그룹(5부품), 기존 신규 부품 107개의 구매 후보 확인, 복합·극성 부품 70개의 CPL 회전 확인 및 JLCPCB 검토가 남았습니다.</div>
+<section><h2>무엇을 바꿨나요?</h2><p>10채널 입력 저항을 4.00 kΩ에서 4.02 kΩ으로, 공용 분압을 15.8 kΩ / 10.0 kΩ에서 14.7 kΩ / 9.31 kΩ으로 바꿨습니다. REF5025 출력 커패시터의 직렬 저항은 1.0 Ω에서 1.2 Ω으로 변경했습니다. 피드백 2.80 kΩ과 전원 필터 4.7 Ω은 값을 유지하고 실제 품번을 지정했습니다.</p><div class="wide"><table><thead><tr><th>부품</th><th>보드당</th><th>기존</th><th>변경 후</th><th>허용오차</th><th>온도계수</th><th>정격</th><th>제조사 품번</th><th>LCSC / 확인 재고</th></tr></thead><tbody>{rows}</tbody></table></div><p class="muted">모두 0402입니다. 재고는 2026-10-19 LCSC 공개 상품 페이지의 확인 시점 수치이며 예약·JLCPCB 실장 재고 확보를 뜻하지 않습니다. 15 kΩ / 9.53 kΩ 대안은 9.53 kΩ의 실제 재고가 0개여서 선택하지 않았습니다. R201은 LCSC 상품 페이지와 EasyEDA 카탈로그가 표시한 400 ppm/K 상한으로 보수적으로 계산했습니다.</p></section>
+<section><h2>회로에 미치는 영향</h2><div class="grid"><div><p class="formula">VADC = 1.6445832 − 0.6965174 × VIN</p><p>VIN은 SMA 단자에서 측정한 실제 전압입니다. −2 / 0 / +2 V 입력의 명목 출력은 3.0376 / 1.6446 / 0.2515 V입니다.</p><table><tr><th>비교</th><th>결과</th></tr><tr><td>이득 크기 변화</td><td>−0.4975%</td></tr><tr><td>0 V 입력의 ADC 출력 변화</td><td>−2.704 mV</td></tr><tr><td>±2 V 범위 내 최대 명목 차이</td><td>9.669 mV</td></tr><tr><td>합성 −3 dB 대역</td><td>약 3.31 kHz · 유지</td></tr></table></div><div>{dcsvg()}<p class="muted">두 선은 거의 겹칩니다. 저항 허용오차만 고려한 출력 범위도 0~3.3 V 안에 있습니다. 개방 또는 입력 0 V일 때 ADC는 약 1.645 V입니다. 입력 분리 검출 기능은 추가하지 않았습니다.</p></div></div><p>R197/R200은 신호 이득을 결정하지 않는 전원 RC 용도입니다. 4.7 Ω, 0.2 W, 100 ppm/K 제품을 선정했습니다. R201의 1.2 Ω은 TI의 저잡음 권장 ESR 1~1.5 Ω 범위에 여유를 두기 위한 값입니다. 1%·400 ppm/K로 −40~85 °C를 계산하면 저항 자체는 약 1.157~1.244 Ω입니다.</p><p class="muted">이 계산은 이상적인 증폭기와 명목 커패시터를 사용했습니다. 실제 잡음·전원 기동·정착·ADC 전체 오차 검증은 포함하지 않습니다. 펌웨어를 변경하지 않았으므로 기존 보정식을 사용한다면 새 이득과 오프셋을 반영해야 합니다.</p></section>
+<section><h2>실제 저장본 검증</h2><ul><li>전체 3,941문서 유지. 변경은 03 전원, 06 ADC, PCB의 3개 문서에 한정됐으며 라이브러리는 동일합니다.</li><li>회로도와 PCB의 25개 품번·값·공급사 코드·고유 ID 일치. 부품 437개, PAD_NET 1,523개, 비아 704개, 규칙 18개 유지.</li><li>6층·100×154 mm 외곽·CN1 가공부·모서리 홀·J18 뒷면 마킹·기존 배선과 라벨 위치 보존.</li><li>엄격 PCB DRC 0. ERC는 치명/오류 0, 공급사 속성 불일치 경고 1그룹(R197, R200, R201, R202, R203). 이를 ERC 0으로 표시하지 않았습니다.</li><li>새 Gerber의 실제 도형은 이전 검토본과 동일합니다. 내보내기 내부 번호와 같은 색 도형의 출력 순서 변화는 구분해 대조했습니다. 드릴 가공 명령도 동일하며 실제 홀 863개입니다.</li></ul><p class="muted">이전 CAM의 패드 중심 1,678개 확인 근거는 동일 형상으로 이어집니다. 전체 구리의 전기적 동등성·외부 DFM 승인과는 범위가 다릅니다. PCB는 허용오차 필드를 일부 생략하므로 정확한 허용오차는 회로도와 검토 BOM을 함께 확인합니다.</p></section>
+<section><h2>파일과 다음 주문 단계</h2><ul>{linkhtml}</ul><ol><li>Excel/BOM에서 나머지 107개 구매 후보와 기존 품번을 확인하고, JLCPCB에서 정확한 품번·재고·패키지를 매칭합니다.</li><li>CPL 후보의 실제 실장면은 Top 333 / Bottom 79입니다. 복합·극성 부품 70개는 JLCPCB 미리보기의 핀 1 및 극성을 대조한 뒤 회전을 승인해야 합니다.</li><li>6층·100×154 mm 보드 조건과 적층·두께를 제조 검토자에게 확인하고, Gerber·BOM·CPL 조합을 승인한 뒤 수량·배송·가격을 확정합니다.</li></ol><p><a href="../../../output/jlcpcb-order-20261019/index.html">이전 두 보드 통합 준비 보고서</a>는 과거 검토본입니다. STM32 저항 값과 검사 상태는 이 보고서 및 연결된 최종 복구본이 우선합니다. DAC8562 원본과 자료는 이번 변경에서 수정하지 않았습니다.</p></section>
+<section><h2>자료 출처</h2><ul>{sources}<li><a href="selected-stock-evidence.json">선정한 6품목의 LCSC 재고 근거</a></li><li><a href="selected-library-properties.json">EasyEDA 카탈로그 속성 근거</a></li></ul><p class="muted">최종 복구본 SHA-256: <code>{audit['sourceAfterSHA256']}</code></p></section></main></html>'''
+(OUT/'index.html').write_text(page,encoding='utf8')
+print(json.dumps({'report':str(OUT/'index.html'),'cadMpnMissing':107,'candidateMpnMissing':0,'assemblyParts':412,'resistorGroups':len(groups)},ensure_ascii=False))

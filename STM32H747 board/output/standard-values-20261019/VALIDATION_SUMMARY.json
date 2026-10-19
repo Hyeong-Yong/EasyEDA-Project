@@ -1,0 +1,57 @@
+{
+  "sourceSHA256": "7adc0545a874174ed4ac8fe2b5c4278fd7e0c0f138f114f2e757192a3b32a126",
+  "strictDrc": {
+    "strict": true,
+    "violations": []
+  },
+  "ercPages": [
+    {
+      "page": "360993a3108b5759",
+      "violations": [
+        {
+          "type": "warn",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": "3c13ef086afba6f5",
+      "violations": [
+        {
+          "type": "warn",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": "a07bf8e4331877a8",
+      "violations": [
+        {
+          "type": "warn",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": "c0b1ffcb620d758f",
+      "violations": [
+        {
+          "type": "warn",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "page": "e8a4e3fabe30ab59",
+      "violations": [
+        {
+          "type": "warn",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "ercUiEvidence": "ERC_WARNING_UI.txt",
+  "ercInterpretation": "0 fatal, 0 error, 1 supplier attribute mismatch warning group (5 POWER resistors); not ERC zero. Existing mechanical/unrepresented pin INFO items remain visible.",
+  "manufacturingApproved": false
+}

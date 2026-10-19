@@ -2,6 +2,8 @@
 
 이 폴더는 기존 `TEST_DAC8562` 작업과 완전히 분리된 STM32H747 보드 전용 작업영역입니다. 모든 브리지 파일, 캐시, 출력물, 백업은 이 폴더 아래에만 둡니다.
 
+2026-10-19 최신 값·조달 검토는 [표준 저항 검토 보고서](output/standard-values-20261019/index.html)와 [Excel](output/standard-values-20261019/STANDARD_VALUES_REVIEW.xlsx)이 우선합니다. 25개 품번 지정/13개 명목값 변경을 원본에 저장했고 엄격 PCB DRC는0입니다. ERC는 공급사 속성 경고1그룹(5부품)이 남으며,107개 기타 구매 후보/70개 복합·극성 CPL 회전 및 외부 제조 승인은 추가 검토 대상입니다. 아래10-18 전달식·검사 기록은 과거 이력입니다. 같은 XY 저항5쌍은 실제 서로 다른 구리면의 부품임을 CAM에서 확인했습니다.
+
 최신 3D 실장 보기와 모델 의존성은 [3D 모델 상태](config/3d-model-status.md)를 확인하십시오. 412개 실장 대상 모델을 연결했고 최종 복구본은 `output/checkpoints/STM32H747_3d_models_412_20261018.epro2`입니다. 전용 STEP 5개는 [세션 로더](native-project/model-library/README.md)가 필요합니다. 패키지 대응 모델/원본의 저항 5쌍 중첩은 제조 전 별도 검토 대상입니다. 2026-10-19 게시 목록은 `config/publication-manifest-20261019.json`이며, TEST_DAC8562를 포함하라는 사용자 지시에 따라 두 프로젝트의 작업 이력을 함께 보존합니다. 과거 WIP·실패·pending 자료의 보존은 제조 승인을 뜻하지 않습니다.
 
 2026-10-18 최신 작업은 [LabTool 원리 ADC 변경 상태](config/labtool-adc-status.md)를 우선 확인하십시오. 10채널 GND 기준 입력/DC·60 Hz 저잡음 회로도와 PCB 변경·배선·저장을 완료했고 전체 ERC/엄격 DRC는 모두 0건입니다. 437부품·1,342핀 전수 일치와 704비아/863드릴·6층·기구·J18 보존도 검증했습니다. 최종 전체 복구본은 `output/checkpoints/STM32H747_labtool_adc10_routed_final_20261018.epro2`입니다. 실제 잡음·기동·정착시간과 전체 CAM/제조 승인은 별도이며 아래 과거 WIP 결과와 구분하십시오.

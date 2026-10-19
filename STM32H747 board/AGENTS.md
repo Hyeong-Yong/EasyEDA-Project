@@ -8,6 +8,8 @@
 
 ## 기준 자료
 
+- 2026-10-19 표준 저항 조달 검토 결과가 `config/labtool-adc-status.md` 최상단 및 `output/standard-values-20261019/index.html`에 있다. 25저항 실제 품번/13값 변경을 회로도·PCB에 저장했고, 최신 전달식은 `VADC=1.6445832−0.6965174×VIN`이다. 전체3,941문서·라이브러리·배선·기구·Gerber 도형 보존/엄격 PCB DRC0을 검증했다. ERC는 공급사 속성 경고1그룹(5부품)이 남으며 0건으로 표현하지 않는다. 나머지107개 구매 후보와70개 복합/극성 CPL 회전 및 외부 DFM/제조 승인은 별도다. 이번 일회성 `*-standard-*-20261019.mjs` 적용/복구/동기화 배치는 이력이며 재실행하지 않는다. 원본 복구본은 `output/standard-values-20261019/native/final/STM32H747_standard_values_verified_20261019.epro2`이다.
+
 - 2026-10-18 최신 ADC 변경 작업은 `config/labtool-adc-status.md`가 우선한다. 사용자는 LabTool 원리의 GND 기준 입력+후단 ±2 V 레벨 변환, DC/60 Hz 저잡음/수 kHz 대역을 선택했다. 새 03/06 회로도와 PCB 변경·배선·저장, 전체 ERC/엄격 DRC 0건을 완료했다. 437부품/1,342핀·704비아/863드릴 전수 대조와 6층/18규칙/기구/J18·전체3,941문서 보존을 검증했다. 최종 복구본은 `output/checkpoints/STM32H747_labtool_adc10_routed_final_20261018.epro2`, 검증 색인은 `output/candidates/adc10-labtool-20261018/final-labtool-verification-index.json`이다. 아래 이전 354부품/1,136핀 결과를 새 회로의 증거로 혼용하지 않는다. 모든 import/apply 배치는 이력이며 재실행하지 않는다. 실제 잡음/기동/정착시간/전체 CAM/제조 승인은 아직 별도다.
 
 - 회로도 기준본: `보드 자료/MCU_BOARD_v19_260827.pdf`

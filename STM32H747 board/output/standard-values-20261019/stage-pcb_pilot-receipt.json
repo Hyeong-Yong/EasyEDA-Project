@@ -1,0 +1,28 @@
+{
+  "stage": "pcb_pilot",
+  "page": "0ac2a19168000d8e",
+  "targets": [
+    "R137"
+  ],
+  "changes": [
+    {
+      "type": "COMPONENT",
+      "id": "8a92a6903fad3d44",
+      "allowed": true
+    }
+  ],
+  "errors": [
+    {
+      "ref": "R137",
+      "key": "Supplier Part",
+      "expected": "C852810",
+      "actual": ""
+    },
+    {
+      "ref": "R137",
+      "key": "Tolerance",
+      "expected": "0.1%"
+    }
+  ],
+  "saved": false
+}

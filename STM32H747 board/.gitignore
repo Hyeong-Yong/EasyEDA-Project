@@ -15,3 +15,11 @@
 /output/validation/
 /output/checkpoints/
 
+# Local sourcing pages and one-time CAD trial captures are retained locally.
+/output/standard-values-20261019/*-page.html
+/output/standard-values-20261019/*.epru
+/output/standard-values-20261019/local-parsed-cam/
+/output/standard-values-20261019/native/*
+!/output/standard-values-20261019/native/final/
+/output/standard-values-20261019/native/final/*.epru
+

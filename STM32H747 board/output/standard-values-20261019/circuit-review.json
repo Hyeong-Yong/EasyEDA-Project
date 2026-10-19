@@ -1,0 +1,132 @@
+{
+  "scope": "Analytical resistor-value comparison with ideal amplifiers and fixed nominal capacitors; not hardware noise/startup certification",
+  "before": {
+    "name": "before",
+    "inputResistorOhm": 4000,
+    "feedbackResistorOhm": 2800,
+    "dividerTopOhm": 15800,
+    "dividerBottomOhm": 10000,
+    "dcSignalGainAtSma": -0.7,
+    "zeroInputOutputV": 1.6472868217054262,
+    "dividerBusV": 0.9689922480620154,
+    "outputsAtSmaInputV": {
+      "-2": 3.047286821705426,
+      "0": 1.6472868217054262,
+      "2": 0.24728682170542626
+    },
+    "sourceGeneratorToAdcGain60Hz": 0.6995547349588745,
+    "normalized3dBBandwidthHz": 3314.1518658512987,
+    "dividerFilterPoleHz": 5.529487653879477,
+    "resistorOnlyCornersV": {
+      "-2": {
+        "min": 3.0411188908743725,
+        "max": 3.0534672959861564
+      },
+      "0": {
+        "min": 1.6439160936715753,
+        "max": 1.6506644931833538
+      },
+      "2": {
+        "min": 0.24382314950249317,
+        "max": 0.25074519110465165
+      }
+    },
+    "dividerDissipationW": {
+      "top": 0.000148353464335076,
+      "bottom": 9.389459768042785e-05
+    },
+    "dividerWorstCaseTcrOutputVPerK": 2.017607114957034e-05
+  },
+  "after": {
+    "name": "standardValues",
+    "inputResistorOhm": 4020,
+    "feedbackResistorOhm": 2800,
+    "dividerTopOhm": 14700,
+    "dividerBottomOhm": 9310,
+    "dcSignalGainAtSma": -0.6965174129353234,
+    "zeroInputOutputV": 1.644583206416895,
+    "dividerBusV": 0.9693877551020408,
+    "outputsAtSmaInputV": {
+      "-2": 3.0376180322875417,
+      "0": 1.644583206416895,
+      "2": 0.2515483805462482
+    },
+    "sourceGeneratorToAdcGain60Hz": 0.6960743631431588,
+    "normalized3dBBandwidthHz": 3314.1518658512987,
+    "dividerFilterPoleHz": 5.940834008656041,
+    "resistorOnlyCornersV": {
+      "-2": {
+        "min": 3.031474032194401,
+        "max": 3.0437745165381247
+      },
+      "0": {
+        "min": 1.64122249268913,
+        "max": 1.6479508321572265
+      },
+      "2": {
+        "min": 0.24809628647344661,
+        "max": 0.2549952003202698
+      }
+    },
+    "dividerDissipationW": {
+      "top": 0.00015937237035588915,
+      "bottom": 0.00010093583455872978
+    },
+    "dividerWorstCaseTcrOutputVPerK": 2.0137753547961982e-05
+  },
+  "delta": {
+    "dcGainRelativePercent": -0.4975124378109319,
+    "zeroInputOutputMv": -2.703615288531136,
+    "maximumNominalOutputChangeOverPlusMinus2VMv": 9.668789417884405,
+    "bandwidthRelativePercent": 0.0
+  },
+  "checks": {
+    "signalGainChangeWithinHalfPercent": true,
+    "zeroShiftBelow3mV": true,
+    "bandwidthUnchanged": true,
+    "resistorCornersWithinAdcRange": true,
+    "same0402PadsAndTopology": true
+  },
+  "powerAndTcr": {
+    "inputResistorMaxSteadyPowerW": 0.0021933491642164024,
+    "inputResistorRatingW": 0.0625,
+    "feedbackResistorMaxSteadyPowerW": 0.0015277058855238626,
+    "supplyFilterResistanceOhm": 4.7,
+    "supplyFilterRatingW": 0.2,
+    "supplyFilterPowerAt60mAW": 0.01692,
+    "supplyFilterTcrPpmK": 100,
+    "supplyFilterTcrRationale": "Supply RC does not set signal gain. At 60mA and a 65K change, TCR-only drop change is 1.833mV; startup pulses still require bench verification.",
+    "referenceEsrResistorOhm": 1.2,
+    "referenceEsrTcrPpmK": 400,
+    "referenceEsrTolerance": 0.01,
+    "referenceEsrResistorRangeMinus40To85C": [
+      1.157112,
+      1.243512
+    ],
+    "referenceEsrRationale": "TI REF50xxAI recommends total output-capacitor ESR 1 to 1.5 ohm for minimum noise. 1.2 ohm allows MLCC ESR margin; actual assembled transient stability remains a bench check."
+  },
+  "limitations": [
+    "Reference initial error/drift, amplifier offset/noise/GBW, resistor excess noise, capacitor tolerance/DC bias, ADC loading and conversion error are not included in resistor-only corners.",
+    "No firmware changed. Existing calibration, if present, must use the new stated slope/intercept.",
+    "SMA open input and zero-volt input still produce the nonzero output intercept; no disconnect detector was added.",
+    "50-ohm generator loading is included only in generator-to-ADC AC gain; VIN in the DC formula is actual SMA voltage.",
+    "Full PCBA rotation/stock reservation and external manufacturing DFM remain separate."
+  ],
+  "sources": [
+    {
+      "title": "REF50xx Rev O",
+      "url": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+      "section": "8.5 and 9.4.1.1, ESR 1 to 1.5 ohm recommended"
+    },
+    {
+      "title": "Vishay RCS e3 Rev 2025-06-11",
+      "url": "https://www.vishay.com/docs/20065/rcse3.pdf",
+      "section": "0402 0.2W, 1% / 100ppm, anti-surge"
+    },
+    {
+      "title": "RESI PTFR family datasheet",
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20231218/EBECA0901342DCBDB0ABFC8C8F9AFCF5.pdf",
+      "section": "0402, B 0.1%, N 10ppm, P 25ppm"
+    }
+  ]
+}

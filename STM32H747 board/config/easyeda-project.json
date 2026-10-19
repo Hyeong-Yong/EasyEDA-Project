@@ -1,8 +1,8 @@
 {
   "expectedProjectName": "STM32H747_MCU_BOARD_v19",
-  "expectedProjectUuid": "761c4fdb8e3e1a273a7eb212bd6961ba8b6efdb0e27d1b0c207735a7e696c24c",
-  "expectedWindowId": "c020406e-b1fa-42b2-83be-6df87769a738",
-  "nativeProjectPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/native-project/STM32H747_MCU_BOARD_v19.eprj2",
+  "expectedProjectUuid": "4d4671fe9a78f6b1578521c2dc6be53db20dc0cc6cb10fdfc81febaa87f5af94",
+  "expectedWindowId": null,
+  "nativeProjectPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\STM32H747_MCU_BOARD_v19.eprj2",
   "schematicUuid": "416c10313f778784",
   "pcbUuid": "0ac2a19168000d8e",
   "removedCoverPageUuid": "6f4a7195e71d5772",
@@ -13,6 +13,5 @@
     {"sourcePdfPage": 5, "uuid": "3c13ef086afba6f5", "name": "05_ENET_USB_VCP"},
     {"sourcePdfPage": 6, "uuid": "a07bf8e4331877a8", "name": "06_ADC_TIMER_DAC"}
   ],
-  "note": "Dedicated STM32H747 window reconnected 2026-10-18 after verifying exact native path/window title, friendlyName and project UUID. Offline UUID is path-spelling-derived: use this forward-slash nativeProjectPath consistently. Rebind a restarted window only after those same checks."
+  "note": "2026-10-19: same native file opened using Windows backslash spelling; UUID locked to that path identity. Window IDs are transient; locate exactly one matching name+UUID and recheck inside every execution. Shared bridge default selection is not changed."
 }
-

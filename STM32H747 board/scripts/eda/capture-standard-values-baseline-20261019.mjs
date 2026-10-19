@@ -1,0 +1,10 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/standard-values-20261019';
+const info=await eda.dmt_Project.getCurrentProjectInfo();
+if(info.friendlyName!=='STM32H747_MCU_BOARD_v19'||!info.data.some(b=>b.pcb?.uuid==='0ac2a19168000d8e'))throw Error('Baseline identity failed');
+const file=await eda.sys_FileManager.getProjectFile('STM32H747_before_standard_values_20261019',undefined,'epro2');
+if(!file||!await eda.sys_FileSystem.saveFileToFileSystem(root+'/STM32H747_before_standard_values_20261019.epro2',file,undefined,false))throw Error('Checkpoint save refused');
+await eda.dmt_EditorControl.openDocument('0ac2a19168000d8e');
+if((await eda.pcb_PrimitiveComponent.getAll()).length!==437)throw Error('Component baseline failed');
+const drc=await eda.pcb_Drc.check(true,true,true);
+if(!await eda.sys_FileSystem.saveFileToFileSystem(root+'/baseline-pcb.epru',new Blob([await eda.sys_FileManager.getDocumentSource()]),undefined,false))throw Error('Source save refused');
+return {project:info,checkpointBytes:file.size,drc};

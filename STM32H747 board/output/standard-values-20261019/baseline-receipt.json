@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "port": 49620,
+  "windowId": "df59613e-b013-4174-b3a2-cc4f67a6b984",
+  "result": {
+    "project": {
+      "itemType": "Project",
+      "uuid": "4d4671fe9a78f6b1578521c2dc6be53db20dc0cc6cb10fdfc81febaa87f5af94",
+      "friendlyName": "STM32H747_MCU_BOARD_v19",
+      "name": "/STM32H747_MCU_BOARD_v19",
+      "teamUuid": "03c5e331f16a4c9cad2ba11125e1043e",
+      "description": "",
+      "data": [
+        {
+          "itemType": "Board",
+          "name": "mcu_board",
+          "schematic": {
+            "itemType": "Schematic",
+            "uuid": "416c10313f778784",
+            "name": "MCU_BOARD",
+            "page": [
+              {
+                "itemType": "Schematic Page",
+                "uuid": "a07bf8e4331877a8",
+                "name": "06_ADC_TIMER_DAC",
+                "parentSchematicUuid": "416c10313f778784",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "360993a3108b5759",
+                "name": "03_MCU_POWER",
+                "parentSchematicUuid": "416c10313f778784",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "3c13ef086afba6f5",
+                "name": "05_ENET_USB_VCP",
+                "parentSchematicUuid": "416c10313f778784",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "c0b1ffcb620d758f",
+                "name": "04_SDRAM",
+                "parentSchematicUuid": "416c10313f778784",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "e8a4e3fabe30ab59",
+                "name": "02_MCU",
+                "parentSchematicUuid": "416c10313f778784",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              }
+            ],
+            "parentProjectUuid": "4d4671fe9a78f6b1578521c2dc6be53db20dc0cc6cb10fdfc81febaa87f5af94",
+            "parentBoardName": "mcu_board"
+          },
+          "pcb": {
+            "itemType": "PCB",
+            "name": "MCU_BOARD_PCB",
+            "uuid": "0ac2a19168000d8e",
+            "parentBoardName": "mcu_board",
+            "parentProjectUuid": "4d4671fe9a78f6b1578521c2dc6be53db20dc0cc6cb10fdfc81febaa87f5af94"
+          },
+          "parentProjectUuid": "4d4671fe9a78f6b1578521c2dc6be53db20dc0cc6cb10fdfc81febaa87f5af94"
+        }
+      ]
+    },
+    "checkpointBytes": 21386796,
+    "drc": []
+  }
+}

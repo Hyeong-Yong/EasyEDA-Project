@@ -1,0 +1,3056 @@
+{
+  "schema": "standard-resistors-20261019-v1",
+  "projectName": "STM32H747_MCU_BOARD_v19",
+  "projectUuid": "4d4671fe9a78f6b1578521c2dc6be53db20dc0cc6cb10fdfc81febaa87f5af94",
+  "pcbUuid": "0ac2a19168000d8e",
+  "baselineSHA256": "5ae983f5351f3f543cbdebeefb0a48f2f17440b20642421564bdc941068cc848",
+  "pages": {
+    "a07bf8e4331877a8": {
+      "targets": [
+        {
+          "ref": "R137",
+          "componentId": "8aca3284ddf555cd",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R137",
+            "Unique ID": "ae1fdfc9ea5e5837",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R137",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 335,
+            "y": 140,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R138",
+          "componentId": "7104ad5724315ce1",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R138",
+            "Unique ID": "b11170a3dac35218",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R138",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 685,
+            "y": 140,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R139",
+          "componentId": "98fdb1631478573d",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R139",
+            "Unique ID": "de7ffa0032cf56a9",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R139",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1035,
+            "y": 140,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R149",
+          "componentId": "259047a1516f5e63",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R149",
+            "Unique ID": "512b8c94e517575b",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R149",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 335,
+            "y": 340,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R150",
+          "componentId": "4f50f5a820615bec",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R150",
+            "Unique ID": "8c5758f1ab4959cf",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R150",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 685,
+            "y": 340,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R151",
+          "componentId": "9efe573c34e05329",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R151",
+            "Unique ID": "c7220f6577db54a8",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R151",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1035,
+            "y": 340,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R161",
+          "componentId": "2f70f125c1db55b4",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R161",
+            "Unique ID": "a00b0fba75b756e6",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R161",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 335,
+            "y": 540,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R162",
+          "componentId": "c38a93fef3f65d46",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R162",
+            "Unique ID": "d98a8a274f21576f",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R162",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 685,
+            "y": 540,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R163",
+          "componentId": "53aee1b4cb9d5460",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R163",
+            "Unique ID": "7b30d83ed0c453b0",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R163",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1035,
+            "y": 540,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R164",
+          "componentId": "3068c884989a5d91",
+          "beforeAttrs": {
+            "Device": "2d40687691bef84f",
+            "Symbol": "ae94444fd364ffa4",
+            "Designator": "R164",
+            "Unique ID": "4f5b6422c30d54b6",
+            "Value": "4.00k",
+            "Name": "={Value}",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R164",
+            "oldValue": "4.00k",
+            "value": "4.02k",
+            "mpn": "RT0402BRD074K02L",
+            "lcsc": "C852810",
+            "manufacturer": "YAGEO",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1385,
+            "y": 540,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R187",
+          "componentId": "080b80e541390f95",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R187",
+            "Value": "2.80k",
+            "Unique ID": "3e35fd448c0c4502",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R187",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 380,
+            "y": 235,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R188",
+          "componentId": "a0aa46bbbfd0d51f",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R188",
+            "Value": "2.80k",
+            "Unique ID": "266c3d3bb80b63e1",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R188",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 730,
+            "y": 235,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R189",
+          "componentId": "62b8d9f99e0fd0d0",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R189",
+            "Value": "2.80k",
+            "Unique ID": "ea0c7f93fd36f367",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R189",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1080,
+            "y": 235,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R190",
+          "componentId": "c547dc621a828228",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R190",
+            "Value": "2.80k",
+            "Unique ID": "b27e2e23641abe0e",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R190",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 380,
+            "y": 435,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R191",
+          "componentId": "2e3c3d9613e310f0",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R191",
+            "Value": "2.80k",
+            "Unique ID": "92066bda66dc9e56",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R191",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 730,
+            "y": 435,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R192",
+          "componentId": "b5481a0a4317229e",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R192",
+            "Value": "2.80k",
+            "Unique ID": "f0be4fd56bc54393",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R192",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1080,
+            "y": 435,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R193",
+          "componentId": "4ebf022e877e693a",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R193",
+            "Value": "2.80k",
+            "Unique ID": "91244dcdf140a110",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R193",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 380,
+            "y": 635,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R194",
+          "componentId": "0cc8ed491f5e2a76",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R194",
+            "Value": "2.80k",
+            "Unique ID": "ed89b0293a419ec5",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R194",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 730,
+            "y": 635,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R195",
+          "componentId": "b592e6bd6c407812",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R195",
+            "Value": "2.80k",
+            "Unique ID": "374f1fe356695255",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R195",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1080,
+            "y": 635,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R196",
+          "componentId": "49f3ba8c34287bb4",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R196",
+            "Value": "2.80k",
+            "Unique ID": "23c7ef99c67e1678",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R196",
+            "oldValue": "2.80k",
+            "value": "2.80k",
+            "mpn": "PTFR0402B2K80P9",
+            "lcsc": "C2692906",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "25 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1430,
+            "y": 635,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        }
+      ],
+      "textsForReview": [
+        {
+          "id": "3b142a7e73b101e9",
+          "value": "GND"
+        },
+        {
+          "id": "8e5730599fc1ac3b",
+          "value": "GND"
+        },
+        {
+          "id": "fa11db680401380b",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "d9286c276ffd8e7a",
+          "value": "GND"
+        },
+        {
+          "id": "f5027c65e27eb663",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "c4c4772997e2f795",
+          "value": "GND"
+        },
+        {
+          "id": "d55bad7a6b792cb5",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "036ab492ab0c3300",
+          "value": "+3V3"
+        },
+        {
+          "id": "df318e51aecc595e",
+          "value": "GND"
+        },
+        {
+          "id": "8d58b9f83ec441c1",
+          "value": "GND"
+        },
+        {
+          "id": "ec06017df51063f4",
+          "value": "ADC1_INP0"
+        },
+        {
+          "id": "5c8b973ef1b67851",
+          "value": "GND"
+        },
+        {
+          "id": "af1d48147a3c423b",
+          "value": "GND"
+        },
+        {
+          "id": "60861b4ee47dd424",
+          "value": "J2: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "ab14ab99de8304e0",
+          "value": "GND"
+        },
+        {
+          "id": "a163c98c153dc65b",
+          "value": "GND"
+        },
+        {
+          "id": "38557744c49187d6",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "9e16c2775a2241e6",
+          "value": "GND"
+        },
+        {
+          "id": "ca650ae3613da065",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "d6ecf5d459dff017",
+          "value": "GND"
+        },
+        {
+          "id": "725f92f4463a1ebd",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "2410d9fc0d578794",
+          "value": "+3V3"
+        },
+        {
+          "id": "e1127bdc4fd4a42d",
+          "value": "GND"
+        },
+        {
+          "id": "4b44bb91cd562910",
+          "value": "GND"
+        },
+        {
+          "id": "7ce2ce623207dcab",
+          "value": "ADC1_INP1"
+        },
+        {
+          "id": "a5a768d4422a8b2a",
+          "value": "GND"
+        },
+        {
+          "id": "bf6c8fac03c129ba",
+          "value": "GND"
+        },
+        {
+          "id": "d6e8bdfd16de864b",
+          "value": "J3: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "92bfbcdd2c652e88",
+          "value": "GND"
+        },
+        {
+          "id": "269de8a412f0b461",
+          "value": "GND"
+        },
+        {
+          "id": "6470caab2964add1",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "0607c93cd6818ea5",
+          "value": "GND"
+        },
+        {
+          "id": "ce84ade22c7d4312",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "234af2856c034e77",
+          "value": "GND"
+        },
+        {
+          "id": "9be754fab8efdf13",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "8ace5eeb9d7813e3",
+          "value": "+3V3"
+        },
+        {
+          "id": "39996e2ce062d1fa",
+          "value": "GND"
+        },
+        {
+          "id": "2c4925945529bd72",
+          "value": "GND"
+        },
+        {
+          "id": "ad4810cea5385537",
+          "value": "ADC1_INP16"
+        },
+        {
+          "id": "c17dd4659092b660",
+          "value": "GND"
+        },
+        {
+          "id": "2699d6bd1a9881f4",
+          "value": "GND"
+        },
+        {
+          "id": "463ba9c6673774af",
+          "value": "J4: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "aec9218d533651e3",
+          "value": "GND"
+        },
+        {
+          "id": "066d415c589cb008",
+          "value": "GND"
+        },
+        {
+          "id": "ff913589ff45870a",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "ef6c0cb41c3df41b",
+          "value": "GND"
+        },
+        {
+          "id": "37fbf76cd9136473",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "433e617246a77510",
+          "value": "GND"
+        },
+        {
+          "id": "d2bd92ee0539b34f",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "b4631093f41abc8a",
+          "value": "+3V3"
+        },
+        {
+          "id": "ba04b2e07d696b21",
+          "value": "GND"
+        },
+        {
+          "id": "93508ce264716caf",
+          "value": "GND"
+        },
+        {
+          "id": "d1d4bf543724c1f6",
+          "value": "ADC2_INP3"
+        },
+        {
+          "id": "0202300555871551",
+          "value": "GND"
+        },
+        {
+          "id": "c948781a168fc884",
+          "value": "GND"
+        },
+        {
+          "id": "03948611301005c9",
+          "value": "J5: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "252f9b1e57c11881",
+          "value": "GND"
+        },
+        {
+          "id": "ce33689dabec9300",
+          "value": "GND"
+        },
+        {
+          "id": "43029aa53f2e6417",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "d9d0987497fc7645",
+          "value": "GND"
+        },
+        {
+          "id": "cc65515b0fbf39e2",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "6f19452f83b38dac",
+          "value": "GND"
+        },
+        {
+          "id": "06f44a56cc5b2e1b",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "91b749b3f333eafe",
+          "value": "+3V3"
+        },
+        {
+          "id": "54313fc87224abfc",
+          "value": "GND"
+        },
+        {
+          "id": "29c01a4962c9bfcf",
+          "value": "GND"
+        },
+        {
+          "id": "d16ae7baec1da779",
+          "value": "ADC2_INP12"
+        },
+        {
+          "id": "6fe1b960e4bd046b",
+          "value": "GND"
+        },
+        {
+          "id": "f626c264670eaeda",
+          "value": "GND"
+        },
+        {
+          "id": "d111820e42ebca49",
+          "value": "J6: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "b220e00606a03c0b",
+          "value": "GND"
+        },
+        {
+          "id": "3aaec4edf13e59c7",
+          "value": "GND"
+        },
+        {
+          "id": "0b5f8029cd0f438a",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "a127de185798ae06",
+          "value": "GND"
+        },
+        {
+          "id": "e4497463798000ea",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "4e356879a9fe05d7",
+          "value": "GND"
+        },
+        {
+          "id": "2938eb80215e2cb4",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "6fe1b0ca35b7b419",
+          "value": "+3V3"
+        },
+        {
+          "id": "279731fe3589f305",
+          "value": "GND"
+        },
+        {
+          "id": "1f3ce63ed338aa5c",
+          "value": "GND"
+        },
+        {
+          "id": "3c234ef0f16c89dc",
+          "value": "ADC2_INP13"
+        },
+        {
+          "id": "bdf3c33769dbe3bc",
+          "value": "GND"
+        },
+        {
+          "id": "575e6860c8150df5",
+          "value": "GND"
+        },
+        {
+          "id": "be6eb3747e703a7c",
+          "value": "J7: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "ae2b77c3b034b78d",
+          "value": "GND"
+        },
+        {
+          "id": "8d71522323c3a09d",
+          "value": "GND"
+        },
+        {
+          "id": "a9bfe27b20d85b53",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "6422f05a31e7f239",
+          "value": "GND"
+        },
+        {
+          "id": "1cb0f4150dd37488",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "bbf4d4715f612b12",
+          "value": "GND"
+        },
+        {
+          "id": "392cb54e71a6e64a",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "e2c2290ec3f8fc37",
+          "value": "+3V3"
+        },
+        {
+          "id": "39b8c7d75045e50b",
+          "value": "GND"
+        },
+        {
+          "id": "f934e95e718991d1",
+          "value": "GND"
+        },
+        {
+          "id": "6679602db66af058",
+          "value": "ADC3_INP2"
+        },
+        {
+          "id": "a88b7714c66a251c",
+          "value": "GND"
+        },
+        {
+          "id": "ace9d87063341b60",
+          "value": "GND"
+        },
+        {
+          "id": "54733c4bbf2105e5",
+          "value": "J8: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "082987dd9a30e29e",
+          "value": "GND"
+        },
+        {
+          "id": "1e4f1354bca8eba1",
+          "value": "GND"
+        },
+        {
+          "id": "4e087856070b5046",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "ad6908ff45800e1e",
+          "value": "GND"
+        },
+        {
+          "id": "0b13b72ac98c058e",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "50d4288b10ae92f0",
+          "value": "GND"
+        },
+        {
+          "id": "3e52ac5678d77065",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "cd8de7d9e4ec23b6",
+          "value": "+3V3"
+        },
+        {
+          "id": "159a74e04ad4265a",
+          "value": "GND"
+        },
+        {
+          "id": "f859c6820e6524f6",
+          "value": "GND"
+        },
+        {
+          "id": "5aa142813ca85a17",
+          "value": "ADC3_INP6"
+        },
+        {
+          "id": "b1072066da4b6f42",
+          "value": "GND"
+        },
+        {
+          "id": "b2f6b6a41c7a5eed",
+          "value": "GND"
+        },
+        {
+          "id": "d662531e334bb0c4",
+          "value": "J9: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "845432da2bae8bd4",
+          "value": "GND"
+        },
+        {
+          "id": "ec4bd0c1a7dddd6f",
+          "value": "GND"
+        },
+        {
+          "id": "dfdbf301708a5160",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "96dc6473724e19ec",
+          "value": "GND"
+        },
+        {
+          "id": "8f15296b5e2c5c59",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "78cd2286c512cbcc",
+          "value": "GND"
+        },
+        {
+          "id": "16c23e2edf3ec467",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "c1288dab7944a26f",
+          "value": "+3V3"
+        },
+        {
+          "id": "b4f6a08d12bfe0de",
+          "value": "GND"
+        },
+        {
+          "id": "e0911ddd8a983e4c",
+          "value": "GND"
+        },
+        {
+          "id": "831fc15b45f3768c",
+          "value": "ADC3_INP7"
+        },
+        {
+          "id": "873b8784a602d802",
+          "value": "GND"
+        },
+        {
+          "id": "fc2a0549ff911bcb",
+          "value": "GND"
+        },
+        {
+          "id": "5d27b38664eeb139",
+          "value": "J10: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "35afcb77ca496e9e",
+          "value": "GND"
+        },
+        {
+          "id": "0f0c8518558290d1",
+          "value": "GND"
+        },
+        {
+          "id": "2b5bff09d5455fc5",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "3ac8e5b887128342",
+          "value": "GND"
+        },
+        {
+          "id": "2f17e513e87673ff",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "1e0e5e3c579fe970",
+          "value": "GND"
+        },
+        {
+          "id": "6e193614d2ef64fa",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "5fcfa657e324f215",
+          "value": "+3V3"
+        },
+        {
+          "id": "179e63520a57d38e",
+          "value": "GND"
+        },
+        {
+          "id": "cb33430f21863257",
+          "value": "GND"
+        },
+        {
+          "id": "65cc0bffddc1b016",
+          "value": "ADC3_INP8"
+        },
+        {
+          "id": "534dbdeaa1411634",
+          "value": "GND"
+        },
+        {
+          "id": "b59729ea82ef19b9",
+          "value": "GND"
+        },
+        {
+          "id": "90634628c684578a",
+          "value": "J11: -2V .. +2V; DC / 60Hz"
+        },
+        {
+          "id": "75eae3802c16c27e",
+          "value": "10 inputs: SMA ground referenced; DC preserved; open input returns near GND, ADC near 1.647V."
+        },
+        {
+          "id": "bec27b41e3795d57",
+          "value": "Nominal VADC = 1.6472868 - 0.7 x VIN (50-ohm loading ~0.05%); calibrate gain/offset and sign."
+        },
+        {
+          "id": "390d0a538740edbd",
+          "value": "Signal LPF poles ~4.72kHz and 5.68kHz; ADC reservoir 47ohm / 10nF. No 1MHz passband."
+        },
+        {
+          "id": "24e4e521061c4240",
+          "value": "Start with ADC acquisition >=8us; verify actual sample time / settling. Firmware is not changed here."
+        },
+        {
+          "id": "21c2b61d3295c536",
+          "value": "Common offset, negative supply and reference on 03_MCU_POWER. Powered-off/overvoltage inputs not qualified."
+        }
+      ],
+      "textEdits": [
+        {
+          "id": "75eae3802c16c27e",
+          "before": "10 inputs: SMA ground referenced; DC preserved; open input returns near GND, ADC near 1.647V.",
+          "after": "10 inputs: SMA ground referenced; DC preserved; open input returns near GND, ADC near 1.645V."
+        },
+        {
+          "id": "bec27b41e3795d57",
+          "before": "Nominal VADC = 1.6472868 - 0.7 x VIN (50-ohm loading ~0.05%); calibrate gain/offset and sign.",
+          "after": "Nominal VADC = 1.6445832 - 0.6965174 x VIN (50-ohm loading ~0.05%); calibrate gain/offset and sign."
+        }
+      ]
+    },
+    "360993a3108b5759": {
+      "targets": [
+        {
+          "ref": "R197",
+          "componentId": "33b0e0ff09f7a94f",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R197",
+            "Value": "4.7",
+            "Unique ID": "5139d78ef981dd1c",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+            "Power Rating": "0.1 W minimum"
+          },
+          "spec": {
+            "ref": "R197",
+            "oldValue": "4.7",
+            "value": "4.7",
+            "mpn": "RCS04024R70FKED",
+            "lcsc": "C2103244",
+            "manufacturer": "VISHAY",
+            "Tolerance": "1%",
+            "Temperature Coefficient": "100 ppm/K",
+            "Power Rating": "0.2 W",
+            "Description": "Anti-surge supply RC resistor; TCR reviewed independently of gain; 4.7 1% 100 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2103244.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1090,
+            "y": 235,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R200",
+          "componentId": "2ddba8abb90d5bd7",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R200",
+            "Value": "4.7",
+            "Unique ID": "42bcabfafa6408dc",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+            "Power Rating": "0.1 W minimum"
+          },
+          "spec": {
+            "ref": "R200",
+            "oldValue": "4.7",
+            "value": "4.7",
+            "mpn": "RCS04024R70FKED",
+            "lcsc": "C2103244",
+            "manufacturer": "VISHAY",
+            "Tolerance": "1%",
+            "Temperature Coefficient": "100 ppm/K",
+            "Power Rating": "0.2 W",
+            "Description": "Anti-surge supply RC resistor; TCR reviewed independently of gain; 4.7 1% 100 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2103244.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1090,
+            "y": 450,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R201",
+          "componentId": "cf0483119d67bcbe",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R201",
+            "Value": "1.0",
+            "Unique ID": "5610aee7d31e6577",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "1%",
+            "Temperature Coefficient": "25 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R201",
+            "oldValue": "1.0",
+            "value": "1.20",
+            "mpn": "0402WGF120KTCE",
+            "lcsc": "C44198",
+            "manufacturer": "UNI-ROYAL",
+            "Tolerance": "1%",
+            "Temperature Coefficient": "200 ppm/K",
+            "Power Rating": "0.0625 W",
+            "Description": "REF5025 output capacitor series ESR resistor; 1.2 ohm selected for recommended ESR margin; 1.20 1% 200 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C44198.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1330,
+            "y": 520,
+            "rotation": 90,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R202",
+          "componentId": "661b32e7abe6f119",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R202",
+            "Value": "15.8k",
+            "Unique ID": "424d1287ffcc7b4d",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "10 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R202",
+            "oldValue": "15.8k",
+            "value": "14.7k",
+            "mpn": "PTFR0402B14K7N9",
+            "lcsc": "C2693067",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "10 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Precision offset divider top, E96; 14.7k 0.1% 10 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2693067.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1390,
+            "y": 470,
+            "rotation": 0,
+            "isMirror": false,
+            "partId": "A"
+          }
+        },
+        {
+          "ref": "R203",
+          "componentId": "102d32717edce084",
+          "beforeAttrs": {
+            "Symbol": "ae94444fd364ffa4",
+            "Device": "2d40687691bef84f",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Designator": "R203",
+            "Value": "10.0k",
+            "Unique ID": "59b9d5bf23245de5",
+            "Name": "={Value}",
+            "DNP": "no",
+            "Footprint": "c177c8c7ab4f7483",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "10 ppm/K or better",
+            "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+          },
+          "spec": {
+            "ref": "R203",
+            "oldValue": "10.0k",
+            "value": "9.31k",
+            "mpn": "PTFR0402B9K31N9",
+            "lcsc": "C2692924",
+            "manufacturer": "RESI",
+            "Tolerance": "0.1%",
+            "Temperature Coefficient": "10 ppm/K",
+            "Power Rating": "0.06 W",
+            "Description": "Precision offset divider bottom, E96; 9.31k 0.1% 10 ppm/K; 0402",
+            "Datasheet": "https://www.lcsc.com/product-detail/C2692924.html",
+            "Package": "0402"
+          },
+          "geometry": {
+            "x": 1440,
+            "y": 520,
+            "rotation": 90,
+            "isMirror": false,
+            "partId": "A"
+          }
+        }
+      ],
+      "textsForReview": [
+        {
+          "id": "ab7bf55354278402",
+          "value": "+5V"
+        },
+        {
+          "id": "fd83ccd46f8bd785",
+          "value": "GND"
+        },
+        {
+          "id": "d198d3d40e9b7ec3",
+          "value": "GND"
+        },
+        {
+          "id": "0fd9555d17060476",
+          "value": "AFE_VNEG_RAW"
+        },
+        {
+          "id": "e5abb9e0724d437c",
+          "value": "GND"
+        },
+        {
+          "id": "a995e1b9b0585afb",
+          "value": "-3V_AFE"
+        },
+        {
+          "id": "132d6f1e56bd42df",
+          "value": "GND"
+        },
+        {
+          "id": "6171a4620f4eb358",
+          "value": "GND"
+        },
+        {
+          "id": "0fab57f82f474f3c",
+          "value": "GND"
+        },
+        {
+          "id": "ac63baa5d4821c94",
+          "value": "GND"
+        },
+        {
+          "id": "b5e1d50e4ec41d8c",
+          "value": "+5V"
+        },
+        {
+          "id": "223e8f362bea6233",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "415fcd8cf0d114b7",
+          "value": "GND"
+        },
+        {
+          "id": "e436c8311c770e65",
+          "value": "GND"
+        },
+        {
+          "id": "798d156682473746",
+          "value": "GND"
+        },
+        {
+          "id": "0f9f1afe713842e4",
+          "value": "GND"
+        },
+        {
+          "id": "113700f5dd9cee73",
+          "value": "AFE_REF_2V5"
+        },
+        {
+          "id": "d5107be61ff79533",
+          "value": "GND"
+        },
+        {
+          "id": "394b6a5a992c8d54",
+          "value": "GND"
+        },
+        {
+          "id": "e2eb7b49260f7892",
+          "value": "AFE_OFFSET_FILTER"
+        },
+        {
+          "id": "22a8f2961d24ecb8",
+          "value": "GND"
+        },
+        {
+          "id": "88d2d8c6a9896dce",
+          "value": "GND"
+        },
+        {
+          "id": "a67bc97b0dfecabc",
+          "value": "ADC_OFFSET_0V97"
+        },
+        {
+          "id": "d1a6eba37049729e",
+          "value": "GND"
+        },
+        {
+          "id": "491299a5228e22d1",
+          "value": "GND"
+        },
+        {
+          "id": "f45071670a9d50c7",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "b75ac03f6cac7b7b",
+          "value": "+5V_AFE"
+        },
+        {
+          "id": "6698813125afef7c",
+          "value": "GND"
+        },
+        {
+          "id": "1c78dda61d1a4e69",
+          "value": "ADC analog supply: +5V input only; do not feed from 12V"
+        },
+        {
+          "id": "44c7b5102ebe5eee",
+          "value": "Ground-referenced bipolar buffers; fixed DC coupling; no input ground switch"
+        },
+        {
+          "id": "e186bfd793d4edcd",
+          "value": "Offset is NOT MCU VREF+: VREF+/VDDA and final OPA320 keep original +3V3 domain."
+        },
+        {
+          "id": "8d783113fb042834",
+          "value": "OPA189 +5V_AFE / -3V_AFE. TPS723 nominal -3.013V (1.186V ref, 15.4k/10k)."
+        }
+      ]
+    }
+  },
+  "pcbTargets": [
+    {
+      "ref": "R137",
+      "componentId": "8a92a6903fad3d44",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "ae1fdfc9ea5e5837",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I78",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R137",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R137",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 5322.8346,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R138",
+      "componentId": "056457acff55658f",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "b11170a3dac35218",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I79",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R138",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R138",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 4771.6535,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R139",
+      "componentId": "f1f0a171beb96e49",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "de7ffa0032cf56a9",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I80",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R139",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R139",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 4220.4724,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R149",
+      "componentId": "94c9c42258f439eb",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "512b8c94e517575b",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I90",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R149",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R149",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 3669.2913,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R150",
+      "componentId": "ffdedb1654ccafa3",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "8c5758f1ab4959cf",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I91",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R150",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R150",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 748.0315,
+        "y": 3102.3622,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R151",
+      "componentId": "311f8fa91efe7cea",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "c7220f6577db54a8",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I92",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R151",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R151",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 2566.9291,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R161",
+      "componentId": "b8fb6fc7d8f12dec",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "a00b0fba75b756e6",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I102",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R161",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R161",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 2015.748,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R162",
+      "componentId": "41739d5247754b09",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "d98a8a274f21576f",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I103",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R162",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R162",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 1464.5669,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R163",
+      "componentId": "2941b0f97fcf9813",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "7b30d83ed0c453b0",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I104",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R163",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R163",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 913.3858,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R164",
+      "componentId": "32d1b9056f08dfce",
+      "beforeAttrs": {
+        "Value": "4.00k",
+        "Unique ID": "4f5b6422c30d54b6",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I105",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R164",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R164",
+        "oldValue": "4.00k",
+        "value": "4.02k",
+        "mpn": "RT0402BRD074K02L",
+        "lcsc": "C852810",
+        "manufacturer": "YAGEO",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 795.2756,
+        "y": 362.2047,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R187",
+      "componentId": "86fcbdd120f3d2e3",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I169",
+        "Unique ID": "3e35fd448c0c4502",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R187",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R187",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 5322.8346,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R188",
+      "componentId": "efbd28da187eda7b",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I171",
+        "Unique ID": "266c3d3bb80b63e1",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R188",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R188",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 4771.6535,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R189",
+      "componentId": "be7437d2c1ae6936",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I173",
+        "Unique ID": "ea0c7f93fd36f367",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R189",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R189",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 4220.4724,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R190",
+      "componentId": "878d60aa73118868",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I175",
+        "Unique ID": "b27e2e23641abe0e",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R190",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R190",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 3669.2913,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R191",
+      "componentId": "35824a3ca022759c",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I177",
+        "Unique ID": "92066bda66dc9e56",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R191",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R191",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 3141.7323,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R192",
+      "componentId": "c00164593a8bfc22",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I179",
+        "Unique ID": "f0be4fd56bc54393",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R192",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R192",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 2566.9291,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R193",
+      "componentId": "dd7290e11e05cef1",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I181",
+        "Unique ID": "91244dcdf140a110",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R193",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R193",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 2015.748,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R194",
+      "componentId": "aa600827bd1c5791",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I183",
+        "Unique ID": "ed89b0293a419ec5",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R194",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R194",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 1464.5669,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R195",
+      "componentId": "a01697f1240ee240",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I185",
+        "Unique ID": "374f1fe356695255",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R195",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R195",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 913.3858,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R196",
+      "componentId": "d11f87ed36904bd3",
+      "beforeAttrs": {
+        "Value": "2.80k",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I187",
+        "Unique ID": "23c7ef99c67e1678",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R196",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R196",
+        "oldValue": "2.80k",
+        "value": "2.80k",
+        "mpn": "PTFR0402B2K80P9",
+        "lcsc": "C2692906",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 866.1417,
+        "y": 362.2047,
+        "angle": 90,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R197",
+      "componentId": "2829b3f44dbb9615",
+      "beforeAttrs": {
+        "Value": "4.7",
+        "Tolerance": "1%",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I99",
+        "Unique ID": "5139d78ef981dd1c",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Power Rating": "0.1 W minimum",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R197",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R197",
+        "oldValue": "4.7",
+        "value": "4.7",
+        "mpn": "RCS04024R70FKED",
+        "lcsc": "C2103244",
+        "manufacturer": "VISHAY",
+        "Tolerance": "1%",
+        "Temperature Coefficient": "100 ppm/K",
+        "Power Rating": "0.2 W",
+        "Description": "Anti-surge supply RC resistor; TCR reviewed independently of gain; 4.7 1% 100 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2103244.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 1090.5512,
+        "y": 1322.8346,
+        "angle": 270,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R200",
+      "componentId": "bbfb4b3264a541be",
+      "beforeAttrs": {
+        "Value": "4.7",
+        "Tolerance": "1%",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I102",
+        "Unique ID": "42bcabfafa6408dc",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Power Rating": "0.1 W minimum",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R200",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R200",
+        "oldValue": "4.7",
+        "value": "4.7",
+        "mpn": "RCS04024R70FKED",
+        "lcsc": "C2103244",
+        "manufacturer": "VISHAY",
+        "Tolerance": "1%",
+        "Temperature Coefficient": "100 ppm/K",
+        "Power Rating": "0.2 W",
+        "Description": "Anti-surge supply RC resistor; TCR reviewed independently of gain; 4.7 1% 100 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2103244.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 1133.8583,
+        "y": 905.5118,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R201",
+      "componentId": "8165776b12213814",
+      "beforeAttrs": {
+        "Value": "1.0",
+        "Tolerance": "1%",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I103",
+        "Unique ID": "5610aee7d31e6577",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R201",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R201",
+        "oldValue": "1.0",
+        "value": "1.20",
+        "mpn": "0402WGF120KTCE",
+        "lcsc": "C44198",
+        "manufacturer": "UNI-ROYAL",
+        "Tolerance": "1%",
+        "Temperature Coefficient": "200 ppm/K",
+        "Power Rating": "0.0625 W",
+        "Description": "REF5025 output capacitor series ESR resistor; 1.2 ohm selected for recommended ESR margin; 1.20 1% 200 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C44198.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 1062.9921,
+        "y": 3212.5984,
+        "angle": 0,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R202",
+      "componentId": "6eb1a2f698c02c69",
+      "beforeAttrs": {
+        "Value": "15.8k",
+        "Temperature Coefficient": "10 ppm/K or better",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I104",
+        "Unique ID": "424d1287ffcc7b4d",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R202",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R202",
+        "oldValue": "15.8k",
+        "value": "14.7k",
+        "mpn": "PTFR0402B14K7N9",
+        "lcsc": "C2693067",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "10 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Precision offset divider top, E96; 14.7k 0.1% 10 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2693067.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 1133.8583,
+        "y": 2732.2835,
+        "angle": 270,
+        "layerId": 1
+      }
+    },
+    {
+      "ref": "R203",
+      "componentId": "a958fcefe3fc5eb6",
+      "beforeAttrs": {
+        "Value": "10.0k",
+        "Temperature Coefficient": "10 ppm/K or better",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I105",
+        "Unique ID": "59b9d5bf23245de5",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+        "Footprint": "c177c8c7ab4f7483",
+        "Designator": "R203",
+        "Device": "2d40687691bef84f"
+      },
+      "spec": {
+        "ref": "R203",
+        "oldValue": "10.0k",
+        "value": "9.31k",
+        "mpn": "PTFR0402B9K31N9",
+        "lcsc": "C2692924",
+        "manufacturer": "RESI",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "10 ppm/K",
+        "Power Rating": "0.06 W",
+        "Description": "Precision offset divider bottom, E96; 9.31k 0.1% 10 ppm/K; 0402",
+        "Datasheet": "https://www.lcsc.com/product-detail/C2692924.html",
+        "Package": "0402"
+      },
+      "geometry": {
+        "x": 1062.9921,
+        "y": 2685.0394,
+        "angle": 0,
+        "layerId": 1
+      }
+    }
+  ],
+  "specs": [
+    {
+      "ref": "R137",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R138",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R139",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R149",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R150",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R151",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R161",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R162",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R163",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R164",
+      "oldValue": "4.00k",
+      "value": "4.02k",
+      "mpn": "RT0402BRD074K02L",
+      "lcsc": "C852810",
+      "manufacturer": "YAGEO",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "Thin-film gain input resistor; E96 standard value; 4.02k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C852810.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R187",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R188",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R189",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R190",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R191",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R192",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R193",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R194",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R195",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R196",
+      "oldValue": "2.80k",
+      "value": "2.80k",
+      "mpn": "PTFR0402B2K80P9",
+      "lcsc": "C2692906",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "25 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Thin-film gain feedback resistor; nominal unchanged; 2.80k 0.1% 25 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692906.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R197",
+      "oldValue": "4.7",
+      "value": "4.7",
+      "mpn": "RCS04024R70FKED",
+      "lcsc": "C2103244",
+      "manufacturer": "VISHAY",
+      "Tolerance": "1%",
+      "Temperature Coefficient": "100 ppm/K",
+      "Power Rating": "0.2 W",
+      "Description": "Anti-surge supply RC resistor; TCR reviewed independently of gain; 4.7 1% 100 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2103244.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R200",
+      "oldValue": "4.7",
+      "value": "4.7",
+      "mpn": "RCS04024R70FKED",
+      "lcsc": "C2103244",
+      "manufacturer": "VISHAY",
+      "Tolerance": "1%",
+      "Temperature Coefficient": "100 ppm/K",
+      "Power Rating": "0.2 W",
+      "Description": "Anti-surge supply RC resistor; TCR reviewed independently of gain; 4.7 1% 100 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2103244.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R201",
+      "oldValue": "1.0",
+      "value": "1.20",
+      "mpn": "0402WGF120KTCE",
+      "lcsc": "C44198",
+      "manufacturer": "UNI-ROYAL",
+      "Tolerance": "1%",
+      "Temperature Coefficient": "200 ppm/K",
+      "Power Rating": "0.0625 W",
+      "Description": "REF5025 output capacitor series ESR resistor; 1.2 ohm selected for recommended ESR margin; 1.20 1% 200 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C44198.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R202",
+      "oldValue": "15.8k",
+      "value": "14.7k",
+      "mpn": "PTFR0402B14K7N9",
+      "lcsc": "C2693067",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "10 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Precision offset divider top, E96; 14.7k 0.1% 10 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2693067.html",
+      "Package": "0402"
+    },
+    {
+      "ref": "R203",
+      "oldValue": "10.0k",
+      "value": "9.31k",
+      "mpn": "PTFR0402B9K31N9",
+      "lcsc": "C2692924",
+      "manufacturer": "RESI",
+      "Tolerance": "0.1%",
+      "Temperature Coefficient": "10 ppm/K",
+      "Power Rating": "0.06 W",
+      "Description": "Precision offset divider bottom, E96; 9.31k 0.1% 10 ppm/K; 0402",
+      "Datasheet": "https://www.lcsc.com/product-detail/C2692924.html",
+      "Package": "0402"
+    }
+  ],
+  "netGeometryChangesAllowed": false,
+  "sourceDocumentCount": 3941
+}
