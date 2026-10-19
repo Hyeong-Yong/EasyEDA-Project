@@ -1,0 +1,54 @@
+STM32H747 - JLCPCB MANUAL MATCH / PLACEMENT REVIEW PACKAGE
+2026-10-19 | Per-board quantities. LOCAL REVIEW COMPLETE / FACTORY RELEASE PENDING.
+
+UPLOAD ORDER
+1. GERBER_NATIVE.zip -> PCB quotation / CAM review.
+2. Select Standard PCBA, Both Sides; use exact manufacturer part numbers.
+3. BOM_JLCPCB.csv -> parts matching (69 groups, 412 parts per board).
+4. CPL_JLCPCB_REVIEW.csv -> placement review (333 Top, 79 Bottom).
+5. Provide ASSEMBLY_PIN1_REVIEW.pdf, SOURCING_REVIEW.csv and this note to factory review.
+
+FACTORY REVIEW REQUIRED BEFORE PRODUCTION
+- 139 original parts have no confirmed JLC assembly SKU. Use exact MPN Manual Match or
+  qualified Global Sourcing. No substitute, omission or footprint change is approved.
+- U6 STS5PF30L is obsolete/out of production per ST. Procurement/substitution decision
+  remains pending. Do not place the order with U6 silently excluded.
+- CN2, D2, D3, D4, D6, J18, U6: local pin/cathode direction checked, exact purchased-part
+  tape zero not asserted. Use numbered-pad drawings and confirm purchased-part preview.
+- LED pin 1 = cathode, pin 2 = anode; same mapping in native schematic symbol.
+- Y1 nonpolar X-axis, U2 SOT-223 and U6 SO-8 extended hand-solder lands: check contact
+  coverage against exact part dimensions and process before assembly.
+- J2-J11 left SMA ports CPL90; J12-J15/J17 right CPL270; J16 upper CPL0.
+- All CPL XY and sides preserved. Bottom drawing is mirrored for viewing only.
+  CPL uses original top-view coordinates. Do not mirror CPL or add another 180 degrees.
+- Native all-parts CPL has 437 rows. DO NOT upload CPL_NATIVE.csv as assembly input.
+- Excluded: C33, R61, R64, R98, R125, R126 DNP; 19 bare test pads.
+
+PCB / ASSEMBLY SETTINGS FOR FINAL CONFIRMATION
+6 layers; finished outline100x154mm. 1.6mm/ENIG/FR4 quotation draft.
+Native minimum via hole0.2mm, minimum via pad0.31mm; select matching capability.
+Preserve original 6-layer sequence, net planes and impedance-sensitive geometry.
+Confirm production files and parts placement = YES. Automatic approvals disabled.
+Match mixed SMT/THT assembly.
+JLC two5mm edge rails give process outline110x154mm; finished board remains100x154mm.
+Confirm depanel service, rail/fiducial placement and connector clearances.
+CN1 internal square cutout1.92x1.92mm and diameter1.30mm hole must be preserved.
+Keep corner holes and J18 bottom markings. Do not change CAD dimensions for defaults.
+Final PCB/PCBA quantity, stackup, DFM and factory production files are unapproved.
+Website5PCB/5PCBA is an unconfirmed draft; no payment/order was made.
+
+VERIFIED LOCALLY
+Strict PCB DRC0; native ERC fatal0/error0, supplier-property warning5groups remain.
+Original5 warning parts R197/R200/R201/R202/R203 have exact reviewed part/spec metadata.
+132 selected parts saved in both schematic and PCB;107 newly selected,12 X7R corrections.
+70 directional parts checked;59 CPL rotations changed. All copper/mask/paste/silk/
+outline/drill manufacturing geometry matches prior verified source.437 physical parts,
+704 vias,863 unique physical drills. Stock is a2026-10-19 snapshot, not reserved.
+
+REFERENCES
+https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly
+https://jlcpcb.com/help/article/pcb-assembly-faqs-part-2
+https://jlcpcb.com/help/article/how-to-use-jlcpcb-global-sourcing-parts-service
+https://www.st.com/en/power-transistors/sts5pf30l.html
+https://www.st.com/resource/en/datasheet/sts5pf30l.pdf
+https://www.ndk.com/images/products/catalog/c_NX3215SA_e.pdf

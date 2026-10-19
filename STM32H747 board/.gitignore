@@ -23,3 +23,31 @@
 !/output/standard-values-20261019/native/final/
 /output/standard-values-20261019/native/final/*.epru
 
+# 2026-10-19 sourcing/orientation review: keep final evidence, local trials private.
+/output/jlcpcb-closure-20261019/local-parsed-cam/
+/output/jlcpcb-closure-20261019/DURABLE_AUDIT_DRAFT.json
+/output/jlcpcb-closure-20261019/native/*
+!/output/jlcpcb-closure-20261019/native/final/
+!/output/jlcpcb-closure-20261019/native/STM32H747_before_jlc_closure_20261019.epro2
+!/output/jlcpcb-closure-20261019/native/erc-ui_current.json
+/output/jlcpcb-closure-20261019/native/final/*
+!/output/jlcpcb-closure-20261019/native/final/STM32H747_JLCPCB_20261019.epro2
+!/output/jlcpcb-closure-20261019/native/final/GERBER_NATIVE.zip
+!/output/jlcpcb-closure-20261019/native/final/BOM_NATIVE.csv
+!/output/jlcpcb-closure-20261019/native/final/CPL_NATIVE.csv
+!/output/jlcpcb-closure-20261019/native/final/STRICT_DRC_FINAL.json
+!/output/jlcpcb-closure-20261019/native/final/ERC_FINAL.json
+/output/jlcpcb-closure-20261019/libraries/*
+!/output/jlcpcb-closure-20261019/libraries/catalog-exact-*.json
+!/output/jlcpcb-closure-20261019/libraries/selected-catalog-evidence.json
+/output/jlcpcb-closure-20261019/stock/*.html
+/output/jlcpcb-closure-20261019/orientation/*-receipt.json
+/output/jlcpcb-closure-20261019/assembly-preview-*.png
+/output/jlcpcb-closure-20261019/*.inspect.ndjson
+# One-time native API experiments and mutations are local history, never rerun.
+/scripts/eda/*closure*-20261019.mjs
+/scripts/eda/read-canonical-editor-20261019.mjs
+/scripts/eda/read-canonical-editor-batch-20261019.mjs
+/scripts/eda/read-canonical-footprints-20261019.mjs
+/scripts/eda/read-warning-supplier-properties-20261019.mjs
+

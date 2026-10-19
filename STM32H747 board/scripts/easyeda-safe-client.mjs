@@ -48,7 +48,7 @@ async function execute(port, windowId, code) {
     { method: 'POST', headers: { 'Content-Type': 'application/json' }, body },
     35000,
   );
-  if (!response?.success) throw new Error(response?.error || 'EasyEDA execution failed.');
+  if (!response?.success) throw new Error(typeof response?.error === 'object' ? JSON.stringify(response.error) : response?.error || 'EasyEDA execution failed.');
   return response.result;
 }
 
