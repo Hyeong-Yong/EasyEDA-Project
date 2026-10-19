@@ -1,0 +1,18 @@
+검토 자료 재생성
+
+이 폴더는 최종 발주 승인본이 아닙니다. READ_FIRST_NOT_FOR_ORDER.txt와 index.html이 현재 상태입니다.
+
+1. EasyEDA 3.2.206에서 원본과 브리지 대상 프로젝트를 확인하고 네이티브 출력을 만듭니다.
+   pcba-client.mjs가 프로젝트 이름과 UUID를 검사합니다. 원본 보존 후 명시적 작업만 실행합니다.
+2. prepare-pcba-review.py: 보존한 전체 export에서 회로도/부품/풋프린트를 읽어 재고 확인용 자료를 만듭니다.
+3. audit-pcba-native-cam.py: 새 Gerber의 구리 중심, 실제 부품면, 드릴 수와 U3 마스크를 확인합니다.
+   이 검사는 전체 전기적 CAM/제조 DFM 승인이 아닙니다.
+4. prepare-pcba-procurement.py: 저장된 공식 라이브러리 검색 결과에서 품번 후보를 대조합니다.
+5. build-pcba-review-workbooks.mjs: @oai/artifact-tool로 XLSX와 CSV를 생성합니다.
+   설치된 모듈을 사용하거나 PCBA_ARTIFACT_MODULE 환경변수에 해당 모듈의 file URL을 지정합니다.
+6. build-pcba-review-report.py: BOM/CPL 레퍼런스·수량·ZIP 무결성과 검사 결과를 대조하고 보고서/ZIP을 만듭니다.
+
+native 폴더의 실패 시도와 파서 임시 파일은 로컬에서 보존하고 Git 기본 대상에서 제외했습니다.
+검증한 export, 제조 파일과 감사 근거만 명시적으로 추적했습니다. 과거 적용 스크립트를 일괄 재실행하지 않습니다.
+
+확정되지 않은 25개 정밀저항 사양, 복합/극성 부품의 최종 회전, 재고 및 조립 범위를 해결한 후 별도 최종 발주본을 만듭니다.

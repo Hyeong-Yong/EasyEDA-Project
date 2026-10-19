@@ -1,0 +1,406 @@
+{
+  "board": "STM32H747",
+  "scope": "Bounded export and pad-side audit; not manufacturing approval",
+  "manufacturingApproved": false,
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\jlcpcb-20261019-review\\native\\STM32H747_before_pcba_20261019.epro2",
+  "gerberSHA256": "a9db8c91197519eb1ea58f0cf39e4bf6bd4913c7cc724d53c4aa90e8fcd0d138",
+  "gerberZipCrc": "PASS",
+  "files": [
+    {
+      "file": "Gerber_TopLayer.GTL",
+      "bytes": 3109138,
+      "sha256": "88b2e85eda66cfef4d0eb720beb8d1675d9fa20105b87e437cdf6fe6d715f971"
+    },
+    {
+      "file": "Gerber_BottomLayer.GBL",
+      "bytes": 1921680,
+      "sha256": "f365b4b1863ce39ef13519827a52c41f541582be99fa109572f982432a8d5dfd"
+    },
+    {
+      "file": "Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 491930,
+      "sha256": "1d5824e8a0ec9d0deefee505d75005d580572dca2345675f9ce1263ebbe38201"
+    },
+    {
+      "file": "Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 32079,
+      "sha256": "22998714169d745aade6cc47a5b6f46c3fc18bc54bcf8db37c877b75f1cc02eb"
+    },
+    {
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 40570,
+      "sha256": "14b32a4258c7326c329c5846232b43849910bbdb423f8520a251c0fc0244fe83"
+    },
+    {
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 10271,
+      "sha256": "7f6d963ea6d62093fad9e1801acf56497c66bcd2e726a927bc6dbeba8c441939"
+    },
+    {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 34826,
+      "sha256": "69b283a60584ec522d6ca05fed09e64d198c0871e41cc98c1b93c70412114e07"
+    },
+    {
+      "file": "Gerber_BottomPasteMaskLayer.GBP",
+      "bytes": 4934,
+      "sha256": "9f9df1d28500dc1baa3d908954d5db58f4469e17457cae8b73b598f284615e74"
+    },
+    {
+      "file": "Gerber_BoardOutlineLayer.GKO",
+      "bytes": 1028,
+      "sha256": "675cf54077a53344f128e2769574a4fa143f283241e691b96b64273ff684cb5d"
+    },
+    {
+      "file": "Gerber_InnerLayer1.G1",
+      "bytes": 2599576,
+      "sha256": "3e16ef058b59fb1e7022dfd34e0bfa95c51aca41d5d1bdef95b25b88d7da68e4"
+    },
+    {
+      "file": "Gerber_InnerLayer2.G2",
+      "bytes": 2425268,
+      "sha256": "d02e7723bf35145485c36240630570bcf0b42b9b5da8b21ebf4cec599a43df31"
+    },
+    {
+      "file": "Gerber_InnerLayer3.G3",
+      "bytes": 1975955,
+      "sha256": "0ee16b0a4878a27b41fa37a2c3d474027c8b99ebaf3d2017fc0dc59c26d0b9a3"
+    },
+    {
+      "file": "Gerber_InnerLayer4.G4",
+      "bytes": 2673407,
+      "sha256": "9cf2695cb2667e7f035850d0925e520e099ac072f4fc25a8e25ba4979017452e"
+    },
+    {
+      "file": "Gerber_DrillDrawingLayer.GDD",
+      "bytes": 425252,
+      "sha256": "9fc9a32f0ad0975a3b87dc1a7b34d2cf397ef6da952945820ad90feedfd29d41"
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "bytes": 12328,
+      "sha256": "5d4811881c2174ed50a094eae868d6eabe5c864dbd8022000a641a613c055704"
+    },
+    {
+      "file": "Drill_NPTH_Through.DRL",
+      "bytes": 555,
+      "sha256": "bfe0da2002e7a67e5de7a58d27b3271754df2ce04b40d7b35fcce939312035de"
+    },
+    {
+      "file": "Drill_PTH_Through_Via.DRL",
+      "bytes": 9965,
+      "sha256": "477672b6382e9dfaa55212125428a67251bf001c604e5eab9dfa2a0831627eae"
+    },
+    {
+      "file": "FlyingProbeTesting.json",
+      "bytes": 419537,
+      "sha256": "f8971bf91ead57a64d4fd1795157b090cd0abc718cf824b05f1557dbea15a43d"
+    },
+    {
+      "file": "How-to-order-PCB.txt",
+      "bytes": 96,
+      "sha256": "047a8199f8f99f6493edae9d574d11c2e3d28e43ca20abc61c394e829668af28"
+    }
+  ],
+  "copperLayerCount": 6,
+  "expectedCopperLayerCount": 6,
+  "padCentreChecks": 1678,
+  "padCentreFailures": [],
+  "components": 437,
+  "assemblyParts": 412,
+  "assemblySideCounts": {
+    "Top": 333,
+    "Bottom": 79
+  },
+  "coincidentPairsResolvedByCopperSide": [
+    {
+      "refs": [
+        "R78",
+        "R93"
+      ],
+      "sides": [
+        "Top",
+        "Bottom"
+      ],
+      "distinctPhysicalSides": true,
+      "pads": [
+        [
+          {
+            "pin": "1",
+            "x": 51.199999,
+            "y": 32.067503,
+            "layer": 1
+          },
+          {
+            "pin": "2",
+            "x": 51.199999,
+            "y": 33.087501,
+            "layer": 1
+          }
+        ],
+        [
+          {
+            "pin": "1",
+            "x": 51.199999,
+            "y": 33.087501,
+            "layer": 2
+          },
+          {
+            "pin": "2",
+            "x": 51.199999,
+            "y": 32.067503,
+            "layer": 2
+          }
+        ]
+      ]
+    },
+    {
+      "refs": [
+        "R79",
+        "R92"
+      ],
+      "sides": [
+        "Top",
+        "Bottom"
+      ],
+      "distinctPhysicalSides": true,
+      "pads": [
+        [
+          {
+            "pin": "1",
+            "x": 47.414999,
+            "y": 34.625001,
+            "layer": 1
+          },
+          {
+            "pin": "2",
+            "x": 48.434999,
+            "y": 34.625001,
+            "layer": 1
+          }
+        ],
+        [
+          {
+            "pin": "1",
+            "x": 48.434998,
+            "y": 34.625001,
+            "layer": 2
+          },
+          {
+            "pin": "2",
+            "x": 47.415,
+            "y": 34.625001,
+            "layer": 2
+          }
+        ]
+      ]
+    },
+    {
+      "refs": [
+        "R80",
+        "R87"
+      ],
+      "sides": [
+        "Top",
+        "Bottom"
+      ],
+      "distinctPhysicalSides": true,
+      "pads": [
+        [
+          {
+            "pin": "1",
+            "x": 47.414999,
+            "y": 35.675001,
+            "layer": 1
+          },
+          {
+            "pin": "2",
+            "x": 48.434999,
+            "y": 35.675001,
+            "layer": 1
+          }
+        ],
+        [
+          {
+            "pin": "1",
+            "x": 48.434998,
+            "y": 35.675001,
+            "layer": 2
+          },
+          {
+            "pin": "2",
+            "x": 47.415,
+            "y": 35.675001,
+            "layer": 2
+          }
+        ]
+      ]
+    },
+    {
+      "refs": [
+        "R81",
+        "R84"
+      ],
+      "sides": [
+        "Top",
+        "Bottom"
+      ],
+      "distinctPhysicalSides": true,
+      "pads": [
+        [
+          {
+            "pin": "1",
+            "x": 47.410001,
+            "y": 39.799999,
+            "layer": 1
+          },
+          {
+            "pin": "2",
+            "x": 48.430001,
+            "y": 39.799999,
+            "layer": 1
+          }
+        ],
+        [
+          {
+            "pin": "1",
+            "x": 48.43,
+            "y": 39.799999,
+            "layer": 2
+          },
+          {
+            "pin": "2",
+            "x": 47.410002,
+            "y": 39.799999,
+            "layer": 2
+          }
+        ]
+      ]
+    },
+    {
+      "refs": [
+        "R82",
+        "R83"
+      ],
+      "sides": [
+        "Top",
+        "Bottom"
+      ],
+      "distinctPhysicalSides": true,
+      "pads": [
+        [
+          {
+            "pin": "1",
+            "x": 47.410001,
+            "y": 38.775,
+            "layer": 1
+          },
+          {
+            "pin": "2",
+            "x": 48.430001,
+            "y": 38.775,
+            "layer": 1
+          }
+        ],
+        [
+          {
+            "pin": "1",
+            "x": 48.43,
+            "y": 38.775,
+            "layer": 2
+          },
+          {
+            "pin": "2",
+            "x": 47.410002,
+            "y": 38.775,
+            "layer": 2
+          }
+        ]
+      ]
+    }
+  ],
+  "drillFileCounts": {
+    "round": 1554,
+    "slot": 13
+  },
+  "drillItemsIncludingCombinedViaDuplicates": 1567,
+  "drillNote": "Via drill member duplicates the same holes in combined PTH; do not sum these as unique physical drills.",
+  "rotationReviewRequired": [
+    "CN1",
+    "CN2",
+    "CN3",
+    "CN4",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8",
+    "J9",
+    "J10",
+    "J11",
+    "J12",
+    "J13",
+    "J14",
+    "J15",
+    "J16",
+    "J17",
+    "J18",
+    "Q1",
+    "SW1",
+    "TR1",
+    "TVS1",
+    "TVS2",
+    "TVS3",
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "X1",
+    "X2",
+    "Y1",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "D20",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U30",
+    "U31",
+    "U32",
+    "U9"
+  ],
+  "limitations": [
+    "All copper layers present and component pad centre flashes checked. Full polygon electrical equivalence and external DFM review remain required.",
+    "CPL candidate retains native centroid; STM32 complex/polarized package angles are NOT normalized and must be matched to the pin map before order."
+  ],
+  "physicalDrillCount": 863,
+  "gerberParserCompatibility": "G54Dnn aperture selectors normalized to Dnn in derived parser copies; all object apertures resolved"
+}

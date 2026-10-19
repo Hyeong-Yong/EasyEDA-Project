@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-19",
+  "manufacturingApproved": false,
+  "nativeGerberAvailable": true,
+  "finalCplApproved": false,
+  "checks": [
+    "Native ERC/strict DRC zero",
+    "Gerber and XLSX ZIP CRC",
+    "BOM/CPL reference and quantity agreement",
+    "Physical pad-side and copper-centre checks",
+    "Physical drill counts",
+    "DNP/bare pad exclusion"
+  ],
+  "files": [
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/BOM_REVIEW.csv",
+      "bytes": 9296,
+      "sha256": "f256e90e73acdf315b9beee355f4d9ae80aed46971940e8faeace7dfd1ea1637"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/BOM_CANDIDATE.csv",
+      "bytes": 42995,
+      "sha256": "7ba5aec9f4fbc738883dbd1903e139588f51cbea3273ef76027eb9411d5c393c"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/CPL_CANDIDATE.csv",
+      "bytes": 10989,
+      "sha256": "b7b612818ad9a8273a1ae577199379fb6394fd220a2aa25574aad242a803a1f5"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/EXCLUDED.csv",
+      "bytes": 916,
+      "sha256": "e8dd241762db3540285994ac3738b3fd27c5bf0916b8226fdf44e94abfed8124"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/PROCUREMENT_REVIEW.csv",
+      "bytes": 44034,
+      "sha256": "59520e05799720e34692eeae2e7429745f53216125e931f7005297f7503c7424"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/PROPOSED_PARTS.csv",
+      "bytes": 23685,
+      "sha256": "4c32d9c2db609c47c927d992f39aa446d7f315a2c2931442b70aa80865279239"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/UNRESOLVED_PARTS.csv",
+      "bytes": 2825,
+      "sha256": "90824167f58884594683747a6324f5609f0fc29fb76cf5efc8bbe9f16adca634"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/PCBA_REVIEW.xlsx",
+      "bytes": 64624,
+      "sha256": "ce12a535d2af13301a6e85332b52285698204a66011106153ee13af8439d6cdc"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/CAM_AUDIT.json",
+      "bytes": 9311,
+      "sha256": "78d98281ea10863fae3b1e84bf00083da5da0a464ad8b9ff2647c50e2fa84af4"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/PLACEMENT_AUDIT.json",
+      "bytes": 322687,
+      "sha256": "4a127e17b60a8b9d79ba34dcf81e51d03f4554d6eb7254e0aaaf437d8a65d3b0"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/review-data.json",
+      "bytes": 642485,
+      "sha256": "bfe090b84f45af5eb0b776833aac315ee97762a8824ac129b921cb54c2328a54"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/ORDER_HOLD.txt",
+      "bytes": 555,
+      "sha256": "1f199e0f4c4c9facb31853fc34977482cbef9e514c59fed2effd1aa0a4eefd99"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/native/STM32H747_CAM_20261019.zip",
+      "bytes": 3872843,
+      "sha256": "a9db8c91197519eb1ea58f0cf39e4bf6bd4913c7cc724d53c4aa90e8fcd0d138"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/native/STM32H747_BOM_20261019.csv",
+      "bytes": 37654,
+      "sha256": "cc848e5718cc7e5f96313a1dd60667d31f2a717c7045e1c4bb9b93c576efa0cc"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/native/STM32H747_CPL_20261019.csv",
+      "bytes": 152648,
+      "sha256": "97d4d0a875a34331c577faf4b77516c7e5261dfab8ad6ecd25e398e2c39d216c"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/native/erc-current.json",
+      "bytes": 553,
+      "sha256": "aaf1ee0159a4579e2c550e8363351e9dd02d513ce4b8f12c70f6b4b023d1dc90"
+    },
+    {
+      "board": "STM32H747",
+      "file": "STM32H747 board/output/jlcpcb-20261019-review/native/drc-before.json",
+      "bytes": 218,
+      "sha256": "f731830fd78c4d52836630e09ff4944378842304d691a2d123fd1a62aeebc6c8"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/BOM_REVIEW.csv",
+      "bytes": 7261,
+      "sha256": "28c15583c80419a86b9cd0da946e11e0e491b84b286d499c24b0feabf1605394"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/BOM_CANDIDATE.csv",
+      "bytes": 17719,
+      "sha256": "bf4a7c3425611da3a6c14cac63cd82acf7b7a54c8af8aac8117efe61e060ebad"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/CPL_CANDIDATE.csv",
+      "bytes": 3730,
+      "sha256": "4064b1d093fdc0e11809d1bee2976b6d2b8ac76e0e657af97648637245bc03ef"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/EXCLUDED.csv",
+      "bytes": 34,
+      "sha256": "d20d2f8c303e34a4922ad1dd949baf20c24a8dcb72d85c3ac25396dad737535d"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/PROCUREMENT_REVIEW.csv",
+      "bytes": 20277,
+      "sha256": "3e9e08baeb779188672424d3734195cdbd7a4de9d67637d4fe7b901a18f726e0"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/PROPOSED_PARTS.csv",
+      "bytes": 139,
+      "sha256": "f258eaad1e9cfcc1546c2c3a995cf2ff2bf63a57163c13ab3acfbc332743ab77"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/UNRESOLVED_PARTS.csv",
+      "bytes": 62,
+      "sha256": "9e030d1d2c37b0fda5d5c3ce51c77c07d078f4b652a78add182f73d09e90096d"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/PCBA_REVIEW.xlsx",
+      "bytes": 31122,
+      "sha256": "55dde7789c03d7a2692f934e98e0aa0e969fbbe9881b8d6e1589a92ddef5c3c2"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/CAM_AUDIT.json",
+      "bytes": 6895,
+      "sha256": "3bd3a6eeb30314b320d7a0a296a2a9f64289db45559976824862791954e20e87"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/PLACEMENT_AUDIT.json",
+      "bytes": 95439,
+      "sha256": "1ca726e21dcfbd82cf138aec388ca2e044151c91b820eca8c88542fa414d7a9d"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/review-data.json",
+      "bytes": 246404,
+      "sha256": "2dd5fed78e06abf3953817e3b5035531c4b0cf50e1041b7d283b21b13748527d"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/ORDER_HOLD.txt",
+      "bytes": 392,
+      "sha256": "0322ae7579c411cde17397a542dad1c4c605e2e5cb531681d59b46b951c6974c"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/native/DAC8562_CAM_20261019.zip",
+      "bytes": 391068,
+      "sha256": "4630e27710d5bb5f97d264d4a3aebb8ed58c2ae89d6d7f74c472db526d7da377"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/native/DAC8562_BOM_20261019.csv",
+      "bytes": 9022,
+      "sha256": "2c65dda39957e1587bfab5d2b00fc27742eea77022cb3f58a540ff4c5de52990"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/native/DAC8562_CPL_20261019.csv",
+      "bytes": 66068,
+      "sha256": "87165a2040fd1daf11a82e8427ee901b1800bf18fc52f7c5c29812b1eb0169cc"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/native/erc-verified.json",
+      "bytes": 334,
+      "sha256": "565c587d7acd96a6c8cf321c7734c029e4ea858f6c19f0c03033622a7c162299"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/native/drc-after-native-mask.json",
+      "bytes": 216,
+      "sha256": "1eb59e935edab4bb3f3b71c30957cc567974cb8b2182ffc94aeaee77e97c8e6f"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/native/U3-final-mask-cam.json",
+      "bytes": 2661,
+      "sha256": "96c351d81efec3cff57bf9bae7197c71c56751c4294116dde78e5cc53c8d24a7"
+    },
+    {
+      "board": "DAC8562",
+      "file": "TEST_DAC8562/output/jlcpcb-20261019-review/native/native-final-change-audit.json",
+      "bytes": 20958,
+      "sha256": "c85cfa223b6c6514eeb74f96bc98f6c6f37f8c33464b81f60d0184b2d56942d5"
+    }
+  ]
+}

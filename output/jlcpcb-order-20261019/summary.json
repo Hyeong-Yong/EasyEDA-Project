@@ -1,0 +1,69 @@
+[
+  {
+    "board": "STM32H747",
+    "date": "2026-10-19",
+    "manufacturingApproved": false,
+    "source": "STM32H747 board/output/jlcpcb-20261019-review/native/STM32H747_before_pcba_20261019.epro2",
+    "sourceSHA256": "84e3ebd985f780fd2232428b633ecdab4cae95a71ec5bb14a2e2b9c8ef1b1adf",
+    "checkpointIntegrity": "ZIP CRC passed",
+    "sourcePcbUuid": "0ac2a19168000d8e",
+    "sourceEditVersion": "3.2.206",
+    "physicalParts": 437,
+    "assemblyParts": 412,
+    "excluded": 25,
+    "bomGroups": 73,
+    "noExactMpn": 132,
+    "noLcscMatch": 412,
+    "coincidentOrigins": [],
+    "layers": 6,
+    "sizeMm": [
+      100,
+      154
+    ],
+    "holds": [
+      "Baked footprint rotation: complex/polarized components require canonical pin-map matching before CPL approval.",
+      "Some new precision resistor specifications have no confirmed exact MPN. Preserve resistance/tolerance/TCR until sourcing is resolved.",
+      "Full copper connectivity/clearance CAM, stackup, silkscreen and JLC assembly-preview review are not completed."
+    ],
+    "nativeExportAttempt": "Exported successfully with EasyEDA 3.2.206 and approved API interaction enabled",
+    "placementQualification": "CPL_CANDIDATE.csv uses native centroids and physical pad-side correction. STM32 complex package rotation remains on hold. JLC preview/pin-1 review is required.",
+    "stockQualification": "No live stock reservation, supplier match approval, quote or order. No substitute MPN invented.",
+    "gerber": "Fresh native export: native/STM32H747_CAM_20261019.zip; bounded CAM_AUDIT.json is not external DFM approval",
+    "proposedNewMpnParts": 107,
+    "unresolvedAfterProposals": 25,
+    "bomCandidateQualification": "Per-component candidate BOM; proposed selections are external to CAD. Unresolved rows are explicitly held. Do not automatically match by value alone."
+  },
+  {
+    "board": "DAC8562",
+    "date": "2026-10-19",
+    "manufacturingApproved": false,
+    "source": "TEST_DAC8562/output/jlcpcb-20261019-review/native/DAC8562_verified_20261019.epro2",
+    "sourceSHA256": "0b2cbfcf2965276e97247fe4f321e79a4365df19c48a7e4d6efab63f072c5eba",
+    "checkpointIntegrity": "ZIP CRC passed",
+    "sourcePcbUuid": "4e08f91f9a2c4fe4",
+    "sourceEditVersion": "3.2.206",
+    "physicalParts": 154,
+    "assemblyParts": 154,
+    "excluded": 0,
+    "bomGroups": 53,
+    "noExactMpn": 0,
+    "noLcscMatch": 37,
+    "coincidentOrigins": [],
+    "layers": 2,
+    "sizeMm": [
+      100,
+      100
+    ],
+    "holds": [
+      "Manual procurement and live JLC stock matching remain pending for exact specified parts.",
+      "Silkscreen, assembly polarity/orientation and external manufacturing/assembly DFM review remain pending."
+    ],
+    "nativeExportAttempt": "Exported successfully with EasyEDA 3.2.206 and approved API interaction enabled",
+    "placementQualification": "CPL_CANDIDATE.csv uses native centroids and package rotations; all 154 parts are Top. Final polarity and JLC placement-preview approval remain pending.",
+    "stockQualification": "No live stock reservation, supplier match approval, quote or order. No substitute MPN invented.",
+    "gerber": "Fresh native export: native/DAC8562_CAM_20261019.zip; bounded CAM_AUDIT.json is not external DFM approval",
+    "proposedNewMpnParts": 0,
+    "unresolvedAfterProposals": 0,
+    "bomCandidateQualification": "Per-component candidate BOM; proposed selections are external to CAD. Unresolved rows are explicitly held. Do not automatically match by value alone."
+  }
+]

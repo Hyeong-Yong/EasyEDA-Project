@@ -1,0 +1,264 @@
+{
+  "board": "DAC8562",
+  "scope": "Bounded export and pad-side audit; not manufacturing approval",
+  "manufacturingApproved": false,
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\TEST_DAC8562\\output\\jlcpcb-20261019-review\\native\\DAC8562_verified_20261019.epro2",
+  "gerberSHA256": "4630e27710d5bb5f97d264d4a3aebb8ed58c2ae89d6d7f74c472db526d7da377",
+  "gerberZipCrc": "PASS",
+  "files": [
+    {
+      "file": "Gerber_TopLayer.GTL",
+      "bytes": 647104,
+      "sha256": "92528a262ad2fa6f9042320701bffb505bf84b292ff1ccb34240a050dcf12c02"
+    },
+    {
+      "file": "Gerber_BottomLayer.GBL",
+      "bytes": 313857,
+      "sha256": "214b51b24e8bea43b4a3d66ae8524c31070aefaa5060ad557015bc83dc6ab618"
+    },
+    {
+      "file": "Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 231711,
+      "sha256": "f9d0ef8ad21804cf322a973c957d8cd79d60e7c66e61053417ca186d64e5157d"
+    },
+    {
+      "file": "Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 631,
+      "sha256": "1b9ea91bc67ed00fc6497ee2022858e8b768db02c85c32fe9ae2e12e32f6eb89"
+    },
+    {
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 14850,
+      "sha256": "b6631e4e03f26ce43c3695a177989eedd21187fb2f0131f96b073774eedb2e34"
+    },
+    {
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 2691,
+      "sha256": "712b6be12276ac67f3295d39215ff167f0317ed7491c6cc488b60f49377015fb"
+    },
+    {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 122460,
+      "sha256": "b14228d0f74054425973f6fcbc6f6758d32859754908c2ae848d7ab44a8819f6"
+    },
+    {
+      "file": "Gerber_BoardOutlineLayer.GKO",
+      "bytes": 740,
+      "sha256": "7e4a73b7ee2bdf2aee7d7f2a312510ec087546aeb502d8b830550d6e9bb00131"
+    },
+    {
+      "file": "Gerber_DocumentLayer.GDL",
+      "bytes": 5769,
+      "sha256": "c4130e2cbc5c012ab90c013cd0d6ca8bf1871a7f7a878e20bb31b8ec197d42aa"
+    },
+    {
+      "file": "Gerber_DrillDrawingLayer.GDD",
+      "bytes": 96357,
+      "sha256": "e9fa1093835e57157c6d05621983602b335c5bf648e51291e306fca5031bc09d"
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "bytes": 3708,
+      "sha256": "5bdc75bc28c785c3a74fdedba95061374c1c874fc8b751eb2b0066e8c960cbd5"
+    },
+    {
+      "file": "Drill_NPTH_Through.DRL",
+      "bytes": 242,
+      "sha256": "5fa7175ea15d2bee87021f11a83fafadd24ab35210e251ededa5b04e4a4eaf03"
+    },
+    {
+      "file": "Drill_PTH_Through_Via.DRL",
+      "bytes": 2692,
+      "sha256": "9fafac620b6837c3c4f9fa87968450d6f6da320392cb5ce38bd4c00106a82c0f"
+    },
+    {
+      "file": "FlyingProbeTesting.json",
+      "bytes": 141648,
+      "sha256": "f01a6cce99731ff35f9ab5474545eac1820e909bcdac7119957a5f1370c094f8"
+    },
+    {
+      "file": "How-to-order-PCB.txt",
+      "bytes": 96,
+      "sha256": "047a8199f8f99f6493edae9d574d11c2e3d28e43ca20abc61c394e829668af28"
+    }
+  ],
+  "copperLayerCount": 2,
+  "expectedCopperLayerCount": 2,
+  "padCentreChecks": 549,
+  "padCentreFailures": [],
+  "components": 154,
+  "assemblyParts": 154,
+  "assemblySideCounts": {
+    "Top": 154
+  },
+  "coincidentPairsResolvedByCopperSide": [],
+  "drillFileCounts": {
+    "round": 332
+  },
+  "drillItemsIncludingCombinedViaDuplicates": 332,
+  "drillNote": "Via drill member duplicates the same holes in combined PTH; do not sum these as unique physical drills.",
+  "rotationReviewRequired": [],
+  "limitations": [
+    "All copper layers present and component pad centre flashes checked. Full polygon electrical equivalence and external DFM review remain required.",
+    "CPL candidate retains native centroid; STM32 complex/polarized package angles are NOT normalized and must be matched to the pin map before order."
+  ],
+  "physicalDrillCount": 198,
+  "gerberParserCompatibility": "G54Dnn aperture selectors normalized to Dnn in derived parser copies; all object apertures resolved",
+  "U3Mask": {
+    "allTenOpeningsPresent": true,
+    "minimumWebMm": 0.14985999999999983,
+    "above010mm": true,
+    "pads": [
+      {
+        "pin": "1",
+        "xy": [
+          58.99924,
+          83.6505
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "2",
+        "xy": [
+          59.49962,
+          83.6505
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "3",
+        "xy": [
+          60.0,
+          83.6505
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "4",
+        "xy": [
+          60.50038,
+          83.6505
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "5",
+        "xy": [
+          61.00076,
+          83.6505
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "6",
+        "xy": [
+          61.00076,
+          88.3495
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "7",
+        "xy": [
+          60.50038,
+          88.3495
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "8",
+        "xy": [
+          60.0,
+          88.3495
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "9",
+        "xy": [
+          59.49962,
+          88.3495
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      },
+      {
+        "pin": "10",
+        "xy": [
+          58.99924,
+          88.3495
+        ],
+        "openingWidthMm": 0.35052,
+        "macroParameters": [
+          0.0508,
+          -0.14986,
+          0.65024,
+          0.14986,
+          0.65024
+        ]
+      }
+    ]
+  }
+}
