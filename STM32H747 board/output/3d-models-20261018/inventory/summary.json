@@ -1,0 +1,1369 @@
+{
+  "schema": "stm32-final-pcb-3d-source-inventory-v1",
+  "source_read_only": true,
+  "native_calls": 0,
+  "sources": [
+    {
+      "path": "output\\validation\\native-adc10-pcb-labtool_adc10_routed_final_saved-20261018.epru",
+      "sha256": "b7c6b99df160aaed2bb1f91717c2bde25e379bfdba88ec23dea5b4fdb7548d0f"
+    },
+    {
+      "path": "output\\validation\\native-adc10-labtool_schematic-Protel2-20261018.net",
+      "sha256": "dd848d6113c5ec2a0835c128ed664aff57e1df0f7967b9571fbd861d7ab4c12d"
+    },
+    {
+      "path": "output\\checkpoints\\STM32H747_labtool_adc10_routed_final_20261018.epro2",
+      "sha256": "afe1b3ebefdce0cb36eb040363c2c272dc4cf3b026746c0a2ee15b16079f8115"
+    }
+  ],
+  "component_count": 437,
+  "fitted_components": 431,
+  "dnp_refs": [
+    "C33",
+    "R61",
+    "R64",
+    "R98",
+    "R125",
+    "R126"
+  ],
+  "unique_used_footprints": 288,
+  "side_counts": {
+    "top": 428,
+    "bottom": 9
+  },
+  "package_groups": [
+    {
+      "group": "CLK_OSC [3.2x2.5mm_HandSoldering]",
+      "count": 2,
+      "fitted_count": 2,
+      "refs": [
+        "X1",
+        "X2"
+      ],
+      "part_numbers": [
+        "ECS-3225MV-240-CN-TR",
+        "ECS-3225MV-250-CN-TR"
+      ],
+      "footprint_uuids": [
+        "90d1db4e3011968e",
+        "db556e3e9bde77bc"
+      ],
+      "packages": [
+        "SMD-4"
+      ]
+    },
+    {
+      "group": "CLK_SMD_NX3215SA-L",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "Y1"
+      ],
+      "part_numbers": [
+        "NX3215SA-32.768KHZ-EXS00A-MU00466"
+      ],
+      "footprint_uuids": [
+        "946f9a4a7b838408"
+      ],
+      "packages": [
+        "SMD-2"
+      ]
+    },
+    {
+      "group": "CON_HeaderSocket [2x5_P2.54mm_Vertical]",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "J18"
+      ],
+      "part_numbers": [
+        "PPTC052LFBN-RC"
+      ],
+      "footprint_uuids": [
+        "53511abdbd343897"
+      ],
+      "packages": [
+        "DIP-10"
+      ]
+    },
+    {
+      "group": "CON_SAMTEC_FTSH-107-01-L-DV-K-A",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "J1"
+      ],
+      "part_numbers": [
+        "FTSH-107-01-L-DV-K-A"
+      ],
+      "footprint_uuids": [
+        "44621f0fae033d38"
+      ],
+      "packages": [
+        "DIP_14"
+      ]
+    },
+    {
+      "group": "CON_SMA_RA",
+      "count": 16,
+      "fitted_count": 16,
+      "refs": [
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8",
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J13",
+        "J14",
+        "J15",
+        "J16",
+        "J17"
+      ],
+      "part_numbers": [
+        "SMA-KWE901"
+      ],
+      "footprint_uuids": [
+        "133a56f0204e267d",
+        "1a275103229cd0ed",
+        "247603e988790c9b",
+        "3efe64435dd88760",
+        "420752e0b7dd516b",
+        "456e5ebcec73f244",
+        "4767d4db118c9e30",
+        "6cc742d2e9f6287b",
+        "728a108305576e94",
+        "819dad664d54a2aa",
+        "93edcf417121fbf5",
+        "99bc905658c65075",
+        "af0f2c62672d4563",
+        "afd1e7eaea1c6d0b",
+        "ca34008aa681bcb9",
+        "d6f78b7294940c71"
+      ],
+      "packages": [
+        "DIP-5"
+      ]
+    },
+    {
+      "group": "C_0402",
+      "count": 120,
+      "fitted_count": 120,
+      "refs": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C32",
+        "C35",
+        "C37",
+        "C38",
+        "C40",
+        "C44",
+        "C47",
+        "C48",
+        "C49",
+        "C50",
+        "C51",
+        "C52",
+        "C53",
+        "C54",
+        "C55",
+        "C56",
+        "C57",
+        "C58",
+        "C59",
+        "C60",
+        "C61",
+        "C62",
+        "C63",
+        "C65",
+        "C66",
+        "C67",
+        "C69",
+        "C71",
+        "C72",
+        "C73",
+        "C74",
+        "C75",
+        "C76",
+        "C80",
+        "C81",
+        "C82",
+        "C86",
+        "C87",
+        "C88",
+        "C93",
+        "C94",
+        "C95",
+        "C96",
+        "C97",
+        "C98",
+        "C99",
+        "C100",
+        "C101",
+        "C102",
+        "C106",
+        "C107",
+        "C108",
+        "C109",
+        "C110",
+        "C111",
+        "C112",
+        "C113",
+        "C114",
+        "C115",
+        "C116",
+        "C117",
+        "C118",
+        "C119",
+        "C120",
+        "C121",
+        "C122",
+        "C123",
+        "C124",
+        "C125",
+        "C126",
+        "C127",
+        "C128",
+        "C129",
+        "C130",
+        "C131",
+        "C132",
+        "C133",
+        "C134",
+        "C135",
+        "C136",
+        "C137",
+        "C138",
+        "C139",
+        "C140",
+        "C141",
+        "C142",
+        "C143",
+        "C144",
+        "C145",
+        "C146",
+        "C147",
+        "C148",
+        "C149",
+        "C155",
+        "C160"
+      ],
+      "part_numbers": [
+        "CL05B104KO5NNNC",
+        "CL05B471KB5NNNC",
+        "CL05C1R5BB5NNNC",
+        "CL05C221JB5NNNC"
+      ],
+      "footprint_uuids": [
+        "0058b26f67f0b6fb",
+        "0136d1bbb9f4fce3",
+        "0371c77bd2da6944",
+        "0d1f053286042996",
+        "144ccf8a3201a7f5",
+        "181f68ac2608ae56",
+        "21135977850656ab",
+        "239e418b80e60f32",
+        "292fa2b0063361b8",
+        "2ae33a5411f8a6c4",
+        "2b3dd2f3325a7eaf",
+        "33204de9fd4fd5be",
+        "3544cfbb523841de",
+        "35e573ad6a744cb4",
+        "385555c41022a867",
+        "3909ddbd7c488705",
+        "434ae80e780e2c33",
+        "471747e3bee4dd5f",
+        "479eb53348ab9ab5",
+        "48c814e3334e3062",
+        "4dfbb1aff6bfd26c",
+        "4e906e13764bb5e1",
+        "514e18e5b94f0938",
+        "61c4f4b238a67d60",
+        "622d643da7c29796",
+        "64065b377df629ac",
+        "671dbff53af63877",
+        "6b28b81f337d16c2",
+        "6db06710f7ab3148",
+        "6ec74eac1a87e9f5",
+        "706894d3af5aa46f",
+        "7c382628e4be233a",
+        "7e23955c504125b3",
+        "8680df401651fbb0",
+        "88b015dc6bf60019",
+        "897303aeeb5c028f",
+        "8fcd43879928abf3",
+        "925b09e4e707208c",
+        "9a9ac88b66feb37c",
+        "9c906de0a5d0fbd9",
+        "9ecc9029680473c9",
+        "9eeafec9c7746267",
+        "9f4067b3d1244e94",
+        "a32056d115829c7f",
+        "a69c5b4faa8456f0",
+        "a7d76e2308820270",
+        "aee60f8c1bc8b6f2",
+        "b35ef43baa3b5762",
+        "b4eba3a6a2bf76da",
+        "babcffd572f51e85",
+        "bcbd8ad12b822191",
+        "cca07ef2b8b00b03",
+        "d8f8d1f09da4f144",
+        "e15313133fcc4d36",
+        "e2e3d06dac58c326",
+        "eef878d88f111f1f",
+        "f34b6f88ebfe9009",
+        "ff055a1a006e4f79",
+        "ff8a8b3def52a153"
+      ],
+      "packages": [
+        "0402",
+        "STM_H747_ADC_DC_20261016_ADC_DC_C0402"
+      ]
+    },
+    {
+      "group": "C_0603",
+      "count": 12,
+      "fitted_count": 11,
+      "refs": [
+        "C5",
+        "C26",
+        "C28",
+        "C31",
+        "C33",
+        "C34",
+        "C36",
+        "C43",
+        "C64",
+        "C68",
+        "C103",
+        "C105"
+      ],
+      "part_numbers": [
+        "CL10A106KP8NNNC",
+        "CL10A225KO8NNNC",
+        "CL10B105KO8NNNC"
+      ],
+      "footprint_uuids": [
+        "01255ce2956bfd60",
+        "0d8f450fe94fb013",
+        "0e6788c259e0a938",
+        "246c88e783ae0e49",
+        "4265bf1593bd2ff7",
+        "69c2a659d6e0428f",
+        "6a56ac0c2c610b1a",
+        "8411e6a5f92616ef",
+        "96bc27c3bb9106dd",
+        "bf804249e58417c1",
+        "c3676bdf65ca2a6b"
+      ],
+      "packages": [
+        "0603",
+        "STM_H747_ADC_DC_20261016_ADC_DC_C0603"
+      ]
+    },
+    {
+      "group": "C_0805",
+      "count": 16,
+      "fitted_count": 16,
+      "refs": [
+        "C29",
+        "C30",
+        "C39",
+        "C42",
+        "C45",
+        "C46",
+        "C104",
+        "C150",
+        "C151",
+        "C152",
+        "C153",
+        "C154",
+        "C156",
+        "C157",
+        "C158",
+        "C159"
+      ],
+      "part_numbers": [
+        "CL21A226MQQNNNE",
+        "CL21B475KOFNFNE"
+      ],
+      "footprint_uuids": [
+        "2c208de8750c1ab6",
+        "61bdca3e064fa6ad",
+        "7cd78de7fa8ab56e",
+        "824860645fff3a13",
+        "9d8961c7ff5f9eca",
+        "d35f0c0a7c31829e",
+        "f114c8c47cb2d1a2"
+      ],
+      "packages": [
+        "0805",
+        "STM_H747_ADC_DC_20261016_ADC_DC_C0805"
+      ]
+    },
+    {
+      "group": "C_1206",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "C70"
+      ],
+      "part_numbers": [
+        "CL31B102KJHNNNE"
+      ],
+      "footprint_uuids": [
+        "26b8101ee64d1049"
+      ],
+      "packages": [
+        "1206"
+      ]
+    },
+    {
+      "group": "C_1411",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "C41"
+      ],
+      "part_numbers": [
+        "TPSB476M006R0250"
+      ],
+      "footprint_uuids": [
+        "35f939ab93ffe613"
+      ],
+      "packages": [
+        "1411"
+      ]
+    },
+    {
+      "group": "DFN-6 [3x3mm_P0.95mm]",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U3"
+      ],
+      "part_numbers": [
+        "ST1L05CPU33R"
+      ],
+      "footprint_uuids": [
+        "c52d48619e1c0e4b"
+      ],
+      "packages": [
+        "DFN-6 (3x3mm)"
+      ]
+    },
+    {
+      "group": "D_SMB [DO-214AA]",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "D5"
+      ],
+      "part_numbers": [
+        "SMBJ6.5CA"
+      ],
+      "footprint_uuids": [
+        "2e858dc15f165a79"
+      ],
+      "packages": [
+        "DO_214AA"
+      ]
+    },
+    {
+      "group": "D_SOD-523",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "D1"
+      ],
+      "part_numbers": [
+        "ESD8351XV2T1G"
+      ],
+      "footprint_uuids": [
+        "162b7d7fab268137"
+      ],
+      "packages": [
+        "SOD-523"
+      ]
+    },
+    {
+      "group": "FB_0603",
+      "count": 3,
+      "fitted_count": 3,
+      "refs": [
+        "FB1",
+        "FB2",
+        "FB3"
+      ],
+      "part_numbers": [
+        "BLM18AG601SH1D",
+        "BLM18SN220TH1D"
+      ],
+      "footprint_uuids": [
+        "1fcbcac367acb46e",
+        "3e7a172f5ea6b299",
+        "a0694410ff1546b0"
+      ],
+      "packages": [
+        "0603"
+      ]
+    },
+    {
+      "group": "IC_LAN8742A-CZ-TR",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U5"
+      ],
+      "part_numbers": [
+        "LAN8742A-CZ-TR"
+      ],
+      "footprint_uuids": [
+        "b098cceac55eab69"
+      ],
+      "packages": [
+        "SQFN-24"
+      ]
+    },
+    {
+      "group": "LED_0805_2012M_HandSolder",
+      "count": 4,
+      "fitted_count": 4,
+      "refs": [
+        "D2",
+        "D3",
+        "D4",
+        "D6"
+      ],
+      "part_numbers": [
+        "WR148SR-W"
+      ],
+      "footprint_uuids": [
+        "11c5f66e3d70a4ba",
+        "7595e44162ada516",
+        "8c7160781c71475b",
+        "988b0e2f2c43cdee"
+      ],
+      "packages": [
+        "0805"
+      ]
+    },
+    {
+      "group": "L_0806",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "L1"
+      ],
+      "part_numbers": [
+        "LQM2MPN2R2NG0L"
+      ],
+      "footprint_uuids": [
+        "b4f9adb2635c7c19"
+      ],
+      "packages": [
+        "0806"
+      ]
+    },
+    {
+      "group": "PJ-051BH",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "CN1"
+      ],
+      "part_numbers": [
+        "PJ-051BH"
+      ],
+      "footprint_uuids": [
+        "83fb62ef25d3eef1"
+      ],
+      "packages": [
+        "DIP-6"
+      ]
+    },
+    {
+      "group": "RJ45_LPJE101-0AHNL",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "CN2"
+      ],
+      "part_numbers": [
+        "LPJE101-0AHN"
+      ],
+      "footprint_uuids": [
+        "74ecde493bb3cd4f"
+      ],
+      "packages": [
+        "DIP-8"
+      ]
+    },
+    {
+      "group": "R_0402",
+      "count": 190,
+      "fitted_count": 185,
+      "refs": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "R31",
+        "R32",
+        "R33",
+        "R34",
+        "R35",
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R41",
+        "R42",
+        "R43",
+        "R44",
+        "R45",
+        "R46",
+        "R47",
+        "R48",
+        "R49",
+        "R50",
+        "R51",
+        "R52",
+        "R53",
+        "R54",
+        "R55",
+        "R56",
+        "R57",
+        "R58",
+        "R59",
+        "R60",
+        "R61",
+        "R62",
+        "R63",
+        "R64",
+        "R65",
+        "R66",
+        "R67",
+        "R68",
+        "R69",
+        "R70",
+        "R71",
+        "R72",
+        "R73",
+        "R74",
+        "R75",
+        "R76",
+        "R77",
+        "R78",
+        "R79",
+        "R80",
+        "R81",
+        "R82",
+        "R83",
+        "R84",
+        "R85",
+        "R86",
+        "R87",
+        "R92",
+        "R93",
+        "R94",
+        "R95",
+        "R96",
+        "R97",
+        "R98",
+        "R99",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R119",
+        "R120",
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R130",
+        "R131",
+        "R132",
+        "R133",
+        "R134",
+        "R135",
+        "R136",
+        "R137",
+        "R138",
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R143",
+        "R144",
+        "R145",
+        "R149",
+        "R150",
+        "R151",
+        "R152",
+        "R153",
+        "R154",
+        "R155",
+        "R156",
+        "R157",
+        "R161",
+        "R162",
+        "R163",
+        "R164",
+        "R165",
+        "R166",
+        "R167",
+        "R168",
+        "R169",
+        "R170",
+        "R171",
+        "R172",
+        "R177",
+        "R178",
+        "R179",
+        "R180",
+        "R181",
+        "R182",
+        "R183",
+        "R184",
+        "R185",
+        "R186",
+        "R187",
+        "R188",
+        "R189",
+        "R190",
+        "R191",
+        "R192",
+        "R193",
+        "R194",
+        "R195",
+        "R196",
+        "R197",
+        "R198",
+        "R199",
+        "R200",
+        "R201",
+        "R202",
+        "R203",
+        "R204"
+      ],
+      "part_numbers": [
+        "ERJ-2GE0R00X",
+        "ERJ-2GEJ330X",
+        "ERJ-2GEJ331X",
+        "ERJ-2RKF1001X",
+        "ERJ-2RKF1002X",
+        "ERJ-2RKF1003X",
+        "ERJ-2RKF1212X",
+        "ERJ-2RKF1501X",
+        "ERJ-2RKF49R9X",
+        "ERJ-2RKF5101X",
+        "ERJ-2RKF8061X"
+      ],
+      "footprint_uuids": [
+        "00f341f8024a4ece",
+        "0167d80b114ce9ee",
+        "02a30609b8292905",
+        "0614897ec2f55ffb",
+        "0638a058c1fba0ab",
+        "06a88dfbc39c475b",
+        "0810732ae3c85f7d",
+        "0827c3e48be5f293",
+        "08b7daa82444a949",
+        "0a031b4ce5444a2f",
+        "0a4096b0bba8d35a",
+        "0c3199808d3a62ca",
+        "0c761e127b4cd240",
+        "0d6a0e1c46cc8886",
+        "0de4cee4bfe9ecad",
+        "1339f74769131ec4",
+        "1759190ef6720945",
+        "178259e4b58147e6",
+        "17fcdaca0a8e4b2f",
+        "19792adf087010f1",
+        "1afe7f302263ea98",
+        "1ec79a6ec81b67c7",
+        "202302730ba15d6c",
+        "22db93ac4a8405d5",
+        "2613cc60c794cda4",
+        "271ba79fe5b4d2a3",
+        "28610642f057170b",
+        "2a6066063d6e897d",
+        "2f39332cbe8df13c",
+        "3118f8f9ff5d5b19",
+        "312283720c1e5451",
+        "33c6ea99a1614c72",
+        "37e9161f8d4b60c2",
+        "397296c2d679669a",
+        "3a4eb8961313f673",
+        "3a92d0bd7f65be1e",
+        "3abf01c21d0b36e0",
+        "3ba098322df0f96a",
+        "3c87470925c96399",
+        "3d2e4d7b54523485",
+        "4350990c3a62cc67",
+        "438c135d242a2d91",
+        "45fed2e87b152c5b",
+        "4ae59e8dc7d14dd6",
+        "4c42a00abb05226a",
+        "59e9ca92e14cfc13",
+        "5a26686900022c0c",
+        "630c65212cf70ff0",
+        "6462478e24c13b6a",
+        "64c7fc6ef0501fba",
+        "65226c528e4bb5ff",
+        "6591b0bc77eccc03",
+        "65f12be14559a2c9",
+        "66fa3d944cf9015d",
+        "6a071f7f0c570eb5",
+        "6b4307af1fac5936",
+        "6b5e8600186061ae",
+        "6f9a47837349f974",
+        "7051c1dbcf961f72",
+        "70f84f4cdd7304ad",
+        "750954a6cddffcf7",
+        "75d15a8e080583b3",
+        "76067a9e0d3444f4",
+        "77495d03c8fbee7d",
+        "779f87e18f900922",
+        "781861dc10551b91",
+        "7c1edd33e5325088",
+        "7e88961707ec722d",
+        "82b23bbd469220a4",
+        "82d540ca62900eeb",
+        "8396437138d9b174",
+        "8681dbb47b966eca",
+        "883ce5d7fa90fad3",
+        "8b5c265f6d34246d",
+        "8d69e550959702aa",
+        "8dfea7983c8f7a66",
+        "958591b3ad3a7453",
+        "973c1b40bcf11456",
+        "977f8e1070d75459",
+        "999fb787cfa8588b",
+        "9c47ee23a267acc5",
+        "a7fadf68e1e14d07",
+        "a7fe78b085c1cd8a",
+        "a889a125a5e81c08",
+        "aa06d9c6e48a2c3b",
+        "ae58362032d8ad4d",
+        "ae5ee7cfa4856f9a",
+        "b0191b038cc9a9d6",
+        "b09cd96910378bb7",
+        "b17e290d92d53f77",
+        "b1d61582602ea085",
+        "b2bdb8c44777644c",
+        "b36c1cef895a2601",
+        "b6aaa492f1070c5d",
+        "b88be12820f98156",
+        "bdd4accf77949231",
+        "bf1f8a1bee620674",
+        "bf40f2071f2c896d",
+        "c177c8c7ab4f7483",
+        "c32cf65caaa7a5c0",
+        "c799670f1aae0fbf",
+        "cd0fa0c2a5228b2f",
+        "cf387b87f84f11d0",
+        "d64d193b49238142",
+        "d71a473126e176dc",
+        "d8cfcca2cf8237ef",
+        "d9e85c5ca7b5473c",
+        "da623868220ef333",
+        "db3bfc5b879cc58c",
+        "db8d622d6d7533bc",
+        "dd8f9f41fd9c1cc5",
+        "df6178b26009b961",
+        "e03126fd1b4a456b",
+        "e1752e3e12976b25",
+        "e27a1a5706e36529",
+        "e3b041c7ea73e6dd",
+        "e556167182598aba",
+        "e5d50cd3f0da1a5f",
+        "e69005187a0459f2",
+        "e7942366d826a639",
+        "e971717bec73f001",
+        "eafb0626be10b106",
+        "ec524a3665034d20",
+        "ece9a5440a6433e7",
+        "f320b5e6398bdaa9",
+        "f5ea0cf785961855",
+        "f79a179f765127f4",
+        "faa7dd0f5c859c7b",
+        "fae65075fb3ca651",
+        "fb9dd879daa2e390",
+        "fe22284279fc0e51",
+        "fe87f995a791293b",
+        "ffe1b57e70c8319a"
+      ],
+      "packages": [
+        "0402",
+        "STM_H747_ADC_DC_20261016_ADC_DC_R0402"
+      ]
+    },
+    {
+      "group": "R_0603",
+      "count": 4,
+      "fitted_count": 4,
+      "refs": [
+        "R88",
+        "R89",
+        "R90",
+        "R91"
+      ],
+      "part_numbers": [
+        "ERJ-3EKF75R0V"
+      ],
+      "footprint_uuids": [
+        "a899a05108d65347",
+        "aba2401e118ab7c7",
+        "abfe065994845392",
+        "e004c4ff9c23e29d"
+      ],
+      "packages": [
+        "0603"
+      ]
+    },
+    {
+      "group": "SOIC-16 [3.9mm x 9.9mm_P1.27mm]",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U8"
+      ],
+      "part_numbers": [
+        "CH340C"
+      ],
+      "footprint_uuids": [
+        "1eb8a2f122b4bc3a"
+      ],
+      "packages": [
+        "SOIC-8"
+      ]
+    },
+    {
+      "group": "SOIC-8 [3.9mm x 4.9mm_P1.27mm]",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U6"
+      ],
+      "part_numbers": [
+        "STS5PF30L"
+      ],
+      "footprint_uuids": [
+        "1ca9393943312cd4"
+      ],
+      "packages": [
+        "SOIC-8"
+      ]
+    },
+    {
+      "group": "SOT-223_4P",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U2"
+      ],
+      "part_numbers": [
+        "LD1117S18TR"
+      ],
+      "footprint_uuids": [
+        "04732c29820c84d6"
+      ],
+      "packages": [
+        "SOT-223"
+      ]
+    },
+    {
+      "group": "SOT-23",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "Q1"
+      ],
+      "part_numbers": [
+        "9013M"
+      ],
+      "footprint_uuids": [
+        "9c0ae71d43b31d89"
+      ],
+      "packages": [
+        "SOT-23"
+      ]
+    },
+    {
+      "group": "SOT-23-6 [1.7mm x 3.0mm_P0.95]",
+      "count": 2,
+      "fitted_count": 2,
+      "refs": [
+        "TVS2",
+        "TVS3"
+      ],
+      "part_numbers": [
+        "USBLC6-2SC6"
+      ],
+      "footprint_uuids": [
+        "7232e95676350835",
+        "d2a3371c469ae0ea"
+      ],
+      "packages": [
+        "SOT-23-6"
+      ]
+    },
+    {
+      "group": "SOT-23-6 [1.7mm x 3.0mm_P0.95]_SMT",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "TVS1"
+      ],
+      "part_numbers": [
+        "USBLC6-4SC6"
+      ],
+      "footprint_uuids": [
+        "3ec59e00eedadef4"
+      ],
+      "packages": [
+        "SOT-23-6"
+      ]
+    },
+    {
+      "group": "STM_H747_ADC_DC_20261016_ADC_DC_TI_DBV0005A_SOT23_5",
+      "count": 10,
+      "fitted_count": 10,
+      "refs": [
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15",
+        "U16",
+        "U17",
+        "U18",
+        "U19"
+      ],
+      "part_numbers": [
+        "OPA320AIDBVR"
+      ],
+      "footprint_uuids": [
+        "6bb29ef4f7785623"
+      ],
+      "packages": [
+        "STM_H747_ADC_DC_20261016_ADC_DC_TI_DBV0005A_SOT23_5"
+      ]
+    },
+    {
+      "group": "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U9"
+      ],
+      "part_numbers": [
+        "REF5025AID"
+      ],
+      "footprint_uuids": [
+        "4db9a138dc2b9021"
+      ],
+      "packages": [
+        "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27"
+      ]
+    },
+    {
+      "group": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+      "count": 13,
+      "fitted_count": 13,
+      "refs": [
+        "U20",
+        "U21",
+        "U22",
+        "U23",
+        "U24",
+        "U25",
+        "U26",
+        "U27",
+        "U28",
+        "U29",
+        "U30",
+        "U31",
+        "U32"
+      ],
+      "part_numbers": [
+        "OPA189IDBVR",
+        "TPS60403DBVR",
+        "TPS72301DBVR"
+      ],
+      "footprint_uuids": [
+        "1c0ec0589eac1479"
+      ],
+      "packages": [
+        "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5"
+      ]
+    },
+    {
+      "group": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "D20"
+      ],
+      "part_numbers": [
+        "BAT54WS-E3-08"
+      ],
+      "footprint_uuids": [
+        "70434f355ff1cc5a"
+      ],
+      "packages": [
+        "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2"
+      ]
+    },
+    {
+      "group": "SW_PUSH_SMD_6mm",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "SW1"
+      ],
+      "part_numbers": [
+        "GT-TC089B-H075-L1"
+      ],
+      "footprint_uuids": [
+        "bdc7750c34538c7c"
+      ],
+      "packages": [
+        "SMD-2"
+      ]
+    },
+    {
+      "group": "TFBGA-265_14x14mm",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U1"
+      ],
+      "part_numbers": [
+        "STM32H747XIH6"
+      ],
+      "footprint_uuids": [
+        "6824cbb9b1729037"
+      ],
+      "packages": [
+        "TFBGA-265"
+      ]
+    },
+    {
+      "group": "TFBGA-90_8X13mm_ISI",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U4"
+      ],
+      "part_numbers": [
+        "IS42S32160F-6BLI"
+      ],
+      "footprint_uuids": [
+        "a3627e2915fe61c1"
+      ],
+      "packages": [
+        "TFBGA-90 (8x13mm)"
+      ]
+    },
+    {
+      "group": "TR_KMS_1102NL",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "TR1"
+      ],
+      "part_numbers": [
+        "KMS-1102NL"
+      ],
+      "footprint_uuids": [
+        "39a8e9d76e342813"
+      ],
+      "packages": [
+        "SMD-16"
+      ]
+    },
+    {
+      "group": "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm",
+      "count": 19,
+      "fitted_count": 19,
+      "refs": [
+        "TP1",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP13",
+        "TP14",
+        "TP15",
+        "TP16",
+        "TP17",
+        "TP18",
+        "TP19"
+      ],
+      "part_numbers": [],
+      "footprint_uuids": [
+        "0365ec2c902551a7",
+        "0f8812853f1eb6ca",
+        "158577e83c2a07d7",
+        "28b8091dcb488347",
+        "2e66412949cec812",
+        "4622a9d2b3c8991c",
+        "49263af49295d32b",
+        "5cb46ff2cef62d63",
+        "5ea276b76d688a72",
+        "822c51378bb1a78c",
+        "94e8257da965d5e8",
+        "9dd3fd7ecd5fd838",
+        "a0d5035c00904f7e",
+        "d7803d881596beb6",
+        "dcb919aa145e76e2",
+        "f32e3c4bd338a5fd",
+        "f45ee3782c590d57",
+        "f938582f0239ef51",
+        "fcb78e30798ced7c"
+      ],
+      "packages": []
+    },
+    {
+      "group": "USB3320C-EZK",
+      "count": 1,
+      "fitted_count": 1,
+      "refs": [
+        "U7"
+      ],
+      "part_numbers": [
+        "USB3320C-EZK"
+      ],
+      "footprint_uuids": [
+        "15077d1eac66847c"
+      ],
+      "packages": [
+        "QFN-32"
+      ]
+    },
+    {
+      "group": "USB_C_GCT_USB4105-GF-A_Custum",
+      "count": 2,
+      "fitted_count": 2,
+      "refs": [
+        "CN3",
+        "CN4"
+      ],
+      "part_numbers": [
+        "USB4105-GF-A"
+      ],
+      "footprint_uuids": [
+        "8bd1ebd7c6524c9d",
+        "ae37a0fb8459ebec"
+      ],
+      "packages": [
+        "SMD-16"
+      ]
+    }
+  ],
+  "height_metadata_count": 0,
+  "footprint_model_height_metadata_count": 0,
+  "part_attribute_conflicts": [
+    {
+      "ref": "U8",
+      "netlist_package_attribute": "SOIC-8",
+      "actual_footprint_title": "SOIC-16 [3.9mm x 9.9mm_P1.27mm]",
+      "actual_physical_pads": 16,
+      "action": "Use actual 16-pin geometry/CH340C identity for the model, not the stale Package attribute."
+    }
+  ],
+  "limitations": [
+    "Uses the frozen final native project checkpoint for embedded libraries. The eprj2 direct documents/components tables are empty; no database writes or history replay were attempted.",
+    "All component positions, attributes and PAD_NET records match the saved final PCB checkpoint.",
+    "2D graphics and pad envelopes are not verified component body dimensions or 3D height.",
+    "No actual 3D model was assigned or validated by this inventory. DNP parts are physical footprints but should be omitted from an as-fitted rendering.",
+    "Native footprint geometry coordinates are mil; CANVAS unit is the editor display setting."
+  ]
+}

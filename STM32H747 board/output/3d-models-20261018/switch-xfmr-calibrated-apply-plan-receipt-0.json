@@ -1,0 +1,84 @@
+{
+  "plan": "switch-xfmr-calibrated-apply-plan",
+  "start": 0,
+  "count": 2,
+  "refs": [
+    "TR1",
+    "SW1"
+  ],
+  "before": [
+    {
+      "ref": "TR1",
+      "id": "f3de6047293aafb3",
+      "other": {
+        "Footprint": "TR1_2_CustomLibrary:TR_KMS_1102NL",
+        "Value": "KMS-1102NL",
+        "Description": "ISO MOD 10/100 16P SMD T/R",
+        "Part Number": "KMS-1102NL",
+        "Package": "SMD-16",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:TR_KMS_1102NL",
+        "Device": "TR1_KMS-1102NL",
+        "3D Model": "d691814482f84b87ab195e8d38090ed5|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "XFMR-SMD_H1102N",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I130"
+      }
+    },
+    {
+      "ref": "SW1",
+      "id": "a628f3517e8fe1d3",
+      "other": {
+        "Footprint": "SW1_2_CustomLibrary:SW_PUSH_SMD_6mm",
+        "Value": "GT-TC089B-H075-L1",
+        "Description": "SWITCH TACTILE SPST-NO 0.05A 12V",
+        "Part Number": "GT-TC089B-H075-L1",
+        "Package": "SMD-2",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SW_PUSH_SMD_6mm",
+        "Device": "SW1_GT-TC089B-H075-L1",
+        "3D Model": "73b3a84ae74e462f8f90e36cc5fd3e32|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.6_TS014-TBW1FH7.5",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I94"
+      }
+    }
+  ],
+  "saved": true,
+  "afterModels": [
+    {
+      "ref": "TR1",
+      "id": "f3de6047293aafb3",
+      "model": "d691814482f84b87ab195e8d38090ed5|0819f05c4eef4c71ace90d822a990e87",
+      "title": "XFMR-SMD_H1102N",
+      "transform": "498.197454412,374.015748215,158.267715862,270,0,0,0,-0.0132256605561,0",
+      "transformMIL": "498.197454412,374.015748215,158.267715862,270,0,0,0,-0.0132256605561,0",
+      "full_mesh_xyz_mm": [
+        12.65421534206773,
+        9.500000004670925,
+        4.0199999829030535
+      ],
+      "confidence": "pitch_calibrated_package_equivalent_visual_only",
+      "manufacturer_exact": false,
+      "mechanical_clearance_approved": false
+    },
+    {
+      "ref": "SW1",
+      "id": "a628f3517e8fe1d3",
+      "model": "73b3a84ae74e462f8f90e36cc5fd3e32|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.6_TS014-TBW1FH7.5",
+      "transform": "338.582701153,236.523720857,298.03150397,0,0,0,0,0.242079343225,0",
+      "transformMIL": "338.582701153,236.523720857,298.03150397,0,0,0,0,0.242079343225,0",
+      "full_mesh_xyz_mm": [
+        8.600000609291937,
+        6.007702509766203,
+        7.570000200834538
+      ],
+      "confidence": "pitch_calibrated_package_equivalent_visual_only",
+      "manufacturer_exact": false,
+      "mechanical_clearance_approved": false
+    }
+  ]
+}

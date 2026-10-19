@@ -1,0 +1,1291 @@
+{
+  "schema": "labtool-independent-proposed-physical-power-signal-graph-v1",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "manufacturingApproved": false,
+  "passed": true,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+  "sourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "routesPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-combined-routing-v4.json",
+  "routesSha256": "c255e19d838132efe682fb9c024dd53e017a4fd0119a17732983efafc1f34048",
+  "placementPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-v6-c103-local-bypass-proposal.json",
+  "placementSha256": "2cbb87c1ace266d67fdbc90a15807a8d8316773e719cd31108b2cd33fa6ddd43",
+  "checkpointPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_107_placed_v6_wip_20261018.epro2",
+  "checkpointSha256": "fb6a90e8b62b797783ae69b8b2ebc48b7d1114862881bcde946429abb820761d",
+  "fillsPath": null,
+  "fillsSha256": null,
+  "watchedNetCount": 74,
+  "allSameNetPadGraphsPass": true,
+  "netGraphs": [
+    {
+      "net": "+5V",
+      "connected": true,
+      "physicalPadCount": 10,
+      "uniquePins": 10,
+      "physicalPadGroups": [
+        [
+          "C41:1",
+          "C42:1",
+          "C43:1",
+          "C44:1",
+          "CN1:1",
+          "D5:1",
+          "R197:1",
+          "R200:1",
+          "R72:1",
+          "U3:6"
+        ]
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "connected": true,
+      "physicalPadCount": 27,
+      "uniquePins": 27,
+      "physicalPadGroups": [
+        [
+          "C103:1",
+          "C120:1",
+          "C123:1",
+          "C126:1",
+          "C129:1",
+          "C132:1",
+          "C135:1",
+          "C138:1",
+          "C141:1",
+          "C144:1",
+          "C147:1",
+          "C156:1",
+          "C157:1",
+          "C160:1",
+          "R200:2",
+          "U20:5",
+          "U21:5",
+          "U22:5",
+          "U23:5",
+          "U24:5",
+          "U25:5",
+          "U26:5",
+          "U27:5",
+          "U28:5",
+          "U29:5",
+          "U32:5",
+          "U9:2"
+        ]
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "connected": true,
+      "physicalPadCount": 26,
+      "uniquePins": 26,
+      "physicalPadGroups": [
+        [
+          "C121:1",
+          "C124:1",
+          "C127:1",
+          "C130:1",
+          "C133:1",
+          "C136:1",
+          "C139:1",
+          "C142:1",
+          "C145:1",
+          "C148:1",
+          "C153:1",
+          "C154:1",
+          "C155:2",
+          "D20:1",
+          "R198:1",
+          "U20:2",
+          "U21:2",
+          "U22:2",
+          "U23:2",
+          "U24:2",
+          "U25:2",
+          "U26:2",
+          "U27:2",
+          "U28:2",
+          "U29:2",
+          "U31:5"
+        ]
+      ]
+    },
+    {
+      "net": "ADC1_INP0",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C80:1",
+          "R141:2",
+          "TP1:1",
+          "U1:T1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC1_INP1",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C81:1",
+          "R143:2",
+          "TP2:1",
+          "U1:T2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC1_INP16",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C82:1",
+          "R145:2",
+          "TP3:1",
+          "U1:N5"
+        ]
+      ]
+    },
+    {
+      "net": "ADC2_INP12",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C87:1",
+          "R155:2",
+          "TP5:1",
+          "U1:M3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC2_INP13",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C88:1",
+          "R157:2",
+          "TP6:1",
+          "U1:M4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC2_INP3",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C86:1",
+          "R153:2",
+          "TP4:1",
+          "U1:R3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC3_INP2",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C93:1",
+          "R166:2",
+          "TP7:1",
+          "U1:L4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC3_INP6",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C94:1",
+          "R168:2",
+          "TP8:1",
+          "U1:L3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC3_INP7",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C95:1",
+          "R170:2",
+          "TP9:1",
+          "U1:K4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC3_INP8",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C96:1",
+          "R172:2",
+          "TP10:1",
+          "U1:K2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J10_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R163:1",
+          "U28:1",
+          "U28:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J10_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C146:2",
+          "R170:1",
+          "R195:2",
+          "U18:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J10_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C111:1",
+          "R169:2",
+          "U28:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J10_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J10:1",
+          "R169:1",
+          "R185:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J10_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C146:1",
+          "R163:2",
+          "R195:1",
+          "U18:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J11_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R164:1",
+          "U29:1",
+          "U29:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J11_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C149:2",
+          "R172:1",
+          "R196:2",
+          "U19:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J11_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C112:1",
+          "R171:2",
+          "U29:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J11_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J11:1",
+          "R171:1",
+          "R186:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J11_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C149:1",
+          "R164:2",
+          "R196:1",
+          "U19:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J2_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R137:1",
+          "U20:1",
+          "U20:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J2_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C122:2",
+          "R141:1",
+          "R187:2",
+          "U10:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J2_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C97:1",
+          "R140:2",
+          "U20:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J2_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J2:1",
+          "R140:1",
+          "R177:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J2_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C122:1",
+          "R137:2",
+          "R187:1",
+          "U10:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J3_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R138:1",
+          "U21:1",
+          "U21:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J3_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C125:2",
+          "R143:1",
+          "R188:2",
+          "U11:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J3_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C98:1",
+          "R142:2",
+          "U21:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J3_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J3:1",
+          "R142:1",
+          "R178:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J3_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C125:1",
+          "R138:2",
+          "R188:1",
+          "U11:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J4_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R139:1",
+          "U22:1",
+          "U22:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J4_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C128:2",
+          "R145:1",
+          "R189:2",
+          "U12:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J4_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C99:1",
+          "R144:2",
+          "U22:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J4_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J4:1",
+          "R144:1",
+          "R179:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J4_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C128:1",
+          "R139:2",
+          "R189:1",
+          "U12:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J5_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R149:1",
+          "U23:1",
+          "U23:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J5_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C131:2",
+          "R153:1",
+          "R190:2",
+          "U13:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J5_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C106:1",
+          "R152:2",
+          "U23:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J5_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J5:1",
+          "R152:1",
+          "R180:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J5_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C131:1",
+          "R149:2",
+          "R190:1",
+          "U13:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J6_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R150:1",
+          "U24:1",
+          "U24:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J6_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C134:2",
+          "R155:1",
+          "R191:2",
+          "U14:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J6_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C107:1",
+          "R154:2",
+          "U24:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J6_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J6:1",
+          "R154:1",
+          "R181:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J6_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C134:1",
+          "R150:2",
+          "R191:1",
+          "U14:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J7_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R151:1",
+          "U25:1",
+          "U25:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J7_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C137:2",
+          "R157:1",
+          "R192:2",
+          "U15:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J7_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C108:1",
+          "R156:2",
+          "U25:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J7_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J7:1",
+          "R156:1",
+          "R182:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J7_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C137:1",
+          "R151:2",
+          "R192:1",
+          "U15:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J8_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R161:1",
+          "U26:1",
+          "U26:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J8_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C140:2",
+          "R166:1",
+          "R193:2",
+          "U16:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J8_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C109:1",
+          "R165:2",
+          "U26:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J8_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J8:1",
+          "R165:1",
+          "R183:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J8_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C140:1",
+          "R161:2",
+          "R193:1",
+          "U16:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J9_BUF",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R162:1",
+          "U27:1",
+          "U27:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J9_DRV",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C143:2",
+          "R168:1",
+          "R194:2",
+          "U17:1"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J9_FILTER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C110:1",
+          "R167:2",
+          "U27:3"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J9_RAW",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "J9:1",
+          "R167:1",
+          "R184:2"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_J9_SUM",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C143:1",
+          "R162:2",
+          "R194:1",
+          "U17:4"
+        ]
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "connected": true,
+      "physicalPadCount": 12,
+      "uniquePins": 12,
+      "physicalPadGroups": [
+        [
+          "C159:1",
+          "R204:2",
+          "U10:3",
+          "U11:3",
+          "U12:3",
+          "U13:3",
+          "U14:3",
+          "U15:3",
+          "U16:3",
+          "U17:3",
+          "U18:3",
+          "U19:3"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_FLY_N",
+      "connected": true,
+      "physicalPadCount": 2,
+      "uniquePins": 2,
+      "physicalPadGroups": [
+        [
+          "C151:1",
+          "U30:3"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_FLY_P",
+      "connected": true,
+      "physicalPadCount": 2,
+      "uniquePins": 2,
+      "physicalPadGroups": [
+        [
+          "C151:2",
+          "U30:5"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_NEG_FB",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C155:1",
+          "R198:2",
+          "R199:2",
+          "U31:4"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_OFFSET_BUFFER",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R204:1",
+          "U32:1",
+          "U32:4"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_OFFSET_FILTER",
+      "connected": true,
+      "physicalPadCount": 4,
+      "uniquePins": 4,
+      "physicalPadGroups": [
+        [
+          "C158:1",
+          "R202:2",
+          "R203:2",
+          "U32:3"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_PUMP_IN",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "C150:1",
+          "R197:2",
+          "U30:2"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_REF_2V5",
+      "connected": true,
+      "physicalPadCount": 3,
+      "uniquePins": 3,
+      "physicalPadGroups": [
+        [
+          "R201:2",
+          "R202:1",
+          "U9:6"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_REF_ESR",
+      "connected": true,
+      "physicalPadCount": 2,
+      "uniquePins": 2,
+      "physicalPadGroups": [
+        [
+          "C104:1",
+          "R201:1"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_REF_NR",
+      "connected": true,
+      "physicalPadCount": 2,
+      "uniquePins": 2,
+      "physicalPadGroups": [
+        [
+          "C105:1",
+          "U9:5"
+        ]
+      ]
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "connected": true,
+      "physicalPadCount": 5,
+      "uniquePins": 5,
+      "physicalPadGroups": [
+        [
+          "C152:1",
+          "D20:2",
+          "U30:1",
+          "U31:2",
+          "U31:3"
+        ]
+      ]
+    }
+  ],
+  "specificPowerAndReferenceChains": [
+    {
+      "title": "RAW +5 reaches both independent RC inputs",
+      "net": "+5V",
+      "pins": [
+        "CN1:1",
+        "R197:1",
+        "R200:1"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Filtered +5 from R200 output to all bipolar buffers and reference",
+      "net": "+5V_AFE",
+      "pins": [
+        "R200:2",
+        "C103:1",
+        "U9:2",
+        "U32:5",
+        "C160:1",
+        "U20:5",
+        "U21:5",
+        "U22:5",
+        "U23:5",
+        "U24:5",
+        "U25:5",
+        "U26:5",
+        "U27:5",
+        "U28:5",
+        "U29:5"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Pump input after R197",
+      "net": "AFE_PUMP_IN",
+      "pins": [
+        "R197:2",
+        "U30:2",
+        "C150:1"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Pump negative raw into LDO IN and EN",
+      "net": "AFE_VNEG_RAW",
+      "pins": [
+        "U30:1",
+        "C152:1",
+        "U31:2",
+        "U31:3",
+        "D20:2"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "LDO output to all negative buffer supplies",
+      "net": "-3V_AFE",
+      "pins": [
+        "U31:5",
+        "C153:1",
+        "C154:1",
+        "D20:1",
+        "R198:1",
+        "C155:2",
+        "U20:2",
+        "U21:2",
+        "U22:2",
+        "U23:2",
+        "U24:2",
+        "U25:2",
+        "U26:2",
+        "U27:2",
+        "U28:2",
+        "U29:2"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Negative LDO feedback divider",
+      "net": "AFE_NEG_FB",
+      "pins": [
+        "U31:4",
+        "R198:2",
+        "R199:2",
+        "C155:1"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Flying cap negative node",
+      "net": "AFE_FLY_N",
+      "pins": [
+        "U30:3",
+        "C151:1"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Flying cap positive node",
+      "net": "AFE_FLY_P",
+      "pins": [
+        "U30:5",
+        "C151:2"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Reference 2.5V output reaches offset divider and ESR branch",
+      "net": "AFE_REF_2V5",
+      "pins": [
+        "U9:6",
+        "R202:1",
+        "R201:2"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Reference output ESR isolation branch",
+      "net": "AFE_REF_ESR",
+      "pins": [
+        "R201:1",
+        "C104:1"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Reference noise reduction pin",
+      "net": "AFE_REF_NR",
+      "pins": [
+        "U9:5",
+        "C105:1"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Divider/filter reaches buffer positive input",
+      "net": "AFE_OFFSET_FILTER",
+      "pins": [
+        "R202:2",
+        "R203:2",
+        "C158:1",
+        "U32:3"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "Offset follower output and feedback to output isolation resistor",
+      "net": "AFE_OFFSET_BUFFER",
+      "pins": [
+        "U32:1",
+        "U32:4",
+        "R204:1"
+      ],
+      "allSameLiteralCopperComponent": true
+    },
+    {
+      "title": "R204 output reaches all ten final OPA320 positive inputs",
+      "net": "ADC_OFFSET_0V97",
+      "pins": [
+        "R204:2",
+        "C159:1",
+        "U10:3",
+        "U11:3",
+        "U12:3",
+        "U13:3",
+        "U14:3",
+        "U15:3",
+        "U16:3",
+        "U17:3",
+        "U18:3",
+        "U19:3"
+      ],
+      "allSameLiteralCopperComponent": true
+    }
+  ],
+  "relevantResistorValues": {
+    "R197": "4.7",
+    "R200": "4.7",
+    "R201": "1.0",
+    "R202": "15.8k",
+    "R203": "10.0k",
+    "R204": "1.00k"
+  },
+  "differentNetLiteralIntersections": [],
+  "excludedOriginalInvalidGeometryNoRepair": [],
+  "newLineCount": 526,
+  "newViaCount": 62,
+  "plannedLineLayers": {
+    "1": 497,
+    "2": 26,
+    "15": 3
+  },
+  "sourceOriginalViaCount": 640,
+  "expectedTotalViaCount": 702,
+  "expectedTotalDrillCount": 861,
+  "padLayerShapeCounts": {
+    "1": 912,
+    "2": 141,
+    "15": 108,
+    "16": 89,
+    "17": 197,
+    "18": 96
+  },
+  "errors": [],
+  "limitations": [
+    "Prospective physical copper graph using planned 4dp-mil native coordinates; not an actual native readback.",
+    "No equality-of-net-label joins; only same-layer literal copper overlap and plated barrel joins.",
+    "No graph edge is inserted across a resistor, capacitor, LDO, charge pump, reference IC, or op amp; separate nodes and actual pins prove the intended component sequence.",
+    "GND/retained +3V3, minimum clearance, orphan planes, all-six-layer antipad adequacy, strict native DRC, analog noise/stability, and manufacturing approval require separate final audits.",
+    "Without --fills the static-fill changes have not been incorporated: this is scoped non-ground signal/supply connectivity only."
+  ],
+  "auditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-proposed-power-graph-20261018.py",
+  "auditorSha256": "bee8eb01985eae59380f91297988409afccac059c04050ad8a3812b2e275cbdb",
+  "auditedUtc": "2026-10-18T07:45:07.791582+00:00"
+}

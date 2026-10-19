@@ -1,0 +1,75 @@
+{
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-bottom_c88_probe_180-20261018.epru",
+  "sourceSha256": "f1c28dab5c6693d452e0dea966595cb791a963206fc4c2fb1f855fb521fd9ecf",
+  "rotation": 180,
+  "containmentPassed": true,
+  "padChecks": [
+    {
+      "number": "1",
+      "net": "ADC2_INP13",
+      "xMil": 2077.2,
+      "yMil": 3267.7,
+      "layer": 2,
+      "expected": {
+        "net": "ADC2_INP13",
+        "xyMm": [
+          52.76,
+          83
+        ]
+      },
+      "withinReadbackQuantization": true
+    },
+    {
+      "number": "2",
+      "net": "GND",
+      "xMil": 2115,
+      "yMil": 3267.7,
+      "layer": 2,
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          53.72,
+          83
+        ]
+      },
+      "withinReadbackQuantization": true
+    }
+  ],
+  "worldPadMapPassed": true,
+  "issues": [],
+  "changes": [
+    {
+      "key": "COMPONENT:c4522a5d4858d2e5",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:c4522a5d4858d2e5ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:c4522a5d4858d2e5ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:c4522a5d4858d2e5e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    }
+  ],
+  "saved": false,
+  "routingNotAppliedYet": true,
+  "manufacturingReady": false
+}

@@ -1,0 +1,1265 @@
+{
+  "schema": "stm32h747-labtool-rebased-net-rename-execution-20261018-v2",
+  "PCBRequired": "0ac2a19168000d8e",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_isolate_2-20261018.epru",
+  "sourceSha256": "e52508b68e66d8e06faf2b00f2292c2a77c7cfc1ed216d4d378b1b55c578b91c",
+  "originalPlanPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-isolation-placement-execution-v1.json",
+  "originalPlanSha256": "d46d2b4a4ec333f8e858f006ff8eb06af00763ea3eabbe6d1c96feae222c2faa",
+  "batches": [
+    {
+      "stage": "rename_r0",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "20cb0f47412913ee",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC1_DRV1",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 5470.4724,
+            "endX": 589.7638,
+            "endY": 5470.4724,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "f5906af186d14a95b6d2933b1f58a1795fe44be358e5f59c5599166312e7d2cc",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J2_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 5470.4724,
+            "endX": 589.7638,
+            "endY": 5470.4724,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "bfbcd13ecb347e26",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC1_DRV1",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 5470.4724,
+            "endX": 589.7638,
+            "endY": 5511.811,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "c3202ea075f89ffdee59eb5ba1db1f34a7d5793fd03bb2144b48f2fdf03e28da",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J2_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 5470.4724,
+            "endX": 589.7638,
+            "endY": 5511.811,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "913aef716e1127a8",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J2-IN)",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 5511.811,
+            "endX": 177.1654,
+            "endY": 5511.811,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3844
+          },
+          "beforeBodySha256": "f1ce046020e110a16a7f592f706c566f5d1466ff130f2ee56fe6e0c7eca307bc",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J2_RAW",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 5511.811,
+            "endX": 177.1654,
+            "endY": 5511.811,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3844
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "ccee724a28721cfc",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC1_DRV2",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 4919.2913,
+            "endX": 589.7638,
+            "endY": 4919.2913,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "1116a3a743a5a8548c37620d3108dc7de78849710c023d061ed214c6d0ed2e55",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J3_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 4919.2913,
+            "endX": 589.7638,
+            "endY": 4919.2913,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "1fad316daf6caaf1",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC1_DRV2",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 4919.2913,
+            "endX": 589.7638,
+            "endY": 4960.6299,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "c97056a37b1dc24040c1cf8986ad787f2ab6d1848af12b2a9e47c6d8897429cb",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J3_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 4919.2913,
+            "endX": 589.7638,
+            "endY": 4960.6299,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "54e4336ce40082d1",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J3-IN)",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 4960.6299,
+            "endX": 177.1654,
+            "endY": 4960.6299,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3845
+          },
+          "beforeBodySha256": "72236021927c34e4a35ea7266047d569c31a6be0eb231ec221bf19023fa130db",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J3_RAW",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 4960.6299,
+            "endX": 177.1654,
+            "endY": 4960.6299,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3845
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "c6a7304b3ba067ed",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC1_DRV3",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 4368.1102,
+            "endX": 589.7638,
+            "endY": 4368.1102,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "7f44e311117685fe27158116e2d296e1999ed1795040234a8fbe068bfed9c81b",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J4_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 4368.1102,
+            "endX": 589.7638,
+            "endY": 4368.1102,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "1348bdce7f157c3c",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC1_DRV3",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 4368.1102,
+            "endX": 589.7638,
+            "endY": 4409.4488,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "035692dcf81d75feafecb206e06710e55ad80a1eadf6bde8a3906d2409b86cd2",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J4_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 4368.1102,
+            "endX": 589.7638,
+            "endY": 4409.4488,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "13153ab856bba246",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J4-IN)",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 4409.4488,
+            "endX": 177.1654,
+            "endY": 4409.4488,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3846
+          },
+          "beforeBodySha256": "360a7d6a8b8b9485ccdf9015526c5dff5e2423ab06d2a8ff10eec1756f8b4829",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J4_RAW",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 4409.4488,
+            "endX": 177.1654,
+            "endY": 4409.4488,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3846
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "cb0eae68422d3a45",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC2_DRV1",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 3816.9291,
+            "endX": 589.7638,
+            "endY": 3816.9291,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "f2996555d6d8442701aa0fecb8763e8760c19c0eee1f7a11e4530d48b6b84693",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J5_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 3816.9291,
+            "endX": 589.7638,
+            "endY": 3816.9291,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "6f27e055b6642acf",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC2_DRV1",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 3816.9291,
+            "endX": 589.7638,
+            "endY": 3858.2677,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "f3490b40465d924a450d971366112bb9ad48a390074b2f0e0232fb16d9a9c0a4",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J5_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 3816.9291,
+            "endX": 589.7638,
+            "endY": 3858.2677,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "bd9e9f99b1c5c58c",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J5-IN)",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 3858.2677,
+            "endX": 177.1654,
+            "endY": 3858.2677,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3847
+          },
+          "beforeBodySha256": "4ac14a1eddf0154a8eff2a904ed8fc82a52da06035ec4025c3dc977db2fb1e82",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J5_RAW",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 3858.2677,
+            "endX": 177.1654,
+            "endY": 3858.2677,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3847
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "aa4c855e0843b80d",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC2_DRV2",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 3265.748,
+            "endX": 589.7638,
+            "endY": 3265.748,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "a126d9a0cc0be0e1f7d16658ae56fbecc963a4845ccf72a44542cb1204ca4e92",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J6_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 3265.748,
+            "endX": 589.7638,
+            "endY": 3265.748,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "1fa94a7f8d9d322d",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC2_DRV2",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 3265.748,
+            "endX": 589.7638,
+            "endY": 3307.0866,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "b0d02d02e2293131d7f0179368ed59199c1e997a9805fd0ebb174fa1828de37c",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J6_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 3265.748,
+            "endX": 589.7638,
+            "endY": 3307.0866,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "a8aeabe95d7a762c",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J6-IN)",
+            "layerId": 1,
+            "startX": 373.2284,
+            "startY": 3307.0866,
+            "endX": 177.1654,
+            "endY": 3307.0866,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3848
+          },
+          "beforeBodySha256": "fc23bf1b79905c073a567517854481723a0b46727827f1c02ebfd67f6ce52cb3",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J6_RAW",
+            "layerId": 1,
+            "startX": 373.2284,
+            "startY": 3307.0866,
+            "endX": 177.1654,
+            "endY": 3307.0866,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3848
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "6084b938afd93463",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC2_DRV3",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 2714.5669,
+            "endX": 589.7638,
+            "endY": 2714.5669,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "952c6bdbd15092c3eb99cbc63be60dbc2d1ccdcc570a8b3d3295d2e2a17fd7a7",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J7_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 2714.5669,
+            "endX": 589.7638,
+            "endY": 2714.5669,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "40dbc6e644fa62fe",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC2_DRV3",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 2714.5669,
+            "endX": 589.7638,
+            "endY": 2755.9055,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "1b0ec9889eb33f3610895e399f5d2b350e7ad08304bc85be77d876b895309f0a",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J7_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 2714.5669,
+            "endX": 589.7638,
+            "endY": 2755.9055,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "3b9f726bd0345a17",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J7-IN)",
+            "layerId": 1,
+            "startX": 177.1654,
+            "startY": 2755.9055,
+            "endX": 373.2283,
+            "endY": 2755.9055,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3849
+          },
+          "beforeBodySha256": "4e1e6bc3fd79161822d37aa1cce59e95727c0dec508bdd1b40153bfd81660334",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J7_RAW",
+            "layerId": 1,
+            "startX": 177.1654,
+            "startY": 2755.9055,
+            "endX": 373.2283,
+            "endY": 2755.9055,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3849
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "0cf029f20f338cd1",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV1",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 2163.3858,
+            "endX": 589.7638,
+            "endY": 2163.3858,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "9e70d0d769ff29bc66b3ce8e0122b21c498bfe353a637da5bb97b3afd618df2c",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J8_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 2163.3858,
+            "endX": 589.7638,
+            "endY": 2163.3858,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "d58543bcec79cbc0",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV1",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 2163.3858,
+            "endX": 589.7638,
+            "endY": 2204.7244,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "ef92d1d3d9b5f56ceb6d9b6e1e501cd66fd7aed0a3e81d6ade882c3d0901b987",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J8_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 2163.3858,
+            "endX": 589.7638,
+            "endY": 2204.7244,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        }
+      ]
+    },
+    {
+      "stage": "rename_r1",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "fd9d34eabb4f0ddf",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J8-IN)",
+            "layerId": 1,
+            "startX": 177.1654,
+            "startY": 2204.7244,
+            "endX": 373.2283,
+            "endY": 2204.7244,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3850
+          },
+          "beforeBodySha256": "3a43d37355dbcadc640281861dabeaa195f6a850aa3c9a8474ff93dd8acf5def",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J8_RAW",
+            "layerId": 1,
+            "startX": 177.1654,
+            "startY": 2204.7244,
+            "endX": 373.2283,
+            "endY": 2204.7244,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3850
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "22b6b228288f4a86",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV2",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 1612.2047,
+            "endX": 589.7638,
+            "endY": 1612.2047,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "5668c6019f7553c213ee03458c8910a4a115004db377b28e6c59f2eadc64d561",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J9_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 1612.2047,
+            "endX": 589.7638,
+            "endY": 1612.2047,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "0e414fccd88516b8",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV2",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 1612.2047,
+            "endX": 589.7638,
+            "endY": 1653.5433,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "12cc41a93890cfdbcb2ae147eb9160c31d3dca6c4b49188a4344f2d342c14ce7",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J9_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 1612.2047,
+            "endX": 589.7638,
+            "endY": 1653.5433,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "323be82f95cfffb4",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J9-IN)",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 1653.5433,
+            "endX": 177.1654,
+            "endY": 1653.5433,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3851
+          },
+          "beforeBodySha256": "ebd3fd391409383f0a17d652a50bcd6dd4a6d195ead80055bc293482370ed85c",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J9_RAW",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 1653.5433,
+            "endX": 177.1654,
+            "endY": 1653.5433,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3851
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "8cdd4344caf0f14a",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV3",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 1061.0236,
+            "endX": 589.7638,
+            "endY": 1061.0236,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "21a195a7e3d74a2ad4b4a231ba46513b37750d8035e1e056f90dca398f96e7cf",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J10_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 1061.0236,
+            "endX": 589.7638,
+            "endY": 1061.0236,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "ab36b95cf9bdf103",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV3",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 1061.0236,
+            "endX": 589.7638,
+            "endY": 1102.3622,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "b1a57f1af2a222011eefd1b4187bdcebd374b9cfc19e949ae44be0898b7f001e",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J10_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 1061.0236,
+            "endX": 589.7638,
+            "endY": 1102.3622,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "17a42338d206ea85",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J10-IN)",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 1102.3622,
+            "endX": 177.1654,
+            "endY": 1102.3622,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3852
+          },
+          "beforeBodySha256": "176a9029e143ab6d6fb5ecfd8b15889c160a82c6a9d641a5d3f8c5da12e19a31",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J10_RAW",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 1102.3622,
+            "endX": 177.1654,
+            "endY": 1102.3622,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3852
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "d8c925f97a626e33",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV4",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 509.8425,
+            "endX": 589.7638,
+            "endY": 509.8425,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "6e38956dfa4bf1d896e9121b5563509538c2fad365f5b85f486b1ddb90734ed3",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J11_DRV",
+            "layerId": 1,
+            "startX": 688.9764,
+            "startY": 509.8425,
+            "endX": 589.7638,
+            "endY": 509.8425,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "4258c1fb06b257b4",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC3_DRV4",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 509.8425,
+            "endX": 589.7638,
+            "endY": 551.1811,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "beforeBodySha256": "7bfffdf692cbec3225302c235fafecd624b5320a9421f06970baaee4e7391004",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J11_DRV",
+            "layerId": 1,
+            "startX": 589.7638,
+            "startY": 509.8425,
+            "endX": 589.7638,
+            "endY": 551.1811,
+            "width": 8,
+            "locked": false,
+            "zIndex": -1
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+        },
+        {
+          "type": "LINE",
+          "id": "d8f41bbe7659ae79",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "NET-(J11-IN)",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 551.1811,
+            "endX": 177.1654,
+            "endY": 551.1811,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3853
+          },
+          "beforeBodySha256": "f52d7ae3c8212a1a629e4ac50e1da0710bb846d74087b47f6ee38f5ccad6d142",
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_J11_RAW",
+            "layerId": 1,
+            "startX": 373.2283,
+            "startY": 551.1811,
+            "endX": 177.1654,
+            "endY": 551.1811,
+            "width": 9.8425,
+            "locked": false,
+            "zIndex": 3853
+          },
+          "allowedChangedFields": [
+            "netName"
+          ],
+          "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+        },
+        {
+          "type": "LINE",
+          "id": "99367c2f509621d1",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_BIAS_2V5",
+            "layerId": 1,
+            "startX": 1043.3071,
+            "startY": 3456.6929,
+            "endX": 1011.811,
+            "endY": 3456.6929,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_OFFSET_0V97",
+            "layerId": 1,
+            "startX": 1043.3071,
+            "startY": 3456.6929,
+            "endX": 1011.811,
+            "endY": 3456.6929,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "reason": "Same exact offset trunk centerline union, native collinear identity consolidation only"
+        },
+        {
+          "type": "LINE",
+          "id": "1ce2ed6bd0d072a0",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_BIAS_2V5",
+            "layerId": 1,
+            "startX": 1011.811,
+            "startY": 3673.2283,
+            "endX": 1043.3071,
+            "endY": 3673.2283,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_OFFSET_0V97",
+            "layerId": 1,
+            "startX": 1011.811,
+            "startY": 3673.2283,
+            "endX": 1043.3071,
+            "endY": 3673.2283,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "reason": "Same exact offset trunk centerline union, native collinear identity consolidation only"
+        },
+        {
+          "type": "LINE",
+          "id": "2391d8b2df2cc463",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_BIAS_2V5",
+            "layerId": 1,
+            "startX": 1043.3071,
+            "startY": 3673.2283,
+            "endX": 1043.3071,
+            "endY": 5683.0708,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_OFFSET_0V97",
+            "layerId": 1,
+            "startX": 1043.3071,
+            "startY": 3673.2283,
+            "endX": 1043.3071,
+            "endY": 5683.0708,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "reason": "Same exact offset trunk centerline union, native collinear identity consolidation only"
+        },
+        {
+          "type": "LINE",
+          "id": "5152bf88e05ce803",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_BIAS_2V5",
+            "layerId": 1,
+            "startX": 1043.3071,
+            "startY": 722.4409,
+            "endX": 1043.3071,
+            "endY": 2375.9842,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_OFFSET_0V97",
+            "layerId": 1,
+            "startX": 1043.3071,
+            "startY": 722.4409,
+            "endX": 1043.3071,
+            "endY": 2375.9842,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "reason": "Same exact offset trunk centerline union, native collinear identity consolidation only"
+        },
+        {
+          "type": "LINE",
+          "id": "2dfae3e0e3f002c3",
+          "action": "rename",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_BIAS_2V5",
+            "layerId": 1,
+            "startX": 1011.811,
+            "startY": 3456.6929,
+            "endX": 1011.811,
+            "endY": 3673.2283,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "ADC_OFFSET_0V97",
+            "layerId": 1,
+            "startX": 1011.811,
+            "startY": 3456.6929,
+            "endX": 1011.811,
+            "endY": 3673.2283,
+            "width": 23.622,
+            "locked": false,
+            "zIndex": -1
+          },
+          "reason": "Same exact offset trunk centerline union, native collinear identity consolidation only"
+        }
+      ]
+    }
+  ],
+  "oldPlannedRenameCount": 41,
+  "rebasedNativeRenameCount": 35,
+  "exactRetainedBiasCopperUnion": true,
+  "nativeApiCalls": 0,
+  "manufacturingReady": false
+}

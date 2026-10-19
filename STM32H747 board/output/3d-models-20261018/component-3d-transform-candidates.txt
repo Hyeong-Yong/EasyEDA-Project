@@ -1,0 +1,31 @@
+STM32H747 component 3D candidate plan — not applied
+
+Targets: 412 fitted bodies; excluded: DNP6 + bare test points19.
+Known system mesh: 0402C, model6034de4795654a0c8c74309dab7cb0b9, library0819f05c4eef4c71ace90d822a990e87, root-confirmed C1 pilot.
+Other model family entries are package-equivalent search targets; no unverified UUIDs or exact-MPN claims.
+Native sizeXYZ is COMPLETE mesh extent including leads/balls. Only 0402C size is confirmed; other arrays intentionally contain null XYZ. Retain selected model extents and calibrate its axes/mark before applying rotation/offset candidates.
+
+Unresolved nominal body dimensions (actual model/drawing required): CN1, CN2, CN3, CN4, J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, TR1
+Bottom bodies, native mount-side mirroring required: C80, C81, C82, C86, C87, C88, C93, C94, C96
+
+Critical baked rotation/offset examples:
+C1: family=0402C, local rotZ=180deg, offset=[0.0, 0.0, 0]; Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.
+C5: family=0603C, local rotZ=90deg, offset=[0.0, 0.0, 0]; Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.
+C41: family=TANTALUM_B_3528, local rotZ=270deg, offset=[0.0, 0.0, 0]; Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.
+U2: family=SOT223, local rotZ=180deg, offset=[-1.5749996694000004, 0.0, 0]; Canonical three pins on left row, tab on right; midpoint between lead row and tab.
+U6: family=SOIC8_150MIL, local rotZ=180deg, offset=[0.0, 0.0, 0]; Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.
+U8: family=SOIC16_150MIL, local rotZ=180deg, offset=[0.0, 1.1102230246251565e-16, 0]; Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.
+U9: family=SOIC8_150MIL, local rotZ=0deg, offset=[0.0, 0.0, 0]; Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.
+U10: family=SOT23_5_DBV, local rotZ=0deg, offset=[0.0, 0.0, 0]; Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.
+U5: family=QFN24_4X4_EP, local rotZ=270deg, offset=[0.0, 0.0, 0]; Canonical first side is left with pin1 at +Y, subsequent pins toward -Y; exposed-pad drill holes ignored.
+U7: family=QFN32_5X5_EP, local rotZ=0deg, offset=[0.0, 0.0, 0]; Canonical first side is left with pin1 at +Y, subsequent pins toward -Y; exposed-pad drill holes ignored.
+CN3: family=USB_C_USB4105_GF_A, local rotZ=0deg, offset=[4.0637504958, 0.0, 0]; Source silk-region centroid and opening toward local +X (CN3/CN1/CN2) or +Y (CN4); model shell datum is not established by this bound.
+CN4: family=USB_C_USB4105_GF_A, local rotZ=90deg, offset=[0.0, 4.0637504958, 0]; Source silk-region centroid and opening toward local +X (CN3/CN1/CN2) or +Y (CN4); model shell datum is not established by this bound.
+J2: family=SMA_RA_KWE901, local rotZ=180deg, offset=[0, 0, 0]; Port-axis +X canonical; outward direction is INFERRED from nearest 100x154mm board edge, not determined by the symmetric footprint.
+J12: family=SMA_RA_KWE901, local rotZ=0deg, offset=[0, 0, 0]; Port-axis +X canonical; outward direction is INFERRED from nearest 100x154mm board edge, not determined by the symmetric footprint.
+J16: family=SMA_RA_KWE901, local rotZ=90deg, offset=[0, 0, 0]; Port-axis +X canonical; outward direction is INFERRED from nearest 100x154mm board edge, not determined by the symmetric footprint.
+
+All Z heights except the demonstrated generic 0402C 0.5mm are explicitly unverified representative package candidates.
+SMA16 have only a symmetric land pattern: outward direction is an inference, not a source-proven model orientation.
+U8 is SOIC16 despite the stale SOIC8 package attribute. FTSH J1 is SMD-tail 14-pin, not generic through-hole.
+No CAD, DB, original export, model library, native application, bridge or unrelated project was modified.

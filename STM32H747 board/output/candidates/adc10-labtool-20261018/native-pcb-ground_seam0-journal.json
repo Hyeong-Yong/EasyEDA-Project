@@ -1,0 +1,62 @@
+{
+  "stage": "ground_seam0",
+  "state": "captured-requires-independent-geometry-audit",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-ground-seam-four-line-execution-proposal-v1.json",
+  "manifestHash": "7e68822c1fc7000b0366b30edabbcd6124b4da6b4951a49b77f29b81530ba513",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+  "priorHash": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+  "touched": [
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "LEGACY_GND_SEAM_BRIDGE_3",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "LEGACY_GND_SEAM_BRIDGE_4",
+      "action": "line"
+    }
+  ],
+  "created": [
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "type": "LINE",
+      "id": "1d2f4c979f086326"
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "type": "LINE",
+      "id": "e273a4afad415a1c"
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_3",
+      "type": "LINE",
+      "id": "45f4cf971c4f5355"
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_4",
+      "type": "LINE",
+      "id": "d62f70872e023378"
+    }
+  ],
+  "failure": null,
+  "neverBlindlyRetry": true
+}

@@ -1,0 +1,1502 @@
+{
+  "schema": "adc10-labtool-sixlayer-via-port-search-20261018-v1",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "placementPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-proposal.json",
+  "placementSha256": "be087af54f11357a2cb331b41a7b1879fe0c6663e7c61422d09c6ac48c49d6ce",
+  "routePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-row310-initial-placement-route-draft.json",
+  "routeSha256": "bea05171d807ea639e982fca1fb284b38c5daf3e70f0138deb7efd38ed853083",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "status": "VIA_PORTS_ONLY_NOT_CONNECTED_ROUTING",
+  "existingPhysicalDrillsChecked": 799,
+  "existingViasPreserved": 640,
+  "viasProposed": [
+    {
+      "key": "AFE_PLUS_PORT_J2",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        138.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J2",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        135.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J3",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        124.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J3",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        121.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J4",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        110.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J4",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        107.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J5",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        96.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J5",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        93.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J6",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        82.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J6",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        79.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J7",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        68.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J7",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        65.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J8",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        54.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J8",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        51.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J9",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        40.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J9",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        37.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J10",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        26.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J10",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        23.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J11",
+      "net": "+5V_AFE",
+      "xyMm": [
+        15.5,
+        12.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J11",
+      "net": "-3V_AFE",
+      "xyMm": [
+        8.9,
+        9.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "OFFSET_OUTPUT_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "xyMm": [
+        24.6,
+        67.9
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "OFFSET_UPPER_BUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "xyMm": [
+        25.4,
+        87.0
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "OFFSET_LOWER_BUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "xyMm": [
+        26.3,
+        61.2
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "OFFSET_BUCKET_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "xyMm": [
+        30.4,
+        83.5
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "5277e1b9c83312a9",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "a1d7888349e74585",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    },
+    {
+      "key": "REF_PLUS_PORT",
+      "net": "+5V_AFE",
+      "xyMm": [
+        29.0,
+        72.9
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "a1d7888349e74585",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true
+    }
+  ],
+  "failedPorts": [],
+  "viaDiameterMm": 0.45,
+  "holeDiameterMm": 0.2,
+  "nonFillClearanceMm": 0.17,
+  "drillEdgeGapMm": 0.301,
+  "limitations": [
+    "EachnewVIArequiresliteralstaticFILLantipadsonEVERYlistedlayerbeforeapplying;thisreportdoesnotyetcontainBooleanpathupdates.",
+    "PortsarenotyetconnectedtoSMTpadsorBottomrailtrunks;TOP/BOTTOMstubsandtrunkmutualclearanceareseparatelaterwork.",
+    "All799oldholesand640VIAsarekeptunchanged. Drillslotswereconservativelyscreenedbyrotatedrectangle.",
+    "ThisisnotnativeDRCnorverificationofcompletedpower/offsetconnectivity."
+  ],
+  "manufacturingReady": false
+}

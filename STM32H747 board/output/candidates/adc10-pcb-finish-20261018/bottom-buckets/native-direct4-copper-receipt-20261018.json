@@ -1,0 +1,212 @@
+{
+  "stage": "copper",
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/bottom-buckets/direct4-native-operations-ready-for-calibration.json",
+  "manifestHash": "4e4fc49361130701128842d65bf9fd9d6b9a5f5541b1f0348f6290bc71f5a766",
+  "priorPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-direct4_move-20261018.epru",
+  "priorHash": "4325076c10e2d6e7c1b923952fd3e4e3efd0a1f6ecfc74727dd7b7911af34631",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-direct4_copper-20261018.epru",
+  "sourceSha256": "f4c4fd15b00355d60b78391249c64aff1dd99903597fdbf937ed5dbb48c9fc4a",
+  "containmentPassed": true,
+  "padChecks": [
+    {
+      "ref": "C88",
+      "number": "1",
+      "net": "ADC2_INP13",
+      "layer": 2,
+      "xyMm": [
+        52.76087999999999,
+        82.99958
+      ],
+      "expected": {
+        "net": "ADC2_INP13",
+        "xyMm": [
+          52.76,
+          83
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C88",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        53.721,
+        82.99958
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          53.72,
+          83
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C81",
+      "number": "1",
+      "net": "ADC1_INP1",
+      "layer": 2,
+      "xyMm": [
+        56.72073999999999,
+        82.44077999999999
+      ],
+      "expected": {
+        "net": "ADC1_INP1",
+        "xyMm": [
+          56.72,
+          82.44
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C81",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        55.76062,
+        82.44077999999999
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          55.76,
+          82.44
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C86",
+      "number": "1",
+      "net": "ADC2_INP3",
+      "layer": 2,
+      "xyMm": [
+        56.11876,
+        83.79968
+      ],
+      "expected": {
+        "net": "ADC2_INP3",
+        "xyMm": [
+          56.12,
+          83.8
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C86",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        57.07887999999999,
+        83.79968
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          57.08,
+          83.8
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C96",
+      "number": "1",
+      "net": "ADC3_INP8",
+      "layer": 2,
+      "xyMm": [
+        51.239419999999996,
+        80.20049999999999
+      ],
+      "expected": {
+        "net": "ADC3_INP8",
+        "xyMm": [
+          51.24,
+          80.2
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C96",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        51.239419999999996,
+        79.24037999999999
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          51.24,
+          79.24
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "created": [
+    {
+      "type": "FILL",
+      "semanticId": "647c91cbbc161db2:retained-lobe:1",
+      "id": "23f25be226b43a88"
+    },
+    {
+      "type": "LINE",
+      "ref": "C88",
+      "id": "33644e3e64e7f4c4"
+    },
+    {
+      "type": "LINE",
+      "ref": "C81",
+      "id": "33d245a364471353"
+    },
+    {
+      "type": "LINE",
+      "ref": "C81",
+      "id": "94909ccac2232c79"
+    },
+    {
+      "type": "LINE",
+      "ref": "C86",
+      "id": "c29455266bae761b"
+    },
+    {
+      "type": "LINE",
+      "ref": "C86",
+      "id": "7bef6b60ba9b9e47"
+    },
+    {
+      "type": "LINE",
+      "ref": "C86",
+      "id": "77e752f95452f5de"
+    },
+    {
+      "type": "LINE",
+      "ref": "C96",
+      "id": "164f1a5c76589847"
+    }
+  ],
+  "changes": [
+    {
+      "key": "FILL:647c91cbbc161db2",
+      "fields": [
+        "path",
+        "refs"
+      ],
+      "allowed": true
+    }
+  ],
+  "issues": [],
+  "requiresIndependentGeometryGroundAndNativeDRC": true,
+  "saved": false,
+  "manufacturingReady": false
+}

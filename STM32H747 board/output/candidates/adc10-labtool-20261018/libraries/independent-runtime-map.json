@@ -1,0 +1,1952 @@
+{
+  "schema": "adc10-labtool-runtime-library-map-20261018-v1",
+  "checkpoint": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_libraries_20261018.epro2",
+  "checkpointSha256": "51632b1711f81a2a0f6fc0c6efce134e2f09622111fb4abd02a92d5b6c0d7f7a",
+  "symbols": {
+    "OPA189": {
+      "uuid": "d88aabc8539c0d8a",
+      "title": "STM_H747_ADC_LABTOOL_20261018_OPA189IDBVR",
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT",
+          "primitiveId": "aa5320a20ea645e0",
+          "x": 45,
+          "y": 0,
+          "length": 20,
+          "rotation": 180,
+          "electric": "OUT",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "V-",
+          "primitiveId": "732fb08e73fdc4ef",
+          "x": 0,
+          "y": 35,
+          "length": 20,
+          "rotation": 270,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "+IN",
+          "primitiveId": "59e374be40dd40c1",
+          "x": -40,
+          "y": -10,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "4",
+          "name": "-IN",
+          "primitiveId": "ac15f98a615d3178",
+          "x": -40,
+          "y": 10,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "5",
+          "name": "V+",
+          "primitiveId": "7e780a17760f196d",
+          "x": 0,
+          "y": -35,
+          "length": 20,
+          "rotation": 90,
+          "electric": "Power",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive Y down in symbol-local source",
+      "datasheetPinPage": 5,
+      "visibleValue": "OPA189IDBVR",
+      "oldUuid": "dc41940006994da0",
+      "source": "dc41940006994da0|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_OPA189IDBVR",
+        "description": "preferred bipolar input follower",
+        "tags": [],
+        "docType": 2,
+        "source": "dc41940006994da0|project"
+      }
+    },
+    "OPA192": {
+      "uuid": "34cc480f1398743e",
+      "title": "STM_H747_ADC_LABTOOL_20261018_OPA192IDBVR",
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT",
+          "primitiveId": "409c2c1c3c3ad525",
+          "x": 45,
+          "y": 0,
+          "length": 20,
+          "rotation": 180,
+          "electric": "OUT",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "V-",
+          "primitiveId": "85a4d36b761eae24",
+          "x": 0,
+          "y": 35,
+          "length": 20,
+          "rotation": 270,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "+IN",
+          "primitiveId": "eea4c7d86a77bf53",
+          "x": -40,
+          "y": -10,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "4",
+          "name": "-IN",
+          "primitiveId": "02943db46d906447",
+          "x": -40,
+          "y": 10,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "5",
+          "name": "V+",
+          "primitiveId": "51ac6ca7a8ad08bb",
+          "x": 0,
+          "y": -35,
+          "length": 20,
+          "rotation": 90,
+          "electric": "Power",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive Y down in symbol-local source",
+      "datasheetPinPage": 4,
+      "visibleValue": "OPA192IDBVR",
+      "oldUuid": "ae8871b66cfd9957",
+      "source": "ae8871b66cfd9957|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_OPA192IDBVR",
+        "description": "unused alternative only; no circuit-selection claim",
+        "tags": [],
+        "docType": 2,
+        "source": "ae8871b66cfd9957|project"
+      }
+    },
+    "REF5025": {
+      "uuid": "6974e3eb2382cdd0",
+      "title": "STM_H747_ADC_LABTOOL_20261018_REF5025AID",
+      "pins": [
+        {
+          "number": "1",
+          "name": "DNC",
+          "primitiveId": "b4d9a3298548a9d2",
+          "x": -60,
+          "y": -30,
+          "length": 25,
+          "rotation": 0,
+          "electric": "Passive",
+          "partId": "A",
+          "mustRemainUnconnected": true,
+          "connectionContract": "DNC: do not connect, including GND"
+        },
+        {
+          "number": "2",
+          "name": "VIN",
+          "primitiveId": "4a99656c3b0a1db3",
+          "x": -60,
+          "y": -10,
+          "length": 25,
+          "rotation": 0,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "TEMP",
+          "primitiveId": "715a29c7f7485b08",
+          "x": -60,
+          "y": 10,
+          "length": 25,
+          "rotation": 0,
+          "electric": "OUT",
+          "partId": "A"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "primitiveId": "cacd96501410c329",
+          "x": -60,
+          "y": 30,
+          "length": 25,
+          "rotation": 0,
+          "electric": "Ground",
+          "partId": "A"
+        },
+        {
+          "number": "5",
+          "name": "TRIM/NR",
+          "primitiveId": "c41e2c484367a605",
+          "x": 60,
+          "y": 30,
+          "length": 25,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A"
+        },
+        {
+          "number": "6",
+          "name": "VOUT",
+          "primitiveId": "14a142346111b429",
+          "x": 60,
+          "y": 10,
+          "length": 25,
+          "rotation": 180,
+          "electric": "OUT",
+          "partId": "A"
+        },
+        {
+          "number": "7",
+          "name": "NC",
+          "primitiveId": "dd72e25e100f374a",
+          "x": 60,
+          "y": -10,
+          "length": 25,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A",
+          "unusedPhysicalPin": true
+        },
+        {
+          "number": "8",
+          "name": "DNC",
+          "primitiveId": "a31d98dd2e26d2f4",
+          "x": 60,
+          "y": -30,
+          "length": 25,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A",
+          "mustRemainUnconnected": true,
+          "connectionContract": "DNC: do not connect, including GND"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive Y down in symbol-local source",
+      "datasheetPinPage": 4,
+      "visibleValue": "REF5025AID",
+      "oldUuid": "bb55f69bdf95bde9",
+      "source": "bb55f69bdf95bde9|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_REF5025AID",
+        "description": "2.5 V AI-generation reference, not EI",
+        "tags": [],
+        "docType": 2,
+        "source": "bb55f69bdf95bde9|project"
+      }
+    },
+    "TPS60403": {
+      "uuid": "ecbfbd9acd795916",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TPS60403DBVR",
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT",
+          "primitiveId": "15f0b3361a3128b5",
+          "x": 50,
+          "y": -15,
+          "length": 20,
+          "rotation": 180,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "IN",
+          "primitiveId": "adf84958069e5038",
+          "x": -50,
+          "y": -15,
+          "length": 20,
+          "rotation": 0,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "CFLY-",
+          "primitiveId": "adb97dafde3565b5",
+          "x": -50,
+          "y": 20,
+          "length": 20,
+          "rotation": 0,
+          "electric": "Passive",
+          "partId": "A"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "primitiveId": "a3b2aaf50e7a798b",
+          "x": 0,
+          "y": 55,
+          "length": 20,
+          "rotation": 270,
+          "electric": "Ground",
+          "partId": "A"
+        },
+        {
+          "number": "5",
+          "name": "CFLY+",
+          "primitiveId": "e3d693213abfd3c6",
+          "x": 50,
+          "y": 20,
+          "length": 20,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive Y down in symbol-local source",
+      "datasheetPinPage": 3,
+      "visibleValue": "TPS60403DBVR",
+      "oldUuid": "3faf63c25c7bca3b",
+      "source": "3faf63c25c7bca3b|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TPS60403DBVR",
+        "description": "inverting switched-capacitor supply",
+        "tags": [],
+        "docType": 2,
+        "source": "3faf63c25c7bca3b|project"
+      }
+    },
+    "TPS72301": {
+      "uuid": "588033bcaa777028",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TPS72301DBVR",
+      "pins": [
+        {
+          "number": "1",
+          "name": "GND",
+          "primitiveId": "15f0d4be57d1ca9b",
+          "x": 0,
+          "y": 55,
+          "length": 20,
+          "rotation": 270,
+          "electric": "Ground",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "IN",
+          "primitiveId": "b08a7d809d07b31d",
+          "x": -50,
+          "y": -15,
+          "length": 20,
+          "rotation": 0,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "EN",
+          "primitiveId": "bc4dd8b05794da4e",
+          "x": -50,
+          "y": 15,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "4",
+          "name": "FB",
+          "primitiveId": "b323991bf34d1a2c",
+          "x": 50,
+          "y": 15,
+          "length": 20,
+          "rotation": 180,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "5",
+          "name": "OUT",
+          "primitiveId": "f284f8e901338d2a",
+          "x": 50,
+          "y": -15,
+          "length": 20,
+          "rotation": 180,
+          "electric": "Power",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive Y down in symbol-local source",
+      "datasheetPinPage": 3,
+      "visibleValue": "TPS72301DBVR",
+      "oldUuid": "0a89b927c7ffa349",
+      "source": "0a89b927c7ffa349|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TPS72301DBVR",
+        "description": "adjustable negative LDO; pin4 FB, not NR",
+        "tags": [],
+        "docType": 2,
+        "source": "0a89b927c7ffa349|project"
+      }
+    },
+    "TPS7A2033": {
+      "uuid": "90e4d36b8ad648b0",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TPS7A2033PDBVR",
+      "pins": [
+        {
+          "number": "1",
+          "name": "IN",
+          "primitiveId": "6861e0e6f709794c",
+          "x": -50,
+          "y": -15,
+          "length": 20,
+          "rotation": 0,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "primitiveId": "e33de3ae874f9b0d",
+          "x": 0,
+          "y": 55,
+          "length": 20,
+          "rotation": 270,
+          "electric": "Ground",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "EN",
+          "primitiveId": "635a00df24dec44f",
+          "x": -50,
+          "y": 15,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "4",
+          "name": "NC",
+          "primitiveId": "130e914acf1aff3a",
+          "x": 50,
+          "y": 15,
+          "length": 20,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A",
+          "unusedPhysicalPin": true
+        },
+        {
+          "number": "5",
+          "name": "OUT",
+          "primitiveId": "c9d37bf8acf212da",
+          "x": 50,
+          "y": -15,
+          "length": 20,
+          "rotation": 180,
+          "electric": "Power",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive Y down in symbol-local source",
+      "datasheetPinPage": 4,
+      "visibleValue": "TPS7A2033PDBVR",
+      "oldUuid": "dd976907aab2643d",
+      "source": "dd976907aab2643d|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TPS7A2033PDBVR",
+        "description": "3.3 V quiet LDO candidate; use not decided by this library",
+        "tags": [],
+        "docType": 2,
+        "source": "dd976907aab2643d|project"
+      }
+    }
+  },
+  "footprints": {
+    "DBV5": {
+      "uuid": "1c0ec0589eac1479",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+      "pads": [
+        {
+          "number": "1",
+          "centerMm": [
+            -1.2999999908,
+            0.950000005
+          ],
+          "copperSizeMm": [
+            1.1000000098,
+            0.5999999937999999
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "1",
+            "centerX": -51.181102,
+            "centerY": 37.401575,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 43.307087,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 1,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "2",
+          "centerMm": [
+            -1.2999999908,
+            0.0
+          ],
+          "copperSizeMm": [
+            1.1000000098,
+            0.5999999937999999
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "2",
+            "centerX": -51.181102,
+            "centerY": 0.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 43.307087,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 2,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "3",
+          "centerMm": [
+            -1.2999999908,
+            -0.950000005
+          ],
+          "copperSizeMm": [
+            1.1000000098,
+            0.5999999937999999
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "3",
+            "centerX": -51.181102,
+            "centerY": -37.401575,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 43.307087,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 3,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "4",
+          "centerMm": [
+            1.2999999908,
+            -0.950000005
+          ],
+          "copperSizeMm": [
+            1.1000000098,
+            0.5999999937999999
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "4",
+            "centerX": 51.181102,
+            "centerY": -37.401575,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 43.307087,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 4,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "5",
+          "centerMm": [
+            1.2999999908,
+            0.950000005
+          ],
+          "copperSizeMm": [
+            1.1000000098,
+            0.5999999937999999
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "5",
+            "centerX": 51.181102,
+            "centerY": 37.401575,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 43.307087,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 5,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        }
+      ],
+      "cloneSourceUuid": "6bb29ef4f7785623",
+      "drawing": "TI DBV0005A 4214839/K 08/2024",
+      "geometryOrigin": "Exact existing copper/body/assembly geometry; new META and primitive identities only",
+      "coordinateUnit": "mil, positive Y up, top view",
+      "manufacturingApproval": false,
+      "bodySizeMm": [
+        1.6,
+        2.9
+      ],
+      "courtyardMm": [
+        4.2,
+        3.6
+      ],
+      "oldUuid": "665d75ea1c89b3ab",
+      "source": "665d75ea1c89b3ab|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+        "description": "New-identity exact geometry clone of verified DBV0005A land pattern",
+        "tags": [],
+        "source": "665d75ea1c89b3ab|project"
+      }
+    },
+    "SOIC8": {
+      "uuid": "4db9a138dc2b9021",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27",
+      "pads": [
+        {
+          "number": "1",
+          "centerMm": [
+            -2.7,
+            1.905
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "1",
+            "centerX": -106.299213,
+            "centerY": 75.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 1,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "2",
+          "centerMm": [
+            -2.7,
+            0.635
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "2",
+            "centerX": -106.299213,
+            "centerY": 25.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 2,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "3",
+          "centerMm": [
+            -2.7,
+            -0.635
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "3",
+            "centerX": -106.299213,
+            "centerY": -25.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 3,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "4",
+          "centerMm": [
+            -2.7,
+            -1.905
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "4",
+            "centerX": -106.299213,
+            "centerY": -75.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 4,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "5",
+          "centerMm": [
+            2.7,
+            -1.905
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "5",
+            "centerX": 106.299213,
+            "centerY": -75.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 5,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "6",
+          "centerMm": [
+            2.7,
+            -0.635
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "6",
+            "centerX": 106.299213,
+            "centerY": -25.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 6,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "7",
+          "centerMm": [
+            2.7,
+            0.635
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "7",
+            "centerX": 106.299213,
+            "centerY": 25.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 7,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "8",
+          "centerMm": [
+            2.7,
+            1.905
+          ],
+          "copperSizeMm": [
+            1.55,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0,
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "8",
+            "centerX": 106.299213,
+            "centerY": 75.0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 61.023622,
+              "height": 23.622047,
+              "radius": 1.968504
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 8,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        }
+      ],
+      "drawing": "TI D0008A 4214825/C 02/2019",
+      "coordinateUnit": "mil, positive Y up, top view",
+      "geometryOrigin": "Official TI example land pattern, REF50 PDF physical page47",
+      "bodySizeMm": [
+        3.9,
+        4.9
+      ],
+      "courtyardMm": [
+        7.5,
+        5.4
+      ],
+      "manufacturingApproval": false,
+      "notes": [
+        "Pad row centre separation5.4mm, pitch1.27mm, pad1.55x0.60mm.",
+        "Courtyard/assembly outlines are project-local; assembler approval required."
+      ],
+      "oldUuid": "348c1912c89a3f1b",
+      "source": "348c1912c89a3f1b|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27",
+        "description": "TI D0008A 4214825/C 02/2019 example land pattern; assembly approval pending",
+        "tags": [],
+        "source": "348c1912c89a3f1b|project"
+      }
+    }
+  },
+  "devices": {
+    "OPA189": {
+      "uuid": "9c280860627eeb37",
+      "title": "STM_H747_ADC_LABTOOL_20261018_OPA189IDBVR",
+      "symbolUuid": "d88aabc8539c0d8a",
+      "footprintUuid": "1c0ec0589eac1479",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "d88aabc8539c0d8a",
+        "Footprint": "1c0ec0589eac1479",
+        "Value": "OPA189IDBVR",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "OPA189IDBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/opa189.pdf",
+        "Description": "preferred bipolar input follower",
+        "Datasheet Revision": "SBOS830I October 2021"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "oldUuid": "e2b7d42a53ad7229",
+      "source": "e2b7d42a53ad7229|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_OPA189IDBVR",
+        "tags": [],
+        "source": "e2b7d42a53ad7229|project",
+        "images": [
+          ""
+        ],
+        "attributes": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "U?",
+          "Symbol": "d88aabc8539c0d8a",
+          "Footprint": "1c0ec0589eac1479",
+          "Value": "OPA189IDBVR",
+          "Name": "={Value}",
+          "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+          "DNP": "no",
+          "Manufacturer": "Texas Instruments",
+          "Part Number": "OPA189IDBVR",
+          "Datasheet": "https://www.ti.com/lit/ds/symlink/opa189.pdf",
+          "Description": "preferred bipolar input follower",
+          "Datasheet Revision": "SBOS830I October 2021"
+        }
+      }
+    },
+    "OPA192": {
+      "uuid": "ffa25e0442bf7e1b",
+      "title": "STM_H747_ADC_LABTOOL_20261018_OPA192IDBVR",
+      "symbolUuid": "34cc480f1398743e",
+      "footprintUuid": "1c0ec0589eac1479",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "34cc480f1398743e",
+        "Footprint": "1c0ec0589eac1479",
+        "Value": "OPA192IDBVR",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "OPA192IDBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/opa192.pdf",
+        "Description": "unused alternative only; no circuit-selection claim",
+        "Datasheet Revision": "SBOS620E November 2015"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "oldUuid": "19c147ff41f34083",
+      "source": "19c147ff41f34083|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_OPA192IDBVR",
+        "tags": [],
+        "source": "19c147ff41f34083|project",
+        "images": [
+          ""
+        ],
+        "attributes": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "U?",
+          "Symbol": "34cc480f1398743e",
+          "Footprint": "1c0ec0589eac1479",
+          "Value": "OPA192IDBVR",
+          "Name": "={Value}",
+          "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+          "DNP": "no",
+          "Manufacturer": "Texas Instruments",
+          "Part Number": "OPA192IDBVR",
+          "Datasheet": "https://www.ti.com/lit/ds/symlink/opa192.pdf",
+          "Description": "unused alternative only; no circuit-selection claim",
+          "Datasheet Revision": "SBOS620E November 2015"
+        }
+      }
+    },
+    "REF5025": {
+      "uuid": "1b815ecc84ae96b0",
+      "title": "STM_H747_ADC_LABTOOL_20261018_REF5025AID",
+      "symbolUuid": "6974e3eb2382cdd0",
+      "footprintUuid": "4db9a138dc2b9021",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "6974e3eb2382cdd0",
+        "Footprint": "4db9a138dc2b9021",
+        "Value": "REF5025AID",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "REF5025AID",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+        "Description": "2.5 V AI-generation reference, not EI",
+        "Datasheet Revision": "SBOS410O October 2025",
+        "Output Voltage": "2.5 V",
+        "Connection Constraint": "Pins1 and8 DNC; pin7 NC; not REF5025EI pinmap"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8"
+      },
+      "oldUuid": "ec9aa0e566f07a8a",
+      "source": "ec9aa0e566f07a8a|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_REF5025AID",
+        "tags": [],
+        "source": "ec9aa0e566f07a8a|project",
+        "images": [
+          ""
+        ],
+        "attributes": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "U?",
+          "Symbol": "6974e3eb2382cdd0",
+          "Footprint": "4db9a138dc2b9021",
+          "Value": "REF5025AID",
+          "Name": "={Value}",
+          "Package": "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27",
+          "DNP": "no",
+          "Manufacturer": "Texas Instruments",
+          "Part Number": "REF5025AID",
+          "Datasheet": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+          "Description": "2.5 V AI-generation reference, not EI",
+          "Datasheet Revision": "SBOS410O October 2025",
+          "Output Voltage": "2.5 V",
+          "Connection Constraint": "Pins1 and8 DNC; pin7 NC; not REF5025EI pinmap"
+        }
+      }
+    },
+    "TPS60403": {
+      "uuid": "27722bfcb8401f45",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TPS60403DBVR",
+      "symbolUuid": "ecbfbd9acd795916",
+      "footprintUuid": "1c0ec0589eac1479",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "ecbfbd9acd795916",
+        "Footprint": "1c0ec0589eac1479",
+        "Value": "TPS60403DBVR",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "TPS60403DBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps60403.pdf",
+        "Description": "inverting switched-capacitor supply",
+        "Datasheet Revision": "SLVS324C October 2020"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "oldUuid": "f0966db0fa6cec43",
+      "source": "f0966db0fa6cec43|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TPS60403DBVR",
+        "tags": [],
+        "source": "f0966db0fa6cec43|project",
+        "images": [
+          ""
+        ],
+        "attributes": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "U?",
+          "Symbol": "ecbfbd9acd795916",
+          "Footprint": "1c0ec0589eac1479",
+          "Value": "TPS60403DBVR",
+          "Name": "={Value}",
+          "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+          "DNP": "no",
+          "Manufacturer": "Texas Instruments",
+          "Part Number": "TPS60403DBVR",
+          "Datasheet": "https://www.ti.com/lit/ds/symlink/tps60403.pdf",
+          "Description": "inverting switched-capacitor supply",
+          "Datasheet Revision": "SLVS324C October 2020"
+        }
+      }
+    },
+    "TPS72301": {
+      "uuid": "14469493e0b7e4f4",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TPS72301DBVR",
+      "symbolUuid": "588033bcaa777028",
+      "footprintUuid": "1c0ec0589eac1479",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "588033bcaa777028",
+        "Footprint": "1c0ec0589eac1479",
+        "Value": "TPS72301DBVR",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "TPS72301DBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps723.pdf",
+        "Description": "adjustable negative LDO; pin4 FB, not NR",
+        "Datasheet Revision": "SLVS346E March 2026"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "oldUuid": "348fc5ed022fae72",
+      "source": "348fc5ed022fae72|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TPS72301DBVR",
+        "tags": [],
+        "source": "348fc5ed022fae72|project",
+        "images": [
+          ""
+        ],
+        "attributes": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "U?",
+          "Symbol": "588033bcaa777028",
+          "Footprint": "1c0ec0589eac1479",
+          "Value": "TPS72301DBVR",
+          "Name": "={Value}",
+          "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+          "DNP": "no",
+          "Manufacturer": "Texas Instruments",
+          "Part Number": "TPS72301DBVR",
+          "Datasheet": "https://www.ti.com/lit/ds/symlink/tps723.pdf",
+          "Description": "adjustable negative LDO; pin4 FB, not NR",
+          "Datasheet Revision": "SLVS346E March 2026"
+        }
+      }
+    },
+    "TPS7A2033": {
+      "uuid": "7a88f3a14361c247",
+      "title": "STM_H747_ADC_LABTOOL_20261018_TPS7A2033PDBVR",
+      "symbolUuid": "90e4d36b8ad648b0",
+      "footprintUuid": "1c0ec0589eac1479",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "90e4d36b8ad648b0",
+        "Footprint": "1c0ec0589eac1479",
+        "Value": "TPS7A2033PDBVR",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "TPS7A2033PDBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+        "Description": "3.3 V quiet LDO candidate; use not decided by this library",
+        "Datasheet Revision": "SBVS338H July 2024"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "oldUuid": "718bd0bf2b4ecb93",
+      "source": "718bd0bf2b4ecb93|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_20261018_TPS7A2033PDBVR",
+        "tags": [],
+        "source": "718bd0bf2b4ecb93|project",
+        "images": [
+          ""
+        ],
+        "attributes": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "U?",
+          "Symbol": "90e4d36b8ad648b0",
+          "Footprint": "1c0ec0589eac1479",
+          "Value": "TPS7A2033PDBVR",
+          "Name": "={Value}",
+          "Package": "STM_H747_ADC_LABTOOL_20261018_TI_DBV0005A_SOT23_5",
+          "DNP": "no",
+          "Manufacturer": "Texas Instruments",
+          "Part Number": "TPS7A2033PDBVR",
+          "Datasheet": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+          "Description": "3.3 V quiet LDO candidate; use not decided by this library",
+          "Datasheet Revision": "SBVS338H July 2024"
+        }
+      }
+    }
+  },
+  "passiveReferences": {
+    "resistor": {
+      "symbolUuid": "ae94444fd364ffa4",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "templateDeviceUuid": "2d40687691bef84f",
+      "pins": [
+        {
+          "number": "1",
+          "x": -15,
+          "y": 0
+        },
+        {
+          "number": "2",
+          "x": 15,
+          "y": 0
+        }
+      ],
+      "nativePadCoordinatesMil": [
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 1,
+          "num": "1",
+          "centerX": -20.078701,
+          "centerY": 0,
+          "padAngle": 0,
+          "hole": null,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 21.259843,
+            "height": 25.19685,
+            "radius": 0
+          },
+          "specialPad": [],
+          "padOffsetX": 0,
+          "padOffsetY": 0,
+          "relativeAngle": 0,
+          "plated": true,
+          "padType": "NORMAL",
+          "topSolderExpansion": null,
+          "bottomSolderExpansion": null,
+          "topPasteExpansion": null,
+          "bottomPasteExpansion": null,
+          "locked": false,
+          "zIndex": 1,
+          "connectMode": null,
+          "spokeSpace": null,
+          "spokeWidth": null,
+          "spokeAngle": null,
+          "unusedInnerLayers": [],
+          "padLen": 0,
+          "propagationDelay": 0
+        },
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 1,
+          "num": "2",
+          "centerX": 20.078701,
+          "centerY": 0,
+          "padAngle": 0,
+          "hole": null,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 21.259843,
+            "height": 25.19685,
+            "radius": 0
+          },
+          "specialPad": [],
+          "padOffsetX": 0,
+          "padOffsetY": 0,
+          "relativeAngle": 0,
+          "plated": true,
+          "padType": "NORMAL",
+          "topSolderExpansion": null,
+          "bottomSolderExpansion": null,
+          "topPasteExpansion": null,
+          "bottomPasteExpansion": null,
+          "locked": false,
+          "zIndex": 2,
+          "connectMode": null,
+          "spokeSpace": null,
+          "spokeWidth": null,
+          "spokeAngle": null,
+          "unusedInnerLayers": [],
+          "padLen": 0,
+          "propagationDelay": 0
+        }
+      ],
+      "newValues": {
+        "R1M": "1M",
+        "R3K32": "3.32k",
+        "R3K": "3k",
+        "R4K": "4k",
+        "R16K5": "16.5k",
+        "R10K": "10k"
+      },
+      "negativeFeedbackResistors": "same generic resistor symbol and0402 footprint, value chosen by circuit owner",
+      "instanceOverrideWarning": "Template device carries6.8k metadata. Override Value, Part Number/Description as appropriate; do not represent template procurement identity as the new resistor MPN."
+    },
+    "capacitor": {
+      "symbolUuid": "4aa7dcf070817259",
+      "footprintUuid": "33204de9fd4fd5be",
+      "pins": [
+        {
+          "number": "1",
+          "x": 0,
+          "y": -10
+        },
+        {
+          "number": "2",
+          "x": 0,
+          "y": 10
+        }
+      ],
+      "existingDevices": {
+        "C2N2": {
+          "uuid": "a0bf9e1eefd12cf2",
+          "title": "STM_H747_ADC_DC_20261016_ADC_DC_C2N2_C0G_0402",
+          "symbolUuid": "4aa7dcf070817259",
+          "footprintUuid": "33204de9fd4fd5be",
+          "attributes": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Designator": "C?",
+            "Symbol": "4aa7dcf070817259",
+            "Footprint": "33204de9fd4fd5be",
+            "Value": "2.2nF",
+            "Name": "={Value}",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+            "DNP": "no",
+            "Dielectric": "C0G/NP0",
+            "Tolerance": "5%",
+            "Voltage Rating": "25 V or greater"
+          },
+          "pinToPad": {
+            "1": "1",
+            "2": "2"
+          },
+          "oldUuid": "693207fa8abf1eb0",
+          "source": "693207fa8abf1eb0|project",
+          "runtimeMeta": {
+            "title": "STM_H747_ADC_DC_20261016_ADC_DC_C2N2_C0G_0402",
+            "tags": [],
+            "source": "693207fa8abf1eb0|project",
+            "images": [
+              ""
+            ],
+            "attributes": {
+              "Convert to PCB": "yes",
+              "Add into BOM": "yes",
+              "Designator": "C?",
+              "Symbol": "4aa7dcf070817259",
+              "Footprint": "33204de9fd4fd5be",
+              "Value": "2.2nF",
+              "Name": "={Value}",
+              "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+              "DNP": "no",
+              "Dielectric": "C0G/NP0",
+              "Tolerance": "5%",
+              "Voltage Rating": "25 V or greater"
+            }
+          }
+        },
+        "C10N": {
+          "uuid": "f1791ce49e92dfa2",
+          "title": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+          "symbolUuid": "4aa7dcf070817259",
+          "footprintUuid": "33204de9fd4fd5be",
+          "attributes": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Designator": "C?",
+            "Symbol": "4aa7dcf070817259",
+            "Footprint": "33204de9fd4fd5be",
+            "Value": "10nF",
+            "Name": "={Value}",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+            "DNP": "no",
+            "Dielectric": "C0G/NP0",
+            "Tolerance": "5%",
+            "Voltage Rating": "25 V or greater"
+          },
+          "pinToPad": {
+            "1": "1",
+            "2": "2"
+          },
+          "oldUuid": "1ed58e97c3223741",
+          "source": "1ed58e97c3223741|project",
+          "runtimeMeta": {
+            "title": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+            "tags": [],
+            "source": "1ed58e97c3223741|project",
+            "images": [
+              ""
+            ],
+            "attributes": {
+              "Convert to PCB": "yes",
+              "Add into BOM": "yes",
+              "Designator": "C?",
+              "Symbol": "4aa7dcf070817259",
+              "Footprint": "33204de9fd4fd5be",
+              "Value": "10nF",
+              "Name": "={Value}",
+              "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+              "DNP": "no",
+              "Dielectric": "C0G/NP0",
+              "Tolerance": "5%",
+              "Voltage Rating": "25 V or greater"
+            }
+          }
+        },
+        "C100N": {
+          "uuid": "e3597e52f81b1940",
+          "title": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+          "symbolUuid": "4aa7dcf070817259",
+          "footprintUuid": "33204de9fd4fd5be",
+          "attributes": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Designator": "C?",
+            "Symbol": "4aa7dcf070817259",
+            "Footprint": "33204de9fd4fd5be",
+            "Value": "100nF",
+            "Name": "={Value}",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+            "DNP": "no",
+            "Dielectric": "X7R",
+            "Voltage Rating": "10 V or greater"
+          },
+          "pinToPad": {
+            "1": "1",
+            "2": "2"
+          },
+          "oldUuid": "e52090184ad57945",
+          "source": "e52090184ad57945|project",
+          "runtimeMeta": {
+            "title": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+            "tags": [],
+            "source": "e52090184ad57945|project",
+            "images": [
+              ""
+            ],
+            "attributes": {
+              "Convert to PCB": "yes",
+              "Add into BOM": "yes",
+              "Designator": "C?",
+              "Symbol": "4aa7dcf070817259",
+              "Footprint": "33204de9fd4fd5be",
+              "Value": "100nF",
+              "Name": "={Value}",
+              "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+              "DNP": "no",
+              "Dielectric": "X7R",
+              "Voltage Rating": "10 V or greater"
+            }
+          }
+        },
+        "C1U": {
+          "uuid": "efa6384981d1a407",
+          "title": "STM_H747_ADC_DC_20261016_ADC_DC_C1U_X7R_0603",
+          "symbolUuid": "4aa7dcf070817259",
+          "footprintUuid": "4265bf1593bd2ff7",
+          "attributes": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Designator": "C?",
+            "Symbol": "4aa7dcf070817259",
+            "Footprint": "4265bf1593bd2ff7",
+            "Value": "1uF",
+            "Name": "={Value}",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+            "DNP": "no",
+            "Dielectric": "X7R",
+            "Voltage Rating": "10 V or greater"
+          },
+          "pinToPad": {
+            "1": "1",
+            "2": "2"
+          },
+          "oldUuid": "4adaf88840aaae3c",
+          "source": "4adaf88840aaae3c|project",
+          "runtimeMeta": {
+            "title": "STM_H747_ADC_DC_20261016_ADC_DC_C1U_X7R_0603",
+            "tags": [],
+            "source": "4adaf88840aaae3c|project",
+            "images": [
+              ""
+            ],
+            "attributes": {
+              "Convert to PCB": "yes",
+              "Add into BOM": "yes",
+              "Designator": "C?",
+              "Symbol": "4aa7dcf070817259",
+              "Footprint": "4265bf1593bd2ff7",
+              "Value": "1uF",
+              "Name": "={Value}",
+              "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+              "DNP": "no",
+              "Dielectric": "X7R",
+              "Voltage Rating": "10 V or greater"
+            }
+          }
+        },
+        "C4U7": {
+          "uuid": "bb3a3cf6b49b26eb",
+          "title": "STM_H747_ADC_DC_20261016_ADC_DC_C4U7_X7R_0805",
+          "symbolUuid": "4aa7dcf070817259",
+          "footprintUuid": "7cd78de7fa8ab56e",
+          "attributes": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Designator": "C?",
+            "Symbol": "4aa7dcf070817259",
+            "Footprint": "7cd78de7fa8ab56e",
+            "Value": "4.7uF",
+            "Name": "={Value}",
+            "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0805",
+            "DNP": "no",
+            "Dielectric": "X7R",
+            "Voltage Rating": "10 V or greater"
+          },
+          "pinToPad": {
+            "1": "1",
+            "2": "2"
+          },
+          "oldUuid": "61612637d3ce6612",
+          "source": "61612637d3ce6612|project",
+          "runtimeMeta": {
+            "title": "STM_H747_ADC_DC_20261016_ADC_DC_C4U7_X7R_0805",
+            "tags": [],
+            "source": "61612637d3ce6612|project",
+            "images": [
+              ""
+            ],
+            "attributes": {
+              "Convert to PCB": "yes",
+              "Add into BOM": "yes",
+              "Designator": "C?",
+              "Symbol": "4aa7dcf070817259",
+              "Footprint": "7cd78de7fa8ab56e",
+              "Value": "4.7uF",
+              "Name": "={Value}",
+              "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0805",
+              "DNP": "no",
+              "Dielectric": "X7R",
+              "Voltage Rating": "10 V or greater"
+            }
+          }
+        }
+      },
+      "nativePadCoordinatesMil": [
+        {
+          "groupId": "",
+          "netName": "",
+          "layerId": 1,
+          "num": "1",
+          "centerX": 18.897638,
+          "centerY": 0,
+          "padAngle": 0,
+          "hole": null,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 22.047244,
+            "height": 24.409449,
+            "radius": 0
+          },
+          "specialPad": [],
+          "padOffsetX": 0,
+          "padOffsetY": 0,
+          "relativeAngle": 0,
+          "plated": true,
+          "padType": "NORMAL",
+          "topSolderExpansion": null,
+          "bottomSolderExpansion": null,
+          "topPasteExpansion": null,
+          "bottomPasteExpansion": null,
+          "locked": false,
+          "zIndex": 1,
+          "connectMode": null,
+          "spokeSpace": null,
+          "spokeWidth": null,
+          "spokeAngle": null,
+          "padLen": 0,
+          "propagationDelay": 0
+        },
+        {
+          "groupId": "",
+          "netName": "",
+          "layerId": 1,
+          "num": "2",
+          "centerX": -18.897638,
+          "centerY": 0,
+          "padAngle": 0,
+          "hole": null,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 22.047244,
+            "height": 24.409449,
+            "radius": 0
+          },
+          "specialPad": [],
+          "padOffsetX": 0,
+          "padOffsetY": 0,
+          "relativeAngle": 0,
+          "plated": true,
+          "padType": "NORMAL",
+          "topSolderExpansion": null,
+          "bottomSolderExpansion": null,
+          "topPasteExpansion": null,
+          "bottomPasteExpansion": null,
+          "locked": false,
+          "zIndex": 2,
+          "connectMode": null,
+          "spokeSpace": null,
+          "spokeWidth": null,
+          "spokeAngle": null,
+          "padLen": 0,
+          "propagationDelay": 0
+        }
+      ],
+      "requestedC10nFC0GDeviceUuid": "f1791ce49e92dfa2"
+    }
+  },
+  "uuidMap": {
+    "dc41940006994da0": "d88aabc8539c0d8a",
+    "ae8871b66cfd9957": "34cc480f1398743e",
+    "bb55f69bdf95bde9": "6974e3eb2382cdd0",
+    "3faf63c25c7bca3b": "ecbfbd9acd795916",
+    "0a89b927c7ffa349": "588033bcaa777028",
+    "dd976907aab2643d": "90e4d36b8ad648b0",
+    "665d75ea1c89b3ab": "1c0ec0589eac1479",
+    "348c1912c89a3f1b": "4db9a138dc2b9021",
+    "e2b7d42a53ad7229": "9c280860627eeb37",
+    "19c147ff41f34083": "ffa25e0442bf7e1b",
+    "ec9aa0e566f07a8a": "1b815ecc84ae96b0",
+    "f0966db0fa6cec43": "27722bfcb8401f45",
+    "348fc5ed022fae72": "14469493e0b7e4f4",
+    "718bd0bf2b4ecb93": "7a88f3a14361c247"
+  },
+  "newDocumentCount": 14,
+  "importPreservationPassed": true
+}

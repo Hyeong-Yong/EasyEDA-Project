@@ -1,0 +1,122 @@
+{
+  "schema": "stm32h747-adc10-copper-cut-native-receipt-20261018-v1",
+  "stage": "isolate",
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/adc10-copper-cut-execution-manifest-fresh-20261018.json",
+  "manifestSha256": "389a1ddba84f1344f9cf76dd89ba1d1e203ad9bae2ac4f0eeff9f82be91eafe1",
+  "baselinePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-baseline-20261018.epru",
+  "baselineSha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b",
+  "sourcePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-copper_isolate-20261018.epru",
+  "sourceSha256": "529bfe83731d30a17ed6c0f2b2e02aa5c03b4acaefeeb7374a5adcbb9bda2145",
+  "passed": true,
+  "error": null,
+  "touched": [
+    {
+      "type": "FILL",
+      "id": "1d4dfc91341acfdb",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "4fd235f0a063c628",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "67c5fec25ed080db",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "d3708e0470087af5",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "4517a6b59a0f1e8c",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "e57a1fa98761982f",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "356e7412c28f788e",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "9df966c418dcc71f",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "b061acc53b088d8d",
+      "action": "delete"
+    },
+    {
+      "type": "FILL",
+      "id": "3cf6e9787e1db802",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "59f5d519415cb73b",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "5c0d1526d89cdcb8",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "82f3e4fdef9cb675",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "0a0a083417ffd17f",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "b71ab5776c56eda5",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "1f4e64b0d6b10c7e",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "201ec1ff29e86abb",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "df44139d5cb8a334",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "0c18903f0916153b",
+      "action": "delete"
+    },
+    {
+      "type": "LINE",
+      "id": "b6685f12d88e9f3e",
+      "action": "delete"
+    }
+  ],
+  "afterIssues": [],
+  "afterRecordCount": 12950,
+  "physicalParts": 354,
+  "saved": false,
+  "newRoutesApplied": false,
+  "manufacturingReady": false,
+  "recoveryCheckpoint": "STM32H747_before_pcb_route_20261018.epro2",
+  "recoveryWarning": "No native transaction/automatic rollback promised. On timeout or partial failure inspect captured actual source and receipt before another operation. Do not blindly rerun a stage."
+}

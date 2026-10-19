@@ -1,0 +1,6998 @@
+{
+  "schema": "adc10-labtool-local-top-route-draft-20261018-v1",
+  "status": "INCOMPLETE_OFFLINE_DRAFT_NOT_APPLICABLE_AS_FINISHED_BOARD",
+  "sourceSha256": "b540cccce8f7918785bd1bd021df1614419fe9290a9642e82aba02455ef540db",
+  "placementPath": "STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-short-negative-variant-v1.json",
+  "placementSha256": "3c9bdf8f7b567611d5c7ce84a324a9546eea0e1609f0178d0e4ed9794d8fa823",
+  "isolationManifestSha256": "02ace598c64d34d7e3548266f526f51ff789f25321383487b1d9148caa98c4ff",
+  "nativeCalls": 0,
+  "newLineCreates": [
+    {
+      "key": "LABTOOL_LOCAL_0001",
+      "net": "ADC_J2_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        137.45000000499996
+      ],
+      "endXYmm": [
+        10.8,
+        136.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0002",
+      "net": "ADC_J2_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        136.9
+      ],
+      "endXYmm": [
+        12.499999990799997,
+        135.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0003",
+      "net": "ADC_J2_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        135.549999995
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        135.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0004",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        136.5
+      ],
+      "endXYmm": [
+        9.0,
+        135.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0005",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        135.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        134.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0006",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        139.99999939999998
+      ],
+      "endXYmm": [
+        9.05,
+        137.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0007",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        137.8
+      ],
+      "endXYmm": [
+        8.5,
+        136.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0008",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        136.0
+      ],
+      "endXYmm": [
+        6.7,
+        135.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0009",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        135.3
+      ],
+      "endXYmm": [
+        6.6,
+        134.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0010",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        134.45
+      ],
+      "endXYmm": [
+        6.9,
+        134.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0011",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        134.15
+      ],
+      "endXYmm": [
+        8.6,
+        134.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0012",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        134.2
+      ],
+      "endXYmm": [
+        9.9000000092,
+        135.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0013",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        134.2
+      ],
+      "endXYmm": [
+        10.45,
+        132.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0014",
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        132.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        132.5
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0015",
+      "net": "ADC_J2_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.100000490799996,
+        137.04999831500004
+      ],
+      "endXYmm": [
+        20.709999005400004,
+        135.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0016",
+      "net": "ADC_J2_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.709999005400004,
+        135.2
+      ],
+      "endXYmm": [
+        22.0,
+        134.69000099459998
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0017",
+      "net": "ADC_J2_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        134.69000099459998
+      ],
+      "endXYmm": [
+        22.4800000052,
+        133.39999999999998
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0018",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        138.949998325
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        137.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0019",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        137.55
+      ],
+      "endXYmm": [
+        22.0,
+        135.7099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0020",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        135.7099990054
+      ],
+      "endXYmm": [
+        22.650000000000002,
+        135.0
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0021",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.650000000000002,
+        135.0
+      ],
+      "endXYmm": [
+        23.1,
+        133.5
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0022",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        133.5
+      ],
+      "endXYmm": [
+        23.0,
+        132.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0023",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        132.9
+      ],
+      "endXYmm": [
+        22.6,
+        132.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0024",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        132.75
+      ],
+      "endXYmm": [
+        22.0,
+        132.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0025",
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        132.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        133.39999999999998
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0026",
+      "net": "ADC_J2_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        139.99999939999998
+      ],
+      "endXYmm": [
+        10.2,
+        140.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0027",
+      "net": "ADC_J2_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.2,
+        140.65
+      ],
+      "endXYmm": [
+        10.9,
+        140.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0028",
+      "net": "ADC_J2_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.9,
+        140.7
+      ],
+      "endXYmm": [
+        11.5099990054,
+        141.3
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0029",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        137.45000000499996
+      ],
+      "endXYmm": [
+        14.2,
+        137.9800000052
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0030",
+      "net": "ADC_J3_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.900000009200001,
+        123.45000000499999
+      ],
+      "endXYmm": [
+        10.8,
+        122.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0031",
+      "net": "ADC_J3_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        122.9
+      ],
+      "endXYmm": [
+        12.4999999908,
+        121.54999999500002
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0032",
+      "net": "ADC_J3_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        121.54999999500002
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        121.20000000000002
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0033",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        122.49999999999999
+      ],
+      "endXYmm": [
+        9.0,
+        121.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0034",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        121.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        120.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0035",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        125.99999945999997
+      ],
+      "endXYmm": [
+        9.05,
+        123.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0036",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        123.8
+      ],
+      "endXYmm": [
+        8.5,
+        122.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0037",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        122.0
+      ],
+      "endXYmm": [
+        6.7,
+        121.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0038",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        121.3
+      ],
+      "endXYmm": [
+        6.6,
+        120.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0039",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        120.45
+      ],
+      "endXYmm": [
+        6.9,
+        120.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0040",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        120.15
+      ],
+      "endXYmm": [
+        8.6,
+        120.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0041",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        120.2
+      ],
+      "endXYmm": [
+        9.900000009200001,
+        121.54999999500002
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0042",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        120.2
+      ],
+      "endXYmm": [
+        10.45,
+        118.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0043",
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        118.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        118.5
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0044",
+      "net": "ADC_J3_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.1000004908,
+        123.04999837499999
+      ],
+      "endXYmm": [
+        20.7099990054,
+        121.20000000000002
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0045",
+      "net": "ADC_J3_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        121.20000000000002
+      ],
+      "endXYmm": [
+        22.0,
+        120.69000099460001
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0046",
+      "net": "ADC_J3_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        120.69000099460001
+      ],
+      "endXYmm": [
+        22.4800000052,
+        119.4
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0047",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        124.94999838499999
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        123.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0048",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        123.55
+      ],
+      "endXYmm": [
+        22.0,
+        121.7099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0049",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        121.7099990054
+      ],
+      "endXYmm": [
+        22.650000000000002,
+        121.0
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0050",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.650000000000002,
+        121.0
+      ],
+      "endXYmm": [
+        23.1,
+        119.5
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0051",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        119.5
+      ],
+      "endXYmm": [
+        23.0,
+        118.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0052",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        118.9
+      ],
+      "endXYmm": [
+        22.6,
+        118.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0053",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        118.75
+      ],
+      "endXYmm": [
+        22.0,
+        118.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0054",
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        118.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        119.4
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0055",
+      "net": "ADC_J3_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        125.99999945999997
+      ],
+      "endXYmm": [
+        10.2,
+        126.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0056",
+      "net": "ADC_J3_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.2,
+        126.65
+      ],
+      "endXYmm": [
+        10.9,
+        126.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0057",
+      "net": "ADC_J3_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.9,
+        126.7
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        127.30000000000001
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0058",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        123.45000000499999
+      ],
+      "endXYmm": [
+        14.199999999999998,
+        123.9800000052
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0059",
+      "net": "ADC_J4_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.900000009200001,
+        109.450000005
+      ],
+      "endXYmm": [
+        10.8,
+        108.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0060",
+      "net": "ADC_J4_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        108.9
+      ],
+      "endXYmm": [
+        12.4999999908,
+        107.54999999500001
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0061",
+      "net": "ADC_J4_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        107.54999999500001
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        107.20000000000002
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0062",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        108.50000000000001
+      ],
+      "endXYmm": [
+        9.0,
+        107.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0063",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        107.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        106.79999999999998
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0064",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        111.99999952
+      ],
+      "endXYmm": [
+        9.05,
+        109.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0065",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        109.8
+      ],
+      "endXYmm": [
+        8.5,
+        108.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0066",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        108.0
+      ],
+      "endXYmm": [
+        6.7,
+        107.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0067",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        107.3
+      ],
+      "endXYmm": [
+        6.6,
+        106.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0068",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        106.45
+      ],
+      "endXYmm": [
+        6.9,
+        106.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0069",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        106.15
+      ],
+      "endXYmm": [
+        8.6,
+        106.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0070",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        106.2
+      ],
+      "endXYmm": [
+        9.900000009200001,
+        107.54999999500001
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0071",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        106.2
+      ],
+      "endXYmm": [
+        10.45,
+        104.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0072",
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        104.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        104.49999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0073",
+      "net": "ADC_J4_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.1000004908,
+        109.04999843499999
+      ],
+      "endXYmm": [
+        20.7099990054,
+        107.20000000000002
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0074",
+      "net": "ADC_J4_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        107.20000000000002
+      ],
+      "endXYmm": [
+        22.0,
+        106.69000099460003
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0075",
+      "net": "ADC_J4_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        106.69000099460003
+      ],
+      "endXYmm": [
+        22.4800000052,
+        105.39999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0076",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        110.949998445
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        109.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0077",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        109.55
+      ],
+      "endXYmm": [
+        22.0,
+        107.70999900540001
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0078",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        107.70999900540001
+      ],
+      "endXYmm": [
+        22.700000000000003,
+        106.95
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0079",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.700000000000003,
+        106.95
+      ],
+      "endXYmm": [
+        23.1,
+        105.45
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0080",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        105.45
+      ],
+      "endXYmm": [
+        23.0,
+        104.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0081",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        104.9
+      ],
+      "endXYmm": [
+        22.6,
+        104.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0082",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        104.75
+      ],
+      "endXYmm": [
+        22.0,
+        104.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0083",
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        104.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        105.39999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0084",
+      "net": "ADC_J4_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        111.99999952
+      ],
+      "endXYmm": [
+        10.2,
+        112.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0085",
+      "net": "ADC_J4_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.2,
+        112.65
+      ],
+      "endXYmm": [
+        10.9,
+        112.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0086",
+      "net": "ADC_J4_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.9,
+        112.7
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        113.3
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0087",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        109.450000005
+      ],
+      "endXYmm": [
+        14.199999999999998,
+        109.9800000052
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0088",
+      "net": "ADC_J5_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.900000009200001,
+        95.45000000499999
+      ],
+      "endXYmm": [
+        10.8,
+        94.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0089",
+      "net": "ADC_J5_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        94.9
+      ],
+      "endXYmm": [
+        12.4999999908,
+        93.54999999500001
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0090",
+      "net": "ADC_J5_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        93.54999999500001
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        93.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0091",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        94.50000000000001
+      ],
+      "endXYmm": [
+        9.0,
+        93.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0092",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        93.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        92.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0093",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        97.99999958
+      ],
+      "endXYmm": [
+        9.05,
+        95.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0094",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        95.8
+      ],
+      "endXYmm": [
+        8.5,
+        94.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0095",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        94.0
+      ],
+      "endXYmm": [
+        6.7,
+        93.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0096",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        93.3
+      ],
+      "endXYmm": [
+        6.6,
+        92.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0097",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        92.45
+      ],
+      "endXYmm": [
+        6.9,
+        92.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0098",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        92.15
+      ],
+      "endXYmm": [
+        8.6,
+        92.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0099",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        92.2
+      ],
+      "endXYmm": [
+        9.900000009200001,
+        93.54999999500001
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0100",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        92.2
+      ],
+      "endXYmm": [
+        10.45,
+        90.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0101",
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        90.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        90.5
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0102",
+      "net": "ADC_J5_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.1000004908,
+        95.04999849500001
+      ],
+      "endXYmm": [
+        20.7099990054,
+        93.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0103",
+      "net": "ADC_J5_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        93.2
+      ],
+      "endXYmm": [
+        22.0,
+        92.69000099460001
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0104",
+      "net": "ADC_J5_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        92.69000099460001
+      ],
+      "endXYmm": [
+        22.4800000052,
+        91.39999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0105",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        96.94999850499998
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        95.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0106",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        95.55
+      ],
+      "endXYmm": [
+        22.0,
+        93.7099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0107",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        93.7099990054
+      ],
+      "endXYmm": [
+        22.650000000000002,
+        93.0
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0108",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.650000000000002,
+        93.0
+      ],
+      "endXYmm": [
+        23.1,
+        91.5
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0109",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        91.5
+      ],
+      "endXYmm": [
+        23.0,
+        90.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0110",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        90.9
+      ],
+      "endXYmm": [
+        22.6,
+        90.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0111",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        90.75
+      ],
+      "endXYmm": [
+        22.0,
+        90.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0112",
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        90.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        91.39999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0113",
+      "net": "ADC_J5_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        97.99999958
+      ],
+      "endXYmm": [
+        10.2,
+        98.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0114",
+      "net": "ADC_J5_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.2,
+        98.65
+      ],
+      "endXYmm": [
+        10.9,
+        98.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0115",
+      "net": "ADC_J5_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.9,
+        98.7
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        99.29999999999998
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0116",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        95.45000000499999
+      ],
+      "endXYmm": [
+        14.199999999999998,
+        95.98000000519998
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0117",
+      "net": "ADC_J6_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.900000009200001,
+        81.45000000499999
+      ],
+      "endXYmm": [
+        10.8,
+        80.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0118",
+      "net": "ADC_J6_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        80.9
+      ],
+      "endXYmm": [
+        12.4999999908,
+        79.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0119",
+      "net": "ADC_J6_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        79.549999995
+      ],
+      "endXYmm": [
+        18.999999999999996,
+        78.29000099459998
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0120",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        80.49999999999999
+      ],
+      "endXYmm": [
+        9.0,
+        79.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0121",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        79.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        78.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0122",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        83.99999964
+      ],
+      "endXYmm": [
+        9.05,
+        81.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0123",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        81.8
+      ],
+      "endXYmm": [
+        8.5,
+        80.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0124",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        80.0
+      ],
+      "endXYmm": [
+        6.7,
+        79.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0125",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        79.3
+      ],
+      "endXYmm": [
+        6.6,
+        78.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0126",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        78.45
+      ],
+      "endXYmm": [
+        6.9,
+        78.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0127",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        78.15
+      ],
+      "endXYmm": [
+        8.6,
+        78.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0128",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        78.2
+      ],
+      "endXYmm": [
+        9.900000009200001,
+        79.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0129",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        78.2
+      ],
+      "endXYmm": [
+        10.45,
+        76.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0130",
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        76.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        76.5
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0131",
+      "net": "ADC_J6_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.1000004908,
+        81.049998555
+      ],
+      "endXYmm": [
+        18.999999999999996,
+        79.3099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0132",
+      "net": "ADC_J6_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.1000004908,
+        81.049998555
+      ],
+      "endXYmm": [
+        22.0,
+        79.29000099459999
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0133",
+      "net": "ADC_J6_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        79.29000099459999
+      ],
+      "endXYmm": [
+        22.4800000052,
+        77.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0134",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        82.94999856499999
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        81.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0135",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        81.55
+      ],
+      "endXYmm": [
+        22.0,
+        80.30999900539999
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0136",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        80.30999900539999
+      ],
+      "endXYmm": [
+        22.650000000000002,
+        79.6
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0137",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.650000000000002,
+        79.6
+      ],
+      "endXYmm": [
+        23.1,
+        77.1
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0138",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        77.1
+      ],
+      "endXYmm": [
+        23.0,
+        76.7
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0139",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        76.7
+      ],
+      "endXYmm": [
+        22.6,
+        76.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0140",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        76.55
+      ],
+      "endXYmm": [
+        22.0,
+        76.65
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0141",
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        76.65
+      ],
+      "endXYmm": [
+        21.5199999948,
+        77.2
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0142",
+      "net": "ADC_J6_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        83.99999964
+      ],
+      "endXYmm": [
+        10.2,
+        84.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0143",
+      "net": "ADC_J6_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.2,
+        84.65
+      ],
+      "endXYmm": [
+        10.9,
+        84.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0144",
+      "net": "ADC_J6_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.9,
+        84.7
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        85.3
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0145",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        81.45000000499999
+      ],
+      "endXYmm": [
+        14.199999999999998,
+        81.9800000052
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0146",
+      "net": "ADC_J7_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.900000009200001,
+        67.450000005
+      ],
+      "endXYmm": [
+        10.8,
+        66.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0147",
+      "net": "ADC_J7_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        66.9
+      ],
+      "endXYmm": [
+        12.4999999908,
+        65.54999999500002
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0148",
+      "net": "ADC_J7_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        65.54999999500002
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        65.20000000000002
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0149",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        66.5
+      ],
+      "endXYmm": [
+        9.0,
+        65.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0150",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        65.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        64.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0151",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        69.9999997
+      ],
+      "endXYmm": [
+        9.05,
+        67.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0152",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        67.8
+      ],
+      "endXYmm": [
+        8.5,
+        66.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0153",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        66.0
+      ],
+      "endXYmm": [
+        6.7,
+        65.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0154",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        65.3
+      ],
+      "endXYmm": [
+        6.6,
+        64.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0155",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        64.45
+      ],
+      "endXYmm": [
+        6.9,
+        64.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0156",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        64.15
+      ],
+      "endXYmm": [
+        8.6,
+        64.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0157",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        64.2
+      ],
+      "endXYmm": [
+        9.900000009200001,
+        65.54999999500002
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0158",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        64.2
+      ],
+      "endXYmm": [
+        10.45,
+        62.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0159",
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        62.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        62.49999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0160",
+      "net": "ADC_J7_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.1000004908,
+        67.04999861499999
+      ],
+      "endXYmm": [
+        20.7099990054,
+        65.20000000000002
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0161",
+      "net": "ADC_J7_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        65.20000000000002
+      ],
+      "endXYmm": [
+        22.0,
+        64.69000099460001
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0162",
+      "net": "ADC_J7_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        64.69000099460001
+      ],
+      "endXYmm": [
+        22.4800000052,
+        63.4
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0163",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        68.949998625
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        67.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0164",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        67.55
+      ],
+      "endXYmm": [
+        22.0,
+        65.70999900540001
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0165",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        65.70999900540001
+      ],
+      "endXYmm": [
+        22.700000000000003,
+        64.95
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0166",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.700000000000003,
+        64.95
+      ],
+      "endXYmm": [
+        23.1,
+        63.45
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0167",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        63.45
+      ],
+      "endXYmm": [
+        23.0,
+        62.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0168",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        62.9
+      ],
+      "endXYmm": [
+        22.6,
+        62.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0169",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        62.75
+      ],
+      "endXYmm": [
+        22.0,
+        62.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0170",
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        62.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        63.4
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0171",
+      "net": "ADC_J7_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        69.9999997
+      ],
+      "endXYmm": [
+        10.2,
+        70.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0172",
+      "net": "ADC_J7_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.2,
+        70.65
+      ],
+      "endXYmm": [
+        10.9,
+        70.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0173",
+      "net": "ADC_J7_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.9,
+        70.7
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        71.30000000000001
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0174",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        67.450000005
+      ],
+      "endXYmm": [
+        14.199999999999998,
+        67.98000000520001
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0175",
+      "net": "ADC_J8_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        53.450000005
+      ],
+      "endXYmm": [
+        10.8,
+        52.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0176",
+      "net": "ADC_J8_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        52.9
+      ],
+      "endXYmm": [
+        12.499999990799997,
+        51.54999999499999
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0177",
+      "net": "ADC_J8_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        51.54999999499999
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        51.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0178",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        52.5
+      ],
+      "endXYmm": [
+        9.0,
+        51.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0179",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        51.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        50.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0180",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        55.99999976
+      ],
+      "endXYmm": [
+        9.05,
+        53.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0181",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        53.8
+      ],
+      "endXYmm": [
+        8.5,
+        52.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0182",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        52.0
+      ],
+      "endXYmm": [
+        6.7,
+        51.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0183",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        51.3
+      ],
+      "endXYmm": [
+        6.6,
+        50.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0184",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        50.45
+      ],
+      "endXYmm": [
+        6.9,
+        50.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0185",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        50.15
+      ],
+      "endXYmm": [
+        8.6,
+        50.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0186",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        50.2
+      ],
+      "endXYmm": [
+        9.9000000092,
+        51.54999999499999
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0187",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        50.2
+      ],
+      "endXYmm": [
+        10.45,
+        48.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0188",
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        48.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        48.50000000000001
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0189",
+      "net": "ADC_J8_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.100000490799996,
+        53.049998675000005
+      ],
+      "endXYmm": [
+        20.7099990054,
+        51.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0190",
+      "net": "ADC_J8_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        51.2
+      ],
+      "endXYmm": [
+        22.0,
+        50.690000994600005
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0191",
+      "net": "ADC_J8_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        50.690000994600005
+      ],
+      "endXYmm": [
+        22.4800000052,
+        49.4
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0192",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        54.949998685
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        53.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0193",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        53.55
+      ],
+      "endXYmm": [
+        22.0,
+        51.7099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0194",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        51.7099990054
+      ],
+      "endXYmm": [
+        22.700000000000003,
+        50.95
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0195",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.700000000000003,
+        50.95
+      ],
+      "endXYmm": [
+        23.1,
+        49.45
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0196",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        49.45
+      ],
+      "endXYmm": [
+        23.0,
+        48.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0197",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        48.9
+      ],
+      "endXYmm": [
+        22.6,
+        48.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0198",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        48.75
+      ],
+      "endXYmm": [
+        22.0,
+        48.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0199",
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        48.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        49.4
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0200",
+      "net": "ADC_J8_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        55.99999976
+      ],
+      "endXYmm": [
+        10.2,
+        56.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0201",
+      "net": "ADC_J8_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.2,
+        56.65
+      ],
+      "endXYmm": [
+        10.9,
+        56.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0202",
+      "net": "ADC_J8_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.9,
+        56.7
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        57.3
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0203",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        53.450000005
+      ],
+      "endXYmm": [
+        14.199999999999998,
+        53.980000005200004
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0204",
+      "net": "ADC_J9_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        39.450000005
+      ],
+      "endXYmm": [
+        10.8,
+        38.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0205",
+      "net": "ADC_J9_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        38.9
+      ],
+      "endXYmm": [
+        12.499999990799997,
+        37.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0206",
+      "net": "ADC_J9_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        37.549999995
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        37.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0207",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        38.5
+      ],
+      "endXYmm": [
+        9.0,
+        37.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0208",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        37.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        36.800000000000004
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0209",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        41.99999982
+      ],
+      "endXYmm": [
+        9.05,
+        39.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0210",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        39.8
+      ],
+      "endXYmm": [
+        8.5,
+        38.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0211",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        38.0
+      ],
+      "endXYmm": [
+        6.7,
+        37.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0212",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        37.3
+      ],
+      "endXYmm": [
+        6.6,
+        36.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0213",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        36.45
+      ],
+      "endXYmm": [
+        6.9,
+        36.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0214",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        36.15
+      ],
+      "endXYmm": [
+        8.6,
+        36.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0215",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        36.2
+      ],
+      "endXYmm": [
+        9.9000000092,
+        37.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0216",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        36.2
+      ],
+      "endXYmm": [
+        10.45,
+        34.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0217",
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        34.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        34.5
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0218",
+      "net": "ADC_J9_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.100000490799996,
+        39.049998735
+      ],
+      "endXYmm": [
+        20.7099990054,
+        37.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0219",
+      "net": "ADC_J9_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        37.2
+      ],
+      "endXYmm": [
+        22.0,
+        36.690000994600005
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0220",
+      "net": "ADC_J9_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        36.690000994600005
+      ],
+      "endXYmm": [
+        22.4800000052,
+        35.39999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0221",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        40.94999874500001
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        39.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0222",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        39.55
+      ],
+      "endXYmm": [
+        22.0,
+        37.7099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0223",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        37.7099990054
+      ],
+      "endXYmm": [
+        22.700000000000003,
+        36.95
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0224",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.700000000000003,
+        36.95
+      ],
+      "endXYmm": [
+        23.1,
+        35.45
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0225",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        35.45
+      ],
+      "endXYmm": [
+        23.0,
+        34.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0226",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        34.9
+      ],
+      "endXYmm": [
+        22.6,
+        34.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0227",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        34.75
+      ],
+      "endXYmm": [
+        22.0,
+        34.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0228",
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        34.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        35.39999999999999
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0229",
+      "net": "ADC_J9_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.4800013346,
+        41.99999982
+      ],
+      "endXYmm": [
+        10.4,
+        42.85
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0230",
+      "net": "ADC_J9_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.4,
+        42.85
+      ],
+      "endXYmm": [
+        10.95,
+        42.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0231",
+      "net": "ADC_J9_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.95,
+        42.95
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        43.50000000000001
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0232",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        39.450000005
+      ],
+      "endXYmm": [
+        14.199999999999998,
+        39.9800000052
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0233",
+      "net": "ADC_J10_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        25.450000005
+      ],
+      "endXYmm": [
+        10.8,
+        24.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0234",
+      "net": "ADC_J10_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        24.9
+      ],
+      "endXYmm": [
+        12.499999990799997,
+        23.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0235",
+      "net": "ADC_J10_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        23.549999995
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        23.200000000000003
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0236",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        24.5
+      ],
+      "endXYmm": [
+        9.0,
+        23.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0237",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        23.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        22.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0238",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        27.99999988
+      ],
+      "endXYmm": [
+        9.05,
+        25.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0239",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        25.8
+      ],
+      "endXYmm": [
+        8.5,
+        24.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0240",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        24.0
+      ],
+      "endXYmm": [
+        6.7,
+        23.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0241",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        23.3
+      ],
+      "endXYmm": [
+        6.6,
+        22.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0242",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        22.45
+      ],
+      "endXYmm": [
+        6.9,
+        22.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0243",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        22.15
+      ],
+      "endXYmm": [
+        8.6,
+        22.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0244",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        22.2
+      ],
+      "endXYmm": [
+        9.9000000092,
+        23.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0245",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        22.2
+      ],
+      "endXYmm": [
+        10.45,
+        20.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0246",
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        20.8
+      ],
+      "endXYmm": [
+        10.680000005199998,
+        20.5
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0247",
+      "net": "ADC_J10_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.100000490799996,
+        25.049998794999997
+      ],
+      "endXYmm": [
+        20.7099990054,
+        23.200000000000003
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0248",
+      "net": "ADC_J10_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        23.200000000000003
+      ],
+      "endXYmm": [
+        22.0,
+        22.6900009946
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0249",
+      "net": "ADC_J10_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        22.6900009946
+      ],
+      "endXYmm": [
+        22.4800000052,
+        21.4
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0250",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        26.949998805
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        25.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0251",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        25.55
+      ],
+      "endXYmm": [
+        22.0,
+        23.7099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0252",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        23.7099990054
+      ],
+      "endXYmm": [
+        22.700000000000003,
+        22.95
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0253",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.700000000000003,
+        22.95
+      ],
+      "endXYmm": [
+        23.1,
+        21.45
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0254",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        21.45
+      ],
+      "endXYmm": [
+        23.0,
+        20.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0255",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        20.9
+      ],
+      "endXYmm": [
+        22.6,
+        20.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0256",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        20.75
+      ],
+      "endXYmm": [
+        22.0,
+        20.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0257",
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        20.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        21.4
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0258",
+      "net": "ADC_J10_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.480001334599999,
+        27.99999988
+      ],
+      "endXYmm": [
+        10.4,
+        28.85
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0259",
+      "net": "ADC_J10_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.4,
+        28.85
+      ],
+      "endXYmm": [
+        10.95,
+        28.950000000000003
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0260",
+      "net": "ADC_J10_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.95,
+        28.950000000000003
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        29.5
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0261",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.499999990799997,
+        25.450000005
+      ],
+      "endXYmm": [
+        14.2,
+        25.9800000052
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0262",
+      "net": "ADC_J11_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        11.450000005
+      ],
+      "endXYmm": [
+        10.8,
+        10.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0263",
+      "net": "ADC_J11_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        10.8,
+        10.9
+      ],
+      "endXYmm": [
+        12.4999999908,
+        9.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0264",
+      "net": "ADC_J11_BUF",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        9.549999995
+      ],
+      "endXYmm": [
+        19.690000994600002,
+        9.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Follower shortfeedback and4k feed"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0265",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.9000000092,
+        10.500000000000002
+      ],
+      "endXYmm": [
+        9.0,
+        9.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0266",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        9.0,
+        9.95
+      ],
+      "endXYmm": [
+        8.1800000052,
+        8.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Negative local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0267",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.4999993454,
+        13.99999994
+      ],
+      "endXYmm": [
+        9.05,
+        11.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0268",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        9.05,
+        11.8
+      ],
+      "endXYmm": [
+        8.5,
+        10.0
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0269",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.5,
+        10.0
+      ],
+      "endXYmm": [
+        6.7,
+        9.3
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0270",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.7,
+        9.3
+      ],
+      "endXYmm": [
+        6.6,
+        8.45
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0271",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.6,
+        8.45
+      ],
+      "endXYmm": [
+        6.9,
+        8.15
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0272",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        6.9,
+        8.15
+      ],
+      "endXYmm": [
+        8.6,
+        8.2
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0273",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        8.2
+      ],
+      "endXYmm": [
+        9.9000000092,
+        9.549999995
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0274",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        8.6,
+        8.2
+      ],
+      "endXYmm": [
+        10.45,
+        6.8
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0275",
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        10.45,
+        6.8
+      ],
+      "endXYmm": [
+        10.6800000052,
+        6.500000000000001
+      ],
+      "widthMm": 0.2032,
+      "role": "SMA lowpass to bipolar follower+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0276",
+      "net": "ADC_J11_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.1000004908,
+        11.049998855
+      ],
+      "endXYmm": [
+        20.7099990054,
+        9.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0277",
+      "net": "ADC_J11_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        20.7099990054,
+        9.2
+      ],
+      "endXYmm": [
+        22.0,
+        8.6900009946
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0278",
+      "net": "ADC_J11_SUM",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        8.6900009946
+      ],
+      "endXYmm": [
+        22.480000005199997,
+        7.4
+      ],
+      "widthMm": 0.2032,
+      "role": "Final inverting summing node"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0279",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        12.949998864999998
+      ],
+      "endXYmm": [
+        20.900000000000002,
+        11.55
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0280",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        20.900000000000002,
+        11.55
+      ],
+      "endXYmm": [
+        22.0,
+        9.709999005399997
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0281",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        9.709999005399997
+      ],
+      "endXYmm": [
+        22.650000000000002,
+        9.0
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0282",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.650000000000002,
+        9.0
+      ],
+      "endXYmm": [
+        23.1,
+        7.5
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0283",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.1,
+        7.5
+      ],
+      "endXYmm": [
+        23.0,
+        6.9
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0284",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        23.0,
+        6.9
+      ],
+      "endXYmm": [
+        22.6,
+        6.75
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0285",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.6,
+        6.75
+      ],
+      "endXYmm": [
+        22.0,
+        6.85
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0286",
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "startXYmm": [
+        22.0,
+        6.85
+      ],
+      "endXYmm": [
+        21.5199999948,
+        7.4
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0287",
+      "net": "ADC_J11_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        9.480001334599999,
+        13.99999994
+      ],
+      "endXYmm": [
+        10.4,
+        14.85
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0288",
+      "net": "ADC_J11_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.4,
+        14.85
+      ],
+      "endXYmm": [
+        10.95,
+        14.950000000000001
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0289",
+      "net": "ADC_J11_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        10.95,
+        14.950000000000001
+      ],
+      "endXYmm": [
+        11.509999005399997,
+        15.5
+      ],
+      "widthMm": 0.2032,
+      "role": "Groundreferenced SMA pulldown signal side"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0290",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        12.4999999908,
+        11.450000005
+      ],
+      "endXYmm": [
+        14.2,
+        11.980000005199999
+      ],
+      "widthMm": 0.2032,
+      "role": "Positive local follower bypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0291",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        137.04999831500004
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        138.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0292",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        138.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        143.05
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0293",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        143.05
+      ],
+      "endXYmm": [
+        13.45,
+        143.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0294",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        143.9
+      ],
+      "endXYmm": [
+        13.9,
+        144.1
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0295",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.9,
+        144.1
+      ],
+      "endXYmm": [
+        26.5,
+        144.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0296",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        123.04999837499999
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        124.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0297",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        124.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        129.05
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0298",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        129.05
+      ],
+      "endXYmm": [
+        13.45,
+        129.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0299",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        129.9
+      ],
+      "endXYmm": [
+        13.9,
+        130.1
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0300",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.9,
+        130.1
+      ],
+      "endXYmm": [
+        26.5,
+        130.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0301",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        109.04999843499999
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        110.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0302",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        110.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        114.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0303",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        114.9
+      ],
+      "endXYmm": [
+        13.45,
+        115.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0304",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        115.8
+      ],
+      "endXYmm": [
+        13.9,
+        116.0
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0305",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.9,
+        116.0
+      ],
+      "endXYmm": [
+        26.5,
+        116.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0306",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        95.04999849500001
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        96.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0307",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        96.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        101.0
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0308",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        101.0
+      ],
+      "endXYmm": [
+        13.45,
+        101.85
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0309",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        101.85
+      ],
+      "endXYmm": [
+        13.9,
+        102.05
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0310",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.9,
+        102.05
+      ],
+      "endXYmm": [
+        26.5,
+        102.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0311",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        81.049998555
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        82.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0312",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        82.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        86.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0313",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        86.95
+      ],
+      "endXYmm": [
+        13.45,
+        87.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0314",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        87.8
+      ],
+      "endXYmm": [
+        13.8,
+        88.0
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0315",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.8,
+        88.0
+      ],
+      "endXYmm": [
+        25.7,
+        88.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0316",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        53.049998675000005
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        54.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0317",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        54.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        58.95
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0318",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        58.95
+      ],
+      "endXYmm": [
+        13.45,
+        59.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0319",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        59.8
+      ],
+      "endXYmm": [
+        13.8,
+        60.0
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0320",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.8,
+        60.0
+      ],
+      "endXYmm": [
+        26.5,
+        60.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0321",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        39.049998735
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        40.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0322",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        40.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        44.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0323",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        44.9
+      ],
+      "endXYmm": [
+        13.45,
+        45.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0324",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        45.8
+      ],
+      "endXYmm": [
+        13.9,
+        46.0
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0325",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.9,
+        46.0
+      ],
+      "endXYmm": [
+        26.5,
+        46.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0326",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.5000005092,
+        25.049998794999997
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        26.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0327",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        26.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        30.950000000000003
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0328",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        30.950000000000003
+      ],
+      "endXYmm": [
+        13.45,
+        31.8
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0329",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        31.8
+      ],
+      "endXYmm": [
+        13.8,
+        32.0
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0330",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.8,
+        32.0
+      ],
+      "endXYmm": [
+        26.5,
+        32.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0331",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        17.500000509199996,
+        11.049998855
+      ],
+      "endXYmm": [
+        14.600000000000001,
+        12.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0332",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        14.600000000000001,
+        12.75
+      ],
+      "endXYmm": [
+        13.350000000000001,
+        16.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0333",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.350000000000001,
+        16.9
+      ],
+      "endXYmm": [
+        13.45,
+        17.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0334",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.45,
+        17.75
+      ],
+      "endXYmm": [
+        13.8,
+        17.950000000000003
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0335",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startXYmm": [
+        13.8,
+        17.950000000000003
+      ],
+      "endXYmm": [
+        26.5,
+        18.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Quiet offsetbus branch to finalOPA320+"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0336",
+      "net": "AFE_OFFSET_BUFFER",
+      "layerId": 1,
+      "startXYmm": [
+        24.400000009199996,
+        71.850000005
+      ],
+      "endXYmm": [
+        25.300000000000004,
+        71.3
+      ],
+      "widthMm": 0.2032,
+      "role": "Offsetreference buffer shortfeedback"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0337",
+      "net": "AFE_OFFSET_BUFFER",
+      "layerId": 1,
+      "startXYmm": [
+        25.300000000000004,
+        71.3
+      ],
+      "endXYmm": [
+        26.999999990799996,
+        69.94999999500001
+      ],
+      "widthMm": 0.2032,
+      "role": "Offsetreference buffer shortfeedback"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0338",
+      "net": "AFE_OFFSET_BUFFER",
+      "layerId": 1,
+      "startXYmm": [
+        26.999999990799996,
+        69.94999999500001
+      ],
+      "endXYmm": [
+        25.85,
+        68.5
+      ],
+      "widthMm": 0.2032,
+      "role": "Offsetreference buffer shortfeedback"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0339",
+      "net": "AFE_OFFSET_BUFFER",
+      "layerId": 1,
+      "startXYmm": [
+        25.85,
+        68.5
+      ],
+      "endXYmm": [
+        25.800000000000004,
+        67.9
+      ],
+      "widthMm": 0.2032,
+      "role": "Offsetreference buffer shortfeedback"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0340",
+      "net": "AFE_OFFSET_BUFFER",
+      "layerId": 1,
+      "startXYmm": [
+        25.800000000000004,
+        67.9
+      ],
+      "endXYmm": [
+        25.200000000000003,
+        67.29000099459999
+      ],
+      "widthMm": 0.2032,
+      "role": "Offsetreference buffer shortfeedback"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0341",
+      "net": "AFE_REF_NR",
+      "layerId": 1,
+      "startXYmm": [
+        28.005000000000003,
+        79.6000000102
+      ],
+      "endXYmm": [
+        29.550000000000004,
+        78.05
+      ],
+      "widthMm": 0.2032,
+      "role": "REF5025noise-reductionbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0342",
+      "net": "AFE_REF_NR",
+      "layerId": 1,
+      "startXYmm": [
+        29.550000000000004,
+        78.05
+      ],
+      "endXYmm": [
+        30.800000000000004,
+        78.05
+      ],
+      "widthMm": 0.2032,
+      "role": "REF5025noise-reductionbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0343",
+      "net": "AFE_REF_NR",
+      "layerId": 1,
+      "startXYmm": [
+        30.800000000000004,
+        78.05
+      ],
+      "endXYmm": [
+        30.950000000000003,
+        77.75
+      ],
+      "widthMm": 0.2032,
+      "role": "REF5025noise-reductionbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0344",
+      "net": "AFE_REF_NR",
+      "layerId": 1,
+      "startXYmm": [
+        30.950000000000003,
+        77.75
+      ],
+      "endXYmm": [
+        31.3749999994,
+        75.60000000000001
+      ],
+      "widthMm": 0.2032,
+      "role": "REF5025noise-reductionbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0345",
+      "net": "AFE_REF_ESR",
+      "layerId": 1,
+      "startXYmm": [
+        26.490000994600003,
+        81.6
+      ],
+      "endXYmm": [
+        27.5,
+        80.7
+      ],
+      "widthMm": 0.2032,
+      "role": "REF5025ESR-controlledoutputbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0346",
+      "net": "AFE_REF_ESR",
+      "layerId": 1,
+      "startXYmm": [
+        27.5,
+        80.7
+      ],
+      "endXYmm": [
+        28.450000000000003,
+        80.65
+      ],
+      "widthMm": 0.2032,
+      "role": "REF5025ESR-controlledoutputbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0347",
+      "net": "AFE_REF_ESR",
+      "layerId": 1,
+      "startXYmm": [
+        28.450000000000003,
+        80.65
+      ],
+      "endXYmm": [
+        29.999999999999996,
+        79.149998989
+      ],
+      "widthMm": 0.2032,
+      "role": "REF5025ESR-controlledoutputbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0348",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        26.734999999999996,
+        79.6000000102
+      ],
+      "endXYmm": [
+        25.900000000000002,
+        81.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0349",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        25.900000000000002,
+        81.35
+      ],
+      "endXYmm": [
+        25.950000000000003,
+        82.1
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0350",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        25.950000000000003,
+        82.1
+      ],
+      "endXYmm": [
+        26.35,
+        82.25
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0351",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        26.35,
+        82.25
+      ],
+      "endXYmm": [
+        26.950000000000003,
+        82.15
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0352",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        26.950000000000003,
+        82.15
+      ],
+      "endXYmm": [
+        27.5099990054,
+        81.6
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0353",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        26.734999999999996,
+        79.6000000102
+      ],
+      "endXYmm": [
+        27.35,
+        74.55
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0354",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        27.35,
+        74.55
+      ],
+      "endXYmm": [
+        27.5,
+        72.65
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0355",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        27.5,
+        72.65
+      ],
+      "endXYmm": [
+        27.85,
+        72.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0356",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        27.85,
+        72.2
+      ],
+      "endXYmm": [
+        28.200000000000003,
+        69.5
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0357",
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "startXYmm": [
+        28.200000000000003,
+        69.5
+      ],
+      "endXYmm": [
+        28.8,
+        68.89000099460002
+      ],
+      "widthMm": 0.2032,
+      "role": "Precisionreferenceoutputdividerandbypass"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0358",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        24.400000009199996,
+        69.94999999500001
+      ],
+      "endXYmm": [
+        24.6,
+        66.85
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0359",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        24.6,
+        66.85
+      ],
+      "endXYmm": [
+        24.950000000000003,
+        66.7
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0360",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        24.950000000000003,
+        66.7
+      ],
+      "endXYmm": [
+        25.700000000000003,
+        66.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0361",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        25.700000000000003,
+        66.75
+      ],
+      "endXYmm": [
+        27.150000000000002,
+        67.85
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0362",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        27.150000000000002,
+        67.85
+      ],
+      "endXYmm": [
+        27.5099990054,
+        68.2
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0363",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        27.5099990054,
+        68.2
+      ],
+      "endXYmm": [
+        29.300000000000004,
+        68.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0364",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        29.300000000000004,
+        68.35
+      ],
+      "endXYmm": [
+        29.450000000000003,
+        68.75
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0365",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        29.450000000000003,
+        68.75
+      ],
+      "endXYmm": [
+        29.35,
+        69.35
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0366",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        29.35,
+        69.35
+      ],
+      "endXYmm": [
+        28.8,
+        69.9099990054
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0367",
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "startXYmm": [
+        29.300000000000004,
+        68.35
+      ],
+      "endXYmm": [
+        30.949998989,
+        67.0
+      ],
+      "widthMm": 0.2032,
+      "role": "Low-noisedividerLPF tooffsetbuffer"
+    },
+    {
+      "key": "LABTOOL_LOCAL_0368",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        25.465000000000007,
+        74.1999999898
+      ],
+      "endXYmm": [
+        26.999999990799996,
+        71.850000005
+      ],
+      "widthMm": 0.2032,
+      "role": "Referenceislandlocalpositivepower"
+    }
+  ],
+  "routedConnections": [
+    {
+      "net": "ADC_J2_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.2255804807575146,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0001",
+        "LABTOOL_LOCAL_0002"
+      ]
+    },
+    {
+      "net": "ADC_J2_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857045,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0003"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.4671604494403416,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0004",
+        "LABTOOL_LOCAL_0005"
+      ]
+    },
+    {
+      "net": "ADC_J2_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.30336320458735,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0006",
+        "LABTOOL_LOCAL_0007",
+        "LABTOOL_LOCAL_0008",
+        "LABTOOL_LOCAL_0009",
+        "LABTOOL_LOCAL_0010",
+        "LABTOOL_LOCAL_0011",
+        "LABTOOL_LOCAL_0012"
+      ]
+    },
+    {
+      "net": "ADC_J2_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.6980427182165907,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0013",
+        "LABTOOL_LOCAL_0014"
+      ]
+    },
+    {
+      "net": "ADC_J2_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.9479712403722087,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0015"
+      ]
+    },
+    {
+      "net": "ADC_J2_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696266,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0016"
+      ]
+    },
+    {
+      "net": "ADC_J2_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.376409303608853,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0017"
+      ]
+    },
+    {
+      "net": "ADC_J2_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690065505443,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0018",
+        "LABTOOL_LOCAL_0019"
+      ]
+    },
+    {
+      "net": "ADC_J2_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.902398583567954,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0020",
+        "LABTOOL_LOCAL_0021",
+        "LABTOOL_LOCAL_0022",
+        "LABTOOL_LOCAL_0023",
+        "LABTOOL_LOCAL_0024",
+        "LABTOOL_LOCAL_0025"
+      ]
+    },
+    {
+      "net": "ADC_J2_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.527410568761878,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0026",
+        "LABTOOL_LOCAL_0027",
+        "LABTOOL_LOCAL_0028"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.7807021175626319,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0029"
+      ]
+    },
+    {
+      "net": "ADC_J3_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.2255804807575204,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0030",
+        "LABTOOL_LOCAL_0031"
+      ]
+    },
+    {
+      "net": "ADC_J3_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857042,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0032"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.46716044944035,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0033",
+        "LABTOOL_LOCAL_0034"
+      ]
+    },
+    {
+      "net": "ADC_J3_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363254684824,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0035",
+        "LABTOOL_LOCAL_0036",
+        "LABTOOL_LOCAL_0037",
+        "LABTOOL_LOCAL_0038",
+        "LABTOOL_LOCAL_0039",
+        "LABTOOL_LOCAL_0040",
+        "LABTOOL_LOCAL_0041"
+      ]
+    },
+    {
+      "net": "ADC_J3_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.6980427182165965,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0042",
+        "LABTOOL_LOCAL_0043"
+      ]
+    },
+    {
+      "net": "ADC_J3_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.9479712973544392,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0044"
+      ]
+    },
+    {
+      "net": "ADC_J3_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696297,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0045"
+      ]
+    },
+    {
+      "net": "ADC_J3_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.376409303608853,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0046"
+      ]
+    },
+    {
+      "net": "ADC_J3_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690088350403,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0047",
+        "LABTOOL_LOCAL_0048"
+      ]
+    },
+    {
+      "net": "ADC_J3_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.902398583567975,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0049",
+        "LABTOOL_LOCAL_0050",
+        "LABTOOL_LOCAL_0051",
+        "LABTOOL_LOCAL_0052",
+        "LABTOOL_LOCAL_0053",
+        "LABTOOL_LOCAL_0054"
+      ]
+    },
+    {
+      "net": "ADC_J3_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.527410528555628,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0055",
+        "LABTOOL_LOCAL_0056",
+        "LABTOOL_LOCAL_0057"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.78070211756262,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0058"
+      ]
+    },
+    {
+      "net": "ADC_J4_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.225580480757537,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0059",
+        "LABTOOL_LOCAL_0060"
+      ]
+    },
+    {
+      "net": "ADC_J4_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857042,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0061"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.4671604494403763,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0062",
+        "LABTOOL_LOCAL_0063"
+      ]
+    },
+    {
+      "net": "ADC_J4_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363304782337,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0064",
+        "LABTOOL_LOCAL_0065",
+        "LABTOOL_LOCAL_0066",
+        "LABTOOL_LOCAL_0067",
+        "LABTOOL_LOCAL_0068",
+        "LABTOOL_LOCAL_0069",
+        "LABTOOL_LOCAL_0070"
+      ]
+    },
+    {
+      "net": "ADC_J4_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.698042718216608,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0071",
+        "LABTOOL_LOCAL_0072"
+      ]
+    },
+    {
+      "net": "ADC_J4_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.9479713543367532,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0073"
+      ]
+    },
+    {
+      "net": "ADC_J4_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696246,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0074"
+      ]
+    },
+    {
+      "net": "ADC_J4_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3764093036088796,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0075"
+      ]
+    },
+    {
+      "net": "ADC_J4_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690111195368,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0076",
+        "LABTOOL_LOCAL_0077"
+      ]
+    },
+    {
+      "net": "ADC_J4_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.910157484390045,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0078",
+        "LABTOOL_LOCAL_0079",
+        "LABTOOL_LOCAL_0080",
+        "LABTOOL_LOCAL_0081",
+        "LABTOOL_LOCAL_0082",
+        "LABTOOL_LOCAL_0083"
+      ]
+    },
+    {
+      "net": "ADC_J4_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.5274104883493513,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0084",
+        "LABTOOL_LOCAL_0085",
+        "LABTOOL_LOCAL_0086"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.7807021175626159,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0087"
+      ]
+    },
+    {
+      "net": "ADC_J5_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.2255804807575292,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0088",
+        "LABTOOL_LOCAL_0089"
+      ]
+    },
+    {
+      "net": "ADC_J5_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857042,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0090"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.4671604494403647,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0091",
+        "LABTOOL_LOCAL_0092"
+      ]
+    },
+    {
+      "net": "ADC_J5_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363354879826,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0093",
+        "LABTOOL_LOCAL_0094",
+        "LABTOOL_LOCAL_0095",
+        "LABTOOL_LOCAL_0096",
+        "LABTOOL_LOCAL_0097",
+        "LABTOOL_LOCAL_0098",
+        "LABTOOL_LOCAL_0099"
+      ]
+    },
+    {
+      "net": "ADC_J5_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.6980427182165965,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0100",
+        "LABTOOL_LOCAL_0101"
+      ]
+    },
+    {
+      "net": "ADC_J5_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.947971411319094,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0102"
+      ]
+    },
+    {
+      "net": "ADC_J5_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696246,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0103"
+      ]
+    },
+    {
+      "net": "ADC_J5_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3764093036088663,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0104"
+      ]
+    },
+    {
+      "net": "ADC_J5_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690134040341,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0105",
+        "LABTOOL_LOCAL_0106"
+      ]
+    },
+    {
+      "net": "ADC_J5_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.902398583567964,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0107",
+        "LABTOOL_LOCAL_0108",
+        "LABTOOL_LOCAL_0109",
+        "LABTOOL_LOCAL_0110",
+        "LABTOOL_LOCAL_0111",
+        "LABTOOL_LOCAL_0112"
+      ]
+    },
+    {
+      "net": "ADC_J5_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.527410448143106,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0113",
+        "LABTOOL_LOCAL_0114",
+        "LABTOOL_LOCAL_0115"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.7807021175626159,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0116"
+      ]
+    },
+    {
+      "net": "ADC_J6_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.225580480757538,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0117",
+        "LABTOOL_LOCAL_0118"
+      ]
+    },
+    {
+      "net": "ADC_J6_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 6.620996722594643,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0119"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.46716044944035,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0120",
+        "LABTOOL_LOCAL_0121"
+      ]
+    },
+    {
+      "net": "ADC_J6_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363404977317,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0122",
+        "LABTOOL_LOCAL_0123",
+        "LABTOOL_LOCAL_0124",
+        "LABTOOL_LOCAL_0125",
+        "LABTOOL_LOCAL_0126",
+        "LABTOOL_LOCAL_0127",
+        "LABTOOL_LOCAL_0128"
+      ]
+    },
+    {
+      "net": "ADC_J6_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.6980427182165965,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0129",
+        "LABTOOL_LOCAL_0130"
+      ]
+    },
+    {
+      "net": "ADC_J6_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 2.0585430557480335,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0131"
+      ]
+    },
+    {
+      "net": "ADC_J6_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 2.589901455185936,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0132"
+      ]
+    },
+    {
+      "net": "ADC_J6_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 2.144412311665121,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0133"
+      ]
+    },
+    {
+      "net": "ADC_J6_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.334543598982815,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0134",
+        "LABTOOL_LOCAL_0135"
+      ]
+    },
+    {
+      "net": "ADC_J6_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.680564075939433,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0136",
+        "LABTOOL_LOCAL_0137",
+        "LABTOOL_LOCAL_0138",
+        "LABTOOL_LOCAL_0139",
+        "LABTOOL_LOCAL_0140",
+        "LABTOOL_LOCAL_0141"
+      ]
+    },
+    {
+      "net": "ADC_J6_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.5274104079368724,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0142",
+        "LABTOOL_LOCAL_0143",
+        "LABTOOL_LOCAL_0144"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.78070211756262,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0145"
+      ]
+    },
+    {
+      "net": "ADC_J7_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.225580480757528,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0146",
+        "LABTOOL_LOCAL_0147"
+      ]
+    },
+    {
+      "net": "ADC_J7_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857042,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0148"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.4671604494403576,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0149",
+        "LABTOOL_LOCAL_0150"
+      ]
+    },
+    {
+      "net": "ADC_J7_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363455074837,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0151",
+        "LABTOOL_LOCAL_0152",
+        "LABTOOL_LOCAL_0153",
+        "LABTOOL_LOCAL_0154",
+        "LABTOOL_LOCAL_0155",
+        "LABTOOL_LOCAL_0156",
+        "LABTOOL_LOCAL_0157"
+      ]
+    },
+    {
+      "net": "ADC_J7_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.6980427182166022,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0158",
+        "LABTOOL_LOCAL_0159"
+      ]
+    },
+    {
+      "net": "ADC_J7_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.9479715252836822,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0160"
+      ]
+    },
+    {
+      "net": "ADC_J7_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696297,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0161"
+      ]
+    },
+    {
+      "net": "ADC_J7_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3764093036088596,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0162"
+      ]
+    },
+    {
+      "net": "ADC_J7_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690179730281,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0163",
+        "LABTOOL_LOCAL_0164"
+      ]
+    },
+    {
+      "net": "ADC_J7_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.9101574843900515,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0165",
+        "LABTOOL_LOCAL_0166",
+        "LABTOOL_LOCAL_0167",
+        "LABTOOL_LOCAL_0168",
+        "LABTOOL_LOCAL_0169",
+        "LABTOOL_LOCAL_0170"
+      ]
+    },
+    {
+      "net": "ADC_J7_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.527410367730641,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0171",
+        "LABTOOL_LOCAL_0172",
+        "LABTOOL_LOCAL_0173"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.78070211756262,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0174"
+      ]
+    },
+    {
+      "net": "ADC_J8_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.2255804807575412,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0175",
+        "LABTOOL_LOCAL_0176"
+      ]
+    },
+    {
+      "net": "ADC_J8_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857044,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0177"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.4671604494403576,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0178",
+        "LABTOOL_LOCAL_0179"
+      ]
+    },
+    {
+      "net": "ADC_J8_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363505172317,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0180",
+        "LABTOOL_LOCAL_0181",
+        "LABTOOL_LOCAL_0182",
+        "LABTOOL_LOCAL_0183",
+        "LABTOOL_LOCAL_0184",
+        "LABTOOL_LOCAL_0185",
+        "LABTOOL_LOCAL_0186"
+      ]
+    },
+    {
+      "net": "ADC_J8_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.698042718216591,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0187",
+        "LABTOOL_LOCAL_0188"
+      ]
+    },
+    {
+      "net": "ADC_J8_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.9479715822660182,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0189"
+      ]
+    },
+    {
+      "net": "ADC_J8_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696272,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0190"
+      ]
+    },
+    {
+      "net": "ADC_J8_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.376409303608853,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0191"
+      ]
+    },
+    {
+      "net": "ADC_J8_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.8206902025752525,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0192",
+        "LABTOOL_LOCAL_0193"
+      ]
+    },
+    {
+      "net": "ADC_J8_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.910157484390046,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0194",
+        "LABTOOL_LOCAL_0195",
+        "LABTOOL_LOCAL_0196",
+        "LABTOOL_LOCAL_0197",
+        "LABTOOL_LOCAL_0198",
+        "LABTOOL_LOCAL_0199"
+      ]
+    },
+    {
+      "net": "ADC_J8_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.5274103275243927,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0200",
+        "LABTOOL_LOCAL_0201",
+        "LABTOOL_LOCAL_0202"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.7807021175626219,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0203"
+      ]
+    },
+    {
+      "net": "ADC_J9_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.225580480757537,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0204",
+        "LABTOOL_LOCAL_0205"
+      ]
+    },
+    {
+      "net": "ADC_J9_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857044,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0206"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.467160449440352,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0207",
+        "LABTOOL_LOCAL_0208"
+      ]
+    },
+    {
+      "net": "ADC_J9_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363555269817,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0209",
+        "LABTOOL_LOCAL_0210",
+        "LABTOOL_LOCAL_0211",
+        "LABTOOL_LOCAL_0212",
+        "LABTOOL_LOCAL_0213",
+        "LABTOOL_LOCAL_0214",
+        "LABTOOL_LOCAL_0215"
+      ]
+    },
+    {
+      "net": "ADC_J9_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.6980427182165965,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0216",
+        "LABTOOL_LOCAL_0217"
+      ]
+    },
+    {
+      "net": "ADC_J9_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.9479716392483262,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0218"
+      ]
+    },
+    {
+      "net": "ADC_J9_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696272,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0219"
+      ]
+    },
+    {
+      "net": "ADC_J9_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3764093036088596,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0220"
+      ]
+    },
+    {
+      "net": "ADC_J9_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690225420231,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0221",
+        "LABTOOL_LOCAL_0222"
+      ]
+    },
+    {
+      "net": "ADC_J9_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.910157484390041,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0223",
+        "LABTOOL_LOCAL_0224",
+        "LABTOOL_LOCAL_0225",
+        "LABTOOL_LOCAL_0226",
+        "LABTOOL_LOCAL_0227",
+        "LABTOOL_LOCAL_0228"
+      ]
+    },
+    {
+      "net": "ADC_J9_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.5964931887127825,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0229",
+        "LABTOOL_LOCAL_0230",
+        "LABTOOL_LOCAL_0231"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.7807021175626196,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0232"
+      ]
+    },
+    {
+      "net": "ADC_J10_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.225580480757537,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0233",
+        "LABTOOL_LOCAL_0234"
+      ]
+    },
+    {
+      "net": "ADC_J10_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857044,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0235"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.4671604494403536,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0236",
+        "LABTOOL_LOCAL_0237"
+      ]
+    },
+    {
+      "net": "ADC_J10_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.303363605367323,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0238",
+        "LABTOOL_LOCAL_0239",
+        "LABTOOL_LOCAL_0240",
+        "LABTOOL_LOCAL_0241",
+        "LABTOOL_LOCAL_0242",
+        "LABTOOL_LOCAL_0243",
+        "LABTOOL_LOCAL_0244"
+      ]
+    },
+    {
+      "net": "ADC_J10_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.698042718216595,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0245",
+        "LABTOOL_LOCAL_0246"
+      ]
+    },
+    {
+      "net": "ADC_J10_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.947971696230631,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0247"
+      ]
+    },
+    {
+      "net": "ADC_J10_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696297,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0248"
+      ]
+    },
+    {
+      "net": "ADC_J10_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3764093036088463,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0249"
+      ]
+    },
+    {
+      "net": "ADC_J10_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690248265203,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0250",
+        "LABTOOL_LOCAL_0251"
+      ]
+    },
+    {
+      "net": "ADC_J10_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.910157484390045,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0252",
+        "LABTOOL_LOCAL_0253",
+        "LABTOOL_LOCAL_0254",
+        "LABTOOL_LOCAL_0255",
+        "LABTOOL_LOCAL_0256",
+        "LABTOOL_LOCAL_0257"
+      ]
+    },
+    {
+      "net": "ADC_J10_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.5964931479960445,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0258",
+        "LABTOOL_LOCAL_0259",
+        "LABTOOL_LOCAL_0260"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.7807021175626223,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0261"
+      ]
+    },
+    {
+      "net": "ADC_J11_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 3.225580480757538,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0262",
+        "LABTOOL_LOCAL_0263"
+      ]
+    },
+    {
+      "net": "ADC_J11_BUF",
+      "role": "Follower shortfeedback and4k feed",
+      "lengthMm": 7.198514737857042,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0264"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Negative local follower bypass",
+      "lengthMm": 2.4671604494403545,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0265",
+        "LABTOOL_LOCAL_0266"
+      ]
+    },
+    {
+      "net": "ADC_J11_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 11.30336365546482,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0267",
+        "LABTOOL_LOCAL_0268",
+        "LABTOOL_LOCAL_0269",
+        "LABTOOL_LOCAL_0270",
+        "LABTOOL_LOCAL_0271",
+        "LABTOOL_LOCAL_0272",
+        "LABTOOL_LOCAL_0273"
+      ]
+    },
+    {
+      "net": "ADC_J11_FILTER",
+      "role": "SMA lowpass to bipolar follower+",
+      "lengthMm": 2.698042718216595,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0274",
+        "LABTOOL_LOCAL_0275"
+      ]
+    },
+    {
+      "net": "ADC_J11_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.9479717532129468,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0276"
+      ]
+    },
+    {
+      "net": "ADC_J11_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3871559218696279,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0277"
+      ]
+    },
+    {
+      "net": "ADC_J11_SUM",
+      "role": "Final inverting summing node",
+      "lengthMm": 1.3764093036088452,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0278"
+      ]
+    },
+    {
+      "net": "ADC_J11_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 5.820690271110184,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0279",
+        "LABTOOL_LOCAL_0280"
+      ]
+    },
+    {
+      "net": "ADC_J11_DRV",
+      "role": "FeedbackR/C to finalOUT; existing47R output stub preserved",
+      "lengthMm": 4.902398583567974,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0281",
+        "LABTOOL_LOCAL_0282",
+        "LABTOOL_LOCAL_0283",
+        "LABTOOL_LOCAL_0284",
+        "LABTOOL_LOCAL_0285",
+        "LABTOOL_LOCAL_0286"
+      ]
+    },
+    {
+      "net": "ADC_J11_RAW",
+      "role": "Groundreferenced SMA pulldown signal side",
+      "lengthMm": 2.596493107279313,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0287",
+        "LABTOOL_LOCAL_0288",
+        "LABTOOL_LOCAL_0289"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positive local follower bypass",
+      "lengthMm": 1.78070211756262,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0290"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.790335283933608,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0291",
+        "LABTOOL_LOCAL_0292",
+        "LABTOOL_LOCAL_0293",
+        "LABTOOL_LOCAL_0294",
+        "LABTOOL_LOCAL_0295"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.79033525359044,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0296",
+        "LABTOOL_LOCAL_0297",
+        "LABTOOL_LOCAL_0298",
+        "LABTOOL_LOCAL_0299",
+        "LABTOOL_LOCAL_0300"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.69855665774711,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0301",
+        "LABTOOL_LOCAL_0302",
+        "LABTOOL_LOCAL_0303",
+        "LABTOOL_LOCAL_0304",
+        "LABTOOL_LOCAL_0305"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.743435700936452,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0306",
+        "LABTOOL_LOCAL_0307",
+        "LABTOOL_LOCAL_0308",
+        "LABTOOL_LOCAL_0309",
+        "LABTOOL_LOCAL_0310"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 20.907735127798617,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0311",
+        "LABTOOL_LOCAL_0312",
+        "LABTOOL_LOCAL_0313",
+        "LABTOOL_LOCAL_0314",
+        "LABTOOL_LOCAL_0315"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.707411040181483,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0316",
+        "LABTOOL_LOCAL_0317",
+        "LABTOOL_LOCAL_0318",
+        "LABTOOL_LOCAL_0319",
+        "LABTOOL_LOCAL_0320"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.69855650603118,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0321",
+        "LABTOOL_LOCAL_0322",
+        "LABTOOL_LOCAL_0323",
+        "LABTOOL_LOCAL_0324",
+        "LABTOOL_LOCAL_0325"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.707410979495123,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0326",
+        "LABTOOL_LOCAL_0327",
+        "LABTOOL_LOCAL_0328",
+        "LABTOOL_LOCAL_0329",
+        "LABTOOL_LOCAL_0330"
+      ]
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "lengthMm": 21.660987544693963,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0331",
+        "LABTOOL_LOCAL_0332",
+        "LABTOOL_LOCAL_0333",
+        "LABTOOL_LOCAL_0334",
+        "LABTOOL_LOCAL_0335"
+      ]
+    },
+    {
+      "net": "AFE_OFFSET_BUFFER",
+      "role": "Offsetreference buffer shortfeedback",
+      "lengthMm": 3.2255804807575297,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0336",
+        "LABTOOL_LOCAL_0337"
+      ]
+    },
+    {
+      "net": "AFE_OFFSET_BUFFER",
+      "role": "Offsetreference buffer shortfeedback",
+      "lengthMm": 3.308382986586564,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0338",
+        "LABTOOL_LOCAL_0339",
+        "LABTOOL_LOCAL_0340"
+      ]
+    },
+    {
+      "net": "AFE_REF_NR",
+      "role": "REF5025noise-reductionbypass",
+      "lengthMm": 5.965511841740775,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0341",
+        "LABTOOL_LOCAL_0342",
+        "LABTOOL_LOCAL_0343",
+        "LABTOOL_LOCAL_0344"
+      ]
+    },
+    {
+      "net": "AFE_REF_ESR",
+      "role": "REF5025ESR-controlledoutputbypass",
+      "lengthMm": 4.4610921874496805,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0345",
+        "LABTOOL_LOCAL_0346",
+        "LABTOOL_LOCAL_0347"
+      ]
+    },
+    {
+      "net": "AFE_REF_2V5",
+      "role": "Precisionreferenceoutputdividerandbypass",
+      "lengthMm": 4.511061950000194,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0348",
+        "LABTOOL_LOCAL_0349",
+        "LABTOOL_LOCAL_0350",
+        "LABTOOL_LOCAL_0351",
+        "LABTOOL_LOCAL_0352"
+      ]
+    },
+    {
+      "net": "AFE_REF_2V5",
+      "role": "Precisionreferenceoutputdividerandbypass",
+      "lengthMm": 11.141528163910317,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0353",
+        "LABTOOL_LOCAL_0354",
+        "LABTOOL_LOCAL_0355",
+        "LABTOOL_LOCAL_0356",
+        "LABTOOL_LOCAL_0357"
+      ]
+    },
+    {
+      "net": "AFE_OFFSET_FILTER",
+      "role": "Low-noisedividerLPF tooffsetbuffer",
+      "lengthMm": 6.561020749654518,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0358",
+        "LABTOOL_LOCAL_0359",
+        "LABTOOL_LOCAL_0360",
+        "LABTOOL_LOCAL_0361",
+        "LABTOOL_LOCAL_0362"
+      ]
+    },
+    {
+      "net": "AFE_OFFSET_FILTER",
+      "role": "Low-noisedividerLPF tooffsetbuffer",
+      "lengthMm": 3.616671021158878,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0363",
+        "LABTOOL_LOCAL_0364",
+        "LABTOOL_LOCAL_0365",
+        "LABTOOL_LOCAL_0366"
+      ]
+    },
+    {
+      "net": "AFE_OFFSET_FILTER",
+      "role": "Low-noisedividerLPF tooffsetbuffer",
+      "lengthMm": 2.131899778062045,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0367"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Referenceislandlocalpositivepower",
+      "lengthMm": 2.806906642607837,
+      "lineKeys": [
+        "LABTOOL_LOCAL_0368"
+      ]
+    }
+  ],
+  "unroutedConnections": [
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "Quiet offsetbus branch to finalOPA320+",
+      "fromXYmm": [
+        17.500000509199996,
+        67.04999861499999
+      ],
+      "toXYmm": [
+        26.5,
+        60.35
+      ],
+      "reason": "NO_TOP_GRID_PATH",
+      "visited": 29467,
+      "obstacles": 117
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "IsolatedoffsetoutputtoTOPtrunk; centraljog",
+      "fromXYmm": [
+        25.200000000000003,
+        68.3099990054
+      ],
+      "toXYmm": [
+        26.5,
+        60.35
+      ],
+      "reason": "NO_TOP_GRID_PATH",
+      "visited": 981,
+      "obstacles": 161
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "IsolatedoffsetoutputtoTOPtrunk; centraljog",
+      "fromXYmm": [
+        25.200000000000003,
+        68.3099990054
+      ],
+      "toXYmm": [
+        29.400000000000002,
+        83.54999898899999
+      ],
+      "reason": "NO_TOP_GRID_PATH",
+      "visited": 975,
+      "obstacles": 161
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "IsolatedoffsetoutputtoTOPtrunk; centraljog",
+      "fromXYmm": [
+        25.200000000000003,
+        68.3099990054
+      ],
+      "toXYmm": [
+        25.7,
+        88.35
+      ],
+      "reason": "NO_TOP_GRID_PATH",
+      "visited": 975,
+      "obstacles": 161
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Referenceislandlocalpositivepower",
+      "fromXYmm": [
+        26.999999990799996,
+        71.850000005
+      ],
+      "toXYmm": [
+        28.800000000000004,
+        72.2800000052
+      ],
+      "reason": "NO_TOP_GRID_PATH",
+      "visited": 43954,
+      "obstacles": 168
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Referenceislandlocalpositivepower",
+      "fromXYmm": [
+        25.465000000000007,
+        74.1999999898
+      ],
+      "toXYmm": [
+        20.4,
+        72.82500000060001
+      ],
+      "reason": "NO_TOP_GRID_PATH",
+      "visited": 44739,
+      "obstacles": 168
+    }
+  ],
+  "exactLiteralCopperConflicts": [],
+  "clearanceMm": 0.1535,
+  "gridStepMm": 0.05,
+  "traceWidthMm": 0.2032,
+  "invalidOriginalFills": [
+    {
+      "id": "9a405bd52ff5d175",
+      "net": "GND"
+    },
+    {
+      "id": "d9b20cbcd6912827",
+      "net": "GND"
+    },
+    {
+      "id": "cbf547853a678101",
+      "net": "GND"
+    },
+    {
+      "id": "c18edd359ca3c0bd",
+      "net": "GND"
+    }
+  ],
+  "plannedVias": 0,
+  "preservedExistingVias": 640,
+  "remaining": [
+    "Offset bus branches to allOPA320+",
+    "Shared+5V_AFE/-3V_AFE trunks",
+    "Commonpump/LDO/referenceislandrouting",
+    "EveryGNDpadreturn verification and localstaticgroundvoidcut",
+    "NativeDRC and fullnetlist/sourcepreservation audit"
+  ],
+  "manufacturingReady": false
+}

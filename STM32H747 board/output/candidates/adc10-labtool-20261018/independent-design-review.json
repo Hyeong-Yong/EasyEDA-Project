@@ -1,0 +1,193 @@
+{
+  "schema": "adc10-labtool-independent-design-review-20261018-v1",
+  "status": "PASS_OPERATING_POINT_AND_BOUNDED_IDEAL_CALCULATIONS_WITH_EXPLICIT_QUALIFICATIONS",
+  "implementation_by_this_review": false,
+  "native_api_used": false,
+  "pcb_modified": false,
+  "firmware_modified": false,
+  "manufacturing_approved": false,
+  "test_dac8562_access": false,
+  "plan_sha256": "c787bcec330058940451d768f13d5238417912bbeda552a857fe7049a6e79054",
+  "inputs": [
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\03_MCU_POWER_labtool_candidate.epru",
+      "sha256": "dfed7206d78e8f60fc3063ca323e622e1ca819acaa4e06c011ddda58591dbfbd",
+      "matches_plan_sha256": true
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\06_ADC_TIMER_DAC_labtool_candidate.epru",
+      "sha256": "ab856c7a35806e04119d5c3bd0441d244f8bad4e8a2a8fc33324f6a9906a439f",
+      "matches_plan_sha256": true
+    }
+  ],
+  "checks": {
+    "ten_front_opamps_plus_one_offset_opamp": true,
+    "only_ten_front_opamps_use_negative_rail": true,
+    "final_ten_opa320_remain_original_3v3": true,
+    "negative_ldo_pin_contract": true,
+    "negative_divider_orientation": true,
+    "offset_buffer_feedback_before_1k_output_isolator": true,
+    "no_independent_vdda_regulator_fitted": true,
+    "all_candidate_hashes_match_current_plan": true,
+    "fixed_power_reference_values_match_review": true
+  },
+  "scope": "Powered normal operation, SMA connector voltage within -2..+2V, 50-ohm source, DC/60Hz and several-kHz signal bandwidth. No fault/startup/overvoltage certification; no claim of measured noise or native/ERC/DRC success.",
+  "dc": {
+    "vplus_v": 0.9689922480620154,
+    "adc_offset_v": 1.6472868217054262,
+    "gain_from_sma_v_per_v": -0.7,
+    "gain_from_ideal_generator_emf_v_per_v": -0.6996501749125437,
+    "adc_points_from_actual_sma_v": {
+      "-2": 3.047286821705426,
+      "0": 1.6472868217054262,
+      "2": 0.24728682170542626
+    },
+    "adc_points_from_50ohm_generator_emf_v": {
+      "-2": 3.0465871715305135,
+      "0": 1.6472868217054262,
+      "2": 0.24798647188033884
+    },
+    "open_sma_ideal_v": 0,
+    "open_adc_ideal_v": 1.6472868217054262,
+    "source_loading_error_percent": 0.04997501249375258,
+    "sign_inversion_requires_calibration": true,
+    "exact_0_and_3v3_endpoints_claimed": false,
+    "headroom_at_assumed_main_3v3_minus5percent_v": 0.0877131782945737
+  },
+  "filter": {
+    "input_pole_hz_with_50ohm_source": 4722.733625675224,
+    "feedback_signal_pole_hz": 5684.1051104248345,
+    "combined_signal_minus3db_hz": 3314.4237922074535,
+    "response": {
+      "60": {
+        "gain_relative_to_dc": 0.9998636047329156,
+        "attenuation_db": -0.0011847950391045093,
+        "phase_deg": -1.3326529820432023
+      },
+      "7800": {
+        "gain_relative_to_dc": 0.3050354547112812,
+        "attenuation_db": -10.312993580895181,
+        "phase_deg": -112.72398952991726
+      },
+      "1000000": {
+        "gain_relative_to_dc": 2.6843781323956116e-05,
+        "attenuation_db": -91.42312615421966,
+        "phase_deg": -179.4037375814583
+      }
+    },
+    "feedback_noise_gain_dc": 1.7,
+    "feedback_noise_gain_high_frequency": 1,
+    "offset_divider_pole_hz_4u7": 5.529487653879477,
+    "offset_output_isolation_pole_hz_1k_4u7": 33.86275384933944,
+    "front_open_decay_tau_s": 0.0010332,
+    "anti_alias_16bit_guarantee": false,
+    "one_mhz_waveform_supported": false
+  },
+  "power": {
+    "supply_assumption_v": [
+      4.75,
+      5.25
+    ],
+    "positive_feed_resistor_nominal_ohm": 4.7,
+    "positive_feed_resistor_max_1percent_ohm": 4.747,
+    "opa189_hot_iq_max_A_each": 0.0018,
+    "positive_amp_count": 11,
+    "negative_amp_count": 10,
+    "ref5025_hot_iq_max_A": 0.0012,
+    "ref_dc_divider_load_A": 9.689922480620155e-05,
+    "front_buffer_source_max_A_each": 0.00025775193798449614,
+    "front_buffer_sink_max_A_each": 0.0007422480620155039,
+    "positive_feed_normal_dc_bound_A": 0.02367441860465116,
+    "positive_feed_min_v_excluding_ac_ripple_and_startup": 4.637617534883721,
+    "opa189_cm_max_at_that_min_supply_v": 2.137617534883721,
+    "opa189_cm_margin_above_plus2_v": 0.13761753488372097,
+    "positive_feed_dissipation_W": 0.002660589522985397,
+    "positive_filter_nominal_total_uF_including_all_decoupling": 11.5,
+    "positive_filter_nominal_pole_hz": 2944.587291246907,
+    "negative_ldo_nominal_v": -3.01244,
+    "negative_divider_current_A": 0.0001186,
+    "negative_ldo_load_dc_bound_A": 0.025541080620155036,
+    "negative_raw_load_allowance_A_including_max_legacy_ignd_and_en": 0.026043080620155035,
+    "pump_input_current_engineering_allowance_A_at_assumed_80percent_efficiency": 0.03325385077519379,
+    "efficiency_allowance_not_datasheet_guarantee": true,
+    "pump_input_min_v_in_that_engineering_scenario": 4.592143970370155,
+    "raw_negative_magnitude_v_at_15ohm_rout_25C_scenario": 4.201497761067829,
+    "negative_ldo_output_conservative_magnitude_v_including_extra_error_terms": 3.1218697365365364,
+    "required_raw_negative_magnitude_v_including_0p5dropout_and_50mVripple_reserve": 3.6718697365365363,
+    "maximum_acceptable_pump_rout_ohm_in_same_scenario": 35.33661194910283,
+    "pump_rout_full_temperature_guaranteed": false,
+    "pump_60mA_output_limit_margin_A": 0.03395691937984496,
+    "negative_ldo_dissipation_upper_estimate_W_using_raw5p25": 0.05977470035243411,
+    "additional_plus5_dc_engineering_budget_A": 0.05692826937984495,
+    "main_3v3_opa320_hot_iq_plus_feedback_source_allowance_A": 0.025922480620155043,
+    "main_3v3_vdda_vref_power_domain_preserved": true,
+    "new_12v_input_support": false
+  },
+  "adc_bucket": {
+    "resistor_ohm": 47.0,
+    "capacitor_F": 1e-08,
+    "pole_hz": 338627.5384933943,
+    "ideal_tau_s": 4.7e-07,
+    "assumed_adc_sampling_capacitor_F_not_verified_stm_value": 1.6e-11,
+    "assumed_adjacent_channel_voltage_step_v": 3.3,
+    "ideal_charge_sharing_step_v": 0.005271565495207667,
+    "ideal_recovery_tau_including_csamp_s": 4.70752e-07,
+    "required_documented_initial_acquisition_time_s": 5e-06,
+    "ideal_residual_v_after5us": 1.285777973563963e-07,
+    "half_lsb_16bit_at3v3_v": 2.5177001953125e-05,
+    "ideal_model_residual_below_half_lsb": true,
+    "maximum_acquisitions_per_second_per_adc_4channels": 62400,
+    "four_channel_acquisition_only_duty_at5us": 0.312,
+    "firmware_sample_time_verified": false,
+    "native_adc_internal_switch_impedance_and_parasitics_modelled": false,
+    "opamp_stability_guaranteed_by_rc_alone": false
+  },
+  "noise": {
+    "ref5025_classic_low_frequency_noise_typ_uVpp_without_nr": 7.5,
+    "ref_to_adc_dc_noise_gain": 0.6589147286821705,
+    "adc_ref_noise_typ_uVpp_before_nr_and_filter": 4.941860465116279,
+    "nr_1uF_typ_total_noise_reduction_qualifier": "Datasheet describes about half overall noise; not a guaranteed spectral/integrated bound for this complete circuit.",
+    "opa320_white_voltage_noise_estimate_uVrms_7nV_sqrtHz_through_bucket_only": 5.105274702426309,
+    "opa320_white_voltage_noise_estimate_uVrms_8p5nV_sqrtHz_through_bucket_only": 6.199262138660519,
+    "estimate_excludes_adc_own_noise_reference_gain_noise_low_frequency_noise_and_full_transfer": true,
+    "bucket_47ohm_johnson_equivalent_kTC_uVrms_300K": 0.6435795988065501,
+    "do_not_double_count_kTC_and_integrated_same_resistor_noise": true,
+    "mcu_vref_still_filtered_main3v3": true,
+    "measured_noise_reduction_claim": false
+  },
+  "open_input": {
+    "sma_pulldown_ohm": 100000.0,
+    "opa189_max_bias_current_A_25C": 3e-10,
+    "opa189_max_bias_current_A_0to85C": 1e-09,
+    "opa189_max_bias_current_A_minus40to125C": 1e-08,
+    "worst_open_input_bias_offset_v_full_temperature": 0.0010332,
+    "worst_open_adc_bias_offset_v_full_temperature": 0.0007232399999999999,
+    "not_included": [
+      "external connector/PCB leakage",
+      "opamp offset",
+      "reference/gain errors"
+    ],
+    "literal_adc_pin_0v_when_open": false
+  },
+  "remaining_qualifications": [
+    "The 5V rail must remain within4.75..5.25V under the complete board load; no12V direct input.",
+    "OPA189 upper common-mode margin must also cover actual+5AFE ripple, supply tolerance, resistor tolerance and transients; the normal-DC bound is not a startup proof.",
+    "TPS60403 output resistance15ohm is limited to25C specified condition. Confirm temperature/capacitor-effective-value/startup/dropout margin with the actual converter and board.",
+    "TPS723 new/legacy variants have different electrical/startup conditions. Selected15.4k/10k orientation andEN-to-IN are correct; effective outputC/ESR andCFF must match the selected variant.",
+    "REF5025AI classic is NOT REF5025E.1ohm series output-capacitor ESR is intentional; theNR1uF and two offset LPFs delay startup. Wait for measured settling before using conversions.",
+    "Offset buffer feedback must be beforeR2041k. The large downstream4.7uF is not placed directly inside the follower loop.",
+    "Powered-off inputs and overvoltage/ESD protection are unqualified. Do not infer rail-sinking/back-power safety merely because an individual opamp input current is below absolute maximum.",
+    "Final OPA320 andMCUVDDA/VREF stay on the existing3.3V domain; separate-rail sequencing proposal was rejected and is not fitted.",
+    "47ohm/10nF is a reasonable prospective charge-reservoir/noise tradeoff, not proof of zero crosstalk. Verify>=5us actual sample acquisition, first-after-channel-change behavior and worst-case adjacent-channel step on hardware.",
+    "Signal feedback filtering does not remove all post-amplifier noise. ADC reference noise, own converter noise, layout, finite PSRR and aliasing remain.",
+    "This report audits fixed design calculations and declared candidate pin contracts only, not native geometric connectivity, libraries/footprints, ERC, DRC or CAM."
+  ],
+  "primary_sources": {
+    "OPA189": "https://www.ti.com/lit/ds/symlink/opa189.pdf",
+    "OPA320": "https://www.ti.com/lit/ds/symlink/opa320.pdf",
+    "TPS60403": "https://www.ti.com/lit/ds/symlink/tps60403.pdf",
+    "TPS723": "https://www.ti.com/lit/ds/symlink/tps723.pdf",
+    "REF5025": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+    "STM32H747": "https://www.st.com/resource/en/datasheet/stm32h747xi.pdf"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "readback-auditor-dry-self-tests-v1",
+  "passed": true,
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "auditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-copper-readback-20261018.py",
+  "auditorSha256": "110e20bdf70b890e6ab7f9a899ea3766a1ea017551a70dbd7b42261aa5eb4111",
+  "actualV6SourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+  "actualV6SourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "tests": [
+    {
+      "name": "All_actual_V6_protected_bodies_exact_no_tolerance",
+      "passed": true
+    },
+    {
+      "name": "Exact_diagonal_split_merge_reversal_and_duplicates",
+      "passed": true
+    },
+    {
+      "name": "Off_line_endpoint_0p0001mil_rejected",
+      "passed": true
+    },
+    {
+      "name": "Additional_branch_not_lost_by_union",
+      "passed": true
+    },
+    {
+      "name": "Inner15_float_expression_same_approved_q4mil_pair",
+      "passed": true
+    },
+    {
+      "name": "Inner15_obviously_nonapproved_segment_rejected",
+      "passed": true
+    },
+    {
+      "name": "Inner15_same_q4mil_but_raw_change_over_1e12mm_rejected",
+      "passed": true
+    },
+    {
+      "name": "Fill_cyclic_closure_duplicate_collinear_and_hole_order_exact",
+      "passed": true
+    },
+    {
+      "name": "Fill_unplanned_vertex_0p0001mil_rejected",
+      "passed": true
+    },
+    {
+      "name": "Only_explicit_native_4dp_serialization_qualified",
+      "passed": true
+    },
+    {
+      "name": "New_045_020_all6_via_serialization_accepted",
+      "passed": true
+    },
+    {
+      "name": "New_via_inner_copper_omission_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_COMPONENT_mutation_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_VIA_mutation_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_RULE_mutation_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_PAD_NET_mutation_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_junction_exact_reference_case_accepted",
+      "passed": true
+    },
+    {
+      "name": "Focused_B_minus_one_native_grid_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_B_plus_one_native_grid_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_actual_startX_change_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_actual_width_change_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_actual_netName_change_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_actual_layerId_change_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_planned_C_shift_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_original_crossing_segment_changed_rejected",
+      "passed": true
+    },
+    {
+      "name": "Focused_original_wide_width_changed_rejected",
+      "passed": true
+    }
+  ],
+  "testCount": 26,
+  "realCopperReadbackAudited": false,
+  "limits": "Synthetic acceptance/rejection tests plus identity of all frozen actual V6 source bodies; not approval of native copper implementation."
+}

@@ -1,0 +1,37 @@
+{
+  "case": "smoke_ref_q1_warm",
+  "returncode": 1,
+  "seconds": 37.703,
+  "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\smoke_ref_q1_warm.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\smoke_ref_q1_warm.log\n\n",
+  "stderr": "",
+  "command": [
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+    "-b",
+    "-r",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\smoke_ref_q1_warm.raw",
+    "-o",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\smoke_ref_q1_warm.log",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\smoke_ref_q1_warm.cir"
+  ],
+  "warnings": [
+    "Warning: Dynamic gmin stepping failed",
+    "Warning: True gmin stepping failed",
+    "Warning: source stepping failed",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+    "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Error: Transient op failed, timestep too small",
+    "Error: The operating point could not be simulated successfully.",
+    "DC solution failed -",
+    "a.xu20_j2.x_u18.ag1#branch_doAnalyses: OP:  Timestep too small; trouble with xu9:dd-instance d.xu9.d40"
+  ],
+  "raw_exists": true,
+  "deck_sha256": "20c356e0184f0dde03afd11ce453f02abc372d71b5b300f44d8c8450371a26b0",
+  "optran_used": false,
+  "numeric_valid": false,
+  "parse_error": "not enough values to unpack (expected 2, got 1)",
+  "run_ok": false
+}

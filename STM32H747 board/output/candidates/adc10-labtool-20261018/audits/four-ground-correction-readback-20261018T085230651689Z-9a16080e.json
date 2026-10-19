@@ -1,0 +1,788 @@
+{
+  "schema": "labtool-four-ground-line-corrective-readback-v1",
+  "passed": true,
+  "errors": [],
+  "nativeApiCalls": 0,
+  "nativeDesignModified": false,
+  "manufacturingReady": false,
+  "mainAuditPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\copper-readback-copper_wire13-20261018T084247311416Z-a6fc5dc5.json",
+  "mainAuditSha256": "2f8b53c179290d7af2369e1a6350a9c349c7d9db40654e697f796d04ca393579",
+  "mainManifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-final-copper-v5-execution.json",
+  "mainManifestSha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "mainAuditedCapturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+  "mainAuditedCaptureSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+  "correctionPlanPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-ground-seam-four-line-execution-proposal-v1.json",
+  "correctionPlanSha256": "7e68822c1fc7000b0366b30edabbcd6124b4da6b4951a49b77f29b81530ba513",
+  "correctionStage": "ground_seam0",
+  "rootApprovalPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\root-four-ground-seam-bridge-review.json",
+  "rootApprovalSha256": "40baf4eedd8f31805ed18384e5dbd47524d40222c5152644ff5f334b2b2bb3aa",
+  "correctionReceiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-ground_seam0-receipt.json",
+  "correctionReceiptSha256": "2d747ff4512511685b454be2748c48ca153630886909cffc4e7b27057f3dbfb4",
+  "correctionBasePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+  "correctionBaseSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+  "correctionActualPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_ground_seam0-20261018.epru",
+  "correctionActualSha256": "49d21b37803cd04e82c401f8c3b05d1e702e17519a1b12de9db6c68d623e72d7",
+  "createdKeyToNativeId": [
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "type": "LINE",
+      "id": "1d2f4c979f086326"
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "type": "LINE",
+      "id": "e273a4afad415a1c"
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_3",
+      "type": "LINE",
+      "id": "45f4cf971c4f5355"
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_4",
+      "type": "LINE",
+      "id": "d62f70872e023378"
+    }
+  ],
+  "plannedOperations": [
+    {
+      "action": "line",
+      "type": "LINE",
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "net": "GND",
+      "layerId": 1,
+      "startXYMil": [
+        1777.9528,
+        4316.252
+      ],
+      "endXYMil": [
+        1777.9528,
+        4318.8976
+      ],
+      "widthMil": 8
+    },
+    {
+      "action": "line",
+      "type": "LINE",
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "net": "GND",
+      "layerId": 17,
+      "startXYMil": [
+        1818.88,
+        4322.1576
+      ],
+      "endXYMil": [
+        1818.88,
+        4316.2516
+      ],
+      "widthMil": 8
+    },
+    {
+      "action": "line",
+      "type": "LINE",
+      "key": "LEGACY_GND_SEAM_BRIDGE_3",
+      "net": "GND",
+      "layerId": 17,
+      "startXYMil": [
+        2078.8013,
+        3116.24
+      ],
+      "endXYMil": [
+        2078.8013,
+        3110.334
+      ],
+      "widthMil": 8
+    },
+    {
+      "action": "line",
+      "type": "LINE",
+      "key": "LEGACY_GND_SEAM_BRIDGE_4",
+      "net": "GND",
+      "layerId": 1,
+      "startXYMil": [
+        2112.2047,
+        3121.063
+      ],
+      "endXYMil": [
+        2112.2047,
+        3110.3344
+      ],
+      "widthMil": 8
+    }
+  ],
+  "coveredCreateNoopProof": {
+    "kind": "root-approved-specific-exact-cross-width-capsule-covered-create-noop",
+    "approvedBy": "Parent root explicitly approved only B1 covered-noop treatment in this corrective audit on 2026-10-18.",
+    "key": "LEGACY_GND_SEAM_BRIDGE_1",
+    "requestedOperation": {
+      "action": "line",
+      "type": "LINE",
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "net": "GND",
+      "layerId": 1,
+      "startXYMil": [
+        1777.9528,
+        4316.252
+      ],
+      "endXYMil": [
+        1777.9528,
+        4318.8976
+      ],
+      "widthMil": 8
+    },
+    "returnedNativeId": "1d2f4c979f086326",
+    "returnedIdAbsentBeforeAndAfter": true,
+    "witnesses": [
+      {
+        "oldId": "d22bf385d3281e2e",
+        "oldBodySha256": "8635a46b8073f8a3c36dcbfcb225f3f0caacb3bcdeaab87763b6069c6e068170",
+        "oldBody": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 1777.9528,
+          "startY": 4289.1637,
+          "endX": 1777.9528,
+          "endY": 4318.8976,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 57
+        },
+        "oldAxisIntervalMil": [
+          "42891637/10000",
+          "2699311/625"
+        ],
+        "newAxisIntervalMil": [
+          "1079063/250",
+          "2699311/625"
+        ],
+        "oldRadiusMil": "3937/500",
+        "newRadiusMil": "4",
+        "rationalAxisIntervalSubset": true,
+        "rationalRadiusSubset": true
+      },
+      {
+        "oldId": "d7d16ee6a48fa28a",
+        "oldBodySha256": "54ab50dfae6064a991e6e5e9a6831b0b424f7d39f962f494f2a71f0f9718c5ce",
+        "oldBody": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 1777.9528,
+          "startY": 4289.1637,
+          "endX": 1777.9528,
+          "endY": 4338.9669,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 137
+        },
+        "oldAxisIntervalMil": [
+          "42891637/10000",
+          "43389669/10000"
+        ],
+        "newAxisIntervalMil": [
+          "1079063/250",
+          "2699311/625"
+        ],
+        "oldRadiusMil": "3937/500",
+        "newRadiusMil": "4",
+        "rationalAxisIntervalSubset": true,
+        "rationalRadiusSubset": true
+      }
+    ],
+    "exactAnalyticMinkowskiContainment": true,
+    "fullPlannedFourCapsulesUnionEqualsThreeActualCapsulesPlusBaseline": true,
+    "perWidthCenterlineSetEqualForSuppressedOperation": false,
+    "geometryToleranceMil": 0,
+    "unqualifiedMissingCreatedIdAllowed": false
+  },
+  "actualIndependentNewLineRecords": 3,
+  "exactUnchangedBodyCounts": {
+    "ARC": 2184,
+    "ATTR": 1311,
+    "RULE_SELECTOR": 323,
+    "LINE": 6051,
+    "PAD_NET": 1523,
+    "COMPONENT": 437,
+    "FILL": 750,
+    "PRIMITIVE": 37,
+    "VIA": 704,
+    "NET": 323,
+    "POLY": 500,
+    "LAYER": 64,
+    "RULE": 18,
+    "STRING": 21,
+    "LAYER_PHYS": 17,
+    "RULE_TEMPLATE": 1,
+    "SILK_OPTS": 2,
+    "PAD": 4,
+    "PANELIZE": 1,
+    "PREFERENCE": 1
+  },
+  "allowedGeometryRecordChanges": [
+    {
+      "type": "LINE",
+      "id": "e273a4afad415a1c",
+      "change": "new-created-or-native-exact-merge"
+    },
+    {
+      "type": "LINE",
+      "id": "45f4cf971c4f5355",
+      "change": "new-created-or-native-exact-merge"
+    },
+    {
+      "type": "LINE",
+      "id": "d62f70872e023378",
+      "change": "new-created-or-native-exact-merge"
+    }
+  ],
+  "originalCounts": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 323,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 323,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 704,
+    "PAD": 4,
+    "LINE": 6051,
+    "ARC": 2184,
+    "FILL": 750,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 437,
+    "ATTR": 1311,
+    "PAD_NET": 1523
+  },
+  "actualCounts": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 323,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 323,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 704,
+    "PAD": 4,
+    "LINE": 6054,
+    "ARC": 2184,
+    "FILL": 750,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 437,
+    "ATTR": 1311,
+    "PAD_NET": 1523
+  },
+  "lineGeometryProofs": [
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 11.811,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 5.9055,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 14.6063,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 14.9213,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 15.3543,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 31.4961,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 14.1732,
+      "expectedSegments": 6,
+      "actualSegments": 6,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 19.685,
+      "expectedSegments": 9,
+      "actualSegments": 9,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 15.748,
+      "expectedSegments": 102,
+      "actualSegments": 102,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 20,
+      "actualSegments": 20,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 7.874,
+      "expectedSegments": 2,
+      "actualSegments": 2,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 21,
+      "actualSegments": 21,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 17,
+      "widthMil": 8.0,
+      "expectedSegments": 2,
+      "actualSegments": 2,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    }
+  ],
+  "qualifiedWidthSerializations": [],
+  "correctionBaseBridge": {
+    "schema": "labtool-final-audited-to-saved-pcb-body-bridge-v1",
+    "passed": true,
+    "errors": [],
+    "exactNonViewBodyCounts": {
+      "ARC": 2184,
+      "ATTR": 1311,
+      "COMPONENT": 437,
+      "FILL": 750,
+      "LAYER": 64,
+      "LAYER_PHYS": 17,
+      "LINE": 6051,
+      "NET": 323,
+      "PAD": 4,
+      "PAD_NET": 1523,
+      "PANELIZE": 1,
+      "POLY": 500,
+      "PREFERENCE": 1,
+      "PRIMITIVE": 37,
+      "RULE": 18,
+      "RULE_SELECTOR": 323,
+      "RULE_TEMPLATE": 1,
+      "SILK_OPTS": 2,
+      "STRING": 21,
+      "VIA": 704
+    },
+    "docheadChanges": [
+      {
+        "type": "DOCHEAD",
+        "id": null,
+        "changedFields": [],
+        "allowed": true,
+        "before": {},
+        "after": {}
+      }
+    ],
+    "ignoredViewChanges": [],
+    "ignoredViewTypes": [
+      "ACTIVE_LAYER",
+      "CANVAS",
+      "ELE_PLACEHOLDER"
+    ],
+    "originalCounts": {
+      "DOCHEAD": 1,
+      "CANVAS": 1,
+      "LAYER": 64,
+      "LAYER_PHYS": 17,
+      "ACTIVE_LAYER": 1,
+      "NET": 323,
+      "RULE_TEMPLATE": 1,
+      "RULE": 18,
+      "RULE_SELECTOR": 323,
+      "PRIMITIVE": 37,
+      "SILK_OPTS": 2,
+      "PREFERENCE": 1,
+      "PANELIZE": 1,
+      "VIA": 704,
+      "PAD": 4,
+      "LINE": 6051,
+      "ARC": 2184,
+      "FILL": 750,
+      "POLY": 500,
+      "STRING": 21,
+      "COMPONENT": 437,
+      "ATTR": 1311,
+      "PAD_NET": 1523
+    },
+    "savedCounts": {
+      "DOCHEAD": 1,
+      "CANVAS": 1,
+      "LAYER": 64,
+      "LAYER_PHYS": 17,
+      "ACTIVE_LAYER": 1,
+      "NET": 323,
+      "RULE_TEMPLATE": 1,
+      "RULE": 18,
+      "RULE_SELECTOR": 323,
+      "PRIMITIVE": 37,
+      "SILK_OPTS": 2,
+      "PREFERENCE": 1,
+      "PANELIZE": 1,
+      "VIA": 704,
+      "PAD": 4,
+      "LINE": 6051,
+      "ARC": 2184,
+      "FILL": 750,
+      "POLY": 500,
+      "STRING": 21,
+      "COMPONENT": 437,
+      "ATTR": 1311,
+      "PAD_NET": 1523
+    },
+    "finalCopperAuditPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\copper-readback-copper_wire13-20261018T084247311416Z-a6fc5dc5.json",
+    "finalCopperAuditSha256": "2f8b53c179290d7af2369e1a6350a9c349c7d9db40654e697f796d04ca393579",
+    "finalCopperAuditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-copper-readback-20261018.py",
+    "finalCopperAuditorSha256": "50d3771c23c056a6994bccc5fc7cc90b02962cb7bddf6115ce4ed47973d64d2b",
+    "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-final-copper-v5-execution.json",
+    "manifestSha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+    "lastMainAuditedStage": "copper_wire13",
+    "lastMainAuditedCapturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+    "lastMainAuditedCaptureSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+    "lastAuditedStage": "copper_wire13",
+    "lastAuditedCapturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+    "lastAuditedCaptureSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+    "savedCapturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+    "savedCaptureSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+    "fullAuditedReceiptChain": [
+      {
+        "stage": "copper_fill0",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill0-receipt.json",
+        "receiptSha256": "357b1039aca26d70e93735ad048e9aa6fa53539b64d9551f90caba9f1aeea349",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill0-20261018.epru",
+        "captureSha256": "76dee40fe5f2f8f06482aa2f88b940c572464d8a349aabc164dc4316c42abdb1"
+      },
+      {
+        "stage": "copper_fill1",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill1-receipt.json",
+        "receiptSha256": "ea2924b4a0c339334e0aa5aa86bb09a57838f5c0aa9a4fa4b6fe920b5abccdf3",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill1-20261018.epru",
+        "captureSha256": "300a163f16d722bd16050ff296f22fd5f4be57eca4c482b31bfdc8b960a69cc3"
+      },
+      {
+        "stage": "copper_fill2",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill2-receipt.json",
+        "receiptSha256": "873c53c2e79af328f10cfc7b8ce18cb8731769d300db0d2142256e40fb1361cd",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill2-20261018.epru",
+        "captureSha256": "575eaa9fa86851aedc7c64a2e3b5427f1ecaabe900eef37ffb225201f7ec8c4c"
+      },
+      {
+        "stage": "copper_fill3",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill3-receipt.json",
+        "receiptSha256": "43a87be1de486e1ba3cacd4a68b9f1658e4fbdb3d569ee568ccaedadf0190b00",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill3-20261018.epru",
+        "captureSha256": "fa42cc79860fe935d0d6986172f8c282f170d35c7f9aa7c896a881d65b9a0aff"
+      },
+      {
+        "stage": "copper_fill4",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill4-receipt.json",
+        "receiptSha256": "f8fb8af838a07dec17a3a1739a87b2373607aafc8ba7f7d985b2773c1ac35040",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill4-20261018.epru",
+        "captureSha256": "2d347870f4c85826c348ba5692b4e5946506d3a57eca01446c119bfc9c0e2c31"
+      },
+      {
+        "stage": "copper_via0",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_via0-receipt.json",
+        "receiptSha256": "7e2791abd226c90b1daf00778d86727968e007559696c168672d76247bbfb9af",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_via0-20261018.epru",
+        "captureSha256": "0aef8a42bede89a4b8fc30a9ae8237975f61f3ad224a3546d4333e457025d23f"
+      },
+      {
+        "stage": "copper_via1",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_via1-receipt.json",
+        "receiptSha256": "2580a5ed73e23105c57841f2a97b06d32f21758d45abfc2bec311aa2cdf66cfd",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_via1-20261018.epru",
+        "captureSha256": "0c6adc347d555d387bb3efa793725395e1d81079cbf43863c359f902a44a97bb"
+      },
+      {
+        "stage": "copper_via2",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_via2-receipt.json",
+        "receiptSha256": "b2f13d5f6b13f7056b19d79029f5cd44d5911cc3212760ae66a4ac12f4e761f4",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_via2-20261018.epru",
+        "captureSha256": "368e1d96891ea298a81aab6682e4a3b7421057b1d820f37b3baee293fbc122b5"
+      },
+      {
+        "stage": "copper_wire0",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire0-receipt.json",
+        "receiptSha256": "e3985f519c119864135e1175a96e0680cdf1780bd3f9bc28c3a50e4156307235",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire0-20261018.epru",
+        "captureSha256": "fabb9b79a483229b48be1c3c44067b1ea9348f68d28ad98a2ae51997844b9688"
+      },
+      {
+        "stage": "copper_wire1",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire1-receipt.json",
+        "receiptSha256": "ca41bea18e722e4f7485ce73757496d996a8d84285ca031d490e025353c61ccf",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire1-20261018.epru",
+        "captureSha256": "05d85a561a2444a8e0674cfa2e1a0c4d2ed92c0ba72b32dae8e3228462145dce"
+      },
+      {
+        "stage": "copper_wire2",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire2-receipt.json",
+        "receiptSha256": "5fb8c89a6dcf4f4ea9e7254f294449f5e32c135f9c46b03c8132a878ed6dc08d",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire2-20261018.epru",
+        "captureSha256": "ae8cf4d7b30fe5cab2b4e015bef12b696bcdd01b08c8c9788f1bcf2598e0145f"
+      },
+      {
+        "stage": "copper_wire3",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire3-receipt.json",
+        "receiptSha256": "9d60499da282d46305e6f57e4523dbae5818687e61e7d9435669c064f1f2b927",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire3-20261018.epru",
+        "captureSha256": "78a047d311cf172ed00c57e955a858578f78a3ba9570e6708a40f6a76016bce4"
+      },
+      {
+        "stage": "copper_wire4",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire4-receipt.json",
+        "receiptSha256": "f313f6acd9f33944d56dab62305f4a356e333dd6954658e177dcb9229bda31ea",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire4-20261018.epru",
+        "captureSha256": "ac9e33ea8c1be6ad88bcbc0e81c02f2979d9f29e07ac931849f06524df4be1ac"
+      },
+      {
+        "stage": "copper_wire5",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire5-receipt.json",
+        "receiptSha256": "a38fafec995d855fc2192914c3f5cf8cacc9979da471a089663d8b101fca2be9",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire5-20261018.epru",
+        "captureSha256": "fa1eacf00996843f71a4bc26c17502f3433de86f2ac6b9db962bd30632581373"
+      },
+      {
+        "stage": "copper_wire6",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire6-receipt.json",
+        "receiptSha256": "809942f61daee22134ce7936c7f8554dcc8d41eda1780da89c52331d510ba9bf",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire6-20261018.epru",
+        "captureSha256": "db240f6da11b2f010bb657add99fbc91a42469dc275499a916d346a9973c7098"
+      },
+      {
+        "stage": "copper_wire7",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire7-receipt.json",
+        "receiptSha256": "3bf0cd73ed92ce779f5f5472de97729a69a0e4db77866fbf6391b52491c7046b",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire7-20261018.epru",
+        "captureSha256": "2bf162f0c736acd0c209a44205e7f3149d450975bd979a6872927415bcd66eac"
+      },
+      {
+        "stage": "copper_wire8",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire8-receipt.json",
+        "receiptSha256": "9ee40594eabfecb260c315fd9936893db6f79a7c5470c4b597c1aca29c267535",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire8-20261018.epru",
+        "captureSha256": "7023d353658f622dfb8c5a838298f6151474eb4eb1c007045076266de33e49b7"
+      },
+      {
+        "stage": "copper_wire9",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire9-receipt.json",
+        "receiptSha256": "a8babc4afbe1d0df07f166196499fde52b971e6834add218f08572bf7231d3ef",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire9-20261018.epru",
+        "captureSha256": "4eea0243a2fb438b2c0fdc9d572663cf047e6aca4eaa1eff2353b191f6bdaed0"
+      },
+      {
+        "stage": "copper_wire10",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire10-receipt.json",
+        "receiptSha256": "82f46ee9f1f15e055dff87f258491ec746244ab87276c2395cdb836357aa4ce4",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire10-20261018.epru",
+        "captureSha256": "6786a3df2a3795793219d85858560e421afb8ac9515b52ef4012c9360c24736e"
+      },
+      {
+        "stage": "copper_wire11",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire11-receipt.json",
+        "receiptSha256": "3c6d39f50cb539897270dd3c354020a118ad92244ec6f3e5dd961704e28767d8",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire11-20261018.epru",
+        "captureSha256": "be9e7846c8e7209d67525027aacdcc853f925bb79728c71ac34af84a7c0123f6"
+      },
+      {
+        "stage": "copper_wire12",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire12-receipt.json",
+        "receiptSha256": "21c5a6d2bee433d04136ca79b85ef08f0b18b623bc533900eb910a8f94b4a91c",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire12-20261018.epru",
+        "captureSha256": "00f0707624248ec16b99ee47a638e63608764652c3ddeb12a1f4af890104910d"
+      },
+      {
+        "stage": "copper_wire13",
+        "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire13-receipt.json",
+        "receiptSha256": "1c71ab9647dbb9d3ac71e0fe492c7da69e3c608c20fadfa4bca64ef18f4dd29d",
+        "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+        "captureSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb"
+      }
+    ],
+    "inheritedSpecificSerializationQualifications": [
+      {
+        "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\root-wire10-junction-serialization-review.json",
+        "sha256": "90aab429165937b7b16143fc041defbb12ffe92b176bdb65ffd184dd806d6918",
+        "diagnosticPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\wire10-offset-junction-diagnostic-v1.json",
+        "diagnosticSha256": "b4b1d61af107bc6d3f804237e76d433f2999fec79c76f876792848207c43c466",
+        "failedOriginalAuditPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\copper-readback-copper_wire10-20261018T082006405892Z-0f0e4fc7.json",
+        "failedOriginalAuditSha256": "4388b17cd27fcbcc47132b7d06e623f0e54dbc9ad7ede34c1b8349d3b36d0022",
+        "nativeGeometryChangeAuthorized": false,
+        "globalToleranceAuthorized": false,
+        "originalPhysicalExactEqualityClaimed": false
+      },
+      {
+        "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\root-wire12-junction-serialization-review.json",
+        "sha256": "f3425d761d6434e76fa992c5dd500e7e3b79f97759bcb2c87d0868d81bc90f00",
+        "diagnosticPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\wire12-power-junction-diagnostic-v1.json",
+        "diagnosticSha256": "29d9e407d6a41dee907389d1723d3e21332a03cc709f0bc0a854695831a46b85",
+        "failedOriginalAuditPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\copper-readback-copper_wire12-20261018T083414155154Z-117a5fef.json",
+        "failedOriginalAuditSha256": "ef36357a29e40d91f84790c0710657d350d52d6ba7827b34c7ca93349db98072",
+        "nativeGeometryChangeAuthorized": false,
+        "globalToleranceAuthorized": false,
+        "originalPhysicalExactEqualityClaimed": false
+      }
+    ],
+    "separateFourLineCorrectiveAudit": null,
+    "geometryNormalizationAllowed": false,
+    "coordinateToleranceMil": 0,
+    "nativeApiCalls": 0,
+    "nativeDesignModified": false,
+    "manufacturingReady": false,
+    "scopeQualification": "Exact canonical JSON body bridge only. No copper geometry, VIA, LINE, FILL, component, rule, netlist or metadata changes are accepted. Only CANVAS/ACTIVE_LAYER/ELE_PLACEHOLDER view records and DOCHEAD client/version/updateTime may differ. Strict DRC/checkpoint/CAM/analog verification remains separate."
+  },
+  "docheadChanges": [
+    {
+      "type": "DOCHEAD",
+      "id": null,
+      "changedFields": [
+        "client",
+        "updateTime",
+        "version"
+      ],
+      "allowed": true,
+      "before": {
+        "client": "e1ed68e13849de5f",
+        "updateTime": 1792312921056,
+        "version": "1792312921056"
+      },
+      "after": {
+        "client": "71900cd1fcfbc80c",
+        "updateTime": 1792313275522,
+        "version": "1792313275522"
+      }
+    }
+  ],
+  "mainLineCreates": 526,
+  "separateCorrectiveLineCreates": 4,
+  "combinedPlannedLineCreates": 530,
+  "newViasInAddendum": 0,
+  "geometryToleranceMil": 0,
+  "scopeQualification": "Separate four-GND-LINE requested addendum; three native LINE records and the one explicit B1 analytic capsule-covered no-op. Main manifest still contains only 526 LINE and 64 VIA creates. All original VIA/FILL/parts/pin-net/rule/layer/mechanical bodies exact; only exact-rational same-width GND LINE splits/merges on TOP/Inner17 may occur. No junction normalization is used for this correction. DRC, final topology, save/durable/CAM checks remain separate.",
+  "auditedUtc": "2026-10-18T08:52:30.651689+00:00",
+  "correctionAuditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-ground-correction-20261018.py",
+  "correctionAuditorSha256": "6c696a1abf436804436c1df3d933b53b7ea49947ca9dcd6ffac6ce2e653810a4"
+}

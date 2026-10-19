@@ -1,0 +1,958 @@
+{
+  "schema": "stm32-native-final-frozen-line-case-v1",
+  "status": "APPROVED_EXACT_CASE",
+  "baseline_sha256": "b7c6b99df160aaed2bb1f91717c2bde25e379bfdba88ec23dea5b4fdb7548d0f",
+  "reviewed_source": "output\\validation\\pcb-3d-calibrated407-20261018.epru",
+  "reviewed_source_sha256": "a6dfb8ef8cefce2ea2f01c8cce3a344bb1bcd715cdc0833e4661d4bad94f4b9a",
+  "strict_line_id_and_body_preservation": false,
+  "all_metadata_line_union_preservation": false,
+  "observed_exact_geometry_and_non_display_metadata_union_preserved": true,
+  "exact_geometry_and_non_display_metadata_union_preserved": true,
+  "allowed_omitted_metadata_fields": [
+    "zIndex"
+  ],
+  "line_delta": {
+    "added_lines": [
+      {
+        "record": [
+          "LINE",
+          "06c149376012b7fe"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(TR1-C_RX)",
+          "layerId": 1,
+          "startX": 2255.9055,
+          "startY": 1682.0866,
+          "endX": 2290.3543,
+          "endY": 1682.0866,
+          "width": 19.685,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "1374705014bd7e26"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 1924.4094,
+          "startY": 3398.622,
+          "endX": 1924.4094,
+          "endY": 3378.937,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "1884c6abe76cfbe0"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 1924.4094,
+          "startY": 3418.3071,
+          "endX": 1924.4094,
+          "endY": 3398.622,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "205faee22818ee62"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(TR1-C_RX)",
+          "layerId": 1,
+          "startX": 2221.4567,
+          "startY": 1682.0866,
+          "endX": 2255.9055,
+          "endY": 1682.0866,
+          "width": 19.685,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "243bdcc966a841e0"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(U7-RESETB)",
+          "layerId": 1,
+          "startX": 3070.8661,
+          "startY": 2829.7244,
+          "endX": 3112.2047,
+          "endY": 2829.7244,
+          "width": 7.874,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "33a30833c58ca258"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(TR1-C_RX)",
+          "layerId": 1,
+          "startX": 2279.5276,
+          "startY": 1302.6575,
+          "endX": 2314.9606,
+          "endY": 1302.6575,
+          "width": 19.685,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "3de8b66cb5542ff5"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 2848.4252,
+          "startY": 2271.8504,
+          "endX": 2881.8898,
+          "endY": 2271.8504,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "4747047e3d2bc532"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 2050.1968,
+          "startY": 3413.3858,
+          "endX": 2050.1968,
+          "endY": 3433.0709,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "49c2bb422fae88e6"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 1924.4094,
+          "startY": 3358.2677,
+          "endX": 1924.4094,
+          "endY": 3317.9134,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "4b7d75aa5e515871"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 3275.4921,
+          "startY": 566.9291,
+          "endX": 3275.4921,
+          "endY": 501.3779,
+          "width": 31.4961,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "4fa8d9d03e5c086b"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 3129.8228,
+          "startY": 540.748,
+          "endX": 3129.8228,
+          "endY": 486.2205,
+          "width": 31.4961,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "55346c5d19a91e0d"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(TR1-C_RX)",
+          "layerId": 1,
+          "startX": 2187.0079,
+          "startY": 1302.6575,
+          "endX": 2228.3465,
+          "endY": 1302.6575,
+          "width": 19.685,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "59bb77aa6d34f348"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 2735.2362,
+          "startY": 611.6142,
+          "endX": 2789.8622,
+          "endY": 611.6142,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "5a4eb5adbecab53e"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+1V8",
+          "layerId": 1,
+          "startX": 2651.5747,
+          "startY": 1987.2047,
+          "endX": 2723.4252,
+          "endY": 1987.2047,
+          "width": 47.2441,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "607938df272b7430"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 2700.689,
+          "startY": 611.6142,
+          "endX": 2735.2362,
+          "endY": 611.6142,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "62a77aff1c94730a"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 2211.4174,
+          "startY": 2744.2912,
+          "endX": 2211.4174,
+          "endY": 2764.567,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "6a6de78c8fec4056"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(D1-K)",
+          "layerId": 1,
+          "startX": 2731.4961,
+          "startY": 5379.1339,
+          "endX": 2832.6772,
+          "endY": 5379.1339,
+          "width": 7.874,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "6c601f954a8cdb94"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+1V8",
+          "layerId": 1,
+          "startX": 2405.1182,
+          "startY": 1987.2047,
+          "endX": 2651.5747,
+          "endY": 1987.2047,
+          "width": 47.2441,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "7117463b5a0c86eb"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 1866.7323,
+          "startY": 1363.189,
+          "endX": 1866.7323,
+          "endY": 1404.5276,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "7bd03242ade377cd"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 3129.8228,
+          "startY": 592.5197,
+          "endX": 3129.8228,
+          "endY": 540.748,
+          "width": 31.4961,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "8a120bff9f64efec"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 2814.3701,
+          "startY": 2271.8504,
+          "endX": 2848.4252,
+          "endY": 2271.8504,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "a42db63a25eef68f"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 2211.4174,
+          "startY": 2764.567,
+          "endX": 2211.4174,
+          "endY": 2803.3465,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "ab9df0952e7c4bfb"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 3275.4921,
+          "startY": 501.3779,
+          "endX": 3275.4921,
+          "endY": 435.0394,
+          "width": 31.4961,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "c869f8490b13e1f1"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 1866.7323,
+          "startY": 1336.8109,
+          "endX": 1866.7323,
+          "endY": 1363.189,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "d243bf1623bc422d"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(U7-RESETB)",
+          "layerId": 1,
+          "startX": 3112.2047,
+          "startY": 2829.7244,
+          "endX": 3154.5276,
+          "endY": 2829.7244,
+          "width": 7.874,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "d65f801e2a862ddf"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(TR1-C_RX)",
+          "layerId": 1,
+          "startX": 2228.3465,
+          "startY": 1302.6575,
+          "endX": 2279.5276,
+          "endY": 1302.6575,
+          "width": 19.685,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "da8efa2c4d1b27fd"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(D1-K)",
+          "layerId": 1,
+          "startX": 2832.6772,
+          "startY": 5379.1339,
+          "endX": 2925.1968,
+          "endY": 5379.1339,
+          "width": 7.874,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "de73fecf635adc55"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 1866.5355,
+          "startY": 1593.5039,
+          "endX": 1866.5355,
+          "endY": 1566.9291,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "e38d392d8a861961"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 1866.5355,
+          "startY": 1566.9291,
+          "endX": 1866.5355,
+          "endY": 1526.5748,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "e66f45657a03c881"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 1924.4094,
+          "startY": 3378.937,
+          "endX": 1924.4094,
+          "endY": 3358.2677,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "e88cabb68d825f8f"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 2050.1968,
+          "startY": 3433.0709,
+          "endX": 2050.1968,
+          "endY": 3474.4094,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "ee5ea366fedde8af"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 2050.1968,
+          "startY": 3474.4094,
+          "endX": 2050.1968,
+          "endY": 3515.748,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      }
+    ],
+    "deleted_lines": [
+      {
+        "record": [
+          "LINE",
+          "0916f877ce7e7e83"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 1866.7323,
+          "startY": 1336.8109,
+          "endX": 1866.7323,
+          "endY": 1404.5276,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 570
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "1c883fc07700ca80"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 1924.4094,
+          "startY": 3337.5984,
+          "endX": 1924.4094,
+          "endY": 3317.9134,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 6157
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "247ea04b3c5f1307"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 2211.4174,
+          "startY": 2744.2912,
+          "endX": 2211.4174,
+          "endY": 2803.3465,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 524
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "25cf56bc48133831"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 2814.3701,
+          "startY": 2271.8504,
+          "endX": 2881.8898,
+          "endY": 2271.8504,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 72
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "50547e2c25436974"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 3275.4921,
+          "startY": 566.9291,
+          "endX": 3275.4921,
+          "endY": 435.0394,
+          "width": 31.4961,
+          "locked": false,
+          "zIndex": 128
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "5a907524f198f55e"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(D1-K)",
+          "layerId": 1,
+          "startX": 2731.4961,
+          "startY": 5379.1339,
+          "endX": 2925.1968,
+          "endY": 5379.1339,
+          "width": 7.874,
+          "locked": false,
+          "zIndex": 3551
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "5f716323fed3e41b"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(U7-RESETB)",
+          "layerId": 1,
+          "startX": 3070.8661,
+          "startY": 2829.7244,
+          "endX": 3154.5276,
+          "endY": 2829.7244,
+          "width": 7.874,
+          "locked": false,
+          "zIndex": 3498
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "674a6703f403f1a4"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 2050.1968,
+          "startY": 3413.3858,
+          "endX": 2050.1968,
+          "endY": 3515.748,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 6189
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "7fb2ab28ba16e0ed"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 1924.4094,
+          "startY": 3418.3071,
+          "endX": 1924.4094,
+          "endY": 3378.937,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 6179
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "82e2fd1b44dc9f0a"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 2,
+          "startX": 1924.4094,
+          "startY": 3378.937,
+          "endX": 1924.4094,
+          "endY": 3337.5984,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 6160
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "8ff5399eaba8e77f"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+1V8",
+          "layerId": 1,
+          "startX": 2405.1182,
+          "startY": 1987.2047,
+          "endX": 2723.4252,
+          "endY": 1987.2047,
+          "width": 47.2441,
+          "locked": false,
+          "zIndex": 220
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "9efe929eefed7c0f"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(TR1-C_RX)",
+          "layerId": 1,
+          "startX": 2221.4567,
+          "startY": 1682.0866,
+          "endX": 2290.3543,
+          "endY": 1682.0866,
+          "width": 19.685,
+          "locked": false,
+          "zIndex": 403
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "ad12b6acb25ec9c9"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "NET-(TR1-C_RX)",
+          "layerId": 1,
+          "startX": 2187.0079,
+          "startY": 1302.6575,
+          "endX": 2314.9606,
+          "endY": 1302.6575,
+          "width": 19.685,
+          "locked": false,
+          "zIndex": 400
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "c00efe539befd7bc"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+3V3",
+          "layerId": 1,
+          "startX": 1866.5355,
+          "startY": 1593.5039,
+          "endX": 1866.5355,
+          "endY": 1526.5748,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 564
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "d1c95d55f03a6804"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 2700.689,
+          "startY": 611.6142,
+          "endX": 2789.8622,
+          "endY": 611.6142,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": 116
+        }
+      },
+      {
+        "record": [
+          "LINE",
+          "f8af65050230b653"
+        ],
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "GND",
+          "layerId": 1,
+          "startX": 3129.8228,
+          "startY": 592.5197,
+          "endX": 3129.8228,
+          "endY": 486.2205,
+          "width": 31.4961,
+          "locked": false,
+          "zIndex": 17
+        }
+      }
+    ],
+    "changed_line_bodies": []
+  },
+  "counts": {
+    "deleted": 16,
+    "added": 32,
+    "changed": 0
+  },
+  "deleted_lines_by_net": {
+    "+3V3": 3,
+    "GND": 8,
+    "NET-(D1-K)": 1,
+    "NET-(U7-RESETB)": 1,
+    "+1V8": 1,
+    "NET-(TR1-C_RX)": 2
+  },
+  "added_lines_by_net": {
+    "NET-(TR1-C_RX)": 5,
+    "GND": 15,
+    "NET-(U7-RESETB)": 2,
+    "+1V8": 2,
+    "+3V3": 6,
+    "NET-(D1-K)": 2
+  },
+  "method": "Fraction(str(native decimal)) exact infinite-line support and closed-interval unions, grouped by every noncoordinateLINEbodyfield exceptzIndex. No geometric tolerance or coordinate rounding.",
+  "approval_basis": "SourceSHA andexactdeleted/added/changedcounts explicitly supplied afterinspection; exact fullLINEID/bodydelta frozen. Future case reuse requires exactdelta identity.",
+  "reusable_only_if_exact_delta_matches": true,
+  "cad_modified_by_review": false
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "stm32h747-multilayer-fill-clearance-report-v1",
+  "status": "offline-pilot-candidate-ready-for-guarded-public-api-test",
+  "readOnlyAnalysis": true,
+  "manufacturingApproved": false,
+  "plan": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\multilayer-fill-clearance\\multilayer-fill-clearance-pilot.json",
+    "sha256": "2dcd6e68b00a46c0cb542e4fc9c9096e395cd9fc1854f7e0ad389c3311d32492",
+    "changeCount": 1
+  },
+  "checks": {
+    "native_distance_reconstruction_max_error_mil": 1.8207657603852567e-13,
+    "predicted_minimum_rule_surplus_mil": 0.29681725221455313,
+    "only_fill_path_changes": true,
+    "selected_rules_unchanged_by_plan": true,
+    "candidate_nonempty": true
+  },
+  "fill": {
+    "id": "378b6a6933052c9a",
+    "layer_id": 17,
+    "net_name": "GND",
+    "source_path_diagnostics": [
+      {
+        "index": 0,
+        "validity": "Valid Geometry",
+        "polygonal_area_mil2": 2146.342379349946
+      }
+    ],
+    "clearance_rows": [
+      {
+        "error_id": "err437",
+        "object_pair": "Fill Region to Track",
+        "opponent_id": "d1b16fdccd1459fa",
+        "opponent_type": "Track",
+        "actual_native_drc_mil": 3.956645130420224,
+        "reconstructed_original_mil": 3.956645130420042,
+        "distance_reconstruction_error_mil": -1.8207657603852567e-13,
+        "required_mil": 5.9843,
+        "fill_half_width_mil": 0.1,
+        "safety_margin_mil": 0.1968503937007874,
+        "keepout_expansion_from_opponent_copper_mil": 6.281150393700787
+      }
+    ],
+    "predicted_rows": [
+      {
+        "error_id": "err437",
+        "opponent_id": "d1b16fdccd1459fa",
+        "opponent_type": "Track",
+        "required_mil": 5.9843,
+        "predicted_candidate_clearance_mil": 6.281117252214553
+      }
+    ],
+    "original_area_mil2": 2146.342379349946,
+    "removed_area_mil2": 10.402380064134636,
+    "candidate_area_mil2": 2135.9402374149454,
+    "area_removed_fraction": 0.004846561370737675,
+    "original_polygon_count": 1,
+    "candidate_polygon_count": 1,
+    "candidate_contour_count": 1,
+    "candidate_minimum_clearance_mil": 0.5806258778249682,
+    "candidate_valid": true,
+    "only_path_changed": true
+  },
+  "requiredPostApply": [
+    "read back the full native document source because the public FILL getter exposes only path[0]",
+    "prove all non-target records and all 18 RULE rows are unchanged",
+    "save/reopen and verify every contour survives",
+    "rerun native DRC and connectivity checks before expanding the batch"
+  ]
+}

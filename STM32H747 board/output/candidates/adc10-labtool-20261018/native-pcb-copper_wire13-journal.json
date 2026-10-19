@@ -1,0 +1,86 @@
+{
+  "stage": "copper_wire13",
+  "state": "captured-requires-independent-geometry-audit",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-final-copper-v5-execution.json",
+  "manifestHash": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_copper_wire12-20261018.epru",
+  "priorHash": "00f0707624248ec16b99ee47a638e63608764652c3ddeb12a1f4af890104910d",
+  "touched": [
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C126_STUB",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C129_STUB",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C138_STUB",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C141_STUB",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C144_STUB",
+      "action": "line"
+    },
+    {
+      "type": "LINE",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C147_STUB",
+      "action": "line"
+    }
+  ],
+  "created": [
+    {
+      "key": "POSITIVE_BYPASS_GND_C126_STUB",
+      "type": "LINE",
+      "id": "f806169c42792db2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C129_STUB",
+      "type": "LINE",
+      "id": "df7c007997d6de30"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C138_STUB",
+      "type": "LINE",
+      "id": "3d0cd5d54621efeb"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C141_STUB",
+      "type": "LINE",
+      "id": "db317936d8386666"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C144_STUB",
+      "type": "LINE",
+      "id": "9fe51ddf2651b8ba"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C147_STUB",
+      "type": "LINE",
+      "id": "fc003eebaa0052ae"
+    }
+  ],
+  "failure": null,
+  "neverBlindlyRetry": true
+}

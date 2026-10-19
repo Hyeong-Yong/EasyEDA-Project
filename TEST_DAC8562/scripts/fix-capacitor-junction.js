@@ -1,0 +1,1 @@
+await eda.dmt_EditorControl.openDocument('e58bcc16379b10f4');const wire=await eda.sch_PrimitiveWire.create([360,640,360,645],'GND');const saved=await eda.sch_Document.save();return {wire:wire?.getState_PrimitiveId(),saved,details:await eda.sch_Drc.check(true,true,true),passed:await eda.sch_Drc.check(true,false,false)};

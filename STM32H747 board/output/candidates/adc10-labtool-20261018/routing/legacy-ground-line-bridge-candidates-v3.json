@@ -1,0 +1,325 @@
+{
+  "schema": "legacy-ground-native-seam-line-only-candidates-v3",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire12-20261018.epru",
+  "sourceSha256": "00f0707624248ec16b99ee47a638e63608764652c3ddeb12a1f4af890104910d",
+  "status": "CANDIDATES_ONLY_REQUIRE_ANCHOR_PROOF_AND_ROOT_APPROVAL",
+  "nativeCalls": 0,
+  "frozenV5Changes": 0,
+  "fillChanges": 0,
+  "viaChanges": 0,
+  "ruleChanges": 0,
+  "physicalDrillsScreened": 863,
+  "selectedCandidateLines": [
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "targetKind": "FILL",
+      "targetId": "70d49360e5e3892f",
+      "targetLayer": 1,
+      "anchoredCandidateKind": "VIA",
+      "anchoredCandidateId": "d1aef3bb47b3962e",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        45.16000112,
+        109.63280080000001
+      ],
+      "endXYmm": [
+        45.16000112,
+        109.69999904000001
+      ],
+      "startXYMil": [
+        1777.9528,
+        4316.252
+      ],
+      "endXYMil": [
+        1777.9528,
+        4318.8976
+      ],
+      "lengthMm": 0.06719823999999619,
+      "rawTargetCopperOverlapMm2": 0.031425841492164826,
+      "rawAnchorCopperOverlapMm2": 0.04603189235456798,
+      "foreignCopperMinimumConservativeGapMm": 0.6584010199999952,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "4c508528fe578662",
+        "net": "+3V3",
+        "layerId": 1
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true,
+      "physicalDrillCountChecked": 863,
+      "closestDrills": [
+        {
+          "id": "d1aef3bb47b3962e",
+          "gapMm": -0.2015998,
+          "intentionalSameNetExactViaEndpoint": true,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "62803e271c10eacc",
+          "gapMm": 1.145276346528395,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "f61535390b556e2d",
+          "gapMm": 1.4207265428695581,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "309ebe5df5b3de60",
+          "gapMm": 1.6660807177016754,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "95efcc3e6bc5819b",
+          "gapMm": 1.744377734654316,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        }
+      ],
+      "unexpectedDrillIntrusions": [],
+      "noUnexpectedDrillIntrusions": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "targetKind": "FILL",
+      "targetId": "1d12bb8046962a4c",
+      "targetLayer": 17,
+      "anchoredCandidateKind": "FILL",
+      "anchoredCandidateId": "b99d5f8f2cae6046",
+      "net": "GND",
+      "layerId": 17,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        46.199552000000004,
+        109.78280303999999
+      ],
+      "endXYmm": [
+        46.199552000000004,
+        109.63279063999998
+      ],
+      "startXYMil": [
+        1818.88,
+        4322.1576
+      ],
+      "endXYMil": [
+        1818.88,
+        4316.2516
+      ],
+      "lengthMm": 0.15001240000000848,
+      "rawTargetCopperOverlapMm2": 0.0314288325772805,
+      "rawAnchorCopperOverlapMm2": 0.03142883257728627,
+      "foreignCopperMinimumConservativeGapMm": 0.22008972999999526,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "e9e83fdf77c0e28c",
+        "net": "A7",
+        "layerId": 17
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true,
+      "physicalDrillCountChecked": 863,
+      "closestDrills": [
+        {
+          "id": "62803e271c10eacc",
+          "gapMm": 0.5583032922482197,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "d1aef3bb47b3962e",
+          "gapMm": 0.8379510800000073,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "95efcc3e6bc5819b",
+          "gapMm": 1.3603554839726286,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "6285e580376deffe",
+          "gapMm": 1.604329007934016,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "eff4926d73e08e95",
+          "gapMm": 2.0347232658414254,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        }
+      ],
+      "unexpectedDrillIntrusions": [],
+      "noUnexpectedDrillIntrusions": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_3",
+      "targetKind": "FILL",
+      "targetId": "1e87af6d1a83be6a",
+      "targetLayer": 17,
+      "anchoredCandidateKind": "FILL",
+      "anchoredCandidateId": "b99d5f8f2cae6046",
+      "net": "GND",
+      "layerId": 17,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        52.80155302,
+        79.15249599999999
+      ],
+      "endXYmm": [
+        52.80155302,
+        79.00248359999999
+      ],
+      "startXYMil": [
+        2078.8013,
+        3116.24
+      ],
+      "endXYMil": [
+        2078.8013,
+        3110.334
+      ],
+      "lengthMm": 0.15001239999999427,
+      "rawTargetCopperOverlapMm2": 0.0314288325772805,
+      "rawAnchorCopperOverlapMm2": 0.031428832577283385,
+      "foreignCopperMinimumConservativeGapMm": 0.23295229000000273,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "a36491817685b0a8",
+        "net": "ADC3_INP2",
+        "layerId": 17
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true,
+      "physicalDrillCountChecked": 863,
+      "closestDrills": [
+        {
+          "id": "2b034f6ea98e4d5a",
+          "gapMm": 0.5962489143773708,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "e0f0dcd1975e7708",
+          "gapMm": 0.6556449169944382,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "7cf575fe34f87956",
+          "gapMm": 0.911526089984882,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "92531fd346b2a658",
+          "gapMm": 1.3960773157972568,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "c4c89a9246c8cda9",
+          "gapMm": 1.4417423010690167,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        }
+      ],
+      "unexpectedDrillIntrusions": [],
+      "noUnexpectedDrillIntrusions": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_4",
+      "targetKind": "VIA",
+      "targetId": "e0f0dcd1975e7708",
+      "targetLayer": 1,
+      "anchoredCandidateKind": "FILL",
+      "anchoredCandidateId": "c667926ae983cbc8",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        53.64999937999999,
+        79.2750002
+      ],
+      "endXYmm": [
+        53.64999937999999,
+        79.00249376000001
+      ],
+      "startXYMil": [
+        2112.2047,
+        3121.063
+      ],
+      "endXYMil": [
+        2112.2047,
+        3110.3344
+      ],
+      "lengthMm": 0.2725064399999866,
+      "rawTargetCopperOverlapMm2": 0.04522793716248904,
+      "rawAnchorCopperOverlapMm2": 0.031428832577283385,
+      "foreignCopperMinimumConservativeGapMm": 0.7643503355036075,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "c946743470ba97f8",
+        "net": "NET-(U1D-VREF+)",
+        "layerId": 1
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true,
+      "physicalDrillCountChecked": 863,
+      "closestDrills": [
+        {
+          "id": "e0f0dcd1975e7708",
+          "gapMm": -0.2015998,
+          "intentionalSameNetExactViaEndpoint": true,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "d7aadede784b6d3e",
+          "gapMm": 0.648401040000007,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "2b034f6ea98e4d5a",
+          "gapMm": 0.8643501355036075,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "92531fd346b2a658",
+          "gapMm": 1.4884451431896348,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        },
+        {
+          "id": "7cf575fe34f87956",
+          "gapMm": 1.558017121946448,
+          "intentionalSameNetExactViaEndpoint": false,
+          "qualification": "exact round via drill"
+        }
+      ],
+      "unexpectedDrillIntrusions": [],
+      "noUnexpectedDrillIntrusions": true
+    }
+  ],
+  "unresolvedTargets": [],
+  "limitations": [
+    "Nearest unflagged existing GND actor must be independently proven anchored, not merely inferred from native silence.",
+    "Final actual-source rebase and exact native DRC required before approval/completion.",
+    "No additional Inner17 routing authorized by this offline proposal.",
+    "No broad tolerance or width-pen graph equivalence is used for endpoints; both ends have positive raw copper overlap."
+  ]
+}

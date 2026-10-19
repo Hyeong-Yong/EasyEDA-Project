@@ -1,0 +1,29 @@
+Title: stm32h747 representative adc review: smoke_ideal_q1
+Date: Sun Oct 18 20:10:08  2026
+Command: ngspice-47, Build Aug 11 2026   13:55:25
+Plotname: Operating Point
+Flags: real
+No. Variables: 10
+No. Points: 1       
+Variables:
+	0	v(raw_j2)	voltage
+	1	v(filt_j2)	voltage
+	2	v(buf_j2)	voltage
+	3	v(drv_j2)	voltage
+	4	v(adc_j2)	voltage
+	5	v(off)	voltage
+	6	v(v5afe)	voltage
+	7	i(v5)	current
+	8	i(v3)	current
+	9	i(vn)	current
+Values:
+0		-3.258642036638165e-09
+	-2.197406601850287e-07
+	-1.877512938480708e-06
+	1.647336079190949e+00
+	1.647336079190949e+00
+	9.689922480620000e-01
+	4.938899999860722e+00
+	-1.300000002963353e-02
+	-1.692255592221908e-03
+	1.324225568022027e-02

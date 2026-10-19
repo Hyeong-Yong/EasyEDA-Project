@@ -1,0 +1,563 @@
+{
+  "passed": true,
+  "candidateSha256": "72c9276b845f5f783eb58cf7034732886bad077f86ddf06ad922dd15a6fdc361",
+  "componentCountReviewed": 25,
+  "pinCountReviewed": 60,
+  "allPinsTouchExactlyOneExpectedNet": true,
+  "pinGraph": {
+    "R137": {
+      "1": {
+        "name": "1",
+        "point": [
+          345.0,
+          185.0
+        ],
+        "net": "ADC1_PRE1"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          345.0,
+          155.0
+        ],
+        "net": "ADC_BIAS_2V5"
+      }
+    },
+    "R140": {
+      "1": {
+        "name": "1",
+        "point": [
+          250.0,
+          190.0
+        ],
+        "net": "Net-(J2-In)"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          280.0,
+          190.0
+        ],
+        "net": "ADC1_PRE1"
+      }
+    },
+    "R141": {
+      "1": {
+        "name": "1",
+        "point": [
+          380.0,
+          190.0
+        ],
+        "net": "ADC1_DRV1"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          410.0,
+          190.0
+        ],
+        "net": "ADC1_INP0"
+      }
+    },
+    "C80": {
+      "1": {
+        "name": "1",
+        "point": [
+          425.0,
+          200.0
+        ],
+        "net": "ADC1_INP0"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          425.0,
+          220.0
+        ],
+        "net": "GND"
+      }
+    },
+    "R138": {
+      "1": {
+        "name": "1",
+        "point": [
+          680.0,
+          185.0
+        ],
+        "net": "ADC1_PRE2"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          680.0,
+          155.0
+        ],
+        "net": "ADC_BIAS_2V5"
+      }
+    },
+    "R142": {
+      "1": {
+        "name": "1",
+        "point": [
+          585.0,
+          190.0
+        ],
+        "net": "Net-(J3-In)"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          615.0,
+          190.0
+        ],
+        "net": "ADC1_PRE2"
+      }
+    },
+    "R143": {
+      "1": {
+        "name": "1",
+        "point": [
+          715.0,
+          190.0
+        ],
+        "net": "ADC1_DRV2"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          745.0,
+          190.0
+        ],
+        "net": "ADC1_INP1"
+      }
+    },
+    "C81": {
+      "1": {
+        "name": "1",
+        "point": [
+          760.0,
+          200.0
+        ],
+        "net": "ADC1_INP1"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          760.0,
+          220.0
+        ],
+        "net": "GND"
+      }
+    },
+    "R139": {
+      "1": {
+        "name": "1",
+        "point": [
+          1010.0,
+          185.0
+        ],
+        "net": "ADC1_PRE3"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          1010.0,
+          155.0
+        ],
+        "net": "ADC_BIAS_2V5"
+      }
+    },
+    "R144": {
+      "1": {
+        "name": "1",
+        "point": [
+          915.0,
+          190.0
+        ],
+        "net": "Net-(J4-In)"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          945.0,
+          190.0
+        ],
+        "net": "ADC1_PRE3"
+      }
+    },
+    "R145": {
+      "1": {
+        "name": "1",
+        "point": [
+          1045.0,
+          190.0
+        ],
+        "net": "ADC1_DRV3"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          1075.0,
+          190.0
+        ],
+        "net": "ADC1_INP16"
+      }
+    },
+    "C82": {
+      "1": {
+        "name": "1",
+        "point": [
+          1090.0,
+          200.0
+        ],
+        "net": "ADC1_INP16"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          1090.0,
+          220.0
+        ],
+        "net": "GND"
+      }
+    },
+    "U9": {
+      "1": {
+        "name": "IN",
+        "point": [
+          1115.0,
+          780.0
+        ],
+        "net": "+3V3"
+      },
+      "2": {
+        "name": "OUT",
+        "point": [
+          1205.0,
+          780.0
+        ],
+        "net": "ADC_BIAS_2V5"
+      },
+      "3": {
+        "name": "GND",
+        "point": [
+          1160.0,
+          830.0
+        ],
+        "net": "GND"
+      }
+    },
+    "C103": {
+      "1": {
+        "name": "1",
+        "point": [
+          1065.0,
+          785.0
+        ],
+        "net": "+3V3"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          1065.0,
+          805.0
+        ],
+        "net": "GND"
+      }
+    },
+    "C104": {
+      "1": {
+        "name": "1",
+        "point": [
+          1290.0,
+          785.0
+        ],
+        "net": "ADC_BIAS_2V5"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          1290.0,
+          805.0
+        ],
+        "net": "GND"
+      }
+    },
+    "C105": {
+      "1": {
+        "name": "1",
+        "point": [
+          1360.0,
+          785.0
+        ],
+        "net": "ADC_BIAS_2V5"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          1360.0,
+          805.0
+        ],
+        "net": "GND"
+      }
+    },
+    "U10": {
+      "1": {
+        "name": "OUT",
+        "point": [
+          315.0,
+          880.0
+        ],
+        "net": "ADC1_DRV1"
+      },
+      "2": {
+        "name": "V-",
+        "point": [
+          270.0,
+          915.0
+        ],
+        "net": "GND"
+      },
+      "3": {
+        "name": "+",
+        "point": [
+          230.0,
+          870.0
+        ],
+        "net": "ADC1_PRE1"
+      },
+      "4": {
+        "name": "-",
+        "point": [
+          230.0,
+          890.0
+        ],
+        "net": "ADC1_DRV1"
+      },
+      "5": {
+        "name": "V+",
+        "point": [
+          270.0,
+          845.0
+        ],
+        "net": "+3V3"
+      }
+    },
+    "C97": {
+      "1": {
+        "name": "1",
+        "point": [
+          175.0,
+          880.0
+        ],
+        "net": "ADC1_PRE1"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          175.0,
+          900.0
+        ],
+        "net": "GND"
+      }
+    },
+    "C100": {
+      "1": {
+        "name": "1",
+        "point": [
+          430.0,
+          845.0
+        ],
+        "net": "+3V3"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          430.0,
+          865.0
+        ],
+        "net": "GND"
+      }
+    },
+    "U11": {
+      "1": {
+        "name": "OUT",
+        "point": [
+          315.0,
+          970.0
+        ],
+        "net": "ADC1_DRV2"
+      },
+      "2": {
+        "name": "V-",
+        "point": [
+          270.0,
+          1005.0
+        ],
+        "net": "GND"
+      },
+      "3": {
+        "name": "+",
+        "point": [
+          230.0,
+          960.0
+        ],
+        "net": "ADC1_PRE2"
+      },
+      "4": {
+        "name": "-",
+        "point": [
+          230.0,
+          980.0
+        ],
+        "net": "ADC1_DRV2"
+      },
+      "5": {
+        "name": "V+",
+        "point": [
+          270.0,
+          935.0
+        ],
+        "net": "+3V3"
+      }
+    },
+    "C98": {
+      "1": {
+        "name": "1",
+        "point": [
+          175.0,
+          970.0
+        ],
+        "net": "ADC1_PRE2"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          175.0,
+          990.0
+        ],
+        "net": "GND"
+      }
+    },
+    "C101": {
+      "1": {
+        "name": "1",
+        "point": [
+          430.0,
+          935.0
+        ],
+        "net": "+3V3"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          430.0,
+          955.0
+        ],
+        "net": "GND"
+      }
+    },
+    "U12": {
+      "1": {
+        "name": "OUT",
+        "point": [
+          315.0,
+          1060.0
+        ],
+        "net": "ADC1_DRV3"
+      },
+      "2": {
+        "name": "V-",
+        "point": [
+          270.0,
+          1095.0
+        ],
+        "net": "GND"
+      },
+      "3": {
+        "name": "+",
+        "point": [
+          230.0,
+          1050.0
+        ],
+        "net": "ADC1_PRE3"
+      },
+      "4": {
+        "name": "-",
+        "point": [
+          230.0,
+          1070.0
+        ],
+        "net": "ADC1_DRV3"
+      },
+      "5": {
+        "name": "V+",
+        "point": [
+          270.0,
+          1025.0
+        ],
+        "net": "+3V3"
+      }
+    },
+    "C99": {
+      "1": {
+        "name": "1",
+        "point": [
+          175.0,
+          1060.0
+        ],
+        "net": "ADC1_PRE3"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          175.0,
+          1080.0
+        ],
+        "net": "GND"
+      }
+    },
+    "C102": {
+      "1": {
+        "name": "1",
+        "point": [
+          430.0,
+          1025.0
+        ],
+        "net": "+3V3"
+      },
+      "2": {
+        "name": "2",
+        "point": [
+          430.0,
+          1045.0
+        ],
+        "net": "GND"
+      }
+    }
+  },
+  "threeIndependentFollowers": true,
+  "referencePinMappingCorrect": true,
+  "seriesDcBlockingCapacitors": 0,
+  "nominalGain": 0.5,
+  "nominalOffsetV": 1.25,
+  "nominalInputRangeV": [
+    -2,
+    2
+  ],
+  "nominalOutputRangeV": [
+    0.25,
+    2.25
+  ],
+  "preBufferLowPassHz": 4681.027737996922,
+  "postBufferLowPassHz": 1539216.0840608834,
+  "unaffectedBaselineRecordsExactlyPreserved": 2379,
+  "newComponentCount": 13,
+  "oldComponentRebindCount": 12,
+  "notes": [
+    "Static source graph only; native ERC/netlist and visual rendering still required.",
+    "Native positive rotation is counterclockwise on Y-down schematic coordinates; resistor pin numbering independently confirmed by native Protel2 export.",
+    "15.6 kS/s/channel clock/acquisition settings are user-owned, not asserted by schematic static QA.",
+    "New reference labels should be checked visually; C103 default attribute is close to capacitor plate edge."
+  ]
+}

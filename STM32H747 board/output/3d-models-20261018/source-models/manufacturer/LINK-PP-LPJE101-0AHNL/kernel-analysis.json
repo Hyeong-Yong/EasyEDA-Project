@@ -1,0 +1,71 @@
+{
+  "source_path": "output\\3d-models-20261018\\source-models\\manufacturer\\LINK-PP-LPJE101-0AHNL\\extracted\\LPJE101-0AHNL.STEP",
+  "source_sha256": "bca3ecd027c93f41e0ee177881ad7def828396ab9d0ab2c493c8c2acabae9c1e",
+  "policy": "Original official STEP parsed only; no reserialization or modification. OBJ/MTL/PNG are explicitly derived meshes.",
+  "roots": [
+    {
+      "name": "µ¥¿Õ¿Ú´øµÆ´øµ¯",
+      "geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 339,
+        "edge_occurrences": 1783,
+        "analytic_bounds_mm": {
+          "min": [
+            -9.946931409029666,
+            -10.1,
+            -1.304512053934559e-15
+          ],
+          "max": [
+            9.946931409031496,
+            8.225881492582813,
+            15.9500001
+          ],
+          "span": [
+            19.893862818061162,
+            18.325881492582813,
+            15.950000100000002
+          ]
+        },
+        "closed_volume_mm3": 2468.1385669232786,
+        "surface_area_mm2": 2219.132501619492
+      },
+      "mesh": {
+        "vertices": 13034,
+        "triangles": 16235,
+        "faces": 339,
+        "faces_meshed": 339,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 0,
+        "inherited_color_faces": 339,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\manufacturer\\LINK-PP-LPJE101-0AHNL\\derived-analysis\\root1\\triangulated.obj",
+          "bytes": 760792,
+          "sha256": "bfc195073b4094fad28e84bfbc687d99011182dc0e4fda7263e960e2bb257672"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\manufacturer\\LINK-PP-LPJE101-0AHNL\\derived-analysis\\root1\\triangulated.mtl",
+          "bytes": 39,
+          "sha256": "f99201c1cb0dc313ad115a5d51562ff487e030a81e0b2b90754f0dc0855aa658"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\manufacturer\\LINK-PP-LPJE101-0AHNL\\derived-analysis\\root1\\preview.png",
+          "bytes": 25719,
+          "sha256": "7dca0641813311dc63620d11361dd2bcb731df7ccc681e8870219fb0fabd5e99"
+        }
+      ]
+    }
+  ]
+}

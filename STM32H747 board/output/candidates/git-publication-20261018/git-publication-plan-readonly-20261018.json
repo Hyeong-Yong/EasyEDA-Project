@@ -1,0 +1,1997 @@
+{
+  "schema": "stm32h747-readonly-git-publication-plan-20261018-v1",
+  "generatedAt": "2026-10-18T10:32:34.3091456+09:00",
+  "scope": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board",
+  "repository": "C:\\Dev\\EasyEDA\\EasyEDA-Project",
+  "localGitSnapshot": {
+    "branch": "main",
+    "head": "ba3596b1d95c76f530ba6f18ae8807e539215260",
+    "origin": "git@github.com:Hyeong-Yong/EasyEDA-Project.git",
+    "cachedUpstreamAheadBehind": "0\t0",
+    "noFetchPerformed": true,
+    "trackedStatusNamesOnly": " M \"TEST_DAC8562/DAC8562 module.eprj2\"",
+    "rootAgentsFileExists": false,
+    "stmFolderPreviouslyTracked": false
+  },
+  "safety": {
+    "gitWrites": 0,
+    "stageOperations": 0,
+    "commits": 0,
+    "pushes": 0,
+    "remoteMutations": 0,
+    "testDac8562ContentReads": 0,
+    "testDac8562Writes": 0,
+    "ignoreFilesModified": false,
+    "onlyOwnDiagnosticReportWritten": true
+  },
+  "inventory": {
+    "files": 10450,
+    "bytes": 3559378231,
+    "topLevel": [
+      {
+        "path": "output",
+        "files": 7098,
+        "bytes": 3310758034
+      },
+      {
+        "path": "native-project",
+        "files": 3,
+        "bytes": 123173875
+      },
+      {
+        "path": ".tools",
+        "files": 3006,
+        "bytes": 78128958
+      },
+      {
+        "path": "보드 자료",
+        "files": 21,
+        "bytes": 35512048
+      },
+      {
+        "path": "scripts",
+        "files": 300,
+        "bytes": 4992205
+      },
+      {
+        "path": "tmp",
+        "files": 1,
+        "bytes": 4991888
+      },
+      {
+        "path": "reference",
+        "files": 6,
+        "bytes": 1693766
+      },
+      {
+        "path": "STM32H747 board",
+        "files": 1,
+        "bytes": 55279
+      },
+      {
+        "path": "config",
+        "files": 8,
+        "bytes": 46989
+      },
+      {
+        "path": "README.md",
+        "files": 1,
+        "bytes": 19991
+      },
+      {
+        "path": "AGENTS.md",
+        "files": 1,
+        "bytes": 4444
+      },
+      {
+        "path": "Start-EasyEDA-Bridge.bat",
+        "files": 1,
+        "bytes": 425
+      },
+      {
+        "path": "EasyEDA-Bridge.local.cmd.example",
+        "files": 1,
+        "bytes": 274
+      },
+      {
+        "path": ".gitignore",
+        "files": 1,
+        "bytes": 54
+      },
+      {
+        "path": "backups",
+        "files": 1,
+        "bytes": 1
+      }
+    ],
+    "outputSubdirectories": [
+      {
+        "path": "validation",
+        "files": 1533,
+        "bytes": 2021354796
+      },
+      {
+        "path": "checkpoints",
+        "files": 44,
+        "bytes": 759840758
+      },
+      {
+        "path": "candidates",
+        "files": 240,
+        "bytes": 231057926
+      },
+      {
+        "path": "native-libraries-durable-qa",
+        "files": 1300,
+        "bytes": 51370961
+      },
+      {
+        "path": "native-libraries",
+        "files": 1334,
+        "bytes": 51361113
+      },
+      {
+        "path": "native-libraries-layered-pad-test",
+        "files": 1300,
+        "bytes": 51129519
+      },
+      {
+        "path": "native-libraries-slot-test",
+        "files": 1300,
+        "bytes": 51091737
+      },
+      {
+        "path": "semantic",
+        "files": 7,
+        "bytes": 44367894
+      },
+      {
+        "path": "native-pcb",
+        "files": 12,
+        "bytes": 29878871
+      },
+      {
+        "path": "native-schematics",
+        "files": 8,
+        "bytes": 14301684
+      },
+      {
+        "path": "page1",
+        "files": 10,
+        "bytes": 4490505
+      },
+      {
+        "path": "analysis",
+        "files": 9,
+        "bytes": 512269
+      },
+      {
+        "path": ".gitkeep",
+        "files": 1,
+        "bytes": 1
+      }
+    ],
+    "filesOver50MiB": [
+      {
+        "path": "native-project/STM32H747_MCU_BOARD_v19.eprj2",
+        "bytes": 84377600
+      }
+    ],
+    "filesOver100MiB": [],
+    "reparsePoints": []
+  },
+  "proposedCurrentAllowlist": {
+    "files": 350,
+    "bytes": 224114995,
+    "pathsAndSizes": [
+      {
+        "path": ".gitignore",
+        "bytes": 54,
+        "category": "project documentation and launchers"
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 4444,
+        "category": "project documentation and launchers"
+      },
+      {
+        "path": "EasyEDA-Bridge.local.cmd.example",
+        "bytes": 274,
+        "category": "project documentation and launchers"
+      },
+      {
+        "path": "README.md",
+        "bytes": 19991,
+        "category": "project documentation and launchers"
+      },
+      {
+        "path": "Start-EasyEDA-Bridge.bat",
+        "bytes": 425,
+        "category": "project documentation and launchers"
+      },
+      {
+        "path": "config/adc-dc-corners-j18-status.md",
+        "bytes": 20307,
+        "category": "configuration and status"
+      },
+      {
+        "path": "config/easyeda-project.json",
+        "bytes": 1102,
+        "category": "configuration and status"
+      },
+      {
+        "path": "config/multilayer-clearance-status.md",
+        "bytes": 6550,
+        "category": "configuration and status"
+      },
+      {
+        "path": "config/page-components.md",
+        "bytes": 1929,
+        "category": "configuration and status"
+      },
+      {
+        "path": "config/page-plan.md",
+        "bytes": 3092,
+        "category": "configuration and status"
+      },
+      {
+        "path": "config/revision-diff.md",
+        "bytes": 1523,
+        "category": "configuration and status"
+      },
+      {
+        "path": "config/setup-status.md",
+        "bytes": 10041,
+        "category": "configuration and status"
+      },
+      {
+        "path": "config/source-manifest.json",
+        "bytes": 2445,
+        "category": "configuration and status"
+      },
+      {
+        "path": "native-project/STM32H747_MCU_BOARD_v19.eprj2",
+        "bytes": 84377600,
+        "category": "authoritative editable live project - freeze after save"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/adc-dc-library-manifest.json",
+        "bytes": 19671,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/adc-dc-runtime-library-map.json",
+        "bytes": 29470,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C_ef4e3f89768f5f2e.esym",
+        "bytes": 4879,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C0402_7de6e514f0e8ed2c.efoo",
+        "bytes": 7568,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C0603_2960af6acc07a4f6.efoo",
+        "bytes": 8339,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C0805_c0f5449c7872e003.efoo",
+        "bytes": 8311,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C100N_e52090184ad57945.edevice",
+        "bytes": 742,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C10N_1ed58e97c3223741.edevice",
+        "bytes": 761,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C1U_4adaf88840aaae3c.edevice",
+        "bytes": 738,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C2N2_693207fa8abf1eb0.edevice",
+        "bytes": 762,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/C4U7_61612637d3ce6612.edevice",
+        "bytes": 741,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/DBV5_803f20b0a0956a00.efoo",
+        "bytes": 7199,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/DBZ3_ef55fea923934355.efoo",
+        "bytes": 5967,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/OPA320_409afa6024d46802.esym",
+        "bytes": 9008,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/OPA320_642f2b3cba4947cb.edevice",
+        "bytes": 823,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/R_7c9371fa79ed495d.esym",
+        "bytes": 4631,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/R0402_ff57786ba5550624.efoo",
+        "bytes": 7594,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/R47_6cfe0944c75a54df.edevice",
+        "bytes": 696,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/R6K8_070055aecdd82344.edevice",
+        "bytes": 845,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/REF3325_19f5bffc9b0b35c0.edevice",
+        "bytes": 850,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc-dc-buffer/REF3325_24b464f21d23584b.esym",
+        "bytes": 6143,
+        "category": "ADC library provenance and portable definitions"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-accepted-normalization-audit.json",
+        "bytes": 216221,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-pre-copper-isolation-plan-20261017.json",
+        "bytes": 112568,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-presave-normalization-audit.json",
+        "bytes": 216220,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-adc1-bank.png",
+        "bytes": 39383,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-adc2-bank.png",
+        "bytes": 37300,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-adc3-bank.png",
+        "bytes": 44260,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-input-chains.png",
+        "bytes": 39178,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-lower-context.png",
+        "bytes": 89941,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-notes-j18-context.png",
+        "bytes": 60430,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-reference-context.png",
+        "bytes": 13286,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-source-visual-qa.json",
+        "bytes": 1392,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-source-visual-qa.png",
+        "bytes": 243132,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-three-buffers.png",
+        "bytes": 13358,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-timer-dac-context.png",
+        "bytes": 48718,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-proposed-visual-review.json",
+        "bytes": 5553,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-reopened-normalization-audit.json",
+        "bytes": 160066,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/adc10-schematic-plan.json",
+        "bytes": 3766479,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/audit-adc10-visual.py",
+        "bytes": 3709,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/build-adc10-dc-candidate.py",
+        "bytes": 23413,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-accepted-native-graph-audit-20261017.json",
+        "bytes": 241494,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-accepted-native-graph-audit.py",
+        "bytes": 6544,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-bias-feed-isolation-plan-20261017.json",
+        "bytes": 96101,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-bias-feed-isolation-plan.py",
+        "bytes": 12241,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-candidate-graph-audit-20261017.json",
+        "bytes": 450565,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-candidate-graph-audit.py",
+        "bytes": 23099,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-checkpoint-scope-audit-20261017.json",
+        "bytes": 2666982,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-checkpoint-scope-audit-20261017.py",
+        "bytes": 6509,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-expected-full-pin-contract-20261017.json",
+        "bytes": 105372,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-pcb-eco-applied-electrical-audit-20261017.json",
+        "bytes": 111805,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-pcb-eco-reopened-electrical-audit-20261017.json",
+        "bytes": 111844,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-pcb-eco-reopened-scope-audit-20261017.json",
+        "bytes": 2630191,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-pcb-eco-reopened-scope-audit-20261017.py",
+        "bytes": 6990,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-pcb-electrical-audit-20261017.py",
+        "bytes": 10429,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-pcb-footprint-pad-audit.py",
+        "bytes": 11139,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-pcb-footprint179-pad-audit-20261017.json",
+        "bytes": 382155,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-adc10-reopened-native-graph-audit-20261017.json",
+        "bytes": 241494,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-ref3325-opa320-power-research-20261017.json",
+        "bytes": 8132,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-seven-dnp-ownership-audit.json",
+        "bytes": 364733,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/independent-seven-dnp-ownership-audit.py",
+        "bytes": 11265,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/plan-adc10-pre-copper-isolation-20261017.py",
+        "bytes": 13818,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/adc10-dc-buffer-20261017/render-adc10-source.py",
+        "bytes": 1284,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/candidates/git-publication-20261018/publication-plan-readonly.ps1",
+        "bytes": 11522,
+        "category": "current ADC10 audit scripts plans and previews"
+      },
+      {
+        "path": "output/checkpoints/STM32H747_adc10_pcb_orientation_wip_20261017.epro2",
+        "bytes": 20589548,
+        "category": "four selected full-project recovery checkpoints"
+      },
+      {
+        "path": "output/checkpoints/STM32H747_adc10_schematic_20261017.epro2",
+        "bytes": 20583313,
+        "category": "four selected full-project recovery checkpoints"
+      },
+      {
+        "path": "output/checkpoints/STM32H747_before_adc10_20261017.epro2",
+        "bytes": 20563380,
+        "category": "four selected full-project recovery checkpoints"
+      },
+      {
+        "path": "output/checkpoints/STM32H747_multilayer_drc_pass_20261016.epro2",
+        "bytes": 20547960,
+        "category": "four selected full-project recovery checkpoints"
+      },
+      {
+        "path": "output/validation/native-adc10-reopened-erc-20261017.json",
+        "bytes": 62,
+        "category": "selected current electrical evidence"
+      },
+      {
+        "path": "output/validation/native-adc10-reopened-Protel2-20261017.net",
+        "bytes": 216970,
+        "category": "selected current electrical evidence"
+      },
+      {
+        "path": "output/validation/native-adc10-sch-before-20261017.epru",
+        "bytes": 2086674,
+        "category": "selected current electrical evidence"
+      },
+      {
+        "path": "output/validation/native-adc10-sch-reopened-20261017.epru",
+        "bytes": 2234827,
+        "category": "selected current electrical evidence"
+      },
+      {
+        "path": "output/validation/native-pcb-drc-0ac2a19168000d8e-adc10_oriented_reopened_20261017.json",
+        "bytes": 299708,
+        "category": "selected current electrical evidence"
+      },
+      {
+        "path": "output/validation/native-pcb-Protel2_adc10_oriented_reopened_20261017.net",
+        "bytes": 258121,
+        "category": "selected current electrical evidence"
+      },
+      {
+        "path": "reference/schematic-pages/v19_260827/page-1.png",
+        "bytes": 85595,
+        "category": "small reference renders"
+      },
+      {
+        "path": "reference/schematic-pages/v19_260827/page-2.png",
+        "bytes": 455331,
+        "category": "small reference renders"
+      },
+      {
+        "path": "reference/schematic-pages/v19_260827/page-3.png",
+        "bytes": 264112,
+        "category": "small reference renders"
+      },
+      {
+        "path": "reference/schematic-pages/v19_260827/page-4.png",
+        "bytes": 267001,
+        "category": "small reference renders"
+      },
+      {
+        "path": "reference/schematic-pages/v19_260827/page-5.png",
+        "bytes": 427369,
+        "category": "small reference renders"
+      },
+      {
+        "path": "reference/schematic-pages/v19_260827/page-6.png",
+        "bytes": 194358,
+        "category": "small reference renders"
+      },
+      {
+        "path": "scripts/analyze-native-pcb-clearance-drc.py",
+        "bytes": 42962,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/analyze-native-svg-overlays.py",
+        "bytes": 15417,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-adc10-final-wip-scope.py",
+        "bytes": 2911,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-adc10-oriented.py",
+        "bytes": 2881,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-adc10-pcb-eco-preservation-20261017.py",
+        "bytes": 6756,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-adc10-pcb-eco-readonly-20261017.py",
+        "bytes": 11270,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-adc10-readback.py",
+        "bytes": 5875,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-cn1-cutout-final-preservation.py",
+        "bytes": 23959,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-cn1-cutout-gerber-20261016.py",
+        "bytes": 14855,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-diagnostic-gerber-drill-zip.py",
+        "bytes": 42730,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-final-diagnostic-gerber-copper.py",
+        "bytes": 22263,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-final-native-component-copper-centers.py",
+        "bytes": 23294,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-final-native-drill-inventory.py",
+        "bytes": 27168,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-final-native-physical-stack.py",
+        "bytes": 11829,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-final-pcb-project-association.py",
+        "bytes": 16332,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-installed-footprint-update-handler.py",
+        "bytes": 11812,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-latest-revision-bias-gaps.py",
+        "bytes": 15305,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-missing-sma-ground-pths.py",
+        "bytes": 15172,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-missing-sw1-duplicate-smd-pads.py",
+        "bytes": 12580,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-multilayer-geometry-preservation.py",
+        "bytes": 47657,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-multilayer-gerber-changed-copper.py",
+        "bytes": 27004,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-native-pcb-compatible-checkpoint.py",
+        "bytes": 41799,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-native-pcb-rule-change.py",
+        "bytes": 9955,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-native-pcb-staging-checkpoint.py",
+        "bytes": 25369,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-pcb-replacement-safety.py",
+        "bytes": 18108,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/audit-unused-inner-layer-gerber-voids.py",
+        "bytes": 10907,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/bootstrap-page1.mjs",
+        "bytes": 1980,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-adc-dc-libraries.py",
+        "bytes": 25711,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-adc-dc-schematic-patch.py",
+        "bytes": 12504,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-electrical-links.py",
+        "bytes": 28690,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-footprint-arc-compatibility-plan.py",
+        "bytes": 19076,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-global-silkscreen-reference.py",
+        "bytes": 26067,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-native-component-rebind-plan.py",
+        "bytes": 30349,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-native-libraries.py",
+        "bytes": 94704,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-native-pcb-decoder-compatible-routing.py",
+        "bytes": 41270,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-native-pcb-routes.py",
+        "bytes": 56735,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-native-schematic-pages.py",
+        "bytes": 14610,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-page1-project.py",
+        "bytes": 8387,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-pcb-arc-compatibility.py",
+        "bytes": 12085,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-reference-netlist.py",
+        "bytes": 7466,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-ui-physical-stack.py",
+        "bytes": 3420,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-unused-inner-layer-pad-plan.py",
+        "bytes": 37877,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/build-via031-track013-clearance-plan.py",
+        "bytes": 13125,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/check-eda-syntax.mjs",
+        "bytes": 360,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/draft-adc10-bucket-placement-readonly-20261017.py",
+        "bytes": 14957,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/draft-adc10-new-parts-placement-readonly-20261017.py",
+        "bytes": 9538,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/easyeda-safe-client.mjs",
+        "bytes": 5745,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/extract_gerber_reconstruction.py",
+        "bytes": 35424,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/extract_page1_vectors.py",
+        "bytes": 23689,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/extract_schematic_semantics.py",
+        "bytes": 69453,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/inspect-portable-project.py",
+        "bytes": 1868,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/merge-native-pcb-routing.py",
+        "bytes": 71552,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/place-native-pcb.py",
+        "bytes": 55502,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-adc10-passive-orientation-20261017.py",
+        "bytes": 4859,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-c23-clearance.py",
+        "bytes": 15252,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-corner-holes-inward-20261016.py",
+        "bytes": 15921,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-multilayer-fill-clearance.py",
+        "bytes": 67771,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-multilayer-route-clearance.py",
+        "bytes": 45114,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-u1-r17-clearance.py",
+        "bytes": 13424,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-u4-bga-escape-clearance.py",
+        "bytes": 17321,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/plan-u4-bga-escape-complete.py",
+        "bytes": 18316,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/prepare-outline5p-polygon-pad-fix.py",
+        "bytes": 18151,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/prepare-plated-slot-pad-fix.py",
+        "bytes": 18761,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/prepare-sma-owned-post-inner-layer-candidates.py",
+        "bytes": 13307,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/prepare-u4-multilayer-land-fix.py",
+        "bytes": 3860,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/prepare-u5-u7-special-pad-fix.py",
+        "bytes": 17073,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/prepare-u5-u7-thermal-pth-pad-fix.py",
+        "bytes": 30029,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/qa-native-svg.py",
+        "bytes": 13386,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/rebase-multilayer-via-track-width-plan.py",
+        "bytes": 10409,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/render-adc10-bottom-search-context-20261017.py",
+        "bytes": 2980,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/Repair-SymbolBatch.ps1",
+        "bytes": 1941,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/simulate-native-svg-visual-repair.py",
+        "bytes": 10541,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/Start-EasyEDA-Bridge.ps1",
+        "bytes": 6242,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/Test-Workspace.ps1",
+        "bytes": 3529,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/validate-native-component-links.py",
+        "bytes": 17191,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/validate-native-source.py",
+        "bytes": 43719,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-footprint-arc-compatibility-checkpoint.py",
+        "bytes": 16109,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-footprint-geometry-golden.py",
+        "bytes": 49681,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-missing-owned-pad-children-final.py",
+        "bytes": 31148,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-native-netlist.py",
+        "bytes": 20580,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-plated-slot-checkpoint.py",
+        "bytes": 20425,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-sma-owned-post-inner-layer-checkpoint.py",
+        "bytes": 17044,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-symbol-visual-repairs.py",
+        "bytes": 23015,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-u4-multilayer-land-fix.py",
+        "bytes": 3746,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-u5-u7-owned-thermal-pth-checkpoint.py",
+        "bytes": 56817,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-u5-u7-special-pad-checkpoint.py",
+        "bytes": 35226,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-unused-inner-layer-pad-checkpoint.py",
+        "bytes": 16818,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/verify-usbc-pad-fix-checkpoint.py",
+        "bytes": 26283,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/add-j18-bottom-labels.mjs",
+        "bytes": 3239,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-adc-dc-schematic.mjs",
+        "bytes": 4751,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-adc-display-labels.mjs",
+        "bytes": 3483,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-adc-inline-reviewed.mjs",
+        "bytes": 4052,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-adc10-passive-orientations.mjs",
+        "bytes": 2607,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-adc10-reviewed.mjs",
+        "bytes": 2791,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-cn1-cutout-192.mjs",
+        "bytes": 6414,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-corner-holes-inward.mjs",
+        "bytes": 4971,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-decoder-compatible-routed-pcb.mjs",
+        "bytes": 5174,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-layered-thermal-pad-shapes.mjs",
+        "bytes": 2411,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-multilayer-fill-clearance.mjs",
+        "bytes": 7679,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-multilayer-local-routes.mjs",
+        "bytes": 8232,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-multilayer-via-clearance.mjs",
+        "bytes": 6409,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-multilayer-via-track-widths.mjs",
+        "bytes": 9193,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-native-pcb-placement.mjs",
+        "bytes": 1404,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-native-pcb-routing.mjs",
+        "bytes": 3414,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-plated-slot-footprint-fix.mjs",
+        "bytes": 2314,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-routed-pcb-to-fresh-document.mjs",
+        "bytes": 2567,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-sma-owned-post-inner-layers.mjs",
+        "bytes": 4889,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-u4-multilayer-land-fix.mjs",
+        "bytes": 4507,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-u5-u7-thermal-pth-pads.mjs",
+        "bytes": 4791,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-unused-inner-pad-layers.mjs",
+        "bytes": 3800,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/apply-usbc-absolute-pad-paths.mjs",
+        "bytes": 2071,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/bind-missing-owned-pad-children.mjs",
+        "bytes": 8249,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/bind-restored-owned-thermal-pads.mjs",
+        "bytes": 3824,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-adc-dc-before.mjs",
+        "bytes": 1232,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-adc-inline-before.mjs",
+        "bytes": 661,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-adc10-source.mjs",
+        "bytes": 1058,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-cn1-cutout-before.mjs",
+        "bytes": 1816,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-cn1-runtime-pad.mjs",
+        "bytes": 750,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-current-stm-source.mjs",
+        "bytes": 450,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-fresh-pcb-live-components.mjs",
+        "bytes": 630,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-generated-pcb.mjs",
+        "bytes": 785,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-multilayer-clearance-source.mjs",
+        "bytes": 1731,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-native-decoder-log.mjs",
+        "bytes": 299,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/capture-native-sch-text-format.mjs",
+        "bytes": 1523,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/check-final-schematic.mjs",
+        "bytes": 1575,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/check-pcb-drc.mjs",
+        "bytes": 1290,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/check-schematic-erc.mjs",
+        "bytes": 337,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/clean-schematic-visual-overlays.mjs",
+        "bytes": 3774,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/cleanup-own-pcb-probes.mjs",
+        "bytes": 2151,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/cleanup-schematic-checkpoints.mjs",
+        "bytes": 1965,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/clear-pcb-coordinate-probes.mjs",
+        "bytes": 723,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/close-saved-schematic-tabs.mjs",
+        "bytes": 470,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/close-stm32-pcb-cache-tabs.mjs",
+        "bytes": 865,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/configure-six-layer-pcb.mjs",
+        "bytes": 2044,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/copy-staging-pcb-to-final-board.mjs",
+        "bytes": 1451,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/correct-j18-bottom-direction.mjs",
+        "bytes": 2697,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/create-missing-owned-pad-children.mjs",
+        "bytes": 6930,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/create-one-u5-owned-thermal-pad.mjs",
+        "bytes": 2218,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/create-pin-fixture.mjs",
+        "bytes": 501,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/create-remaining-u5-u7-owned-thermal-pads.mjs",
+        "bytes": 5158,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/export-corners-j18-diagnostic.mjs",
+        "bytes": 841,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/export-diagnostic-final-pcb-gerber.mjs",
+        "bytes": 1920,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/export-final-schematic-svg.mjs",
+        "bytes": 449,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/export-j18-silk-direction-diagnostic.mjs",
+        "bytes": 1045,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/export-native-pcb-netlist.mjs",
+        "bytes": 892,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/export-native-schematic-checkpoint.mjs",
+        "bytes": 908,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/export-verified-native-netlist.mjs",
+        "bytes": 950,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/finalize-adc-dc-schematic.mjs",
+        "bytes": 3389,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/finalize-adc-inline-reviewed.mjs",
+        "bytes": 4653,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/finalize-multilayer-fill-pilot.mjs",
+        "bytes": 2716,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/finalize-schematic-tree.mjs",
+        "bytes": 2598,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/harmonize-u1-multipart-metadata.mjs",
+        "bytes": 3412,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/hide-auto-wire-label-font.mjs",
+        "bytes": 2084,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/import-adc-dc-libraries.mjs",
+        "bytes": 1906,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/import-native-schematics.mjs",
+        "bytes": 927,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/import-schematic-draft.mjs",
+        "bytes": 943,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-component-format.mjs",
+        "bytes": 501,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-final-library-runtime.mjs",
+        "bytes": 1597,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-imported-draft.mjs",
+        "bytes": 726,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-multilayer-via-pilot.mjs",
+        "bytes": 590,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-native-library.mjs",
+        "bytes": 333,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-native-pcb-entities.mjs",
+        "bytes": 596,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-native-pins.mjs",
+        "bytes": 705,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-native-project-footprint.mjs",
+        "bytes": 716,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-project-footprint-by-reference.mjs",
+        "bytes": 1123,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-render-primitives.mjs",
+        "bytes": 196,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/inspect-wire-format.mjs",
+        "bytes": 349,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/link-and-generate-pcb.mjs",
+        "bytes": 1460,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/list-schematic-checkpoints.mjs",
+        "bytes": 158,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/load-page2-draft.mjs",
+        "bytes": 800,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/name-and-verify-final-pcb.mjs",
+        "bytes": 1945,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/open-final-schematic.mjs",
+        "bytes": 221,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/persist-adc-revision-source.mjs",
+        "bytes": 2392,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/pilot-symbol-visual-fix.mjs",
+        "bytes": 2819,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/prepare-electrical-pages.mjs",
+        "bytes": 1972,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-component-constructor-error.mjs",
+        "bytes": 2459,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-component-reference-sync.mjs",
+        "bytes": 1034,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-electrical-wire-association.mjs",
+        "bytes": 517,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-fresh-pcb-constructor.mjs",
+        "bytes": 1980,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-native-cn1-create.mjs",
+        "bytes": 906,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-native-component-link-repair.mjs",
+        "bytes": 1020,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-native-device-link-format.mjs",
+        "bytes": 938,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-native-netflag.mjs",
+        "bytes": 551,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-native-noconnect.mjs",
+        "bytes": 795,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-native-pcb-component-placement.mjs",
+        "bytes": 955,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-pcb-coordinate-system.mjs",
+        "bytes": 1215,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-pcb-source-roundtrip.mjs",
+        "bytes": 642,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/probe-polygon-format.mjs",
+        "bytes": 467,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/read-live-footprint-probe.mjs",
+        "bytes": 918,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/read-pcb-rule-config.mjs",
+        "bytes": 478,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/read-staging-pcb-drc-details.mjs",
+        "bytes": 609,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/read-wire-format.mjs",
+        "bytes": 166,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/README.md",
+        "bytes": 2566,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/rebase-native-pcb-placement.mjs",
+        "bytes": 1756,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/rebind-native-library-page.mjs",
+        "bytes": 2817,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/remove-adc-temporary-format-text.mjs",
+        "bytes": 1522,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/remove-adc10-pcb-dnp.mjs",
+        "bytes": 2609,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/reopen-adc10-pcb-only.mjs",
+        "bytes": 784,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/reopen-pcb-model.mjs",
+        "bytes": 748,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-adc-revision-annotation.mjs",
+        "bytes": 1791,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-corner-pad-preservation.mjs",
+        "bytes": 2919,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-footprint-arc-compatibility.mjs",
+        "bytes": 15896,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-library-body-metadata.mjs",
+        "bytes": 3966,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-netflag-name-consistency.mjs",
+        "bytes": 1284,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-oval-footprint-compatibility.mjs",
+        "bytes": 3700,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-power-driver-pcb-exclusion.mjs",
+        "bytes": 1152,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-project-symbol-visuals.mjs",
+        "bytes": 11579,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/repair-root-schematic-visuals.mjs",
+        "bytes": 10980,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/replace-scoped-initial-pcb.mjs",
+        "bytes": 2445,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/restore-multilayer-via-pilot-baseline.mjs",
+        "bytes": 1152,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-adc10-pcb-oriented.mjs",
+        "bytes": 1342,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-and-capture-final-pcb.mjs",
+        "bytes": 5418,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-final-pcb-after-pad-fix.mjs",
+        "bytes": 1889,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-format-fixture.mjs",
+        "bytes": 456,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-pilot-symbol.mjs",
+        "bytes": 557,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-project-checkpoint.mjs",
+        "bytes": 832,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-reopen-adc10-pcb-eco.mjs",
+        "bytes": 1853,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-reopen-adc10-reviewed.mjs",
+        "bytes": 2175,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-reopen-multilayer-pcb.mjs",
+        "bytes": 4309,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-routed-staging-inspection.mjs",
+        "bytes": 1649,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-staging-pcb-multilayer-rules.mjs",
+        "bytes": 1508,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/save-staging-pcb-stack-ui.mjs",
+        "bytes": 1622,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/set-u1-metadata-attributes.mjs",
+        "bytes": 3446,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/show-adc10-schematic.mjs",
+        "bytes": 352,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/show-pcb-staging.mjs",
+        "bytes": 479,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/start-adc10-pcb-eco.mjs",
+        "bytes": 1688,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/test-source-roundtrip.mjs",
+        "bytes": 222,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/update-library-footprint-arcs-direct.mjs",
+        "bytes": 3787,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-cn1-cutout-post-export.mjs",
+        "bytes": 1996,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-export-adc-dc.mjs",
+        "bytes": 1549,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-export-adc-inline.mjs",
+        "bytes": 1273,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-export-adc10.mjs",
+        "bytes": 1322,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-multilayer-after-export.mjs",
+        "bytes": 1960,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-native-schematic-runtime.mjs",
+        "bytes": 1399,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-page1.mjs",
+        "bytes": 1829,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "scripts/eda/verify-symbol-pilot-reopen.mjs",
+        "bytes": 1105,
+        "category": "reproducible scripts without caches"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_Gerber.pdf",
+        "bytes": 8997190,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber.zip",
+        "bytes": 1684920,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616.pdf",
+        "bytes": 4673042,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260827.pdf",
+        "bytes": 4632346,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD.step",
+        "bytes": 8162670,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Cu.gbr",
+        "bytes": 846994,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Mask.gbr",
+        "bytes": 13132,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Paste.gbr",
+        "bytes": 6205,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-B_Silkscreen.gbr",
+        "bytes": 336738,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-Edge_Cuts.gbr",
+        "bytes": 1019,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Cu.gbr",
+        "bytes": 1273653,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Mask.gbr",
+        "bytes": 42745,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Paste.gbr",
+        "bytes": 39984,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-F_Silkscreen.gbr",
+        "bytes": 1655485,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In1_Cu.gbr",
+        "bytes": 746775,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In2_Cu.gbr",
+        "bytes": 861878,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In3_Cu.gbr",
+        "bytes": 769565,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-In4_Cu.gbr",
+        "bytes": 746775,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-job.gbrjob",
+        "bytes": 4840,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-NPTH.drl",
+        "bytes": 831,
+        "category": "user-provided reference PDF STEP and Gerber"
+      },
+      {
+        "path": "보드 자료/MCU_BOARD_v19_260616_Gerber/MCU_BOARD_v19_260616-PTH.drl",
+        "bytes": 15261,
+        "category": "user-provided reference PDF STEP and Gerber"
+      }
+    ],
+    "missingOptionalEvidencePaths": [],
+    "checkpointSubstitutionRequiredAfter18OctWork": true,
+    "liveProjectCopyMustBeSavedAndConsistentBeforeStaging": true,
+    "publicationManifestShouldRecordFinalNativeAndCheckpointSha256": true
+  },
+  "suggestedExclusions": [
+    "/.tools/",
+    "/tmp/",
+    "/EasyEDA-Bridge.local.cmd",
+    "*.log",
+    "*.tmp",
+    "**/__pycache__/",
+    "*.py[cod]",
+    "/native-project/*_backup/",
+    "/STM32H747 board/",
+    "**/node_modules/",
+    "*.eprj2-wal",
+    "*.eprj2-shm",
+    "*.lock",
+    "/output/validation/",
+    "/output/native-libraries*/",
+    "/output/native-pcb/",
+    "/output/native-schematics/",
+    "/output/semantic/",
+    "/output/page1/"
+  ],
+  "exclusionApplication": "PROPOSAL ONLY. Root may edit only STM-scoped .gitignore or use explicit allowlisted paths; do not alter root TEST_DAC8562 ignore behavior. If output/validation is ignored, exact selected evidence must be explicit -f additions or relocated to a deliberate publication snapshot by root. Never force-add entire output.",
+  "largeFileDecision": {
+    "onlyCurrentOver50MiB": "native-project/STM32H747_MCU_BOARD_v19.eprj2",
+    "regularGitCurrentFileBelow100MiB": true,
+    "noLfsConfigurationOrMigrationPerformed": true,
+    "recommendation": "Current84.38MB native file can be intentionally included in regular Git with a warning; use the compressed self-contained20.6MB epro2 as reproducible recovery authority. If long-term native DB history grows, explicitly choose LFS or snapshot-only export workflow before crossing100MiB. Do not silently introduce quota/billing or migrate other project history."
+  },
+  "secretAndNoiseReview": {
+    "filenameScan": "No candidate secret/key/env/credential filenames found outside ignored tools/tmp; cache .pyc files found and should be excluded.",
+    "configAndScriptsPatternScan": "No secret-pattern matches; paths/UUIDs in config/easyeda-project.json are machine/project guards, not credentials.",
+    "broaderTextPatternScan": "No matches for private-key headers or recognizable GitHub/OpenAI/Slack/AWS token patterns in nonignored readable STM text; excluded binary project/archive/PDF/STEP/image files were not content-scanned.",
+    "scannerIsNotSecretFreeGuarantee": true,
+    "nativeBinaryAndArchivesRequireFinalUserScopePrivacyReview": true,
+    "repositoryVisibilityNotQueried": true,
+    "thirdPartyDatasheets": "Do not publish downloaded TI PDFs under old candidate output by default; preserve links and derived library evidence instead.",
+    "nestedAccidentalOutput": "STM32H747 board/output/validation/tmp-placed-schema.json is nested under the STM scope again; exclude it, do not delete it in this publication step.",
+    "localConfigPortability": "Current config/easyeda-project.json includes absolute path and live window/project IDs. Document rebind-on-clone or publish a portable example after root review; do not change live safety guards during PCB work."
+  },
+  "recommendedRootSequence": [
+    "Finish the authorized PCB edit, save/reopen/validate and export a uniquely named18Oct WIP epro2; do not label unfinished PCB fabrication-ready.",
+    "Update README/status to exact current DRC and incomplete functionality, and select current plus needed recovery checkpoints explicitly.",
+    "Apply only STM-scoped ignore improvements or use the concrete allowlist. Exclude runtime/tmp/cache/autobackup/historical output. Preserve all on disk.",
+    "Record SHA256/size for final native project and epro2 snapshot; verify no WAL/SHM/lock artifacts and checkpoint opens independently.",
+    "Stage explicit STM32H747 paths only; inspect git diff --cached --name-only and require every path begins STM32H747 board/ and none begins TEST_DAC8562/. Do not use git add . or git add -A.",
+    "Inspect staged diff and large blobs; then commit/push according to user authorization. Root must verify remote state immediately before push; this report only knows cached origin/main.",
+    "After push, verify published commit/remote hash and leave the pre-existing TEST_DAC8562 tracked modification untouched."
+  ],
+  "officialPolicySources": [
+    "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits"
+  ],
+  "policySummary": "GitHub warns for files above50MiB and blocks regular-Git files above100MiB. Push payload limit is2GB. Raw workspace3.5GB is not the compressed push size, but blanket publication is unnecessarily large and noisy.",
+  "noPublicationOrDesignApprovalImplied": true
+}

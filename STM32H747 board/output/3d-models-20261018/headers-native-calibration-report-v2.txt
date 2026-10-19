@@ -1,0 +1,9 @@
+Native18 header/SMA calibration candidate; no CAD changes.
+Coverage:43414 newfaces=16*2221 SMA+2618 J1+5260 J18; all old361 geometry faces reproduced exactly.
+SMA_RA_KWE901: complete meshXYZmm=[6.999999940864686, 15.100000253906375, 12.898015509363082]; mountplane above normalized minZ=3.05000004663738mm.
+SAMTEC_FTSH107_14_SMD: complete meshXYZmm=[8.890000476837129, 5.842000095367418, 6.985000238418563]; mountplane above normalized minZ=0.8635999988079045mm.
+SOCKET_2X5_P254: complete meshXYZmm=[12.70000047683716, 5.08, 11.4844028290336]; mountplane above normalized minZ=3.01440270115641mm.
+SMA default neck -Y, pinarray+Y4.05 relativefullbboxcenter. Rotate neck to historical outward; offset=-R*p; Z=-3.05mm(shoulderseat). Caseunderside+.35mm.
+J1 SMTcontactseat=0; locatorends-.8636; bodyfloor+.4064;top6.1214. Pin1mark unresolved.
+J18 generic bodyseat=0, pinends about-3.0144; mountedheight8.47mm; actualMPNheight not certified.
+All candidates explicitly nonexecutable until nativepilot confirms transformnormalization and rotZsign.

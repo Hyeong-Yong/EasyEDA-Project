@@ -1,0 +1,135 @@
+{
+  "schema": "independent-optional-pump-three-local-ground-via-review-v2",
+  "status": "FAIL",
+  "nativeCalls": 0,
+  "sourceActualPlacedV4Sha256": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "fixedPlacementSha256": "7070ccc735fa7ae1181ea3c1a0c27ee1145f99b938d7bdad831ceefbcad01022",
+  "fixedRow332Sha256": "cdd3fa342f17753e0b41b3709da76d2a8f538a48fec9cc0f3c436cf987c601c1",
+  "fixedCommon34Sha256": "4367046bff69088c9b404724fa07a4acc4ba7aa315abd1386546dcf5a85ddcf7",
+  "reserved43PortSha256": "7442307c0c676c975f2855e516b1e5422b991071f5c838c21a8cb802190b58d4",
+  "raw5V2Sha256": "23c724afbc6b521297267af628533c4d3122f49589bfd17b844cfce9283c9be4",
+  "newViaCreates": [
+    {
+      "key": "PUMP_CHIP_GND",
+      "net": "GND",
+      "xyMm": [
+        32.4,
+        28.1
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginal799DrillEdgeGapMm": 7.930709126360871,
+      "minimumReserved45DrillEdgeGapMm": 2.5313008644043578,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        }
+      ],
+      "placementQualification": "OutsideSMAcourts, notvia-in-pad(.06mmminimum); mayoverlapconservativeSOT23/capcourtyardbutnotcomponentbodyorPAD. Rootreviewrequired."
+    },
+    {
+      "key": "PUMP_OUTPUT_CAP_GND",
+      "net": "GND",
+      "xyMm": [
+        31.0,
+        35.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginal799DrillEdgeGapMm": 6.675694801662481,
+      "minimumReserved45DrillEdgeGapMm": 2.0627416997969497,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        }
+      ],
+      "placementQualification": "OutsideSMAcourts, notvia-in-pad(.06mmminimum); mayoverlapconservativeSOT23/capcourtyardbutnotcomponentbodyorPAD. Rootreviewrequired."
+    }
+  ],
+  "newLineCreates": [
+    {
+      "key": "PUMP_CHIP_GND_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.3,
+      "startXYmm": [
+        32.2999999908,
+        28.849999995
+      ],
+      "endXYmm": [
+        32.4,
+        28.1
+      ],
+      "role": "LocalHFpumpgroundreturn U30:4",
+      "lengthMm": 0.7566372937808434
+    },
+    {
+      "key": "PUMP_OUTPUT_CAP_GND_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.3,
+      "startXYmm": [
+        31.000000000000004,
+        34.549998988999995
+      ],
+      "endXYmm": [
+        31.0,
+        35.4
+      ],
+      "role": "LocalHFpumpgroundreturn C152:2",
+      "lengthMm": 0.8500010110000034
+    }
+  ],
+  "fails": [
+    {
+      "key": "PUMP_INPUT_CAP_GND",
+      "otherCu": [
+        {
+          "key": "LINE:0e6ede83e4a8e791",
+          "net": "net-(u1b-pg12)",
+          "distanceMm": 0.15048866812817108
+        },
+        {
+          "key": "LINE:f2b2e19c164edf4b",
+          "net": "net-(u1b-pg12)",
+          "distanceMm": 0.15048866812817108
+        }
+      ],
+      "viaInPad": [],
+      "stubConflicts": [],
+      "oldDrillGap": 7.957403907758512,
+      "new45DrillGap": 4.7206219931439035
+    }
+  ],
+  "old640Vias799DrillsUntouched": true,
+  "purpose": "BoundpumpHFreturnstoGNDplanesbesideICandinput/outputcapacitors, ratherthanlongindirectTOPgroundpath; separateGNDplannerwillprove128targetanchors. Notanoise/stabilitymeasurement.",
+  "remaining": [
+    "Parentapprovalbeforeanynativecreation",
+    "All6localFILLantipads(layer16+3V3)andnewlobeanchorgraph",
+    "MutualCuwithfinalsharedplus/minus/offsetroutes",
+    "NativeDRC/sourceaudit"
+  ],
+  "manufacturingApproved": false
+}

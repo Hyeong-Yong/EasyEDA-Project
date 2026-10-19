@@ -1,0 +1,305 @@
+{
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-labtool_schematic-Protel2-20261018.net",
+  "sha256": "dd848d6113c5ec2a0835c128ed664aff57e1df0f7967b9571fbd861d7ab4c12d",
+  "matched_components": [
+    {
+      "ref": "R177",
+      "value": "100k",
+      "pin_nets": [
+        "GND",
+        "ADC_J2_RAW"
+      ]
+    },
+    {
+      "ref": "R140",
+      "value": "3.32k",
+      "pin_nets": [
+        "ADC_J2_RAW",
+        "ADC_J2_FILTER"
+      ]
+    },
+    {
+      "ref": "C97",
+      "value": "10nF",
+      "pin_nets": [
+        "ADC_J2_FILTER",
+        "GND"
+      ]
+    },
+    {
+      "ref": "R137",
+      "value": "4.00k",
+      "pin_nets": [
+        "ADC_J2_BUF",
+        "ADC_J2_SUM"
+      ]
+    },
+    {
+      "ref": "R187",
+      "value": "2.80k",
+      "pin_nets": [
+        "ADC_J2_SUM",
+        "ADC_J2_DRV"
+      ]
+    },
+    {
+      "ref": "C122",
+      "value": "10nF",
+      "pin_nets": [
+        "ADC_J2_SUM",
+        "ADC_J2_DRV"
+      ]
+    },
+    {
+      "ref": "R141",
+      "value": "47",
+      "pin_nets": [
+        "ADC_J2_DRV",
+        "ADC1_INP0"
+      ]
+    },
+    {
+      "ref": "C80",
+      "value": "10nF",
+      "pin_nets": [
+        "ADC1_INP0",
+        "GND"
+      ]
+    },
+    {
+      "ref": "R202",
+      "value": "15.8k",
+      "pin_nets": [
+        "AFE_REF_2V5",
+        "AFE_OFFSET_FILTER"
+      ]
+    },
+    {
+      "ref": "R203",
+      "value": "10.0k",
+      "pin_nets": [
+        "GND",
+        "AFE_OFFSET_FILTER"
+      ]
+    },
+    {
+      "ref": "R204",
+      "value": "1.00k",
+      "pin_nets": [
+        "AFE_OFFSET_BUFFER",
+        "ADC_OFFSET_0V97"
+      ]
+    },
+    {
+      "ref": "C158",
+      "value": "4.7uF",
+      "pin_nets": [
+        "AFE_OFFSET_FILTER",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C159",
+      "value": "4.7uF",
+      "pin_nets": [
+        "ADC_OFFSET_0V97",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C103",
+      "value": "1uF",
+      "pin_nets": [
+        "+5V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C105",
+      "value": "1uF",
+      "pin_nets": [
+        "AFE_REF_NR",
+        "GND"
+      ]
+    },
+    {
+      "ref": "R201",
+      "value": "1.0",
+      "pin_nets": [
+        "AFE_REF_ESR",
+        "AFE_REF_2V5"
+      ]
+    },
+    {
+      "ref": "C104",
+      "value": "4.7uF",
+      "pin_nets": [
+        "AFE_REF_ESR",
+        "GND"
+      ]
+    },
+    {
+      "ref": "R200",
+      "value": "4.7",
+      "pin_nets": [
+        "+5V",
+        "+5V_AFE"
+      ]
+    },
+    {
+      "ref": "C156",
+      "value": "4.7uF",
+      "pin_nets": [
+        "+5V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C157",
+      "value": "4.7uF",
+      "pin_nets": [
+        "+5V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C120",
+      "value": "100nF",
+      "pin_nets": [
+        "+5V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C121",
+      "value": "100nF",
+      "pin_nets": [
+        "-3V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C100",
+      "value": "100nF",
+      "pin_nets": [
+        "+3V3",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C160",
+      "value": "100nF",
+      "pin_nets": [
+        "+5V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "R198",
+      "value": "15.4k",
+      "pin_nets": [
+        "-3V_AFE",
+        "AFE_NEG_FB"
+      ]
+    },
+    {
+      "ref": "R199",
+      "value": "10.0k",
+      "pin_nets": [
+        "GND",
+        "AFE_NEG_FB"
+      ]
+    },
+    {
+      "ref": "C155",
+      "value": "10nF",
+      "pin_nets": [
+        "AFE_NEG_FB",
+        "-3V_AFE"
+      ]
+    },
+    {
+      "ref": "C153",
+      "value": "4.7uF",
+      "pin_nets": [
+        "-3V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C154",
+      "value": "4.7uF",
+      "pin_nets": [
+        "-3V_AFE",
+        "GND"
+      ]
+    },
+    {
+      "ref": "U20",
+      "value": "OPA189IDBVR",
+      "pin_nets": [
+        "ADC_J2_BUF",
+        "-3V_AFE",
+        "ADC_J2_FILTER",
+        "ADC_J2_BUF",
+        "+5V_AFE"
+      ]
+    },
+    {
+      "ref": "U10",
+      "value": "OPA320AIDBVR",
+      "pin_nets": [
+        "ADC_J2_DRV",
+        "GND",
+        "ADC_OFFSET_0V97",
+        "ADC_J2_SUM",
+        "+3V3"
+      ]
+    },
+    {
+      "ref": "U32",
+      "value": "OPA189IDBVR",
+      "pin_nets": [
+        "AFE_OFFSET_BUFFER",
+        "GND",
+        "AFE_OFFSET_FILTER",
+        "AFE_OFFSET_BUFFER",
+        "+5V_AFE"
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin_nets": {
+        "2": "+5V_AFE",
+        "4": "GND",
+        "5": "AFE_REF_NR",
+        "6": "AFE_REF_2V5"
+      }
+    },
+    {
+      "ref": "U31",
+      "pin_nets": {
+        "1": "GND",
+        "2": "AFE_VNEG_RAW",
+        "3": "AFE_VNEG_RAW",
+        "4": "AFE_NEG_FB",
+        "5": "-3V_AFE"
+      }
+    },
+    {
+      "ref": "U1",
+      "pin_nets": {
+        "T1": "ADC1_INP0"
+      }
+    },
+    {
+      "ref": "J2",
+      "pin_nets": {
+        "1": "ADC_J2_RAW",
+        "2": "GND"
+      }
+    }
+  ],
+  "cad_modified": false,
+  "scope": "J2 representative + shared reference; remaining analog channel connections not a full MCU SPICE model"
+}

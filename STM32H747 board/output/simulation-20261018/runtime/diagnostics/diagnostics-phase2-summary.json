@@ -1,0 +1,222 @@
+{
+  "originals_unchanged": true,
+  "results": [
+    {
+      "case": "rshunt10",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\rshunt10\\rshunt10.cir",
+      "returncode": 1,
+      "raw": {
+        "exists": true,
+        "has_values": false,
+        "bytes": 237
+      },
+      "issues": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed",
+        "Warning: singular matrix:  check nodes xu20_j2.n3294630 and xu20_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu20_j2.n3294630 and xu20_j2.n2991579",
+        "Warning: singular matrix:  check nodes xu20_j2.n3294630 and xu20_j2.n2991579",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "DC solution failed -",
+        "run simulation(s) aborted"
+      ],
+      "seconds": 6.922
+    },
+    {
+      "case": "rshunt11",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\rshunt11\\rshunt11.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(raw_j2)": -3.465490604999794e-09,
+          "v(filt_j2)": -2.336891211801264e-07,
+          "v(buf_j2)": -0.000416218747940178,
+          "v(drv_j2)": 1.647621926748354,
+          "v(adc_j2)": 1.647621925973971,
+          "v(off)": 0.968992248062,
+          "v(v5afe)": 4.938899999628586,
+          "i(v5)": -0.01300000012902425,
+          "i(v3)": -0.001692358642573523,
+          "i(vn)": 0.01324235867201637
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 0.219
+    },
+    {
+      "case": "nodeset",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\nodeset\\nodeset.cir",
+      "returncode": 1,
+      "raw": {
+        "exists": true,
+        "has_values": false,
+        "bytes": 237
+      },
+      "issues": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed",
+        "Warning: singular matrix:  check nodes xu20_j2.n3294630 and xu20_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check node xu20_j2.n2991579",
+        "Warning: singular matrix:  check node xu20_j2.n2991579",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "DC solution failed -",
+        "run simulation(s) aborted"
+      ],
+      "seconds": 3.734
+    },
+    {
+      "case": "pivtol18",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\pivtol18\\pivtol18.cir",
+      "returncode": 1,
+      "raw": {
+        "exists": true,
+        "has_values": false,
+        "bytes": 237
+      },
+      "issues": [
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed",
+        "Warning: singular matrix:  check nodes xu20_j2.n3294630 and xu20_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+        "Warning: singular matrix:  check node xu20_j2.n2991579",
+        "Warning: singular matrix:  check node xu20_j2.n2991579",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "DC solution failed -",
+        "run simulation(s) aborted"
+      ],
+      "seconds": 10.515
+    },
+    {
+      "case": "optran100us",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\optran100us\\optran100us.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(raw_j2)": 5.529466398044712e-07,
+          "v(filt_j2)": 3.728696135126286e-05,
+          "v(buf_j2)": 4.007872121537334e-05,
+          "v(drv_j2)": 1.664055695565795,
+          "v(adc_j2)": 1.664341553174925,
+          "v(off)": 0.968992248062,
+          "v(v5afe)": 4.412923645896368,
+          "i(v5)": -0.1249098625752409,
+          "i(v3)": -0.001686164374106362,
+          "i(vn)": 0.01324224669466466
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 28.672
+    },
+    {
+      "case": "optran1ms",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\optran1ms\\optran1ms.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(raw_j2)": -3.289950243307911e-09,
+          "v(filt_j2)": -2.21851872747031e-07,
+          "v(buf_j2)": -1.746224301900784e-06,
+          "v(drv_j2)": 1.647338472102021,
+          "v(adc_j2)": 1.647338472591521,
+          "v(off)": 0.968992248062,
+          "v(v5afe)": 4.938899998947422,
+          "i(v5)": -0.01300000022395276,
+          "i(v3)": -0.001692255835104101,
+          "i(vn)": 0.01324225606045586
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 9.719
+    },
+    {
+      "case": "single189",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\single189\\single189.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(vo)": -1.662830730539411e-06,
+          "i(vp)": -0.001300000030000007,
+          "i(vn)": 0.001300000098703127
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 0.063
+    },
+    {
+      "case": "single320",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\single320\\single320.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(vo)": 1.650028980656534,
+          "i(vp)": -0.001451650038109927
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 0.062
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "adc10-labtool-reverse-protection-runtime-map-20261018-v1",
+  "devices": {
+    "BAT54WS": {
+      "uuid": "454fdb5f6db86dc7",
+      "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_BAT54WS_E3_08",
+      "symbolUuid": "dca68de1ebe5b157",
+      "footprintUuid": "70434f355ff1cc5a",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "D?",
+        "Symbol": "dca68de1ebe5b157",
+        "Footprint": "70434f355ff1cc5a",
+        "Value": "BAT54WS",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+        "DNP": "no",
+        "Manufacturer": "Vishay Semiconductors",
+        "Part Number": "BAT54WS-E3-08",
+        "Datasheet": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+        "Description": "30V single Schottky; TPS723 negative-LDO reverse-current bypass; A2=raw IN, K1=regulated OUT",
+        "Voltage Rating": "30 V",
+        "Forward Continuous Current": "200 mA",
+        "Datasheet Revision": "86465 Rev1.1 2025-05-12"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      },
+      "oldUuid": "99e585cc5ec3db13",
+      "source": "99e585cc5ec3db13|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_BAT54WS_E3_08",
+        "tags": [],
+        "source": "99e585cc5ec3db13|project",
+        "images": [
+          ""
+        ],
+        "attributes": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "D?",
+          "Symbol": "dca68de1ebe5b157",
+          "Footprint": "70434f355ff1cc5a",
+          "Value": "BAT54WS",
+          "Name": "={Value}",
+          "Package": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+          "DNP": "no",
+          "Manufacturer": "Vishay Semiconductors",
+          "Part Number": "BAT54WS-E3-08",
+          "Datasheet": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+          "Description": "30V single Schottky; TPS723 negative-LDO reverse-current bypass; A2=raw IN, K1=regulated OUT",
+          "Voltage Rating": "30 V",
+          "Forward Continuous Current": "200 mA",
+          "Datasheet Revision": "86465 Rev1.1 2025-05-12"
+        }
+      }
+    }
+  },
+  "symbols": {
+    "SCHOTTKY": {
+      "uuid": "dca68de1ebe5b157",
+      "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_SCHOTTKY_K1_A2",
+      "partId": "A",
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "primitiveId": "e242e8e5d5172f04",
+          "x": -25,
+          "y": 0,
+          "length": 15,
+          "rotation": 0,
+          "electric": "Passive",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "primitiveId": "161f8531673c246a",
+          "x": 25,
+          "y": 0,
+          "length": 15,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A"
+        }
+      ],
+      "coordinateUnit": "0.01inch, symbol Y-down",
+      "oldUuid": "d798c1936d059699",
+      "source": "d798c1936d059699|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_SCHOTTKY_K1_A2",
+        "description": "Single Schottky diode: physical pin1 cathode, pin2 anode",
+        "tags": [],
+        "docType": 2,
+        "source": "d798c1936d059699|project"
+      }
+    }
+  },
+  "footprints": {
+    "SOD323": {
+      "uuid": "70434f355ff1cc5a",
+      "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+      "pads": [
+        {
+          "number": "1",
+          "name": "K",
+          "centerMm": [
+            -1.2,
+            0
+          ],
+          "copperSizeMm": [
+            0.8,
+            0.6
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "1",
+            "centerX": -47.244094,
+            "centerY": 0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 31.496063,
+              "height": 23.622047,
+              "radius": 0
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 1,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "centerMm": [
+            1.2,
+            0
+          ],
+          "copperSizeMm": [
+            0.8,
+            0.6
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "2",
+            "centerX": 47.244094,
+            "centerY": 0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 31.496063,
+              "height": 23.622047,
+              "radius": 0
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 2,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        }
+      ],
+      "bodyMaximumSizeMm": [
+        1.95,
+        1.5
+      ],
+      "courtyardMm": [
+        3.7,
+        2.0
+      ],
+      "coordinateUnit": "mil, positive Y-up, top view; cathode band left",
+      "drawing": "Vishay S8-V-3910.02-001(4) Rev6 2016-09-23, BAT54WS86465 PDF p4",
+      "landPatternInnerGapMm": 1.6,
+      "landPatternOuterSpanMm": 3.2,
+      "manufacturingApproved": false,
+      "oldUuid": "03ecb818f4f0a255",
+      "source": "03ecb818f4f0a255|project",
+      "runtimeMeta": {
+        "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+        "description": "Vishay86465 Rev1.1 p4 recommended SOD323 land; assembler approval pending",
+        "tags": [],
+        "source": "03ecb818f4f0a255|project"
+      }
+    }
+  },
+  "checkpoint": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_protection_libraries_20261018.epro2",
+  "checkpointSha256": "2cfe57afb89dd3adf3cce6dcd2e8c060024e5b10de1ab96afa6a068cc091a253",
+  "uuidMap": {
+    "d798c1936d059699": "dca68de1ebe5b157",
+    "03ecb818f4f0a255": "70434f355ff1cc5a",
+    "99e585cc5ec3db13": "454fdb5f6db86dc7"
+  },
+  "newDocumentCount": 3,
+  "importPreservationPassed": true
+}

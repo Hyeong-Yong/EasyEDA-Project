@@ -1,0 +1,159 @@
+{
+  "schema": "labtool-reference-two-same-centre-rotations-v5b",
+  "PCBRequired": "0ac2a19168000d8e",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v4_saved-20261018.epru",
+  "sourceSha256": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "reviewedProposalPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\reference-two-rotation-exact-operations-v5b.json",
+  "reviewedProposalSha256": "00e117ead6bb4f93d8a6ef3cfeb0a07e57d3f8b91125e2e4062c6f89a75c201a",
+  "batches": [
+    {
+      "stage": "adjust_ref0",
+      "operations": [
+        {
+          "type": "COMPONENT",
+          "id": "6eb1a2f698c02c69",
+          "action": "place",
+          "ref": "R202",
+          "uniqueId": "424d1287ffcc7b4d",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1133.8583,
+            "y": 2732.2835,
+            "angle": 90,
+            "attrs": {
+              "Value": "15.8k",
+              "Temperature Coefficient": "10 ppm/K or better",
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I104",
+              "Unique ID": "424d1287ffcc7b4d"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1133.8583,
+            "y": 2732.2835,
+            "angle": 270,
+            "attrs": {
+              "Value": "15.8k",
+              "Temperature Coefficient": "10 ppm/K or better",
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I104",
+              "Unique ID": "424d1287ffcc7b4d"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "expectedWorldPads": [
+            {
+              "number": "1",
+              "net": "AFE_REF_2V5",
+              "centerMm": [
+                28.8,
+                69.9099990054
+              ],
+              "boundsMm": [
+                28.480000005,
+                69.6399989993,
+                29.119999995,
+                70.1799990115
+              ]
+            },
+            {
+              "number": "2",
+              "net": "AFE_OFFSET_FILTER",
+              "centerMm": [
+                28.8,
+                68.89000099460002
+              ],
+              "boundsMm": [
+                28.480000005,
+                68.62000098850001,
+                29.119999995,
+                69.1600010007
+              ]
+            }
+          ]
+        },
+        {
+          "type": "COMPONENT",
+          "id": "35c123a02723c3a7",
+          "action": "place",
+          "ref": "C158",
+          "uniqueId": "95ae7bdd192a9108",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1181.1024,
+            "y": 2637.7953,
+            "angle": 0,
+            "attrs": {
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I118",
+              "Unique ID": "95ae7bdd192a9108"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1181.1024,
+            "y": 2637.7953,
+            "angle": 180,
+            "attrs": {
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I118",
+              "Unique ID": "95ae7bdd192a9108"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "expectedWorldPads": [
+            {
+              "number": "1",
+              "net": "AFE_OFFSET_FILTER",
+              "centerMm": [
+                29.050001011,
+                67.0
+              ],
+              "boundsMm": [
+                28.5500010077,
+                66.3500000046,
+                29.5500010143,
+                67.6499999954
+              ]
+            },
+            {
+              "number": "2",
+              "net": "GND",
+              "centerMm": [
+                30.949998989,
+                67.0
+              ],
+              "boundsMm": [
+                30.4499989857,
+                66.3500000046,
+                31.4499989923,
+                67.6499999954
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nativeCalls": 0,
+  "manufacturingReady": false
+}

@@ -1,0 +1,1013 @@
+{
+  "schema": "stm32-final-calibrated407-standard29-geometry-audit-v1",
+  "native_calls": 0,
+  "passed": true,
+  "source_export": "STM32H747_calibrated407_STM32H747_calibrated407",
+  "source_export_sha256": "8a294fa16ac55dedd16695ecad4b568e9c8fbadf919d66b0af5f61db4811faa5",
+  "baseline_export": "STM32H747_std27_j12_switch_xfmr_407_STM32H747_std27_j12_switch_xfmr_407",
+  "baseline_export_sha256": "c5334b6c5cc130dd8c67b51baa8b7c4f5561e463d839250b93697c0d98ce70d2",
+  "topology_and_vertex_order_identical": true,
+  "vertex_count": 192904,
+  "face_count": 760928,
+  "unchanged_geometry_transfer_tolerance_mm": 1e-05,
+  "standard27_unchanged_from_verified_export": [
+    {
+      "ref": "FB1",
+      "face_count": 307,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "FB2",
+      "face_count": 307,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "FB3",
+      "face_count": 307,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "D2",
+      "face_count": 821,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": true
+    },
+    {
+      "ref": "D3",
+      "face_count": 821,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": true
+    },
+    {
+      "ref": "D4",
+      "face_count": 821,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": true
+    },
+    {
+      "ref": "D6",
+      "face_count": 821,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": true
+    },
+    {
+      "ref": "Y1",
+      "face_count": 2012,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "X1",
+      "face_count": 1741,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "X2",
+      "face_count": 1741,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "U3",
+      "face_count": 573,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.95,
+        "measured_applied_pitch_mm": 0.9500019000010629,
+        "error_mm": 1.9000010629266484e-06,
+        "row_levels_mm": [
+          -0.9499708299375618,
+          3.1070063501559275e-05,
+          0.950032970064564
+        ],
+        "row_fit_residual_mm": 2.960617319879011e-16,
+        "selected_terminal_or_ball_count": 6
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": true
+    },
+    {
+      "ref": "U5",
+      "face_count": 1298,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.5,
+        "measured_applied_pitch_mm": 0.5000010000025341,
+        "error_mm": 1.0000025341128094e-06,
+        "row_levels_mm": [
+          -1.247345967565131,
+          -0.7498964053834559,
+          -0.24989540538092536,
+          0.2501056057974974,
+          0.7501066058000315,
+          1.2501076095278594
+        ],
+        "row_fit_residual_mm": 0.0025514378208589816,
+        "selected_terminal_or_ball_count": 24
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "U7",
+      "face_count": 1281,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.5,
+        "measured_applied_pitch_mm": 0.5000010000014257,
+        "error_mm": 1.0000014256661416e-06,
+        "row_levels_mm": [
+          -1.749870199740812,
+          -1.2498691997393863,
+          -0.7498681997379606,
+          -0.24986719973652782,
+          0.25013380026489074,
+          0.7501348002663235,
+          1.2501358002677492,
+          1.7501368002691748
+        ],
+        "row_fit_residual_mm": 7.105427357601002e-15,
+        "selected_terminal_or_ball_count": 32
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "D5",
+      "face_count": 1657,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "D20",
+      "face_count": 294,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "D1",
+      "face_count": 1291,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": true
+    },
+    {
+      "ref": "U8",
+      "face_count": 821,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 1.27,
+        "measured_applied_pitch_mm": 1.2700025400040216,
+        "error_mm": 2.540004021556186e-06,
+        "row_levels_mm": [
+          -4.4452715082733505,
+          -3.17526910167048,
+          -1.9052664566485333,
+          -0.6352639308361318,
+          0.6347385949762981,
+          1.9047411207886995,
+          3.1747437658106428,
+          4.444746172413517
+        ],
+        "row_fit_residual_mm": 8.37305087486584e-08,
+        "selected_terminal_or_ball_count": 16
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "U6",
+      "face_count": 542,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 1.27,
+        "measured_applied_pitch_mm": 1.270002540004917,
+        "error_mm": 2.5400049170620775e-06,
+        "row_levels_mm": [
+          -1.9048476661646951,
+          -0.6348451261597781,
+          0.635157413845139,
+          1.905159953850056
+        ],
+        "row_fit_residual_mm": 0.0,
+        "selected_terminal_or_ball_count": 8
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "U9",
+      "face_count": 542,
+      "max_vertex_motion_from_verified407_mm": 1.6122066643444161e-06,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 1.27,
+        "measured_applied_pitch_mm": 1.270002540004917,
+        "error_mm": 2.5400049170620775e-06,
+        "row_levels_mm": [
+          -1.9049125762914336,
+          -0.6349100362865165,
+          0.6350925037184005,
+          1.9050950437233176
+        ],
+        "row_fit_residual_mm": 0.0,
+        "selected_terminal_or_ball_count": 8
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "U2",
+      "face_count": 1385,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 2.3,
+        "measured_applied_pitch_mm": 2.300004600005405,
+        "error_mm": 4.600005405031027e-06,
+        "row_levels_mm": [
+          -2.3007681521522234,
+          -0.0006794677989251289,
+          2.2992410478585863
+        ],
+        "row_fit_residual_mm": 5.605623192895279e-05,
+        "selected_terminal_or_ball_count": 3
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "Q1",
+      "face_count": 493,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 1.9,
+        "measured_applied_pitch_mm": 1.9000038000064094,
+        "error_mm": 3.800006409537815e-06,
+        "row_levels_mm": [
+          -0.9498883897771327,
+          0.9501154102292767
+        ],
+        "row_fit_residual_mm": 0.0,
+        "selected_terminal_or_ball_count": 2
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": true
+    },
+    {
+      "ref": "TVS1",
+      "face_count": 2004,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.95,
+        "measured_applied_pitch_mm": 0.9500019000000179,
+        "error_mm": 1.9000000179847376e-06,
+        "row_levels_mm": [
+          -0.9499268998476111,
+          7.500015240680113e-05,
+          0.9500769001524247
+        ],
+        "row_fit_residual_mm": 0.0,
+        "selected_terminal_or_ball_count": 6
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "TVS2",
+      "face_count": 2004,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.95,
+        "measured_applied_pitch_mm": 0.9500019000000179,
+        "error_mm": 1.9000000179847376e-06,
+        "row_levels_mm": [
+          -0.9498723697383866,
+          0.00012953026163131653,
+          0.9501314302616493
+        ],
+        "row_fit_residual_mm": 0.0,
+        "selected_terminal_or_ball_count": 6
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "TVS3",
+      "face_count": 2004,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.95,
+        "measured_applied_pitch_mm": 0.9500019000000179,
+        "error_mm": 1.9000000179847376e-06,
+        "row_levels_mm": [
+          -0.9501210602387928,
+          -0.00011916023877489577,
+          0.949882739761243
+        ],
+        "row_fit_residual_mm": 1.3552527156068805e-20,
+        "selected_terminal_or_ball_count": 6
+      },
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "C41",
+      "face_count": 969,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": null,
+      "prior_bga_registration": null,
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "U1",
+      "face_count": 20865,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.8,
+        "measured_applied_pitch_mm": 0.8000016000024994,
+        "error_mm": 1.600002499380082e-06,
+        "row_levels_mm": [
+          -6.400123266893087,
+          -5.6014094826181715,
+          -4.797971788298781,
+          -3.9976984521733354,
+          -3.2046613129644466,
+          -2.39926401847964,
+          -1.5995749950925153,
+          -0.8011672050361862,
+          0.00039734985370548274,
+          0.8009670066263197,
+          1.599374794696265,
+          2.39906381808339,
+          3.2044611125681963,
+          3.997498251777085,
+          4.797771587902531,
+          5.601209282221921,
+          6.399923066496837
+        ],
+        "row_fit_residual_mm": 0.004584074640924474,
+        "selected_terminal_or_ball_count": 265
+      },
+      "prior_bga_registration": {
+        "actual_ball_count": 265,
+        "source_pin_count": 265,
+        "maximum_nearest_ball_error_mm": 0.016049132488142066,
+        "mean_nearest_ball_error_mm": 0.007200332533365553,
+        "A1_error_mm": 0.0028650189637198157,
+        "note": "Actual mesh sphere bbox-center tessellation causes small individual ball-center variation; this is a visual registration comparison, not BGA manufacturing tolerancing."
+      },
+      "manual_pin_or_polarity_QA_remains": false
+    },
+    {
+      "ref": "U4",
+      "face_count": 8537,
+      "max_vertex_motion_from_verified407_mm": 0.0,
+      "passed": true,
+      "prior_geometry_verification": "audits/standard27-applied407-verified.json",
+      "prior_pitch": {
+        "nominal_pitch_mm": 0.8,
+        "measured_applied_pitch_mm": 0.8000016000027165,
+        "error_mm": 1.6000027164286834e-06,
+        "row_levels_mm": [
+          -5.603294156573991,
+          -4.799994317027761,
+          -3.996437990938961,
+          -3.1974597837561354,
+          -2.401895324847017,
+          -1.6013694972155499,
+          -0.799354548767243,
+          -0.0013805422213035712,
+          0.7991681483913192,
+          1.6011830968396261,
+          2.401708924471093,
+          3.1972733833802116,
+          3.996251590563037,
+          4.7998079166518375,
+          5.603107756198067
+        ],
+        "row_fit_residual_mm": 0.003749032064806368,
+        "selected_terminal_or_ball_count": 90
+      },
+      "prior_bga_registration": {
+        "actual_ball_count": 90,
+        "source_pin_count": 90,
+        "maximum_nearest_ball_error_mm": 0.012401032455782958,
+        "mean_nearest_ball_error_mm": 0.006614999121114812,
+        "A1_error_mm": 0.006142509498268111,
+        "note": "Actual mesh sphere bbox-center tessellation causes small individual ball-center variation; this is a visual registration comparison, not BGA manufacturing tolerancing."
+      },
+      "manual_pin_or_polarity_QA_remains": false
+    }
+  ],
+  "new_switch_transformer_verified": [
+    {
+      "ref": "TR1",
+      "passed": true,
+      "face_count": 1956,
+      "actual_world_bbox_mm": [
+        69.7876384529512,
+        31.19761867243835,
+        2.220446049250313e-16,
+        79.28765745764065,
+        43.851859322961396,
+        4.020008022910846
+      ],
+      "actual_full_xyz_world_mm": [
+        9.500019004689449,
+        12.654240650523047,
+        4.020008022910846
+      ],
+      "expected_full_xyz_world_mm": [
+        9.500000004670927,
+        12.654215342067731,
+        4.0199999829030535
+      ],
+      "size_error_mm": [
+        1.900001852206401e-05,
+        2.530845531545367e-05,
+        8.040007792864401e-06
+      ],
+      "actual_center_component_local_mm": [
+        0.0001490752959227848,
+        -0.00026088230012355496,
+        2.010004011455423
+      ],
+      "expected_offset_mm": [
+        0.0,
+        -0.00033593177812493995,
+        0.0
+      ],
+      "center_error_xy_mm": 0.00016690077292435233,
+      "minimum_z_mm": 2.220446049250313e-16,
+      "physical_terminal_count": 16,
+      "nominal_pitch_mm": 1.27,
+      "actual_pitch_mm": 1.2700025400024726,
+      "pitch_error_mm": 2.540002472573022e-06,
+      "physical_terminals": [
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            32.825065718565064,
+            2.220446049250313e-16,
+            79.28765745764063,
+            33.335066490860996,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928852,
+            -4.4449337752869695,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            4.444597843508844,
+            4.118606286928853
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            34.09506800169939,
+            2.220446049250313e-16,
+            79.28765745764063,
+            34.605069012414376,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928852,
+            -3.1749313729431137,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            3.1745954411649877,
+            4.118606286928853
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            35.36507052325277,
+            2.220446049250313e-16,
+            79.28765745764063,
+            35.87507165317728,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928852,
+            -1.9049287917849682,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            1.9045928600068427,
+            4.118606286928852
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            36.63507316401567,
+            2.220446049250313e-16,
+            79.28765745764063,
+            37.14507417473066,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928852,
+            -0.6349262106268299,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            0.6345902788487041,
+            4.118606286928852
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            37.90507568556905,
+            2.220446049250313e-16,
+            79.28765745764063,
+            38.41507669628404,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928852,
+            0.63507631092655,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -0.6354122427046758,
+            4.118606286928852
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            39.17507820712243,
+            2.220446049250313e-16,
+            79.28765745764063,
+            39.68507933704694,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928852,
+            1.9050788920846884,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -1.905414823862814,
+            4.118606286928852
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            40.445080847885336,
+            2.220446049250313e-16,
+            79.28765745764065,
+            40.95508185860032,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928866,
+            3.175081473242834,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -3.17541740502096,
+            4.118606286928865
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            78.02455287621709,
+            41.715083369438716,
+            2.220446049250313e-16,
+            79.28765745764065,
+            42.22508414173465,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            4.118606286928866,
+            4.44508387558669,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -4.445419807364815,
+            4.118606286928865
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.7876384529512,
+            32.825065718565064,
+            2.220446049250313e-16,
+            71.05074303437476,
+            33.335066490860996,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337021,
+            -4.4449337752869695,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            4.444597843508846,
+            -4.11830813633702
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.7876384529512,
+            34.09506800169939,
+            2.220446049250313e-16,
+            71.05074303437476,
+            34.605069012414376,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337021,
+            -3.1749313729431137,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            3.1745954411649895,
+            -4.11830813633702
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.78763845295121,
+            35.36507052325277,
+            2.220446049250313e-16,
+            71.05074303437476,
+            35.87507165317728,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337006,
+            -1.9049287917849682,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            1.904592860006844,
+            -4.118308136337006
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.78763845295121,
+            36.63507316401567,
+            2.220446049250313e-16,
+            71.05074303437476,
+            37.14507417473066,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337006,
+            -0.6349262106268299,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            0.6345902788487057,
+            -4.118308136337006
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.78763845295121,
+            37.90507568556905,
+            2.220446049250313e-16,
+            71.05074303437476,
+            38.41507669628404,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337006,
+            0.63507631092655,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -0.6354122427046742,
+            -4.118308136337006
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.78763845295121,
+            39.17507820712243,
+            2.220446049250313e-16,
+            71.05074303437476,
+            39.68507933704694,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337006,
+            1.9050788920846884,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -1.9054148238628126,
+            -4.118308136337006
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.78763845295121,
+            40.445080847885336,
+            2.220446049250313e-16,
+            71.05074303437476,
+            40.95508185860032,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337006,
+            3.175081473242834,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -3.175417405020958,
+            -4.118308136337007
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            69.78763845295121,
+            41.715083369438716,
+            2.220446049250313e-16,
+            71.05074303437476,
+            42.22508414173465,
+            1.0100020109617986
+          ],
+          "center_component_local_mm": [
+            -4.118308136337006,
+            4.44508387558669,
+            0.5050010054808994
+          ],
+          "recovered_native_xy_mm": [
+            -4.4454198073648135,
+            -4.118308136337007
+          ]
+        }
+      ],
+      "manufacturer_exact": false,
+      "mechanical_clearance_approved": false
+    },
+    {
+      "ref": "SW1",
+      "passed": true,
+      "face_count": 2116,
+      "actual_world_bbox_mm": [
+        74.45014857565405,
+        136.08257096557875,
+        0.0,
+        83.05016638497588,
+        142.09028549077001,
+        7.570015340860175
+      ],
+      "actual_full_xyz_world_mm": [
+        8.600017809321827,
+        6.007714525191261,
+        7.570015340860175
+      ],
+      "expected_full_xyz_world_mm": [
+        8.600000609291937,
+        6.007702509766203,
+        7.570000200834538
+      ],
+      "size_error_mm": [
+        1.7200029889252733e-05,
+        1.2015425058464757e-05,
+        1.514002563762773e-05
+      ],
+      "actual_center_component_local_mm": [
+        0.00015750031496963857,
+        0.006426988174382586,
+        3.7850076704300877
+      ],
+      "expected_offset_mm": [
+        0.0,
+        0.006148815317914999,
+        0.0
+      ],
+      "center_error_xy_mm": 0.00031966621230726305,
+      "minimum_z_mm": 0.0,
+      "physical_terminal_count": 4,
+      "nominal_pitch_mm": 4.5,
+      "actual_pitch_mm": 4.500009000014984,
+      "pitch_error_mm": 9.000014983939764e-06,
+      "physical_terminals": [
+        {
+          "bbox_world_mm": [
+            74.45014857565405,
+            140.98028322705616,
+            0.0,
+            75.75015140083195,
+            141.6802845740765,
+            1.3700027289114567
+          ],
+          "center_component_local_mm": [
+            -3.6498499917569944,
+            2.250282660566313,
+            0.6850013644557283
+          ],
+          "recovered_native_xy_mm": [
+            -3.6498499917569944,
+            2.244133845248398
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            74.45014857565405,
+            136.48027422704115,
+            0.0,
+            75.75015140083195,
+            137.18027557406148,
+            1.3700027289114567
+          ],
+          "center_component_local_mm": [
+            -3.6498499917569944,
+            -2.249726339448671,
+            0.6850013644557283
+          ],
+          "recovered_native_xy_mm": [
+            -3.6498499917569944,
+            -2.255875154766586
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            81.75016355979798,
+            136.48027422704115,
+            0.0,
+            83.05016638497588,
+            137.18027557406148,
+            1.3700027289114567
+          ],
+          "center_component_local_mm": [
+            3.6501649923869337,
+            -2.249726339448671,
+            0.6850013644557283
+          ],
+          "recovered_native_xy_mm": [
+            3.6501649923869337,
+            -2.255875154766586
+          ]
+        },
+        {
+          "bbox_world_mm": [
+            81.75016355979798,
+            140.98028322705616,
+            0.0,
+            83.05016638497588,
+            141.6802845740765,
+            1.3700027289114567
+          ],
+          "center_component_local_mm": [
+            3.6501649923869337,
+            2.250282660566313,
+            0.6850013644557283
+          ],
+          "recovered_native_xy_mm": [
+            3.6501649923869337,
+            2.244133845248398
+          ]
+        }
+      ],
+      "manufacturer_exact": false,
+      "mechanical_clearance_approved": false
+    }
+  ],
+  "changed_vertex_count": 22725,
+  "changed_vertex_runs_diagnostic": [
+    {
+      "min_vertex": 28863,
+      "max_vertex": 41330,
+      "changed_vertex_count": 12468,
+      "old_bbox_mm": [
+        2.576165298641002,
+        9.85001963423927,
+        -2.220446049250313e-16,
+        83.4201666497333,
+        152.17516097561435,
+        7.448587468565415
+      ],
+      "nearest_expected_change_ref": "J6",
+      "distance_mm": 38.61390045819769
+    },
+    {
+      "min_vertex": 42446,
+      "max_vertex": 50615,
+      "changed_vertex_count": 8170,
+      "old_bbox_mm": [
+        36.225072161544325,
+        2.6210063555921757,
+        -3.4000068000136006,
+        97.42403536176035,
+        161.0203229206459,
+        11.68336818386966
+      ],
+      "nearest_expected_change_ref": "J17",
+      "distance_mm": 28.758141270661852
+    },
+    {
+      "min_vertex": 76090,
+      "max_vertex": 78176,
+      "changed_vertex_count": 2087,
+      "old_bbox_mm": [
+        69.3626377952756,
+        33.639998280558736,
+        0.0,
+        83.73034115681577,
+        142.55928636017273,
+        8.767439246590447
+      ],
+      "nearest_expected_change_ref": "J17",
+      "distance_mm": 19.39181818022264
+    }
+  ],
+  "limits": [
+    "Header/SMA18 geometry is audited independently by the inventory agent; this file proves29 other calibrated models.",
+    "All remaining package models are generic visualizations unless another exact-model provenance says otherwise; no manufacturing-clearance approval.",
+    "Unchanged geometry transfer relies on identical native vertex index topology plus zero measured vertex motion, not component labels absent from OBJ."
+  ]
+}

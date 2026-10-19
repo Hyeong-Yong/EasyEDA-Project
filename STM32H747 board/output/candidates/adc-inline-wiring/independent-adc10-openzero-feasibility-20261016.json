@@ -1,0 +1,547 @@
+{
+  "schema": "independent-adc10-qualified-raw-zero-feasibility-20261016-v1",
+  "status": "READ_ONLY_FEASIBILITY_COMPLETE_IMPLEMENTATION_BLOCKED_BY_TWO_USER_CHOICES",
+  "nativeMutationPerformed": false,
+  "pcbMutationPerformed": false,
+  "newLibrariesOrCircuitCandidatesBuilt": false,
+  "verifiedInventory": {
+    "sourceReportPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc-inline-wiring\\independent-adc-input-inventory.json",
+    "sourceReportSha256": "b211d9ada4c2d068ad3d9dff464817b6a6277908b3d1a61f5f965cba895dcba3",
+    "sourceSchematicSha256": "24a4bc9a6773479e94e95915fcee5e1439cd8aebcdcd1759b6aa14118e42dfd9",
+    "sourceNetlistSha256": "b6bcc0dd2882371f9a775d91c13609037e09ddb40ee2b2cfc13d1bce60425ec5",
+    "sourcePcbSha256": "106a37094bd8b2a383af5c7fb76101a64ade8cb55e3d55dda590abebfbc1f7a9",
+    "totalSmaInputs": 10,
+    "bankCounts": {
+      "ADC1": 3,
+      "ADC2": 3,
+      "ADC3": 4
+    },
+    "alreadyBufferedSmaRefs": [
+      "J2",
+      "J3",
+      "J4"
+    ],
+    "remainingOrdinarySmaRefs": [
+      "J5",
+      "J6",
+      "J7",
+      "J8",
+      "J9",
+      "J10",
+      "J11"
+    ],
+    "remainingCount": 7,
+    "J11SpecialTestOnlyEvidence": false,
+    "mapping": [
+      {
+        "sma": "J2",
+        "port": "ADC1_INP0",
+        "gpio": "PA0_C",
+        "mcuBall": "T1",
+        "pcbSmaXYmm": [
+          4.500001,
+          139.999999
+        ],
+        "mixNet": "ADC1_PRE1",
+        "bias": {
+          "ref": "R137",
+          "value": "6.8k"
+        },
+        "input": {
+          "ref": "R140",
+          "value": "6.8k"
+        },
+        "series": {
+          "ref": "R141",
+          "value": "47"
+        },
+        "adcCap": {
+          "ref": "C80",
+          "value": "2.2nF"
+        },
+        "dnp": null,
+        "alreadyBuffered": true
+      },
+      {
+        "sma": "J3",
+        "port": "ADC1_INP1",
+        "gpio": "PA1_C",
+        "mcuBall": "T2",
+        "pcbSmaXYmm": [
+          4.500001,
+          125.999999
+        ],
+        "mixNet": "ADC1_PRE2",
+        "bias": {
+          "ref": "R138",
+          "value": "6.8k"
+        },
+        "input": {
+          "ref": "R142",
+          "value": "6.8k"
+        },
+        "series": {
+          "ref": "R143",
+          "value": "47"
+        },
+        "adcCap": {
+          "ref": "C81",
+          "value": "2.2nF"
+        },
+        "dnp": null,
+        "alreadyBuffered": true
+      },
+      {
+        "sma": "J4",
+        "port": "ADC1_INP16",
+        "gpio": "PA0",
+        "mcuBall": "N5",
+        "pcbSmaXYmm": [
+          4.500001,
+          112.0
+        ],
+        "mixNet": "ADC1_PRE3",
+        "bias": {
+          "ref": "R139",
+          "value": "6.8k"
+        },
+        "input": {
+          "ref": "R144",
+          "value": "6.8k"
+        },
+        "series": {
+          "ref": "R145",
+          "value": "47"
+        },
+        "adcCap": {
+          "ref": "C82",
+          "value": "2.2nF"
+        },
+        "dnp": null,
+        "alreadyBuffered": true
+      },
+      {
+        "sma": "J5",
+        "port": "ADC2_INP3",
+        "gpio": "PA6",
+        "mcuBall": "R3",
+        "pcbSmaXYmm": [
+          4.500001,
+          98.0
+        ],
+        "mixNet": "Net-(R149-Pad2)",
+        "bias": {
+          "ref": "R149",
+          "value": "7.5k"
+        },
+        "input": {
+          "ref": "R152",
+          "value": "5.1k"
+        },
+        "series": {
+          "ref": "R153",
+          "value": "100"
+        },
+        "adcCap": {
+          "ref": "C86",
+          "value": "10n"
+        },
+        "dnp": "R158",
+        "alreadyBuffered": false
+      },
+      {
+        "sma": "J6",
+        "port": "ADC2_INP12",
+        "gpio": "PC2",
+        "mcuBall": "M3",
+        "pcbSmaXYmm": [
+          4.500001,
+          84.0
+        ],
+        "mixNet": "Net-(R150-Pad2)",
+        "bias": {
+          "ref": "R150",
+          "value": "7.5k"
+        },
+        "input": {
+          "ref": "R154",
+          "value": "5.1k"
+        },
+        "series": {
+          "ref": "R155",
+          "value": "100"
+        },
+        "adcCap": {
+          "ref": "C87",
+          "value": "10n"
+        },
+        "dnp": "R159",
+        "alreadyBuffered": false
+      },
+      {
+        "sma": "J7",
+        "port": "ADC2_INP13",
+        "gpio": "PC3",
+        "mcuBall": "M4",
+        "pcbSmaXYmm": [
+          4.500001,
+          70.0
+        ],
+        "mixNet": "Net-(R151-Pad2)",
+        "bias": {
+          "ref": "R151",
+          "value": "7.5k"
+        },
+        "input": {
+          "ref": "R156",
+          "value": "5.1k"
+        },
+        "series": {
+          "ref": "R157",
+          "value": "100"
+        },
+        "adcCap": {
+          "ref": "C88",
+          "value": "10n"
+        },
+        "dnp": "R160",
+        "alreadyBuffered": false
+      },
+      {
+        "sma": "J8",
+        "port": "ADC3_INP2",
+        "gpio": "PF9",
+        "mcuBall": "L4",
+        "pcbSmaXYmm": [
+          4.500001,
+          56.0
+        ],
+        "mixNet": "Net-(R161-Pad2)",
+        "bias": {
+          "ref": "R161",
+          "value": "7.5k"
+        },
+        "input": {
+          "ref": "R165",
+          "value": "5.1k"
+        },
+        "series": {
+          "ref": "R166",
+          "value": "100"
+        },
+        "adcCap": {
+          "ref": "C93",
+          "value": "10n"
+        },
+        "dnp": "R173",
+        "alreadyBuffered": false
+      },
+      {
+        "sma": "J9",
+        "port": "ADC3_INP6",
+        "gpio": "PF10",
+        "mcuBall": "L3",
+        "pcbSmaXYmm": [
+          4.500001,
+          42.0
+        ],
+        "mixNet": "Net-(R162-Pad2)",
+        "bias": {
+          "ref": "R162",
+          "value": "7.5k"
+        },
+        "input": {
+          "ref": "R167",
+          "value": "5.1k"
+        },
+        "series": {
+          "ref": "R168",
+          "value": "100"
+        },
+        "adcCap": {
+          "ref": "C94",
+          "value": "10n"
+        },
+        "dnp": "R174",
+        "alreadyBuffered": false
+      },
+      {
+        "sma": "J10",
+        "port": "ADC3_INP7",
+        "gpio": "PF8",
+        "mcuBall": "K4",
+        "pcbSmaXYmm": [
+          4.500001,
+          28.0
+        ],
+        "mixNet": "Net-(R163-Pad2)",
+        "bias": {
+          "ref": "R163",
+          "value": "7.5k"
+        },
+        "input": {
+          "ref": "R169",
+          "value": "5.1k"
+        },
+        "series": {
+          "ref": "R170",
+          "value": "100"
+        },
+        "adcCap": {
+          "ref": "C95",
+          "value": "10n"
+        },
+        "dnp": "R175",
+        "alreadyBuffered": false
+      },
+      {
+        "sma": "J11",
+        "port": "ADC3_INP8",
+        "gpio": "PF6",
+        "mcuBall": "K2",
+        "pcbSmaXYmm": [
+          4.500001,
+          14.0
+        ],
+        "mixNet": "Net-(R164-Pad2)",
+        "bias": {
+          "ref": "R164",
+          "value": "7.5k"
+        },
+        "input": {
+          "ref": "R171",
+          "value": "5.1k"
+        },
+        "series": {
+          "ref": "R172",
+          "value": "100"
+        },
+        "adcCap": {
+          "ref": "C96",
+          "value": "10n"
+        },
+        "dnp": "R176",
+        "alreadyBuffered": false
+      }
+    ],
+    "originalAdc23FilterValues": {
+      "bias": "7.5k to +3V3",
+      "input": "5.1k",
+      "series": "100 ohm",
+      "adcShuntCap": "10nF",
+      "optionalPulldown": "30k_NC, DNP=yes"
+    },
+    "pinNumberCaution": "Untouched ADC2/3 bias R149-151/R161-164 pin1 is +3V3 and pin2 is mix; updated ADC1 R137-139 pin1 is PRE and pin2 is ADC_BIAS_2V5. Do not copy logical pin numbers blindly."
+  },
+  "blockingUserChoices": [
+    {
+      "choice": "Channel scope",
+      "reason": "User says remaining six, but seven ordinary unmodified ADC inputs exist. Confirm all seven or identify the excluded SMA/ADC port."
+    },
+    {
+      "choice": "Source type and maximum output impedance",
+      "reason": "Needed both for original transfer accuracy and to prevent connected high-Z input from being misclassified as OPEN. Also specify cable/leakage, peak range including DC and overshoot, operating temperature and acceptable error."
+    }
+  ],
+  "qualifiedTopology": {
+    "possibleWithoutNegativeRail": true,
+    "description": "Existing DC-coupled level shift and OPA buffer remain. Comparator watches buffer BEFORE SPDT; switch selects buffered signal or GND; common output drives existing 47ohm and ADC2.2nF. Comparator normal=HIGH/fault=LOW; SEL0 selects GND. Monitor upstream so grounding ADC cannot latch the detector.",
+    "normalConnectorRangeV": [
+      -2,
+      2
+    ],
+    "normalAdcRangeVNominalLowSourceZ": [
+      0.25,
+      2.25
+    ],
+    "openBufferVNominal": 2.5,
+    "rawAdcFaultVNominalAfterSettling": 0,
+    "notGuaranteedExactZero": "Switch resistance, ADC input current/sampling, leakage, ground noise and ADC offset remain. Hardware is a low-impedance GND selection, not a mathematical zero-code guarantee.",
+    "doesNotPullSmaItselfToGround": true,
+    "semantics": "Upper-out-of-range/open/high-Z fault discriminator, NOT a universal physical-connector detector and NOT complete bipolar overvoltage protection.",
+    "seriesDcBlockingCapAdded": false,
+    "nominalThresholdExampleOnly": {
+      "faultAssertRisingV": 2.45,
+      "normalReleaseFallingV": 2.4,
+      "thresholdSource": "Ratio of same quiet2.5V reference, with externally designed hysteresis; exact values not frozen.",
+      "mustBudget": [
+        "Comparator offset and maximum internal hysteresis",
+        "External hysteresis resistor ratio/tolerance and output swing",
+        "Reference initial/drift/load errors",
+        "OPA offset/drift",
+        "6.8k ratio tolerances",
+        "Noise/transients/source impedance"
+      ],
+      "validSignalRule": "Highest valid buffered voltage must remain below MINIMUM release threshold in all tolerances, to recover after plugging in a valid DC source. Lowest open/fault buffer must exceed MAXIMUM assertion threshold."
+    }
+  },
+  "independentSourceImpedanceAnalysis": {
+    "voltageDefinition": "Vs is source Thevenin/open-circuit voltage; Rs is its output resistance. If VIN instead means actual already-loaded SMA terminal voltage, nominal divider formula applies to that terminal voltage but source loading still changes the intended measured source.",
+    "formula": "Vbuffer=2.5-(2.5-Vs)*6800/(13600+Rs)",
+    "gainFormula": "dVbuffer/dVs=6800/(13600+Rs)",
+    "nominalGainLowZ": 0.5,
+    "worstValidPositiveInputV": 2.0,
+    "idealPositivePeakFaultTripRsOhmAt2V": {
+      "threshold2.40V": 20399.99999999997,
+      "threshold2.45V": 54400.00000000025
+    },
+    "reconnectRsMustBeBelowLowerReleaseThresholdBoundaryOhm": 20399.99999999997,
+    "illustrative20mVReleaseErrorBudgetNotGuaranteed": {
+      "minimumReleaseV": 2.38,
+      "maximumRsOhmBeforeAdditionalMargin": 14733.333333333307
+    },
+    "uncalibratedGainLossOnlyLimits": {
+      "lessThan1percentRsOhm": 137.37373737373738,
+      "lessThan0_1percentRsOhm": 13.613613613613614
+    },
+    "gainLimitsDoNotIncludeOffsetError": true,
+    "cases": [
+      {
+        "RsOhm": 0,
+        "bufferAtSourceMinus2V": 0.25,
+        "bufferAtSource0V": 1.25,
+        "bufferAtSourcePlus2V": 2.25,
+        "gain": 0.5
+      },
+      {
+        "RsOhm": 50,
+        "bufferAtSourceMinus2V": 0.2582417582417582,
+        "bufferAtSource0V": 1.2545787545787546,
+        "bufferAtSourcePlus2V": 2.250915750915751,
+        "gain": 0.4981684981684982
+      },
+      {
+        "RsOhm": 1000,
+        "bufferAtSourceMinus2V": 0.40410958904109595,
+        "bufferAtSource0V": 1.3356164383561644,
+        "bufferAtSourcePlus2V": 2.267123287671233,
+        "gain": 0.4657534246575342
+      },
+      {
+        "RsOhm": 10000,
+        "bufferAtSourceMinus2V": 1.2033898305084745,
+        "bufferAtSource0V": 1.7796610169491527,
+        "bufferAtSourcePlus2V": 2.3559322033898304,
+        "gain": 0.288135593220339
+      },
+      {
+        "RsOhm": 100000,
+        "bufferAtSourceMinus2V": 2.2306338028169015,
+        "bufferAtSource0V": 2.3503521126760565,
+        "bufferAtSourcePlus2V": 2.4700704225352115,
+        "gain": 0.05985915492957746
+      }
+    ],
+    "failureModes": [
+      "High-Z connected DC may stay at GND after reconnection because release threshold is not crossed.",
+      "High-Z60Hz positive peaks may repeatedly switch ADC to GND, clipping/chopping valid signals.",
+      "Leaky disconnected cables can appear connected; sufficiently high-Z connected sources can appear disconnected.",
+      "Open detector cannot distinguish all possible source impedances/voltages from physical disconnection using this DC voltage alone."
+    ]
+  },
+  "verifiedPartCandidatesNotFinalSelections": {
+    "comparator": {
+      "family": "TLV7011/TLV7012 push-pull; TLV702x is open-drain",
+      "tiPrimaryUrl": "https://www.ti.com/lit/ds/symlink/tlv7011.pdf",
+      "singleSupplyRangeV": [
+        1.6,
+        5.5
+      ],
+      "inputCommonModeAt3V3V": [
+        0,
+        3.4
+      ],
+      "offsetAbsMaxV": 0.008,
+      "internalHysteresisV": {
+        "singleMinTypMax": [
+          0.0012,
+          0.0042,
+          0.014
+        ],
+        "dualMinTypMax": [
+          0.002,
+          0.0072,
+          0.015
+        ]
+      },
+      "TLV7011DBV5Pins": {
+        "1": "OUT",
+        "2": "GND/VEE",
+        "3": "IN+",
+        "4": "IN-",
+        "5": "VCC"
+      },
+      "TLV7012DGK8Pins": {
+        "1": "OUTA",
+        "2": "INA-",
+        "3": "INA+",
+        "4": "GND/VEE",
+        "5": "INB+",
+        "6": "INB-",
+        "7": "OUTB",
+        "8": "VCC"
+      },
+      "polarity": "Upstream buffered signal to IN-; hysteretic threshold to IN+.",
+      "startup": "701x POR output LOW,20us power-up specification; this alone does not cover reference/filter settling."
+    },
+    "switch": {
+      "wrongExamplePart": "TMUX1102 is SPST, not signal/GND SPDT",
+      "TMUX1119": {
+        "tiPrimaryUrl": "https://www.ti.com/lit/ds/symlink/tmux1119.pdf",
+        "configuration": "1-channel2:1SPDT",
+        "supplyV": [
+          1.08,
+          5.5
+        ],
+        "signalRange": "GND throughVDD",
+        "DBV6Pins": {
+          "1": "SEL",
+          "2": "VDD",
+          "3": "GND",
+          "4": "S1",
+          "5": "D",
+          "6": "S2"
+        },
+        "select": "LOW:S1\u2192D;HIGH:S2\u2192D",
+        "suggestedPolarity": "S1=GND,S2=buffer,D=47ohm\u2192ADC",
+        "at3V3": {
+          "RonTypOhm": 3.7,
+          "RonMaxOhmThrough125C": 9.8,
+          "onLeakageMaxATestedAt1or3V": 2e-09,
+          "chargeInjectionTypCNotMax": -6e-12,
+          "transitionTypMaxNs": [
+            14,
+            21
+          ],
+          "breakBeforeMakeTypMinNs": [
+            9,
+            1
+          ]
+        },
+        "failSafeCaution": "Logic fail-safe is not powered-off analog protection or guaranteed default grounding below minimumVDD."
+      },
+      "TMUX1133": {
+        "tiPrimaryUrl": "https://www.ti.com/product/TMUX1133",
+        "configuration": "Three independently controlled SPDTs,TSSOP16",
+        "enableCaution": "EN=1 disconnects all paths(HI-Z), not GND. Do not confuse disabling with grounding ADC."
+      }
+    }
+  },
+  "startupAndTransientReview": {
+    "openPreFilterTimeConstantSNominalNoCableCap": 6.8e-05,
+    "openRise0To2_45VTimeSNominalNoCableCap": 0.00026601756436911417,
+    "additionalCableCapacitanceChangesDetectionDelay": true,
+    "typSwitchChargeStepInto2_2nFV": -0.0027272727272727275,
+    "largestRonPlus47OhmRcTimeConstantS": 1.2495999999999998e-07,
+    "idealFullStep17bitExponentialSettleSNotAcquisitionGuarantee": 1.4724664186071029e-06,
+    "requirements": [
+      "Hold selection on GND until3.3V,reference,OPA and filters are stable; comparator POR20us alone is insufficient.",
+      "Keep comparator on unswitched buffer; otherwise GND forcing can cause self-release/chatter/latching.",
+      "After a fault/select transition, allow RC and front-end settling and mark/discard unsettled ADC samples; charge injection is typical, not a worst-case guarantee.",
+      "Review shared-rail sequencing, analog off-power injection/protection and local decoupling.",
+      "Expose/retain a fault-valid indication, or document raw-low sentinel processing; converting0V through the normal VIN formula gives\u22122.5V, not normal source0V.",
+      "PCB ECO,source/cable tests,ERC/DRC/netlist/CAM validation remain necessary after final circuit approval."
+    ]
+  },
+  "conclusion": "Do not implement universally reliableOPEN\u2192raw0 or extend PCB until channel scope and source contract are answered. Qualified comparator+SPDT solution is technically plausible without negative rail when valid/open voltage windows, startup and errors are bounded."
+}

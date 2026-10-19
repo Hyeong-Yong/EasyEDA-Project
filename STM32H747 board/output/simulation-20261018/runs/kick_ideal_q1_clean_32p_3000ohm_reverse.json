@@ -1,0 +1,45 @@
+{
+  "case": "kick_ideal_q1_clean_32p_3000ohm_reverse",
+  "returncode": 0,
+  "seconds": 31.703,
+  "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm_reverse.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm_reverse.log\n\n",
+  "stderr": "",
+  "command": [
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+    "-b",
+    "-r",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm_reverse.raw",
+    "-o",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm_reverse.log",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\kick_ideal_q1_clean_32p_3000ohm_reverse.cir"
+  ],
+  "warnings": [],
+  "raw_exists": true,
+  "deck_sha256": "6b03a8ef3ca0eeb5ec2a20c308940f9e35d9c66f3eb3eac6ca622b33cc963b0c",
+  "optran_used": false,
+  "plots": [
+    {
+      "vectors": [
+        "time",
+        "v(raw_j2)",
+        "v(filt_j2)",
+        "v(buf_j2)",
+        "v(drv_j2)",
+        "v(adc_j2)",
+        "v(off)",
+        "v(v5afe)",
+        "i(v5)",
+        "i(v3)",
+        "i(vn)",
+        "v(sample)",
+        "v(track)",
+        "v(pre)"
+      ],
+      "points": 101755,
+      "all_finite": true
+    }
+  ],
+  "numeric_valid": true,
+  "analysis_complete": true,
+  "run_ok": true
+}

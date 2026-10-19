@@ -1,0 +1,39 @@
+{
+  "case": "reference-noise_ref_q1_allnoise",
+  "returncode": 0,
+  "seconds": 0.047,
+  "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\reference-noise_ref_q1_allnoise.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\reference-noise_ref_q1_allnoise.log\n\n",
+  "stderr": "",
+  "command": [
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+    "-b",
+    "-r",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\reference-noise_ref_q1_allnoise.raw",
+    "-o",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\reference-noise_ref_q1_allnoise.log",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\reference-noise_ref_q1_allnoise.cir"
+  ],
+  "warnings": [],
+  "raw_exists": true,
+  "plots": [
+    {
+      "vectors": [
+        "frequency",
+        "onoise_spectrum",
+        "inoise_spectrum"
+      ],
+      "points": 301,
+      "all_finite": true
+    },
+    {
+      "vectors": [
+        "v(onoise_total)",
+        "v(inoise_total)"
+      ],
+      "points": 1,
+      "all_finite": true
+    }
+  ],
+  "numeric_valid": true,
+  "run_ok": true
+}

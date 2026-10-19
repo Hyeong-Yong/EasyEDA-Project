@@ -1,0 +1,601 @@
+{
+  "stage": "rename_r0",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-rename-rebased-v2.json",
+  "manifestHash": "8b69e22369e4f20b921e585ed323319bfb04ddf44198ea30ebdba2cd9beddc87",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_isolate_2-20261018.epru",
+  "priorHash": "e52508b68e66d8e06faf2b00f2292c2a77c7cfc1ed216d4d378b1b55c578b91c",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_rename_r0-20261018.epru",
+  "sourceSha256": "cc99faf576b0644f32de63c1aa71c7c54e2ee62339ad0b31d520826febbdf61f",
+  "touched": [
+    {
+      "type": "LINE",
+      "id": "20cb0f47412913ee",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "bfbcd13ecb347e26",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "913aef716e1127a8",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "ccee724a28721cfc",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "1fad316daf6caaf1",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "54e4336ce40082d1",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "c6a7304b3ba067ed",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "1348bdce7f157c3c",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "13153ab856bba246",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "cb0eae68422d3a45",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "6f27e055b6642acf",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "bd9e9f99b1c5c58c",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "aa4c855e0843b80d",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "1fa94a7f8d9d322d",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "a8aeabe95d7a762c",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "6084b938afd93463",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "40dbc6e644fa62fe",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "3b9f726bd0345a17",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "0cf029f20f338cd1",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "d58543bcec79cbc0",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    }
+  ],
+  "created": [],
+  "changes": [
+    {
+      "key": "NET:[\"NET\",\"NET-(J2-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J3-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J4-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J5-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J6-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J7-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC1_DRV1\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC1_DRV2\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC1_DRV3\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC2_DRV1\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC2_DRV2\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC2_DRV3\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC3_DRV1\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J2-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J3-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J4-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J5-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J6-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J7-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": false,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC1_DRV1\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC1_DRV2\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC1_DRV3\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC2_DRV1\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC2_DRV2\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC2_DRV3\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV1\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:913aef716e1127a8",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:54e4336ce40082d1",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:13153ab856bba246",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:bd9e9f99b1c5c58c",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:a8aeabe95d7a762c",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:3b9f726bd0345a17",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:20cb0f47412913ee",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:bfbcd13ecb347e26",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:ccee724a28721cfc",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:1fad316daf6caaf1",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:c6a7304b3ba067ed",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:1348bdce7f157c3c",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:cb0eae68422d3a45",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:6f27e055b6642acf",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:aa4c855e0843b80d",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:1fa94a7f8d9d322d",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:6084b938afd93463",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:40dbc6e644fa62fe",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:0cf029f20f338cd1",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:d58543bcec79cbc0",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    }
+  ],
+  "issues": [
+    {
+      "key": "NET:[\"NET\",\"NET-(J2-IN)\"]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J3-IN)\"]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J4-IN)\"]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J5-IN)\"]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J6-IN)\"]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J7-IN)\"]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J2-IN)\"]]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J3-IN)\"]]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J4-IN)\"]]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J5-IN)\"]]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J6-IN)\"]]",
+      "fields": [
+        "missing"
+      ]
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J7-IN)\"]]",
+      "fields": [
+        "missing"
+      ]
+    }
+  ],
+  "failure": null,
+  "containmentPassed": false,
+  "requiresIndependentGeometryAudit": false,
+  "saved": false,
+  "manufacturingReady": false
+}

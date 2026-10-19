@@ -1,0 +1,115 @@
+{
+  "stage": "isolate_0",
+  "passed": true,
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_isolate_0-20261018.epru",
+  "sourceSha256": "bcf6717654c4bd811eb38f83758a4118b47ce2a9bd1ef9558bbe74f128192996",
+  "manifestSha256": "d46d2b4a4ec333f8e858f006ff8eb06af00763ea3eabbe6d1c96feae222c2faa",
+  "completedOperationCount": 60,
+  "removedLineCount": 60,
+  "renamedLineCount": 0,
+  "automaticUnusedDefaultNetCleanup": [
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC1_PRE1\"]",
+      "net": "ADC1_PRE1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC1_PRE2\"]",
+      "net": "ADC1_PRE2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC1_PRE3\"]",
+      "net": "ADC1_PRE3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC2_PRE1\"]",
+      "net": "ADC2_PRE1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC2_PRE2\"]",
+      "net": "ADC2_PRE2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC2_PRE3\"]",
+      "net": "ADC2_PRE3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC3_PRE1\"]",
+      "net": "ADC3_PRE1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC1_PRE1\"]]",
+      "net": "ADC1_PRE1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC1_PRE2\"]]",
+      "net": "ADC1_PRE2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC1_PRE3\"]]",
+      "net": "ADC1_PRE3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC2_PRE1\"]]",
+      "net": "ADC2_PRE1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC2_PRE2\"]]",
+      "net": "ADC2_PRE2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC2_PRE3\"]]",
+      "net": "ADC2_PRE3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC3_PRE1\"]]",
+      "net": "ADC3_PRE1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    }
+  ],
+  "issues": [],
+  "protectedPrimitiveTypesBodyExact": [
+    "VIA",
+    "PAD",
+    "FILL",
+    "ARC",
+    "POLY",
+    "STRING",
+    "RULE",
+    "LAYER",
+    "LAYER_PHYS",
+    "COMPONENT",
+    "PAD_NET"
+  ],
+  "oldVias640Preserved": true,
+  "rules18Preserved": true,
+  "physicalParts437Preserved": true,
+  "nativeApiCalls": 0,
+  "manufacturingReady": false
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "stm32-u3-exposed-pad-chamfer-geometry-v1",
+  "native_calls": 0,
+  "export": "STM32H747_standards_default_405_STM32H747_standards_default_405",
+  "export_sha256": "05483edb7deacc702b98245252ff49ce98dc1768199196e989b2a86164bbcee0",
+  "measurement_method": "Material mtl3 faces on z=0 within isolated central exposed-pad window, excluding six perimeter terminals by |x-center|<1mm.",
+  "model_center_world_xy_mm": [
+    70.61264102108204,
+    15.535031750063503
+  ],
+  "auto_scale_from_known_0_95_pitch": 1.0333354186541064,
+  "raw_centered_exposed_pad_vertices_mm": [
+    [
+      -0.826668331681617,
+      -1.2400025283182323,
+      0.0
+    ],
+    [
+      -0.826668331681617,
+      1.0333353992041303,
+      0.0
+    ],
+    [
+      -0.6200012641591144,
+      1.2400025283182288,
+      0.0
+    ],
+    [
+      0.826668331681617,
+      -1.2400025283182323,
+      0.0
+    ],
+    [
+      0.826668331681617,
+      1.2400025283182288,
+      0.0
+    ]
+  ],
+  "intrinsic_centered_exposed_pad_vertices_mm": [
+    [
+      -0.7999999968629081,
+      -1.2000000250966958,
+      0.0
+    ],
+    [
+      -0.7999999968629081,
+      0.9999999811774805,
+      0.0
+    ],
+    [
+      -0.6000000125483462,
+      1.2000000250966925,
+      0.0
+    ],
+    [
+      0.7999999968629081,
+      -1.2000000250966958,
+      0.0
+    ],
+    [
+      0.7999999968629081,
+      1.2000000250966925,
+      0.0
+    ]
+  ],
+  "vertex_count": 5,
+  "chamfered_corner": "negative X, positive Y",
+  "interpretation": "An EP corner chamfer corroborates the selected generic DFN pin1 corner at (-X,+Y), matching source canonical. This is a geometric corner inference, not exact-ST1L05 drawing certification."
+}

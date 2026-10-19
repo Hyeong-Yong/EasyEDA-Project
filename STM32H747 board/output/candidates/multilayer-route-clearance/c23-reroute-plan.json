@@ -1,0 +1,293 @@
+{
+  "schema": "stm32h747-c23-clearance-plan-v1",
+  "status": "review-only-not-applied",
+  "pcbUuid": "0ac2a19168000d8e",
+  "source": {
+    "path": "output\\validation\\native-multilayer-via031_track013-reopened.epru",
+    "sha256": "bcdbe98988dab85c2ab10e01458858bd645718c0cd171d5c562aca92a74a18c6"
+  },
+  "nativeDrcEvidence": {
+    "path": "output\\validation\\native-pcb-drc-0ac2a19168000d8e-via031_track013.json",
+    "sha256": "09180336fb2a174ec958ff119d7847db5fe3e0ab33441a3820d1d3c06ec93fd5",
+    "matchingRows": [
+      {
+        "category": "SMD Pad to Track",
+        "globalIndex": "err431",
+        "objects": [
+          "7b19bc3334960821",
+          "2530295bf058947de2"
+        ]
+      }
+    ]
+  },
+  "changes": [
+    {
+      "type": "LINE",
+      "id": "7b19bc3334960821",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1B-PG4)",
+        "layerId": 2,
+        "startX": 2027.5591,
+        "startY": 3660.4331,
+        "endX": 1953.7402,
+        "endY": 3586.6142,
+        "width": 5.1181,
+        "locked": false,
+        "zIndex": 7869
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1B-PG4)",
+        "layerId": 2,
+        "startX": 2026.445546,
+        "startY": 3661.546654,
+        "endX": 1953.7402,
+        "endY": 3586.6142,
+        "width": 5.1181,
+        "locked": false,
+        "zIndex": 7869
+      },
+      "changedFields": [
+        "startX",
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "2dcca472846cea0c",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1B-PG4)",
+        "layerId": 2,
+        "startX": 2027.5591,
+        "startY": 3754.9213,
+        "endX": 2027.5591,
+        "endY": 3660.4331,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 7870
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1B-PG4)",
+        "layerId": 2,
+        "startX": 2027.5591,
+        "startY": 3754.9213,
+        "endX": 2026.445546,
+        "endY": 3661.546654,
+        "width": 5.1181,
+        "locked": false,
+        "zIndex": 7870
+      },
+      "changedFields": [
+        "endX",
+        "endY",
+        "width"
+      ]
+    }
+  ],
+  "changeCounts": {
+    "LINE": 2,
+    "coordinateLines": 2,
+    "widthLines": 1,
+    "total": 2
+  },
+  "topologyProof": {
+    "net": "NET-(U1B-PG4)",
+    "layerId": 2,
+    "externalStart": [
+      2027.5591,
+      3754.9213
+    ],
+    "externalEnd": [
+      1953.7402,
+      3586.6142
+    ],
+    "oldSharedCorner": [
+      2027.5591,
+      3660.4331
+    ],
+    "newSharedCorner": [
+      2026.445546,
+      3661.546654
+    ],
+    "sharedCornerShiftMm": 0.04000000049856495,
+    "externalEndpointsImmutable": true,
+    "objectIdsNetsLayersImmutable": true,
+    "beforeLengthMm": 5.051650794302365,
+    "afterLengthMm": 5.023836852696738,
+    "lengthDeltaMm": -0.027813941605626447,
+    "minimumWidthMm": 0.12999974
+  },
+  "staticGeometryProof": {
+    "selectedRuleMm": 0.15200122,
+    "staticTargetMm": 0.1549,
+    "differentNetOrUnknownBCuObstacleCount": 2387,
+    "minimumBeforeClearanceMm": 0.14713201925765615,
+    "minimumAfterClearanceMm": 0.16000430168986576,
+    "c23PadBeforeClearanceMm": 0.14713201925765615,
+    "c23PadAfterClearanceMm": 0.1612929213039433,
+    "newBelowRuleCount": 0,
+    "remainingBelowRuleCount": 0,
+    "nearestDifferentNetObjects": [
+      {
+        "id": "2abf9d233c498905",
+        "label": "LINE:2abf9d233c498905",
+        "net": "NET-(U1B-PH11)",
+        "beforeClearanceMm": 0.14999970000000765,
+        "afterClearanceMm": 0.16000430168986576
+      },
+      {
+        "id": "2530295bf058947de2",
+        "label": "C23_2",
+        "net": "GND",
+        "beforeClearanceMm": 0.14713201925765615,
+        "afterClearanceMm": 0.1612929213039433
+      },
+      {
+        "id": "43b4c7e78e218ce4",
+        "label": "LINE:43b4c7e78e218ce4",
+        "net": "NET-(U1B-PH11)",
+        "beforeClearanceMm": 0.14999970000000765,
+        "afterClearanceMm": 0.18830520296492534
+      },
+      {
+        "id": "fc5c4b369547cff8",
+        "label": "VIA:fc5c4b369547cff8",
+        "net": "GND",
+        "beforeClearanceMm": 0.30068482357839177,
+        "afterClearanceMm": 0.2744990863657898
+      },
+      {
+        "id": "f0d5acfca2f95473",
+        "label": "VIA:f0d5acfca2f95473",
+        "net": "+3V3",
+        "beforeClearanceMm": 0.27500199000000375,
+        "afterClearanceMm": 0.2808033786907686
+      },
+      {
+        "id": "09872649e01ba951",
+        "label": "LINE:09872649e01ba951",
+        "net": "GND",
+        "beforeClearanceMm": 0.30068661962961946,
+        "afterClearanceMm": 0.31609609295208985
+      },
+      {
+        "id": "778322e57616985f",
+        "label": "LINE:778322e57616985f",
+        "net": "GND",
+        "beforeClearanceMm": 0.3006866196296195,
+        "afterClearanceMm": 0.31609609295208985
+      },
+      {
+        "id": "05bef01f2319ed22",
+        "label": "VIA:05bef01f2319ed22",
+        "net": "GND",
+        "beforeClearanceMm": 0.30068661962961946,
+        "afterClearanceMm": 0.32676152465699715
+      },
+      {
+        "id": "59affce1ce1eca6b",
+        "label": "LINE:59affce1ce1eca6b",
+        "net": "GND",
+        "beforeClearanceMm": 0.3006866196301993,
+        "afterClearanceMm": 0.3267615292343069
+      },
+      {
+        "id": "613c85e0718056d9",
+        "label": "VIA:613c85e0718056d9",
+        "net": "TIM1_CH1",
+        "beforeClearanceMm": 0.3456847335783847,
+        "afterClearanceMm": 0.3365617277780351
+      },
+      {
+        "id": "313c4d4fa5855285",
+        "label": "LINE:313c4d4fa5855285",
+        "net": "NET-(U1B-PG5)",
+        "beforeClearanceMm": 0.4256863696296127,
+        "afterClearanceMm": 0.42509210234998646
+      },
+      {
+        "id": "a74c33db4e1bf03c",
+        "label": "LINE:a74c33db4e1bf03c",
+        "net": "NET-(U1B-PG5)",
+        "beforeClearanceMm": 0.4261867496296136,
+        "afterClearanceMm": 0.425592459960756
+      },
+      {
+        "id": "97f341d1c213027be2",
+        "label": "C6_2",
+        "net": "GND",
+        "beforeClearanceMm": 0.4950000247999992,
+        "afterClearanceMm": 0.5188518888519751
+      },
+      {
+        "id": "b272ac93f420bc54",
+        "label": "VIA:b272ac93f420bc54",
+        "net": "NET-(U1B-PG5)",
+        "beforeClearanceMm": 0.5554148856552051,
+        "afterClearanceMm": 0.5554115232053987
+      },
+      {
+        "id": "d9843118aa52ade7",
+        "label": "LINE:d9843118aa52ade7",
+        "net": "GND",
+        "beforeClearanceMm": 0.5749988500000082,
+        "afterClearanceMm": 0.5935980975102506
+      },
+      {
+        "id": "b4f850046560474c",
+        "label": "VIA:b4f850046560474c",
+        "net": "GND",
+        "beforeClearanceMm": 0.5749988500000082,
+        "afterClearanceMm": 0.5935980975102506
+      },
+      {
+        "id": "b6dbdb89b7205328e1",
+        "label": "R38_1",
+        "net": "Net-(U1B-PH11)",
+        "beforeClearanceMm": 0.7100018246000075,
+        "afterClearanceMm": 0.7200064262898654
+      },
+      {
+        "id": "79475a28f49bc647",
+        "label": "LINE:79475a28f49bc647",
+        "net": "+3V3",
+        "beforeClearanceMm": 0.8134972783171819,
+        "afterClearanceMm": 0.8134946687685538
+      },
+      {
+        "id": "2530295bf058947de1",
+        "label": "C23_1",
+        "net": "+3V3",
+        "beforeClearanceMm": 0.8259545365506492,
+        "afterClearanceMm": 0.8297993818360554
+      },
+      {
+        "id": "2f9728142f55ebae",
+        "label": "LINE:2f9728142f55ebae",
+        "net": "+3V3",
+        "beforeClearanceMm": 0.8310174409133998,
+        "afterClearanceMm": 0.8310205752326792
+      }
+    ],
+    "scope": "All bottom-layer straight LINE, VIA, and component-pad copper. ARC/FILL remain native-DRC and refill gates."
+  },
+  "candidate": {
+    "path": "output\\candidates\\multilayer-route-clearance\\c23-reroute-candidate.epru",
+    "sha256": "20529b24b62dc585c20f230510e020f8d7454d6c5649f5671a67744041f1e69d",
+    "bytes": 6395831
+  },
+  "applicationGate": {
+    "nativeProjectWriteAuthorized": false,
+    "requiresNativeDrc": true,
+    "requiresFillReclip": true,
+    "requiresElectricalConnectivityCheck": true,
+    "manufacturingApproved": false
+  }
+}

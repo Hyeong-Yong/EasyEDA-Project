@@ -1,0 +1,255 @@
+{
+  "schema": "focused-wire10-native-offset-junction-diagnostic-v1",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "approvalGranted": false,
+  "proposedGlobalToleranceMil": 0,
+  "primaryAuditStillFailed": true,
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-final-copper-v5-execution.json",
+  "manifestSha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "priorSourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire9-20261018.epru",
+  "priorSourceSha256": "4eea0243a2fb438b2c0fdc9d572663cf047e6aca4eaa1eff2353b191f6bdaed0",
+  "actualSourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire10-20261018.epru",
+  "actualSourceSha256": "6786a3df2a3795793219d85858560e421afb8ac9515b52ef4012c9360c24736e",
+  "expectedOriginalKey": "LABTOOL_LOCAL_0412",
+  "expectedOriginalWidthMil": 8,
+  "expectedOriginalACmil": [
+    1157.4803,
+    3289.37,
+    1011.811,
+    3478.3465
+  ],
+  "actualNewBodies": {
+    "06e4e9cdd77323ba": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startX": 1157.4803,
+      "startY": 3289.37,
+      "endX": 1028.5023,
+      "endY": 3456.6929,
+      "width": 8,
+      "locked": false,
+      "zIndex": -1
+    },
+    "e037cb9f75a626cf": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "startX": 1028.5023,
+      "startY": 3456.6929,
+      "endX": 1011.811,
+      "endY": 3478.3465,
+      "width": 8,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  "actualReturnedCreation": [
+    {
+      "key": "LABTOOL_LOCAL_0412",
+      "type": "LINE",
+      "id": "08bc2990a1606c4a"
+    }
+  ],
+  "oldWideHorizontalId": "99367c2f509621d1",
+  "oldWideHorizontalBody": {
+    "partitionId": "",
+    "groupId": 0,
+    "netName": "ADC_OFFSET_0V97",
+    "layerId": 1,
+    "startX": 1043.3071,
+    "startY": 3456.6929,
+    "endX": 1011.811,
+    "endY": 3456.6929,
+    "width": 23.622,
+    "locked": false,
+    "zIndex": -1
+  },
+  "oldWideHorizontalBodySha256": "083e1e1f39d7433d182d5ff578a8ea0945059a3466c8af66a5a363d1bd68d7a4",
+  "oldWideVerticalId": "2dfae3e0e3f002c3",
+  "oldWideVerticalBody": {
+    "partitionId": "",
+    "groupId": 0,
+    "netName": "ADC_OFFSET_0V97",
+    "layerId": 1,
+    "startX": 1011.811,
+    "startY": 3456.6929,
+    "endX": 1011.811,
+    "endY": 3673.2283,
+    "width": 23.622,
+    "locked": false,
+    "zIndex": -1
+  },
+  "oldWideVerticalBodySha256": "3b2bfa3735f902e698a35b1c09fd488bc862cc6a05b613d624fafda57ecb3919",
+  "exactIntersectionMil": [
+    "9718138309799/9448825000",
+    "34566929/10000"
+  ],
+  "actualJunctionMil": [
+    1028.5023,
+    3456.6929
+  ],
+  "rawPerAxisRoundingDeltaMil": [
+    -6.879320973771871e-06,
+    0.0
+  ],
+  "actualEqualsExactIntersectionRounded4dpMil": true,
+  "maxPerAxis4dpGridBoundMil": 5e-05,
+  "withinPerAxisGridBound": true,
+  "maximumCenterlineNormalDeviationMm": 1.3839173621578785e-07,
+  "originalVsActualCenterlineUnionExact": false,
+  "normalizedExpectedABCvsActualCenterlineExact": true,
+  "perWidthProofs": [
+    {
+      "widthMil": 8.0,
+      "originalExpectedExactEqual": false,
+      "normalizedExpectedExactEqual": true,
+      "originalSupportCount": 63,
+      "normalizedSupportCount": 64,
+      "actualSupportCount": 64
+    },
+    {
+      "widthMil": 23.622,
+      "originalExpectedExactEqual": true,
+      "normalizedExpectedExactEqual": true,
+      "originalSupportCount": 4,
+      "normalizedSupportCount": 4,
+      "actualSupportCount": 4
+    }
+  ],
+  "protectedNonLineBodies": {
+    "COMPONENT": {
+      "count": 437,
+      "exact": true
+    },
+    "ATTR": {
+      "count": 1311,
+      "exact": true
+    },
+    "PAD_NET": {
+      "count": 1523,
+      "exact": true
+    },
+    "VIA": {
+      "count": 704,
+      "exact": true
+    },
+    "FILL": {
+      "count": 750,
+      "exact": true
+    },
+    "RULE": {
+      "count": 18,
+      "exact": true
+    },
+    "LAYER": {
+      "count": 64,
+      "exact": true
+    },
+    "LAYER_PHYS": {
+      "count": 17,
+      "exact": true
+    },
+    "PAD": {
+      "count": 4,
+      "exact": true
+    },
+    "ARC": {
+      "count": 2184,
+      "exact": true
+    },
+    "POLY": {
+      "count": 500,
+      "exact": true
+    },
+    "STRING": {
+      "count": 21,
+      "exact": true
+    }
+  },
+  "physicalCopperMeasurements": [
+    {
+      "circleQuadrantResolution": 64,
+      "addedCopperAreaMm2": 3.2440023349858405e-07,
+      "missingCopperAreaMm2": 3.093855756709532e-07,
+      "xorAreaMm2": 6.337858091695373e-07,
+      "addedBoundsMm": [
+        25.542730228549242,
+        84.0499988923,
+        28.88630134292273,
+        87.51151629188428
+      ],
+      "missingBoundsMm": [
+        13.579531900240006,
+        84.0499988923,
+        29.142863640111816,
+        130.24238056493343
+      ],
+      "numericalNotExactProof": true
+    },
+    {
+      "circleQuadrantResolution": 256,
+      "addedCopperAreaMm2": 3.244002328983697e-07,
+      "missingCopperAreaMm2": 3.093855756709532e-07,
+      "xorAreaMm2": 6.33785808569323e-07,
+      "addedBoundsMm": [
+        26.226926683090845,
+        84.0499988923,
+        28.88630134292273,
+        87.50000026
+      ],
+      "missingBoundsMm": [
+        13.579531900240006,
+        84.0499988923,
+        29.142863640111816,
+        130.24238056493343
+      ],
+      "numericalNotExactProof": true
+    },
+    {
+      "circleQuadrantResolution": 1024,
+      "addedCopperAreaMm2": 3.244002328983697e-07,
+      "missingCopperAreaMm2": 3.0938557720469567e-07,
+      "xorAreaMm2": 6.337858101030654e-07,
+      "addedBoundsMm": [
+        26.226926683090845,
+        84.0499988923,
+        28.88630134292273,
+        87.50000026
+      ],
+      "missingBoundsMm": [
+        13.579531900240006,
+        84.0499988923,
+        29.142863640111816,
+        130.24238056493343
+      ],
+      "numericalNotExactProof": true
+    }
+  ],
+  "physicalExactEqualityClaimed": false,
+  "rationalLineCopperWitness": {
+    "pointMil": [
+      "217964651824243/200000000000",
+      "1685294709895481/500000000000"
+    ],
+    "pointMm": [
+      27.68151078167886,
+      85.61297126269044
+    ],
+    "strictlyInsideActualABCapsule": true,
+    "strictlyOutsideAllExpectedLineCapsules": true,
+    "actualABDistanceSquaredMil2": "2856464777583639500530958743246493761/178529109393640000000000000000000000",
+    "radiusSquaredMil2": "16",
+    "qualification": "Exact rational line-capsule inequalities. Full physical union change is measured separately including unchanged same-net pads/vias."
+  },
+  "focusedQualificationCandidate": "Only new LABTOOL_LOCAL_0412 AC is deterministically split into exact A-q4(intersection with the identified prior wide horizontal)-C; all other per-width centerline sets exact. This is native junction coordinate serialization, NOT original geometry equality and NOT a blanket geometric tolerance.",
+  "requirements": [
+    "Root explicit decision before any qualification.",
+    "Retain failed primary audit and this non-equivalence diagnosis.",
+    "If approved, require these exact input bodies/hashes and this calculated junction; no unrelated vertex change.",
+    "Full subsequent readback, native strict DRC, saved-state bridge, netlist and CAM checks remain mandatory."
+  ]
+}

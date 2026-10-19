@@ -1,0 +1,365 @@
+{
+  "schema": "labtool-final-native-saved-project-inventory-v1",
+  "passed": true,
+  "source": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_adc10_routed_final_saved-20261018.epru",
+    "sha256": "b7c6b99df160aaed2bb1f91717c2bde25e379bfdba88ec23dea5b4fdb7548d0f"
+  },
+  "checkpoint": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_adc10_routed_final_20261018.epro2",
+    "sha256": "afe1b3ebefdce0cb36eb040363c2c272dc4cf3b026746c0a2ee15b16079f8115"
+  },
+  "baseline": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+    "sha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9"
+  },
+  "frozenRouting": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-combined-routing-v5.json",
+    "sha256": "d7fd2b7683da5e25e8591c88bba0a7711ecb700681f30cf4b8938f88380d6c07"
+  },
+  "schematicNetlist": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-labtool_schematic-Protel2-20261018.net",
+    "sha256": "dd848d6113c5ec2a0835c128ed664aff57e1df0f7967b9571fbd861d7ab4c12d"
+  },
+  "components": 437,
+  "schematicPhysicalRefs": 437,
+  "uniqueIds": 437,
+  "connectedLogicalPins": 1342,
+  "physicalPadNetRecords": 1523,
+  "targetPhysicalGraphNetSetCount": 74,
+  "drillCounts": {
+    "via_round": 704,
+    "board_npth": 4,
+    "component_slot": 13,
+    "component_npth": 9,
+    "component_round": 133
+  },
+  "physicalDrills": 863,
+  "original799DrillsUnchanged": true,
+  "original640ViaBodiesExact": true,
+  "newViaMatches": [
+    {
+      "key": "AFE_PLUS_PORT_J2",
+      "nativeId": "1512ff894003d5df"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J2",
+      "nativeId": "491d548fb0095de2"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J3",
+      "nativeId": "92e091af50e937ff"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J3",
+      "nativeId": "c1c820e1be1f9e32"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J4",
+      "nativeId": "be8fdcd3aca7c918"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J4",
+      "nativeId": "9ad65ae7e25df09d"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J5",
+      "nativeId": "eb8f869550b83f28"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J5",
+      "nativeId": "82ca33b938724284"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J6",
+      "nativeId": "98e9d32dcc5ca57f"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J6",
+      "nativeId": "f28166c73017dcd8"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J7",
+      "nativeId": "da65cb6ffddfae3e"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J7",
+      "nativeId": "87891e7bd74c03c3"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J8",
+      "nativeId": "e0d91fa558905593"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J8",
+      "nativeId": "bdfc50d158ecd046"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J9",
+      "nativeId": "dd1f0c139dde8161"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J9",
+      "nativeId": "39af26700957c5de"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J10",
+      "nativeId": "866db80d8def4f25"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J10",
+      "nativeId": "50561182206e5e73"
+    },
+    {
+      "key": "AFE_PLUS_PORT_J11",
+      "nativeId": "2b394ec598edd66a"
+    },
+    {
+      "key": "AFE_MINUS_PORT_J11",
+      "nativeId": "2b4ffe7167b86e47"
+    },
+    {
+      "key": "OFFSET_OUTPUT_PORT",
+      "nativeId": "71d9a772f51a00c4"
+    },
+    {
+      "key": "OFFSET_UPPER_BUS_PORT",
+      "nativeId": "f28cd9c32b2f912f"
+    },
+    {
+      "key": "OFFSET_LOWER_BUS_PORT",
+      "nativeId": "c5f8349e1b43ed67"
+    },
+    {
+      "key": "OFFSET_BUCKET_PORT",
+      "nativeId": "9c3e644e33e5f9d8"
+    },
+    {
+      "key": "REF_PLUS_PORT",
+      "nativeId": "aa28161c285f39be"
+    },
+    {
+      "key": "OFFSET_J7_PLUS_PORT",
+      "nativeId": "08e380958345598b"
+    },
+    {
+      "key": "OFFSET_J6_PLUS_PORT",
+      "nativeId": "d21c71a8d15740f5"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J2",
+      "nativeId": "8ffa2a0b581d0513"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J3",
+      "nativeId": "da399bc174447452"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J4",
+      "nativeId": "4536395732a4dbf2"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J5",
+      "nativeId": "09e9aa1bc63f5d96"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J6",
+      "nativeId": "5fdacc720a54c9cf"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J7",
+      "nativeId": "ff8702e9bc5cf610"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J8",
+      "nativeId": "0f440a50d1b4f189"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J9",
+      "nativeId": "b53cd285b790c617"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J10",
+      "nativeId": "d159de7181877721"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J11",
+      "nativeId": "dbc8d40a77ff6613"
+    },
+    {
+      "key": "GND_POSITIVE_BYPASS_J6",
+      "nativeId": "1fd77ef0069f6955"
+    },
+    {
+      "key": "GND_OFFSET_DIVIDER",
+      "nativeId": "705f4146c3237e28"
+    },
+    {
+      "key": "RAW5_R197_PORT",
+      "nativeId": "a0f8870a924dd3e5"
+    },
+    {
+      "key": "RAW5_R200_PORT",
+      "nativeId": "59562aeb4cd83d77"
+    },
+    {
+      "key": "PLUS_AFE_COMMON_PORT",
+      "nativeId": "7f29d0c79bd70474"
+    },
+    {
+      "key": "MINUS_AFE_COMMON_PORT",
+      "nativeId": "cd5d7340addfbda0"
+    },
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_1",
+      "nativeId": "952c2f7f02508408"
+    },
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_2",
+      "nativeId": "7610427956839700"
+    },
+    {
+      "key": "PUMP_CHIP_GND",
+      "nativeId": "da34054ecb4ff89a"
+    },
+    {
+      "key": "PUMP_INPUT_CAP_GND",
+      "nativeId": "c27e315848acf3fa"
+    },
+    {
+      "key": "PUMP_OUTPUT_CAP_GND",
+      "nativeId": "e4182d6d6cf3b644"
+    },
+    {
+      "key": "BOTTOM70_GND_LOBE_STITCH",
+      "nativeId": "e910f0e67b4c8d58"
+    },
+    {
+      "key": "REFERENCE_BUFFER_GND_V6",
+      "nativeId": "15492f3dec2bd194"
+    },
+    {
+      "key": "REFERENCE_C160_GND_V6",
+      "nativeId": "444e5d19dc30bbae"
+    },
+    {
+      "key": "C103_POWER_LEFT_V6",
+      "nativeId": "bbb7dd4f9f472f23"
+    },
+    {
+      "key": "C103_GND_V6",
+      "nativeId": "dc801ecd2005c5d7"
+    },
+    {
+      "key": "C103_POWER_VIN_V6",
+      "nativeId": "a4828069f8f35cb1"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C120",
+      "nativeId": "7fdb96c7f5d8a33a"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C123",
+      "nativeId": "fdcbf9d7846f80f4"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C126",
+      "nativeId": "399fb023067c3721"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C129",
+      "nativeId": "c3dd5e9aaf8d525d"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C138",
+      "nativeId": "daa5fe4fc4b53b61"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C141",
+      "nativeId": "55affb497f0d22e0"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C144",
+      "nativeId": "9b35fa975a48232c"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C147",
+      "nativeId": "e39202aa900f1956"
+    },
+    {
+      "key": "FINAL_FLOATING_TOP20_GND_STITCH",
+      "nativeId": "0d7120d68014f660"
+    },
+    {
+      "key": "FINAL_FLOATING_BOTTOM7_GND_STITCH",
+      "nativeId": "77d8d28e28f0ad4d"
+    }
+  ],
+  "protected": {
+    "COMPONENT": {
+      "baselineCount": 437,
+      "finalCount": 437,
+      "allBodiesExact": true
+    },
+    "ATTR": {
+      "baselineCount": 1311,
+      "finalCount": 1311,
+      "allBodiesExact": true
+    },
+    "PAD_NET": {
+      "baselineCount": 1523,
+      "finalCount": 1523,
+      "allBodiesExact": true
+    },
+    "RULE": {
+      "baselineCount": 18,
+      "finalCount": 18,
+      "allBodiesExact": true
+    },
+    "RULE_TEMPLATE": {
+      "baselineCount": 1,
+      "finalCount": 1,
+      "allBodiesExact": true
+    },
+    "LAYER": {
+      "baselineCount": 64,
+      "finalCount": 64,
+      "allBodiesExact": true
+    },
+    "LAYER_PHYS": {
+      "baselineCount": 17,
+      "finalCount": 17,
+      "allBodiesExact": true
+    },
+    "PAD": {
+      "baselineCount": 4,
+      "finalCount": 4,
+      "allBodiesExact": true
+    },
+    "ARC": {
+      "baselineCount": 2184,
+      "finalCount": 2184,
+      "allBodiesExact": true
+    },
+    "POLY": {
+      "baselineCount": 500,
+      "finalCount": 500,
+      "allBodiesExact": true
+    },
+    "STRING": {
+      "baselineCount": 21,
+      "finalCount": 21,
+      "allBodiesExact": true
+    }
+  },
+  "outlineLayer11Exact": true,
+  "allFootprintDocumentsExactVsEco": true,
+  "errors": [],
+  "nativeCalls": 0,
+  "manufacturingReady": false,
+  "limitations": [
+    "This proves metadata, physical drill identity and component/pin binding only; 74-net physical connectivity requires the independent actual/native-union topology proof.",
+    "Full native-copper receipt-chain/union and durable whole-project audits must pass separately.",
+    "Actual strict unchanged18-rule DRC, preserving all6 FILL/GND/+3V3 anchors and Gerber CAM verification remain separate gates."
+  ]
+}

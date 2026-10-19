@@ -1,0 +1,181 @@
+{
+  "schema": "actual-final-fill-pen-comparison-and-seam-evidence-v1",
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire13-20261018.epru",
+  "sourceSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+  "checkpointSha256": "fb6a90e8b62b797783ae69b8b2ebc48b7d1114862881bcde946429abb820761d",
+  "seams": [
+    {
+      "id": "70d49360e5e3892f",
+      "layerId": 1,
+      "bodyExactVsBaseline": true,
+      "closestNominalGroundFills": [
+        {
+          "id": "5872560e3d03e2f4",
+          "distanceMm": 0.0,
+          "nearestPointsMm": [
+            [
+              44.55954258,
+              109.70780192000001
+            ],
+            [
+              44.55954258,
+              109.70780192000001
+            ]
+          ],
+          "baselineDistanceMm": 0.0
+        },
+        {
+          "id": "72a3572efdb0f858",
+          "distanceMm": 0.9890869126577815,
+          "nearestPointsMm": [
+            [
+              44.55954258,
+              109.70780192000001
+            ],
+            [
+              43.57545767999999,
+              109.80714894
+            ]
+          ],
+          "baselineDistanceMm": 0.9890869126577815
+        }
+      ]
+    },
+    {
+      "id": "1d12bb8046962a4c",
+      "layerId": 17,
+      "bodyExactVsBaseline": true,
+      "closestNominalGroundFills": [
+        {
+          "id": "b99d5f8f2cae6046",
+          "distanceMm": 1.0160000016412596e-05,
+          "nearestPointsMm": [
+            [
+              46.024551079999995,
+              109.70780192000001
+            ],
+            [
+              46.024551079999995,
+              109.70779175999999
+            ]
+          ],
+          "baselineDistanceMm": 0.0
+        },
+        {
+          "id": "8ad2530000be270f",
+          "distanceMm": 0.4490821599999961,
+          "nearestPointsMm": [
+            [
+              46.02454092,
+              109.70780192000001
+            ],
+            [
+              45.575458760000004,
+              109.70780192000001
+            ]
+          ],
+          "baselineDistanceMm": 0.4490821599999961
+        }
+      ]
+    },
+    {
+      "id": "1e87af6d1a83be6a",
+      "layerId": 17,
+      "bodyExactVsBaseline": true,
+      "closestNominalGroundFills": [
+        {
+          "id": "b99d5f8f2cae6046",
+          "distanceMm": 1.0160000016412596e-05,
+          "nearestPointsMm": [
+            [
+              52.626552100000005,
+              79.07749488
+            ],
+            [
+              52.626552100000005,
+              79.07748471999999
+            ]
+          ],
+          "baselineDistanceMm": 0.0
+        },
+        {
+          "id": "b5586ca901b78f63",
+          "distanceMm": 0.4980812999999954,
+          "nearestPointsMm": [
+            [
+              53.0009608,
+              79.68929198
+            ],
+            [
+              53.4990421,
+              79.68929198
+            ]
+          ],
+          "baselineDistanceMm": 0.4980812999999954
+        }
+      ]
+    }
+  ],
+  "graphs": [
+    {
+      "net": "GND",
+      "ignoreFillPen": false,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\wire13-final-actual-pen-comparison-gnd-with-pen.json",
+      "sha256": "c34ab8d737119e80e3896b986bc570b803b5b0fe02c995a54cbe3cff0fad5415",
+      "loadConnectivityPassed": true,
+      "physicalPads": 345,
+      "nativeVias": 228,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [],
+      "queriedFillCount": 31
+    },
+    {
+      "net": "GND",
+      "ignoreFillPen": true,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\wire13-final-actual-pen-comparison-gnd-without-pen.json",
+      "sha256": "87b56f616785188aadb54b37472ebd492048f47ac4ab4dcc905fa1aecaf95193",
+      "loadConnectivityPassed": true,
+      "physicalPads": 345,
+      "nativeVias": 228,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [
+        "EXISTING_1d12bb8046962a4c",
+        "EXISTING_1e87af6d1a83be6a"
+      ],
+      "queriedFillCount": 31
+    },
+    {
+      "net": "+3V3",
+      "ignoreFillPen": false,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\wire13-final-actual-pen-comparison-3v3-with-pen.json",
+      "sha256": "2cff7d25bad5cda62ed451d6daae9ede5465bc91ab37f9632ccc5a7481e80d1b",
+      "loadConnectivityPassed": true,
+      "physicalPads": 138,
+      "nativeVias": 77,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [],
+      "queriedFillCount": 0
+    },
+    {
+      "net": "+3V3",
+      "ignoreFillPen": true,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\wire13-final-actual-pen-comparison-3v3-without-pen.json",
+      "sha256": "35f3c099dbcac0ad22af6e29b208adf5b3ffd9cc515f3b657660790adca2e503",
+      "loadConnectivityPassed": true,
+      "physicalPads": 138,
+      "nativeVias": 77,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [],
+      "queriedFillCount": 0
+    }
+  ],
+  "optionalProspectiveAddendum": null,
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "strictNativeDrcRemainsSeparateGate": true,
+  "allGraphsLoadConnected": true
+}

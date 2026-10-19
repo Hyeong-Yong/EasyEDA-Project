@@ -1,0 +1,463 @@
+{
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/bottom-buckets/remaining6-move-only-guarded-20261018.json",
+  "manifestHash": "e41bcb02cd1b7bbf31f93c8c2b6c0ef89230c1da7835ffc5462eb8f9bff560b2",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-remaining6_move-20261018.epru",
+  "sourceSha256": "af83b97cf7b775d834fc8339eb627beade225247ff077c2a234b3a50a4f808d4",
+  "containmentPassed": false,
+  "worldPadsPassed": true,
+  "padChecks": [
+    {
+      "ref": "C87",
+      "number": "1",
+      "net": "ADC2_INP12",
+      "layer": 2,
+      "xyMm": [
+        57.52083999999999,
+        82.60079999999999
+      ],
+      "expected": {
+        "net": "ADC2_INP12",
+        "xyMm": [
+          57.52,
+          82.6
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C87",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        58.48096,
+        82.60079999999999
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          58.48,
+          82.6
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C93",
+      "number": "1",
+      "net": "ADC3_INP2",
+      "layer": 2,
+      "xyMm": [
+        50.081179999999996,
+        75.51928
+      ],
+      "expected": {
+        "net": "ADC3_INP2",
+        "xyMm": [
+          50.08,
+          75.52
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C93",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        49.12106,
+        75.51928
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          49.12,
+          75.52
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C94",
+      "number": "1",
+      "net": "ADC3_INP6",
+      "layer": 2,
+      "xyMm": [
+        50.59934,
+        78.23962
+      ],
+      "expected": {
+        "net": "ADC3_INP6",
+        "xyMm": [
+          50.6,
+          78.24
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C94",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        50.59934,
+        79.19973999999999
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          50.6,
+          79.2
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C82",
+      "number": "1",
+      "net": "ADC1_INP16",
+      "layer": 2,
+      "xyMm": [
+        58.038999999999994,
+        83.72094
+      ],
+      "expected": {
+        "net": "ADC1_INP16",
+        "xyMm": [
+          58.04,
+          83.72
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C82",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        58.038999999999994,
+        84.68106
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          58.04,
+          84.68
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C80",
+      "number": "1",
+      "net": "ADC1_INP0",
+      "layer": 2,
+      "xyMm": [
+        58.961020000000005,
+        83.6803
+      ],
+      "expected": {
+        "net": "ADC1_INP0",
+        "xyMm": [
+          58.96,
+          83.68
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C80",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        58.961020000000005,
+        84.64042
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          58.96,
+          84.64
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C95",
+      "number": "1",
+      "net": "ADC3_INP7",
+      "layer": 1,
+      "xyMm": [
+        53.52034,
+        77.29982
+      ],
+      "expected": {
+        "net": "ADC3_INP7",
+        "xyMm": [
+          53.52,
+          77.3
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C95",
+      "number": "2",
+      "net": "GND",
+      "layer": 1,
+      "xyMm": [
+        54.48046,
+        77.29982
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          54.48,
+          77.3
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "changes": [
+    {
+      "key": "COMPONENT:518aa576dd1f4a0e",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": false
+    },
+    {
+      "key": "ATTR:518aa576dd1f4a0eee0",
+      "fields": [
+        "layerId"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:518aa576dd1f4a0eee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:518aa576dd1f4a0ee0",
+      "fields": [
+        "layerId"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:f2c0f427d4d6b785",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": false
+    },
+    {
+      "key": "ATTR:f2c0f427d4d6b785ee0",
+      "fields": [
+        "layerId"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:f2c0f427d4d6b785ee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:f2c0f427d4d6b785e0",
+      "fields": [
+        "layerId"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:3fd1d2dd2ba483fc",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:3fd1d2dd2ba483fcee0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:3fd1d2dd2ba483fcee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:3fd1d2dd2ba483fce0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:d73bedd5072ec1a9",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:d73bedd5072ec1a9ee0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:d73bedd5072ec1a9ee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:d73bedd5072ec1a9e0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:8b84e0ff9041f44b",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": false
+    },
+    {
+      "key": "ATTR:8b84e0ff9041f44bee0",
+      "fields": [
+        "layerId"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:8b84e0ff9041f44bee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:8b84e0ff9041f44be0",
+      "fields": [
+        "layerId"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:32cf88e1aaf87f50",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:32cf88e1aaf87f50ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:32cf88e1aaf87f50ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:32cf88e1aaf87f50e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true
+    }
+  ],
+  "issues": [
+    {
+      "key": "COMPONENT:518aa576dd1f4a0e",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ]
+    },
+    {
+      "key": "COMPONENT:f2c0f427d4d6b785",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ]
+    },
+    {
+      "key": "COMPONENT:8b84e0ff9041f44b",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ]
+    }
+  ],
+  "copperApplied": false,
+  "saved": false,
+  "manufacturingReady": false
+}

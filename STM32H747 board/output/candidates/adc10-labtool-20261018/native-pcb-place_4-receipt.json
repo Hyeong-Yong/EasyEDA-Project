@@ -1,0 +1,718 @@
+{
+  "stage": "place_4",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-isolation-placement-execution-common-v3.json",
+  "manifestHash": "9819f7b96a7da16d30a914018925ab5decaeb37a4312d2064df7875f5914041e",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_place_3-20261018.epru",
+  "priorHash": "8cd5220ffcfccf112cf3f332e330621946ad2e343bc369c5566d917351b87cda",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_place_4-20261018.epru",
+  "sourceSha256": "00a9416df55f7df2306dc2849ddd7424e1789ea7fe1ecd86d481704643313eb0",
+  "touched": [
+    {
+      "type": "COMPONENT",
+      "id": "47617477dad79f23",
+      "ref": "U9",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "23a446af46f5164d",
+      "ref": "U32",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "e7cf157797130a85",
+      "ref": "C160",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "22492dfdcfa7b019",
+      "ref": "C103",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "a4b01fa7718db686",
+      "ref": "C104",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "46ce8a9598af4769",
+      "ref": "C105",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "8165776b12213814",
+      "ref": "R201",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "6eb1a2f698c02c69",
+      "ref": "R202",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "a958fcefe3fc5eb6",
+      "ref": "R203",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "35c123a02723c3a7",
+      "ref": "C158",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "a4f2a005b2433af6",
+      "ref": "R204",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "11c016f9f98b5716",
+      "ref": "C159",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "91e8dd4f81971fa2",
+      "ref": "U30",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "a16a7a0ad432b180",
+      "ref": "U31",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "63b34d484518e14f",
+      "ref": "D20",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "a33ab1b034bd1159",
+      "ref": "C151",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "843d5c744bd40027",
+      "ref": "C150",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "2829b3f44dbb9615",
+      "ref": "R197",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "cabb5d06f61cf1ad",
+      "ref": "C152",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "af1c58f3487e39e3",
+      "ref": "C153",
+      "key": null,
+      "action": "place"
+    }
+  ],
+  "created": [],
+  "changes": [
+    {
+      "key": "COMPONENT:22492dfdcfa7b019",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:22492dfdcfa7b019ee11",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:a4b01fa7718db686",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a4b01fa7718db686ee11",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:843d5c744bd40027",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:843d5c744bd40027ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:843d5c744bd40027ee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:843d5c744bd40027e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:a33ab1b034bd1159",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a33ab1b034bd1159ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a33ab1b034bd1159ee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a33ab1b034bd1159e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:cabb5d06f61cf1ad",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:cabb5d06f61cf1adee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:cabb5d06f61cf1adee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:cabb5d06f61cf1ade0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:af1c58f3487e39e3",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:af1c58f3487e39e3ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:af1c58f3487e39e3ee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:af1c58f3487e39e3e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:35c123a02723c3a7",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:35c123a02723c3a7ee11",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:11c016f9f98b5716",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:11c016f9f98b5716ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:11c016f9f98b5716ee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:11c016f9f98b5716e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:e7cf157797130a85",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:e7cf157797130a85ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:e7cf157797130a85ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:e7cf157797130a85e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:63b34d484518e14f",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:63b34d484518e14fee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:63b34d484518e14fee1",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:63b34d484518e14fe0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:2829b3f44dbb9615",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:2829b3f44dbb9615ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:2829b3f44dbb9615ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:2829b3f44dbb9615e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:8165776b12213814",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:8165776b12213814ee7",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:6eb1a2f698c02c69",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:6eb1a2f698c02c69ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:6eb1a2f698c02c69ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:6eb1a2f698c02c69e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:a958fcefe3fc5eb6",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a958fcefe3fc5eb6ee7",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:a4f2a005b2433af6",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a4f2a005b2433af6ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a4f2a005b2433af6ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a4f2a005b2433af6e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:91e8dd4f81971fa2",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:91e8dd4f81971fa2ee1",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:a16a7a0ad432b180",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:a16a7a0ad432b180ee1",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:23a446af46f5164d",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:23a446af46f5164dee1",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:46ce8a9598af4769",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:46ce8a9598af4769ee11",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:47617477dad79f23",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:47617477dad79f23ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:47617477dad79f23ee1",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:47617477dad79f23e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    }
+  ],
+  "issues": [],
+  "failure": null,
+  "containmentPassed": true,
+  "requiresIndependentGeometryAudit": false,
+  "saved": false,
+  "manufacturingReady": false
+}

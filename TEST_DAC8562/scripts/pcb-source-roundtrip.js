@@ -1,0 +1,1 @@
+const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();if(d?.uuid!=='4e08f91f9a2c4fe4'||d.documentType!==3)throw new Error('Wrong PCB');const source=await eda.sys_FileManager.getDocumentSource();const applied=await eda.sys_FileManager.setDocumentSource(source);return {applied,sourceLength:source.length,components:(await eda.pcb_PrimitiveComponent.getAll()).length};

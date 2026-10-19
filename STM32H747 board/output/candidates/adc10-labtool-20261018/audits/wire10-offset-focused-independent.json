@@ -1,0 +1,554 @@
+{
+  "schema": "wire10-offset-physical-delta-focused-readonly-v1",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire10-20261018.epru",
+  "sourceSha256": "6786a3df2a3795793219d85858560e421afb8ac9515b52ef4012c9360c24736e",
+  "baselineSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "executionManifestSha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "appliedPlannedLineCount": 440,
+  "newLineCreates": 0,
+  "nativeCalls": 0,
+  "frozenPlanEdits": 0,
+  "physicalCopperExactlyEqual": false,
+  "strictRationalAddedCopperWitness": {
+    "pointMil": [
+      "544911629294863726140727552002986629448347435862613414230942339581280262566872697541912520510894807743733049789/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "3370589419381273378242652478557820949708485277062352528442651676184364073361746739789482408809005707086873558559/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "pointMm": [
+      27.681510768179074,
+      85.61297125228434
+    ],
+    "strictInsideStroke": "06e4e9cdd77323ba",
+    "insideSquaredRadiusSlackMil2": "89264554585239306628974999999999999999999999999999999999999999999999999999999999999999999992408488343077378512245175869252765193801948714562220491689468195557006513112519044502859457484221489319153838450388835678252379519/1115806933710250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "strictOutsideEveryOppositeSideOffsetLine": true,
+    "minimumOutsideSquaredRadiusSlackMil2": "123621307023609515680665448323324462261649284381566687690414566755879743599851448048118759703150768360870558033630615741442292396706831262103056720786870044931744982875272906840502699319847611795459231820987229988290018766249/5693166251474000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "nearestOppositeLine": "LABTOOL_LOCAL_0412",
+    "oppositeLineCount": 68,
+    "normalPrecisionDecimalDigits": 100,
+    "radialInwardWitnessOffsetMil": "1/100000000",
+    "otherSameNetActorCount": 18,
+    "closestOtherSameNetActors": [
+      {
+        "kind": "PAD",
+        "id": "C159:1:e1",
+        "conservativeDistanceMm": 1.8932910590743115
+      },
+      {
+        "kind": "VIA",
+        "id": "f28cd9c32b2f912f",
+        "conservativeDistanceMm": 2.4450460727601713
+      },
+      {
+        "kind": "VIA",
+        "id": "9c3e644e33e5f9d8",
+        "conservativeDistanceMm": 3.2180847332873244
+      },
+      {
+        "kind": "PAD",
+        "id": "U14:3:89a5f388d4fc15ca",
+        "conservativeDistanceMm": 10.53275491116415
+      },
+      {
+        "kind": "VIA",
+        "id": "d21c71a8d15740f5",
+        "conservativeDistanceMm": 11.979195218305014
+      }
+    ],
+    "outsideOtherSameNetActorsWithLargePositiveMargin": true
+  },
+  "strictRationalMissingCopperWitness": {
+    "pointMil": [
+      "10878136914732525997849902860735595889888729088053482218394709024820930299691220695377584520473075865806886653/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "677260056107404544939566226995563124342229668148832168795168117448396762783183129631585511721102743485941949811/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "pointMm": [
+      27.630467763420615,
+      86.01202712564037
+    ],
+    "strictInsideStroke": "LABTOOL_LOCAL_0412",
+    "insideSquaredRadiusSlackMil2": "18218131981944134994104000000000000000000000000000000000000000000000000000000000000000000000074928758604654959588862520508225958633225815039640173877154609061465196071159785045061145443712840466504226930007930399517558071/227726650058960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "strictOutsideEveryOppositeSideOffsetLine": true,
+    "minimumOutsideSquaredRadiusSlackMil2": "684390951926168095519163804734606960322115025123708287750942762107787745085047289239705116432657543737236027383473404165377994069469923170180935238537320118771385067753993473973376887064989204737703713437843139200923841/27895173342756250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "nearestOppositeLine": "06e4e9cdd77323ba",
+    "oppositeLineCount": 76,
+    "normalPrecisionDecimalDigits": 100,
+    "radialInwardWitnessOffsetMil": "1/100000000",
+    "otherSameNetActorCount": 18,
+    "closestOtherSameNetActors": [
+      {
+        "kind": "VIA",
+        "id": "f28cd9c32b2f912f",
+        "conservativeDistanceMm": 2.2144838653611707
+      },
+      {
+        "kind": "PAD",
+        "id": "C159:1:e1",
+        "conservativeDistanceMm": 2.2589613490762823
+      },
+      {
+        "kind": "VIA",
+        "id": "9c3e644e33e5f9d8",
+        "conservativeDistanceMm": 3.514062733549379
+      },
+      {
+        "kind": "PAD",
+        "id": "U14:3:89a5f388d4fc15ca",
+        "conservativeDistanceMm": 10.654570058790576
+      },
+      {
+        "kind": "VIA",
+        "id": "d21c71a8d15740f5",
+        "conservativeDistanceMm": 12.106005149058358
+      }
+    ],
+    "outsideOtherSameNetActorsWithLargePositiveMargin": true
+  },
+  "approximateAreaConvergenceDiagnosticOnly": [
+    {
+      "quadSegments": 64,
+      "addedMm2": 3.308940534189099e-07,
+      "removedMm2": 3.1330124370654077e-07
+    },
+    {
+      "quadSegments": 256,
+      "addedMm2": 3.3089406028680713e-07,
+      "removedMm2": 3.133005926933195e-07
+    },
+    {
+      "quadSegments": 1024,
+      "addedMm2": 3.308938775352329e-07,
+      "removedMm2": 3.1330057661071875e-07
+    }
+  ],
+  "actualTwoDiagonalFocusedClearance": [
+    {
+      "nativeId": "06e4e9cdd77323ba",
+      "segmentMil": [
+        1157.4803,
+        3289.37,
+        1028.5023,
+        3456.6929
+      ],
+      "allForeignTopCopperActorsChecked": 6460,
+      "allPhysicalDrillsChecked": 863,
+      "copperRuleMm": 0.1524,
+      "offlineGuardMm": 0.1535,
+      "closestForeignCopper": [
+        {
+          "kind": "FILL",
+          "id": "e680230ef8d2c5dd",
+          "net": "GND",
+          "conservativeCopperGapMm": 0.17253814948681526,
+          "qualification": "native contour tessellation; 0.00001mm conservative radial reserve"
+        },
+        {
+          "kind": "FILL",
+          "id": "5e6885464c593aa2",
+          "net": "GND",
+          "conservativeCopperGapMm": 0.25975931359355614,
+          "qualification": "native contour tessellation; 0.00001mm conservative radial reserve"
+        },
+        {
+          "kind": "VIA",
+          "id": "79b9cd0941beea41",
+          "net": "SPI2_SOFT_CSN",
+          "conservativeCopperGapMm": 1.0559018819418295,
+          "qualification": "exact circle"
+        },
+        {
+          "kind": "PAD",
+          "id": "C159:2:e2",
+          "net": "GND",
+          "conservativeCopperGapMm": 1.2983970856999938,
+          "qualification": "conservative pad rectangle or exact polygon; duplicate physical pads retained"
+        },
+        {
+          "kind": "VIA",
+          "id": "357e2261a6392310",
+          "net": "SPI2_SCK",
+          "conservativeCopperGapMm": 2.1924665199499422,
+          "qualification": "exact circle"
+        },
+        {
+          "kind": "PAD",
+          "id": "R201:2:e2",
+          "net": "AFE_REF_2V5",
+          "conservativeCopperGapMm": 2.1965078505247324,
+          "qualification": "conservative pad rectangle or exact polygon; duplicate physical pads retained"
+        },
+        {
+          "kind": "LINE",
+          "id": "e65734e7545a1d35",
+          "net": "+3V3",
+          "conservativeCopperGapMm": 2.3818397006486403,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "LINE",
+          "id": "92c4b056c6ed62be",
+          "net": "+3V3",
+          "conservativeCopperGapMm": 2.3818397006486403,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "VIA",
+          "id": "79f333115736ecc0",
+          "net": "D31",
+          "conservativeCopperGapMm": 2.4632892746356414,
+          "qualification": "exact circle"
+        },
+        {
+          "kind": "LINE",
+          "id": "e1e474dee2f40614",
+          "net": "AFE_REF_2V5",
+          "conservativeCopperGapMm": 2.5123619604747778,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "LINE",
+          "id": "098837059f437289",
+          "net": "D31",
+          "conservativeCopperGapMm": 2.5887894046356412,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "LINE",
+          "id": "3c4ec4196a872fe1",
+          "net": "AFE_REF_2V5",
+          "conservativeCopperGapMm": 2.5919345204745126,
+          "qualification": "exact LINE capsule"
+        }
+      ],
+      "foreignCopperBelowNativeRule": [],
+      "foreignCopperBelowOfflineGuard": [],
+      "closestDrills": [
+        {
+          "id": "VIA:9c3e644e33e5f9d8",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 0.7996498272195384,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:f28cd9c32b2f912f",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 0.8601879130564237,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:79b9cd0941beea41",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 1.1109017719418295,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:357e2261a6392310",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 2.292466319949942,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:79f333115736ecc0",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 2.5632890746356414,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:0e11e12779bf7558",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 3.5226847241606407,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:f3d668a022e37a17",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 3.6904595442294403,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:44eb1a0bddbf2626",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 4.354905754796936,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:606a352ae6a1fb69",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 4.427469117082376,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:e910f0e67b4c8d58",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 4.637046030395434,
+          "qualification": "exact circle"
+        }
+      ],
+      "drillIntrusions": [],
+      "drillGapBelowNativeCopperRuleForDiagnosticOnly": [],
+      "invalidFillsExcludedOnlyByFarBoundingBoxes": [
+        {
+          "id": "9a405bd52ff5d175",
+          "boundsMm": [
+            52.03493276,
+            117.57930002,
+            53.54999958,
+            118.26545816
+          ],
+          "gapToBoundsMm": 39.3722561731589
+        },
+        {
+          "id": "d9b20cbcd6912827",
+          "boundsMm": [
+            51.88253784,
+            36.7825401,
+            53.21746024,
+            38.21745722
+          ],
+          "gapToBoundsMm": 50.499820715076005
+        },
+        {
+          "id": "cbf547853a678101",
+          "boundsMm": [
+            54.154263040000004,
+            113.10465821999999,
+            56.728210139999995,
+            115.97894253999999
+          ],
+          "gapToBoundsMm": 37.66112927011731
+        },
+        {
+          "id": "c18edd359ca3c0bd",
+          "boundsMm": [
+            74.83405658,
+            64.8593699,
+            78.41674436,
+            68.4406302
+          ],
+          "gapToBoundsMm": 47.778944349038056
+        }
+      ]
+    },
+    {
+      "nativeId": "e037cb9f75a626cf",
+      "segmentMil": [
+        1028.5023,
+        3456.6929,
+        1011.811,
+        3478.3465
+      ],
+      "allForeignTopCopperActorsChecked": 6460,
+      "allPhysicalDrillsChecked": 863,
+      "copperRuleMm": 0.1524,
+      "offlineGuardMm": 0.1535,
+      "closestForeignCopper": [
+        {
+          "kind": "FILL",
+          "id": "5e6885464c593aa2",
+          "net": "GND",
+          "conservativeCopperGapMm": 0.3777009613962972,
+          "qualification": "native contour tessellation; 0.00001mm conservative radial reserve"
+        },
+        {
+          "kind": "FILL",
+          "id": "e680230ef8d2c5dd",
+          "net": "GND",
+          "conservativeCopperGapMm": 0.4674778513370313,
+          "qualification": "native contour tessellation; 0.00001mm conservative radial reserve"
+        },
+        {
+          "kind": "VIA",
+          "id": "79b9cd0941beea41",
+          "net": "SPI2_SOFT_CSN",
+          "conservativeCopperGapMm": 0.965653993517754,
+          "qualification": "exact circle"
+        },
+        {
+          "kind": "VIA",
+          "id": "357e2261a6392310",
+          "net": "SPI2_SCK",
+          "conservativeCopperGapMm": 1.9655562605444188,
+          "qualification": "exact circle"
+        },
+        {
+          "kind": "LINE",
+          "id": "e65734e7545a1d35",
+          "net": "+3V3",
+          "conservativeCopperGapMm": 2.086938555367129,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "LINE",
+          "id": "92c4b056c6ed62be",
+          "net": "+3V3",
+          "conservativeCopperGapMm": 2.086938555367129,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "FILL",
+          "id": "89b5522aec4acd51",
+          "net": "GND",
+          "conservativeCopperGapMm": 2.6592533335475244,
+          "qualification": "native contour tessellation; 0.00001mm conservative radial reserve"
+        },
+        {
+          "kind": "VIA",
+          "id": "0e11e12779bf7558",
+          "net": "UART_RX",
+          "conservativeCopperGapMm": 3.1301929103209742,
+          "qualification": "exact circle"
+        },
+        {
+          "kind": "VIA",
+          "id": "44eb1a0bddbf2626",
+          "net": "GND",
+          "conservativeCopperGapMm": 3.4248722395305973,
+          "qualification": "exact circle"
+        },
+        {
+          "kind": "LINE",
+          "id": "7d7c4d0f9c4afe90",
+          "net": "ADC_J5_DRV",
+          "conservativeCopperGapMm": 3.5106252745653084,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "LINE",
+          "id": "b51aa71af2f7b8d7",
+          "net": "ADC_J5_DRV",
+          "conservativeCopperGapMm": 3.5106252745653084,
+          "qualification": "exact LINE capsule"
+        },
+        {
+          "kind": "LINE",
+          "id": "177359daf6862e7d",
+          "net": "ADC_J5_DRV",
+          "conservativeCopperGapMm": 3.717256887660721,
+          "qualification": "exact LINE capsule"
+        }
+      ],
+      "foreignCopperBelowNativeRule": [],
+      "foreignCopperBelowOfflineGuard": [],
+      "closestDrills": [
+        {
+          "id": "VIA:f28cd9c32b2f912f",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 0.877340992579218,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:79b9cd0941beea41",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 1.020653883517754,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:357e2261a6392310",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 2.0655560605444188,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:0e11e12779bf7558",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 3.230192710320974,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:44eb1a0bddbf2626",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 3.6748730095305975,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:606a352ae6a1fb69",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 4.012734257950634,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:d41b81c953841c42",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 5.541769059121111,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:9c3e644e33e5f9d8",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 5.8626004386319,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:81cfd6be0562b62e",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 6.297870111154786,
+          "qualification": "exact circle"
+        },
+        {
+          "id": "VIA:82f10eb808237cda",
+          "kind": "via_round",
+          "conservativeTraceToDrillGapMm": 6.421339638067234,
+          "qualification": "exact circle"
+        }
+      ],
+      "drillIntrusions": [],
+      "drillGapBelowNativeCopperRuleForDiagnosticOnly": [],
+      "invalidFillsExcludedOnlyByFarBoundingBoxes": [
+        {
+          "id": "9a405bd52ff5d175",
+          "boundsMm": [
+            52.03493276,
+            117.57930002,
+            53.54999958,
+            118.26545816
+          ],
+          "gapToBoundsMm": 39.241514142507256
+        },
+        {
+          "id": "d9b20cbcd6912827",
+          "boundsMm": [
+            51.88253784,
+            36.7825401,
+            53.21746024,
+            38.21745722
+          ],
+          "gapToBoundsMm": 55.77265998213174
+        },
+        {
+          "id": "cbf547853a678101",
+          "boundsMm": [
+            54.154263040000004,
+            113.10465821999999,
+            56.728210139999995,
+            115.97894253999999
+          ],
+          "gapToBoundsMm": 37.61362462379606
+        },
+        {
+          "id": "c18edd359ca3c0bd",
+          "boundsMm": [
+            74.83405658,
+            64.8593699,
+            78.41674436,
+            68.4406302
+          ],
+          "gapToBoundsMm": 52.314607881204225
+        }
+      ]
+    }
+  ],
+  "physicalDrillsChecked": 863,
+  "copperActorKindCounts": {
+    "VIA": 704,
+    "FREEPAD": 4,
+    "LINE": 3200,
+    "ARC": 1068,
+    "FILL": 137,
+    "PAD": 1365
+  },
+  "invalidTopFillsCount": 4,
+  "unsupportedTopCopperKinds": [],
+  "foreignCopperNativeClearanceScreenPassed": true,
+  "foreignCopperOfflineGuardScreenPassed": true,
+  "noTraceToDrillIntrusion": true,
+  "decision": "STOP unchanged. This records a real nonzero serializer kink, not exact copper equivalence. Only parent may authorize a narrowly specified junction-normalization contract. Final whole native DRC remains mandatory."
+}

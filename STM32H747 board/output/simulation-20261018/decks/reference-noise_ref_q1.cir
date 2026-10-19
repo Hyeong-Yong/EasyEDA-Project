@@ -1,0 +1,27 @@
+STM32H747 representative ADC review: reference-noise_ref_q1
+* TI vendor model compatibility run in ngspice 47, NOT Cadence PSpice.
+* CAD files unchanged; see source-audit.json and model-index.json.
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/OPA189/OPAx189.LIB"
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/OPA320/OPAx320-Q1.LIB"
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/REF5025/REF5025.LIB"
+.options reltol=1e-5 abstol=1e-12 vntol=1e-7 itl1=500 itl4=1000
+.temp 27
+
+* Standalone actual REF5025 network; divider is a 25.8k DC load.
+V5 v5 0 DC 5 AC 1
+R200 v5 v5afe 4.7
+C156 v5afe 0 4.7u
+C157 v5afe 0 4.7u
+Iamps v5afe 0 14.3m
+XU9 v5afe ref_temp 0 nr ref25 REF5025
+C103 v5afe 0 1u
+C105 nr 0 1u
+R201 ref25 ref_esr 1
+C104 ref_esr 0 4.7u
+R202 ref25 off_filt 15.8k
+R203 off_filt 0 10k
+C158 off_filt 0 4.7u
+
+.save v(v5afe) v(ref25) v(nr) v(off_filt) i(v5)
+.noise V(off_filt) V5 dec 150 .1 10
+.end

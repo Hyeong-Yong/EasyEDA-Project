@@ -1,0 +1,114 @@
+{
+  "schema": "adc10-labtool-sixlayer-via-port-search-20261018-v1",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "placementPath": "output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-short-negative-commonpower-v5b-ref-flipped-proposal.json",
+  "placementSha256": "7121af6778ac0a04d674d8ac355122fb613cd4028201dd7ad18e6dae606387fe",
+  "routePath": "output\\candidates\\adc10-labtool-20261018\\routing\\local-row-routing-shared-ref-flipped-v7-draft.json",
+  "routeSha256": "76e937417de0d1d1143c4b31efb90bbacd808ade588882ce043023cb25b7c1b0",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "status": "VIA_PORTS_ONLY_NOT_CONNECTED_ROUTING",
+  "existingPhysicalDrillsChecked": 799,
+  "existingViasPreserved": 640,
+  "viasProposed": [
+    {
+      "key": "REFERENCE_POWER_C103_PORT",
+      "net": "+5V_AFE",
+      "xyMm": [
+        20.4,
+        71.7
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requiresLocalFillAntipadCuts": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "originalPolygonValid": true
+        },
+        {
+          "id": "2fb535085249015d",
+          "layerId": 2,
+          "net": "GND",
+          "originalPolygonValid": true
+        }
+      ],
+      "oldNonFillCopperClearanceMm": 0.17,
+      "holeToOld799DrillsEdgeGapMm": 0.301,
+      "viaInPadForbidden": true,
+      "requiresFilterReroutingAroundReservedGroundVia": false,
+      "minimumOldDrillEdgeGapMm": 0.6859605682678285,
+      "minimumFourMountingNPTHDrillEdgeGapMm": 66.44660717474952,
+      "minimumSMAConservativeCourtToViaCopperGapMm": 11.374998734199997
+    }
+  ],
+  "failedPorts": [],
+  "existingRaw5VPTHPadSources": [
+    {
+      "key": "PAD:CN1:1",
+      "net": "+5v",
+      "xyMm": [
+        89.34000166,
+        19.85999838
+      ],
+      "boundsMm": [
+        88.03200199,
+        19.20599791,
+        90.64800133,
+        20.51399885
+      ],
+      "layers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "viaDiameterMm": 0.45,
+  "holeDiameterMm": 0.2,
+  "nonFillClearanceMm": 0.17,
+  "drillEdgeGapMm": 0.301,
+  "limitations": [
+    "EachnewVIArequiresliteralstaticFILLantipadsonEVERYlistedlayerbeforeapplying;thisreportdoesnotyetcontainBooleanpathupdates.",
+    "PortsarenotyetconnectedtoSMTpadsorBottomrailtrunks;TOP/BOTTOMstubsandtrunkmutualclearanceareseparatelaterwork.",
+    "All799oldholesand640VIAsarekeptunchanged. Drillslotswereconservativelyscreenedbyrotatedrectangle.",
+    "ThisisnotnativeDRCnorverificationofcompletedpower/offsetconnectivity."
+  ],
+  "manufacturingReady": false
+}

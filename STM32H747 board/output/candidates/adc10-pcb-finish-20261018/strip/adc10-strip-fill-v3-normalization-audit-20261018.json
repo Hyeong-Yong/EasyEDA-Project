@@ -1,0 +1,45 @@
+{
+  "schema": "adc10-strip-fill-v3-native-normalization-audit-20261018-v1",
+  "status": "PASS",
+  "before": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-strip_place4-20261018.epru",
+    "sha256": "7043fe5ad1561e371372ad833cd736ab46ee675f0257412f46ea482db63d4f24"
+  },
+  "actual": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-strip_fill_v3-20261018.epru",
+    "sha256": "39b7016594cb6fc950cfb5298678a7c6b0bc50e76653f079222cc9c729bd2919"
+  },
+  "intendedManifest": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\strip\\adc10-strip-phase1-explicit-closed-API-polygon-20261018.json",
+    "sha256": "cb5554b84c2d4fcf2b4001a31951a97111e1296719ce2142627dc75ab21be932"
+  },
+  "records": 12920,
+  "unchangedProtectedDesignRecords": 12918,
+  "deleted": 0,
+  "added": 0,
+  "changed": {
+    "DOCHEAD": [
+      "client",
+      "version",
+      "updateTime"
+    ],
+    "FILL_e680230ef8d2c5dd": [
+      "path",
+      "refs"
+    ]
+  },
+  "allowedNormalizationRules": [
+    "Only requested contour coordinate numbers serialize to round(value,4) native mil",
+    "refs:null becomes [null] after the public fill replacement",
+    "DOCHEAD client/version/updateTime bookkeeping"
+  ],
+  "contours": 294,
+  "allExplicitlyClosed": true,
+  "outerNativePathExact": true,
+  "untouchedOriginalHolePathsExact": 229,
+  "numericCoordinatesRounded": 17630,
+  "maximumRoundingMil": 4.96063003083691e-05,
+  "maximumRoundingMm": 1.2600000278325752e-06,
+  "noElectricalOrRuleOrViaOrHoleOrOtherCopperChanges": true,
+  "manufacturingReady": false
+}

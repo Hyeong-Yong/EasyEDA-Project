@@ -1,0 +1,207 @@
+{
+  "schema": "adc10-labtool-bottom-bus-draft-20261018-v1",
+  "sourceSha256": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+  "portsPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\six-layer-via-port-candidates-commonpower-v4.json",
+  "portsSha256": "7442307c0c676c975f2855e516b1e5422b991071f5c838c21a8cb802190b58d4",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "newLineCreates": [
+    {
+      "key": "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0001",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        15.5,
+        71
+      ],
+      "endXYmm": [
+        15.7,
+        71.6
+      ],
+      "role": "powerrailY71"
+    },
+    {
+      "key": "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0002",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        15.7,
+        71.6
+      ],
+      "endXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY71"
+    },
+    {
+      "key": "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0003",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        15.5,
+        72
+      ],
+      "endXYmm": [
+        16.0,
+        71.7
+      ],
+      "role": "powerrailY72"
+    },
+    {
+      "key": "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0004",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        16.0,
+        71.7
+      ],
+      "endXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY72"
+    }
+  ],
+  "connections": [
+    {
+      "net": "+5V_AFE",
+      "role": "powerrailY71",
+      "lineKeys": [
+        "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0001",
+        "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0002"
+      ],
+      "lengthMm": 5.489473650179825
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "powerrailY72",
+      "lineKeys": [
+        "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0003",
+        "LABTOOL_REFERENCE-POWER-RAIL-BATCH_0004"
+      ],
+      "lengthMm": 5.124639530344804
+    }
+  ],
+  "failedConnections": [
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        76
+      ],
+      "toXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY76",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 4367
+    },
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        77
+      ],
+      "toXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY77",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 4271
+    },
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        78
+      ],
+      "toXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY78",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 4124
+    },
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        79
+      ],
+      "toXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY79",
+      "reason": "ENDPOINT_CONFLICT",
+      "conflicts": [
+        "LABTOOL_LOCAL_0123"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        70
+      ],
+      "toXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY70",
+      "reason": "ENDPOINT_CONFLICT",
+      "conflicts": [
+        "PAD:R157:1",
+        "PAD:R157:2"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        86
+      ],
+      "toXYmm": [
+        20.4,
+        72.825
+      ],
+      "role": "powerrailY86",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 2325
+    }
+  ],
+  "literalCopperConflicts": [],
+  "existingRawSource": {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "+5V",
+    "xyMm": [
+      89.34000166,
+      19.85999838
+    ]
+  },
+  "existingInvalidBottomFillsNotSilentlyRepaired": [
+    "9a405bd52ff5d175",
+    "d9b20cbcd6912827",
+    "cbf547853a678101",
+    "c18edd359ca3c0bd"
+  ],
+  "requiresLocalGroundFillVoids": true,
+  "clearanceMm": 0.17,
+  "existingViaChanges": 0,
+  "existingDrillChanges": 0,
+  "manufacturingReady": false,
+  "limitations": [
+    "NoGND FILLpathwrites;authoritativepreserving-splithelpermustsubtracteachtracewith.17mmclearance.",
+    "AllnewVIAantipadsandTOPstubconnectivityareseparaterequiredphases.",
+    "FullnativeDRC/sourceauditmustfollow,includingpreservingall799existingdrills/6layers/18rules."
+  ]
+}

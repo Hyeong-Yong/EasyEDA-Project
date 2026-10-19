@@ -1,0 +1,4957 @@
+{
+  "schema": "stm32h747-unused-inner-layer-pad-plan-v1",
+  "status": "static-evidence-pass-candidates-not-applied",
+  "read_only_inputs": true,
+  "inputs": {
+    "checkpoint": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_after_drl_slot_fix_20261014.epro2",
+      "sha256": "f71d817bf880ab9f2e7d7fa091ac9de769ffd28878b8eb3dc0069f44b9c6ded0"
+    },
+    "pcb_source": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-final-pcb-after_drl_slot_fix-reopened.epru",
+      "sha256": "9b15e29882ff12671a2a0e11f03f1c9ebba1e68edb7fd601614c2a836edd803a"
+    },
+    "clearance_analysis": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-pcb-clearance-drc-final-analysis.json",
+      "sha256": "ec9e6d030c81686e14ee26128dabf346fc982f6c5649306fc69325bf83fa423e"
+    },
+    "gerber_copper_routes": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\semantic\\gerber-copper-routes.json",
+      "sha256": "feec14cf04ee7b790b89a2e4bdcb61e633d756f646e7ad37a262d740d4c5645b"
+    }
+  },
+  "installed_3_2_semantics": {
+    "format_document": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\easyeda-api\\format\\pcb\\pad_via.md",
+      "sha256": "ff7c71a31a1c64fd2b0faafd52d0f75d7c168662b6d4041717d3eff583f20876",
+      "lines": {
+        "special_pad_definition": 102,
+        "unused_inner_layers_definition": 119
+      },
+      "semantics": {
+        "specialPad": "per-layer-range pad shape override",
+        "unusedInnerLayers": "inner copper layers on which the pad is hidden"
+      }
+    },
+    "installed_schema": {
+      "path": "C:\\Program Files\\easyeda-pro\\resources\\app\\assets\\pro-api\\0.3.50.ab46409c\\assets\\format-types.schema-ZEA4IXWZ.json",
+      "sha256": "5d668d3c60cb343c7ec9723d23bf55a0bb58b38683f8cfd1a86a04cc04257b80",
+      "json_path": "$defs.TPcbPad.allOf[1].properties.unusedInnerLayers",
+      "type": "array",
+      "item_type": "number",
+      "comment": "隐藏焊盘层（可选）：被隐藏焊盘的层数组",
+      "optional": true,
+      "separate_required_fields": [
+        "hole",
+        "defaultPad",
+        "specialPad",
+        "plated"
+      ]
+    },
+    "pcb_runtime": {
+      "path": "C:\\Program Files\\easyeda-pro\\resources\\app\\assets\\pro-pcb\\3.2.193.682ed44e\\js\\pcb.js",
+      "sha256": "217199c8532c48aa50ed5fc254ddf2e6d09c886984c9498b5eea4d1cf0b7ef33",
+      "matches": {
+        "serializer_preserves_array": {
+          "byte_index_utf8_text": 4171697,
+          "needle": "case\"unusedInnerLayers\":return e.unusedInnerLayers",
+          "context_sha256": "73ebfa5c2c0f5cf6bcebbcbf081e619c99b0522507843c6b668dae40537ac457"
+        },
+        "decoder_defaults_to_empty_array": {
+          "byte_index_utf8_text": 4174707,
+          "needle": "this.unusedInnerLayers=W||[]",
+          "context_sha256": "c51180095f88d3a73c0d07d3435116ee564d19aad65d26059d114cc9cdca7754"
+        },
+        "layer_geometry_short_circuit": {
+          "byte_index_utf8_text": 3543257,
+          "needle": "getMathGraphics(e=this.layerId,r=0){if(this.isEmpty||this.isUnuseLayer(e))return null;",
+          "context_sha256": "95ec6fc1090a7232716bc894348f9ab98a27589e9b51a85888e7ddeb1a5ca25b"
+        },
+        "hole_geometry_is_separate_layer_12_or_47": {
+          "byte_index_utf8_text": 3543462,
+          "needle": "else if(e==12||47===e){if(this.hole!=null)return this.hole.getShape",
+          "context_sha256": "dba3e24fdb9ea443c58471bbd1639968f813a1bb20ada1355ec2259a07d9a11d"
+        },
+        "used_copper_layers_exclude_array": {
+          "byte_index_utf8_text": 4383040,
+          "needle": "for(let n of i)r.has(n)||e.push(n)",
+          "context_sha256": "48b1296f9c2d0a89eb3b765803821785032b845c6d5c1aff772d1ac87de0e4ca"
+        }
+      }
+    },
+    "drc_runtime": {
+      "path": "C:\\Program Files\\easyeda-pro\\resources\\app\\assets\\pro-pcb\\3.2.193.682ed44e\\js\\drcWorker.js",
+      "sha256": "3f97b21d78efed7a3c37f2f2c6598743ea57101e455d062c8d8e7c1d0c3241cf",
+      "matches": {
+        "hidden_pad_skips_inner_layer_shape_check": {
+          "byte_index_utf8_text": 4253965,
+          "needle": "if(t.isUnuseLayer(e.layerId))return;",
+          "context_sha256": "d3747c202c5e2252af858f51ddbf3d5ff7bd8e33de718413612b9d8dc9406952"
+        },
+        "hole_clearance_uses_layer_12": {
+          "byte_index_utf8_text": 4051667,
+          "needle": "(this._holeStatus==1||t instanceof rt)&&this.checkError2Result(e.layerId,12)",
+          "context_sha256": "27daa46cfcbfb7aefba1f3900e13b6cff0f28ecf929a8531d1252dead6c3a148"
+        },
+        "pad_cache_uses_layer_geometry": {
+          "byte_index_utf8_text": 3898220,
+          "needle": "getPadCache(e,t){let r=this.getCache2(e,t);if(r==null)",
+          "context_sha256": "bb294968a353ad9d7bdc1af0ababd063175c4ab9259b977de087d4c024a55171"
+        }
+      }
+    },
+    "public_primitive_api": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\easyeda-api\\references\\classes\\IPCB_PrimitivePad.md",
+      "sha256": "f1964a56eff94a8546cad4f84b13097f64337574570d5f9ff7e522a4410e8c7d",
+      "unusedInnerLayers_exposed": false,
+      "specialPad_setter_documented_no_effect_in_current_version": true,
+      "conclusion": "Use the native PAD body field in a full FOOTPRINT source; the current public primitive wrapper has no unusedInnerLayers setter. specialPad is not a substitute for hiding an inner layer."
+    },
+    "semantic_conclusion": {
+      "hidden_inner_pad_copper": true,
+      "plated_drill_hole_preserved": true,
+      "outer_pad_shape_preserved_when_other_fields_unchanged": true,
+      "drc_hole_clearance_remains_active": true
+    }
+  },
+  "source_copper_coverage": {
+    "pad_count": 34,
+    "pad_layer_combinations": 136,
+    "gerber_absent_combinations": 82,
+    "gerber_absent_combinations_with_any_dark_copper_at_center": 8,
+    "gerber_present_combinations": 54,
+    "gerber_present_combinations_with_dark_copper_at_center": 54,
+    "method": "All extracted dark conductor flashes, stroked line/arc tracks, and additive region contours were tested at each drill centre. Gerber copper represents a drilled PTH pad as solid copper at the centre; the Excellon drill is applied separately. Therefore no dark copper at the centre is stronger evidence than component-pad-flash absence alone.",
+    "rows": [
+      {
+        "reference": "J10",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J10",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J10",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J10",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J10",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 71,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1661903906475614e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J10",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J10",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 77,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1661903906475614e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J10",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 71,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1661903906475614e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 87,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.161550699348428e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 93,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.161550699348428e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J11",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 87,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.161550699348428e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 17,
+            "net": "TIM1_CH1",
+            "shape": "RoundRect",
+            "center_distance_mm": 7.810249940031779e-07
+          }
+        ],
+        "tracks": [
+          {
+            "index": 1419,
+            "kind": "line",
+            "net": "TIM1_CH1",
+            "centerline_distance_mm": 6.000000354333679e-07,
+            "width_mm": 0.2
+          }
+        ],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 15,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 7.810249721690155e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 18,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 7.810249721690155e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J12",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 15,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 7.810249721690155e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 6,
+            "net": "TIM2_CH2",
+            "shape": "RoundRect",
+            "center_distance_mm": 7.359347907908416e-07
+          }
+        ],
+        "tracks": [
+          {
+            "index": 1424,
+            "kind": "line",
+            "net": "TIM2_CH2",
+            "centerline_distance_mm": 5.400000162580909e-07,
+            "width_mm": 0.2
+          }
+        ],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 5,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 7.359347907908416e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 7,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 7.359347907908416e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J13",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 5,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 7.359347907908416e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 63,
+            "net": "TIM4_CH4",
+            "shape": "RoundRect",
+            "center_distance_mm": 6.529931209372016e-07
+          }
+        ],
+        "tracks": [
+          {
+            "index": 1444,
+            "kind": "line",
+            "net": "TIM4_CH4",
+            "centerline_distance_mm": 4.200000205401011e-07,
+            "width_mm": 0.2
+          }
+        ],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 59,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.529931209372016e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 64,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.529931209372016e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J14",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 59,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.529931209372016e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 68,
+            "net": "TIM8_CH3",
+            "shape": "RoundRect",
+            "center_distance_mm": 6.931089449570994e-07
+          }
+        ],
+        "tracks": [
+          {
+            "index": 1459,
+            "kind": "line",
+            "net": "TIM8_CH3",
+            "centerline_distance_mm": 4.800000112936686e-07,
+            "width_mm": 0.2
+          }
+        ],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 63,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.931089449570994e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 69,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.931089449570994e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J15",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 63,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.931089449570994e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 0,
+            "net": "DAC1_OUT1",
+            "shape": "RoundRect",
+            "center_distance_mm": 9.024411391952359e-07
+          }
+        ],
+        "tracks": [
+          {
+            "index": 1462,
+            "kind": "line",
+            "net": "DAC1_OUT1",
+            "centerline_distance_mm": 9.024411391952359e-07,
+            "width_mm": 0.2
+          }
+        ],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 0,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 9.024411253377646e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 1,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 9.024411253377646e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J16",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 0,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 9.024411253377646e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 31,
+            "net": "RCC_MCO_1",
+            "shape": "RoundRect",
+            "center_distance_mm": 6.161168718029841e-07
+          }
+        ],
+        "tracks": [
+          {
+            "index": 1477,
+            "kind": "line",
+            "net": "RCC_MCO_1",
+            "centerline_distance_mm": 3.6000000136482413e-07,
+            "width_mm": 0.2
+          }
+        ],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 28,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.161168884099237e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 32,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.161168884099237e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J17",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 28,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 6.161168884099237e-07
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 67,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.3059862366513689e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 73,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.3059862366513689e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J2",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 67,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.3059862366513689e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 122,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2795311807121104e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 128,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2795311807121104e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J3",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 122,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2795311807121104e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 23,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2553884003358127e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 26,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2553884003358127e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J4",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 23,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2553884003358127e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 93,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2336936581297134e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 99,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2336936581297134e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J5",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 93,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2336936581297134e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 79,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2145781266919235e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 85,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2145781266919235e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J6",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 79,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2145781266919235e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 108,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1981652770893268e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 114,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1981652770893268e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J7",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 108,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1981652770893268e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 35,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1845674461116514e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 39,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1845674461116514e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J8",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 35,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.1845674461116514e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "1",
+        "pad_primitive_id": "e1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 101,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.173882457957975e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": true,
+        "covered": false,
+        "flashes": [],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 107,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.173882457957975e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "J9",
+        "pad_number": "2",
+        "pad_primitive_id": "e2",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "present",
+        "matches_component_flash_expectation": true,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 101,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.173882457957975e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U5",
+        "pad_number": "25",
+        "pad_primitive_id": "e25",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 86,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.5367498242895512e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U5",
+        "pad_number": "25",
+        "pad_primitive_id": "e25",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 42,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.5367498242895512e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U5",
+        "pad_number": "25",
+        "pad_primitive_id": "e25",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 92,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.5367498242895512e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U5",
+        "pad_number": "25",
+        "pad_primitive_id": "e25",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 86,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.5367498242895512e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U7",
+        "pad_number": "33",
+        "pad_primitive_id": "e33",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 4,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2902712973765723e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U7",
+        "pad_number": "33",
+        "pad_primitive_id": "e33",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 0,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2902712973765723e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U7",
+        "pad_number": "33",
+        "pad_primitive_id": "e33",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 5,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2902712973765723e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      },
+      {
+        "reference": "U7",
+        "pad_number": "33",
+        "pad_primitive_id": "e33",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "expected": "absent",
+        "matches_component_flash_expectation": false,
+        "covered": true,
+        "flashes": [
+          {
+            "index": 4,
+            "net": "GND",
+            "shape": "C",
+            "center_distance_mm": 1.2902712973765723e-06
+          }
+        ],
+        "tracks": [],
+        "regions": []
+      }
+    ]
+  },
+  "plated_hole_plane_clearance": {
+    "count": 76,
+    "matched_fill_ids": {
+      "41fd0322eb2cc785": {
+        "layer_name": "In2.Cu",
+        "region_index": 1,
+        "bbox_max_delta_mil": 5.0393701258144574e-05,
+        "net_old": "+3V3"
+      },
+      "5ab25a99505bd60c": {
+        "layer_name": "In2.Cu",
+        "region_index": 5,
+        "bbox_max_delta_mil": 3.858267700707074e-05,
+        "net_old": "3V3_USB"
+      },
+      "b99d5f8f2cae6046": {
+        "layer_name": "In3.Cu",
+        "region_index": 18,
+        "bbox_max_delta_mil": 5.0393701258144574e-05,
+        "net_old": "GND"
+      },
+      "ef12098577a13cc7": {
+        "layer_name": "In4.Cu",
+        "region_index": 1,
+        "bbox_max_delta_mil": 5.0393701258144574e-05,
+        "net_old": "GND"
+      },
+      "f9e70adc3ac35fbd": {
+        "layer_name": "In1.Cu",
+        "region_index": 1,
+        "bbox_max_delta_mil": 5.0393701258144574e-05,
+        "net_old": "GND"
+      }
+    },
+    "minimum_hole_edge_clearance_mm": 0.24795804879026895,
+    "maximum_hole_edge_clearance_mm": 0.39795934000000543,
+    "minimum_hole_edge_clearance_mil": 9.762127905128699,
+    "maximum_hole_edge_clearance_mil": 15.667690551181316,
+    "native_drc_display_requirement": ">= 6mil",
+    "native_drc_required_mm_values": [
+      0.15200122
+    ],
+    "all_conservative_clearances_exceed_native_requirement": true,
+    "rows": [
+      {
+        "global_index": "err2074",
+        "reference": "J2",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J2-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984522530875,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049845365308754,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795845365308755,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595723365308756
+      },
+      {
+        "global_index": "err2075",
+        "reference": "J2",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498452253121,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049845365312107,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795845365312108,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595723365312109
+      },
+      {
+        "global_index": "err2076",
+        "reference": "J3",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J3-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985111000906,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504985125000906,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479585125000906,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595729250009061
+      },
+      {
+        "global_index": "err2077",
+        "reference": "J3",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985111000961,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049851250009614,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795851250009615,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595729250009616
+      },
+      {
+        "global_index": "err2078",
+        "reference": "J4",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J4-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986653344092,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049866673440924,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795866673440925,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595744673440926
+      },
+      {
+        "global_index": "err2079",
+        "reference": "J4",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986653344237,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049866673442367,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795866673442368,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595744673442369
+      },
+      {
+        "global_index": "err2080",
+        "reference": "J5",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J5-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498426081967,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049842748196693,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795842748196695,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595720748196696
+      },
+      {
+        "global_index": "err2081",
+        "reference": "J5",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985758389673,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504985772389673,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479585772389673,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595735723896731
+      },
+      {
+        "global_index": "err2082",
+        "reference": "J6",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J6-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984874554876,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049848885548764,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795848885548766,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595726885548767
+      },
+      {
+        "global_index": "err2083",
+        "reference": "J6",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985814412728,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504985828412728,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479585828412728,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595736284127282
+      },
+      {
+        "global_index": "err2084",
+        "reference": "J7",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J7-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498734216965,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504987356169649,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479587356169649,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595751561696492
+      },
+      {
+        "global_index": "err2085",
+        "reference": "J7",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987342169784,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049873561697844,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795873561697845,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595751561697846
+      },
+      {
+        "global_index": "err2086",
+        "reference": "J8",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J8-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498671659402,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.250498673059402,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.247958673059402,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595745305940201
+      },
+      {
+        "global_index": "err2087",
+        "reference": "J8",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987571778303,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504987585778303,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795875857783034,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595753857783035
+      },
+      {
+        "global_index": "err2088",
+        "reference": "J9",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J9-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986833649385,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049868476493853,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795868476493854,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595746476493855
+      },
+      {
+        "global_index": "err2089",
+        "reference": "J9",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987783951333,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049877979513335,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795877979513337,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595755979513337
+      },
+      {
+        "global_index": "err2090",
+        "reference": "J10",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J10-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987642199616,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049876561996165,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795876561996166,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595754561996167
+      },
+      {
+        "global_index": "err2091",
+        "reference": "J10",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004988030995496,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049880449954964,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795880449954966,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595758449954966
+      },
+      {
+        "global_index": "err2092",
+        "reference": "J11",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "Net-(J11-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498751514838,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049875291483803,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795875291483804,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595753291483805
+      },
+      {
+        "global_index": "err2093",
+        "reference": "J11",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987025180916,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504987039180916,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479587039180916,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595748391809161
+      },
+      {
+        "global_index": "err2094",
+        "reference": "J12",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "TIM1_CH1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987761227178,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049877752271776,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795877752271778,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595755752271778
+      },
+      {
+        "global_index": "err2095",
+        "reference": "J12",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987761227428,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049877752274285,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795877752274287,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595755752274288
+      },
+      {
+        "global_index": "err2096",
+        "reference": "J13",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "TIM2_CH2",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004988349697068,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504988363697068,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795883636970684,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595761636970684
+      },
+      {
+        "global_index": "err2097",
+        "reference": "J13",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004994599999861,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049946139998613,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795946139998615,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595824139998615
+      },
+      {
+        "global_index": "err2098",
+        "reference": "J14",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "TIM4_CH4",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004989526636572,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504989540636572,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479589540636572,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595773406365721
+      },
+      {
+        "global_index": "err2099",
+        "reference": "J14",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004989526636627,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049895406366274,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795895406366275,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595773406366276
+      },
+      {
+        "global_index": "err2100",
+        "reference": "J15",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "TIM8_CH3",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004995000000179,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049950140001787,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795950140001788,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595828140001789
+      },
+      {
+        "global_index": "err2101",
+        "reference": "J15",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004988938166877,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049889521668767,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795889521668768,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595767521668769
+      },
+      {
+        "global_index": "err2102",
+        "reference": "J16",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "DAC1_OUT1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004991200000006,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049912140000063,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795912140000065,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595790140000066
+      },
+      {
+        "global_index": "err2103",
+        "reference": "J16",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004991200000148,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049912140001485,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795912140001486,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595790140001487
+      },
+      {
+        "global_index": "err2104",
+        "reference": "J17",
+        "pad_number": "1",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "RCC_MCO_1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004990115106462,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049901291064625,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795901291064626,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595779291064627
+      },
+      {
+        "global_index": "err2105",
+        "reference": "J17",
+        "pad_number": "2",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004994999999894,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049950139998944,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795950139998946,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595828139998946
+      },
+      {
+        "global_index": "err2106",
+        "reference": "U5",
+        "pad_number": "25",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "41fd0322eb2cc785",
+        "fill_net": "+3V3",
+        "pad_net": "GND",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 0.5504990400000054,
+        "plated_hole_radius_mm": 0.14999969999999999,
+        "hole_edge_to_source_region_boundary_mm": 0.4004993400000054,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.39795934000000543,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.24595812000000544
+      },
+      {
+        "global_index": "err2120",
+        "reference": "J2",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J2-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498601426127,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.250498602826127,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795860282612703,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595738282612704
+      },
+      {
+        "global_index": "err2121",
+        "reference": "J3",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J3-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985111000906,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504985125000906,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479585125000906,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595729250009061
+      },
+      {
+        "global_index": "err2122",
+        "reference": "J4",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J4-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984377034947,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504984391034947,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479584391034947,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.0959572191034947
+      },
+      {
+        "global_index": "err2123",
+        "reference": "J5",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J5-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004983426312262,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049834403122617,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795834403122619,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595712403122619
+      },
+      {
+        "global_index": "err2124",
+        "reference": "J6",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J6-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984874554876,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049848885548764,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795848885548766,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595726885548767
+      },
+      {
+        "global_index": "err2125",
+        "reference": "J7",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J7-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004988018788663,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504988032788663,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795880327886632,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595758327886633
+      },
+      {
+        "global_index": "err2126",
+        "reference": "J8",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J8-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985918755038,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049859327550383,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795859327550385,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595737327550385
+      },
+      {
+        "global_index": "err2127",
+        "reference": "J9",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J9-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986833649385,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049868476493853,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795868476493854,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595746476493855
+      },
+      {
+        "global_index": "err2128",
+        "reference": "J10",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J10-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.00049880309951,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504988044995099,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479588044995099,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595758449950992
+      },
+      {
+        "global_index": "err2129",
+        "reference": "J11",
+        "pad_number": "1",
+        "native_layer_id": 17,
+        "gerber_layer": "In3.Cu",
+        "fill_id": "b99d5f8f2cae6046",
+        "fill_net": "GND",
+        "pad_net": "Net-(J11-In)",
+        "region_index": 18,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987067760283,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049870817602826,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795870817602828,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595748817602828
+      },
+      {
+        "global_index": "err2042",
+        "reference": "J2",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J2-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984522530875,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049845365308754,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795845365308755,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595723365308756
+      },
+      {
+        "global_index": "err2043",
+        "reference": "J3",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J3-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985111000906,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504985125000906,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479585125000906,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595729250009061
+      },
+      {
+        "global_index": "err2044",
+        "reference": "J4",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J4-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986305464958,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504986319464958,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479586319464958,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595741194649582
+      },
+      {
+        "global_index": "err2045",
+        "reference": "J5",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J5-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498047390269,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049804879026893,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795804879026895,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595682879026896
+      },
+      {
+        "global_index": "err2046",
+        "reference": "J6",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J6-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984874554876,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049848885548764,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795848885548766,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595726885548767
+      },
+      {
+        "global_index": "err2047",
+        "reference": "J7",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J7-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498734216965,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504987356169649,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479587356169649,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595751561696492
+      },
+      {
+        "global_index": "err2048",
+        "reference": "J8",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J8-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985918755038,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049859327550383,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795859327550385,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595737327550385
+      },
+      {
+        "global_index": "err2049",
+        "reference": "J9",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J9-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986833649385,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049868476493853,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795868476493854,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595746476493855
+      },
+      {
+        "global_index": "err2050",
+        "reference": "J10",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J10-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987642199616,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049876561996165,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795876561996166,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595754561996167
+      },
+      {
+        "global_index": "err2051",
+        "reference": "J11",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "Net-(J11-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987067760283,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049870817602826,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795870817602828,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595748817602828
+      },
+      {
+        "global_index": "err2052",
+        "reference": "J12",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "TIM1_CH1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987761227178,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049877752271776,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795877752271778,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595755752271778
+      },
+      {
+        "global_index": "err2053",
+        "reference": "J13",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "TIM2_CH2",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004988349697068,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504988363697068,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795883636970684,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595761636970684
+      },
+      {
+        "global_index": "err2054",
+        "reference": "J14",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "TIM4_CH4",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004989526636572,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504989540636572,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479589540636572,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595773406365721
+      },
+      {
+        "global_index": "err2055",
+        "reference": "J15",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "TIM8_CH3",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004995000000179,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049950140001787,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795950140001788,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595828140001789
+      },
+      {
+        "global_index": "err2056",
+        "reference": "J16",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "DAC1_OUT1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004991200000006,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049912140000063,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795912140000065,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595790140000066
+      },
+      {
+        "global_index": "err2057",
+        "reference": "J17",
+        "pad_number": "1",
+        "native_layer_id": 15,
+        "gerber_layer": "In1.Cu",
+        "fill_id": "f9e70adc3ac35fbd",
+        "fill_net": "GND",
+        "pad_net": "RCC_MCO_1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004990115106462,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049901291064625,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795901291064626,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595779291064627
+      },
+      {
+        "global_index": "err2146",
+        "reference": "J2",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J2-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984522530875,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049845365308754,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795845365308755,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595723365308756
+      },
+      {
+        "global_index": "err2147",
+        "reference": "J3",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J3-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985111000906,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504985125000906,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479585125000906,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595729250009061
+      },
+      {
+        "global_index": "err2148",
+        "reference": "J4",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J4-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986305464958,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504986319464958,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479586319464958,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595741194649582
+      },
+      {
+        "global_index": "err2149",
+        "reference": "J5",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J5-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498047390269,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049804879026893,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795804879026895,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595682879026896
+      },
+      {
+        "global_index": "err2150",
+        "reference": "J6",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J6-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004984874554876,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049848885548764,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795848885548766,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595726885548767
+      },
+      {
+        "global_index": "err2151",
+        "reference": "J7",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J7-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.000498734216965,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504987356169649,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479587356169649,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595751561696492
+      },
+      {
+        "global_index": "err2152",
+        "reference": "J8",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J8-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004985918755038,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049859327550383,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795859327550385,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595737327550385
+      },
+      {
+        "global_index": "err2153",
+        "reference": "J9",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J9-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004986833649385,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049868476493853,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795868476493854,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595746476493855
+      },
+      {
+        "global_index": "err2154",
+        "reference": "J10",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J10-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987642199616,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049876561996165,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795876561996166,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595754561996167
+      },
+      {
+        "global_index": "err2155",
+        "reference": "J11",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "Net-(J11-In)",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987067760283,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049870817602826,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795870817602828,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595748817602828
+      },
+      {
+        "global_index": "err2156",
+        "reference": "J12",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "TIM1_CH1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004987761227178,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049877752271776,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795877752271778,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595755752271778
+      },
+      {
+        "global_index": "err2157",
+        "reference": "J13",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "TIM2_CH2",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004988349697068,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504988363697068,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795883636970684,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595761636970684
+      },
+      {
+        "global_index": "err2158",
+        "reference": "J14",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "TIM4_CH4",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004989526636572,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.2504989540636572,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.2479589540636572,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595773406365721
+      },
+      {
+        "global_index": "err2159",
+        "reference": "J15",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "TIM8_CH3",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004995000000179,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049950140001787,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795950140001788,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595828140001789
+      },
+      {
+        "global_index": "err2160",
+        "reference": "J16",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "DAC1_OUT1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004991200000006,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049912140000063,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795912140000065,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595790140000066
+      },
+      {
+        "global_index": "err2161",
+        "reference": "J17",
+        "pad_number": "1",
+        "native_layer_id": 18,
+        "gerber_layer": "In4.Cu",
+        "fill_id": "ef12098577a13cc7",
+        "fill_net": "GND",
+        "pad_net": "RCC_MCO_1",
+        "region_index": 1,
+        "region_bbox_match_max_delta_mil": 5.0393701258144574e-05,
+        "center_to_source_region_boundary_mm": 1.0004990115106462,
+        "plated_hole_radius_mm": 0.7499999986,
+        "hole_edge_to_source_region_boundary_mm": 0.25049901291064625,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.24795901291064626,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.09595779291064627
+      },
+      {
+        "global_index": "err2107",
+        "reference": "U7",
+        "pad_number": "33",
+        "native_layer_id": 16,
+        "gerber_layer": "In2.Cu",
+        "fill_id": "5ab25a99505bd60c",
+        "fill_net": "3V3_USB",
+        "pad_net": "GND",
+        "region_index": 5,
+        "region_bbox_match_max_delta_mil": 3.858267700707074e-05,
+        "center_to_source_region_boundary_mm": 0.5504983136144515,
+        "plated_hole_radius_mm": 0.14999969999999999,
+        "hole_edge_to_source_region_boundary_mm": 0.4004986136144515,
+        "native_fill_half_width_mm": 0.00254,
+        "conservative_hole_edge_clearance_mm": 0.3979586136144515,
+        "native_drc_required_mm": 0.15200122,
+        "margin_over_native_requirement_mm": 0.2459573936144515
+      }
+    ]
+  },
+  "candidate_scope": {
+    "target_references": [
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "J7",
+      "J8",
+      "J9",
+      "J10",
+      "J11",
+      "J12",
+      "J13",
+      "J14",
+      "J15",
+      "J16",
+      "J17"
+    ],
+    "target_footprints": 16,
+    "target_pad_records": 32,
+    "zero_clearance_errors_addressed_by_scope": 74,
+    "withheld_references": [
+      "U5",
+      "U7"
+    ],
+    "withheld_zero_clearance_errors": 2,
+    "withheld_reason": "U5/U7 exposed-pad drilled features are not included. The comprehensive raw Gerber scan found a same-net GND circular flash at each centre on all four inner layers, contradicting the component-footprint absent-flash heuristic. Their inner annuli must therefore be preserved pending a separate review.",
+    "only_field_changed": "PAD.body.unusedInnerLayers",
+    "protected_fields": [
+      "hole",
+      "plated",
+      "defaultPad",
+      "specialPad",
+      "num",
+      "netName",
+      "centerX",
+      "centerY",
+      "padAngle",
+      "padOffsetX",
+      "padOffsetY",
+      "relativeAngle"
+    ],
+    "candidates": [
+      {
+        "reference": "J2",
+        "footprint_uuid": "1a275103229cd0ed",
+        "title": "J2_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J2_1a275103229cd0ed.epru",
+        "candidate_sha256": "9b4ec481e24086728b06486c7f2aa0e143f8fbfa6a16af9d1acfacd8a8ca68b8",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J3",
+        "footprint_uuid": "afd1e7eaea1c6d0b",
+        "title": "J3_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J3_afd1e7eaea1c6d0b.epru",
+        "candidate_sha256": "a1e31120d0a31075eea60fc6df82351e2643b1b0f71b86085346a70fd8837a57",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J4",
+        "footprint_uuid": "3efe64435dd88760",
+        "title": "J4_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J4_3efe64435dd88760.epru",
+        "candidate_sha256": "209c2493d6a9312d2f8eb4eb91bd17c68744d9cba015b75bcb91cc9290d7f718",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J5",
+        "footprint_uuid": "420752e0b7dd516b",
+        "title": "J5_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J5_420752e0b7dd516b.epru",
+        "candidate_sha256": "f9cec9a30eeac696ed7acfc8efd02bf8ce7e8c7b7a04c4c1dc7ea187047e8d41",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J6",
+        "footprint_uuid": "6cc742d2e9f6287b",
+        "title": "J6_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J6_6cc742d2e9f6287b.epru",
+        "candidate_sha256": "a64c197e3c25178d474258dc081abb8e315f9539977336a49901bad126cc28c3",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J7",
+        "footprint_uuid": "456e5ebcec73f244",
+        "title": "J7_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J7_456e5ebcec73f244.epru",
+        "candidate_sha256": "058085b4da3daf0cc2a014e40e29f52836fb7ab55191e754359c49b2f533e4e2",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J8",
+        "footprint_uuid": "af0f2c62672d4563",
+        "title": "J8_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J8_af0f2c62672d4563.epru",
+        "candidate_sha256": "34f0d41df2692319195b70a14c51dae36806e09246fff939fd54a404f3f3b61c",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J9",
+        "footprint_uuid": "99bc905658c65075",
+        "title": "J9_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J9_99bc905658c65075.epru",
+        "candidate_sha256": "35bc876f38be209cc23477d7d9608b727af2f03cf307aaf6f52712008b0a00f5",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J10",
+        "footprint_uuid": "819dad664d54a2aa",
+        "title": "J10_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J10_819dad664d54a2aa.epru",
+        "candidate_sha256": "5fdee97391387e4e65c9a2ea2f49787df813af5d78dd4c34375b3f22f40fe789",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J11",
+        "footprint_uuid": "247603e988790c9b",
+        "title": "J11_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J11_247603e988790c9b.epru",
+        "candidate_sha256": "61aafee6e37f346950f0b10a9b05defb419a7f4e0e9e867cdd9c323c692973a7",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              -100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J12",
+        "footprint_uuid": "4767d4db118c9e30",
+        "title": "J12_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J12_4767d4db118c9e30.epru",
+        "candidate_sha256": "db325f45223f1b69ae0ff36fac06185807da179a8f53e2f779d498f3f0be8770",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              100,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J13",
+        "footprint_uuid": "728a108305576e94",
+        "title": "J13_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J13_728a108305576e94.epru",
+        "candidate_sha256": "1c44f458091293d0bccf527aa5e131ebaf61dd5dfcfd72f62eea7aa521375d62",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              100,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J14",
+        "footprint_uuid": "133a56f0204e267d",
+        "title": "J14_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J14_133a56f0204e267d.epru",
+        "candidate_sha256": "581cfcebaba59538cbbe932e493d09d9fb7e154486f2f667fff4200262cae5a1",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              100,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J15",
+        "footprint_uuid": "93edcf417121fbf5",
+        "title": "J15_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J15_93edcf417121fbf5.epru",
+        "candidate_sha256": "0524d4ed765af4f27f1b190e8766de1037ca520c1a525442cb0107d5efbec221",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              100,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J16",
+        "footprint_uuid": "ca34008aa681bcb9",
+        "title": "J16_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J16_ca34008aa681bcb9.epru",
+        "candidate_sha256": "e64ddb61bb60e34eca4b1c5072ba69903e94acd053c1885372d4a8149a847f4a",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              -100,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "J17",
+        "footprint_uuid": "d6f78b7294940c71",
+        "title": "J17_2_CustomLibrary:CON_SMA_RA",
+        "candidate_path": "output\\native-libraries\\unused-inner-layer-pad-candidates\\J17_d6f78b7294940c71.epru",
+        "candidate_sha256": "40e1501bb08e1a70ef90413df8ccf5fdc278edfd61c750b4ddf95993c3b9167f",
+        "record_count": 29,
+        "modified_record_count": 2,
+        "modifications": [
+          {
+            "record_id": "e1",
+            "ticket": 24,
+            "pad_number": "1",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              15,
+              16,
+              18
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "RECT",
+              "width": 90.551181,
+              "height": 90.551181,
+              "radius": 7.877953
+            },
+            "special_pad": [],
+            "center_mil": [
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "e2",
+            "ticket": 25,
+            "pad_number": "2",
+            "before_unused_inner_layers": [],
+            "after_unused_inner_layers": [
+              16
+            ],
+            "plated": true,
+            "hole": {
+              "holeType": "ROUND",
+              "width": 59.055118,
+              "height": 59.055118
+            },
+            "default_pad": {
+              "padType": "ELLIPSE",
+              "width": 98.425197,
+              "height": 98.425197
+            },
+            "special_pad": [],
+            "center_mil": [
+              100,
+              100
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "application_gates": [
+    "Do not apply through the public primitive wrapper; it has no unusedInnerLayers setter.",
+    "Use each full checkpoint-derived FOOTPRINT source and preserve every non-target record.",
+    "Verify project/name guard and create a recoverable checkpoint before any library write.",
+    "After applying, clear/reload footprint and PCB caches before judging instantiated pads.",
+    "Export a new full checkpoint and prove only the 32 PAD arrays changed.",
+    "Run native DRC: the 74 connector Fill Region-to-TH Pad zero-clearance errors should disappear, while hole clearance checks must remain active.",
+    "Do not infer manufacturing approval; all remaining clearance/connection errors still block release."
+  ]
+}

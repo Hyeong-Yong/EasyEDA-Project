@@ -1,0 +1,8280 @@
+{
+  "schema": "stm32h747-reference-netlist-v1",
+  "source": {
+    "path": "output/semantic/schematic-pages-2-6.json",
+    "sha256": "eb7db33c5de8233ca05d99b38b4d28a7b8e38a07f4e3cf594838181041b837a8",
+    "semantic_schema": "techlabs-kicad-pdf-semantic-extraction-v1",
+    "authority": "latest schematic PDF pages 2-6 plus strict physical-pad validation"
+  },
+  "conventions": {
+    "identity": [
+      "ref",
+      "number"
+    ],
+    "record_fields": [
+      "ref",
+      "number",
+      "net",
+      "page",
+      "no_connect"
+    ],
+    "ref": "base physical reference; multipart units are consolidated",
+    "number": "physical footprint pad/pin number serialized as a string",
+    "net": "exact latest-PDF net name; null only for explicitly unconnected pins",
+    "page": "rebuilt schematic page 1-5 after removing PDF cover page 1",
+    "no_connect": "true for blue-X, intrinsic-NC, or deliberate DNP-disconnected pin",
+    "power_symbols_excluded": true
+  },
+  "page_map": [
+    {
+      "page": 1,
+      "source_pdf_page": 2,
+      "sheet_name": "mcu"
+    },
+    {
+      "page": 2,
+      "source_pdf_page": 3,
+      "sheet_name": "mcu_vcc"
+    },
+    {
+      "page": 3,
+      "source_pdf_page": 4,
+      "sheet_name": "memory"
+    },
+    {
+      "page": 4,
+      "source_pdf_page": 5,
+      "sheet_name": "enet"
+    },
+    {
+      "page": 5,
+      "source_pdf_page": 6,
+      "sheet_name": "adc"
+    }
+  ],
+  "counts": {
+    "physical_component_count": 330,
+    "physical_pin_count": 1167,
+    "connected_pin_count": 1057,
+    "no_connect_pin_count": 110,
+    "unique_net_count": 279,
+    "electrical_state_counts": {
+      "connected": 1057,
+      "intrinsic_nc": 15,
+      "no_connect_marker": 95
+    },
+    "per_page": [
+      {
+        "page": 1,
+        "source_pdf_page": 2,
+        "sheet_name": "mcu",
+        "physical_pin_count": 359,
+        "connected_pin_count": 281,
+        "no_connect_pin_count": 78
+      },
+      {
+        "page": 2,
+        "source_pdf_page": 3,
+        "sheet_name": "mcu_vcc",
+        "physical_pin_count": 205,
+        "connected_pin_count": 204,
+        "no_connect_pin_count": 1
+      },
+      {
+        "page": 3,
+        "source_pdf_page": 4,
+        "sheet_name": "memory",
+        "physical_pin_count": 118,
+        "connected_pin_count": 113,
+        "no_connect_pin_count": 5
+      },
+      {
+        "page": 4,
+        "source_pdf_page": 5,
+        "sheet_name": "enet",
+        "physical_pin_count": 327,
+        "connected_pin_count": 301,
+        "no_connect_pin_count": 26
+      },
+      {
+        "page": 5,
+        "source_pdf_page": 6,
+        "sheet_name": "adc",
+        "physical_pin_count": 158,
+        "connected_pin_count": 158,
+        "no_connect_pin_count": 0
+      }
+    ]
+  },
+  "pins": [
+    {
+      "ref": "C1",
+      "number": "1",
+      "net": "Net-(C1-Pad1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C1",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C2",
+      "number": "1",
+      "net": "Net-(C2-Pad1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C2",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C3",
+      "number": "1",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C3",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C4",
+      "number": "1",
+      "net": "Net-(D1-K)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C4",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "C5",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C5",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C6",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C6",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C7",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C7",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C8",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C8",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C9",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C9",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C10",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C10",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C11",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C11",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C12",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C12",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C13",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C13",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C14",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C14",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C15",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C15",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C16",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C16",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C17",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C17",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C18",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C18",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C19",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C19",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C20",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C20",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C21",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C21",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C22",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C22",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C23",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C23",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C24",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C24",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C25",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C25",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C26",
+      "number": "1",
+      "net": "Net-(U1D-VDDSMPS)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C26",
+      "number": "2",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C27",
+      "number": "1",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C27",
+      "number": "2",
+      "net": "Net-(U1D-VLXSMPS)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C28",
+      "number": "1",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C28",
+      "number": "2",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C29",
+      "number": "1",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C29",
+      "number": "2",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C30",
+      "number": "1",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C30",
+      "number": "2",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C31",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C31",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C32",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C32",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C33",
+      "number": "1",
+      "net": "Net-(U1D-VCAPDSI)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C33",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C34",
+      "number": "1",
+      "net": "Net-(U1D-VDDA)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C34",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C35",
+      "number": "1",
+      "net": "Net-(U1D-VDDA)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C35",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C36",
+      "number": "1",
+      "net": "Net-(U1D-VREF+)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C36",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C37",
+      "number": "1",
+      "net": "Net-(U1D-VREF+)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C37",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C38",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C38",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C39",
+      "number": "1",
+      "net": "+1V8",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C39",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C40",
+      "number": "1",
+      "net": "+1V8",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C40",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C41",
+      "number": "1",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C41",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C42",
+      "number": "1",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C42",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C43",
+      "number": "1",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C43",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C44",
+      "number": "1",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C44",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C45",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C45",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C46",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C46",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C47",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C47",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "C48",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C48",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C49",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C49",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C50",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C50",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C51",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C51",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C52",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C52",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C53",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C53",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C54",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C54",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C55",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C55",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C56",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C56",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C57",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C57",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C58",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C58",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C59",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C59",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C60",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C60",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C61",
+      "number": "1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C61",
+      "number": "2",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "C62",
+      "number": "1",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C62",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C63",
+      "number": "1",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C63",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C64",
+      "number": "1",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C64",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C65",
+      "number": "1",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C65",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C66",
+      "number": "1",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C66",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C67",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C67",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C68",
+      "number": "1",
+      "net": "Net-(U5-VDDCR)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C68",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C69",
+      "number": "1",
+      "net": "Net-(U5-VDDCR)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C69",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C70",
+      "number": "1",
+      "net": "Net-(C70-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C70",
+      "number": "2",
+      "net": "Earth_P",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C71",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C71",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C72",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C72",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C73",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C73",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C74",
+      "number": "1",
+      "net": "+1V8",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C74",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C75",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C75",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C76",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C76",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "C80",
+      "number": "1",
+      "net": "ADC1_INP0",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C80",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C81",
+      "number": "1",
+      "net": "ADC1_INP1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C81",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C82",
+      "number": "1",
+      "net": "ADC1_INP16",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C82",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C86",
+      "number": "1",
+      "net": "ADC2_INP3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C86",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C87",
+      "number": "1",
+      "net": "ADC2_INP12",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C87",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C88",
+      "number": "1",
+      "net": "ADC2_INP13",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C88",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C93",
+      "number": "1",
+      "net": "ADC3_INP2",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C93",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C94",
+      "number": "1",
+      "net": "ADC3_INP6",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C94",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C95",
+      "number": "1",
+      "net": "ADC3_INP7",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C95",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C96",
+      "number": "1",
+      "net": "ADC3_INP8",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "C96",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "CN1",
+      "number": "1",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "CN1",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "CN1",
+      "number": "3",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "CN1",
+      "number": "5",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "CN1",
+      "number": "6",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "1",
+      "net": "Net-(CN2-TX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "2",
+      "net": "Net-(CN2-TX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "3",
+      "net": "Net-(CN2-RX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "4",
+      "net": "Net-(CN2-NC-Pad4)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "5",
+      "net": "Net-(CN2-NC-Pad4)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "6",
+      "net": "Net-(CN2-RX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "7",
+      "net": "Net-(CN2-NC-Pad7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "8",
+      "net": "Net-(CN2-NC-Pad7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "9",
+      "net": "Net-(CN2-LED(Yellow)_K)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "10",
+      "net": "Net-(CN2-LED(Yellow)_A)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "11",
+      "net": "Net-(CN2-LED(Green)_K)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "12",
+      "net": "ETH_nINT",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "13",
+      "net": "Earth_P",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN2",
+      "number": "14",
+      "net": "Earth_P",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "A1_B12",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "A4_B9",
+      "net": "Net-(TVS2-VBUS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "A5",
+      "net": "Net-(CN3-CC1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "A6",
+      "net": "Net-(CN3-D+-PadA6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "A7",
+      "net": "Net-(CN3-D--PadA7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "A8",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "CN3",
+      "number": "B1_A12",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "B4_A9",
+      "net": "Net-(TVS2-VBUS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "B5",
+      "net": "Net-(CN3-CC2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "B6",
+      "net": "Net-(CN3-D+-PadA6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "B7",
+      "net": "Net-(CN3-D--PadA7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "B8",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "CN3",
+      "number": "S1",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "S2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "S3",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN3",
+      "number": "S4",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "A1_B12",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "A4_B9",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "CN4",
+      "number": "A5",
+      "net": "Net-(CN4-CC1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "A6",
+      "net": "Net-(CN4-D+-PadA6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "A7",
+      "net": "Net-(CN4-D--PadA7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "A8",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "CN4",
+      "number": "B1_A12",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "B4_A9",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "CN4",
+      "number": "B5",
+      "net": "Net-(CN4-CC2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "B6",
+      "net": "Net-(CN4-D+-PadA6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "B7",
+      "net": "Net-(CN4-D--PadA7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "B8",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "CN4",
+      "number": "S1",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "S2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "S3",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "CN4",
+      "number": "S4",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "D1",
+      "number": "1",
+      "net": "Net-(D1-K)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D1",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D2",
+      "number": "1",
+      "net": "/mcu/LED_01",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D2",
+      "number": "2",
+      "net": "Net-(D2-A)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D3",
+      "number": "1",
+      "net": "/mcu/LED_02",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D3",
+      "number": "2",
+      "net": "Net-(D3-A)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D4",
+      "number": "1",
+      "net": "/mcu/LED_03",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D4",
+      "number": "2",
+      "net": "Net-(D4-A)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "D5",
+      "number": "1",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "D5",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "D6",
+      "number": "1",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "D6",
+      "number": "2",
+      "net": "Net-(D6-A)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "FB1",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "FB1",
+      "number": "2",
+      "net": "Net-(U1D-VDDSMPS)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "FB2",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "FB2",
+      "number": "2",
+      "net": "Net-(U1D-VDDA)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "FB3",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "FB3",
+      "number": "2",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "J1",
+      "number": "1",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J1",
+      "number": "2",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J1",
+      "number": "3",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "J1",
+      "number": "4",
+      "net": "/mcu/DBG_SWDIO",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "J1",
+      "number": "5",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "J1",
+      "number": "6",
+      "net": "/mcu/DBG_SWCLK",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "J1",
+      "number": "7",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "J1",
+      "number": "8",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J1",
+      "number": "9",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J1",
+      "number": "10",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J1",
+      "number": "11",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J1",
+      "number": "12",
+      "net": "RESET#",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "J1",
+      "number": "13",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J1",
+      "number": "14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "J2",
+      "number": "1",
+      "net": "Net-(J2-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J2",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J3",
+      "number": "1",
+      "net": "Net-(J3-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J3",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J4",
+      "number": "1",
+      "net": "Net-(J4-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J4",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J5",
+      "number": "1",
+      "net": "Net-(J5-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J5",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J6",
+      "number": "1",
+      "net": "Net-(J6-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J6",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J7",
+      "number": "1",
+      "net": "Net-(J7-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J7",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J8",
+      "number": "1",
+      "net": "Net-(J8-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J8",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J9",
+      "number": "1",
+      "net": "Net-(J9-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J9",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J10",
+      "number": "1",
+      "net": "Net-(J10-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J10",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J11",
+      "number": "1",
+      "net": "Net-(J11-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J11",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J12",
+      "number": "1",
+      "net": "TIM1_CH1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J12",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J13",
+      "number": "1",
+      "net": "TIM2_CH2",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J13",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J14",
+      "number": "1",
+      "net": "TIM4_CH4",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J14",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J15",
+      "number": "1",
+      "net": "TIM8_CH3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J15",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J16",
+      "number": "1",
+      "net": "DAC1_OUT1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J16",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J17",
+      "number": "1",
+      "net": "RCC_MCO_1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J17",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "1",
+      "net": "SPI2_SCK",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "2",
+      "net": "SPI2_MOSI",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "3",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "4",
+      "net": "SPI2_SOFT_CSn",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "5",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "6",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "7",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "8",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "9",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "J18",
+      "number": "10",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "L1",
+      "number": "1",
+      "net": "Net-(U1D-VLXSMPS)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "L1",
+      "number": "2",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "Q1",
+      "number": "1",
+      "net": "Net-(Q1-B)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "Q1",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "Q1",
+      "number": "3",
+      "net": "Net-(Q1-C)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R1",
+      "number": "1",
+      "net": "Net-(U1B-PG0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R1",
+      "number": "2",
+      "net": "A10",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R2",
+      "number": "1",
+      "net": "Net-(U1B-PG1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R2",
+      "number": "2",
+      "net": "A11",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R3",
+      "number": "1",
+      "net": "ETH_nINT",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R3",
+      "number": "2",
+      "net": "Net-(U1B-PE2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R4",
+      "number": "1",
+      "net": "Net-(U1B-PG2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R4",
+      "number": "2",
+      "net": "A12",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R5",
+      "number": "1",
+      "net": "Net-(U1B-PG4)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R5",
+      "number": "2",
+      "net": "A14",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R6",
+      "number": "1",
+      "net": "Net-(U1B-PG5)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R6",
+      "number": "2",
+      "net": "A15",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R7",
+      "number": "1",
+      "net": "D4",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R7",
+      "number": "2",
+      "net": "Net-(U1B-PE7)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R8",
+      "number": "1",
+      "net": "D5",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R8",
+      "number": "2",
+      "net": "Net-(U1B-PE8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R9",
+      "number": "1",
+      "net": "Net-(U1B-PG8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R9",
+      "number": "2",
+      "net": "SDCLK",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R10",
+      "number": "1",
+      "net": "D6",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R10",
+      "number": "2",
+      "net": "Net-(U1B-PE9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R11",
+      "number": "1",
+      "net": "D7",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R11",
+      "number": "2",
+      "net": "Net-(U1B-PE10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R12",
+      "number": "1",
+      "net": "D8",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R12",
+      "number": "2",
+      "net": "Net-(U1B-PE11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R13",
+      "number": "1",
+      "net": "Net-(U1B-PG11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R13",
+      "number": "2",
+      "net": "RMII_TX_EN",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R14",
+      "number": "1",
+      "net": "D9",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R14",
+      "number": "2",
+      "net": "Net-(U1B-PE12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R15",
+      "number": "1",
+      "net": "Net-(U1B-PG12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R15",
+      "number": "2",
+      "net": "RMII_TXD1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R16",
+      "number": "1",
+      "net": "D10",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R16",
+      "number": "2",
+      "net": "Net-(U1B-PE13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R17",
+      "number": "1",
+      "net": "Net-(U1B-PG13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R17",
+      "number": "2",
+      "net": "RMII_TXD0",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R18",
+      "number": "1",
+      "net": "D11",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R18",
+      "number": "2",
+      "net": "Net-(U1B-PE14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R19",
+      "number": "1",
+      "net": "D12",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R19",
+      "number": "2",
+      "net": "Net-(U1B-PE15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R20",
+      "number": "1",
+      "net": "Net-(U1B-PG15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R20",
+      "number": "2",
+      "net": "SDNCAS",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R21",
+      "number": "1",
+      "net": "Net-(U1A-PC14-OSC32_IN)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R21",
+      "number": "2",
+      "net": "Net-(C2-Pad1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R22",
+      "number": "1",
+      "net": "A0",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R22",
+      "number": "2",
+      "net": "Net-(U1B-PF0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R23",
+      "number": "1",
+      "net": "Net-(U1A-PC15-OSC32_OUT)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R23",
+      "number": "2",
+      "net": "Net-(C1-Pad1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R24",
+      "number": "1",
+      "net": "A1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R24",
+      "number": "2",
+      "net": "Net-(U1B-PF1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R25",
+      "number": "1",
+      "net": "A2",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R25",
+      "number": "2",
+      "net": "Net-(U1B-PF2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R26",
+      "number": "1",
+      "net": "Net-(U1A-PD0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R26",
+      "number": "2",
+      "net": "D2",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R27",
+      "number": "1",
+      "net": "A3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R27",
+      "number": "2",
+      "net": "Net-(U1B-PF3)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R28",
+      "number": "1",
+      "net": "Net-(U1A-PD1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R28",
+      "number": "2",
+      "net": "D3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R29",
+      "number": "1",
+      "net": "A4",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R29",
+      "number": "2",
+      "net": "Net-(U1B-PF4)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R30",
+      "number": "1",
+      "net": "A5",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R30",
+      "number": "2",
+      "net": "Net-(U1B-PF5)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R31",
+      "number": "1",
+      "net": "Net-(U1B-PH5)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R31",
+      "number": "2",
+      "net": "SDNWE",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R32",
+      "number": "1",
+      "net": "Net-(U1B-PH6)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R32",
+      "number": "2",
+      "net": "SDNE1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R33",
+      "number": "1",
+      "net": "Net-(U1B-PH8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R33",
+      "number": "2",
+      "net": "D16",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R34",
+      "number": "1",
+      "net": "Net-(U1B-PH9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R34",
+      "number": "2",
+      "net": "D17",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R35",
+      "number": "1",
+      "net": "Net-(U1B-PH10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R35",
+      "number": "2",
+      "net": "D18",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R36",
+      "number": "1",
+      "net": "Net-(U1A-PD8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R36",
+      "number": "2",
+      "net": "D13",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R37",
+      "number": "1",
+      "net": "SDNRAS",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R37",
+      "number": "2",
+      "net": "Net-(U1B-PF11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R38",
+      "number": "1",
+      "net": "Net-(U1B-PH11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R38",
+      "number": "2",
+      "net": "D19",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R39",
+      "number": "1",
+      "net": "Net-(U1A-PD9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R39",
+      "number": "2",
+      "net": "D14",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R40",
+      "number": "1",
+      "net": "A6",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R40",
+      "number": "2",
+      "net": "Net-(U1B-PF12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R41",
+      "number": "1",
+      "net": "Net-(U1B-PH12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R41",
+      "number": "2",
+      "net": "D20",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R42",
+      "number": "1",
+      "net": "Net-(U1A-PD10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R42",
+      "number": "2",
+      "net": "D15",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R43",
+      "number": "1",
+      "net": "A7",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R43",
+      "number": "2",
+      "net": "Net-(U1B-PF13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R44",
+      "number": "1",
+      "net": "Net-(U1B-PH13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R44",
+      "number": "2",
+      "net": "D21",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R45",
+      "number": "1",
+      "net": "A8",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R45",
+      "number": "2",
+      "net": "Net-(U1B-PF14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R46",
+      "number": "1",
+      "net": "Net-(U1B-PH14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R46",
+      "number": "2",
+      "net": "D22",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R47",
+      "number": "1",
+      "net": "A9",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R47",
+      "number": "2",
+      "net": "Net-(U1B-PF15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R48",
+      "number": "1",
+      "net": "Net-(U1B-PH15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R48",
+      "number": "2",
+      "net": "D23",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R49",
+      "number": "1",
+      "net": "Net-(U1A-PD14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R49",
+      "number": "2",
+      "net": "D0",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R50",
+      "number": "1",
+      "net": "Net-(U1A-PD15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R50",
+      "number": "2",
+      "net": "D1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R51",
+      "number": "1",
+      "net": "OSC_25M",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R51",
+      "number": "2",
+      "net": "Net-(X1-OUT)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R52",
+      "number": "1",
+      "net": "/mcu/OSC_25M_IN",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R52",
+      "number": "2",
+      "net": "Net-(X1-OUT)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R53",
+      "number": "1",
+      "net": "Net-(X1-EN)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R53",
+      "number": "2",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R54",
+      "number": "1",
+      "net": "D24",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R54",
+      "number": "2",
+      "net": "Net-(U1C-PI0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R55",
+      "number": "1",
+      "net": "D25",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R55",
+      "number": "2",
+      "net": "Net-(U1C-PI1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R56",
+      "number": "1",
+      "net": "D26",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R56",
+      "number": "2",
+      "net": "Net-(U1C-PI2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R57",
+      "number": "1",
+      "net": "D27",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R57",
+      "number": "2",
+      "net": "Net-(U1C-PI3)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R58",
+      "number": "1",
+      "net": "D28",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R58",
+      "number": "2",
+      "net": "Net-(U1C-PI6)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R59",
+      "number": "1",
+      "net": "Net-(D1-K)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R59",
+      "number": "2",
+      "net": "RESET#",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R60",
+      "number": "1",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R60",
+      "number": "2",
+      "net": "Net-(U1C-PDR_ON)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R61",
+      "number": "1",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R61",
+      "number": "2",
+      "net": "Net-(U1C-BOOT0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R62",
+      "number": "1",
+      "net": "D29",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R62",
+      "number": "2",
+      "net": "Net-(U1C-PI7)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R63",
+      "number": "1",
+      "net": "D30",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R63",
+      "number": "2",
+      "net": "Net-(U1C-PI9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R64",
+      "number": "1",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R64",
+      "number": "2",
+      "net": "Net-(D1-K)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R65",
+      "number": "1",
+      "net": "D31",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R65",
+      "number": "2",
+      "net": "Net-(U1C-PI10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R66",
+      "number": "1",
+      "net": "Net-(U1C-PDR_ON)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R66",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R67",
+      "number": "1",
+      "net": "Net-(U1C-BOOT0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R67",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R68",
+      "number": "1",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R68",
+      "number": "2",
+      "net": "Net-(D2-A)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R69",
+      "number": "1",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R69",
+      "number": "2",
+      "net": "Net-(D3-A)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R70",
+      "number": "1",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R70",
+      "number": "2",
+      "net": "Net-(D4-A)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "R71",
+      "number": "1",
+      "net": "Net-(U1D-VDDA)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "R71",
+      "number": "2",
+      "net": "Net-(U1D-VREF+)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "R72",
+      "number": "1",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "R72",
+      "number": "2",
+      "net": "Net-(U3-EN)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "R73",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "R73",
+      "number": "2",
+      "net": "Net-(D6-A)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "R74",
+      "number": "1",
+      "net": "Net-(TR1-TX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R74",
+      "number": "2",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R75",
+      "number": "1",
+      "net": "Net-(TR1-TX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R75",
+      "number": "2",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R76",
+      "number": "1",
+      "net": "Net-(TR1-RX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R76",
+      "number": "2",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R77",
+      "number": "1",
+      "net": "Net-(TR1-RX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R77",
+      "number": "2",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R78",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R78",
+      "number": "2",
+      "net": "Net-(U5-~{INT}{slash}REFCLKO)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R79",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R79",
+      "number": "2",
+      "net": "Net-(U5-MDIO)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R80",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R80",
+      "number": "2",
+      "net": "Net-(U5-CRS_DV{slash}MODE2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R81",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R81",
+      "number": "2",
+      "net": "Net-(U5-RXD1{slash}MODE1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R82",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R82",
+      "number": "2",
+      "net": "Net-(U5-RXD0{slash}MODE0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R83",
+      "number": "1",
+      "net": "Net-(U5-RXD0{slash}MODE0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R83",
+      "number": "2",
+      "net": "RMII_RXD0",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R84",
+      "number": "1",
+      "net": "Net-(U5-RXD1{slash}MODE1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R84",
+      "number": "2",
+      "net": "RMII_RXD1",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R85",
+      "number": "1",
+      "net": "Net-(U5-RXER{slash}PHYAD0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R85",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R86",
+      "number": "1",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R86",
+      "number": "2",
+      "net": "Net-(U5-RBIAS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R87",
+      "number": "1",
+      "net": "Net-(U5-CRS_DV{slash}MODE2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R87",
+      "number": "2",
+      "net": "RMII_CRS_DV",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R88",
+      "number": "1",
+      "net": "Net-(C70-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R88",
+      "number": "2",
+      "net": "Net-(CN2-NC-Pad7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R89",
+      "number": "1",
+      "net": "Net-(C70-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R89",
+      "number": "2",
+      "net": "Net-(CN2-NC-Pad4)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R90",
+      "number": "1",
+      "net": "Net-(C70-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R90",
+      "number": "2",
+      "net": "Net-(TR1-C_TD)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R91",
+      "number": "1",
+      "net": "Net-(C70-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R91",
+      "number": "2",
+      "net": "Net-(TR1-C_RD)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R92",
+      "number": "1",
+      "net": "Net-(U5-MDIO)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R92",
+      "number": "2",
+      "net": "ETH_MDIO",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R93",
+      "number": "1",
+      "net": "Net-(U5-~{INT}{slash}REFCLKO)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R93",
+      "number": "2",
+      "net": "RMII_REF_CLK",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R94",
+      "number": "1",
+      "net": "Net-(CN2-LED(Green)_K)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R94",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R95",
+      "number": "1",
+      "net": "ETH_nINT",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R95",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R96",
+      "number": "1",
+      "net": "Net-(CN2-LED(Yellow)_K)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R96",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R97",
+      "number": "1",
+      "net": "Net-(CN2-LED(Yellow)_A)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R97",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R98",
+      "number": "1",
+      "net": "ETH_nINT",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R98",
+      "number": "2",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R99",
+      "number": "1",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R99",
+      "number": "2",
+      "net": "Earth_P",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R100",
+      "number": "1",
+      "net": "Net-(U7-NXT)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R100",
+      "number": "2",
+      "net": "ULPI_NXT",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R101",
+      "number": "1",
+      "net": "Net-(U7-DIR)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R101",
+      "number": "2",
+      "net": "ULPI_DIR",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R102",
+      "number": "1",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R102",
+      "number": "2",
+      "net": "Net-(U7-RBIAS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R103",
+      "number": "1",
+      "net": "Net-(U7-STP)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R103",
+      "number": "2",
+      "net": "ULPI_STP",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R104",
+      "number": "1",
+      "net": "Net-(U7-CLKOUT)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R104",
+      "number": "2",
+      "net": "ULPI_CK",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R105",
+      "number": "1",
+      "net": "Net-(R105-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R105",
+      "number": "2",
+      "net": "Net-(U7-DP)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R106",
+      "number": "1",
+      "net": "Net-(U7-D7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R106",
+      "number": "2",
+      "net": "ULPI_D7",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R107",
+      "number": "1",
+      "net": "Net-(R107-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R107",
+      "number": "2",
+      "net": "Net-(U7-DM)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R108",
+      "number": "1",
+      "net": "Net-(U7-D6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R108",
+      "number": "2",
+      "net": "ULPI_D6",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R109",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R109",
+      "number": "2",
+      "net": "Net-(U7-ID)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R110",
+      "number": "1",
+      "net": "Net-(U7-D5)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R110",
+      "number": "2",
+      "net": "ULPI_D5",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R111",
+      "number": "1",
+      "net": "Net-(U7-D4)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R111",
+      "number": "2",
+      "net": "ULPI_D4",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R112",
+      "number": "1",
+      "net": "Net-(U7-D3)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R112",
+      "number": "2",
+      "net": "ULPI_D3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R113",
+      "number": "1",
+      "net": "Net-(U7-D2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R113",
+      "number": "2",
+      "net": "ULPI_D2",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R114",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R114",
+      "number": "2",
+      "net": "Net-(U7-REFSEL0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R115",
+      "number": "1",
+      "net": "Net-(U7-D1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R115",
+      "number": "2",
+      "net": "ULPI_D1",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R116",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R116",
+      "number": "2",
+      "net": "Net-(U7-REFSEL1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R117",
+      "number": "1",
+      "net": "Net-(CN3-CC2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R117",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R118",
+      "number": "1",
+      "net": "Net-(CN3-CC1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R118",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R119",
+      "number": "1",
+      "net": "Net-(U7-D0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R119",
+      "number": "2",
+      "net": "ULPI_D0",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R120",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R120",
+      "number": "2",
+      "net": "Net-(U7-REFSEL2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R121",
+      "number": "1",
+      "net": "Net-(U7-REFCLK)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R121",
+      "number": "2",
+      "net": "Net-(X2-OUT)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R122",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R122",
+      "number": "2",
+      "net": "Net-(Q1-C)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R123",
+      "number": "1",
+      "net": "Net-(X2-EN)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R123",
+      "number": "2",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R124",
+      "number": "1",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R124",
+      "number": "2",
+      "net": "Net-(U7-RESETB)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R125",
+      "number": "1",
+      "net": "Net-(U7-RESETB)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R125",
+      "number": "2",
+      "net": "RESET#",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R126",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R126",
+      "number": "2",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R127",
+      "number": "1",
+      "net": "+1V8",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R127",
+      "number": "2",
+      "net": "Net-(Q1-B)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R128",
+      "number": "1",
+      "net": "Net-(R128-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R128",
+      "number": "2",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R129",
+      "number": "1",
+      "net": "Net-(U7-RESETB)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R129",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R130",
+      "number": "1",
+      "net": "Net-(Q1-B)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R130",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R131",
+      "number": "1",
+      "net": "UART_RX",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R131",
+      "number": "2",
+      "net": "/enet/VCP_TX",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R132",
+      "number": "1",
+      "net": "UART_TX",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R132",
+      "number": "2",
+      "net": "/enet/VCP_RX",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R133",
+      "number": "1",
+      "net": "Net-(R133-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R133",
+      "number": "2",
+      "net": "Net-(U8-UD+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R134",
+      "number": "1",
+      "net": "Net-(R134-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R134",
+      "number": "2",
+      "net": "Net-(U8-UD-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R135",
+      "number": "1",
+      "net": "Net-(CN4-CC2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R135",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R136",
+      "number": "1",
+      "net": "Net-(CN4-CC1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R136",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "R137",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R137",
+      "number": "2",
+      "net": "Net-(R137-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R138",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R138",
+      "number": "2",
+      "net": "Net-(R138-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R139",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R139",
+      "number": "2",
+      "net": "Net-(R139-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R140",
+      "number": "1",
+      "net": "Net-(J2-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R140",
+      "number": "2",
+      "net": "Net-(R137-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R141",
+      "number": "1",
+      "net": "Net-(R137-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R141",
+      "number": "2",
+      "net": "ADC1_INP0",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R142",
+      "number": "1",
+      "net": "Net-(J3-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R142",
+      "number": "2",
+      "net": "Net-(R138-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R143",
+      "number": "1",
+      "net": "Net-(R138-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R143",
+      "number": "2",
+      "net": "ADC1_INP1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R144",
+      "number": "1",
+      "net": "Net-(J4-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R144",
+      "number": "2",
+      "net": "Net-(R139-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R145",
+      "number": "1",
+      "net": "Net-(R139-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R145",
+      "number": "2",
+      "net": "ADC1_INP16",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R146",
+      "number": "1",
+      "net": "Net-(R137-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R146",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R147",
+      "number": "1",
+      "net": "Net-(R138-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R147",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R148",
+      "number": "1",
+      "net": "Net-(R139-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R148",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R149",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R149",
+      "number": "2",
+      "net": "Net-(R149-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R150",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R150",
+      "number": "2",
+      "net": "Net-(R150-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R151",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R151",
+      "number": "2",
+      "net": "Net-(R151-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R152",
+      "number": "1",
+      "net": "Net-(J5-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R152",
+      "number": "2",
+      "net": "Net-(R149-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R153",
+      "number": "1",
+      "net": "Net-(R149-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R153",
+      "number": "2",
+      "net": "ADC2_INP3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R154",
+      "number": "1",
+      "net": "Net-(J6-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R154",
+      "number": "2",
+      "net": "Net-(R150-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R155",
+      "number": "1",
+      "net": "Net-(R150-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R155",
+      "number": "2",
+      "net": "ADC2_INP12",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R156",
+      "number": "1",
+      "net": "Net-(J7-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R156",
+      "number": "2",
+      "net": "Net-(R151-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R157",
+      "number": "1",
+      "net": "Net-(R151-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R157",
+      "number": "2",
+      "net": "ADC2_INP13",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R158",
+      "number": "1",
+      "net": "Net-(R149-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R158",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R159",
+      "number": "1",
+      "net": "Net-(R150-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R159",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R160",
+      "number": "1",
+      "net": "Net-(R151-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R160",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R161",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R161",
+      "number": "2",
+      "net": "Net-(R161-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R162",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R162",
+      "number": "2",
+      "net": "Net-(R162-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R163",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R163",
+      "number": "2",
+      "net": "Net-(R163-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R164",
+      "number": "1",
+      "net": "+3V3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R164",
+      "number": "2",
+      "net": "Net-(R164-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R165",
+      "number": "1",
+      "net": "Net-(J8-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R165",
+      "number": "2",
+      "net": "Net-(R161-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R166",
+      "number": "1",
+      "net": "Net-(R161-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R166",
+      "number": "2",
+      "net": "ADC3_INP2",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R167",
+      "number": "1",
+      "net": "Net-(J9-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R167",
+      "number": "2",
+      "net": "Net-(R162-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R168",
+      "number": "1",
+      "net": "Net-(R162-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R168",
+      "number": "2",
+      "net": "ADC3_INP6",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R169",
+      "number": "1",
+      "net": "Net-(J10-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R169",
+      "number": "2",
+      "net": "Net-(R163-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R170",
+      "number": "1",
+      "net": "Net-(R163-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R170",
+      "number": "2",
+      "net": "ADC3_INP7",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R171",
+      "number": "1",
+      "net": "Net-(J11-In)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R171",
+      "number": "2",
+      "net": "Net-(R164-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R172",
+      "number": "1",
+      "net": "Net-(R164-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R172",
+      "number": "2",
+      "net": "ADC3_INP8",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R173",
+      "number": "1",
+      "net": "Net-(R161-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R173",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R174",
+      "number": "1",
+      "net": "Net-(R162-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R174",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R175",
+      "number": "1",
+      "net": "Net-(R163-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R175",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R176",
+      "number": "1",
+      "net": "Net-(R164-Pad2)",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "R176",
+      "number": "2",
+      "net": "GND",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "SW1",
+      "number": "1",
+      "net": "Net-(D1-K)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "SW1",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "TP1",
+      "number": "1",
+      "net": "ADC1_INP0",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP2",
+      "number": "1",
+      "net": "ADC1_INP1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP3",
+      "number": "1",
+      "net": "ADC1_INP16",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP4",
+      "number": "1",
+      "net": "ADC2_INP3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP5",
+      "number": "1",
+      "net": "ADC2_INP12",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP6",
+      "number": "1",
+      "net": "ADC2_INP13",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP7",
+      "number": "1",
+      "net": "ADC3_INP2",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP8",
+      "number": "1",
+      "net": "ADC3_INP6",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP9",
+      "number": "1",
+      "net": "ADC3_INP7",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP10",
+      "number": "1",
+      "net": "ADC3_INP8",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP11",
+      "number": "1",
+      "net": "TIM1_CH1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP12",
+      "number": "1",
+      "net": "TIM2_CH2",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP13",
+      "number": "1",
+      "net": "TIM4_CH4",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP14",
+      "number": "1",
+      "net": "TIM8_CH3",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP15",
+      "number": "1",
+      "net": "DAC1_OUT1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP16",
+      "number": "1",
+      "net": "RCC_MCO_1",
+      "page": 5,
+      "no_connect": false
+    },
+    {
+      "ref": "TP17",
+      "number": "1",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "TP18",
+      "number": "1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "TP19",
+      "number": "1",
+      "net": "+1V8",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "1",
+      "net": "Net-(TR1-TX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "2",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "3",
+      "net": "Net-(TR1-TX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "4",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "TR1",
+      "number": "5",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "TR1",
+      "number": "6",
+      "net": "Net-(TR1-RX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "7",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "8",
+      "net": "Net-(TR1-RX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "9",
+      "net": "Net-(CN2-RX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "10",
+      "net": "Net-(TR1-C_RD)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "11",
+      "net": "Net-(CN2-RX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "12",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "TR1",
+      "number": "13",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "TR1",
+      "number": "14",
+      "net": "Net-(CN2-TX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "15",
+      "net": "Net-(TR1-C_TD)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TR1",
+      "number": "16",
+      "net": "Net-(CN2-TX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS1",
+      "number": "1",
+      "net": "Net-(TR1-RX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS1",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS1",
+      "number": "3",
+      "net": "Net-(TR1-TX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS1",
+      "number": "4",
+      "net": "Net-(TR1-TX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS1",
+      "number": "5",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS1",
+      "number": "6",
+      "net": "Net-(TR1-RX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS2",
+      "number": "1",
+      "net": "Net-(R107-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS2",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS2",
+      "number": "3",
+      "net": "Net-(R105-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS2",
+      "number": "4",
+      "net": "Net-(CN3-D+-PadA6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS2",
+      "number": "5",
+      "net": "Net-(TVS2-VBUS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS2",
+      "number": "6",
+      "net": "Net-(CN3-D--PadA7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS3",
+      "number": "1",
+      "net": "Net-(R133-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS3",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS3",
+      "number": "3",
+      "net": "Net-(R134-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS3",
+      "number": "4",
+      "net": "Net-(CN4-D--PadA7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "TVS3",
+      "number": "5",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "TVS3",
+      "number": "6",
+      "net": "Net-(CN4-D+-PadA6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A1",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A2",
+      "net": "Net-(U1C-PI6)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A3",
+      "net": "FMC_NBL3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A4",
+      "net": "FMC_NBL2",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A5",
+      "net": "ULPI_D7",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A6",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A7",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A8",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "A9",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "A10",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "A11",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "A12",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "A13",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "A14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "A15",
+      "net": "Net-(U1C-PI1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A16",
+      "net": "Net-(U1C-PI0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "A17",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B1",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B3",
+      "net": "Net-(U1C-PI7)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B4",
+      "net": "FMC_NBL1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B5",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "B6",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B7",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "B8",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "B9",
+      "net": "Net-(U1B-PG11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B10",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "B11",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "B12",
+      "net": "SPI2_SCK",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B13",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "B14",
+      "net": "/mcu/DBG_SWCLK",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B15",
+      "net": "Net-(U1C-PI2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B16",
+      "net": "Net-(U1B-PH15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "B17",
+      "net": "Net-(U1B-PH14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C1",
+      "net": "Net-(U1A-PC15-OSC32_OUT)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C2",
+      "net": "Net-(U1A-PC14-OSC32_IN)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C3",
+      "net": "Net-(U1B-PE2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C4",
+      "net": "FMC_NBL0",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C5",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "C6",
+      "net": "TIM2_CH2",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C7",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "C8",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "C9",
+      "net": "Net-(U1B-PG12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C10",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C11",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "C12",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "C13",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C14",
+      "net": "Net-(U1C-PI3)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C15",
+      "net": "/mcu/DBG_SWDIO",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C16",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "C17",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D1",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D2",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D3",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D4",
+      "net": "TIM4_CH4",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D5",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D6",
+      "net": "Net-(U1B-PG15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D7",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D8",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D9",
+      "net": "Net-(U1B-PG13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D10",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D11",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D12",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "D13",
+      "net": "Net-(U1A-PD0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D14",
+      "net": "UART_RX",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D15",
+      "net": "UART_TX",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D16",
+      "net": "Net-(U1B-PH13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "D17",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E1",
+      "net": "Net-(U1D-VLXSMPS)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E2",
+      "net": "Net-(U1C-PI9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E3",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "E4",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "E5",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "E6",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E7",
+      "net": "Net-(U1C-PDR_ON)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E8",
+      "net": "Net-(U1C-BOOT0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E9",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E10",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "E11",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E12",
+      "net": "Net-(U1A-PD1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E13",
+      "net": "TIM8_CH3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "E15",
+      "net": "RCC_MCO_1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "E16",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "E17",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "F1",
+      "net": "Net-(U1D-VDDSMPS)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "F2",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "F3",
+      "net": "Net-(U1C-PI10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "F4",
+      "net": "ULPI_DIR",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "F5",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "F13",
+      "net": "SPI2_SOFT_CSn",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "F14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "F15",
+      "net": "Net-(U1B-PG8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "F16",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "F17",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G1",
+      "net": "Net-(U1B-PF2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G2",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G3",
+      "net": "Net-(U1B-PF1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G4",
+      "net": "Net-(U1B-PF0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G5",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G7",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G8",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G9",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G10",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G11",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G13",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G14",
+      "net": "Net-(U1B-PG5)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G15",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "G16",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "G17",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H1",
+      "net": "/mcu/LED_01",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H2",
+      "net": "/mcu/LED_02",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H3",
+      "net": "/mcu/LED_03",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H4",
+      "net": "Net-(U1B-PF3)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H5",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H7",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H8",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H9",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H10",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H11",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H13",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H14",
+      "net": "Net-(U1B-PG4)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H15",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "H16",
+      "net": "Net-(U1B-PG2)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "H17",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "J1",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "J2",
+      "net": "/mcu/OSC_25M_IN",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J3",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J4",
+      "net": "Net-(U1B-PF5)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J5",
+      "net": "Net-(U1B-PF4)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J7",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J8",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J9",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J10",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J11",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J13",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "J15",
+      "net": "TIM1_CH1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J16",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "J17",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K1",
+      "net": "Net-(D1-K)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K2",
+      "net": "ADC3_INP8",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K3",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "K4",
+      "net": "ADC3_INP7",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K5",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K7",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K8",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K9",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K10",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K11",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K13",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "K15",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "K16",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "K17",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "L1",
+      "net": "Net-(U1D-VDDA)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L2",
+      "net": "ULPI_STP",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L3",
+      "net": "ADC3_INP6",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L4",
+      "net": "ADC3_INP2",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L5",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L7",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L8",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L9",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L10",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L11",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L13",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "L15",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "L16",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "L17",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "M1",
+      "net": "Net-(U1D-VREF+)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "M2",
+      "net": "ETH_MDC",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "M3",
+      "net": "ADC2_INP12",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "M4",
+      "net": "ADC2_INP13",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "M5",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "M13",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "M14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "M15",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "M16",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "M17",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "N1",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N2",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "N3",
+      "net": "ETH_MDIO",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N4",
+      "net": "RMII_REF_CLK",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N5",
+      "net": "ADC1_INP16",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N6",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "N7",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N8",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N9",
+      "net": "Net-(U1B-PE10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N10",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N11",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N12",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N13",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "N14",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "N15",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "N16",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "N17",
+      "net": "Net-(U1D-VCAPDSI)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P1",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P2",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "P3",
+      "net": "ULPI_NXT",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P4",
+      "net": "Net-(U1B-PH5)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P5",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "P6",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "P7",
+      "net": "Net-(U1B-PF13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P8",
+      "net": "Net-(U1B-PF14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P9",
+      "net": "Net-(U1B-PE9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P10",
+      "net": "Net-(U1B-PE11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P11",
+      "net": "ULPI_D3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P12",
+      "net": "ULPI_D4",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P13",
+      "net": "Net-(U1B-PH10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P14",
+      "net": "Net-(U1B-PH11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P15",
+      "net": "Net-(U1A-PD15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P16",
+      "net": "Net-(U1A-PD14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "P17",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R1",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "R2",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "R3",
+      "net": "ADC2_INP3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R4",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R5",
+      "net": "RMII_CRS_DV",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R6",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "R7",
+      "net": "Net-(U1B-PF12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R8",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R9",
+      "net": "Net-(U1B-PF15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R10",
+      "net": "Net-(U1B-PE12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R11",
+      "net": "Net-(U1B-PE15)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R12",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "R13",
+      "net": "Net-(U1B-PH9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R14",
+      "net": "Net-(U1B-PH12)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "R15",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "R16",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "R17",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "T1",
+      "net": "ADC1_INP0",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T2",
+      "net": "ADC1_INP1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T3",
+      "net": "ULPI_CK",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T4",
+      "net": "RMII_RXD0",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T5",
+      "net": "ULPI_D2",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T6",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "T7",
+      "net": "Net-(U1B-PF11)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T8",
+      "net": "Net-(U1B-PG0)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T9",
+      "net": "Net-(U1B-PE8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T10",
+      "net": "Net-(U1B-PE13)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T11",
+      "net": "Net-(U1B-PH6)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T12",
+      "net": "SMPS_GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T13",
+      "net": "Net-(U1B-PH8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T14",
+      "net": "ULPI_D5",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T15",
+      "net": "SPI2_MOSI",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T16",
+      "net": "Net-(U1A-PD10)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "T17",
+      "net": "Net-(U1A-PD9)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U1",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U2",
+      "net": "ULPI_D0",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U3",
+      "net": "DAC1_OUT1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U4",
+      "net": "RMII_RXD1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U5",
+      "net": "ULPI_D1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U6",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "U7",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "U8",
+      "net": "Net-(U1B-PG1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U9",
+      "net": "Net-(U1B-PE7)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U10",
+      "net": "Net-(U1B-PE14)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U11",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U12",
+      "net": "/mcu_vcc/VDD_SDC",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U13",
+      "net": "SDCKE1",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U14",
+      "net": "ULPI_D6",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U15",
+      "net": null,
+      "page": 1,
+      "no_connect": true
+    },
+    {
+      "ref": "U1",
+      "number": "U16",
+      "net": "Net-(U1A-PD8)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "U1",
+      "number": "U17",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U2",
+      "number": "1",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U2",
+      "number": "2",
+      "net": "+1V8",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U2",
+      "number": "3",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U2",
+      "number": "4",
+      "net": "+1V8",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U3",
+      "number": "1",
+      "net": "Net-(U3-EN)",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U3",
+      "number": "2",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U3",
+      "number": "3",
+      "net": null,
+      "page": 2,
+      "no_connect": true
+    },
+    {
+      "ref": "U3",
+      "number": "4",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U3",
+      "number": "5",
+      "net": "+3V3",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U3",
+      "number": "6",
+      "net": "+5V",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U3",
+      "number": "7",
+      "net": "GND",
+      "page": 2,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "A1",
+      "net": "D26",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "A2",
+      "net": "D24",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "A3",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "A7",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "A8",
+      "net": "D23",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "A9",
+      "net": "D21",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "B1",
+      "net": "D28",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "B2",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "B3",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "B7",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "B8",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "B9",
+      "net": "D19",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "C1",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "C2",
+      "net": "D27",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "C3",
+      "net": "D25",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "C7",
+      "net": "D22",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "C8",
+      "net": "D20",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "C9",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "D1",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "D2",
+      "net": "D29",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "D3",
+      "net": "D30",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "D7",
+      "net": "D17",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "D8",
+      "net": "D18",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "D9",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "E1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "E2",
+      "net": "D31",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "E3",
+      "net": null,
+      "page": 3,
+      "no_connect": true
+    },
+    {
+      "ref": "U4",
+      "number": "E7",
+      "net": null,
+      "page": 3,
+      "no_connect": true
+    },
+    {
+      "ref": "U4",
+      "number": "E8",
+      "net": "D16",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "E9",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "F1",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "F2",
+      "net": "FMC_NBL3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "F3",
+      "net": "A3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "F7",
+      "net": "A2",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "F8",
+      "net": "FMC_NBL2",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "F9",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "G1",
+      "net": "A4",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "G2",
+      "net": "A5",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "G3",
+      "net": "A6",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "G7",
+      "net": "A10",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "G8",
+      "net": "A0",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "G9",
+      "net": "A1",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "H1",
+      "net": "A7",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "H2",
+      "net": "A8",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "H3",
+      "net": "A12",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "H7",
+      "net": null,
+      "page": 3,
+      "no_connect": true
+    },
+    {
+      "ref": "U4",
+      "number": "H8",
+      "net": "A15",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "H9",
+      "net": "A11",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "J1",
+      "net": "SDCLK",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "J2",
+      "net": "SDCKE1",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "J3",
+      "net": "A9",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "J7",
+      "net": "A14",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "J8",
+      "net": "SDNE1",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "J9",
+      "net": "SDNRAS",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "K1",
+      "net": "FMC_NBL1",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "K2",
+      "net": null,
+      "page": 3,
+      "no_connect": true
+    },
+    {
+      "ref": "U4",
+      "number": "K3",
+      "net": null,
+      "page": 3,
+      "no_connect": true
+    },
+    {
+      "ref": "U4",
+      "number": "K7",
+      "net": "SDNCAS",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "K8",
+      "net": "SDNWE",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "K9",
+      "net": "FMC_NBL0",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "L1",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "L2",
+      "net": "D8",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "L3",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "L7",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "L8",
+      "net": "D7",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "L9",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "M1",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "M2",
+      "net": "D10",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "M3",
+      "net": "D9",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "M7",
+      "net": "D6",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "M8",
+      "net": "D5",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "M9",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "N1",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "N2",
+      "net": "D12",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "N3",
+      "net": "D14",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "N7",
+      "net": "D1",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "N8",
+      "net": "D3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "N9",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "P1",
+      "net": "D11",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "P2",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "P3",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "P7",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "P8",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "P9",
+      "net": "D4",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "R1",
+      "net": "D13",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "R2",
+      "net": "D15",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "R3",
+      "net": "GND",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "R7",
+      "net": "+3V3",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "R8",
+      "net": "D0",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U4",
+      "number": "R9",
+      "net": "D2",
+      "page": 3,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "1",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "2",
+      "net": "ETH_nINT",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "3",
+      "net": "Net-(CN2-LED(Yellow)_A)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "4",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U5",
+      "number": "5",
+      "net": "OSC_25M",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "6",
+      "net": "Net-(U5-VDDCR)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "7",
+      "net": "Net-(U5-RXD1{slash}MODE1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "8",
+      "net": "Net-(U5-RXD0{slash}MODE0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "9",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "10",
+      "net": "Net-(U5-RXER{slash}PHYAD0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "11",
+      "net": "Net-(U5-CRS_DV{slash}MODE2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "12",
+      "net": "Net-(U5-MDIO)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "13",
+      "net": "ETH_MDC",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "14",
+      "net": "Net-(U5-~{INT}{slash}REFCLKO)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "15",
+      "net": "RESET#",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "16",
+      "net": "RMII_TX_EN",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "17",
+      "net": "RMII_TXD0",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "18",
+      "net": "RMII_TXD1",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "19",
+      "net": "Net-(TR1-C_RX)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "20",
+      "net": "Net-(TR1-TX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "21",
+      "net": "Net-(TR1-TX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "22",
+      "net": "Net-(TR1-RX-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "23",
+      "net": "Net-(TR1-RX+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "24",
+      "net": "Net-(U5-RBIAS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U5",
+      "number": "25",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "1",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "2",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "3",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "4",
+      "net": "Net-(Q1-C)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "5",
+      "net": "Net-(R128-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "6",
+      "net": "Net-(R128-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "7",
+      "net": "Net-(R128-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U6",
+      "number": "8",
+      "net": "Net-(R128-Pad1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "1",
+      "net": "Net-(U7-CLKOUT)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "2",
+      "net": "Net-(U7-NXT)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "3",
+      "net": "Net-(U7-D0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "4",
+      "net": "Net-(U7-D1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "5",
+      "net": "Net-(U7-D2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "6",
+      "net": "Net-(U7-D3)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "7",
+      "net": "Net-(U7-D4)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "8",
+      "net": "Net-(U7-REFSEL0)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "9",
+      "net": "Net-(U7-D5)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "10",
+      "net": "Net-(U7-D6)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "11",
+      "net": "Net-(U7-REFSEL1)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "12",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U7",
+      "number": "13",
+      "net": "Net-(U7-D7)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "14",
+      "net": "Net-(U7-REFSEL2)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "15",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U7",
+      "number": "16",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U7",
+      "number": "17",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U7",
+      "number": "18",
+      "net": "Net-(U7-DP)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "19",
+      "net": "Net-(U7-DM)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "20",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "21",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "22",
+      "net": "Net-(TVS2-VBUS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "23",
+      "net": "Net-(U7-ID)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "24",
+      "net": "Net-(U7-RBIAS)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "25",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U7",
+      "number": "26",
+      "net": "Net-(U7-REFCLK)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "27",
+      "net": "Net-(U7-RESETB)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "28",
+      "net": "+1V8",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "29",
+      "net": "Net-(U7-STP)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "30",
+      "net": "+1V8",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "31",
+      "net": "Net-(U7-DIR)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "32",
+      "net": "3V3_USB",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U7",
+      "number": "33",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U8",
+      "number": "1",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U8",
+      "number": "2",
+      "net": "/enet/VCP_TX",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U8",
+      "number": "3",
+      "net": "/enet/VCP_RX",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U8",
+      "number": "4",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U8",
+      "number": "5",
+      "net": "Net-(U8-UD+)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U8",
+      "number": "6",
+      "net": "Net-(U8-UD-)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "U8",
+      "number": "7",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "8",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "9",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "10",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "11",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "12",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "13",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "14",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "15",
+      "net": null,
+      "page": 4,
+      "no_connect": true
+    },
+    {
+      "ref": "U8",
+      "number": "16",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "X1",
+      "number": "1",
+      "net": "Net-(X1-EN)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "X1",
+      "number": "2",
+      "net": "GND",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "X1",
+      "number": "3",
+      "net": "Net-(X1-OUT)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "X1",
+      "number": "4",
+      "net": "+3V3",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "X2",
+      "number": "1",
+      "net": "Net-(X2-EN)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "X2",
+      "number": "2",
+      "net": "GND",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "X2",
+      "number": "3",
+      "net": "Net-(X2-OUT)",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "X2",
+      "number": "4",
+      "net": "+3V3",
+      "page": 4,
+      "no_connect": false
+    },
+    {
+      "ref": "Y1",
+      "number": "1",
+      "net": "Net-(C1-Pad1)",
+      "page": 1,
+      "no_connect": false
+    },
+    {
+      "ref": "Y1",
+      "number": "2",
+      "net": "Net-(C2-Pad1)",
+      "page": 1,
+      "no_connect": false
+    }
+  ]
+}

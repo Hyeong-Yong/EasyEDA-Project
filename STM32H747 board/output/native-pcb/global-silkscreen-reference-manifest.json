@@ -1,0 +1,3151 @@
+{
+  "schemaVersion": 1,
+  "status": "editable_merge_reference_not_complete_pcb",
+  "description": "Native EasyEDA Pro PCB records for the archived global front-silkscreen G*** geometry omitted from per-component footprints.",
+  "source": {
+    "geometry_manifest": {
+      "path": "output\\semantic\\gerber-component-footprints.json",
+      "sha256": "b9180f58df3e27e34ec36f435e641417ed5295f9821053d8702bd35b34bd1dbf",
+      "canonical_global_geometry_sha256": "e857c9855c1ce97ed3aec792878d0339c9a855522e744c9defcd78269adac304"
+    },
+    "raw_gerber": {
+      "path": "보드 자료\\MCU_BOARD_v19_260616_Gerber\\MCU_BOARD_v19_260616-F_Silkscreen.gbr",
+      "sha256": "051feda41f96daf298919e49161d10f20c64c13a4435f5ac3df04c2d52a761f5",
+      "component_attribute_occurrences": 2,
+      "file_polarity_positive_attributes": 1,
+      "file_polarity_negative_attributes": 0,
+      "dark_polarity_directives": 1,
+      "clear_polarity_directives": 0
+    },
+    "global_owner_attribute": "G\\u002A\\u002A\\u002A",
+    "board_bounds_source_mm": [
+      147.46,
+      -218.96,
+      247.46,
+      -64.96
+    ],
+    "source_object_counts": {
+      "line_D10_KOPTi": 492,
+      "region_D10_KOPTi": 8,
+      "region_D19_barrel_polarity": 4,
+      "total": 504
+    }
+  },
+  "coordinate_transform": {
+    "source": "Gerber absolute millimetres, Y-up",
+    "native": "board-local mil, Y-up",
+    "formula": {
+      "x": "(sourceX - boardMinX) * 39.37007874015748",
+      "y": "(sourceY - boardMinY) * 39.37007874015748"
+    },
+    "corner_check_mil": {
+      "source_min_xy_to_native": [
+        0,
+        0
+      ],
+      "source_max_xy_to_native": [
+        3937.007874,
+        6062.992126
+      ]
+    }
+  },
+  "native_document": {
+    "doc_type": "PCB",
+    "uuid": "e44e767c23f017ba",
+    "target_layer_id": 3,
+    "target_layer_type": "TOP_SILK",
+    "group_id": 0,
+    "primitive_id_format": "16 lower-case hexadecimal characters"
+  },
+  "geometry": {
+    "expected_source_counts": {
+      "line_D10_KOPTi": 492,
+      "region_D10_KOPTi": 8,
+      "region_D19_barrel_polarity": 4,
+      "total": 504
+    },
+    "emitted_counts": {
+      "LINE": 492,
+      "FILL_KOPTi": 8,
+      "FILL_barrel_polarity": 4,
+      "FILL_total": 12,
+      "primitive_total": 504
+    },
+    "source_to_output_complete": true,
+    "all_source_objects_dark": true,
+    "all_fill_paths_single_contour": true,
+    "all_fill_paths_clockwise_y_up": true,
+    "line_geometry_sha256": "4c5c9151072178c2eaa679453b3aa39569587da534cdef27a2c243fd0a76a26b",
+    "fill_paths_sha256": "553c4216f33124f796ab1bdc131e346c1841a918ec0967cfae28bfbac160b2e7",
+    "max_fill_area_relative_error_after_transform": 8.341453767987753e-08
+  },
+  "primitive_map": [
+    {
+      "id": "75a09d6dff4abd6c",
+      "type": "LINE",
+      "source_index": 0,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8e8e0bdfabcead0c",
+      "type": "LINE",
+      "source_index": 1,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0b27144e022bb840",
+      "type": "LINE",
+      "source_index": 2,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c43b791f028a73d9",
+      "type": "LINE",
+      "source_index": 3,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a31c654c2985343e",
+      "type": "LINE",
+      "source_index": 4,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3d029c7c5d68f841",
+      "type": "LINE",
+      "source_index": 5,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0943219138abb8b1",
+      "type": "LINE",
+      "source_index": 6,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6d3e027e06e03a1b",
+      "type": "LINE",
+      "source_index": 7,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e343aeb281e6fb1d",
+      "type": "LINE",
+      "source_index": 8,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b0bdcc24b67bfd25",
+      "type": "LINE",
+      "source_index": 9,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7072e70f9bc004fd",
+      "type": "LINE",
+      "source_index": 10,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e8e17a388fa21641",
+      "type": "LINE",
+      "source_index": 11,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "22cabe0f0edb6a05",
+      "type": "LINE",
+      "source_index": 12,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c6f6b1e34f5011d8",
+      "type": "LINE",
+      "source_index": 13,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4bf003169cf763e6",
+      "type": "LINE",
+      "source_index": 14,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3b2da43ce36f6898",
+      "type": "LINE",
+      "source_index": 15,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ce71fd2b821aa2eb",
+      "type": "LINE",
+      "source_index": 16,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7660c92ef44f9f0c",
+      "type": "LINE",
+      "source_index": 17,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "83bebe513cee84ad",
+      "type": "LINE",
+      "source_index": 18,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "345bc41364f8f707",
+      "type": "LINE",
+      "source_index": 19,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "71abb7d1914e7af0",
+      "type": "LINE",
+      "source_index": 20,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "458f5a38cb410747",
+      "type": "LINE",
+      "source_index": 21,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "855e9736ff77f946",
+      "type": "LINE",
+      "source_index": 22,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5fbd6606ee415604",
+      "type": "LINE",
+      "source_index": 23,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "82f106f41883f772",
+      "type": "LINE",
+      "source_index": 24,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4b1e941442ed1f8c",
+      "type": "LINE",
+      "source_index": 25,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "088767fc5f8a57ba",
+      "type": "LINE",
+      "source_index": 26,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7e098140766cd876",
+      "type": "LINE",
+      "source_index": 27,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e389e71ef1cf3ec3",
+      "type": "LINE",
+      "source_index": 28,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f074a473412a58e1",
+      "type": "LINE",
+      "source_index": 29,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8838bd3997600ceb",
+      "type": "LINE",
+      "source_index": 30,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fa145ba2274cfb6e",
+      "type": "LINE",
+      "source_index": 31,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "864a525b2a56ad23",
+      "type": "LINE",
+      "source_index": 32,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5946ec2e0aee5eba",
+      "type": "LINE",
+      "source_index": 33,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e456afedadf22959",
+      "type": "LINE",
+      "source_index": 34,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c9be08e6719cd00b",
+      "type": "LINE",
+      "source_index": 35,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "48b90cfbdb2f5350",
+      "type": "LINE",
+      "source_index": 36,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f066cb16e4fe999b",
+      "type": "LINE",
+      "source_index": 37,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "30dd0e092ddaf7b5",
+      "type": "LINE",
+      "source_index": 38,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "860be5f8c30a399a",
+      "type": "LINE",
+      "source_index": 39,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "07924d773ec845ad",
+      "type": "LINE",
+      "source_index": 40,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6856c313dfa73740",
+      "type": "LINE",
+      "source_index": 41,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bbc6b35c52ee3f78",
+      "type": "LINE",
+      "source_index": 42,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "87ef791c24f4a627",
+      "type": "LINE",
+      "source_index": 43,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f6278d329250146f",
+      "type": "LINE",
+      "source_index": 44,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f284ee4d6714bc1a",
+      "type": "LINE",
+      "source_index": 45,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "77fce97d8b0aa052",
+      "type": "LINE",
+      "source_index": 46,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ac803df46d558f39",
+      "type": "LINE",
+      "source_index": 47,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f919cd8193702ee2",
+      "type": "LINE",
+      "source_index": 48,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1e21c458e291fb9e",
+      "type": "LINE",
+      "source_index": 49,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "34a41f723ea5e4cf",
+      "type": "LINE",
+      "source_index": 50,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "993b0d0fabf3d016",
+      "type": "LINE",
+      "source_index": 51,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9fc75e64b8a2f978",
+      "type": "LINE",
+      "source_index": 52,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4f76b24d11f413dd",
+      "type": "LINE",
+      "source_index": 53,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6c96ae6ed370e5c0",
+      "type": "LINE",
+      "source_index": 54,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9aef489a93a48118",
+      "type": "LINE",
+      "source_index": 55,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a5f778937d19c619",
+      "type": "LINE",
+      "source_index": 56,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "33223ccc4ef3323b",
+      "type": "LINE",
+      "source_index": 57,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "13e9b336e0258755",
+      "type": "LINE",
+      "source_index": 58,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "70265baa53ce485e",
+      "type": "LINE",
+      "source_index": 59,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b24a74075bb6bf50",
+      "type": "LINE",
+      "source_index": 60,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "acec375da0edbca1",
+      "type": "LINE",
+      "source_index": 61,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "11d9ed92e83ef3bb",
+      "type": "LINE",
+      "source_index": 62,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6b2b568bef332870",
+      "type": "LINE",
+      "source_index": 63,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "58d51536e3d23d0d",
+      "type": "LINE",
+      "source_index": 64,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6df66756b2bf1baa",
+      "type": "LINE",
+      "source_index": 65,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "48541ce95b9274e1",
+      "type": "LINE",
+      "source_index": 66,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "10b2b736dc3c91b3",
+      "type": "LINE",
+      "source_index": 67,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "58e027510712ac01",
+      "type": "LINE",
+      "source_index": 68,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "43a59e3e02968e9d",
+      "type": "LINE",
+      "source_index": 69,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "15e188aec9ebd5b2",
+      "type": "LINE",
+      "source_index": 70,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "21e1c3cf59e701fc",
+      "type": "LINE",
+      "source_index": 71,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7eeff5052ca99284",
+      "type": "LINE",
+      "source_index": 72,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ef0be1a7292a926c",
+      "type": "LINE",
+      "source_index": 73,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "423104b9d58b0aab",
+      "type": "LINE",
+      "source_index": 74,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3337dc343ba3077b",
+      "type": "LINE",
+      "source_index": 75,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "44db6e3d78caa47b",
+      "type": "LINE",
+      "source_index": 76,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ed84fc43a8c27181",
+      "type": "LINE",
+      "source_index": 77,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a16f91993819cf59",
+      "type": "LINE",
+      "source_index": 78,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "690581ac7aaba29a",
+      "type": "LINE",
+      "source_index": 79,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fc4cd9138119af45",
+      "type": "LINE",
+      "source_index": 80,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "76a9dc361a6418d8",
+      "type": "LINE",
+      "source_index": 81,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fb86c0825a3d99e8",
+      "type": "LINE",
+      "source_index": 82,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5be33389f7bfa6f4",
+      "type": "LINE",
+      "source_index": 83,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c44eaa29d1bd56ed",
+      "type": "LINE",
+      "source_index": 84,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "edd33a169b129744",
+      "type": "LINE",
+      "source_index": 85,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "39f357e4285f14b6",
+      "type": "LINE",
+      "source_index": 86,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7af037f593b8d5d4",
+      "type": "LINE",
+      "source_index": 87,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "04a9a93951bbb9ec",
+      "type": "LINE",
+      "source_index": 88,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1d4a226c9ea5c7ce",
+      "type": "LINE",
+      "source_index": 89,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fdf33aeb1342a081",
+      "type": "LINE",
+      "source_index": 90,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7af2d6e66ebd4eb8",
+      "type": "LINE",
+      "source_index": 91,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "cbb0c8a779e665d4",
+      "type": "LINE",
+      "source_index": 92,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e398b96df7012ca8",
+      "type": "LINE",
+      "source_index": 93,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d180b3838591c871",
+      "type": "LINE",
+      "source_index": 94,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4e578132147a0a15",
+      "type": "LINE",
+      "source_index": 95,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "80f20556ec82fe21",
+      "type": "LINE",
+      "source_index": 96,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9b5dd57a096f5489",
+      "type": "LINE",
+      "source_index": 97,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7dac7220042491d6",
+      "type": "LINE",
+      "source_index": 98,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5bc114fe42411ec4",
+      "type": "LINE",
+      "source_index": 99,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e30177474b79882f",
+      "type": "LINE",
+      "source_index": 100,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bb76921043624825",
+      "type": "LINE",
+      "source_index": 101,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "065c64f33f5a5fa8",
+      "type": "LINE",
+      "source_index": 102,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0e2c8b989e69f30d",
+      "type": "LINE",
+      "source_index": 103,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6059208c0a57f2ae",
+      "type": "LINE",
+      "source_index": 104,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9f28270f08bb7984",
+      "type": "LINE",
+      "source_index": 105,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "61a6db65cf40b00e",
+      "type": "LINE",
+      "source_index": 106,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "089f73b338e4b4e4",
+      "type": "LINE",
+      "source_index": 107,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "96ca9b63eb69a944",
+      "type": "LINE",
+      "source_index": 108,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f71e4d25d00dabfb",
+      "type": "LINE",
+      "source_index": 109,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "677467552fe2c28b",
+      "type": "LINE",
+      "source_index": 110,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "306cba4369209050",
+      "type": "LINE",
+      "source_index": 111,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "13e288aea3df36ce",
+      "type": "LINE",
+      "source_index": 112,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6b4b3e36f9513990",
+      "type": "LINE",
+      "source_index": 113,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a6552c934fc70a84",
+      "type": "LINE",
+      "source_index": 114,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6c19c3bb1c51a20b",
+      "type": "LINE",
+      "source_index": 115,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f0662dba1ae77ec7",
+      "type": "LINE",
+      "source_index": 116,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3eb00ca9b88e5243",
+      "type": "LINE",
+      "source_index": 117,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fac23bb427225c3b",
+      "type": "LINE",
+      "source_index": 118,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "09c1b7ca9285fdec",
+      "type": "LINE",
+      "source_index": 119,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "393cd6d776bf3e6d",
+      "type": "LINE",
+      "source_index": 120,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "61ce5f9b503828e1",
+      "type": "LINE",
+      "source_index": 121,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4df041deb4e92f3d",
+      "type": "LINE",
+      "source_index": 122,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3a7ecba9dc152729",
+      "type": "LINE",
+      "source_index": 123,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "30450629b0e1072c",
+      "type": "LINE",
+      "source_index": 124,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ac61b231f16a66ad",
+      "type": "LINE",
+      "source_index": 125,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "dbcf3b276af5f2e6",
+      "type": "LINE",
+      "source_index": 126,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3e5f0479d0991347",
+      "type": "LINE",
+      "source_index": 127,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "37693de0b7f3a9c4",
+      "type": "LINE",
+      "source_index": 128,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "661a113ca76a2c44",
+      "type": "LINE",
+      "source_index": 129,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fe8b41cdbb8deb3a",
+      "type": "LINE",
+      "source_index": 130,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c19c1bcb6f4c6b4a",
+      "type": "LINE",
+      "source_index": 131,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "cb26f3d91d418aee",
+      "type": "LINE",
+      "source_index": 132,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "69aeb58a0184fa64",
+      "type": "LINE",
+      "source_index": 133,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "36eb9901f551e3dc",
+      "type": "LINE",
+      "source_index": 134,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ea480802af1b9415",
+      "type": "LINE",
+      "source_index": 135,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5f2d04200319d955",
+      "type": "LINE",
+      "source_index": 136,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "20d836ca69ed81ae",
+      "type": "LINE",
+      "source_index": 137,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "13415362ca6492b0",
+      "type": "LINE",
+      "source_index": 138,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d0418f883d408cf9",
+      "type": "LINE",
+      "source_index": 139,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6ff04769c6f5faa4",
+      "type": "LINE",
+      "source_index": 140,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "cbc8c86d50402c7b",
+      "type": "LINE",
+      "source_index": 141,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6971b250c70b53f1",
+      "type": "LINE",
+      "source_index": 142,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "232953fdaff09d8d",
+      "type": "LINE",
+      "source_index": 143,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f2072644e9230b48",
+      "type": "LINE",
+      "source_index": 144,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d71255b31676a64a",
+      "type": "LINE",
+      "source_index": 145,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c8803ed31153a037",
+      "type": "LINE",
+      "source_index": 146,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9f98b13c3790a751",
+      "type": "LINE",
+      "source_index": 147,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "65e05a88ce5e3c3c",
+      "type": "LINE",
+      "source_index": 148,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b44d1d7caadad277",
+      "type": "LINE",
+      "source_index": 149,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0ce789b046ad4bda",
+      "type": "LINE",
+      "source_index": 150,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5e4c8edb5455c258",
+      "type": "LINE",
+      "source_index": 151,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5f2e8387bd4f55de",
+      "type": "LINE",
+      "source_index": 152,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8a1ca95fb017e252",
+      "type": "LINE",
+      "source_index": 153,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7277e41e70d57a9d",
+      "type": "LINE",
+      "source_index": 154,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "04fc595f5ee74ac8",
+      "type": "LINE",
+      "source_index": 155,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e779c660daf791c3",
+      "type": "LINE",
+      "source_index": 156,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1355220b418ba75d",
+      "type": "LINE",
+      "source_index": 157,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "72f52f1c0ab268aa",
+      "type": "LINE",
+      "source_index": 158,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5d8a4feedefdec30",
+      "type": "LINE",
+      "source_index": 159,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "29cbfbd438c36dc4",
+      "type": "LINE",
+      "source_index": 160,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1daa7b4ceb6204c3",
+      "type": "LINE",
+      "source_index": 161,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "57ea6469b90ef877",
+      "type": "LINE",
+      "source_index": 162,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "543d73204e9eab5b",
+      "type": "LINE",
+      "source_index": 163,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "cff615c5e88ae894",
+      "type": "LINE",
+      "source_index": 164,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "23ee37440d69ced0",
+      "type": "LINE",
+      "source_index": 165,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "52e551701e4af563",
+      "type": "LINE",
+      "source_index": 166,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b6cb0dbdf52d926a",
+      "type": "LINE",
+      "source_index": 167,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7dd3a0230d180315",
+      "type": "LINE",
+      "source_index": 168,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "114c3b7b88fbf224",
+      "type": "LINE",
+      "source_index": 169,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "966479b394468336",
+      "type": "LINE",
+      "source_index": 170,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "171a868438ce559f",
+      "type": "LINE",
+      "source_index": 171,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b8df3b07e2a89b53",
+      "type": "LINE",
+      "source_index": 172,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "21e0ba574ffa1a69",
+      "type": "LINE",
+      "source_index": 173,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6292fe807e617024",
+      "type": "LINE",
+      "source_index": 174,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d7ff5293ceaa1c9b",
+      "type": "LINE",
+      "source_index": 175,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "85c63d44764c358c",
+      "type": "LINE",
+      "source_index": 176,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f18b5876517daaac",
+      "type": "LINE",
+      "source_index": 177,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9f384cc610c94159",
+      "type": "LINE",
+      "source_index": 178,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f2a93b1c1ca14f48",
+      "type": "LINE",
+      "source_index": 179,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8d98889158fb3694",
+      "type": "LINE",
+      "source_index": 180,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "56d65d51d9edbf12",
+      "type": "LINE",
+      "source_index": 181,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "24f223a853af0417",
+      "type": "LINE",
+      "source_index": 182,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d25df1cf33b5df06",
+      "type": "LINE",
+      "source_index": 183,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4b27c03540a64fed",
+      "type": "LINE",
+      "source_index": 184,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d3272d8489c28915",
+      "type": "LINE",
+      "source_index": 185,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "da49846c1756b127",
+      "type": "LINE",
+      "source_index": 186,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "40adec84d1ae1474",
+      "type": "LINE",
+      "source_index": 187,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fdc7774a690526bb",
+      "type": "LINE",
+      "source_index": 188,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "949f21d79c507bb2",
+      "type": "LINE",
+      "source_index": 189,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4c244c807d9b6002",
+      "type": "LINE",
+      "source_index": 190,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bf2f2a3734b5d63a",
+      "type": "LINE",
+      "source_index": 191,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "342f46f7ad5d59b3",
+      "type": "LINE",
+      "source_index": 192,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bf1107e2204ae8a4",
+      "type": "LINE",
+      "source_index": 193,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6b151bdc9e6b8bce",
+      "type": "LINE",
+      "source_index": 194,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4bad36dca1ea6e36",
+      "type": "LINE",
+      "source_index": 195,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "de5e5ad2846455a8",
+      "type": "LINE",
+      "source_index": 196,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d25dee749f7c76b1",
+      "type": "LINE",
+      "source_index": 197,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "06124744e034743f",
+      "type": "LINE",
+      "source_index": 198,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e563d0524ece467d",
+      "type": "LINE",
+      "source_index": 199,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6b634d31c84f6807",
+      "type": "LINE",
+      "source_index": 200,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "90e01821d45251fd",
+      "type": "LINE",
+      "source_index": 201,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "032e53acdda46746",
+      "type": "LINE",
+      "source_index": 202,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "056617e84d164aa8",
+      "type": "LINE",
+      "source_index": 203,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d5495450d46aef07",
+      "type": "LINE",
+      "source_index": 204,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "670f5e208cee5b78",
+      "type": "LINE",
+      "source_index": 205,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c924aa0e3d39ec71",
+      "type": "LINE",
+      "source_index": 206,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "866ff385d898cd35",
+      "type": "LINE",
+      "source_index": 207,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c5081d5433fe3cd5",
+      "type": "LINE",
+      "source_index": 208,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c09c615a4532dba6",
+      "type": "LINE",
+      "source_index": 209,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7b3d13462b0e8f96",
+      "type": "LINE",
+      "source_index": 210,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a1e90960cd1ebe8a",
+      "type": "LINE",
+      "source_index": 211,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "cb3deb10b3b8c1a9",
+      "type": "LINE",
+      "source_index": 212,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "df751b41bad4ffe8",
+      "type": "LINE",
+      "source_index": 213,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "99570a1c53279c12",
+      "type": "LINE",
+      "source_index": 214,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b42ba5c4e270c41c",
+      "type": "LINE",
+      "source_index": 215,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "790817ddcebfe9a2",
+      "type": "LINE",
+      "source_index": 216,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4de1bc6a7fc5b087",
+      "type": "LINE",
+      "source_index": 217,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3e46679423056e22",
+      "type": "LINE",
+      "source_index": 218,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "865d9fb6f40406cb",
+      "type": "LINE",
+      "source_index": 219,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fd726c50de1b69e1",
+      "type": "LINE",
+      "source_index": 220,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "27b9cee61139ff93",
+      "type": "LINE",
+      "source_index": 221,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fb8dee40e0992a4b",
+      "type": "LINE",
+      "source_index": 222,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bddaaa9926820955",
+      "type": "LINE",
+      "source_index": 223,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "53bd6d683d4e4738",
+      "type": "LINE",
+      "source_index": 224,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "80d4c64ecd21a728",
+      "type": "LINE",
+      "source_index": 225,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f67ea00ece092dc4",
+      "type": "LINE",
+      "source_index": 226,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7c76b0af8e2a70bd",
+      "type": "LINE",
+      "source_index": 227,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "14208b3b02a46758",
+      "type": "LINE",
+      "source_index": 228,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "091bddc02a48d246",
+      "type": "LINE",
+      "source_index": 229,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a2be84fd19b373a2",
+      "type": "LINE",
+      "source_index": 230,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0848afb54810b93a",
+      "type": "LINE",
+      "source_index": 231,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9943c94b6542228c",
+      "type": "LINE",
+      "source_index": 232,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4a50b665f4bb7903",
+      "type": "LINE",
+      "source_index": 233,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "862747fadc7b118e",
+      "type": "LINE",
+      "source_index": 234,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "adc443a569966972",
+      "type": "LINE",
+      "source_index": 235,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "22b3965d93df1f6e",
+      "type": "LINE",
+      "source_index": 236,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e44f4960eb77a5ca",
+      "type": "LINE",
+      "source_index": 237,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d01b9da18e6195d5",
+      "type": "LINE",
+      "source_index": 238,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e3c26c573fc93f7a",
+      "type": "LINE",
+      "source_index": 239,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2140f712a8b558fa",
+      "type": "LINE",
+      "source_index": 240,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6e935b38cf7b372c",
+      "type": "LINE",
+      "source_index": 241,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "79bfcc9ac06dfa66",
+      "type": "LINE",
+      "source_index": 242,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6312a53ac36eae3a",
+      "type": "LINE",
+      "source_index": 243,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "23011ff3d42d1890",
+      "type": "LINE",
+      "source_index": 244,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3473b306f15bbc59",
+      "type": "LINE",
+      "source_index": 245,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5cd1ede3a747fd1a",
+      "type": "LINE",
+      "source_index": 246,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "81d2b7bb8c0ab66b",
+      "type": "LINE",
+      "source_index": 247,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "74d27235a570d5c3",
+      "type": "LINE",
+      "source_index": 248,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "023a94d9ee870930",
+      "type": "LINE",
+      "source_index": 249,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d22c92a07ceb334d",
+      "type": "LINE",
+      "source_index": 250,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ba855e314bdeaecf",
+      "type": "LINE",
+      "source_index": 251,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3be11617a85ef810",
+      "type": "LINE",
+      "source_index": 252,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a4537f3241229afe",
+      "type": "LINE",
+      "source_index": 253,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "96cd86c816a060cc",
+      "type": "LINE",
+      "source_index": 254,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2d63a1b9321d9268",
+      "type": "LINE",
+      "source_index": 255,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "64f45a04617f0375",
+      "type": "LINE",
+      "source_index": 256,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "dd555c9335fbd11a",
+      "type": "LINE",
+      "source_index": 257,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "87fa94c269a09602",
+      "type": "LINE",
+      "source_index": 258,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "748dc4eba497b44e",
+      "type": "LINE",
+      "source_index": 259,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3106f312c4c237c2",
+      "type": "LINE",
+      "source_index": 260,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ffe55dca2e600168",
+      "type": "LINE",
+      "source_index": 261,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "db7ff87f976bf013",
+      "type": "LINE",
+      "source_index": 262,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ba54c84e1d601023",
+      "type": "LINE",
+      "source_index": 263,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5f04481e593bbcd4",
+      "type": "LINE",
+      "source_index": 264,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "caef2f87d5eed27c",
+      "type": "LINE",
+      "source_index": 265,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b9a8d3bbe7ac9392",
+      "type": "LINE",
+      "source_index": 266,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a4b0a8195d9def42",
+      "type": "LINE",
+      "source_index": 267,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7b7fdbb73197ad81",
+      "type": "LINE",
+      "source_index": 268,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "28c81539fd88122d",
+      "type": "LINE",
+      "source_index": 269,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d352769d98555d24",
+      "type": "LINE",
+      "source_index": 270,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "79b606fbc0fd89e1",
+      "type": "LINE",
+      "source_index": 271,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d6c96c250dd5dd95",
+      "type": "LINE",
+      "source_index": 272,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "10faf531399886a7",
+      "type": "LINE",
+      "source_index": 273,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "64e2dfe7b208442a",
+      "type": "LINE",
+      "source_index": 274,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0939ffc9c4228f23",
+      "type": "LINE",
+      "source_index": 275,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1ec681264523c518",
+      "type": "LINE",
+      "source_index": 276,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6d71561c06f21aff",
+      "type": "LINE",
+      "source_index": 277,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c61ca6220f0214f8",
+      "type": "LINE",
+      "source_index": 278,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "76fccdbbd32bcc03",
+      "type": "LINE",
+      "source_index": 279,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "61dd801145dd9df1",
+      "type": "LINE",
+      "source_index": 280,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b9f03fe088bd9e9c",
+      "type": "LINE",
+      "source_index": 281,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f4e0269f75a84cf0",
+      "type": "LINE",
+      "source_index": 282,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ba82f22ea745dbb2",
+      "type": "LINE",
+      "source_index": 283,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "19e577e9400664f6",
+      "type": "LINE",
+      "source_index": 284,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f2878259befd064c",
+      "type": "LINE",
+      "source_index": 285,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ea7b1b32204ac0c3",
+      "type": "LINE",
+      "source_index": 286,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5aaec7242aa6bd7f",
+      "type": "LINE",
+      "source_index": 287,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e68d49d9b0c2b6b4",
+      "type": "LINE",
+      "source_index": 288,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a23c686a49f37195",
+      "type": "LINE",
+      "source_index": 289,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e992ea6e2914b09b",
+      "type": "LINE",
+      "source_index": 290,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "73d26d103e8f907b",
+      "type": "LINE",
+      "source_index": 291,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "64e74fbfdccac4dc",
+      "type": "LINE",
+      "source_index": 292,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f401abc848adc528",
+      "type": "LINE",
+      "source_index": 293,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6eb26d1d3304856d",
+      "type": "LINE",
+      "source_index": 294,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8b60bb2e59a358ee",
+      "type": "LINE",
+      "source_index": 295,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "865b876d29df0d2b",
+      "type": "LINE",
+      "source_index": 296,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1f1fe5bc4c37add8",
+      "type": "LINE",
+      "source_index": 297,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7a5f445ec7728035",
+      "type": "LINE",
+      "source_index": 298,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e4ca01d106fca874",
+      "type": "LINE",
+      "source_index": 299,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3764f9f9fd4d227d",
+      "type": "LINE",
+      "source_index": 300,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4a53e89aafac8e85",
+      "type": "LINE",
+      "source_index": 301,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d43ac9b88b2c18e7",
+      "type": "LINE",
+      "source_index": 302,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a71572bf8382f8bb",
+      "type": "LINE",
+      "source_index": 303,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "81a942de463f656c",
+      "type": "LINE",
+      "source_index": 304,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2fb67ad92e5210e2",
+      "type": "LINE",
+      "source_index": 305,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3f103eb9a8ee26e9",
+      "type": "LINE",
+      "source_index": 306,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7edffbc8d3e177fb",
+      "type": "LINE",
+      "source_index": 307,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fe3f240889a67894",
+      "type": "LINE",
+      "source_index": 308,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "eeecaaee4219fa05",
+      "type": "LINE",
+      "source_index": 309,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ae64d9d2d1e8e6d8",
+      "type": "LINE",
+      "source_index": 310,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6b18c52fc915e508",
+      "type": "LINE",
+      "source_index": 311,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f9464ce5b719ccd0",
+      "type": "LINE",
+      "source_index": 312,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6e56cd12fb440410",
+      "type": "LINE",
+      "source_index": 313,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f5e76525495642e6",
+      "type": "LINE",
+      "source_index": 314,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "065f42a4b765e13a",
+      "type": "LINE",
+      "source_index": 315,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f354d9aa20e3d755",
+      "type": "LINE",
+      "source_index": 316,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "79f6aaf8065393b0",
+      "type": "LINE",
+      "source_index": 317,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "289ffa6d5938256e",
+      "type": "LINE",
+      "source_index": 318,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "019faec03a3c7713",
+      "type": "LINE",
+      "source_index": 319,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a6bf3834855454f8",
+      "type": "LINE",
+      "source_index": 320,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "dba4bea3e7d6a7e0",
+      "type": "LINE",
+      "source_index": 321,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "967375bce77dedd8",
+      "type": "LINE",
+      "source_index": 322,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f445236107f6b699",
+      "type": "LINE",
+      "source_index": 323,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d4d1ade05b719612",
+      "type": "LINE",
+      "source_index": 324,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e0aba9b3634d2aea",
+      "type": "LINE",
+      "source_index": 325,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "847837df9bd58471",
+      "type": "LINE",
+      "source_index": 326,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a7bd160e8821bdc7",
+      "type": "LINE",
+      "source_index": 327,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0505be1564b60337",
+      "type": "LINE",
+      "source_index": 328,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1b3ae282dac3a7c2",
+      "type": "LINE",
+      "source_index": 329,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "689d187fd3215cfd",
+      "type": "LINE",
+      "source_index": 330,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d5dc6371bbf86fd1",
+      "type": "LINE",
+      "source_index": 331,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8acd9c6022f69f9e",
+      "type": "LINE",
+      "source_index": 332,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c2f42792f893c817",
+      "type": "LINE",
+      "source_index": 333,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "94a31460712693fd",
+      "type": "LINE",
+      "source_index": 334,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0b6d82c328c4e44a",
+      "type": "LINE",
+      "source_index": 335,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a91b977ee8ebd3f0",
+      "type": "LINE",
+      "source_index": 336,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6f14385f25b57ac2",
+      "type": "LINE",
+      "source_index": 337,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "48a279dc71e035ee",
+      "type": "LINE",
+      "source_index": 338,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d1ca71664263032f",
+      "type": "LINE",
+      "source_index": 339,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "39083233b6fda303",
+      "type": "LINE",
+      "source_index": 340,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "79cfa2f6b8226037",
+      "type": "LINE",
+      "source_index": 341,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a1c608959fd8f30c",
+      "type": "LINE",
+      "source_index": 342,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6ccd251a3bdd7573",
+      "type": "LINE",
+      "source_index": 343,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b51986d210751063",
+      "type": "LINE",
+      "source_index": 344,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "58d51fab7d8270f3",
+      "type": "LINE",
+      "source_index": 345,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4dce6e30218cf53d",
+      "type": "LINE",
+      "source_index": 346,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7de482bd5411aded",
+      "type": "LINE",
+      "source_index": 347,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2f83a0d66f6c1779",
+      "type": "LINE",
+      "source_index": 348,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e1042f0b6cec4088",
+      "type": "LINE",
+      "source_index": 349,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "736e0bb64e64edfc",
+      "type": "LINE",
+      "source_index": 350,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7cdba00acd0a9978",
+      "type": "LINE",
+      "source_index": 351,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "47590dacc609ce21",
+      "type": "LINE",
+      "source_index": 352,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a813ecac7525f801",
+      "type": "LINE",
+      "source_index": 353,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "97a9f16a4d2359c8",
+      "type": "LINE",
+      "source_index": 354,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "37ac09d88ba4bfb2",
+      "type": "LINE",
+      "source_index": 355,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "81c5bbcebae04fea",
+      "type": "LINE",
+      "source_index": 356,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f17ce172a08cdf57",
+      "type": "LINE",
+      "source_index": 357,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8162bb5f07f1be62",
+      "type": "LINE",
+      "source_index": 358,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ff05c42e85dec008",
+      "type": "LINE",
+      "source_index": 359,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7de71f0897f5635f",
+      "type": "LINE",
+      "source_index": 360,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6fba67bd14ddb01e",
+      "type": "LINE",
+      "source_index": 361,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4a4276b0c189e54b",
+      "type": "LINE",
+      "source_index": 362,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "948912ac8e95e25c",
+      "type": "LINE",
+      "source_index": 363,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1c90615e6dd40527",
+      "type": "LINE",
+      "source_index": 364,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ca718ddb2d3a3974",
+      "type": "LINE",
+      "source_index": 365,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a79da7f5daa23bc4",
+      "type": "LINE",
+      "source_index": 366,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "468badfd4b45df5c",
+      "type": "LINE",
+      "source_index": 367,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "422afe5a8c8bbef9",
+      "type": "LINE",
+      "source_index": 368,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ab400a4158d22ead",
+      "type": "LINE",
+      "source_index": 369,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "597b5e07ce3b78ad",
+      "type": "LINE",
+      "source_index": 370,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e614982a56e9fa8d",
+      "type": "LINE",
+      "source_index": 371,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6955607cd73df724",
+      "type": "LINE",
+      "source_index": 372,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7a4b6ea0ea58c163",
+      "type": "LINE",
+      "source_index": 373,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "25f430d37484b8fc",
+      "type": "LINE",
+      "source_index": 374,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fd3dad3fb59a388d",
+      "type": "LINE",
+      "source_index": 375,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f1f19d0c6af5d639",
+      "type": "LINE",
+      "source_index": 376,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5d0552a5a084be58",
+      "type": "LINE",
+      "source_index": 377,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "541c5835748835a0",
+      "type": "LINE",
+      "source_index": 378,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "16a963c81bd7ec9d",
+      "type": "LINE",
+      "source_index": 379,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "172bc5ac0fe42429",
+      "type": "LINE",
+      "source_index": 380,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "608daee786f3c255",
+      "type": "LINE",
+      "source_index": 381,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fe5215f41c245347",
+      "type": "LINE",
+      "source_index": 382,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c68e7d0eb48f86a7",
+      "type": "LINE",
+      "source_index": 383,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8b22739c54bd4a35",
+      "type": "LINE",
+      "source_index": 384,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "98182c809a354582",
+      "type": "LINE",
+      "source_index": 385,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "86c4326665769db7",
+      "type": "LINE",
+      "source_index": 386,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5e2e4ebcf6393663",
+      "type": "LINE",
+      "source_index": 387,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "510da7f30dca31a3",
+      "type": "LINE",
+      "source_index": 388,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c7d0564bf4a9e523",
+      "type": "LINE",
+      "source_index": 389,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9c47587ba3959d67",
+      "type": "LINE",
+      "source_index": 390,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "259032207d3d5ea9",
+      "type": "LINE",
+      "source_index": 391,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7671205efe00a755",
+      "type": "LINE",
+      "source_index": 392,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f4c0abb4a33d5f07",
+      "type": "LINE",
+      "source_index": 393,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2d32bd9386411c2c",
+      "type": "LINE",
+      "source_index": 394,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d617afb24714e9fc",
+      "type": "LINE",
+      "source_index": 395,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2cd952e0c50a84b5",
+      "type": "LINE",
+      "source_index": 396,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "394e901dbcff2d60",
+      "type": "LINE",
+      "source_index": 397,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d1a48c4333bd5d53",
+      "type": "LINE",
+      "source_index": 398,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9a680e44fe0222e9",
+      "type": "LINE",
+      "source_index": 399,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6c684ce7c30b0a43",
+      "type": "LINE",
+      "source_index": 400,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b86d0a60f828e7a8",
+      "type": "LINE",
+      "source_index": 401,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "40ddc3e04df4cca6",
+      "type": "LINE",
+      "source_index": 402,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7354153030f6d870",
+      "type": "LINE",
+      "source_index": 403,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5025f4f68a2504b8",
+      "type": "LINE",
+      "source_index": 404,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "043649f7f6db85e2",
+      "type": "LINE",
+      "source_index": 405,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8d029e8a8bcc71cf",
+      "type": "LINE",
+      "source_index": 406,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7fb46756e8c70c03",
+      "type": "LINE",
+      "source_index": 407,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2ca997be50f2229d",
+      "type": "LINE",
+      "source_index": 408,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a49f23bc8f6b1cb2",
+      "type": "LINE",
+      "source_index": 409,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5c558cf2ceb7b0ba",
+      "type": "LINE",
+      "source_index": 410,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1c393a772713e0ea",
+      "type": "LINE",
+      "source_index": 411,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "96c70e1d8f042b2b",
+      "type": "LINE",
+      "source_index": 412,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2e99bc68e89381f6",
+      "type": "LINE",
+      "source_index": 413,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "eeb8b92ee2dd08fd",
+      "type": "LINE",
+      "source_index": 414,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9bf2a179647ba77d",
+      "type": "LINE",
+      "source_index": 415,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "1096a33ebe912f14",
+      "type": "LINE",
+      "source_index": 416,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ff0e63a2b880c409",
+      "type": "LINE",
+      "source_index": 417,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "16828e2ea75476ea",
+      "type": "LINE",
+      "source_index": 418,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ab4e5b483a4365f1",
+      "type": "LINE",
+      "source_index": 419,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "574f7c9520411fe8",
+      "type": "LINE",
+      "source_index": 420,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5ef845ed85d21df6",
+      "type": "LINE",
+      "source_index": 421,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a2813e5b6be82296",
+      "type": "LINE",
+      "source_index": 422,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f447c9052c1be1ec",
+      "type": "LINE",
+      "source_index": 423,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2e847e18510178f5",
+      "type": "LINE",
+      "source_index": 424,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bc249fab3e592493",
+      "type": "LINE",
+      "source_index": 425,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "70527196fe15a820",
+      "type": "LINE",
+      "source_index": 426,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bb3986675c8ee53a",
+      "type": "LINE",
+      "source_index": 427,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0cde565d00cad801",
+      "type": "LINE",
+      "source_index": 428,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "afd49080565d22bb",
+      "type": "LINE",
+      "source_index": 429,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "a314aa677ef9659a",
+      "type": "LINE",
+      "source_index": 430,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3be0abb1e3d6b5d5",
+      "type": "LINE",
+      "source_index": 431,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "76b5edf0eebd0e98",
+      "type": "LINE",
+      "source_index": 432,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8e70e5495080b9e1",
+      "type": "LINE",
+      "source_index": 433,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "e25d5e3376520cee",
+      "type": "LINE",
+      "source_index": 434,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "62b8a325dc5d1146",
+      "type": "LINE",
+      "source_index": 435,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3043fe6303088547",
+      "type": "LINE",
+      "source_index": 436,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "540590c91ecd2ac3",
+      "type": "LINE",
+      "source_index": 437,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d87c9cf016687010",
+      "type": "LINE",
+      "source_index": 438,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "34b4cd4e099f265e",
+      "type": "LINE",
+      "source_index": 439,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2ffa4f5033f1bdd1",
+      "type": "LINE",
+      "source_index": 440,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "799af2d5e26e5818",
+      "type": "LINE",
+      "source_index": 441,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d47303d24975551d",
+      "type": "LINE",
+      "source_index": 442,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "46089879b8551f7b",
+      "type": "LINE",
+      "source_index": 443,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bb9a9b9f1534a8f6",
+      "type": "LINE",
+      "source_index": 444,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2a5a14a92015c2d7",
+      "type": "LINE",
+      "source_index": 445,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3e5825b9d0bd1fb3",
+      "type": "LINE",
+      "source_index": 446,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b875192d24f41949",
+      "type": "LINE",
+      "source_index": 447,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "89376561a0de38ec",
+      "type": "LINE",
+      "source_index": 448,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3869e231db5084cd",
+      "type": "LINE",
+      "source_index": 449,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "98f7d5fab34c3ad2",
+      "type": "LINE",
+      "source_index": 450,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2ffc5d3467543d58",
+      "type": "LINE",
+      "source_index": 451,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f1b8d7e1737fb3c6",
+      "type": "LINE",
+      "source_index": 452,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "f36ab908d34ea7a0",
+      "type": "LINE",
+      "source_index": 453,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "bc5b4e453da7faa0",
+      "type": "LINE",
+      "source_index": 454,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3af808287277d624",
+      "type": "LINE",
+      "source_index": 455,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d09868af795ceaeb",
+      "type": "LINE",
+      "source_index": 456,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "3b0ad1ab114180df",
+      "type": "LINE",
+      "source_index": 457,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "78d5a1ba37a72f33",
+      "type": "LINE",
+      "source_index": 458,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0882c409be605a88",
+      "type": "LINE",
+      "source_index": 459,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "5ac60d1063ba60db",
+      "type": "LINE",
+      "source_index": 460,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fa4d4e40ae4d085e",
+      "type": "LINE",
+      "source_index": 461,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "fb68a651ed7afabd",
+      "type": "LINE",
+      "source_index": 462,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "01d2cca506994424",
+      "type": "LINE",
+      "source_index": 463,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "67488dee42d6eb26",
+      "type": "LINE",
+      "source_index": 464,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6dca03acfd5548ba",
+      "type": "LINE",
+      "source_index": 465,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "35b5c8330f94fef0",
+      "type": "LINE",
+      "source_index": 466,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "44a7b128b575b0cf",
+      "type": "LINE",
+      "source_index": 467,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7230f749c743ecd5",
+      "type": "LINE",
+      "source_index": 468,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "45c1114a1a744178",
+      "type": "LINE",
+      "source_index": 469,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9b7bd6dacfe705a0",
+      "type": "LINE",
+      "source_index": 470,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "b462218544d5c4a5",
+      "type": "LINE",
+      "source_index": 471,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "47dc2019b8d20efd",
+      "type": "LINE",
+      "source_index": 472,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2a496ee2c83b1963",
+      "type": "LINE",
+      "source_index": 473,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "4cbef4e86f7f3cee",
+      "type": "LINE",
+      "source_index": 474,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c63681782900696e",
+      "type": "LINE",
+      "source_index": 475,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "419f37a1d5d4f9da",
+      "type": "LINE",
+      "source_index": 476,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "7b82f9eacbe41f55",
+      "type": "LINE",
+      "source_index": 477,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "19dda06a1fd97995",
+      "type": "LINE",
+      "source_index": 478,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9d8cb3aa34da031b",
+      "type": "LINE",
+      "source_index": 479,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "d9a7f6fcfd55fd45",
+      "type": "LINE",
+      "source_index": 480,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "9ac124c98348ed92",
+      "type": "LINE",
+      "source_index": 481,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "dfd934c4e41abab4",
+      "type": "LINE",
+      "source_index": 482,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "71a640116e80f482",
+      "type": "LINE",
+      "source_index": 483,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "343cb0680051e96b",
+      "type": "LINE",
+      "source_index": 484,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "cda810af74d11572",
+      "type": "LINE",
+      "source_index": 485,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "2720aaefb5802e2a",
+      "type": "LINE",
+      "source_index": 486,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "8303d33bf183a17a",
+      "type": "LINE",
+      "source_index": 487,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "0df00bacf3428905",
+      "type": "LINE",
+      "source_index": 488,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "6fdc3aa5cbb6c635",
+      "type": "LINE",
+      "source_index": 489,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "ab596be48e83ab23",
+      "type": "LINE",
+      "source_index": 490,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "eb1790ead490a194",
+      "type": "LINE",
+      "source_index": 491,
+      "role": "KOPTi_logo_stroke"
+    },
+    {
+      "id": "c1875fa7fdec0c23",
+      "type": "FILL",
+      "source_index": 0,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "b582f8963083d6e4",
+      "type": "FILL",
+      "source_index": 1,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "70982f330a78006b",
+      "type": "FILL",
+      "source_index": 2,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "cc11f03882df29b0",
+      "type": "FILL",
+      "source_index": 3,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "67f69aed1083a267",
+      "type": "FILL",
+      "source_index": 4,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "000741cc8aa2a8fe",
+      "type": "FILL",
+      "source_index": 5,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "bde7160a41dd97ec",
+      "type": "FILL",
+      "source_index": 6,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "41ebd4e2e699bcc3",
+      "type": "FILL",
+      "source_index": 7,
+      "source_aperture": "D10",
+      "role": "KOPTi_logo_fill"
+    },
+    {
+      "id": "ee9116c050dc7633",
+      "type": "FILL",
+      "source_index": 8,
+      "source_aperture": "D19",
+      "role": "barrel_polarity_fill"
+    },
+    {
+      "id": "2c03b8cc56bef3c3",
+      "type": "FILL",
+      "source_index": 9,
+      "source_aperture": "D19",
+      "role": "barrel_polarity_fill"
+    },
+    {
+      "id": "7a6185a7f168cbb3",
+      "type": "FILL",
+      "source_index": 10,
+      "source_aperture": "D19",
+      "role": "barrel_polarity_fill"
+    },
+    {
+      "id": "90e387d5bd60324c",
+      "type": "FILL",
+      "source_index": 11,
+      "source_aperture": "D19",
+      "role": "barrel_polarity_fill"
+    }
+  ],
+  "merge_contract": {
+    "scope": "Merge the 504 LINE/FILL primitives only into the final native PCB.",
+    "do_not_duplicate": "Do not merge this document scaffold or duplicate per-component silkscreen.",
+    "manufacturing_gate": "Final board still requires complete component placement, mask/paste recovery, native netlist comparison and DRC before fabrication."
+  },
+  "native_source_validation": {
+    "status": "complete",
+    "record_count": 510,
+    "record_counts": {
+      "ACTIVE_LAYER": 1,
+      "CANVAS": 1,
+      "DOCHEAD": 1,
+      "FILL": 12,
+      "LAYER": 1,
+      "LINE": 492,
+      "META": 1,
+      "PREFERENCE": 1
+    },
+    "primitive_count": 504,
+    "unique_current_16_hex_primitive_ids": 504,
+    "group_id_zero_count": 504,
+    "layer_3_primitive_count": 504,
+    "line_geometry_sha256": "4c5c9151072178c2eaa679453b3aa39569587da534cdef27a2c243fd0a76a26b",
+    "fill_paths_sha256": "553c4216f33124f796ab1bdc131e346c1841a918ec0967cfae28bfbac160b2e7",
+    "missing_source_objects": 0
+  },
+  "output": {
+    "path": "output\\native-pcb\\global-silkscreen-reference.epru",
+    "sha256": "ed5eb4715c0be8ffef7dd9c3dc313130345c84d503d20db37fa69cf7e54d37bb",
+    "bytes": 142611
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "scope": "Independent offline visual review of the exact eighteen-ATTR display-only candidate",
+  "baselineSourceSha256": "c5a558d7d4d392145bb2471ddf8ee7848dd47c4189e6a30f8f805b739a73e281",
+  "candidateSourceSha256": "643b9f9cb8214bbe017a5a5ccf5a44a9705e0eafc6df1ee61715f48b9a4703fe",
+  "attributeCount": 18,
+  "electricalChanges": 0,
+  "other2866RecordBodiesExact": true,
+  "imagesInspected": [
+    "adc-proposed-three-buffers.png",
+    "adc-proposed-reference-context.png",
+    "adc-proposed-input-chains.png",
+    "adc-saved-lower-context.png"
+  ],
+  "checks": {
+    "opaPartLabelsClearOfTriangleAndPowerBus": true,
+    "opaPartLabelsClearOfPreviousBufferGroundLabels": true,
+    "capacitorLabelsClearOfPlateEnds": true,
+    "allModifiedLabelsInsideDrawingFrame": true,
+    "allThreeBufferBlocksInsideDrawingFrame": true,
+    "biasReferenceBlockClearOfJ18Box": true,
+    "onPageRevisionNoteVisible": true
+  },
+  "chosenCoordinates": {
+    "U10_U11_U12_Designator": "x=205, y=bufferY-43",
+    "U10_U11_U12_Value": "x=205, y=bufferY-36",
+    "C80_C81_C82_C103_C104_C105_DesignatorAndValue": "x=capacitorCentreX+15, original y retained"
+  },
+  "limitations": [
+    "Source-faithful independent SVG renderer with actual saved project symbols and Arial fonts; not an EasyEDA native SVG export.",
+    "Native save/reopen and exact eighteen-display-change preservation must still be verified after application.",
+    "No manufacturing approval or ADC performance measurement is implied."
+  ]
+}

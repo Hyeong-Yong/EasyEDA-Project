@@ -1,0 +1,78 @@
+{
+  "dateKst": "2026-10-12",
+  "originalUnchanged": true,
+  "projects": [
+    {
+      "name": "DAC8562_power_accuracy_revision",
+      "liveProjectUuid": "27ad8367af4cc7ed3f3a8585df6270aba4f6f955417a52e2b41185736ff02e56",
+      "pages": 3,
+      "allPagesSaved": true,
+      "ercAllPagesPassed": true,
+      "nets": 63,
+      "connectedPins": 352,
+      "netlistMismatch": [],
+      "physicalParts": 117,
+      "missingManufacturerPart": [],
+      "missingFootprint": [],
+      "limitations": [
+        "Schematic/ERC/netlist verification only; not PCB DRC, thermal, SPICE or measured startup accuracy.",
+        "Unexpected fast power failure still requires transient/relay-release qualification."
+      ],
+      "saveCloseReopenErcPassed": true,
+      "officialNativeExportSaved": true,
+      "epro2Sha256": "aec69d5e888e0c65ae944ea046b80208f25dcbdbb05461ffd1c14020cb00b694",
+      "localProjectSha256": "8a007dac875bd6e3d540e8a0a8089037432c7b9d199d26abbaca0a480acd2a56"
+    },
+    {
+      "name": "STM32H747_DAC_SMA_2CH_revision",
+      "liveProjectUuid": "71b2d8c2312bbc87f7f163740641e5fbf1bb3a2ced879cca1d307149bf9016b1",
+      "pages": 2,
+      "allPagesSaved": true,
+      "ercAllPagesPassed": true,
+      "nets": 46,
+      "connectedPins": 230,
+      "netlistMismatch": [],
+      "physicalParts": 76,
+      "missingManufacturerPart": [],
+      "missingFootprint": [],
+      "limitations": [
+        "Schematic/ERC/netlist verification only; not PCB DRC, thermal, SPICE or measured startup accuracy.",
+        "Unexpected fast power failure still requires transient/relay-release qualification."
+      ],
+      "saveCloseReopenErcPassed": true,
+      "officialNativeExportSaved": true,
+      "epro2Sha256": "66be16210e587b0a3d59d4726919ad4a4dab9b5c912b18e0b3c8fa81110583e1",
+      "localProjectSha256": "b294a7677ae1479f4f3ad6ce385a383c71b1ceea30643708e4a4033752614cc1"
+    },
+    {
+      "name": "STM32H747_DAC_SMA_TX_buffer_revision",
+      "liveProjectUuid": "4077d10819649380a47e737c8f1a30c8dd921323b368c9d1fb98364aa44166fc",
+      "pages": 1,
+      "allPagesSaved": true,
+      "ercAllPagesPassed": true,
+      "nets": 8,
+      "connectedPins": 40,
+      "netlistMismatch": [],
+      "physicalParts": 10,
+      "missingManufacturerPart": [],
+      "missingFootprint": [],
+      "limitations": [
+        "Schematic/ERC/netlist verification only; not PCB DRC, thermal, SPICE or measured startup accuracy.",
+        "Unexpected fast power failure still requires transient/relay-release qualification."
+      ],
+      "saveCloseReopenErcPassed": true,
+      "officialNativeExportSaved": true,
+      "epro2Sha256": "c9ed4a9a7c07b220658baa43206e82aa271d49e65099f50ca9fefa37b5464f7d",
+      "localProjectSha256": "c752c526e3122091c0fb3666ea18e7223062495e999d335f807d2959b4f94f33"
+    }
+  ],
+  "notValidated": [
+    "PCB layout/DRC, manufacturing DFM",
+    "Hardware startup/brownout transients, relay release with flyback diode",
+    "Measured output accuracy, temperature drift and cable settling"
+  ],
+  "conditionalChangesNotApplied": [
+    "R5 remains 100ohm: substitute the TPS65131-recommended ferrite if input rise rate >=275mV/us is measured.",
+    "C1/C2 remain 6.8pF: 7.5pF feed-forward optimization requires power-loop qualification."
+  ]
+}

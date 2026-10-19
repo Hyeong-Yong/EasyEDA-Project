@@ -1,0 +1,210 @@
+{
+  "plan": "local5-session-model-plan",
+  "start": 1,
+  "count": 4,
+  "refs": [
+    "CN2",
+    "CN3",
+    "CN4",
+    "L1"
+  ],
+  "before": [
+    {
+      "ref": "CN2",
+      "id": "abea6ad277f2bdcf",
+      "other": {
+        "Footprint": "CN2_2_CustomLibrary:RJ45_LPJE101-0AHNL",
+        "Value": "LPJE101-0AHN",
+        "Description": "CONN MOD JACK 8P8C R/A SHIELDED",
+        "Part Number": "LPJE101-0AHN",
+        "Package": "DIP-8",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:RJ45_LPJE101-0AHNL",
+        "Device": "CN2_LPJE101-0AHN",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I62"
+      }
+    },
+    {
+      "ref": "CN3",
+      "id": "1bb54a689e8b2f5b",
+      "other": {
+        "Footprint": "CN3_2_CustomLibrary:USB_C_GCT_USB4105-GF-A_Custum",
+        "Value": "USB4105",
+        "Description": "USB 2.0-only Type-C Receptacle connector",
+        "Part Number": "USB4105-GF-A",
+        "Package": "SMD-16",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:USB_C_GCT_USB4105-GF-A_Custum",
+        "Device": "CN3_USB4105",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I63"
+      }
+    },
+    {
+      "ref": "CN4",
+      "id": "3663918f8e6c2c4f",
+      "other": {
+        "Footprint": "CN4_2_CustomLibrary:USB_C_GCT_USB4105-GF-A_Custum",
+        "Value": "USB4105",
+        "Description": "USB 2.0-only Type-C Receptacle connector",
+        "Part Number": "USB4105-GF-A",
+        "Package": "SMD-16",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:USB_C_GCT_USB4105-GF-A_Custum",
+        "Device": "CN4_USB4105",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I64"
+      }
+    },
+    {
+      "ref": "L1",
+      "id": "2eb86da4421c0b6a",
+      "other": {
+        "Footprint": "L1_2_CustomLibrary:L_Murata_LQM2",
+        "Value": "LQM2MPN2R2NG0L",
+        "Description": "FIXED IND 2.2UH 1.2A 138 MOHM",
+        "Part Number": "LQM2MPN2R2NG0L",
+        "Package": "0806",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:L_Murata_LQM2",
+        "Device": "L1_LQM2MPN2R2NG0L",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I89"
+      }
+    }
+  ],
+  "saved": true,
+  "afterModels": [
+    {
+      "ref": "CN2",
+      "id": "abea6ad277f2bdcf",
+      "footprintUuid": "74ecde493bb3cd4f",
+      "model": "326b1712a6c270945055b2ad90fdfaee|extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "uuid": "326b1712a6c270945055b2ad90fdfaee",
+      "libraryUuid": "extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "title": "STM32H747_3D_CN2_LPJE101_0AHNL_APPROX_ZUP_20261018",
+      "transform": "627.9527598425,783.222945593,721.4913973463,0,0,0,108.144017685,0,-139.7637795276",
+      "sourceSha256": "326b1712a6c270945055b2ad90fdfaeed0c5880a7064fb503235c3b7462030da",
+      "expectedBboxMm": {
+        "min_mm": [
+          -5.2281420008,
+          -9.946931409029999,
+          -3.55
+        ],
+        "max_mm": [
+          10.721858099199999,
+          9.946931409031459,
+          14.775881492595575
+        ],
+        "span_mm": [
+          15.950000099999999,
+          19.893862818061457,
+          18.325881492595574
+        ]
+      },
+      "relation": "Manufacturer-linked exact-MPN CAD with APPROXIMATE footprint registration and inferred seating datum; not certified mechanical fit.",
+      "limitations": [
+        "Signal pitch1.02mm vs footprint1.016mm: up to0.014mmY residual.",
+        "Shield-leg centers+/-8.225mm vs current+/-8.128mm:0.097mm residual.",
+        "CAD sidewall span16.55mm vs official drawing16.26mm.",
+        "Metric rounding leaves up to0.005mmX pin-row/LED registration residual.",
+        "Full bounds include extended EMI springs; do not shrink to nominal enclosure dimensions."
+      ]
+    },
+    {
+      "ref": "CN3",
+      "id": "1bb54a689e8b2f5b",
+      "footprintUuid": "8bd1ebd7c6524c9d",
+      "model": "a53b7f178ed7797919c6ded9adc72af1|extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "uuid": "a53b7f178ed7797919c6ded9adc72af1",
+      "libraryUuid": "extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "title": "STM32H747_3D_CN3_USB4105_GF_A_ZUP_20261018",
+      "transform": "303.5433070866,377.1653622047,163.7795275595,0,0,0,111.5649921263,-0.0000503937,-33.4645669296",
+      "sourceSha256": "a53b7f178ed7797919c6ded9adc72af16fca40c1682d753f27b6fb5ba3528e67",
+      "expectedBboxMm": {
+        "min_mm": [
+          -1.0212491999910007,
+          -4.790001379999991,
+          -0.850000000011999
+        ],
+        "max_mm": [
+          6.688750800008,
+          4.789998820000012,
+          3.310000000000002
+        ],
+        "span_mm": [
+          7.709999999999001,
+          9.580000200000002,
+          4.160000000012001
+        ]
+      },
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": []
+    },
+    {
+      "ref": "CN4",
+      "id": "3663918f8e6c2c4f",
+      "footprintUuid": "ae37a0fb8459ebec",
+      "model": "ca4cb89a521d827f13ad3b2648612064|extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "uuid": "ca4cb89a521d827f13ad3b2648612064",
+      "libraryUuid": "extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "title": "STM32H747_3D_CN4_USB4105_GF_A_ZUP_20261018",
+      "transform": "377.1653622047,303.5433070866,163.7795275595,0,0,0,-0.0000086614,111.5649377956,-33.4645669296",
+      "sourceSha256": "ca4cb89a521d827f13ad3b2648612064efabfcb22201c47f46289ffb9b02036a",
+      "expectedBboxMm": {
+        "min_mm": [
+          -4.790000320000008,
+          -1.0212505799910003,
+          -0.850000000011999
+        ],
+        "max_mm": [
+          4.7899998799999945,
+          6.688749420008001,
+          3.310000000000002
+        ],
+        "span_mm": [
+          9.580000200000002,
+          7.709999999999002,
+          4.160000000012001
+        ]
+      },
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": []
+    },
+    {
+      "ref": "L1",
+      "id": "2eb86da4421c0b6a",
+      "footprintUuid": "b4f9adb2635c7c19",
+      "model": "f272e3e5b7b48a97f2b55dcf43bd7971|extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "uuid": "f272e3e5b7b48a97f2b55dcf43bd7971",
+      "libraryUuid": "extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "title": "STM32H747_3D_L1_LQM2MPN2R2NG0L_ZUP_20261018",
+      "transform": "62.9921259843,78.7401574803,39.3700787402,0,0,0,0.0000307087,-0.0000440945,0",
+      "sourceSha256": "f272e3e5b7b48a97f2b55dcf43bd797141447004af684b9cc663b844cd0fbed3",
+      "expectedBboxMm": {
+        "min_mm": [
+          -0.7999992200000067,
+          -1.000001119999979,
+          -8.326672684688674e-17
+        ],
+        "max_mm": [
+          0.8000007799999937,
+          0.9999988800000211,
+          1
+        ],
+        "span_mm": [
+          1.6000000000000005,
+          2,
+          1
+        ]
+      },
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": []
+    }
+  ]
+}

@@ -1,0 +1,1042 @@
+{
+  "plan": "passive-3d-apply-plan",
+  "start": 300,
+  "count": 37,
+  "refs": [
+    "R164",
+    "R165",
+    "R166",
+    "R167",
+    "R168",
+    "R169",
+    "R170",
+    "R171",
+    "R172",
+    "R177",
+    "R178",
+    "R179",
+    "R180",
+    "R181",
+    "R182",
+    "R183",
+    "R184",
+    "R185",
+    "R186",
+    "R187",
+    "R188",
+    "R189",
+    "R190",
+    "R191",
+    "R192",
+    "R193",
+    "R194",
+    "R195",
+    "R196",
+    "R197",
+    "R198",
+    "R199",
+    "R200",
+    "R201",
+    "R202",
+    "R203",
+    "R204"
+  ],
+  "before": [
+    {
+      "ref": "R164",
+      "id": "32d1b9056f08dfce",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "4.00k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I105"
+      }
+    },
+    {
+      "ref": "R165",
+      "id": "92a99cca9f2372ea",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "3.32k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I106"
+      }
+    },
+    {
+      "ref": "R166",
+      "id": "1e00d9d7c6577d11",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "47",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R47_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I107"
+      }
+    },
+    {
+      "ref": "R167",
+      "id": "aae6cbc06e6cc184",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "3.32k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I108"
+      }
+    },
+    {
+      "ref": "R168",
+      "id": "56bd79a9b0feb168",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "47",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R47_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I109"
+      }
+    },
+    {
+      "ref": "R169",
+      "id": "50b7feb148227762",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "3.32k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I110"
+      }
+    },
+    {
+      "ref": "R170",
+      "id": "b9b66083d3921084",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "47",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R47_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I111"
+      }
+    },
+    {
+      "ref": "R171",
+      "id": "823d3701ffc07621",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "3.32k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I112"
+      }
+    },
+    {
+      "ref": "R172",
+      "id": "a8c4a972655e9521",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "47",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R47_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I113"
+      }
+    },
+    {
+      "ref": "R177",
+      "id": "68ceb2001e6f1629",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I168"
+      }
+    },
+    {
+      "ref": "R178",
+      "id": "de56f208905beb18",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I170"
+      }
+    },
+    {
+      "ref": "R179",
+      "id": "8dd04523cb5889fe",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I172"
+      }
+    },
+    {
+      "ref": "R180",
+      "id": "ebccb9ef0364be5f",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I174"
+      }
+    },
+    {
+      "ref": "R181",
+      "id": "9b68ab0e3b163a10",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I176"
+      }
+    },
+    {
+      "ref": "R182",
+      "id": "306e96f3ed66c004",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I178"
+      }
+    },
+    {
+      "ref": "R183",
+      "id": "7b0115c45797d9a1",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I180"
+      }
+    },
+    {
+      "ref": "R184",
+      "id": "774e7aae3ad26309",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I182"
+      }
+    },
+    {
+      "ref": "R185",
+      "id": "e074f57c41b65276",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I184"
+      }
+    },
+    {
+      "ref": "R186",
+      "id": "6376ab01224836e5",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "100k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I186"
+      }
+    },
+    {
+      "ref": "R187",
+      "id": "86fcbdd120f3d2e3",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I169"
+      }
+    },
+    {
+      "ref": "R188",
+      "id": "efbd28da187eda7b",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I171"
+      }
+    },
+    {
+      "ref": "R189",
+      "id": "be7437d2c1ae6936",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I173"
+      }
+    },
+    {
+      "ref": "R190",
+      "id": "878d60aa73118868",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I175"
+      }
+    },
+    {
+      "ref": "R191",
+      "id": "35824a3ca022759c",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I177"
+      }
+    },
+    {
+      "ref": "R192",
+      "id": "c00164593a8bfc22",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I179"
+      }
+    },
+    {
+      "ref": "R193",
+      "id": "dd7290e11e05cef1",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I181"
+      }
+    },
+    {
+      "ref": "R194",
+      "id": "aa600827bd1c5791",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I183"
+      }
+    },
+    {
+      "ref": "R195",
+      "id": "a01697f1240ee240",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I185"
+      }
+    },
+    {
+      "ref": "R196",
+      "id": "d11f87ed36904bd3",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "2.80k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I187"
+      }
+    },
+    {
+      "ref": "R197",
+      "id": "2829b3f44dbb9615",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "4.7",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I99",
+        "Power Rating": "0.1 W minimum"
+      }
+    },
+    {
+      "ref": "R198",
+      "id": "f92cd08fbeacea85",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "15.4k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I100"
+      }
+    },
+    {
+      "ref": "R199",
+      "id": "8d488c308f18331e",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "10.0k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I101"
+      }
+    },
+    {
+      "ref": "R200",
+      "id": "bbfb4b3264a541be",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "4.7",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I102",
+        "Power Rating": "0.1 W minimum"
+      }
+    },
+    {
+      "ref": "R201",
+      "id": "8165776b12213814",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "1.0",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I103"
+      }
+    },
+    {
+      "ref": "R202",
+      "id": "6eb1a2f698c02c69",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "15.8k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "10 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I104"
+      }
+    },
+    {
+      "ref": "R203",
+      "id": "a958fcefe3fc5eb6",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "10.0k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "10 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I105"
+      }
+    },
+    {
+      "ref": "R204",
+      "id": "a4f2a005b2433af6",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "Value": "1.00k",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I106"
+      }
+    }
+  ],
+  "saved": true,
+  "afterModels": [
+    {
+      "ref": "R164",
+      "id": "32d1b9056f08dfce",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R165",
+      "id": "92a99cca9f2372ea",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R166",
+      "id": "1e00d9d7c6577d11",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R167",
+      "id": "aae6cbc06e6cc184",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R168",
+      "id": "56bd79a9b0feb168",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R169",
+      "id": "50b7feb148227762",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R170",
+      "id": "b9b66083d3921084",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R171",
+      "id": "823d3701ffc07621",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R172",
+      "id": "a8c4a972655e9521",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R177",
+      "id": "68ceb2001e6f1629",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R178",
+      "id": "de56f208905beb18",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R179",
+      "id": "8dd04523cb5889fe",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R180",
+      "id": "ebccb9ef0364be5f",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R181",
+      "id": "9b68ab0e3b163a10",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R182",
+      "id": "306e96f3ed66c004",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R183",
+      "id": "7b0115c45797d9a1",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R184",
+      "id": "774e7aae3ad26309",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R185",
+      "id": "e074f57c41b65276",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R186",
+      "id": "6376ab01224836e5",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R187",
+      "id": "86fcbdd120f3d2e3",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R188",
+      "id": "efbd28da187eda7b",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R189",
+      "id": "be7437d2c1ae6936",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R190",
+      "id": "878d60aa73118868",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R191",
+      "id": "35824a3ca022759c",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R192",
+      "id": "c00164593a8bfc22",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R193",
+      "id": "dd7290e11e05cef1",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R194",
+      "id": "aa600827bd1c5791",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R195",
+      "id": "a01697f1240ee240",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R196",
+      "id": "d11f87ed36904bd3",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R197",
+      "id": "2829b3f44dbb9615",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R198",
+      "id": "f92cd08fbeacea85",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R199",
+      "id": "8d488c308f18331e",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R200",
+      "id": "bbfb4b3264a541be",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R201",
+      "id": "8165776b12213814",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R202",
+      "id": "6eb1a2f698c02c69",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R203",
+      "id": "a958fcefe3fc5eb6",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "R204",
+      "id": "a4f2a005b2433af6",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "family": "0402R",
+      "model": "efdecb7dae4442949d28eecaf748420f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "R0402_L1.0-W0.5-H0.4",
+      "transform": "39.37007874,19.68503937,15.7480315,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    }
+  ]
+}

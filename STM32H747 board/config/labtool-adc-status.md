@@ -1,0 +1,57 @@
+# LabTool 원리 ADC 입력 변경 — 회로/PCB 저장·검증 완료
+
+2026-10-18, Asia/Seoul. 본 상태는 이전 `adc-dc-corners-j18-status.md`의 ADC 회로/배선 완료 기록보다 최신이다. 이전 DRC 0은 **이전 회로**의 결과이며 이번 변경의 완료 증거가 아니다.
+
+## 사용자 확정 조건
+
+- J2~J11 전체 10채널. 입력은 GND 기준, 후단에서 ±2 V를 ADC 0~3.3 V 범위로 변환한다.
+- DC 성분 유지. DC/60 Hz 저잡음 우선, 기존 수 kHz 대역을 유지한다. 1 MHz 통과 설계가 아니다.
+- 신호원 출력 임피던스 50 Ω. 펌웨어는 수정하지 않는다.
+- TEST_DAC8562 파일·문서·프로세스·공유 브리지 기본 선택은 조작하지 않는다.
+
+## 최종 실제 결과
+
+- J2~J11 전체 10채널의 회로도 및 PCB 변경·배선·저장을 완료했다. DC 성분을 유지하며 명목 합성 대역은 약 3.31 kHz이다. 입력에 양의 바이어스나 GND 선택 스위치를 넣지 않는다.
+- 전체 native ERC 상세 0건: `output/validation/native-adc10-labtool-schematic-erc-details-final_routed-20261018.json`.
+- 전체 엄격 native DRC 0건: `output/validation/native-pcb-drc-0ac2a19168000d8e-labtool_ground_bridged_20261018.json`. 검사 항목/18개 규칙을 완화하지 않았다.
+- 회로도↔PCB 437부품/1,342핀/1,523 물리 PAD_NET 전수 일치. 704비아/863드릴이며 원래 640비아/799드릴을 모두 보존했다. 6층·외곽·모서리 홀·CN1·J18 뒷면 마킹도 보존했다.
+- GND 345패드/228비아, +3V3 138패드/77비아 연결과 28개 새 구리 조각+3개 기존 구리 조각의 접지를 실제 소스에서 검증했다. FILL 펜 폭을 제외한 모델에서도 모두 연결된다.
+- 마지막 기존 접지 경계 4건은 4개 짧은 GND LINE 생성 요청으로 보강했다. 3개는 실제 저장됐고 1개는 기존 넓은 선에 완전히 포함돼 native가 중복 제거했다. 기존 FILL·비아·드릴을 삭제하지 않았다.
+- 최종 실제 저장 소스: `output/validation/native-adc10-pcb-labtool_adc10_routed_final_saved-20261018.epru`, SHA `b7c6b99df160aaed2bb1f91717c2bde25e379bfdba88ec23dea5b4fdb7548d0f`.
+- 최종 전체 복구본: `output/checkpoints/STM32H747_labtool_adc10_routed_final_20261018.epro2`, SHA `afe1b3ebefdce0cb36eb040363c2c272dc4cf3b026746c0a2ee15b16079f8115`. 3,941문서의 내구성 대조에서 PCB 외 문서/라이브러리는 그대로다. close/reopen 성공을 주장하지 않으며 실제 저장 소스와 전체 복구본을 직접 대조했다.
+- 최종 검증 색인: `output/candidates/adc10-labtool-20261018/final-labtool-verification-index.json`. 진단 Gerber의 기존799+신규64 드릴·외곽·J18 마킹·6개 구리층 검사는 통과했다. 전체 copper CAM/제조 승인과 실제 잡음·기동·정착시간 검증은 별도이며 진단 ZIP은 제조 승인본이 아니다.
+- TEST_DAC8562 파일·문서·프로세스는 조작하지 않았고 공유 브리지 기본 선택도 기존 창으로 유지했다. 이번 새 변경을 git push하지 않았다.
+
+## 구현 및 검증 이력
+
+아래 WIP/오류/중단 표기는 당시의 기록이다. 현재 완료 여부와 한계는 위 최종 결과 및 아래 설계 요약이 우선한다. 과거 입력/계획/실행 배치는 재실행하지 않는다.
+
+- 06_ADC_TIMER_DAC: 10채널 새 입력 회로 적용·저장.
+- 03_MCU_POWER: 음전원·기준전압·오프셋 버퍼 추가·저장. 기존 live 1,970 records를 그대로 보존하고 검토된 658 records만 추가했다. REF5025 미사용 핀 1/3/7/8 NC 표시 완료.
+- 실제 전체 ERC 상세 검사: 0건 (`output/validation/native-adc10-labtool-schematic-erc-details-20261018.json`).
+- 전체 복구본: `output/checkpoints/STM32H747_labtool_schematic_verified_20261018.epro2`. 부품/핀 전수 독립 감사는 별도 보고서와 대조한다.
+- PCB ECO 반영·저장: 437부품/1,342핀을 회로도와 전수 대조했다. 기존 354개 물리 UID/위치, 640비아/799드릴, 18개 규칙·6층·기구·J18은 보존됐다. `independent-native-eco-audit.json`이 증거이다. 전체 복구본은 `STM32H747_labtool_pcb_eco_wip_20261018.epro2`이다.
+- 옛 PRE/직결 피드백/바이어스 및 전용 구형 REF +3V3 가지 138개 LINE 제거, 입력·출력 조각/보존 오프셋 트렁크 넷명 재배정 완료·저장(`native-adc10-pcb-labtool_isolated_saved-20261018.epru`). 네이티브가 같은 직선을 합친 경우는 넷·층·폭·모든 표시 메타데이터를 포함한 정수 좌표 중심선 합집합이 동일함을 검증했다. 삭제된 빈 넷 항목/기본 선택자는 회로 규칙 18개와 다르며 실제 규칙은 불변이다.
+- 채널별 80개 및 공용 전원/기준전압 27개, 총 107개 배치(신규83개+기존24개 이동)를 실제 PCB에 적용·저장했다(`native-adc10-pcb-labtool_107_placed_v4_saved-20261018.epru`). 음전원 디커플링 경로 약 2.47 mm, 차지펌프 출력 커패시터 연결 약 2.30 mm의 검토 배치이다. 국부/공용 배선·6층 접지 여유 공간·접지 연결·엄격 DRC 재검증은 진행 중이다. **아직 새 회로 배선이 완료되지 않았으며 제조/전원 인가용 완료본이 아니다.**
+- 같은 중심에서 R202를 90→270°, C158을 0→180°로 회전해 고임피던스 오프셋 필터를 짧은 TOP 연결로 구성할 수 있도록 했다. 실제 저장본은 `native-adc10-pcb-labtool_107_placed_v5b_saved-20261018.epru`(SHA-256 `568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b`)이다. 이 시점에도 새 LINE/VIA/FILL 배선은 아직 미적용이며, 오프라인 계획 PASS와 실제 PCB 검증을 구분한다.
+- 오프라인 `frozen-combined-routing-v2.json`(513선/50비아)은 신호·전원 74넷 연결과 구리 간격을 통과했지만 **native 적용 금지**이다. 최종 FILL 뒤 11개 GND 패드의 접지 단절 및 C103 입력 바이패스의 151.8 mm 우회 연결을 발견했다. 해당 부하 포함 접지 조각을 삭제하지 말고 8개 채널 양전원 디커플링 접지와 U32/C160 접지를 보강하며, C103을 REF 입력 근처로 옮긴 후 새 전체 계획·345 GND 및 138 +3V3 패드·엄격 DRC를 재검증한다. V2/중간 FILL 계획의 연결 PASS를 완료 증거로 사용하지 않는다.
+- C103을 (22.4, 72.0) mm/180°로 옮긴 실제 V6 저장본은 `native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru`(SHA-256 `a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9`)이다. 복구본 `STM32H747_labtool_107_placed_v6_wip_20261018.epro2`의 전체 3,941문서 대조도 통과했다. 바이패스 공급 약 6.5 mm/접지 약 0.9 mm 및 추가 접지 보강을 포함한 새 배선 계획은 검증 중이며, 이 시점에도 신규 LINE/VIA/FILL 적용 0이다.
+- 최종 V5 배선 계획은 526 LINE/64 VIA로 동결했다(`routing/frozen-combined-routing-v5.json`, SHA `d7fd2b7683da5e25e8591c88bba0a7711ecb700681f30cf4b8938f88380d6c07`). 최종 국부 FILL 계획은 8개 수정/28개 보존 조각 생성이고, 접촉이 전혀 없는 정확 116개 TOP GND 조각만 생성하지 않는다(명목 40.88831367634 mm²). 345개 GND 패드·기존199/신규29 GND 비아, 138개 +3V3 패드·기존77 비아 및 대상74넷의 오프라인 연결 검사는 통과했다. 이 검사는 아직 실제 전체 DRC 결과가 아니다.
+- 실제 국부 FILL 반영을 시작했다. `copper_fill0` 8개 수정과 `copper_fill1` 8개 보존 조각 생성 후 각각 독립 누적 형상/기존 기록 보존 검사가 통과했다. 실행 기준은 `pcb-final-copper-v5-execution.json` SHA `84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3`이다. 후속 단계마다 journal/receipt와 `audits/copper-readback-<stage>-*.json`을 남기고, PASS 전에는 다음 단계를 실행하지 않는다. **이 시점에는 PCB 배선과 전체 DRC가 여전히 진행 중이며 전원 인가·제조용 완료본이 아니다.**
+- FILL 전체 8수정/28생성과 신규64비아 반영·개별 누적 감사·저장 완료. 중간 복구본 `STM32H747_labtool_fill_vias_wip_20261018.epro2` SHA `088c5556bb83ed742c699e733767c56e292e82dc8a2ebcdc474c31c5d4cb854c`이며 전체3,941문서에서 PCB만 바뀐 내구성 감사도 통과했다(`independent-durable-fill_vias_wip-audit.json`). 첫 신호 배선 `copper_wire0` 40개도 실제 반영·감사 PASS이며 나머지 배선은 계속 진행 중이다. 이 중간본은 미배선이 있어 완료본이 아니다.
+- `copper_wire9`까지 누적 형상 감사 PASS. `copper_wire10` 적용 뒤 오프셋 TOP 8 mil 중심선의 정확 합집합 불일치 1건을 감지해 **wire11 이전에서 중단**했다. 실제 캡처 SHA `6786a3df2a3795793219d85858560e421afb8ac9515b52ef4012c9360c24736e`, 실패 보고서 `audits/copper-readback-copper_wire10-20261018T082006405892Z-0f0e4fc7.json`이다. `LABTOOL_LOCAL_0412` 대각선이 기존 23.622 mil 가로 배선과 만나는 점에서 native 4자리 mil 좌표로 자동 분할된 차이인지 정밀 검증 중이다. 원인을 확인하기 전 감사기 통과 범위를 넓히거나 다음 배치를 실행하지 않는다. 아직 최종 DRC 결과는 없다.
+- 위 wire10 중단 원인은 교차점의 결정론적 4자리 mil 반올림으로 확인됐다(수직 편차 약 0.138 nm). 원계획과 실제 구리의 정확 동등성은 거짓으로 기록하고, 정확한 해당 선/두 native ID/옛 교차 배선 본문/유리수 교차점만 고정한 별도 리뷰 `root-wire10-junction-serialization-review.json`(SHA `90aab429165937b7b16143fc041defbb12ffe92b176bdb65ffd184dd806d6918`)에 한해서 직렬화된 형상을 검증했다. 광역 거리·면적 허용오차는 추가하지 않았다. 실제 두 선과 타넷 구리·863드릴의 보수적 간격 검사는 통과했고, 재감사 `copper-readback-copper_wire10-20261018T083153100024Z-9d65cb65.json`도 PASS이다. 최초 실패 보고서는 보존한다. 후속 wire11~13의 86개 배선을 재개한다.
+- wire12의 +5V_AFE 두 대각선 교차점에서도 같은 native q4 mil 분할을 검출했고, 별도 정확 두 선/4 ID 고정 리뷰 `root-wire12-junction-serialization-review.json` SHA `f3425d761d6434e76fa992c5dd500e7e3b79f97759bcb2c87d0868d81bc90f00`와 실제 구리/863드릴 검사 후 재감사를 통과했다. 최초 실패와 실제 미소 형상 차이는 모두 이력으로 보존했다.
+- 526 LINE·64 VIA·8 FILL 수정/28생성의 실제 반영 및 wire13까지 전 누적 감사 PASS 완료. 실제 마지막 소스는 `native-adc10-pcb-labtool_copper_wire13-20261018.epru` SHA `74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb`이다. 전체 엄격 DRC는 **간격 등 0 / GND 연결 4건**이며 아직 완료본이 아니다(`native-pcb-drc-0ac2a19168000d8e-labtool_v5_complete_20261018.json`). 원본 작은 GND FILL 3개와 원본 GND VIA 1개를 삭제하지 않고 짧은 GND LINE만으로 보강하는 국부 수정안을 검토 중이다. inner17 두 조각에는 parent FILL의 q4 저장 후 약10.16 nm 경계 틈이 확인됐다. 전체 복구본 `STM32H747_labtool_v5_four_ground_wip_20261018.epro2`를 저장했다.
+
+## 설계 요약 및 한계
+
+SMA 100 kΩ 풀다운 → 3.32 kΩ/10 nF 저역통과 → 양·음 전원 OPA189 버퍼 → OPA320 반전 레벨 시프트(4.00 kΩ/2.80 kΩ, 피드백 10 nF) → MCU 근접 47 Ω/10 nF. 입력에 양의 바이어스를 직접 인가하거나 입력 GND 선택 스위치를 사용하지 않는다. 직렬 AC 결합 커패시터는 없다.
+
+공용 REF5025 2.5 V를 분압·필터·OPA189 버퍼·분리 RC로 약 0.969 V 오프셋 버스로 만든다. 명목 전달식은 `VADC = 1.6472868 − 0.7 × VIN`이다. −2/0/+2 V 입력은 약 3.047/1.647/0.247 V가 된다. 개방 SMA는 GND 근처지만 ADC 핀은 약 1.647 V이다. 입력 0 V와 ADC 핀 실제 0 V는 다르다.
+
+두 신호 필터의 합성 −3 dB 대역은 약 3.31 kHz. 이는 OPA320의 전체 잡음 대역이나 완전한 안티앨리어싱 보장을 뜻하지 않는다. MCU VDDA/VREF+와 최종 OPA320은 원래 +3V3 전원 도메인을 유지하므로 ADC 기준/전원 잡음은 별도 잔류한다. 실측 잡음·정착시간·기동/차단·전원 꺼짐 상태의 입력 보호는 아직 하드웨어 검증하지 않았다. 최소 8 µs 취득시간은 검증 시작값을 회로 주석으로 안내했을 뿐 펌웨어를 변경하지 않았다.
+
+입력 임피던스는 약 100 kΩ이며 50 Ω 종단이 아니다. 전달식 VIN은 SMA에서의 실제 전압이다. 함수발생기의 표시 진폭은 Load=50 Ω/High-Z 설정에 따라 실제 고임피던스 입력 전압과 다를 수 있으므로 ±2 V 실제 범위를 확인해야 한다.
+
+기존 6층·18개 엄격 다층 규칙·100×154 mm 외곽·모서리 NPTH·CN1 1.92 mm 가공부/Ø1.30 mm 홀·J18 뒷면 마킹은 보존 대상이다. 규칙 완화나 정적 구리 전체 재생성으로 통과시키지 않는다.

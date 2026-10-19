@@ -1,0 +1,86 @@
+{
+  "stage": "adjust_power0",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-commonpower-adjust-v4-execution.json",
+  "manifestHash": "c99fd5197847f18f9e3c1aa46d0117a3d1307a6fc5496cb8e29535793d35a19e",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_place_5-20261018.epru",
+  "priorHash": "6e30bca25f0745c32a8954653c0ce593f93bdca978b3ead54aca490c524b9665",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_adjust_power0-20261018.epru",
+  "sourceSha256": "24f4a7f0798866d82254631dea4310a403568239f1375a3abe41fe527965691f",
+  "touched": [
+    {
+      "type": "COMPONENT",
+      "id": "63b34d484518e14f",
+      "ref": "D20",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "cabb5d06f61cf1ad",
+      "ref": "C152",
+      "key": null,
+      "action": "place"
+    }
+  ],
+  "created": [],
+  "changes": [
+    {
+      "key": "COMPONENT:cabb5d06f61cf1ad",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:cabb5d06f61cf1adee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:cabb5d06f61cf1adee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:cabb5d06f61cf1ade0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:63b34d484518e14f",
+      "fields": [
+        "x"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:63b34d484518e14fee1",
+      "fields": [
+        "x"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    }
+  ],
+  "issues": [],
+  "failure": null,
+  "containmentPassed": true,
+  "requiresIndependentGeometryAudit": false,
+  "saved": false,
+  "manufacturingReady": false
+}

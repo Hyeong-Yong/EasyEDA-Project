@@ -1,0 +1,1290 @@
+{
+  "plan": "standard27-calibrated-apply-plan",
+  "start": 0,
+  "count": 27,
+  "refs": [
+    "FB1",
+    "FB2",
+    "FB3",
+    "D2",
+    "D3",
+    "D4",
+    "D6",
+    "Y1",
+    "X1",
+    "X2",
+    "U3",
+    "U5",
+    "U7",
+    "D5",
+    "D20",
+    "D1",
+    "U8",
+    "U6",
+    "U9",
+    "U2",
+    "Q1",
+    "TVS1",
+    "TVS2",
+    "TVS3",
+    "C41",
+    "U1",
+    "U4"
+  ],
+  "before": [
+    {
+      "ref": "FB1",
+      "id": "f5f60ffd73012dc8",
+      "other": {
+        "Footprint": "FB1_2_CustomLibrary:L_0603_1608M",
+        "Value": "22",
+        "Description": "FERRITE BEAD 22 OHM 0603 1LN",
+        "Part Number": "BLM18SN220TH1D",
+        "Package": "0603",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:L_0603_1608M",
+        "Device": "FB1_22",
+        "3D Model": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "IND-SMD_L1.6-W0.8-H0.7",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I87"
+      }
+    },
+    {
+      "ref": "FB2",
+      "id": "275858446251063a",
+      "other": {
+        "Footprint": "FB2_2_CustomLibrary:L_0603_1608M",
+        "Value": "600",
+        "Description": "FERRITE BEAD 600 OHM 0603 1LN",
+        "Part Number": "BLM18AG601SH1D",
+        "Package": "0603",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:L_0603_1608M",
+        "Device": "FB2_600",
+        "3D Model": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "IND-SMD_L1.6-W0.8-H0.7",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I88"
+      }
+    },
+    {
+      "ref": "FB3",
+      "id": "b8ea110027e95a05",
+      "other": {
+        "Footprint": "FB3_2_CustomLibrary:L_0603_1608M",
+        "Value": "600",
+        "Description": "FERRITE BEAD 600 OHM 0603 1LN",
+        "Part Number": "BLM18AG601SH1D",
+        "Package": "0603",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:L_0603_1608M",
+        "Device": "FB3_600",
+        "3D Model": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "IND-SMD_L1.6-W0.8-H0.7",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I65"
+      }
+    },
+    {
+      "ref": "D2",
+      "id": "50d3ad89712e5179",
+      "other": {
+        "Footprint": "D2_2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Value": "LED/RED",
+        "Description": "LED RED 0805 SMD",
+        "Part Number": "WR148SR-W",
+        "Package": "0805",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Device": "D2_LED/RED",
+        "3D Model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED0805-RD_RED",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I20"
+      }
+    },
+    {
+      "ref": "D3",
+      "id": "424de2a8fcb92fb1",
+      "other": {
+        "Footprint": "D3_2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Value": "LED/RED",
+        "Description": "LED RED 0805 SMD",
+        "Part Number": "WR148SR-W",
+        "Package": "0805",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Device": "D3_LED/RED",
+        "3D Model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED0805-RD_RED",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I21"
+      }
+    },
+    {
+      "ref": "D4",
+      "id": "46079e9f39489b73",
+      "other": {
+        "Footprint": "D4_2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Value": "LED/RED",
+        "Description": "LED RED 0805 SMD",
+        "Part Number": "WR148SR-W",
+        "Package": "0805",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Device": "D4_LED/RED",
+        "3D Model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED0805-RD_RED",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I22"
+      }
+    },
+    {
+      "ref": "D6",
+      "id": "e8ca410e95b6f3a6",
+      "other": {
+        "Footprint": "D6_2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Value": "LED/RED",
+        "Description": "LED RED 0805 SMD",
+        "Part Number": "WR148SR-W",
+        "Package": "0805",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:LED_0805_2012M_HandSolder",
+        "Device": "D6_LED/RED",
+        "3D Model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED0805-RD_RED",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I86"
+      }
+    },
+    {
+      "ref": "Y1",
+      "id": "cde1fff1072b88f8",
+      "other": {
+        "Footprint": "Y1_2_CustomLibrary:CLK_SMD_NX3215SA-L",
+        "Value": "NX3215SA-32.768KHZ",
+        "Description": "CRYSTAL 32.7680KHZ SMD",
+        "Part Number": "NX3215SA-32.768KHZ-EXS00A-MU00466",
+        "Package": "SMD-2",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:CLK_SMD_NX3215SA-L",
+        "Device": "Y1_NX3215SA-32.768KHZ",
+        "3D Model": "322660504eb3452fba8a1d5fb6a3cd9f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SMD-3215_2P_L3.2-W1.5-H0.8",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I99"
+      }
+    },
+    {
+      "ref": "X1",
+      "id": "59864b879ec70d56",
+      "other": {
+        "Footprint": "X1_2_CustomLibrary:CLK_OSC [3.2x2.5mm_HandSoldering]",
+        "Value": "ECS-3225 (25MHz)",
+        "Description": "XTAL OSC XO 25.0000MHZ HCMOS SMD",
+        "Part Number": "ECS-3225MV-250-CN-TR",
+        "Package": "SMD-4",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:CLK_OSC [3.2x2.5mm_HandSoldering]",
+        "Device": "X1_ECS-3225 (25MHz)",
+        "3D Model": "963ffc640bca471d86f4230614807d79|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I98"
+      }
+    },
+    {
+      "ref": "X2",
+      "id": "7a78390f74f1d904",
+      "other": {
+        "Footprint": "X2_2_CustomLibrary:CLK_OSC [3.2x2.5mm_HandSoldering]",
+        "Value": "ECS-3225 (24MHz)",
+        "Description": "XTAL OSC XO 24.0000MHZ HCMOS SMD",
+        "Part Number": "ECS-3225MV-240-CN-TR",
+        "Package": "SMD-4",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:CLK_OSC [3.2x2.5mm_HandSoldering]",
+        "Device": "X2_ECS-3225 (24MHz)",
+        "3D Model": "963ffc640bca471d86f4230614807d79|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I138"
+      }
+    },
+    {
+      "ref": "U3",
+      "id": "b714c779758adebf",
+      "other": {
+        "Footprint": "U3_2_CustomLibrary:DFN-6 [3x3mm_P0.95mm]",
+        "Value": "ST1L05CPU33R",
+        "Description": "IC REG LINEAR 3.3V 1.3A 6-DFN",
+        "Part Number": "ST1L05CPU33R",
+        "Package": "DFN-6 (3x3mm)",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:DFN-6 [3x3mm_P0.95mm]",
+        "Device": "U3_ST1L05CPU33R",
+        "3D Model": "2351360292744dbc91885e7d69b823ec|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "DFN-6_L3.0-W3.0-H1.0-P0.95",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I98"
+      }
+    },
+    {
+      "ref": "U5",
+      "id": "0c0d782d6b7f0167",
+      "other": {
+        "Footprint": "U5_2_CustomLibrary:IC_LAN8742A-CZ-TR",
+        "Value": "LAN8742A",
+        "Description": "IC TRANSCEIVER 1/1 24SQFN",
+        "Part Number": "LAN8742A-CZ-TR",
+        "Package": "SQFN-24",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:IC_LAN8742A-CZ-TR",
+        "Device": "U5_LAN8742A",
+        "3D Model": "29c69a3747974ad89ca8d7477a9f3747|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SQFN-24_L4.0-W4.0-H1.0-P0.50",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I134"
+      }
+    },
+    {
+      "ref": "U7",
+      "id": "ae8670f38e12646e",
+      "other": {
+        "Footprint": "U7_2_CustomLibrary:USB3320C-EZK",
+        "Value": "USB3320C-EZK",
+        "Description": "IC TRANSCEIVER HALF 1/1 32QFN",
+        "Part Number": "USB3320C-EZK",
+        "Package": "QFN-32",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:USB3320C-EZK",
+        "Device": "U7_USB3320C-EZK",
+        "3D Model": "bd31547231e8451b98b8304566565548|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "QFN-32_L5.0-W5.0-H0.9-P0.50_3",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I136"
+      }
+    },
+    {
+      "ref": "D5",
+      "id": "ad02e0c439a87e52",
+      "other": {
+        "Footprint": "D5_2_CustomLibrary:D_SMB [DO-214AA]",
+        "Value": "SMBJ6.5CA",
+        "Description": "TVS DIODE 6.5VWM 11.2V DO214AA",
+        "Part Number": "SMBJ6.5CA",
+        "Package": "DO_214AA",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:D_SMB [DO-214AA]",
+        "Device": "D5_SMBJ6.5CA",
+        "3D Model": "1bbe644b2ecd467e97e82d069ce5a126|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SMB_L4.3-W3.6-LS5.3-BI",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I85"
+      }
+    },
+    {
+      "ref": "D20",
+      "id": "63b34d484518e14f",
+      "other": {
+        "Footprint": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+        "Value": "BAT54WS",
+        "Package": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+        "DNP": "no",
+        "Part Number": "BAT54WS-E3-08",
+        "Datasheet": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+        "Description": "30V single Schottky; TPS723 negative-LDO reverse-current bypass; A2=raw IN, K1=regulated OUT",
+        "Voltage Rating": "30 V",
+        "Forward Continuous Current": "200 mA",
+        "Datasheet Revision": "86465 Rev1.1 2025-05-12",
+        "Device": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_BAT54WS_E3_08",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I124",
+        "3D Model": "63730cd75e074609861c8d6cfe0f6507|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOD-323_L1.7-W1.3-LS2.5-RD-1",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better"
+      }
+    },
+    {
+      "ref": "D1",
+      "id": "9a2a8ba00736c620",
+      "other": {
+        "Footprint": "D1_2_CustomLibrary:D_SOD-523",
+        "Value": "ESD8351XV2T1G",
+        "Description": "TVS DIODE 3.3VWM 11.2VC SOD523",
+        "Part Number": "ESD8351XV2T1G",
+        "Package": "SOD-523",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:D_SOD-523",
+        "Device": "D1_ESD8351XV2T1G",
+        "3D Model": "c9cd6b3de4464affa41bb10afbd29ee3|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOD-523_L1.2-W0.8-H0.7-LS1.6",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I19"
+      }
+    },
+    {
+      "ref": "U8",
+      "id": "6c30820ef1d8656e",
+      "other": {
+        "Footprint": "U8_2_CustomLibrary:SOIC-16 [3.9mm x 9.9mm_P1.27mm]",
+        "Value": "CH340C",
+        "Description": "IC TRANSCEIVER FULL 1/1 16SOIC",
+        "Part Number": "CH340C",
+        "Package": "SOIC-8",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SOIC-16 [3.9mm x 9.9mm_P1.27mm]",
+        "Device": "U8_CH340C",
+        "3D Model": "3622ca242287487a9c2e38fcfcddad34|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL-1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I137"
+      }
+    },
+    {
+      "ref": "U6",
+      "id": "979e77e2d5c031f6",
+      "other": {
+        "Footprint": "U6_2_CustomLibrary:SOIC-8 [3.9mm x 4.9mm_P1.27mm]",
+        "Value": "STS5PF30L",
+        "Description": "MOSFET P-CH 30V 5A 8SO",
+        "Part Number": "STS5PF30L",
+        "Package": "SOIC-8",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SOIC-8 [3.9mm x 4.9mm_P1.27mm]",
+        "Device": "U6_STS5PF30L",
+        "3D Model": "97bd43a9d3eb4c6e8f9c2731ad707392|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I135"
+      }
+    },
+    {
+      "ref": "U9",
+      "id": "47617477dad79f23",
+      "other": {
+        "Footprint": "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27",
+        "Value": "REF5025AID",
+        "Package": "STM_H747_ADC_LABTOOL_20261018_TI_D0008A_SOIC8_1P27",
+        "DNP": "no",
+        "Part Number": "REF5025AID",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+        "Description": "2.5 V AI-generation reference, not EI",
+        "Datasheet Revision": "SBOS410O October 2025",
+        "Output Voltage": "2.5 V",
+        "Connection Constraint": "Pins1 and8 DNC; pin7 NC; not REF5025EI pinmap",
+        "Device": "STM_H747_ADC_LABTOOL_20261018_REF5025AID",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I125",
+        "3D Model": "97bd43a9d3eb4c6e8f9c2731ad707392|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2"
+      }
+    },
+    {
+      "ref": "U2",
+      "id": "9a31f61bd6016251",
+      "other": {
+        "Footprint": "U2_2_CustomLibrary:SOT-223_4P",
+        "Value": "LD1117S18TR",
+        "Description": "IC REG LINEAR 1.8V 800MA SOT-223",
+        "Part Number": "LD1117S18TR",
+        "Package": "SOT-223",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SOT-223_4P",
+        "Device": "U2_LD1117S18TR",
+        "3D Model": "72b2852661134777881d1857feec3023|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-223-3L-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I97"
+      }
+    },
+    {
+      "ref": "Q1",
+      "id": "2dfcd47a3736e0bb",
+      "other": {
+        "Footprint": "Q1_2_CustomLibrary:SOT-23",
+        "Value": "9013",
+        "Description": "TRANS NPN 20V 0.5A SOT23",
+        "Part Number": "9013M",
+        "Package": "SOT-23",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SOT-23",
+        "Device": "Q1_9013",
+        "3D Model": "e225ba99af1f4d9384be1c241ef125ab|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR-1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I66"
+      }
+    },
+    {
+      "ref": "TVS1",
+      "id": "508af5dc4a0f5024",
+      "other": {
+        "Footprint": "TVS1_2_CustomLibrary:SOT-23-6 [1.7mm x 3.0mm_P0.95]_SMT",
+        "Value": "USBLC6-4SC6",
+        "Description": "TVS DIODE 5.25VWM 17VC SOT23-6",
+        "Part Number": "USBLC6-4SC6",
+        "Package": "SOT-23-6",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SOT-23-6 [1.7mm x 3.0mm_P0.95]_SMT",
+        "Device": "TVS1_USBLC6-4SC6",
+        "3D Model": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I131"
+      }
+    },
+    {
+      "ref": "TVS2",
+      "id": "9c6402d9e52ebd8c",
+      "other": {
+        "Footprint": "TVS2_2_CustomLibrary:SOT-23-6 [1.7mm x 3.0mm_P0.95]",
+        "Value": "USBLC6-2SC6",
+        "Description": "TVS DIODE 5.25VWM 17VC SOT23-6",
+        "Part Number": "USBLC6-2SC6",
+        "Package": "SOT-23-6",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SOT-23-6 [1.7mm x 3.0mm_P0.95]",
+        "Device": "TVS2_USBLC6-2SC6",
+        "3D Model": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I132"
+      }
+    },
+    {
+      "ref": "TVS3",
+      "id": "4e45713caf58ce98",
+      "other": {
+        "Footprint": "TVS3_2_CustomLibrary:SOT-23-6 [1.7mm x 3.0mm_P0.95]",
+        "Value": "USBLC6-2SC6",
+        "Description": "TVS DIODE 5.25VWM 17VC SOT23-6",
+        "Part Number": "USBLC6-2SC6",
+        "Package": "SOT-23-6",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:SOT-23-6 [1.7mm x 3.0mm_P0.95]",
+        "Device": "TVS3_USBLC6-2SC6",
+        "3D Model": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I133"
+      }
+    },
+    {
+      "ref": "C41",
+      "id": "b0c812bc9bb1914b",
+      "other": {
+        "Footprint": "C41_2_CustomLibrary:C_TANT_1411_3528_HandSolder",
+        "Value": "47u",
+        "Description": "CAP TANT 47UF 20% 6.3V 1411",
+        "Part Number": "TPSB476M006R0250",
+        "Package": "1411",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_TANT_1411_3528_HandSolder",
+        "Device": "C41_47u",
+        "3D Model": "3374b87e848e42cdbf68b58df1ef103d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "CAP-SMD_L3.5-W2.8-H1.9",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I77"
+      }
+    },
+    {
+      "ref": "U1",
+      "id": "a2d6b5393a9714c7",
+      "other": {
+        "Footprint": "U1_2_CustomLibrary:TFBGA-265_14x14mm",
+        "Value": "STM32H747XIH6",
+        "Description": "IC MCU 32BIT 2MB FLASH TFBGA",
+        "Part Number": "STM32H747XIH6",
+        "Package": "TFBGA-265",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:TFBGA-265_14x14mm",
+        "Device": "U1_STM32H747XIH6",
+        "3D Model": "e1878b6c003f47de9314929abaa1d61c|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "TFBGA-265_L14.0-W14.0-P0.80-TL",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I95",
+        "Multi-Part Group": "9a92662a13ba51e2"
+      }
+    },
+    {
+      "ref": "U4",
+      "id": "3de4fa6d5f5df65c",
+      "other": {
+        "Footprint": "U4_2_CustomLibrary:TFBGA-90_8X13mm_ISI",
+        "Value": "IS42S32160F-6BLI",
+        "Description": "IC DRAM 512MBIT PAR 90TFBGA",
+        "Part Number": "IS42S32160F-6BLI",
+        "Package": "TFBGA-90 (8x13mm)",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:TFBGA-90_8X13mm_ISI",
+        "Device": "U4_IS42S32160F-6BLI",
+        "3D Model": "a776beb50b5a4f47b88257987385b603|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "TFBGA-90_L13.0-W8.0-R15-C6-P0.80-TL",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I18"
+      }
+    }
+  ],
+  "saved": true,
+  "afterModels": [
+    {
+      "ref": "FB1",
+      "id": "f5f60ffd73012dc8",
+      "family": "0603_FERRITE",
+      "model": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+      "title": "IND-SMD_L1.6-W0.8-H0.7",
+      "transform": "63.7795267964,32.2834638043,28.3464554169,90,0,0,0,0,0",
+      "transformMIL": "63.7795267964,32.2834638043,28.3464554169,90,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        63.779526796396716,
+        32.28346380427073,
+        28.346455416928045,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        1.6199999806284766,
+        0.8199999806284765,
+        0.7199999675899723
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "FB2",
+      "id": "275858446251063a",
+      "family": "0603_FERRITE",
+      "model": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+      "title": "IND-SMD_L1.6-W0.8-H0.7",
+      "transform": "63.7795267964,32.2834638043,28.3464554169,90,0,0,0,0,0",
+      "transformMIL": "63.7795267964,32.2834638043,28.3464554169,90,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        63.779526796396716,
+        32.28346380427073,
+        28.346455416928045,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        1.6199999806284766,
+        0.8199999806284765,
+        0.7199999675899723
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "FB3",
+      "id": "b8ea110027e95a05",
+      "family": "0603_FERRITE",
+      "model": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+      "title": "IND-SMD_L1.6-W0.8-H0.7",
+      "transform": "63.7795267964,32.2834638043,28.3464554169,270,0,0,0,0,0",
+      "transformMIL": "63.7795267964,32.2834638043,28.3464554169,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        63.779526796396716,
+        32.283463804271484,
+        28.346455416928045,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        1.6199999806284766,
+        0.8199999806284957,
+        0.7199999675899723
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "D2",
+      "id": "50d3ad89712e5179",
+      "family": "0805_LED",
+      "model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "title": "LED0805-RD_RED",
+      "transform": "79.5275583042,49.2125984252,39.7447905115,270,0,0,0,0,0",
+      "transformMIL": "79.5275583042,49.2125984252,39.7447905115,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        79.52755830419345,
+        49.212598425196354,
+        39.744790511455044,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.0199999809265137,
+        1.2499999999999873,
+        1.0095176789909581
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": true
+    },
+    {
+      "ref": "D3",
+      "id": "424de2a8fcb92fb1",
+      "family": "0805_LED",
+      "model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "title": "LED0805-RD_RED",
+      "transform": "79.5275583042,49.2125984252,39.7447905115,270,0,0,0,0,0",
+      "transformMIL": "79.5275583042,49.2125984252,39.7447905115,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        79.52755830419345,
+        49.212598425196546,
+        39.7447905114552,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.0199999809265137,
+        1.2499999999999922,
+        1.0095176789909621
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": true
+    },
+    {
+      "ref": "D4",
+      "id": "46079e9f39489b73",
+      "family": "0805_LED",
+      "model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "title": "LED0805-RD_RED",
+      "transform": "79.5275583042,49.2125984252,39.7447905115,270,0,0,0,0,0",
+      "transformMIL": "79.5275583042,49.2125984252,39.7447905115,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        79.52755830419345,
+        49.212598425196546,
+        39.7447905114552,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.0199999809265137,
+        1.2499999999999922,
+        1.0095176789909621
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": true
+    },
+    {
+      "ref": "D6",
+      "id": "e8ca410e95b6f3a6",
+      "family": "0805_LED",
+      "model": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "title": "LED0805-RD_RED",
+      "transform": "79.5275583042,49.2125984252,39.7447905115,180,0,0,0,0,0",
+      "transformMIL": "79.5275583042,49.2125984252,39.7447905115,180,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        79.52755830419343,
+        49.21259842519685,
+        39.74479051145512,
+        180,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.0199999809265132,
+        1.25,
+        1.0095176789909601
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": true
+    },
+    {
+      "ref": "Y1",
+      "id": "cde1fff1072b88f8",
+      "family": "CRYSTAL_3215_2PIN",
+      "model": "322660504eb3452fba8a1d5fb6a3cd9f|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMD-3215_2P_L3.2-W1.5-H0.8",
+      "transform": "125.984251969,59.0551172302,31.5354325634,0,0,0,0,0,0",
+      "transformMIL": "125.984251969,59.0551172302,31.5354325634,0,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        125.98425196850395,
+        59.05511723024613,
+        31.53543256340537,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        3.2,
+        1.4999999776482518,
+        0.8009999871104964
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "X1",
+      "id": "59864b879ec70d56",
+      "family": "OSCILLATOR_3225_4PIN",
+      "model": "963ffc640bca471d86f4230614807d79|0819f05c4eef4c71ace90d822a990e87",
+      "title": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+      "transform": "126.012421029,98.5039392196,28.3464554169,180,0,0,0,0,0",
+      "transformMIL": "126.012421029,98.5039392196,28.3464554169,180,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        126.01242102933954,
+        98.50393921958207,
+        28.34645541692815,
+        180,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        3.200715494145224,
+        2.5020000561773843,
+        0.719999967589975
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "X2",
+      "id": "7a78390f74f1d904",
+      "family": "OSCILLATOR_3225_4PIN",
+      "model": "963ffc640bca471d86f4230614807d79|0819f05c4eef4c71ace90d822a990e87",
+      "title": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+      "transform": "126.012421029,98.5039392196,28.3464554169,180,0,0,0,0,0",
+      "transformMIL": "126.012421029,98.5039392196,28.3464554169,180,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        126.01242102933954,
+        98.50393921958207,
+        28.34645541692815,
+        180,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        3.200715494145224,
+        2.5020000561773843,
+        0.719999967589975
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "U3",
+      "id": "b714c779758adebf",
+      "family": "DFN6_3X3_EP",
+      "model": "2351360292744dbc91885e7d69b823ec|0819f05c4eef4c71ace90d822a990e87",
+      "title": "DFN-6_L3.0-W3.0-H1.0-P0.95",
+      "transform": "118.110233997,118.110233997,39.3700776325,0,0,0,0,0,0",
+      "transformMIL": "118.110233997,118.110233997,39.3700776325,0,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        118.11023399734053,
+        118.11023399734032,
+        39.37007763245101,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.9999999435324494,
+        2.999999943532444,
+        0.9999999718642556
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": true
+    },
+    {
+      "ref": "U5",
+      "id": "0c0d782d6b7f0167",
+      "family": "QFN24_4X4_EP",
+      "model": "29c69a3747974ad89ca8d7477a9f3747|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SQFN-24_L4.0-W4.0-H1.0-P0.50",
+      "transform": "158.267716964,158.267716964,40.1574805966,270,0,0,0,0,0",
+      "transformMIL": "158.267716964,158.267716964,40.1574805966,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        158.26771696369528,
+        158.26771696369528,
+        40.15748059655748,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        4.02000001087786,
+        4.02000001087786,
+        1.02000000715256
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "U7",
+      "id": "ae8670f38e12646e",
+      "family": "QFN32_5X5_EP",
+      "model": "bd31547231e8451b98b8304566565548|0819f05c4eef4c71ace90d822a990e87",
+      "title": "QFN-32_L5.0-W5.0-H0.9-P0.50_3",
+      "transform": "197.637794525,197.637794525,36.2204727313,0,0,0,0,0,0",
+      "transformMIL": "197.637794525,197.637794525,36.2204727313,0,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        197.63779452466682,
+        197.63779452466682,
+        36.22047273134174,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        5.019999980926537,
+        5.019999980926537,
+        0.92000000737608
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "D5",
+      "id": "ad02e0c439a87e52",
+      "family": "SMB_DO214AA",
+      "model": "1bbe644b2ecd467e97e82d069ce5a126|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMB_L4.3-W3.6-LS5.3-BI",
+      "transform": "203.763716212,142.404477681,89.7637791128,270,0,0,0,0,0",
+      "transformMIL": "203.763716212,142.404477681,89.7637791128,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        203.76371621238806,
+        142.40447768128755,
+        89.76377911280385,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        5.175598391794656,
+        3.617073733104703,
+        2.2799999894652174
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "D20",
+      "id": "63b34d484518e14f",
+      "family": "SOD323",
+      "model": "63730cd75e074609861c8d6cfe0f6507|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOD-323_L1.7-W1.3-LS2.5-RD-1",
+      "transform": "98.4251940896,49.2125970448,37.4015732847,0,0,0,0,0,0",
+      "transformMIL": "98.4251940896,49.2125970448,37.4015732847,0,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        98.42519408964002,
+        49.212597044820015,
+        37.4015732847355,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.4999999298768563,
+        1.2499999649384284,
+        0.9499999614322816
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "D1",
+      "id": "9a2a8ba00736c620",
+      "family": "SOD523",
+      "model": "c9cd6b3de4464affa41bb10afbd29ee3|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOD-523_L1.2-W0.8-H0.7-LS1.6",
+      "transform": "62.8367424622,31.4960637743,27.9252081364,90,0,0,0,0,0",
+      "transformMIL": "62.8367424622,31.4960637743,27.9252081364,90,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        62.83674246215563,
+        31.496063774340097,
+        27.925208136360805,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        1.5960532585387528,
+        0.8000000198682384,
+        0.7093002866635644
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": true
+    },
+    {
+      "ref": "U8",
+      "id": "6c30820ef1d8656e",
+      "family": "SOIC16_150MIL",
+      "model": "3622ca242287487a9c2e38fcfcddad34|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL-1",
+      "transform": "236.220473349,389.763766007,67.1259844396,180,0,0,0,4.37095678986e-15,0",
+      "transformMIL": "236.220473349,389.763766007,67.1259844396,180,0,0,0,4.37095678986e-15,0",
+      "transform_values_mil_degrees": [
+        236.22047334898096,
+        389.7637660073256,
+        67.12598443960293,
+        180,
+        0,
+        0,
+        0,
+        4.370956789862821e-15,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        6.000000023064116,
+        9.89999965658607,
+        1.7050000047659144
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "U6",
+      "id": "979e77e2d5c031f6",
+      "family": "SOIC8_150MIL",
+      "model": "97bd43a9d3eb4c6e8f9c2731ad707392|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2",
+      "transform": "192.436752431,236.220475989,66.9291367408,90,0,0,0,0,0",
+      "transformMIL": "192.436752431,236.220475989,66.9291367408,90,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        192.4367524310247,
+        236.2204759886204,
+        66.9291367407541,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        4.887893511748027,
+        6.000000090110958,
+        1.7000000732151541
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "U9",
+      "id": "47617477dad79f23",
+      "family": "SOIC8_150MIL",
+      "model": "97bd43a9d3eb4c6e8f9c2731ad707392|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2",
+      "transform": "192.436752431,236.220475989,66.9291367408,270,0,0,0,0,0",
+      "transformMIL": "192.436752431,236.220475989,66.9291367408,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        192.43675243102516,
+        236.22047598862042,
+        66.92913674075416,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        4.887893511748039,
+        6.000000090110959,
+        1.7000000732151557
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "U2",
+      "id": "9a31f61bd6016251",
+      "family": "SOT223",
+      "model": "72b2852661134777881d1857feec3023|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOT-223-3L-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+      "transform": "279.503880389,255.710951179,68.7551313406,180,0,0,-62.007861,0,0",
+      "transformMIL": "279.503880389,255.710951179,68.7551313406,180,0,0,-62.007861,0,0",
+      "transform_values_mil_degrees": [
+        279.50388038879555,
+        255.71095117942193,
+        68.7551313405555,
+        180,
+        0,
+        0,
+        -62.00786100000002,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        7.099398561875407,
+        6.495058159957317,
+        1.7463803360501093
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "Q1",
+      "id": "2dfcd47a3736e0bb",
+      "family": "SOT23_3",
+      "model": "e225ba99af1f4d9384be1c241ef125ab|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR-1",
+      "transform": "113.999779322,94.4881939167,40.354332623,90,0,0,-13.1233465,0,0",
+      "transformMIL": "113.999779322,94.4881939167,40.354332623,90,0,0,-13.1233465,0,0",
+      "transform_values_mil_degrees": [
+        113.99977932201396,
+        94.48819391667229,
+        40.35433262302551,
+        90,
+        0,
+        0,
+        -13.1233465,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.8955943947791547,
+        2.400000125483476,
+        1.025000048624848
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": true
+    },
+    {
+      "ref": "TVS1",
+      "id": "508af5dc4a0f5024",
+      "family": "SOT23_6",
+      "model": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+      "transform": "114.44967237,118.020464659,64.8436902938,0,0,0,1.66666666688e-05,0,0",
+      "transformMIL": "114.44967237,118.020464659,64.8436902938,0,0,0,1.66666666688e-05,0,0",
+      "transform_values_mil_degrees": [
+        114.44967237045574,
+        118.02046465850025,
+        64.8436902938469,
+        0,
+        0,
+        0,
+        0.00001666666666882146,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.907021678209576,
+        2.997719802325906,
+        1.6470297334637114
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "TVS2",
+      "id": "9c6402d9e52ebd8c",
+      "family": "SOT23_6",
+      "model": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+      "transform": "114.44967237,118.020464659,64.8436902938,0,0,0,0,0,0",
+      "transformMIL": "114.44967237,118.020464659,64.8436902938,0,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        114.4496723704563,
+        118.02046465850025,
+        64.8436902938469,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.9070216782095897,
+        2.997719802325906,
+        1.6470297334637114
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "TVS3",
+      "id": "4e45713caf58ce98",
+      "family": "SOT23_6",
+      "model": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+      "transform": "114.44967237,118.020464659,64.8436902938,90,0,0,0,0,0",
+      "transformMIL": "114.44967237,118.020464659,64.8436902938,90,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        114.44967237045627,
+        118.02046465850121,
+        64.84369029384717,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        2.9070216782095892,
+        2.9977198023259306,
+        1.6470297334637183
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "C41",
+      "id": "b0c812bc9bb1914b",
+      "family": "TANTALUM_B_3528",
+      "model": "3374b87e848e42cdbf68b58df1ef103d|0819f05c4eef4c71ace90d822a990e87",
+      "title": "CAP-SMD_L3.5-W2.8-H1.9",
+      "transform": "145.669293216,110.236218595,78.7010648119,270,0,0,0,0,0",
+      "transformMIL": "145.669293216,110.236218595,78.7010648119,270,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        145.66929321589427,
+        110.23621859512946,
+        78.70106481191685,
+        270,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        3.700000047683714,
+        2.799999952316288,
+        1.9990070462226879
+      ],
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "U1",
+      "id": "a2d6b5393a9714c7",
+      "family": "TFBGA265_14X14",
+      "model": "e1878b6c003f47de9314929abaa1d61c|0819f05c4eef4c71ace90d822a990e87",
+      "title": "TFBGA-265_L14.0-W14.0-P0.80-TL",
+      "transform": "551.058528369,551.058528369,41.7217477831,90,0,0,0,0,0",
+      "transformMIL": "551.058528369,551.058528369,41.7217477831,90,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        551.0585283694828,
+        551.0585283694822,
+        41.72174778313474,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        13.996886620584862,
+        13.996886620584847,
+        1.0597323936916223
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    },
+    {
+      "ref": "U4",
+      "id": "3de4fa6d5f5df65c",
+      "family": "TFBGA90_13X8_SOURCE_AXES",
+      "model": "a776beb50b5a4f47b88257987385b603|0819f05c4eef4c71ace90d822a990e87",
+      "title": "TFBGA-90_L13.0-W8.0-R15-C6-P0.80-TL",
+      "transform": "314.920733736,511.746192321,47.1994958358,90,0,0,0,0,0",
+      "transformMIL": "314.920733736,511.746192321,47.1994958358,90,0,0,0,0,0",
+      "transform_values_mil_degrees": [
+        314.92073373619047,
+        511.7461923213093,
+        47.19949583579167,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mesh_xyz_mm": [
+        7.998986636899238,
+        12.998353284961256,
+        1.1988671942291085
+      ],
+      "confidence": "pitch_calibrated_visual_package",
+      "manual_QA_required": false
+    }
+  ]
+}

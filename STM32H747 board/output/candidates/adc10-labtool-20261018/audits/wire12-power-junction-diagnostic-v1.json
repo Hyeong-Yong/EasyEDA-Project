@@ -1,0 +1,302 @@
+{
+  "schema": "focused-wire12-double-diagonal-native-junction-diagnostic-v1",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "approvalGranted": false,
+  "primaryAuditStillFailed": true,
+  "physicalOriginalExactEqualityClaimed": false,
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-final-copper-v5-execution.json",
+  "manifestSha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "net": "+5V_AFE",
+  "layerId": 1,
+  "priorSourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire11-20261018.epru",
+  "priorSourceSha256": "be9e7846c8e7209d67525027aacdcc853f925bb79728c71ac34af84a7c0123f6",
+  "actualSourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire12-20261018.epru",
+  "actualSourceSha256": "00f0707624248ec16b99ee47a638e63608764652c3ddeb12a1f4af890104910d",
+  "failedOriginalAuditPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\copper-readback-copper_wire12-20261018T083414155154Z-117a5fef.json",
+  "failedOriginalAuditSha256": "ef36357a29e40d91f84790c0710657d350d52d6ba7827b34c7ca93349db98072",
+  "oldPriorCrossingId": "ca3d603b687e06c4",
+  "oldPriorCrossingBody": {
+    "partitionId": "",
+    "groupId": 0,
+    "netName": "+5V_AFE",
+    "layerId": 1,
+    "startX": 1220.4724,
+    "startY": 964.5669,
+    "endX": 1057.0866,
+    "endY": 702.7559,
+    "width": 8,
+    "locked": false,
+    "zIndex": -1
+  },
+  "oldPriorCrossingBodySha256": "a11e125bbdfde6d29e0e0a2347328482272ca18754f53a925f3b65657527cd0c",
+  "exactIntersectionMil": [
+    "539939494549978479/453908596365625",
+    "1329030065147860669/1452507508370000"
+  ],
+  "actualSerializedJunctionMil": [
+    1189.5335,
+    914.9902
+  ],
+  "perAxisRoundingDeltaMil": [
+    -2.9158049437780615e-05,
+    4.849345486967178e-05
+  ],
+  "q4MilRoundOfRationalIntersectionExact": true,
+  "segmentIntersectionParameters": [
+    "388546742591/726253754185",
+    "137524014322/726253754185"
+  ],
+  "maximumPerAxisGridBoundMil": 5e-05,
+  "withinPerAxisBound": true,
+  "segments": [
+    {
+      "plannedKey": "LABTOOL_PWR_0029",
+      "plannedOperation": {
+        "action": "line",
+        "type": "LINE",
+        "key": "LABTOOL_PWR_0029",
+        "net": "+5V_AFE",
+        "layerId": 1,
+        "startXYMil": [
+          1153.937,
+          905.5118
+        ],
+        "endXYMil": [
+          1220.4724,
+          923.2283
+        ],
+        "widthMil": 15.7480315
+      },
+      "plannedOperationSha256": "af8e304c6889210e0fc196badb870fab2587dcdbc72183bc899429261982d2c5",
+      "originalACmil": [
+        1153.937,
+        905.5118,
+        1220.4724,
+        923.2283
+      ],
+      "widthMilRequested": 15.7480315,
+      "widthMilSerialized": 15.748,
+      "actualSplitIds": [
+        "67638d82c151ff5c",
+        "69b01f23e1e41d14"
+      ],
+      "actualSplitBodies": {
+        "67638d82c151ff5c": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+5V_AFE",
+          "layerId": 1,
+          "startX": 1153.937,
+          "startY": 905.5118,
+          "endX": 1189.5335,
+          "endY": 914.9902,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        },
+        "69b01f23e1e41d14": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+5V_AFE",
+          "layerId": 1,
+          "startX": 1189.5335,
+          "startY": 914.9902,
+          "endX": 1220.4724,
+          "endY": 923.2283,
+          "width": 15.748,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      "actualSplitBodySha256": {
+        "67638d82c151ff5c": "c362ca40572ca913624efe0bf15a5996ad808ed96dd8579838ef85f039b2e36d",
+        "69b01f23e1e41d14": "ffd1c2d191968f5380e3e8f7256a4ff51a9e5a81f7d1ca733517369ec0b08984"
+      },
+      "normalizedSegmentsMil": [
+        [
+          1153.937,
+          905.5118,
+          1189.5335,
+          914.9902
+        ],
+        [
+          1189.5335,
+          914.9902,
+          1220.4724,
+          923.2283
+        ]
+      ],
+      "maximumNormalDeviationMm": 1.3808259502854241e-06
+    },
+    {
+      "plannedKey": "LABTOOL_LOCAL_0333",
+      "plannedOperation": {
+        "action": "line",
+        "type": "LINE",
+        "key": "LABTOOL_LOCAL_0333",
+        "net": "+5V_AFE",
+        "layerId": 1,
+        "startXYMil": [
+          1220.4724,
+          964.5669
+        ],
+        "endXYMil": [
+          1057.0866,
+          702.7559
+        ],
+        "widthMil": 8.0
+      },
+      "plannedOperationSha256": "2e294f579240b74362cdbb39533e85621d47d49f69d497151846da60bec3c32b",
+      "originalACmil": [
+        1220.4724,
+        964.5669,
+        1057.0866,
+        702.7559
+      ],
+      "widthMilRequested": 8.0,
+      "widthMilSerialized": 8.0,
+      "actualSplitIds": [
+        "0fafc554d4913fb3",
+        "1d1d25791ed7a65e"
+      ],
+      "actualSplitBodies": {
+        "0fafc554d4913fb3": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+5V_AFE",
+          "layerId": 1,
+          "startX": 1220.4724,
+          "startY": 964.5669,
+          "endX": 1189.5335,
+          "endY": 914.9902,
+          "width": 8,
+          "locked": false,
+          "zIndex": -1
+        },
+        "1d1d25791ed7a65e": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "+5V_AFE",
+          "layerId": 1,
+          "startX": 1189.5335,
+          "startY": 914.9902,
+          "endX": 1057.0866,
+          "endY": 702.7559,
+          "width": 8,
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      "actualSplitBodySha256": {
+        "0fafc554d4913fb3": "b28d2a7e0e0c8b8f0cf8fa1f55cffc834901ece3bcd06f586adc2943ba2ce388",
+        "1d1d25791ed7a65e": "58cc91bdd219f90dde7acf761e02126eac0f1230ed0a350f4a5a32bc5e37eeb6"
+      },
+      "normalizedSegmentsMil": [
+        [
+          1220.4724,
+          964.5669,
+          1189.5335,
+          914.9902
+        ],
+        [
+          1189.5335,
+          914.9902,
+          1057.0866,
+          702.7559
+        ]
+      ],
+      "maximumNormalDeviationMm": 1.2804162448449803e-06
+    }
+  ],
+  "allPerWidthNormalizedUnionsExact": true,
+  "perWidthProofs": [
+    {
+      "widthMil": 8.0,
+      "originalExpectedEqual": false,
+      "normalizedExpectedExact": true,
+      "originalSupportCount": 39,
+      "normalizedSupportCount": 40,
+      "actualSupportCount": 40
+    },
+    {
+      "widthMil": 15.748,
+      "originalExpectedEqual": false,
+      "normalizedExpectedExact": true,
+      "originalSupportCount": 3,
+      "normalizedSupportCount": 4,
+      "actualSupportCount": 4
+    }
+  ],
+  "protectedNonLineBodies": {
+    "COMPONENT": {
+      "count": 437,
+      "bodyExact": true
+    },
+    "ATTR": {
+      "count": 1311,
+      "bodyExact": true
+    },
+    "PAD_NET": {
+      "count": 1523,
+      "bodyExact": true
+    },
+    "VIA": {
+      "count": 704,
+      "bodyExact": true
+    },
+    "FILL": {
+      "count": 750,
+      "bodyExact": true
+    },
+    "RULE": {
+      "count": 18,
+      "bodyExact": true
+    },
+    "RULE_TEMPLATE": {
+      "count": 1,
+      "bodyExact": true
+    },
+    "LAYER": {
+      "count": 64,
+      "bodyExact": true
+    },
+    "LAYER_PHYS": {
+      "count": 17,
+      "bodyExact": true
+    },
+    "PAD": {
+      "count": 4,
+      "bodyExact": true
+    },
+    "ARC": {
+      "count": 2184,
+      "bodyExact": true
+    },
+    "POLY": {
+      "count": 500,
+      "bodyExact": true
+    },
+    "STRING": {
+      "count": 21,
+      "bodyExact": true
+    },
+    "NET": {
+      "count": 323,
+      "bodyExact": true
+    },
+    "RULE_SELECTOR": {
+      "count": 323,
+      "bodyExact": true
+    }
+  },
+  "existingWire10QualificationUnchanged": true,
+  "otherNetsLayersWidthsExactFromFailedFullAudit": true,
+  "physicalCopperAreaDifference": "Not a qualification criterion. Approximate Minkowski measurements may be reported separately; original physical equality is NOT claimed.",
+  "requirements": [
+    "Root hash-pinned exact-case approval required before auditor normalization.",
+    "Only these two planned segments and four actual full bodies/IDs at independently calculated q4 intersection may be normalized.",
+    "All other per-width/net/layer geometry exact and all original-body/rule/pin protections remain mandatory.",
+    "Foreign-copper/all863-drill clearance, native full DRC, final saved bridge and whole-project audits remain separate gates."
+  ]
+}

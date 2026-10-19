@@ -1,0 +1,22 @@
+{
+  "case": "dcpoint_nominal_v5p5_v3p3p3_sman0p75",
+  "timeout_s": 20,
+  "seconds": 20.031,
+  "warnings": [
+    "Warning: Dynamic gmin stepping failed",
+    "Warning: True gmin stepping failed",
+    "Warning: source stepping failed",
+    "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+    "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+    "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+    "Warning: singular matrix:  check node xu32.n2991579",
+    "Warning: singular matrix:  check node xu32.n2991579",
+    "Warning: singular matrix:  check node xu32.n2991579"
+  ],
+  "raw_exists": true,
+  "deck_sha256": "f67bcfe37b838f4f90a795ba8c7a87065ad8c51fc33750e1c6f71dba4ce873db",
+  "optran_used": false,
+  "numeric_valid": false,
+  "parse_error": "not enough values to unpack (expected 2, got 1)",
+  "run_ok": false
+}

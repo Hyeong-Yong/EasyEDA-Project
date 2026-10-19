@@ -1,0 +1,306 @@
+{
+  "schema": "adc10-remaining6-strict-independent-fill-validity-20261018-v1",
+  "status": "PASS",
+  "inputPath": "STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\bottom-buckets\\remaining6-native-operations-c95-farvia-20261018.json",
+  "inputSha256": "60735a1709cdb441f51c99bbcf4d139a76bcce569176408e6851ebf6044e2780",
+  "nativeSourceSha256": "598bd2694227a85311622ba69d091830a3aafcc099b818e54857a816facb7b5f",
+  "testedFillPaths": 14,
+  "fills": [
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 3,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 19.581316539970967,
+      "boundsMm": [
+        51.10954218,
+        76.10050058,
+        58.67450037999999,
+        82.06545944
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "c667926ae983cbc8",
+      "layerId": 1,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 314,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 13229.116265581011,
+      "boundsMm": [
+        0.5004993799999999,
+        0.5004993799999999,
+        99.49950127999999,
+        153.49949996
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "f9e70adc3ac35fbd",
+      "layerId": 15,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 87,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 183.1710392643719,
+      "boundsMm": [
+        42.17500328,
+        79.07749488,
+        58.00089500001,
+        94.43945044
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "4390d61d8c7f4f80",
+      "layerId": 15,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 367,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 12639.69532826093,
+      "boundsMm": [
+        0.5004993799999999,
+        0.5004993799999999,
+        99.49950127999999,
+        153.49949996
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "41fd0322eb2cc785",
+      "layerId": 16,
+      "net": "+3V3",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 316,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 13231.023990265241,
+      "boundsMm": [
+        0.5004993799999999,
+        0.5004993799999999,
+        99.49950127999999,
+        153.49949996
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "ef12098577a13cc7",
+      "layerId": 18,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 103,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 201.63717320668027,
+      "boundsMm": [
+        42.17500328,
+        79.07749488,
+        58.00089500001,
+        94.43945044
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "daa2e5885d92eda0",
+      "layerId": 18,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 13,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 805.1404815342568,
+      "boundsMm": [
+        28.751499519999996,
+        30.376500079999996,
+        56.42449979999999,
+        87.54949977999999
+      ],
+      "beforeValid": false,
+      "beforeValidityExplanation": "Ring Self-intersection[47.22450042 74.12247558]",
+      "id": "a1d7888349e74585",
+      "layerId": 2,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 1,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 0.685256118477088,
+      "boundsMm": [
+        50.27549999998,
+        78.264766999998,
+        51.665456739999996,
+        79.07749488
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "1cd997827b0241d6",
+      "layerId": 2,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 1,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 0.13063526010465673,
+      "boundsMm": [
+        54.63461005999999,
+        78.626283000104,
+        55.295230000124,
+        79.07749488
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "a7cecc90c6e5b57b",
+      "layerId": 2,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 207,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 10727.203869005212,
+      "boundsMm": [
+        0.5004993799999999,
+        0.5004993799999999,
+        99.49950127999999,
+        153.49949996
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "2fb535085249015d",
+      "layerId": 2,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 1,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 5.065737211935119,
+      "boundsMm": [
+        50.7244604,
+        76.49999940000001,
+        53.889460420000006,
+        78.37499946
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "9bbb881293539c05",
+      "layerId": 2,
+      "net": "NET-(U1D-VDDA)",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 1,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 2.9881438338450397,
+      "boundsMm": [
+        54.2749994,
+        76.49999940000001,
+        56.19999935999999,
+        78.37499946
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "d8ad16a3b68b1fd9",
+      "layerId": 2,
+      "net": "NET-(U1D-VREF+)",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 1,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 4.253568742418956,
+      "boundsMm": [
+        55.022940500000004,
+        80.60632342,
+        58.00089500001,
+        85.26545811999999
+      ],
+      "beforeValid": true,
+      "beforeValidityExplanation": "Valid Geometry",
+      "id": "23f25be226b43a88",
+      "layerId": 2,
+      "net": "GND",
+      "operation": "modify"
+    },
+    {
+      "valid": true,
+      "explanation": "Valid Geometry",
+      "quantizedNativeRound4Valid": true,
+      "quantizedNativeRound4Explanation": "Valid Geometry",
+      "contours": 6,
+      "allAPIRingsExplicitlyClosed": true,
+      "areaMm2": 13.504436290810967,
+      "boundsMm": [
+        52.622940000036,
+        79.07749488,
+        58.00089500001,
+        82.999348999954
+      ],
+      "id": "4390d61d8c7f4f80:retained-lobe:1",
+      "layerId": 15,
+      "net": "GND",
+      "operation": "create"
+    }
+  ],
+  "errors": [],
+  "geometryRepaired": false,
+  "liveCalls": 0,
+  "scope": "Strict native outer+hole topology and explicit public API closure only; not a full clearance/GND/netlist proof."
+}

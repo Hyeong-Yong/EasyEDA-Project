@@ -1,0 +1,18 @@
+{
+  "status": "source-structure-and-pin-map-verified; live-import-and-ERC-pending",
+  "nativeFile": "STM32H747_DAC_SMA_2CH_DRAFT.epro2",
+  "nativeSha256": "75fabab34f3d4b6eba794995af892655290925c7bdf145478efca20aeea4379b",
+  "physicalComponents": 35,
+  "nets": 25,
+  "connectedPins": 114,
+  "pageUuid": "10963d7037a946b3",
+  "schematicUuid": "9c6c4c177dab4fd5",
+  "missingConnectedPins": [],
+  "liveImportResult": "Attempted through official EasyEDA API; no imported project returned. Live import/ERC are unconfirmed.",
+  "pending": [
+    "Generic relay procurement/footprint and external coil driver/dual-rail power-good",
+    "Precision resistor MPNs",
+    "Cable/analog transient checks",
+    "PCB layout and manufacturing review"
+  ]
+}

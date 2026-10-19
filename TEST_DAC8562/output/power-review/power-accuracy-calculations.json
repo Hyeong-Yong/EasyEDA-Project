@@ -1,0 +1,177 @@
+{
+  "dateKst": "2026-10-12",
+  "status": "datasheet-and-analytical-review; not-hardware-verified",
+  "originalProjectSha256": "5481e16c57c5c6162a487e7f8ccfde87bba9f472283f93b6508ea427589d158a",
+  "originalExportSha256": "cd567239eeac62a3238dd003c8e5a2af99af71460be6bee33523a0d41b5f3df7",
+  "sources": {
+    "tps": "https://www.ti.com/lit/ds/symlink/tps65130.pdf",
+    "ldo": "https://www.ti.com/lit/ds/symlink/lp2985.pdf",
+    "dac": "https://www.ti.com/lit/ds/symlink/dac8562t.pdf",
+    "opa": "https://www.ti.com/lit/ds/symlink/opa2277.pdf",
+    "stm": "https://www.st.com/resource/en/datasheet/stm32h747ig.pdf",
+    "stm_errata": "https://www.st.com/resource/en/errata_sheet/es0445-stm32h745xig-stm32h755xi-stm32h747xig-stm32h757xi-device-errata-stmicroelectronics.pdf",
+    "qnew": "https://www.vishay.com/docs/64004/si2323dds.pdf",
+    "qold": "https://www.vishay.com/docs/72024/si2323ds.pdf",
+    "ptn": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6347/PTN-SIL-042-2024-REV-0.pdf",
+    "cap": "https://product.samsungsem.com/mlcc/CL21A475KAQNNN.do",
+    "ldo_upgrade": "https://www.ti.com/lit/ds/symlink/tps7a49.pdf"
+  },
+  "tps65131": {
+    "nominalPositiveV": 11.97231,
+    "nominalNegativeV": -12.13,
+    "positiveConservativeStaticV": [
+      11.5265898019802,
+      12.430850404040402
+    ],
+    "negativeConservativeStaticV": [
+      -12.766323232323233,
+      -11.503128712871288
+    ],
+    "boundsMeaning": "Independent datasheet voltage extrema and 1% resistor endpoints. Not a statistical result or a transient/ripple bound. FBP/FBN errors already included; do not add the aggregate DC accuracy again.",
+    "feedforwardRecommendedPf": {
+      "C1": 7.666290868094701,
+      "C2": 7.5
+    },
+    "existingCnPf": 10000,
+    "recommendedCnPf": 4700,
+    "existingCpPf": 4700,
+    "recommendedCpPf": 10000,
+    "controlFilterTimeConstantUs": 10.0,
+    "notes": [
+      "PSP/PSN are correctly grounded: power-save disabled.",
+      "ENP/ENN tied to filtered VIN: automatic startup, no independent sequencing or power-good indication.",
+      "About 1 ms soft-start current-limit ramp is not a guarantee of simultaneous settled +/-12 V rails.",
+      "R5 RC filter is conditional: fast input edges >=275 mV/us require the datasheet ferrite-bead alternative."
+    ]
+  },
+  "lp2985": {
+    "inputSource": "VPOS12, not VIN_RAW",
+    "nominalOutputV": 5,
+    "legacyStandardWorst1to50mAOverTemperatureV": [
+      4.825,
+      5.175
+    ],
+    "newChipWorstOverTemperatureV": [
+      4.95,
+      5.05
+    ],
+    "effectiveCapacitanceLegacyMinimumUf": 2.2,
+    "effectiveCapacitanceNewMinimumUf": 1.0,
+    "exampleRequiredBiasRetentionForC15": 0.6118759560561813,
+    "capacitanceExampleMeaning": "Illustrative 10% initial tolerance and 15% temperature loss, excluding aging. Requires supplier DC-bias data and ESR; not a measured capacitor guarantee.",
+    "powerLossAt5mAApproxW": 0.034861550000000005,
+    "powerLossAt150mAApproxW": 1.0458465,
+    "recommendation": "Retain for restricted-range prototype after chip/MLCC checks; use an adjustable low-noise 5.25 V regulator for the revised full-range design. TPS7A49 is a candidate requiring footprint and thermal redesign, not a drop-in replacement."
+  },
+  "dac8562t": {
+    "existingGain": 4.016064257028113,
+    "idealEndpointV": [
+      -10.040160642570282,
+      10.039854241183484
+    ],
+    "outputLsbV": 0.00030640138679718877,
+    "maximumInlOutputV": 0.0036768166415662652,
+    "offsetContributionOutputV": 0.016064257028112452,
+    "gainErrorContributionAt5VOutputV": 0.030120481927710843,
+    "referenceContributionAt10VApproxV": 0.020080321285140562,
+    "resistorOnlyZeroV": [
+      -0.008019241361306939,
+      0.007993600317190541
+    ],
+    "resistorOnlyNegativeEndpointV": [
+      -10.060261064277128,
+      -10.020100381546166
+    ],
+    "resistorOnlyPositiveEndpointV": [
+      10.020100381546166,
+      10.060261064277128
+    ],
+    "opaOffsetContribution25CV": 0.0002508032128514056,
+    "opaInputOffsetCurrentContribution25CV": 0.00028,
+    "typicalDacLoadingOutputErrorAt5V": 0.0008038559361545463,
+    "errorBudgetMeaning": "Individual explanatory contributions, not summed: full-scale, gain, offset and INL definitions overlap. Datasheet DAC tests use an unloaded output; present loading/ripple/temperature must also be validated. Calibration removes affine error, not quantization or all INL.",
+    "revisedGainWith24k3": 4.11522633744856,
+    "revisedIdealDacVoltagesFor10V": [
+      0.06999999999999984,
+      4.93
+    ],
+    "revisedIdealCodesFor10V": [
+      917.5039999999979,
+      64618.496
+    ],
+    "codeLinearityCharacterizationInterval": [
+      512,
+      65024
+    ],
+    "digitalPowerSequencing": "All digital inputs must be <=AVDD+0.3 V absolute, within 0..AVDD for operation. Move R8/R9/R10 to regulated DAC AVDD and add power-off isolation/enable for external MCU signals.",
+    "onePullupPossibleClampCurrentMa": 0.47000000000000003,
+    "resetCommands": {
+      "fullSoftwareReset": "0x280001",
+      "writeAndUpdateBothMidscale": "0x1F8000",
+      "enableInternalReference": "0x380001",
+      "explicitBothGain2": "0x020000"
+    },
+    "porRequirement": "AVDD below 0.7 V for >=1 ms to guarantee POR; an excursion between 0.7 and 2.2 V does not guarantee reset.",
+    "startupOrder": [
+      "Hardware output mute asserted; MCU inputs isolated or Hi-Z until DAC AVDD is valid.",
+      "Wait for positive/negative rails and DAC AVDD to be valid and stable; do not rely on a blind 1 ms delay.",
+      "Full software reset 0x280001.",
+      "Write and update BOTH channels to 0x8000, 0x1F8000, while reference remains off.",
+      "Enable internal reference 0x380001, which also selects gain=2; optionally explicitly issue 0x020000.",
+      "Wait for the loaded reference and DAC/amp outputs to settle; verify ~2.5 V DAC, ~0 V board output.",
+      "Release output mute, then apply calibrated, limited commands and slow initial ramps."
+    ],
+    "clrMeaning": "CLR or register reset with the reference enabled selects zero DAC code, corresponding to about -10.04 V at the current bipolar output. It is not a zero-output command."
+  },
+  "q1Replacement": {
+    "old": "Si2323DS-T1-E3",
+    "new": "Si2323DDS-T1-GE3",
+    "supplierPart": "C165449",
+    "manufacturer": "Vishay",
+    "manufacturerRecommended": true,
+    "lastTimeBuy": "2025-01-21",
+    "lastTimeShip": "2025-07-21",
+    "vdsV": -20,
+    "vgsAbsoluteV": 8,
+    "pinMap": {
+      "1": "Gate",
+      "2": "Source",
+      "3": "Drain"
+    },
+    "rdsMaxAtMinus4p5VOhm": {
+      "old": 0.039,
+      "new": 0.039
+    },
+    "gateChargeMaxAtMinus4p5VnC": {
+      "old": 19,
+      "new": 21
+    },
+    "qualification": "Electrical/pin replacement selected. The library footprints have different geometry names; compare actual pad/lead dimensions before retaining/replacing the existing footprint. BSW current and startup must be measured. Not silently substituted into the original project."
+  },
+  "stm32h747Module": {
+    "baselineVrefV": 3.3,
+    "baselineVddaV": 3.3,
+    "resolutionBits": 12,
+    "bufferedDacRangeV": [
+      0.2,
+      3.1
+    ],
+    "gain": 7.142857142857143,
+    "reference": "MCU's actual VREF+ via J5. Half-reference buffered locally. Do not substitute an unrelated 3.3 V rail without recalibration.",
+    "nominalInputFor10V": [
+      0.25,
+      3.05
+    ],
+    "outputLsbV": 0.005754743303571429,
+    "maximumInlContributionV": 0.023018973214285716,
+    "monotonicityGuaranteedBits": 10,
+    "gainErrorPercentMax": 1,
+    "nominalSafeCodeInterval4095Scaling": [
+      311,
+      3784
+    ],
+    "codeScalingMeaning": "First estimate using ST's nominal DOR/4095 convention. Clamp again with measured per-channel calibration and actual VREF. LSB specification uses VREF/4096.",
+    "schematicStatus": "editable schematic draft, separate project; relay footprint/procurement and analog transient validation pending",
+    "sourceCableRequirement": "No 50 ohm termination. ST settling/accuracy conditions use CL<=50 pF: use a source-side buffer for ordinary coax; a resistor placed only at the receiver does not isolate the MCU from the cable capacitance."
+  }
+}

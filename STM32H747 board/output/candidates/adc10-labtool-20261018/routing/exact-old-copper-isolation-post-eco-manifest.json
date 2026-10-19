@@ -1,0 +1,4875 @@
+{
+  "schema": "adc10-labtool-exact-copper-isolation-20261018-v1",
+  "status": "OFFLINE_GUARDED_PLAN_REQUIRES_PARENT_NATIVE_REBASE_AND_DRC",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_eco_applied-20261018.epru",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "wholeSourceReplace": false,
+  "operations": [
+    {
+      "type": "LINE",
+      "id": "6aa0cc5deb9a2d11",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 5511.811,
+        "endX": 413.3858,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c2a4b78d998c861d94ac5c31b52f667324ef6ba2efe05c777b05c7dccb0a6ee9",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "e3ece121911e637c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 5511.811,
+        "endX": 545.2756,
+        "endY": 5511.811,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "53c9094d0992b14171fec7d4b922e961618be67404f55046377cb23d11f57be2",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "c9db426679e19a7f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 5511.811,
+        "endX": 545.2756,
+        "endY": 5559.0551,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e5e0860176d4443ca98607fc95d08a115a3a9b92b987d31d5101864f927fff36",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "b5b5400736217e99",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 5511.811,
+        "endX": 537.5,
+        "endY": 5408.6614,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "a9a3b782dcc05e25995383cb9e230dc82a2d4f7801ea49e2a0053e5fd9d38356",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "078b6d083fa58f98",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 5408.6614,
+        "endX": 622.0472,
+        "endY": 5408.6614,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "b70511dec6b03fa5d202b89420d9cff937110558256680698f4e26fae0f80e5e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "162847eb2ee54cef",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 5408.6614,
+        "endX": 688.9764,
+        "endY": 5395.6693,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e3610e045b4f5f0b006d9f39571865ca38f2561a1de99bc98990c8111f9dab69",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "30b7dc43055bfa6e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV1",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 5470.4724,
+        "endX": 740.1575,
+        "endY": 5470.4724,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "348c3f7a61793d882f4f181811dfc92a427993d710f12ed22de6bae58b867af4",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "1d58e80d7b3ccc80",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV1",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 5470.4724,
+        "endX": 740.1575,
+        "endY": 5395.6693,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "62e75622f926767252224a57c08e4a154df6cab006421148e32903f2423d4c84",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "6f4ac8bc18b4db11",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV1",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 5395.6693,
+        "endX": 791.3386,
+        "endY": 5395.6693,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "4262caa605bbd9ad19615f46179c5f4abb1882efc655e3b662be0e16a5a35e69",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "20cb0f47412913ee",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV1",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 5470.4724,
+        "endX": 589.7638,
+        "endY": 5470.4724,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f5906af186d14a95b6d2933b1f58a1795fe44be358e5f59c5599166312e7d2cc",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J2_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 5470.4724,
+        "endX": 589.7638,
+        "endY": 5470.4724,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "bfbcd13ecb347e26",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV1",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 5470.4724,
+        "endX": 589.7638,
+        "endY": 5511.811,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c3202ea075f89ffdee59eb5ba1db1f34a7d5793fd03bb2144b48f2fdf03e28da",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J2_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 5470.4724,
+        "endX": 589.7638,
+        "endY": 5511.811,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "913aef716e1127a8",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J2-IN)",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 5511.811,
+        "endX": 177.1654,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3844
+      },
+      "beforeBodySha256": "f1ce046020e110a16a7f592f706c566f5d1466ff130f2ee56fe6e0c7eca307bc",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J2_RAW",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 5511.811,
+        "endX": 177.1654,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3844
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "64c11829ed0eeee0",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4960.6299,
+        "endX": 537.5,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "65d0655c6c9865644103ebb4bd43c7d605d13c4c16630d92fb01105adf6875e2",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "c6dac94d4a993768",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 4960.6299,
+        "endX": 545.2756,
+        "endY": 4960.6299,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6c936b7024b14d8d218538496169da90984cf49a2a9514ee7696e5e5c291cd0f",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "dec0baa23cad4a8a",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 4960.6299,
+        "endX": 545.2756,
+        "endY": 5007.4804,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "4d5b5d3017928095c3da7d0cd64727f1f014b449ae18aa7f8f76620fc58f4fc2",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "b134d4e01a8b330b",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 4960.6299,
+        "endX": 537.5,
+        "endY": 4857.4803,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6f69cd07bc8009256d6c87973c1bb8603e86e000ced35c6da368d0f1f86b82eb",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "346bf54994f0dd02",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 4857.4803,
+        "endX": 622.0472,
+        "endY": 4857.4803,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6db205af1ee79177645a2ca99cd0a6457e56f35efd004fab5e34612697c65168",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "17ca2fac67d958a5",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 4857.4803,
+        "endX": 688.9764,
+        "endY": 4844.4882,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "975d94e63af2688d00f5daac38673f05ae9e119176a5a0d7b7452af41d82df38",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "a96d8150974e91af",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV2",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 4919.2913,
+        "endX": 740.1575,
+        "endY": 4919.2913,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "a8cdf3f2d0b4da2fa8bb96b1b520d20b75dccb9c666b13a7bd69e5333718e29e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "8a048722d9ad5039",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV2",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 4919.2913,
+        "endX": 740.1575,
+        "endY": 4844.4882,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "5db0bc514d1f0547b2a4a1ebd82a096980e6e79bc6ca87cea05e545234598c32",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "1f288baf83d4f37e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV2",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 4844.4882,
+        "endX": 791.3386,
+        "endY": 4844.4882,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "feaf35b1e45d4fa0073dffbbf6287add51b139b03429ce933836c378a32f74af",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "ccee724a28721cfc",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV2",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 4919.2913,
+        "endX": 589.7638,
+        "endY": 4919.2913,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "1116a3a743a5a8548c37620d3108dc7de78849710c023d061ed214c6d0ed2e55",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J3_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 4919.2913,
+        "endX": 589.7638,
+        "endY": 4919.2913,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "1fad316daf6caaf1",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV2",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 4919.2913,
+        "endX": 589.7638,
+        "endY": 4960.6299,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c97056a37b1dc24040c1cf8986ad787f2ab6d1848af12b2a9e47c6d8897429cb",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J3_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 4919.2913,
+        "endX": 589.7638,
+        "endY": 4960.6299,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "54e4336ce40082d1",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J3-IN)",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 4960.6299,
+        "endX": 177.1654,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3845
+      },
+      "beforeBodySha256": "72236021927c34e4a35ea7266047d569c31a6be0eb231ec221bf19023fa130db",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J3_RAW",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 4960.6299,
+        "endX": 177.1654,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3845
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "9a4752adef0ff5f5",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4409.4488,
+        "endX": 537.5,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "1d480e96b8b854959c87a8630c85cb050302d6fd778b1f3e4e4fc6852f6d5743",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "b734bb5980c3c1ac",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 4409.4488,
+        "endX": 545.2756,
+        "endY": 4409.4488,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "23e0c87e9bd43b0d0ad9019fc283dc13d2ee5ff12c2b02072797563469add52b",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "30570fd00a4317a4",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 4409.4488,
+        "endX": 545.2756,
+        "endY": 4457.6772,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "cb9cfb89e78121c542b5a1d8fa2f0f74d2edffa87a7efe7ebb9da429bd939134",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "c097b333f3c0666f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 4409.4488,
+        "endX": 537.5,
+        "endY": 4306.2992,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "044ebf48dbc56334250ddb95d4ff478abd66d915de0134e2de975927c02c4679",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "499b38bef90b800c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 4306.2992,
+        "endX": 622.0472,
+        "endY": 4306.2992,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "4185e1a2671cc958dca30939288750461062f099a8b5d99d1186a5dbc7ae2d52",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "be62e29124809583",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 4306.2992,
+        "endX": 688.9764,
+        "endY": 4293.3071,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f90a1934687ffda08f176cab907bbeabd7951bdfd8cf8a0cc9264ee908ab818b",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "6386fc6a61b218ce",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV3",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 4368.1102,
+        "endX": 740.1575,
+        "endY": 4368.1102,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "7a238ea3b87df99e2212548c8e2925d32b633453d8d2596adb17cbf221b4b756",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "a270f40e07643478",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV3",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 4368.1102,
+        "endX": 740.1575,
+        "endY": 4293.3071,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e295c49299b7a04e8105e02b81a674a61371adce11ed7df21eeec2cbee37076e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "839871bfc7bd48a8",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV3",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 4293.3071,
+        "endX": 791.3386,
+        "endY": 4293.3071,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d555855ced506245c50899d7b48d0dde47db333131b5ad2964f4a64ad595a802",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "c6a7304b3ba067ed",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV3",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 4368.1102,
+        "endX": 589.7638,
+        "endY": 4368.1102,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "7f44e311117685fe27158116e2d296e1999ed1795040234a8fbe068bfed9c81b",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J4_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 4368.1102,
+        "endX": 589.7638,
+        "endY": 4368.1102,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "1348bdce7f157c3c",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_DRV3",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 4368.1102,
+        "endX": 589.7638,
+        "endY": 4409.4488,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "035692dcf81d75feafecb206e06710e55ad80a1eadf6bde8a3906d2409b86cd2",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J4_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 4368.1102,
+        "endX": 589.7638,
+        "endY": 4409.4488,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "13153ab856bba246",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J4-IN)",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 4409.4488,
+        "endX": 177.1654,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3846
+      },
+      "beforeBodySha256": "360a7d6a8b8b9485ccdf9015526c5dff5e2423ab06d2a8ff10eec1756f8b4829",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J4_RAW",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 4409.4488,
+        "endX": 177.1654,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3846
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "e73fa5b8cf82414b",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3858.2677,
+        "endX": 413.3858,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "2d04b0ff54757ca670192a967fe1a599eb4838f8d86946225db050a01fcea473",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "0ec82927bee32509",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3858.2677,
+        "endX": 545.2756,
+        "endY": 3858.2677,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6750538e7644e51fb060212e08bdfbc8d9f23876b121789f285da014f96f9312",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "3532cfefce64779e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 3858.2677,
+        "endX": 545.2756,
+        "endY": 3906.1024,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "cc496e7d53453ec7f810e8b136d39a93a02483133e002cba37f31b1af49d8f17",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "0f4cdc31b31a1af4",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3858.2677,
+        "endX": 537.5,
+        "endY": 3755.1181,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "1b9bd40b204b80ade4543418cb0180797661ac4c672f80fe838ac971ae720cac",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "0657a3917e72c644",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3755.1181,
+        "endX": 622.0472,
+        "endY": 3755.1181,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c6f855f4b53ab78cc5b13fddd80898cc02e0a25cee422891b755deac712fea98",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "fc1e44750f23191d",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 3755.1181,
+        "endX": 688.9764,
+        "endY": 3742.126,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "46428783ed9813e6f43379d91c86f6e03dce1c5b3c76dcc954b42c95cc538e2a",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "1d84c2d7a6e0913d",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV1",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 3816.9291,
+        "endX": 740.1575,
+        "endY": 3816.9291,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "cf60c0ba6f09f68352f72f47ad9fc60b579f45f4239600930b61e6bd3507339c",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "832a57f16cb1c72b",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV1",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 3816.9291,
+        "endX": 740.1575,
+        "endY": 3742.126,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d7239025ca42a1bad2993caa1f508c51e99c1bd48503ad0477c267b7e7cd0c64",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "01d235fe00084d64",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV1",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 3742.126,
+        "endX": 791.3386,
+        "endY": 3742.126,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c300b51e281dbadcd2a64fab765221a216524d0e7a4503d97c6c8db4ef1bf042",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "cb0eae68422d3a45",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV1",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 3816.9291,
+        "endX": 589.7638,
+        "endY": 3816.9291,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f2996555d6d8442701aa0fecb8763e8760c19c0eee1f7a11e4530d48b6b84693",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J5_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 3816.9291,
+        "endX": 589.7638,
+        "endY": 3816.9291,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "6f27e055b6642acf",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV1",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 3816.9291,
+        "endX": 589.7638,
+        "endY": 3858.2677,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f3490b40465d924a450d971366112bb9ad48a390074b2f0e0232fb16d9a9c0a4",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J5_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 3816.9291,
+        "endX": 589.7638,
+        "endY": 3858.2677,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "bd9e9f99b1c5c58c",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J5-IN)",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 3858.2677,
+        "endX": 177.1654,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3847
+      },
+      "beforeBodySha256": "4ac14a1eddf0154a8eff2a904ed8fc82a52da06035ec4025c3dc977db2fb1e82",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J5_RAW",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 3858.2677,
+        "endX": 177.1654,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3847
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "dfcc25b4255e0e63",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 3307.0866,
+        "endX": 537.5,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6e8280eb331a946314d782ce7a943f8a90f9df33dfcf9099ed0b0978f876c457",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "ad62b19dff8dacc4",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3307.0866,
+        "endX": 545.2756,
+        "endY": 3307.0866,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "8fb1428e1928fc2b6d13346fd42c26a7775f7f46357f4ecaee255b2ba99ba61a",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "f9975fb01e8ad871",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 3307.0866,
+        "endX": 545.2756,
+        "endY": 3354.9213,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "dc856f7ab1ff944398fa6c36784f9cbf406336f1d86364a2b41121224b968a76",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "8921b747dbbced57",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3307.0866,
+        "endX": 537.5,
+        "endY": 3203.937,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d65b252b0ccbe19be3d42d1e92cea65ff093c6a55634fc3a261fbc0f7af9c0c8",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "fe335faec37339db",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3203.937,
+        "endX": 622.0472,
+        "endY": 3203.937,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "5513df3f819e1c33410892f160f5e952713659bdbfecfff02b5fa8ab48cf6c02",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "ee120f2a6de6ce24",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 3203.937,
+        "endX": 688.9764,
+        "endY": 3190.9449,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "ed150de51ef7b2411b9c4e98e1ce2176414c64f4d656618cb2ff92ee42082978",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "5c8017a459c00bd2",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV2",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 3265.748,
+        "endX": 740.1575,
+        "endY": 3265.748,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d2fb4448609e8de23c3527805c385e67fb984d21659b74b8ac503da9dbabfdde",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "846b6e8039b6a07c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV2",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 3265.748,
+        "endX": 740.1575,
+        "endY": 3190.9449,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "7339578f75a3aa03fb895aafc1fbeceaeeebba9ca44dcd7b694230c95ab1435c",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "b7a48660eaf9f6c6",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV2",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 3190.9449,
+        "endX": 791.3386,
+        "endY": 3190.9449,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "fdaf1ec6ed808fd40e2cb59fe0ad445e8baff21346972e875334fa11cea4b136",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "aa4c855e0843b80d",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV2",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 3265.748,
+        "endX": 589.7638,
+        "endY": 3265.748,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "a126d9a0cc0be0e1f7d16658ae56fbecc963a4845ccf72a44542cb1204ca4e92",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J6_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 3265.748,
+        "endX": 589.7638,
+        "endY": 3265.748,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "1fa94a7f8d9d322d",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV2",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 3265.748,
+        "endX": 589.7638,
+        "endY": 3307.0866,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "b0d02d02e2293131d7f0179368ed59199c1e997a9805fd0ebb174fa1828de37c",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J6_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 3265.748,
+        "endX": 589.7638,
+        "endY": 3307.0866,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "a8aeabe95d7a762c",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J6-IN)",
+        "layerId": 1,
+        "startX": 373.2284,
+        "startY": 3307.0866,
+        "endX": 177.1654,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3848
+      },
+      "beforeBodySha256": "fc23bf1b79905c073a567517854481723a0b46727827f1c02ebfd67f6ce52cb3",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J6_RAW",
+        "layerId": 1,
+        "startX": 373.2284,
+        "startY": 3307.0866,
+        "endX": 177.1654,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3848
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "b55c188cc65ce094",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2755.9055,
+        "endX": 413.3858,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "8748efb12996b1c2179dc6c21163f5eb78e4b87a4cd9960110a8252166c0390e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "50ae6badccc52404",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2755.9055,
+        "endX": 545.2756,
+        "endY": 2755.9055,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "162a4b6a66e64244106c81b5e6b45c843e3f8115f63e4a5be39b48f3a5fd9230",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "fc9c3b3f5b23db8e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 2755.9055,
+        "endX": 545.2756,
+        "endY": 2803.7402,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "09e270c4f9551b642ec23a694687a66632afa8553efe84897671786a0c611db6",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "15d2c93df27142c8",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2755.9055,
+        "endX": 537.5,
+        "endY": 2652.7559,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "1508c71175d81788c2d63660f4e11689d7b29e3c2a3dd2711ce9a6d850f8fa78",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "dd3bc82fc87ab290",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2652.7559,
+        "endX": 622.0472,
+        "endY": 2652.7559,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "9f2d7ed86b6fd79be02e9309955f01d9903b7dd901988d776895d7148e14d2da",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "385347e1fb4034f1",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 2652.7559,
+        "endX": 688.9764,
+        "endY": 2639.7638,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "883928445d6a393db4012a03e35f8772b8392b3bf2e7810e43f069d366cec337",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "bd60e355f53bba03",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV3",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 2714.5669,
+        "endX": 740.1575,
+        "endY": 2714.5669,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e55ae38234197c243c065590323d71a7edd6f3129c4b47c830ec3b5acd345892",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "4b10cf903a6e19fc",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV3",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 2714.5669,
+        "endX": 740.1575,
+        "endY": 2639.7638,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e1b9054f11cd3d685e86fefc80f0f71409c955fdd25b6088e1e13a2ca9d8fa02",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "2be9ce539fcf5ea0",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV3",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 2639.7638,
+        "endX": 791.3386,
+        "endY": 2639.7638,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "b98c405efb3341bd10b7023e290c0900efa1cb0f735e1f8ec79eb2b9f4deabf4",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "6084b938afd93463",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV3",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 2714.5669,
+        "endX": 589.7638,
+        "endY": 2714.5669,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "952c6bdbd15092c3eb99cbc63be60dbc2d1ccdcc570a8b3d3295d2e2a17fd7a7",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J7_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 2714.5669,
+        "endX": 589.7638,
+        "endY": 2714.5669,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "40dbc6e644fa62fe",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_DRV3",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 2714.5669,
+        "endX": 589.7638,
+        "endY": 2755.9055,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "1b0ec9889eb33f3610895e399f5d2b350e7ad08304bc85be77d876b895309f0a",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J7_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 2714.5669,
+        "endX": 589.7638,
+        "endY": 2755.9055,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "3b9f726bd0345a17",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J7-IN)",
+        "layerId": 1,
+        "startX": 177.1654,
+        "startY": 2755.9055,
+        "endX": 373.2283,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3849
+      },
+      "beforeBodySha256": "4e1e6bc3fd79161822d37aa1cce59e95727c0dec508bdd1b40153bfd81660334",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J7_RAW",
+        "layerId": 1,
+        "startX": 177.1654,
+        "startY": 2755.9055,
+        "endX": 373.2283,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3849
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "ac167e04ee334ff7",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2204.7244,
+        "endX": 413.3858,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "154b74ae2848577651dcff5de94c2d11a3fd43b1db8bc71aebcea789952f368b",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "4223aca73b326596",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2204.7244,
+        "endX": 545.2756,
+        "endY": 2204.7244,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "5684a9a990b5d1361c9e2343333f422a009fe74cd242d7b4b1330a00e2eba76a",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "22cd02d8b1bf9710",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 2204.7244,
+        "endX": 545.2756,
+        "endY": 2252.9528,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d2e12ad4b5e4f084359f6384708e91b6fc534bba63cbdee46628d7985ec9938c",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "046f265d3f7cc97c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2204.7244,
+        "endX": 537.5,
+        "endY": 2101.5748,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "cabbb2f24ebfda0f15a987c3e53a67e8ecd53118e165d1e67636c1aa93205984",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "e2ead3f3da73dc62",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2101.5748,
+        "endX": 622.0472,
+        "endY": 2101.5748,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "396bc58f34a27e81d38746f531135a1cbaf9ded1bccc53bb81fbccd4665910b6",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "60e637bb33604ab1",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 2101.5748,
+        "endX": 688.9764,
+        "endY": 2088.5827,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "cae1789aea9368341e15daf0bfa7793973b47f3f0d147b1cd4548e6cea13e821",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "0feca7fe5d6a4de0",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV1",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 2163.3858,
+        "endX": 740.1575,
+        "endY": 2163.3858,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "db10012c5ca0dc94e86587f4a94bf396f0c6f917a6f6cd810924720c7d8bf7fa",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "677f7005f1827e79",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV1",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 2163.3858,
+        "endX": 740.1575,
+        "endY": 2088.5827,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "26ffb721ead0dcb5d7cf98cde3aee5ab1cd1cb7383570ade0eaa6f2c96f0dc7c",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "df9759eb6a80b35c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV1",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 2088.5827,
+        "endX": 791.3386,
+        "endY": 2088.5827,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "bf3e7629e29315257778bfa692395fe45e8d6d7d129c0dc1369935fea8319e1b",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "0cf029f20f338cd1",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV1",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 2163.3858,
+        "endX": 589.7638,
+        "endY": 2163.3858,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "9e70d0d769ff29bc66b3ce8e0122b21c498bfe353a637da5bb97b3afd618df2c",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J8_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 2163.3858,
+        "endX": 589.7638,
+        "endY": 2163.3858,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "d58543bcec79cbc0",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV1",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 2163.3858,
+        "endX": 589.7638,
+        "endY": 2204.7244,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "ef92d1d3d9b5f56ceb6d9b6e1e501cd66fd7aed0a3e81d6ade882c3d0901b987",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J8_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 2163.3858,
+        "endX": 589.7638,
+        "endY": 2204.7244,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "fd9d34eabb4f0ddf",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J8-IN)",
+        "layerId": 1,
+        "startX": 177.1654,
+        "startY": 2204.7244,
+        "endX": 373.2283,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3850
+      },
+      "beforeBodySha256": "3a43d37355dbcadc640281861dabeaa195f6a850aa3c9a8474ff93dd8acf5def",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J8_RAW",
+        "layerId": 1,
+        "startX": 177.1654,
+        "startY": 2204.7244,
+        "endX": 373.2283,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3850
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "189472c11f6f92c9",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 1653.5433,
+        "endX": 537.5,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "3a86d35435669f4777baafe379a77077d37e6cf877fbfc3a7033850dd01f51a6",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "6b93295f691d0ded",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 1653.5433,
+        "endX": 545.2756,
+        "endY": 1653.5433,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "37596e7b526c660cc9279afb2d98d2525ab3dcaf7cd25db730ae40bf02d45378",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "13cec6705d799e1f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 1653.5433,
+        "endX": 545.2756,
+        "endY": 1701.378,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6dd163b1cdf3ed5e915ffc2f8698cbabafe5b47cb134b41253aba37ed5a48f7e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "39c434e126b89853",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 1653.5433,
+        "endX": 537.5,
+        "endY": 1550.3937,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "4864d0f0cf9ade807e4948c3877fcfcf69068bac2926457749fc9dd645e55640",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "756d68e2a7a106fc",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 1550.3937,
+        "endX": 622.0472,
+        "endY": 1550.3937,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f1912c17765fd9db8c6e3c017af3fbca5b067efde774ca5c19a0369335915ed5",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "63c9e58754248d11",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 1550.3937,
+        "endX": 688.9764,
+        "endY": 1537.4016,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "38657d3a4c6a2a05f0f7ba2605694ba004c07caf7c4dc595d380f132e0c35af4",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "8d9caad7450f7649",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV2",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 1612.2047,
+        "endX": 740.1575,
+        "endY": 1612.2047,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e055abb602a102b9fd635b4eec945c84ae9b66c9b5123eeb8434d717441ad614",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "4703d814a18481f2",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV2",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 1612.2047,
+        "endX": 740.1575,
+        "endY": 1537.4016,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "2989ccba172f10ae3383540bf02743a0e82ca916ab5d72e8e942094495e66d92",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "5a44efab0750092a",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV2",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 1537.4016,
+        "endX": 791.3386,
+        "endY": 1537.4016,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "47edebf64bee7bfff843b87173033838997bcb7a12237269d989e4b8514ec03a",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "22b6b228288f4a86",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV2",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 1612.2047,
+        "endX": 589.7638,
+        "endY": 1612.2047,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "5668c6019f7553c213ee03458c8910a4a115004db377b28e6c59f2eadc64d561",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J9_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 1612.2047,
+        "endX": 589.7638,
+        "endY": 1612.2047,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "0e414fccd88516b8",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV2",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 1612.2047,
+        "endX": 589.7638,
+        "endY": 1653.5433,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "12cc41a93890cfdbcb2ae147eb9160c31d3dca6c4b49188a4344f2d342c14ce7",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J9_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 1612.2047,
+        "endX": 589.7638,
+        "endY": 1653.5433,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "323be82f95cfffb4",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J9-IN)",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 1653.5433,
+        "endX": 177.1654,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3851
+      },
+      "beforeBodySha256": "ebd3fd391409383f0a17d652a50bcd6dd4a6d195ead80055bc293482370ed85c",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J9_RAW",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 1653.5433,
+        "endX": 177.1654,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3851
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "39b4fe28b42621e2",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 1102.3622,
+        "endX": 413.3858,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c87675083cd296c2b477e8172c6ca056df71e00c2c9aef04794618735a3cdf00",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "b98d8e6441610a2f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 1102.3622,
+        "endX": 545.2756,
+        "endY": 1102.3622,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "b3bf202f5a6bd82ef3a79c58593feac61c8f7ac747ba04a108f95bca81c1a856",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "0af897538017de7e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 1102.3622,
+        "endX": 545.2756,
+        "endY": 1150.5906,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "15dbbd0b11c6edd59c1d999da6add64761a8cb99c41fc46b8a6c7c5a552a19a2",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "e08e3c22e5b8cfbf",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 1102.3622,
+        "endX": 537.5,
+        "endY": 999.2126,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "a912e4ae278433eff2a80a3468a63c9cd37279b57968af5e2b99fd8ad2e32a18",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "5e41ef62d0abfc61",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 999.2126,
+        "endX": 622.0472,
+        "endY": 999.2126,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "229ffff9e65e46ddec9de952c11241a2587f07c2e3f1b5f211f682b57fa47ead",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "a398619ccd269e5e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 999.2126,
+        "endX": 688.9764,
+        "endY": 986.2205,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "dbe09979f3a171b1c93c768f58698ac195919df6c73c23df2f963092b57b130c",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "e3ba16d75c03d26b",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV3",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 1061.0236,
+        "endX": 740.1575,
+        "endY": 1061.0236,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "483e30120ee58bd98aa5e924eed0ff16291afb387fd6c3c552283fff634688f8",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "2ccf9a62d5c5bcca",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV3",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 1061.0236,
+        "endX": 740.1575,
+        "endY": 986.2205,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "59931b23ba2d8959432ec256ce8616de227e7c7f7a0bcff7d857c6af4eb7a6d4",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "3cef2c6649520bbe",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV3",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 986.2205,
+        "endX": 791.3386,
+        "endY": 986.2205,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "627ac35249ea2da5a3a9e8a9024b50bba03aa36e55841a3df3fd7ecac2b9ae48",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "8cdd4344caf0f14a",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV3",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 1061.0236,
+        "endX": 589.7638,
+        "endY": 1061.0236,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "21a195a7e3d74a2ad4b4a231ba46513b37750d8035e1e056f90dca398f96e7cf",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J10_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 1061.0236,
+        "endX": 589.7638,
+        "endY": 1061.0236,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "ab36b95cf9bdf103",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV3",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 1061.0236,
+        "endX": 589.7638,
+        "endY": 1102.3622,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "b1a57f1af2a222011eefd1b4187bdcebd374b9cfc19e949ae44be0898b7f001e",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J10_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 1061.0236,
+        "endX": 589.7638,
+        "endY": 1102.3622,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "17a42338d206ea85",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J10-IN)",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 1102.3622,
+        "endX": 177.1654,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3852
+      },
+      "beforeBodySha256": "176a9029e143ab6d6fb5ecfd8b15889c160a82c6a9d641a5d3f8c5da12e19a31",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J10_RAW",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 1102.3622,
+        "endX": 177.1654,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3852
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "6ad061c7ebe01a4e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 551.1811,
+        "endX": 413.3858,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "1174748f19f6abe13e2850bbd459ad257091717c146579774c1769928d6a5be6",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "5010b0d8fbea9f10",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 551.1811,
+        "endX": 545.2756,
+        "endY": 551.1811,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6556650e97c7a76ee0302ec0704d8845dc99dad809860661d9fc7ebc4b65139e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "7f7a225e19978666",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 551.1811,
+        "endX": 545.2756,
+        "endY": 597.441,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c7dccbbd52cb631582eb0d475569f1c89da50220d779d32609b2ac9019676b24",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "03885b49cad3b95d",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 551.1811,
+        "endX": 537.5,
+        "endY": 448.0315,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "18807d8b74d580f5917e450282202aec117bc5b731ebab82ed623433a9a55c6d",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "b05f0b0c27995210",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 448.0315,
+        "endX": 622.0472,
+        "endY": 448.0315,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "8d82a15d95a65914da2342e6e12db69a5b01b29247b8f828260eef48bd70d548",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "4303f12342db3d16",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 622.0472,
+        "startY": 448.0315,
+        "endX": 688.9764,
+        "endY": 435.0394,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "eccc43251b1d5aae3771c2c0e60600ec0f6929863560b09827a022cc180d6940",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old PRE joins raw input LPF, moved4k bias resistor, moved10nF and OPA320+; these nodes are now different nets."
+    },
+    {
+      "type": "LINE",
+      "id": "9bee98f199980fe0",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV4",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 509.8425,
+        "endX": 740.1575,
+        "endY": 509.8425,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d92a1556edd818bedb5a8e3117fac2705ffb91fc3002393d610ff4928ef89f6a",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "e5bb169199cbbc4e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV4",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 509.8425,
+        "endX": 740.1575,
+        "endY": 435.0394,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d333fa62adeb19fce44f35f52e8865ddcd25e604f6646885cc432523aba412af",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "9f1d5302515287d3",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV4",
+        "layerId": 1,
+        "startX": 740.1575,
+        "startY": 435.0394,
+        "endX": 791.3386,
+        "endY": 435.0394,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "68742e8d9b8a1161b9a619c479c89864d0af62a25f1e4794cd4a2b1ce14210a9",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "REMOVE OLD UNITY FEEDBACK: retaining it shorts the new2.8k//10nF feedback and forces follower operation."
+    },
+    {
+      "type": "LINE",
+      "id": "d8c925f97a626e33",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV4",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 509.8425,
+        "endX": 589.7638,
+        "endY": 509.8425,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6e38956dfa4bf1d896e9121b5563509538c2fad365f5b85f486b1ddb90734ed3",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J11_DRV",
+        "layerId": 1,
+        "startX": 688.9764,
+        "startY": 509.8425,
+        "endX": 589.7638,
+        "endY": 509.8425,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "4258c1fb06b257b4",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_DRV4",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 509.8425,
+        "endX": 589.7638,
+        "endY": 551.1811,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "7bfffdf692cbec3225302c235fafecd624b5320a9421f06970baaee4e7391004",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J11_DRV",
+        "layerId": 1,
+        "startX": 589.7638,
+        "startY": 509.8425,
+        "endX": 589.7638,
+        "endY": 551.1811,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same physical OPA320OUT and47R input endpoints; preserve existing output-to-series copper."
+    },
+    {
+      "type": "LINE",
+      "id": "d8f41bbe7659ae79",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(J11-IN)",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 551.1811,
+        "endX": 177.1654,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3853
+      },
+      "beforeBodySha256": "f52d7ae3c8212a1a629e4ac50e1da0710bb846d74087b47f6ee38f5ccad6d142",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_J11_RAW",
+        "layerId": 1,
+        "startX": 373.2283,
+        "startY": 551.1811,
+        "endX": 177.1654,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3853
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Same SMA signal pin and existing3.32k input-resistor pin; only raw net is renamed by schematic."
+    },
+    {
+      "type": "LINE",
+      "id": "bbf12ff5a5c4a66e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 5599.2125,
+        "endX": 500,
+        "endY": 5599.2125,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "aa447e9334ebea82908c1b6a590ce87ae80cf0cded4ddba0656d1f7b5ec62fb7",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "93be32672b2287d5",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 5599.2125,
+        "endX": 500,
+        "endY": 5683.0708,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "ed373f3dc732434509e3b39ed8ceba8ae45ead878106fae1c833a6fd43fdea4d",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "9e3ec86c75c1d409",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 5683.0708,
+        "endX": 1043.3071,
+        "endY": 5683.0708,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "675bae0dec01756f03f158a868f8f661daf069283f5c8deb72009c3d03c8f100",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "3e11fab2a443c321",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 5047.6378,
+        "endX": 500,
+        "endY": 5047.6378,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6c5327e69398802ec130e7cee2281f4266e50f505680288c4c7abbb71a595be0",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "c6689cb165a2bb1e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 5047.6378,
+        "endX": 500,
+        "endY": 5131.8897,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "528e45352ebab86d507099c92f68638d13c6be416cb0676dd23993887e4d50ee",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "1cf48ab67031f675",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 5131.8897,
+        "endX": 1043.3071,
+        "endY": 5131.8897,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e1a9895a4950d82177eddbb729501df84f8f3c43931445065c9e2d0f4efd96b4",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "c9a678d0af09811f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 4497.8346,
+        "endX": 500,
+        "endY": 4497.8346,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d2a36c3b559f0e229874c0caee5e65df304b712334c12e271bc6ade3d42f69cc",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "fed6c333d2bbe899",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 4497.8346,
+        "endX": 500,
+        "endY": 4580.7086,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "94522b8f84293a1043a91beb3e524121517c84f5c0c90dd56b6ba6b453cfc760",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "fc564ad7c11de267",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 4580.7086,
+        "endX": 1043.3071,
+        "endY": 4580.7086,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "b596483b82af1e6cdc9bcfb25f51d6862f6086a7339bb246f2bcde943c2184f4",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "b8796d387b6067c3",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 3946.2598,
+        "endX": 500,
+        "endY": 3946.2598,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "762fe752fc5c072d909b4eabb2ac40a786b22e8839c1cdd19b98c3b817458336",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "bbd37945cc7f49ba",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 3946.2598,
+        "endX": 500,
+        "endY": 4029.5275,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c0c611e3c8eb43fbae85835631a662ce22369e50e6ac48408c1b972c3400a75a",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "c91bbf596e1519ae",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 4029.5275,
+        "endX": 1043.3071,
+        "endY": 4029.5275,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e2a10d2fd0e986c8bdbf2122ef058c3f8483165bcdd9e5a0de2d21cae22ce18f",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "987dd681020f517f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 3395.0787,
+        "endX": 500,
+        "endY": 3395.0787,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "0e3769e99b63024c1ac56961c1a11afce92c6b6c3f21fe40fed9fc9521ec9cc9",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "91e4f22d09f5b7ba",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 3395.0787,
+        "endX": 500,
+        "endY": 3478.3464,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f733c8424503961cab5ac2c0dacd8e49b74c0ab29976a4493d22c22660ec095b",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "bad36e7f0bdcc941",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 2843.8976,
+        "endX": 500,
+        "endY": 2843.8976,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "04683d6f7926d687fdae3a7339e672b37f56d803de0b5a4613ebab79a1b7ede8",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "52eccf5a5c462241",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 2843.8976,
+        "endX": 500,
+        "endY": 2992.126,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "4f653d4aa43a7f856a64da7282ce441e02d6c8f992012314ded4eacffc326bd2",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "dc7713973eeff5a4",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 2293.1102,
+        "endX": 500,
+        "endY": 2293.1102,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f31a48a0b050846b520dc2b1bcd352a180b6ef902a2b289bc98d97d44412f2fa",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "e5d82c5e5a7156d6",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 2293.1102,
+        "endX": 500,
+        "endY": 2375.9842,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "9d8ead88f7dd0db82bd4f93dd25d6d2633c753ed0df7401616c7ff9e3cf0b07d",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "dfa4391ab2dd5225",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 2375.9842,
+        "endX": 1043.3071,
+        "endY": 2375.9842,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f5953918831d106e6aba01f0fe3149fdfd1c1a0c16b44e12d433e498ccd55dde",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "d6232609fe4c4618",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 1741.5354,
+        "endX": 500,
+        "endY": 1741.5354,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "8236aec21c1e3ad3b90be95d00169bff41509deeeafb9ed1a401e7d80c096c3c",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "57e5b6519a1b4d9c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 1741.5354,
+        "endX": 500,
+        "endY": 1824.8031,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f48a42ac2ff845a23b4ccbe1d12039fdd80c5c78c6e9645f02aa4b54b020eec6",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "7b6a177a42641676",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 1824.8031,
+        "endX": 1043.3071,
+        "endY": 1824.8031,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f4731d25e54d3249e1543095c4c37f3f04e13018e6c57533ed054ffe7d56ddf2",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "cdfaafc9a086c15b",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 1190.748,
+        "endX": 500,
+        "endY": 1190.748,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "53f0d98a863794404c3d05664d6070ed34646a20bdbfaa77b19e3f50c297a565",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "26e1763e2a20735e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 1190.748,
+        "endX": 500,
+        "endY": 1273.622,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "7b1551beae8eda72c71df84f7eefd524c0ace362006903693834c140133d9914",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "c9d42b44913a45b3",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 1273.622,
+        "endX": 1043.3071,
+        "endY": 1273.622,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e8fc2954a8e7721524afeea7d81d6e477ae0a54a2b0ff73fe406f89e765b7898",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "cf40a4cc32c2431e",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 637.5984,
+        "endX": 500,
+        "endY": 637.5984,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "fac1f00b7ef4e15706d78185ed6dff3fdf5bb061c3016ce7edd5cf767687fafe",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "2cb74f6822a5133f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 637.5984,
+        "endX": 500,
+        "endY": 722.4409,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "24d0150c73d5c66c69f06174f719b8d56568c52e5e462e8b824c9ed0604b08f6",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "d3240333d992a061",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 722.4409,
+        "endX": 1043.3071,
+        "endY": 722.4409,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e3f27259004d2933f462ba381e99a034ef383136f42c3be98e0bee18b2fbdfb5",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "acb6b22ab1a15cd4",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 722.4409,
+        "endX": 1043.3071,
+        "endY": 1273.622,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "0645c6de324bbf8dee090a6d8a0302b9459008c89728c991d54be7d6d23eb63e",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 722.4409,
+        "endX": 1043.3071,
+        "endY": 1273.622,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "3d326f809826b576",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 1273.622,
+        "endX": 1043.3071,
+        "endY": 1824.8031,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "9b6b0e4376458738be59f5498c9c3361b8bbefac5600ec0f7e78609fbbd7f992",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 1273.622,
+        "endX": 1043.3071,
+        "endY": 1824.8031,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "8bf0b61567805f72",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 1824.8031,
+        "endX": 1043.3071,
+        "endY": 2375.9842,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "30f24a926b6ec3bd28b22d2ebec9ee925249b7bca90f894df9b65507b16c6ff0",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 1824.8031,
+        "endX": 1043.3071,
+        "endY": 2375.9842,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "d3f2661e90cb6ea7",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 2375.9842,
+        "endX": 1043.3071,
+        "endY": 2992.126,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "dfacb60b09bf6fb5355184b9f9c858b4b88cc03a4a14ac249e2f751aa35edfe1",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Central widebus overlaps newSOIC8REF5025NC/output pads and offsetfollower; delete crossingsegments before replacement with separatelyclearanceverifiedjog."
+    },
+    {
+      "type": "LINE",
+      "id": "99367c2f509621d1",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 3456.6929,
+        "endX": 1011.811,
+        "endY": 3456.6929,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "54af61a473a717794986b41b007975c31fbe567fbfcb5cd29ccae1a45ba29d46",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 3456.6929,
+        "endX": 1011.811,
+        "endY": 3456.6929,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "2462d88e8640b45b",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1011.811,
+        "startY": 3456.6929,
+        "endX": 1011.811,
+        "endY": 3478.3464,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c5a156858d9e69c64238c3791d0594c0863a1660cc52dcd94f6f491d0db22b91",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1011.811,
+        "startY": 3456.6929,
+        "endX": 1011.811,
+        "endY": 3478.3464,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "1ffac74d6a9069c4",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1011.811,
+        "startY": 3478.3464,
+        "endX": 1011.811,
+        "endY": 3673.2283,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "56243dc9df2fec19f2875345b61cd6c17ebf17abffc639c6591a2bcba6a1ed4c",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1011.811,
+        "startY": 3478.3464,
+        "endX": 1011.811,
+        "endY": 3673.2283,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "67fb7aa96334557c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 3478.3464,
+        "endX": 1011.811,
+        "endY": 3478.3464,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "64a4da4d2eb8e755219dd992d2d89b5ad82bc1968869fcc4e884a3ef41f5b532",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "486b46a32ab2e7b7",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1011.811,
+        "startY": 3478.3464,
+        "endX": 1043.3071,
+        "endY": 3478.3464,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "98f0ed5d34d942f2752ebded0ce84c91bf9d3840dd0b99d35ce5c56de2e2d3fb",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "1ce2ed6bd0d072a0",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1011.811,
+        "startY": 3673.2283,
+        "endX": 1043.3071,
+        "endY": 3673.2283,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "7b591cee93a2ea0f1dbe5b92775c8cbbca052be5f5a92225ab45c458b7fd3696",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1011.811,
+        "startY": 3673.2283,
+        "endX": 1043.3071,
+        "endY": 3673.2283,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "5eb97610c34defb9",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 3673.2283,
+        "endX": 1043.3071,
+        "endY": 4029.5275,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "77123ebf236075a3e45ecd222a2cc38d282d06fc50e1056019bc138eacc19f67",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 3673.2283,
+        "endX": 1043.3071,
+        "endY": 4029.5275,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "00817a6c3846848e",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 4029.5275,
+        "endX": 1043.3071,
+        "endY": 4580.7086,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "8a4ea8e18f5e662044c40b8bb389ee9dd650e537f4dd95fc6fab90ef310b7f87",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 4029.5275,
+        "endX": 1043.3071,
+        "endY": 4580.7086,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "e624563d8bd98750",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 4580.7086,
+        "endX": 1043.3071,
+        "endY": 5131.8897,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "e454e70cf9ee86110fb8e83643efce405a8fa4015ac0bb37dc9d0d164cdd5834",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 4580.7086,
+        "endX": 1043.3071,
+        "endY": 5131.8897,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "8eba1c4b36bd5e92",
+      "action": "rename_net",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 5131.8897,
+        "endX": 1043.3071,
+        "endY": 5683.0708,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "744d5edbfee68ef202d43fd9fb0c70bdbb916ccc7a8f8ac3cca2f2f5e3249f82",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_OFFSET_0V97",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 5131.8897,
+        "endX": 1043.3071,
+        "endY": 5683.0708,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "reason": "Preserve only isolated widecentralbus outside newreferenceisland; allformerREF/biasresistor/capacitor branchesremovedseparately."
+    },
+    {
+      "type": "LINE",
+      "id": "84ae52a73ac7282f",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 864.1732,
+        "startY": 2994.0945,
+        "endX": 864.1732,
+        "endY": 3001.9685,
+        "width": 15.748,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "43dcf33137a4b57fbe4962461173369e9fcbbc404558b19f72d76db1150274c6",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "48794a2551d0a5bf",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 864.1732,
+        "startY": 3001.9685,
+        "endX": 864.1732,
+        "endY": 3009.8425,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "2d5ed9643dd6573918abf61bee324fa3b7943e11d018367d23d3241bd88b1fe4",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "a05b1a1467acc5e6",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 2992.126,
+        "endX": 1043.3071,
+        "endY": 3001.9685,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "68259442e9a2f620f8f01efd0978bf7faa77efd551de81d7dc57172b4c424c95",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Central widebus overlaps newSOIC8REF5025NC/output pads and offsetfollower; delete crossingsegments before replacement with separatelyclearanceverifiedjog."
+    },
+    {
+      "type": "LINE",
+      "id": "e51cb67dd8094d59",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1043.3071,
+        "startY": 3001.9685,
+        "endX": 1043.3071,
+        "endY": 3456.6929,
+        "width": 23.622,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "5f04902e9349e16dd0dc8b97f46065c6ac2b22ffdd5a18cdc339c32363514490",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Central widebus overlaps newSOIC8REF5025NC/output pads and offsetfollower; delete crossingsegments before replacement with separatelyclearanceverifiedjog."
+    },
+    {
+      "type": "LINE",
+      "id": "d7cd2fab02a277b5",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 864.1732,
+        "startY": 3009.8425,
+        "endX": 779.5276,
+        "endY": 3009.8425,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "c173db4d94c22142bc1da7b7aaa0749be3fc05068661aaa73b266da133f42655",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "f63ae2a588699100",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1000,
+        "startY": 3001.9685,
+        "endX": 1000,
+        "endY": 2992.126,
+        "width": 15.748,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "25339fc96401c96f20b9605bf2c9eb3a192716a909d80af4d1b0a2883b05aebd",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "7b7983e2fe9d2796",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1000,
+        "startY": 2992.126,
+        "endX": 1000,
+        "endY": 2936.2205,
+        "width": 15.748,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "5fce09ab004480796151e07cad692301f7aa8015605c90e3bffde0ee301b9c69",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "1d5c4a702673deea",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 864.1732,
+        "startY": 3001.9685,
+        "endX": 1000,
+        "endY": 3001.9685,
+        "width": 15.748,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "69890fabe6d362ddfda856b90ddc7bd02f00365fb34f12cc8fbd8d6d82ee8c1b",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "262e03cccad28c85",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1000,
+        "startY": 3001.9685,
+        "endX": 1043.3071,
+        "endY": 3001.9685,
+        "width": 15.748,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "d0e38a9f51433a065417e8c42ce29afae2bfc071bf723c81397858ea7737c90e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "3eb8724f92fc254a",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 500,
+        "startY": 2992.126,
+        "endX": 1000,
+        "endY": 2992.126,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "6f3dc87a8c7abd9fbe3be052df52bf419f8a5362428c4a75be4ddf0b7ccace96",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "cfcf905c922da73c",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC_BIAS_2V5",
+        "layerId": 1,
+        "startX": 1000,
+        "startY": 2992.126,
+        "endX": 1043.3071,
+        "endY": 2992.126,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "72c6d330e14746b1c068821c47521eaf68c078e19205c406e146c688df00b15e",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Old positive-bias tap or old reference bypass branch; no longer matches new pin contracts."
+    },
+    {
+      "type": "LINE",
+      "id": "8f2d79e61b91a9c3",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 925.1969,
+        "startY": 3236.2205,
+        "endX": 925.1969,
+        "endY": 3110.2362,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "b85a24f72b73f2bec5cfd9099a48479040bb5bf14added9df94addd05d16cef3",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Only formerU9/C103 reference+3V3 branch beyond retainedOPA320localfeedtee(23.5,82.2); newREF5025 uses+5V_AFE and these oldpinsareNC/moved. Preserve adjacentOPA320supplytee/trunk."
+    },
+    {
+      "type": "LINE",
+      "id": "bdbacbd270c676c0",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 925.1969,
+        "startY": 3110.2362,
+        "endX": 893.7008,
+        "endY": 3110.2362,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "33448266315e7e9c4b7856c003b96f548f33ce0a888165816a8fb7977d32e64a",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Only formerU9/C103 reference+3V3 branch beyond retainedOPA320localfeedtee(23.5,82.2); newREF5025 uses+5V_AFE and these oldpinsareNC/moved. Preserve adjacentOPA320supplytee/trunk."
+    },
+    {
+      "type": "LINE",
+      "id": "894fec9d56a4bbbf",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 893.7008,
+        "startY": 3110.2362,
+        "endX": 893.7008,
+        "endY": 3094.4882,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "f7cb2be674a7bf106235f34667e86ae4466185f125c8af7d0d760d938bb0f6ed",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Only formerU9/C103 reference+3V3 branch beyond retainedOPA320localfeedtee(23.5,82.2); newREF5025 uses+5V_AFE and these oldpinsareNC/moved. Preserve adjacentOPA320supplytee/trunk."
+    },
+    {
+      "type": "LINE",
+      "id": "0074ee2853c5f528",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 893.7008,
+        "startY": 3094.4882,
+        "endX": 779.5276,
+        "endY": 3094.4882,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "27eb686af3f50361b42feb36ad9dbbd8b225bb9c5831f56aa829a15ee4ab9c1d",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Only formerU9/C103 reference+3V3 branch beyond retainedOPA320localfeedtee(23.5,82.2); newREF5025 uses+5V_AFE and these oldpinsareNC/moved. Preserve adjacentOPA320supplytee/trunk."
+    },
+    {
+      "type": "LINE",
+      "id": "8bed767bd15efcb1",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 779.5276,
+        "startY": 3094.4882,
+        "endX": 779.5276,
+        "endY": 3063.9764,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "80d8aba7ff48a9a537665075701c21dae0a200dd5dc3703cac1089861a28febb",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Only formerU9/C103 reference+3V3 branch beyond retainedOPA320localfeedtee(23.5,82.2); newREF5025 uses+5V_AFE and these oldpinsareNC/moved. Preserve adjacentOPA320supplytee/trunk."
+    },
+    {
+      "type": "LINE",
+      "id": "c38941e71664641b",
+      "action": "delete",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 779.5276,
+        "startY": 3063.9764,
+        "endX": 864.1732,
+        "endY": 3068.8977,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "0dff7a63fe03b948ba0ad9fc91ce5e4afb43a5fae84fcc6bad93b0d2849f4b78",
+      "afterBody": null,
+      "allowedChangedFields": [],
+      "reason": "Only formerU9/C103 reference+3V3 branch beyond retainedOPA320localfeedtee(23.5,82.2); newREF5025 uses+5V_AFE and these oldpinsareNC/moved. Preserve adjacentOPA320supplytee/trunk."
+    }
+  ],
+  "channels": [
+    {
+      "sma": "J2",
+      "rowYmm": 140,
+      "oldRaw": "Net-(J2-In)",
+      "newRaw": "ADC_J2_RAW",
+      "oldPRE": "ADC1_PRE1",
+      "newFilter": "ADC_J2_FILTER",
+      "newBuffer": "ADC_J2_BUF",
+      "newSum": "ADC_J2_SUM",
+      "oldDRV": "ADC1_DRV1",
+      "newDRV": "ADC_J2_DRV",
+      "removeUnityFeedbackIds": [
+        "30b7dc43055bfa6e",
+        "1d58e80d7b3ccc80",
+        "6f4ac8bc18b4db11"
+      ],
+      "keepOutputTo47RIds": [
+        "20cb0f47412913ee",
+        "bfbcd13ecb347e26"
+      ],
+      "keepADCPostNet": "ADC1_INP0",
+      "inputResistor": "R140",
+      "postResistor": "R141",
+      "sumInputResistor": "R137"
+    },
+    {
+      "sma": "J3",
+      "rowYmm": 126,
+      "oldRaw": "Net-(J3-In)",
+      "newRaw": "ADC_J3_RAW",
+      "oldPRE": "ADC1_PRE2",
+      "newFilter": "ADC_J3_FILTER",
+      "newBuffer": "ADC_J3_BUF",
+      "newSum": "ADC_J3_SUM",
+      "oldDRV": "ADC1_DRV2",
+      "newDRV": "ADC_J3_DRV",
+      "removeUnityFeedbackIds": [
+        "a96d8150974e91af",
+        "8a048722d9ad5039",
+        "1f288baf83d4f37e"
+      ],
+      "keepOutputTo47RIds": [
+        "ccee724a28721cfc",
+        "1fad316daf6caaf1"
+      ],
+      "keepADCPostNet": "ADC1_INP1",
+      "inputResistor": "R142",
+      "postResistor": "R143",
+      "sumInputResistor": "R138"
+    },
+    {
+      "sma": "J4",
+      "rowYmm": 112,
+      "oldRaw": "Net-(J4-In)",
+      "newRaw": "ADC_J4_RAW",
+      "oldPRE": "ADC1_PRE3",
+      "newFilter": "ADC_J4_FILTER",
+      "newBuffer": "ADC_J4_BUF",
+      "newSum": "ADC_J4_SUM",
+      "oldDRV": "ADC1_DRV3",
+      "newDRV": "ADC_J4_DRV",
+      "removeUnityFeedbackIds": [
+        "6386fc6a61b218ce",
+        "a270f40e07643478",
+        "839871bfc7bd48a8"
+      ],
+      "keepOutputTo47RIds": [
+        "c6a7304b3ba067ed",
+        "1348bdce7f157c3c"
+      ],
+      "keepADCPostNet": "ADC1_INP16",
+      "inputResistor": "R144",
+      "postResistor": "R145",
+      "sumInputResistor": "R139"
+    },
+    {
+      "sma": "J5",
+      "rowYmm": 98,
+      "oldRaw": "Net-(J5-In)",
+      "newRaw": "ADC_J5_RAW",
+      "oldPRE": "ADC2_PRE1",
+      "newFilter": "ADC_J5_FILTER",
+      "newBuffer": "ADC_J5_BUF",
+      "newSum": "ADC_J5_SUM",
+      "oldDRV": "ADC2_DRV1",
+      "newDRV": "ADC_J5_DRV",
+      "removeUnityFeedbackIds": [
+        "1d84c2d7a6e0913d",
+        "832a57f16cb1c72b",
+        "01d235fe00084d64"
+      ],
+      "keepOutputTo47RIds": [
+        "cb0eae68422d3a45",
+        "6f27e055b6642acf"
+      ],
+      "keepADCPostNet": "ADC2_INP3",
+      "inputResistor": "R152",
+      "postResistor": "R153",
+      "sumInputResistor": "R149"
+    },
+    {
+      "sma": "J6",
+      "rowYmm": 84,
+      "oldRaw": "Net-(J6-In)",
+      "newRaw": "ADC_J6_RAW",
+      "oldPRE": "ADC2_PRE2",
+      "newFilter": "ADC_J6_FILTER",
+      "newBuffer": "ADC_J6_BUF",
+      "newSum": "ADC_J6_SUM",
+      "oldDRV": "ADC2_DRV2",
+      "newDRV": "ADC_J6_DRV",
+      "removeUnityFeedbackIds": [
+        "5c8017a459c00bd2",
+        "846b6e8039b6a07c",
+        "b7a48660eaf9f6c6"
+      ],
+      "keepOutputTo47RIds": [
+        "aa4c855e0843b80d",
+        "1fa94a7f8d9d322d"
+      ],
+      "keepADCPostNet": "ADC2_INP12",
+      "inputResistor": "R154",
+      "postResistor": "R155",
+      "sumInputResistor": "R150"
+    },
+    {
+      "sma": "J7",
+      "rowYmm": 70,
+      "oldRaw": "Net-(J7-In)",
+      "newRaw": "ADC_J7_RAW",
+      "oldPRE": "ADC2_PRE3",
+      "newFilter": "ADC_J7_FILTER",
+      "newBuffer": "ADC_J7_BUF",
+      "newSum": "ADC_J7_SUM",
+      "oldDRV": "ADC2_DRV3",
+      "newDRV": "ADC_J7_DRV",
+      "removeUnityFeedbackIds": [
+        "bd60e355f53bba03",
+        "4b10cf903a6e19fc",
+        "2be9ce539fcf5ea0"
+      ],
+      "keepOutputTo47RIds": [
+        "6084b938afd93463",
+        "40dbc6e644fa62fe"
+      ],
+      "keepADCPostNet": "ADC2_INP13",
+      "inputResistor": "R156",
+      "postResistor": "R157",
+      "sumInputResistor": "R151"
+    },
+    {
+      "sma": "J8",
+      "rowYmm": 56,
+      "oldRaw": "Net-(J8-In)",
+      "newRaw": "ADC_J8_RAW",
+      "oldPRE": "ADC3_PRE1",
+      "newFilter": "ADC_J8_FILTER",
+      "newBuffer": "ADC_J8_BUF",
+      "newSum": "ADC_J8_SUM",
+      "oldDRV": "ADC3_DRV1",
+      "newDRV": "ADC_J8_DRV",
+      "removeUnityFeedbackIds": [
+        "0feca7fe5d6a4de0",
+        "677f7005f1827e79",
+        "df9759eb6a80b35c"
+      ],
+      "keepOutputTo47RIds": [
+        "0cf029f20f338cd1",
+        "d58543bcec79cbc0"
+      ],
+      "keepADCPostNet": "ADC3_INP2",
+      "inputResistor": "R165",
+      "postResistor": "R166",
+      "sumInputResistor": "R161"
+    },
+    {
+      "sma": "J9",
+      "rowYmm": 42,
+      "oldRaw": "Net-(J9-In)",
+      "newRaw": "ADC_J9_RAW",
+      "oldPRE": "ADC3_PRE2",
+      "newFilter": "ADC_J9_FILTER",
+      "newBuffer": "ADC_J9_BUF",
+      "newSum": "ADC_J9_SUM",
+      "oldDRV": "ADC3_DRV2",
+      "newDRV": "ADC_J9_DRV",
+      "removeUnityFeedbackIds": [
+        "8d9caad7450f7649",
+        "4703d814a18481f2",
+        "5a44efab0750092a"
+      ],
+      "keepOutputTo47RIds": [
+        "22b6b228288f4a86",
+        "0e414fccd88516b8"
+      ],
+      "keepADCPostNet": "ADC3_INP6",
+      "inputResistor": "R167",
+      "postResistor": "R168",
+      "sumInputResistor": "R162"
+    },
+    {
+      "sma": "J10",
+      "rowYmm": 28,
+      "oldRaw": "Net-(J10-In)",
+      "newRaw": "ADC_J10_RAW",
+      "oldPRE": "ADC3_PRE3",
+      "newFilter": "ADC_J10_FILTER",
+      "newBuffer": "ADC_J10_BUF",
+      "newSum": "ADC_J10_SUM",
+      "oldDRV": "ADC3_DRV3",
+      "newDRV": "ADC_J10_DRV",
+      "removeUnityFeedbackIds": [
+        "e3ba16d75c03d26b",
+        "2ccf9a62d5c5bcca",
+        "3cef2c6649520bbe"
+      ],
+      "keepOutputTo47RIds": [
+        "8cdd4344caf0f14a",
+        "ab36b95cf9bdf103"
+      ],
+      "keepADCPostNet": "ADC3_INP7",
+      "inputResistor": "R169",
+      "postResistor": "R170",
+      "sumInputResistor": "R163"
+    },
+    {
+      "sma": "J11",
+      "rowYmm": 14,
+      "oldRaw": "Net-(J11-In)",
+      "newRaw": "ADC_J11_RAW",
+      "oldPRE": "ADC3_PRE4",
+      "newFilter": "ADC_J11_FILTER",
+      "newBuffer": "ADC_J11_BUF",
+      "newSum": "ADC_J11_SUM",
+      "oldDRV": "ADC3_DRV4",
+      "newDRV": "ADC_J11_DRV",
+      "removeUnityFeedbackIds": [
+        "9bee98f199980fe0",
+        "e5bb169199cbbc4e",
+        "9f1d5302515287d3"
+      ],
+      "keepOutputTo47RIds": [
+        "d8c925f97a626e33",
+        "4258c1fb06b257b4"
+      ],
+      "keepADCPostNet": "ADC3_INP8",
+      "inputResistor": "R171",
+      "postResistor": "R172",
+      "sumInputResistor": "R164"
+    }
+  ],
+  "oldBiasPinOwnership": [
+    {
+      "ref": "U9",
+      "pin": "2"
+    },
+    {
+      "ref": "R137",
+      "pin": "2"
+    },
+    {
+      "ref": "R138",
+      "pin": "2"
+    },
+    {
+      "ref": "R139",
+      "pin": "2"
+    },
+    {
+      "ref": "R149",
+      "pin": "2"
+    },
+    {
+      "ref": "R150",
+      "pin": "2"
+    },
+    {
+      "ref": "R151",
+      "pin": "2"
+    },
+    {
+      "ref": "R161",
+      "pin": "2"
+    },
+    {
+      "ref": "R162",
+      "pin": "2"
+    },
+    {
+      "ref": "R163",
+      "pin": "2"
+    },
+    {
+      "ref": "R164",
+      "pin": "2"
+    },
+    {
+      "ref": "C104",
+      "pin": "1"
+    },
+    {
+      "ref": "C105",
+      "pin": "1"
+    }
+  ],
+  "preservedOffsetTrunkIds": [
+    "acb6b22ab1a15cd4",
+    "3d326f809826b576",
+    "8bf0b61567805f72",
+    "99367c2f509621d1",
+    "2462d88e8640b45b",
+    "1ffac74d6a9069c4",
+    "1ce2ed6bd0d072a0",
+    "5eb97610c34defb9",
+    "00817a6c3846848e",
+    "e624563d8bd98750",
+    "8eba1c4b36bd5e92"
+  ],
+  "counts": {
+    "delete": 138,
+    "rename": 41,
+    "byType": {
+      "LINE": 179
+    }
+  },
+  "protected": {
+    "originalVias": 640,
+    "oldViasModifiedOrDeleted": 0,
+    "ADCPostNetsModified": false,
+    "rulesChanged": false,
+    "layersChanged": false,
+    "J18Changed": false,
+    "outlineChanged": false
+  },
+  "requiredBeforeApply": [
+    "Capture actual post-ECO source; rebase IDs/net names only when exact geometry/pin ownership matches baseline.",
+    "Confirm all new/native pad-net contracts before keeping output stubs and the wideoffset trunk.",
+    "Preflight original640VIA bodies and all untouched records byte/body exact.",
+    "Delete all three old unity-feedback lines per channel before any new feedback routing.",
+    "Do not treat isolated preserved trunk as connected until new common offset and all OPA320+ branches are routed and connectivity verified."
+  ],
+  "notIncluded": [
+    "Ground/+3V3 orphan stubs at relocated C97..C112 and old reference are not automatically deleted; review exactlocalshapeif they conflict.",
+    "New routes, vias, staticGNDvoids and nativeDRC are separate later phases."
+  ],
+  "manufacturingReady": false,
+  "baselineSourceSha256": "b540cccce8f7918785bd1bd021df1614419fe9290a9642e82aba02455ef540db",
+  "exactAll173CopperBodiesUnchangedByECO": true,
+  "original640ViaBodiesExact": true,
+  "rebaseMismatches": [],
+  "applicationApproved": true
+}

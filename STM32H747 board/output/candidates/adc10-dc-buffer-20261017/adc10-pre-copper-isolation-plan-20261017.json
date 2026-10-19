@@ -1,0 +1,3856 @@
+{
+  "schema": "stm32h747-adc10-bounded-pre-copper-isolation-plan-20261017-v1",
+  "passedBoundedGeometryChecks": true,
+  "errors": [],
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-oriented-20261017.epru",
+  "sourceSha256": "a1981a3fd491e3f61daee520ebc2e768ddb3d2210e6ca0ce03474cec4a60213a",
+  "units": "Native coordinates mil; explicitly named xyMmYUp and geometry metrics in millimeters",
+  "state": "OFFLINE reviewed PARTIAL copper plan, not applied, not a full PCB candidate or completed routing",
+  "summary": {
+    "channels": 10,
+    "deleteExclusiveMixerFILL": 10,
+    "netOnlyModifyRinLINE": 20,
+    "proposedNewLocalPRELINE": 20,
+    "ARCChanges": 0,
+    "VIAChanges": 0,
+    "PADChanges": 0,
+    "global3V3GeometryChanges": 0,
+    "ADCpostCopperChanges": 0,
+    "MCUFanoutChanges": 0,
+    "boardOutlineOrNPTHChanges": 0
+  },
+  "operationGuards": "Before any native edit root must match each primitive type/ID and exact beforeBodySha256 against latest source, because placement exports may have a newer DOCHEAD. Only netName may change in the twenty specified LINEs. Delete only the ten specified FILL islands, never global FILL/planes.",
+  "operations": [
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "25ef3cb7904d4783",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 3754,
+        "id": "25ef3cb7904d4783"
+      },
+      "beforeBodySha256": "bda31cd1f8696cd5fd3cd9e0457ed12dd1ca33f6b6ae1165bb157681fa65d3f6",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R137-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 5511.811,
+        "endX": 469.5866,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3496
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 5511.811,
+        "endX": 469.5866,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3496
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "3396a575612c90fb",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6794,
+        "id": "3396a575612c90fb"
+      },
+      "beforeBodySha256": "3828722a3b56e60fb0bc2ddb3d87f1c9fe37df54770e0db09a8bc0c2f960b7e6",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R137-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 5511.811,
+        "endX": 537.5,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8951
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 5511.811,
+        "endX": 537.5,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8951
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "1d4dfc91341acfdb",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10012,
+        "id": "1d4dfc91341acfdb"
+      },
+      "beforeBodySha256": "78ddf651d034faa970d043ede140032fbb41643f97df525213a467ce2bbde5a0",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R137-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            601.7229,
+            5570.0911,
+            "L",
+            603.5243,
+            5568.0122,
+            603.9655,
+            5565.9843,
+            603.9655,
+            5497.0079,
+            603.1905,
+            5494.3685,
+            601.1116,
+            5492.5672,
+            599.0836,
+            5492.126,
+            518.2962,
+            5492.126,
+            515.6569,
+            5492.901,
+            513.8555,
+            5494.9799,
+            513.4143,
+            5497.0079,
+            513.4143,
+            5565.9843,
+            514.1893,
+            5568.6236,
+            516.2682,
+            5570.425,
+            518.2962,
+            5570.8661,
+            599.0836,
+            5570.8661,
+            601.7229,
+            5570.0911
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3914,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "144f87088e924b1b",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6795,
+        "id": "144f87088e924b1b"
+      },
+      "beforeBodySha256": "c58ecbbc26275cc73d7ee2bc90a742572723b12b92d4dca63d04c0a49cc04795",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R138-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 4960.6299,
+        "endX": 537.5,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8952
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 4960.6299,
+        "endX": 537.5,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8952
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "b18871066aee2f5d",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 3768,
+        "id": "b18871066aee2f5d"
+      },
+      "beforeBodySha256": "230c8cf07a02fe0d435dc25ff359169b2efca5c981ff2a8e1b234a91395cea1f",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R138-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4960.6299,
+        "endX": 469.5866,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3510
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4960.6299,
+        "endX": 469.5866,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3510
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "4fd235f0a063c628",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10002,
+        "id": "4fd235f0a063c628"
+      },
+      "beforeBodySha256": "54483d4606ce26bdbf746cb435536c63bddb868f58d14fc24f21b18066a54c87",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R138-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            601.8642,
+            5018.91,
+            "L",
+            603.6656,
+            5016.8311,
+            604.1068,
+            5014.8032,
+            604.1068,
+            4941.8898,
+            603.3318,
+            4939.2504,
+            601.2529,
+            4937.4491,
+            599.2249,
+            4937.0079,
+            518.4375,
+            4937.0079,
+            515.7982,
+            4937.7829,
+            513.9968,
+            4939.8618,
+            513.5556,
+            4941.8898,
+            513.5556,
+            5014.8032,
+            514.3306,
+            5017.4425,
+            516.4095,
+            5019.2439,
+            518.4375,
+            5019.685,
+            599.2249,
+            5019.685,
+            601.8642,
+            5018.91
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3904,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "82ea56962d65a4c4",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6796,
+        "id": "82ea56962d65a4c4"
+      },
+      "beforeBodySha256": "55919cba2bf709eb751cd350c1bb8b2c31cafbc17d8ebc57b58eeecac7c3d70c",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R139-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 4409.4488,
+        "endX": 537.5,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8953
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 4409.4488,
+        "endX": 537.5,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8953
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "ccc806d44ffdad43",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 3792,
+        "id": "ccc806d44ffdad43"
+      },
+      "beforeBodySha256": "18372836c2adbdc11c8ea5a28604ca49c43810fa74709a3023311b9eecb0537e",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R139-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4409.4488,
+        "endX": 469.5866,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3537
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4409.4488,
+        "endX": 469.5866,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3537
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "67c5fec25ed080db",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10001,
+        "id": "67c5fec25ed080db"
+      },
+      "beforeBodySha256": "f34f5e412dc497cfd42ee1af82ddb61ab64c3b42a2afff3dfc674ff8cec625c4",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R139-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            598.6444,
+            4467.7289,
+            "L",
+            600.4458,
+            4465.65,
+            600.887,
+            4463.622,
+            600.887,
+            4390.7087,
+            600.112,
+            4388.0693,
+            598.0331,
+            4386.268,
+            596.0051,
+            4385.8268,
+            519.1547,
+            4385.8268,
+            516.5154,
+            4386.6018,
+            514.714,
+            4388.6807,
+            514.2728,
+            4390.7087,
+            514.2728,
+            4463.622,
+            515.0478,
+            4466.2614,
+            517.1267,
+            4468.0628,
+            519.1547,
+            4468.5039,
+            596.0051,
+            4468.5039,
+            598.6444,
+            4467.7289
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3903,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "423bd76acd917f60",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 3856,
+        "id": "423bd76acd917f60"
+      },
+      "beforeBodySha256": "4bead6fe00708c4cc1263a88d61bb0eb3f05751804931704da87b6a4a5e36dd8",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R149-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 3858.2677,
+        "endX": 469.5866,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3601
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 3858.2677,
+        "endX": 469.5866,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3601
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "e71b2865d111736f",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6797,
+        "id": "e71b2865d111736f"
+      },
+      "beforeBodySha256": "dc6128605aa3c42204a00dc303437ca1d06a970e04b4021e83c1c1c786534431",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R149-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 3858.2677,
+        "endX": 537.5,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8954
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 3858.2677,
+        "endX": 537.5,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8954
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "d3708e0470087af5",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10004,
+        "id": "d3708e0470087af5"
+      },
+      "beforeBodySha256": "f38f90b905f150af4f60d9dd27adb714382d80e3c9b1cb5db9dfecc89660c919",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R149-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            599.4882,
+            3917.7289,
+            "L",
+            601.2896,
+            3915.65,
+            601.7308,
+            3913.622,
+            601.7308,
+            3842.6772,
+            600.9558,
+            3840.0378,
+            598.8769,
+            3838.2365,
+            596.8489,
+            3837.7953,
+            519.9985,
+            3837.7953,
+            517.3592,
+            3838.5703,
+            515.5578,
+            3840.6492,
+            515.1166,
+            3842.6772,
+            515.1166,
+            3913.622,
+            515.8916,
+            3916.2614,
+            517.9705,
+            3918.0628,
+            519.9985,
+            3918.5039,
+            596.8489,
+            3918.5039,
+            599.4882,
+            3917.7289
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3906,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "9d0d8fb696158432",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6798,
+        "id": "9d0d8fb696158432"
+      },
+      "beforeBodySha256": "c766fe0def25fbdf0ed2b2bf0dd1cb5ee54bab1b9b57ae7f34ce61195293c22e",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R150-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 3307.0866,
+        "endX": 537.5,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8955
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 3307.0866,
+        "endX": 537.5,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8955
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "ea09a4e1cd613a0a",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 3860,
+        "id": "ea09a4e1cd613a0a"
+      },
+      "beforeBodySha256": "ecb0977b535286075857d0c7d2d46b71c65f97287699b105e0074a2c03d2a896",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R150-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 3307.0866,
+        "endX": 469.5866,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3605
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 3307.0866,
+        "endX": 469.5866,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3605
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "4517a6b59a0f1e8c",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10008,
+        "id": "4517a6b59a0f1e8c"
+      },
+      "beforeBodySha256": "59bdf7e8364c3fa8cdced63263dbb489b50f28689d02864949d4716824d6bf87",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R150-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            599.9246,
+            3365.3667,
+            "L",
+            601.726,
+            3363.2878,
+            602.1672,
+            3361.2598,
+            602.1672,
+            3292.2835,
+            601.3922,
+            3289.6441,
+            599.3133,
+            3287.8428,
+            597.2853,
+            3287.4016,
+            521.4191,
+            3287.4016,
+            518.7798,
+            3288.1766,
+            516.9784,
+            3290.2555,
+            516.5372,
+            3292.2835,
+            516.5372,
+            3361.2598,
+            517.3122,
+            3363.8992,
+            519.3911,
+            3365.7006,
+            521.4191,
+            3366.1417,
+            597.2853,
+            3366.1417,
+            599.9246,
+            3365.3667
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3910,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "7e76decf03f32b0b",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 3873,
+        "id": "7e76decf03f32b0b"
+      },
+      "beforeBodySha256": "6d873fb54b4b281df38f607fd0d1382913019e5f6a78330be028c6783e81bd3a",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R151-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 2755.9055,
+        "endX": 469.5866,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3619
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 2755.9055,
+        "endX": 469.5866,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3619
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "f0b73498ef65edc3",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6799,
+        "id": "f0b73498ef65edc3"
+      },
+      "beforeBodySha256": "b30374029ce5df869152c4fd7bf414bf1807e1a3a8d4e213c40b4909a93a4cb7",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R151-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 2755.9055,
+        "endX": 537.5,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8956
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 2755.9055,
+        "endX": 537.5,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8956
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "e57a1fa98761982f",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10003,
+        "id": "e57a1fa98761982f"
+      },
+      "beforeBodySha256": "5ed7038ffee020f77634eb95ccf870233f63e006874415f99f4d6e8c2fe05a00",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R151-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            598.584,
+            2814.1856,
+            "L",
+            600.3854,
+            2812.1067,
+            600.8265,
+            2810.0787,
+            600.8265,
+            2741.1024,
+            600.0515,
+            2738.463,
+            597.9726,
+            2736.6617,
+            595.9446,
+            2736.2205,
+            519.0943,
+            2736.2205,
+            516.4549,
+            2736.9955,
+            514.6535,
+            2739.0744,
+            514.2124,
+            2741.1024,
+            514.2124,
+            2810.0787,
+            514.9874,
+            2812.7181,
+            517.0663,
+            2814.5194,
+            519.0943,
+            2814.9606,
+            595.9446,
+            2814.9606,
+            598.584,
+            2814.1856
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3905,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "68880870a3b58064",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 3950,
+        "id": "68880870a3b58064"
+      },
+      "beforeBodySha256": "08ad996be1b8e2a39e3187796004aed872b64145d91f7815da490ab517447ee9",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R161-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 2204.7244,
+        "endX": 469.5866,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3698
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 2204.7244,
+        "endX": 469.5866,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3698
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "f04fc5e62f68a7e4",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6800,
+        "id": "f04fc5e62f68a7e4"
+      },
+      "beforeBodySha256": "3c901bc48076810dd6071f814be5fd2eff8e20d05eab057b5de991f6f07f0189",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R161-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 2204.7244,
+        "endX": 537.5,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8957
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 2204.7244,
+        "endX": 537.5,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8957
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "356e7412c28f788e",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 9996,
+        "id": "356e7412c28f788e"
+      },
+      "beforeBodySha256": "e8cb38ddc0b30712fefc2951fd3c2ed0d05058003b8b07a441e510f3e61a14e9",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R161-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            600.7107,
+            2263.0045,
+            "L",
+            602.512,
+            2260.9256,
+            602.9532,
+            2258.8976,
+            602.9532,
+            2189.9213,
+            602.1782,
+            2187.2819,
+            600.0993,
+            2185.4806,
+            598.0713,
+            2185.0394,
+            519.843,
+            2185.0394,
+            517.2037,
+            2185.8144,
+            515.4023,
+            2187.8933,
+            514.9611,
+            2189.9213,
+            514.9611,
+            2258.8976,
+            515.7361,
+            2261.537,
+            517.815,
+            2263.3383,
+            519.843,
+            2263.7795,
+            598.0713,
+            2263.7795,
+            600.7107,
+            2263.0045
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3898,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "b118a0849efe1c18",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6801,
+        "id": "b118a0849efe1c18"
+      },
+      "beforeBodySha256": "bff124fe3c33f9e32562a91208a8b2708c7bb91e4375d90e9ac65fc3c7b0307a",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R162-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 1653.5433,
+        "endX": 537.5,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8958
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 1653.5433,
+        "endX": 537.5,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8958
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "bd7607acec746955",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 4002,
+        "id": "bd7607acec746955"
+      },
+      "beforeBodySha256": "eac2b51c2f2def3b5e9935d3dc1536fd9681848ad11f42af1eefd04c2eb352ee",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R162-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 1653.5433,
+        "endX": 469.5866,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3750
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 1653.5433,
+        "endX": 469.5866,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3750
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "9df966c418dcc71f",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10011,
+        "id": "9df966c418dcc71f"
+      },
+      "beforeBodySha256": "00f83b7f42b09efea23279b5c1c450a1a3a207bcfa1d59fddf2dff4d072f74a9",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R162-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            599.0701,
+            1711.8234,
+            "L",
+            600.8715,
+            1709.7445,
+            601.3126,
+            1707.7165,
+            601.3126,
+            1634.8032,
+            600.5376,
+            1632.1638,
+            598.4587,
+            1630.3624,
+            596.4307,
+            1629.9213,
+            519.5804,
+            1629.9213,
+            516.941,
+            1630.6963,
+            515.1396,
+            1632.7752,
+            514.6985,
+            1634.8032,
+            514.6985,
+            1707.7165,
+            515.4735,
+            1710.3559,
+            517.5524,
+            1712.1572,
+            519.5804,
+            1712.5984,
+            596.4307,
+            1712.5984,
+            599.0701,
+            1711.8234
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3913,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "538dd76dadec0659",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 4062,
+        "id": "538dd76dadec0659"
+      },
+      "beforeBodySha256": "24af0674d91b6699a2940f61763bbfe4c5de8380810ae9f18e7a291da733d316",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R163-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 1102.3622,
+        "endX": 469.5866,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3811
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 1102.3622,
+        "endX": 469.5866,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3811
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "9fd4b6b48bd43b13",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6802,
+        "id": "9fd4b6b48bd43b13"
+      },
+      "beforeBodySha256": "efc27ee74b1e311bafbcc36330d03330be7432614a3ea2ea037ae44bbd85b5b2",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R163-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 1102.3622,
+        "endX": 537.5,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8959
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 1102.3622,
+        "endX": 537.5,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8959
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "b061acc53b088d8d",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10010,
+        "id": "b061acc53b088d8d"
+      },
+      "beforeBodySha256": "edbb2647aa937c901a9a2848108c87d448814e8feaad09f801820628ade09687",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R163-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            600.5143,
+            1160.6423,
+            "L",
+            602.3156,
+            1158.5634,
+            602.7568,
+            1156.5354,
+            602.7568,
+            1087.5591,
+            601.9818,
+            1084.9197,
+            599.9029,
+            1083.1183,
+            597.8749,
+            1082.6772,
+            521.0245,
+            1082.6772,
+            518.3852,
+            1083.4522,
+            516.5838,
+            1085.5311,
+            516.1426,
+            1087.5591,
+            516.1426,
+            1156.5354,
+            516.9176,
+            1159.1748,
+            518.9965,
+            1160.9761,
+            521.0245,
+            1161.4173,
+            597.8749,
+            1161.4173,
+            600.5143,
+            1160.6423
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3912,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "2b91e558537d0967",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 4063,
+        "id": "2b91e558537d0967"
+      },
+      "beforeBodySha256": "de6f9bd9bd214070a4095021401dd1f8b6ec45e36a235dd937fc50d268e387a6",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R164-PAD2)",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 551.1811,
+        "endX": 469.5866,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3812
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 551.1811,
+        "endX": 469.5866,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 3812
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "modify",
+      "type": "LINE",
+      "id": "417c4f71bbd1e36f",
+      "allowedChangedFields": [
+        "netName"
+      ],
+      "beforeHeader": {
+        "type": "LINE",
+        "ticket": 6803,
+        "id": "417c4f71bbd1e36f"
+      },
+      "beforeBodySha256": "74f04e193f76263763c3f23be2a1639bdd13ff7196697ce70722e964874e9236",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R164-PAD2)",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 551.1811,
+        "endX": 537.5,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8960
+      },
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 469.5866,
+        "startY": 551.1811,
+        "endX": 537.5,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 8960
+      },
+      "reason": "Retain exact Rin-to-local-mixer routing geometry, assign it to new PRE net"
+    },
+    {
+      "action": "delete",
+      "type": "FILL",
+      "id": "3cf6e9787e1db802",
+      "beforeHeader": {
+        "type": "FILL",
+        "ticket": 10005,
+        "id": "3cf6e9787e1db802"
+      },
+      "beforeBodySha256": "b8da6231400148f857c03c904fdb566f30a0c7164ba34b483d3dc5b5a5a38753",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(R164-PAD2)",
+        "layerId": 1,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            598.1511,
+            609.4612,
+            "L",
+            599.9525,
+            607.3823,
+            600.3937,
+            605.3543,
+            600.3937,
+            537.3622,
+            599.6187,
+            534.7229,
+            597.5398,
+            532.9215,
+            595.5118,
+            532.4803,
+            520.6299,
+            532.4803,
+            517.9906,
+            533.2553,
+            516.1892,
+            535.3342,
+            515.748,
+            537.3622,
+            515.748,
+            605.3543,
+            516.523,
+            607.9937,
+            518.6019,
+            609.795,
+            520.6299,
+            610.2362,
+            595.5118,
+            610.2362,
+            598.1511,
+            609.4612
+          ]
+        ],
+        "locked": false,
+        "zIndex": 3907,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "reason": "Exclusive legacy local mixer copper shorts PRE to Rseries input; remove only this island for OPA insertion"
+    }
+  ],
+  "channels": [
+    {
+      "sma": "J2",
+      "biasResistor": "R137",
+      "inputResistor": "R140",
+      "seriesResistor": "R141",
+      "adcCapacitor": "C80",
+      "buffer": "U10",
+      "oldMixerNet": "NET-(R137-PAD2)",
+      "newPRE": "ADC1_PRE1",
+      "newDRV": "ADC1_DRV1",
+      "ADCpost": "ADC1_INP0",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "25ef3cb7904d4783",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "3396a575612c90fb",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "1d4dfc91341acfdb",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.03818322,
+        139.4974604,
+        15.3432637,
+        141.50253894000002
+      ],
+      "oldMixerCopperAreaMm2": 5.264898168029508,
+      "pinPositions": {
+        "R140.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            139.99999939999998
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R137.1": {
+          "xyMmYUp": [
+            13.85000024,
+            141.19999951459997
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R137.2": {
+          "xyMmYUp": [
+            13.85000024,
+            142.2199975254
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R141.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            139.99999939999998
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R141.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            139.99999939999998
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.735000498499998,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982547000172,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J2-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC1_PRE1",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 5511.811,
+          "endX": 545.2756,
+          "endY": 5519.5866,
+          "xyMmYUp": [
+            [
+              13.6525,
+              139.99999939999998
+            ],
+            [
+              13.85000024,
+              140.19749964
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J2-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC1_PRE1",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 5519.5866,
+          "endX": 545.2756,
+          "endY": 5559.055098999999,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              140.19749964
+            ],
+            [
+              13.85000024,
+              141.19999951459997
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC1_PRE1 to U10.3 and prefilter-cap.1 after reviewed new placement",
+        "U10.1 and .4 on ADC1_DRV1 to R141.1, without PRE/DRV copper bridge",
+        "R137.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J3",
+      "biasResistor": "R138",
+      "inputResistor": "R142",
+      "seriesResistor": "R143",
+      "adcCapacitor": "C81",
+      "buffer": "U11",
+      "oldMixerNet": "NET-(R138-PAD2)",
+      "newPRE": "ADC1_PRE2",
+      "newDRV": "ADC1_DRV2",
+      "ADCpost": "ADC1_INP1",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "144f87088e924b1b",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "b18871066aee2f5d",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "4fd235f0a063c628",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.04177224,
+        125.39746066,
+        15.34685272,
+        127.502539
+      ],
+      "oldMixerCopperAreaMm2": 5.496303008218859,
+      "pinPositions": {
+        "R142.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            125.99999946
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R138.1": {
+          "xyMmYUp": [
+            13.85000024,
+            127.1900021346
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R138.2": {
+          "xyMmYUp": [
+            13.85000024,
+            128.21000014540002
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R143.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            125.99999946
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R143.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            125.99999946
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.7350004984999979,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982547000172,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J3-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC1_PRE2",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 4960.6299,
+          "endX": 545.2756,
+          "endY": 4968.4055,
+          "xyMmYUp": [
+            [
+              13.6525,
+              125.99999946
+            ],
+            [
+              13.85000024,
+              126.1974997
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J3-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC1_PRE2",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 4968.4055,
+          "endX": 545.2756,
+          "endY": 5007.480399,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              126.1974997
+            ],
+            [
+              13.85000024,
+              127.1900021346
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC1_PRE2 to U11.3 and prefilter-cap.1 after reviewed new placement",
+        "U11.1 and .4 on ADC1_DRV2 to R143.1, without PRE/DRV copper bridge",
+        "R138.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J4",
+      "biasResistor": "R139",
+      "inputResistor": "R144",
+      "seriesResistor": "R145",
+      "adcCapacitor": "C82",
+      "buffer": "U12",
+      "oldMixerNet": "NET-(R139-PAD2)",
+      "newPRE": "ADC1_PRE3",
+      "newDRV": "ADC1_DRV3",
+      "ADCpost": "ADC1_INP16",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "82ea56962d65a4c4",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "ccc806d44ffdad43",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "67c5fec25ed080db",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.05998912,
+        111.39746072,
+        15.265069799999997,
+        113.50253905999999
+      ],
+      "oldMixerCopperAreaMm2": 5.290349766485068,
+      "pinPositions": {
+        "R144.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            111.99999952
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R139.1": {
+          "xyMmYUp": [
+            13.85000024,
+            113.22500085459998
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R139.2": {
+          "xyMmYUp": [
+            13.85000024,
+            114.2449988654
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R145.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            111.99999952
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R145.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            111.99999952
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.735000498499998,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982547000172,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J4-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC1_PRE3",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 4409.4488,
+          "endX": 545.2756,
+          "endY": 4417.2244,
+          "xyMmYUp": [
+            [
+              13.6525,
+              111.99999952
+            ],
+            [
+              13.85000024,
+              112.19749976
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J4-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC1_PRE3",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 4417.2244,
+          "endX": 545.2756,
+          "endY": 4457.677199,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              112.19749976
+            ],
+            [
+              13.85000024,
+              113.22500085459998
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC1_PRE3 to U12.3 and prefilter-cap.1 after reviewed new placement",
+        "U12.1 and .4 on ADC1_DRV3 to R145.1, without PRE/DRV copper bridge",
+        "R139.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J5",
+      "biasResistor": "R149",
+      "inputResistor": "R152",
+      "seriesResistor": "R153",
+      "adcCapacitor": "C86",
+      "buffer": "U13",
+      "oldMixerNet": "NET-(R149-PAD2)",
+      "newPRE": "ADC2_PRE1",
+      "newDRV": "ADC2_DRV1",
+      "ADCpost": "ADC2_INP3",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "423bd76acd917f60",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "e71b2865d111736f",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "d3708e0470087af5",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.081421639999999,
+        97.47746062,
+        15.28650232,
+        99.53253905999999
+      ],
+      "oldMixerCopperAreaMm2": 5.185454072276873,
+      "pinPositions": {
+        "R152.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            97.99999958
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R149.1": {
+          "xyMmYUp": [
+            13.85000024,
+            99.2150009346
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R149.2": {
+          "xyMmYUp": [
+            13.85000024,
+            100.2349989454
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R153.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            97.99999958
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R153.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            97.99999958
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.735000498499998,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982546999888,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J5-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC2_PRE1",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 3858.2677,
+          "endX": 545.2756,
+          "endY": 3866.0433,
+          "xyMmYUp": [
+            [
+              13.6525,
+              97.99999958
+            ],
+            [
+              13.85000024,
+              98.19749981999999
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J5-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC2_PRE1",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 3866.0433,
+          "endX": 545.2756,
+          "endY": 3906.1023990000003,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              98.19749981999999
+            ],
+            [
+              13.85000024,
+              99.2150009346
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC2_PRE1 to U13.3 and prefilter-cap.1 after reviewed new placement",
+        "U13.1 and .4 on ADC2_DRV1 to R153.1, without PRE/DRV copper bridge",
+        "R149.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J6",
+      "biasResistor": "R150",
+      "inputResistor": "R154",
+      "seriesResistor": "R155",
+      "adcCapacitor": "C87",
+      "buffer": "U14",
+      "oldMixerNet": "NET-(R150-PAD2)",
+      "newPRE": "ADC2_PRE2",
+      "newDRV": "ADC2_DRV2",
+      "ADCpost": "ADC2_INP12",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "9d0d8fb696158432",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "ea09a4e1cd613a0a",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "4517a6b59a0f1e8c",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.117504879999998,
+        83.49746064,
+        15.297586879999999,
+        85.50253918
+      ],
+      "oldMixerCopperAreaMm2": 5.034096733947019,
+      "pinPositions": {
+        "R154.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            83.99999964
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R150.1": {
+          "xyMmYUp": [
+            13.85000024,
+            85.2150009946
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R150.2": {
+          "xyMmYUp": [
+            13.85000024,
+            86.2349990054
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R155.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            83.99999964
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R155.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            83.99999964
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.735000498499998,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982546999888,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J6-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC2_PRE2",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 3307.0866,
+          "endX": 545.2756,
+          "endY": 3314.8622,
+          "xyMmYUp": [
+            [
+              13.6525,
+              83.99999964
+            ],
+            [
+              13.85000024,
+              84.19749988
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J6-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC2_PRE2",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 3314.8622,
+          "endX": 545.2756,
+          "endY": 3354.921299,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              84.19749988
+            ],
+            [
+              13.85000024,
+              85.2150009946
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC2_PRE2 to U14.3 and prefilter-cap.1 after reviewed new placement",
+        "U14.1 and .4 on ADC2_DRV2 to R155.1, without PRE/DRV copper bridge",
+        "R150.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J7",
+      "biasResistor": "R151",
+      "inputResistor": "R156",
+      "seriesResistor": "R157",
+      "adcCapacitor": "C88",
+      "buffer": "U15",
+      "oldMixerNet": "NET-(R151-PAD2)",
+      "newPRE": "ADC2_PRE3",
+      "newDRV": "ADC2_DRV3",
+      "ADCpost": "ADC2_INP13",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "7e76decf03f32b0b",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "f0b73498ef65edc3",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "e57a1fa98761982f",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.05845496,
+        69.4974607,
+        15.2635331,
+        71.50253923999999
+      ],
+      "oldMixerCopperAreaMm2": 5.0694538307557115,
+      "pinPositions": {
+        "R156.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            69.99999969999999
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R151.1": {
+          "xyMmYUp": [
+            13.85000024,
+            71.21500105460001
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R151.2": {
+          "xyMmYUp": [
+            13.85000024,
+            72.2349990654
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R157.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            69.99999969999999
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R157.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            69.99999969999999
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.735000498499998,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982546999888,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J7-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC2_PRE3",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 2755.9055,
+          "endX": 545.2756,
+          "endY": 2763.6810999999993,
+          "xyMmYUp": [
+            [
+              13.6525,
+              69.99999969999999
+            ],
+            [
+              13.85000024,
+              70.19749993999999
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J7-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC2_PRE3",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 2763.6810999999993,
+          "endX": 545.2756,
+          "endY": 2803.7401990000003,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              70.19749993999999
+            ],
+            [
+              13.85000024,
+              71.21500105460001
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC2_PRE3 to U15.3 and prefilter-cap.1 after reviewed new placement",
+        "U15.1 and .4 on ADC2_DRV3 to R157.1, without PRE/DRV copper bridge",
+        "R151.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J8",
+      "biasResistor": "R161",
+      "inputResistor": "R165",
+      "seriesResistor": "R166",
+      "adcCapacitor": "C93",
+      "buffer": "U16",
+      "oldMixerNet": "NET-(R161-PAD2)",
+      "newPRE": "ADC3_PRE1",
+      "newDRV": "ADC3_DRV1",
+      "ADCpost": "ADC3_INP2",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "68880870a3b58064",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "f04fc5e62f68a7e4",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "356e7412c28f788e",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.077471939999999,
+        55.497460759999996,
+        15.31755128,
+        57.5025393
+      ],
+      "oldMixerCopperAreaMm2": 5.144387856547173,
+      "pinPositions": {
+        "R165.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            55.99999976
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R161.1": {
+          "xyMmYUp": [
+            13.85000024,
+            57.2250010946
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R161.2": {
+          "xyMmYUp": [
+            13.85000024,
+            58.2449991054
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R166.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            55.99999976
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R166.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            55.99999976
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.7350004984999979,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982546999959,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J8-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC3_PRE1",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 2204.7244,
+          "endX": 545.2756,
+          "endY": 2212.5000000000005,
+          "xyMmYUp": [
+            [
+              13.6525,
+              55.99999976
+            ],
+            [
+              13.85000024,
+              56.197500000000005
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J8-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC3_PRE1",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 2212.5000000000005,
+          "endX": 545.2756,
+          "endY": 2252.952799,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              56.197500000000005
+            ],
+            [
+              13.85000024,
+              57.2250010946
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC3_PRE1 to U16.3 and prefilter-cap.1 after reviewed new placement",
+        "U16.1 and .4 on ADC3_DRV1 to R166.1, without PRE/DRV copper bridge",
+        "R161.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J9",
+      "biasResistor": "R162",
+      "inputResistor": "R167",
+      "seriesResistor": "R168",
+      "adcCapacitor": "C94",
+      "buffer": "U17",
+      "oldMixerNet": "NET-(R162-PAD2)",
+      "newPRE": "ADC3_PRE2",
+      "newDRV": "ADC3_DRV2",
+      "ADCpost": "ADC3_INP6",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "b118a0849efe1c18",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "bd7607acec746955",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "9df966c418dcc71f",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.0708019,
+        41.397461019999994,
+        15.275880039999999,
+        43.50253936000001
+      ],
+      "oldMixerCopperAreaMm2": 5.2930480679005925,
+      "pinPositions": {
+        "R167.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            41.99999982
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R162.1": {
+          "xyMmYUp": [
+            13.85000024,
+            43.2150011746
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R162.2": {
+          "xyMmYUp": [
+            13.85000024,
+            44.23499918539999
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R168.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            41.99999982
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R168.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            41.99999982
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.7350004984999979,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982546999959,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J9-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC3_PRE2",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 1653.5433,
+          "endX": 545.2756,
+          "endY": 1661.3189,
+          "xyMmYUp": [
+            [
+              13.6525,
+              41.99999982
+            ],
+            [
+              13.85000024,
+              42.197500059999996
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J9-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC3_PRE2",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 1661.3189,
+          "endX": 545.2756,
+          "endY": 1701.377999,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              42.197500059999996
+            ],
+            [
+              13.85000024,
+              43.2150011746
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC3_PRE2 to U17.3 and prefilter-cap.1 after reviewed new placement",
+        "U17.1 and .4 on ADC3_DRV2 to R168.1, without PRE/DRV copper bridge",
+        "R162.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J10",
+      "biasResistor": "R163",
+      "inputResistor": "R169",
+      "seriesResistor": "R170",
+      "adcCapacitor": "C95",
+      "buffer": "U18",
+      "oldMixerNet": "NET-(R163-PAD2)",
+      "newPRE": "ADC3_PRE3",
+      "newDRV": "ADC3_DRV3",
+      "ADCpost": "ADC3_INP7",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "538dd76dadec0659",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "9fd4b6b48bd43b13",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "b061acc53b088d8d",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.10748204,
+        27.497460880000002,
+        15.312562719999999,
+        29.50253942
+      ],
+      "oldMixerCopperAreaMm2": 5.081715439781267,
+      "pinPositions": {
+        "R169.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            27.99999988
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R163.1": {
+          "xyMmYUp": [
+            13.85000024,
+            29.225001214600002
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R163.2": {
+          "xyMmYUp": [
+            13.85000024,
+            30.244999225399997
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R170.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            27.99999988
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R170.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            27.99999988
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.7350004984999979,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982546999959,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J10-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC3_PRE3",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 1102.3622,
+          "endX": 545.2756,
+          "endY": 1110.1378,
+          "xyMmYUp": [
+            [
+              13.6525,
+              27.99999988
+            ],
+            [
+              13.85000024,
+              28.19750012
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J10-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC3_PRE3",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 1110.1378,
+          "endX": 545.2756,
+          "endY": 1150.590599,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              28.19750012
+            ],
+            [
+              13.85000024,
+              29.225001214600002
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC3_PRE3 to U18.3 and prefilter-cap.1 after reviewed new placement",
+        "U18.1 and .4 on ADC3_DRV3 to R170.1, without PRE/DRV copper bridge",
+        "R163.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    },
+    {
+      "sma": "J11",
+      "biasResistor": "R164",
+      "inputResistor": "R171",
+      "seriesResistor": "R172",
+      "adcCapacitor": "C96",
+      "buffer": "U19",
+      "oldMixerNet": "NET-(R164-PAD2)",
+      "newPRE": "ADC3_PRE4",
+      "newDRV": "ADC3_DRV4",
+      "ADCpost": "ADC3_INP8",
+      "operations": [
+        {
+          "type": "LINE",
+          "id": "2b91e558537d0967",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "LINE",
+          "id": "417c4f71bbd1e36f",
+          "action": "modify-net-only"
+        },
+        {
+          "type": "FILL",
+          "id": "3cf6e9787e1db802",
+          "action": "delete"
+        }
+      ],
+      "legacyMixerFillBoundsMmYUp": [
+        13.097459200000001,
+        13.522459620000001,
+        15.252539979999998,
+        15.502539480000001
+      ],
+      "oldMixerCopperAreaMm2": 4.925081510120238,
+      "pinPositions": {
+        "R171.2": {
+          "xyMmYUp": [
+            10.4999993454,
+            13.99999994
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R164.1": {
+          "xyMmYUp": [
+            13.85000024,
+            15.225001274599999
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R164.2": {
+          "xyMmYUp": [
+            13.85000024,
+            16.2449992854
+          ],
+          "masterPadPrimitiveId": "e2"
+        },
+        "R172.1": {
+          "xyMmYUp": [
+            14.980000494599999,
+            13.99999994
+          ],
+          "masterPadPrimitiveId": "e1"
+        },
+        "R172.2": {
+          "xyMmYUp": [
+            15.999998505399999,
+            13.99999994
+          ],
+          "masterPadPrimitiveId": "e2"
+        }
+      },
+      "oldCuTouchesRin2Rb1Series1": true,
+      "afterProposedLinkTouchesRin2Rb1": true,
+      "afterProposedLinkTouchesSeries1": false,
+      "newLinkOutsideLegacyCopperAreaMm2": 0.0,
+      "newPREGapToSeriesInputCopperMm": 0.7350004984999979,
+      "newPREGapToQuietBiasPadCopperMm": 0.6249982547000013,
+      "proposedLocalPRELinks": [
+        {
+          "proposalId": "J11-pre-rb-link-1",
+          "type": "LINE",
+          "netName": "ADC3_PRE4",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 537.5,
+          "startY": 551.1811,
+          "endX": 545.2756,
+          "endY": 558.9567000000001,
+          "xyMmYUp": [
+            [
+              13.6525,
+              13.99999994
+            ],
+            [
+              13.85000024,
+              14.19750018
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        },
+        {
+          "proposalId": "J11-pre-rb-link-2",
+          "type": "LINE",
+          "netName": "ADC3_PRE4",
+          "layerId": 1,
+          "widthMil": 9.8425,
+          "startX": 545.2756,
+          "startY": 558.9567000000001,
+          "endX": 545.2756,
+          "endY": 599.409499,
+          "xyMmYUp": [
+            [
+              13.85000024,
+              14.19750018
+            ],
+            [
+              13.85000024,
+              15.225001274599999
+            ]
+          ],
+          "state": "Geometry-reviewed local link proposal only; root must recheck current target pad positions before public API creation"
+        }
+      ],
+      "pendingConnections": [
+        "ADC3_PRE4 to U19.3 and prefilter-cap.1 after reviewed new placement",
+        "U19.1 and .4 on ADC3_DRV4 to R172.1, without PRE/DRV copper bridge",
+        "R164.2 ADC_BIAS_2V5 after deleting its dedicated old main3V3 feed LINE"
+      ]
+    }
+  ],
+  "post47ADCProtectedCopper": [
+    {
+      "type": "FILL",
+      "id": "156c38549a005648",
+      "bodySha256": "dba0688371d24f1e05ebf0e2da4683cb5fa07655df0ca2c5cb8a3e89cf3e1c46"
+    },
+    {
+      "type": "FILL",
+      "id": "19825e69d038a982",
+      "bodySha256": "5596c4368a6ec65e13cd6343f759b2c8975d4b9ff0c3611c232cf49cc4d1672a"
+    },
+    {
+      "type": "FILL",
+      "id": "1da2f23d1afe0fef",
+      "bodySha256": "f66d6308910f9b76c8fc5d7d9894ed62a7e892cc5c22c4a63ba00a53bc3cafc6"
+    },
+    {
+      "type": "FILL",
+      "id": "23fbd6aa6aacd4d5",
+      "bodySha256": "5df6b2e5343193e7a66903d1c97b112506fd5b03d6f0cb6f2f3c9d9659daaee5"
+    },
+    {
+      "type": "FILL",
+      "id": "288b8d1303d0c63b",
+      "bodySha256": "cec9af7417bc96d78950178bfe604c1c3fb3949db6605dc067ebb1d860bb9c2e"
+    },
+    {
+      "type": "FILL",
+      "id": "326a74559d2dfc90",
+      "bodySha256": "8e83016949d8a9f2b4f606b4abcdda6e3aa82ad50b53745a5ecfe9c749c5a7e7"
+    },
+    {
+      "type": "FILL",
+      "id": "327a6fce3ee8a4b9",
+      "bodySha256": "b86c6e65aa56a8c8141f73fba798d76e24bacd9563adc23a6686e0ad36cea72e"
+    },
+    {
+      "type": "FILL",
+      "id": "345211cd77377c0f",
+      "bodySha256": "8c8a88623b2b5e486b696d15a83efdbac33b839b8cbb3aa113cdbbc056073984"
+    },
+    {
+      "type": "FILL",
+      "id": "389a28f2b3dde1e8",
+      "bodySha256": "5698883d8d69496d66950673c30e3ce2a61c1ccef5ee9eaa5042e3cfc7c76b23"
+    },
+    {
+      "type": "FILL",
+      "id": "3f520b6e79d1e6dd",
+      "bodySha256": "3e248e4897224f4c2870cbdbbd81b8e0d7660852abedb19433975472ebb8019d"
+    },
+    {
+      "type": "FILL",
+      "id": "41974bb040074d8d",
+      "bodySha256": "f109263f92945312e6e287540cf32c55f8d96838c209eb05fd045bbd67d5c943"
+    },
+    {
+      "type": "FILL",
+      "id": "428c6dc13fc05077",
+      "bodySha256": "613d70f187617e5499247b214171fab0c33ca0f7957f262599497236f5b667f8"
+    },
+    {
+      "type": "FILL",
+      "id": "58419c0e1d6fbf6a",
+      "bodySha256": "2436dbdfe55bbed044c5cad9e746a6427dee91f2c45b2222b9b95d2904e9ea6d"
+    },
+    {
+      "type": "FILL",
+      "id": "5e5e8459cc746427",
+      "bodySha256": "f4d7ed20061e99e830bf7aaa133c1671bacec20b8559b0f7b4a5531c9b7795b5"
+    },
+    {
+      "type": "FILL",
+      "id": "68e6718e40abae66",
+      "bodySha256": "38ce4d08927d080b909ae32aa68849140c0cb513f0f74ed488b777ee3664538f"
+    },
+    {
+      "type": "FILL",
+      "id": "79bf2c1c55244a2a",
+      "bodySha256": "bd18421de3008e15d44b3b30c818689c2fea5938f4cc90f3bd730b31760e999d"
+    },
+    {
+      "type": "FILL",
+      "id": "7a50424a246a703c",
+      "bodySha256": "cc2a7601d7f854d1be7f940b78782e6368f02b79b1bea0d009c013a6b75e84e7"
+    },
+    {
+      "type": "FILL",
+      "id": "7f768d4d3a9079be",
+      "bodySha256": "8e381292e2fc31bd22aec1836652c2cc48508eff2f45086bcf25c2f3f8aa68da"
+    },
+    {
+      "type": "FILL",
+      "id": "8c893e6694e95b40",
+      "bodySha256": "cb2dc0ffb750eced1a5d9bef7567470f6e84af3d5b94ecfb8173a5b7a1979602"
+    },
+    {
+      "type": "FILL",
+      "id": "8d1c9d60e7531f33",
+      "bodySha256": "768564fedb54ce6091c76516ab684a4a32caed2f827ece3bca8b4638083b05b7"
+    },
+    {
+      "type": "FILL",
+      "id": "9258b86b6a003275",
+      "bodySha256": "98974eaa73c6cf3344cbe74f70856b61c059336fe5d6a175fb7816e324a1e8ee"
+    },
+    {
+      "type": "FILL",
+      "id": "93e686e2699c73ad",
+      "bodySha256": "fe07be8b9bb106f5c7472cf55659e88f136a64bde4117d3714f7d287d389984d"
+    },
+    {
+      "type": "FILL",
+      "id": "98188f247cb527da",
+      "bodySha256": "37206401d2a872c2aeed848f272e56a2c34ab8fe4da45e531b757c631f49ad91"
+    },
+    {
+      "type": "FILL",
+      "id": "98e7c939aab20280",
+      "bodySha256": "8eaffc542a4dd4c458c06ef5a4f8d46a16b485feb94708089ae474578eb44a4b"
+    },
+    {
+      "type": "FILL",
+      "id": "9a86971fd62abd6e",
+      "bodySha256": "4804e37be521f67862d8cf123753a8fd66cb84f44fa3058ccc13ac7d7da37507"
+    },
+    {
+      "type": "FILL",
+      "id": "a4cda2a7e47b987c",
+      "bodySha256": "70e03904faf9c058b38eb1019d88db5233dca3683279052f77b78e52b5d1d6ca"
+    },
+    {
+      "type": "FILL",
+      "id": "a683b7f8f0697675",
+      "bodySha256": "b67b7f7e21a961448317c0562a1513b5130409b490bbce4b05e836113d6ad234"
+    },
+    {
+      "type": "FILL",
+      "id": "af89e88e6b23a096",
+      "bodySha256": "7413558b1178ac317b00e06c53099ca1d645de59cf7bf59619ce9e0533ab4ee9"
+    },
+    {
+      "type": "FILL",
+      "id": "b035480ade3ed482",
+      "bodySha256": "91a0125620d3ee389483cfd7393adbbcd4abf093adcbbc4c458fb3407e95d4eb"
+    },
+    {
+      "type": "FILL",
+      "id": "b48e266f643c0e3c",
+      "bodySha256": "4b9d2f7199496e288ec32ff0ecd1024e02c57afaa7bf03ce88bbd13df6c7b351"
+    },
+    {
+      "type": "FILL",
+      "id": "b7a3350e0cbb84ea",
+      "bodySha256": "f0df04de94259ad762f3fd163b5432bcb783e0acb20376ff2d821205d8453162"
+    },
+    {
+      "type": "FILL",
+      "id": "c0ca41b253edf062",
+      "bodySha256": "dce6f4bc66f8e48cdbf0c6eb9c36558a42096a63e96fa20d8d1b7d30362a57c1"
+    },
+    {
+      "type": "FILL",
+      "id": "c5d2a57960346ed1",
+      "bodySha256": "4cc2d23e9b5e99ae32a52da6f1b3b1dd81da41bd71c531c9f29990525277d494"
+    },
+    {
+      "type": "FILL",
+      "id": "ca0b95bb04e2e118",
+      "bodySha256": "f21095d6d57905caaac4bc75ea8ec9a4b3c8866aab2e858931aa2647f6ceab8b"
+    },
+    {
+      "type": "FILL",
+      "id": "ce8f40e0cbb5b89a",
+      "bodySha256": "11723cf05d0a0d8138b2078654de4b46e46a13650dd9e5b1a25981726e7ed446"
+    },
+    {
+      "type": "FILL",
+      "id": "d1e39ef5874e7684",
+      "bodySha256": "c32bd75d206151410c3777cf5cc39c630eb6aafec086efd6819acc68faa5fe80"
+    },
+    {
+      "type": "FILL",
+      "id": "dc62f5920afda3ea",
+      "bodySha256": "64a727356eb772292c70f1b663c63e3b9995ec2daf029063862b06802a983a74"
+    },
+    {
+      "type": "FILL",
+      "id": "e39865cec55729a5",
+      "bodySha256": "4eacafdb9b15088dfb908dcc149d0ad7903289e52ecdd13128c61e2138dee87c"
+    },
+    {
+      "type": "FILL",
+      "id": "ea3cf07e8e24acbe",
+      "bodySha256": "435604390caf68b7264db2fe28dc137d65017f22e844bfe3dbbbc022c5dbaab2"
+    },
+    {
+      "type": "FILL",
+      "id": "eb65eb2da4042459",
+      "bodySha256": "d2163206b2d5d47bc59ac24df90fd3d840449d38e603f50d710af618c944220f"
+    },
+    {
+      "type": "FILL",
+      "id": "f319ba0b13c24e3b",
+      "bodySha256": "d6ac8b48dd672627e0d0153ab479f53202cfb8021753d1d22c17aeec07e491f3"
+    },
+    {
+      "type": "FILL",
+      "id": "fa3c9e85a8574818",
+      "bodySha256": "f691b8d2fe0ed31c36044131565df86e6eefd75ebc89649aacf986a50071c655"
+    },
+    {
+      "type": "LINE",
+      "id": "01c316d89a53d116",
+      "bodySha256": "abb8be9a5c3516b4b2b49907c8111a4e28187bf24a73a919aab4e9eb22df8817"
+    },
+    {
+      "type": "LINE",
+      "id": "022bdbcef793ded0",
+      "bodySha256": "600e3f70811880c69b54348bceb1f712406bf12d586921ca1214111cb665bfe6"
+    },
+    {
+      "type": "LINE",
+      "id": "026b33f101e75243",
+      "bodySha256": "0d32d43d5ba441853d20229831acedeabc1b594e49f1855c1137d4a4f439ebd2"
+    },
+    {
+      "type": "LINE",
+      "id": "02df80aff48a4a75",
+      "bodySha256": "4e8e88f487a2384522d54d6b3ca6ff50d285a80ff35da75d51bf8a6004b01b94"
+    },
+    {
+      "type": "LINE",
+      "id": "03b878ea739db71f",
+      "bodySha256": "af3924e392268693f957518ef54b178d8f02c44708e8939cdc892525b8e05b74"
+    },
+    {
+      "type": "LINE",
+      "id": "03cd103d3aa6c070",
+      "bodySha256": "c5c289c38f88a2fea4601222406e1df03a8dcba714129400c7a509a91585dbca"
+    },
+    {
+      "type": "LINE",
+      "id": "05c54406d5037631",
+      "bodySha256": "929abad7a773052f8fbfe9a3774b0850e179299507ee44b4d6ce1c85c04d5b7c"
+    },
+    {
+      "type": "LINE",
+      "id": "09d1715e9d64de0f",
+      "bodySha256": "d2f324139b2f2e97712fa136b83946461f37500dddf8ca6d8d94ac858154b7e6"
+    },
+    {
+      "type": "LINE",
+      "id": "136d3344dfe36273",
+      "bodySha256": "2cdfa5ec1dbd292d54ff18a5c0f5c651a5e7674451fa378a52aa772ae72b7ed4"
+    },
+    {
+      "type": "LINE",
+      "id": "14d8767f7d3bc5f1",
+      "bodySha256": "634d695f7ee1f741f8a40fcda6d2799014b2a7f510310c021c063455ec8b0faf"
+    },
+    {
+      "type": "LINE",
+      "id": "1d0bea2181d3d89f",
+      "bodySha256": "c08c7c60d4ad4f371f007ab5e5a7562a8402108d9c69596148ab788f4167311e"
+    },
+    {
+      "type": "LINE",
+      "id": "1e0d4812cb39373e",
+      "bodySha256": "604af19459c6c7ff6e2d1960af64444d0f10858533a027746fa011823441c8c4"
+    },
+    {
+      "type": "LINE",
+      "id": "2097f35d6d572100",
+      "bodySha256": "8e618fb33957c30b0f9635440fd16d0629ae8ea672fe58f2d7859e87ea976cb5"
+    },
+    {
+      "type": "LINE",
+      "id": "2200ded72af93467",
+      "bodySha256": "53dbddd17db23277f1540adf109e7e002cb9ea79105c28f7e99bc4fb27eabd13"
+    },
+    {
+      "type": "LINE",
+      "id": "233c6bdcac41e72c",
+      "bodySha256": "bfae3c88cc71bffb004d9884ce4fd82f73ff416afe9a672089bf42d4e1fda4e3"
+    },
+    {
+      "type": "LINE",
+      "id": "267b66128597dd91",
+      "bodySha256": "54ab01235b3bfc2964e30e3a77f8d4bde5514b8e46c15eed1f547a1e528ad7a2"
+    },
+    {
+      "type": "LINE",
+      "id": "282d9979502d024a",
+      "bodySha256": "3cd497821521faf6d0815200e75730b6ef94a8819316c5958f533e7fe9a5e6f2"
+    },
+    {
+      "type": "LINE",
+      "id": "29bc38e5fd9fb204",
+      "bodySha256": "2a5bd5f278f8b2eef9c0075aec13a71aa39397091cdc630407d8fae683743386"
+    },
+    {
+      "type": "LINE",
+      "id": "29db738617ae9d47",
+      "bodySha256": "84403baee718da01634c4665838e812a166070c998894101d826996cf1695a0d"
+    },
+    {
+      "type": "LINE",
+      "id": "30ae1c4a727bf985",
+      "bodySha256": "50a083b1153ec56f5ba2b9aa55e4dd6ed93dee75dfc8aa55053ef6c8d2f9ee01"
+    },
+    {
+      "type": "LINE",
+      "id": "354536679fad0182",
+      "bodySha256": "279fd5bd6a0e669f12f873aba2086bba8ec234a3145f301d3b33a43a3d73827c"
+    },
+    {
+      "type": "LINE",
+      "id": "35da21f09b2b2327",
+      "bodySha256": "561a8116257af8c0b4f7fdeb1af122224a0af459006bcd5c60fd91b668b77113"
+    },
+    {
+      "type": "LINE",
+      "id": "383060c54a8d1f19",
+      "bodySha256": "1771ae6a56a797e6c270c19d2c4bea9606fb09e288628f055ce45013d92aca21"
+    },
+    {
+      "type": "LINE",
+      "id": "38807090cf4768ea",
+      "bodySha256": "fb1439b9e7cfa9916ede95533f62f8c1d8f48e188be3e600a7c02f47228e0822"
+    },
+    {
+      "type": "LINE",
+      "id": "3b80b586283a558b",
+      "bodySha256": "512759f237bcf7e72dde2d0bac6eae490f25fce98872e9df2fe353f4d61f47ed"
+    },
+    {
+      "type": "LINE",
+      "id": "3c2caf244142b966",
+      "bodySha256": "843b4000f03156ceec0cffe21f30f78c421fe3e19df5d6990cd80f8b1455fdc5"
+    },
+    {
+      "type": "LINE",
+      "id": "3d6d6119dae76282",
+      "bodySha256": "0beee219844273e7e028c504e1da00a049a32919d608a29caa7592f3a45ddbd6"
+    },
+    {
+      "type": "LINE",
+      "id": "3da74fc7bf4b0034",
+      "bodySha256": "d7bf71a6b60e7310d4037fa78f774def7052b6f1e011638fa3dc14417964094e"
+    },
+    {
+      "type": "LINE",
+      "id": "412b3529e6b8564a",
+      "bodySha256": "6616c6d57fff1d0c3c21112977f17acdf5478b76e4dd8d038c552a5d7040b646"
+    },
+    {
+      "type": "LINE",
+      "id": "45f2ab4bcf014a9a",
+      "bodySha256": "92cda42b06efa44ddf67c55bcd807347fb79fd8a73ecdbec796018a4c2472e4c"
+    },
+    {
+      "type": "LINE",
+      "id": "46163f8633f46b4e",
+      "bodySha256": "cc16f9ba845dd3442aabe661326d39879cf385d489b60984bce9260105f731dd"
+    },
+    {
+      "type": "LINE",
+      "id": "470ab926a4de5c2d",
+      "bodySha256": "64b87522abfb3fc3fda530c604730666d72f1e1f87874447c62dd7e6c9c97c36"
+    },
+    {
+      "type": "LINE",
+      "id": "474c7a4ca009fed6",
+      "bodySha256": "7544a523c1b25b2c554c78efc1319ce72c3e7b6daead40a12210016f733029ca"
+    },
+    {
+      "type": "LINE",
+      "id": "47db479882c750f0",
+      "bodySha256": "ed7cbfa4a06d93f128af5a6cd019432f4c4515d0636b5613783bf1a32700219b"
+    },
+    {
+      "type": "LINE",
+      "id": "4847eec0d6b4a029",
+      "bodySha256": "7e708c38154b77a8ec70ef75fba6141abe960c7979b3db6d46e3b80020e3cb55"
+    },
+    {
+      "type": "LINE",
+      "id": "4c38459bd37e64dd",
+      "bodySha256": "87a1d4e65f31aa0154d91f10fc48b7cf677c91c984403e48f2d264bfcf3d337b"
+    },
+    {
+      "type": "LINE",
+      "id": "52f03f237b0d8fe7",
+      "bodySha256": "619720bea2850da3f332c45fa522a3b08cede0729b1d1539dbd13e8334a0e462"
+    },
+    {
+      "type": "LINE",
+      "id": "53c8e82422939ba7",
+      "bodySha256": "fc2200e18c1354a8131194399f72e86d630a3f9d22a209b865492f039a9a5a8e"
+    },
+    {
+      "type": "LINE",
+      "id": "55bbb92a5eea118c",
+      "bodySha256": "35bdada6c2e9f1920cef9a9a91918870b880d40d613d7891c3d1f859dcc500be"
+    },
+    {
+      "type": "LINE",
+      "id": "577bc5886bfecc6a",
+      "bodySha256": "fc9ec9a33821be9edc3d187c01a7ac4efd252f78dcec5d2077308061aab7b34f"
+    },
+    {
+      "type": "LINE",
+      "id": "589bebbea36aaa34",
+      "bodySha256": "f75136862beed2fa800c36164a990f1ecbc2b7f0ae75a50d6e0da184ae45f0ae"
+    },
+    {
+      "type": "LINE",
+      "id": "5b59823593c9a0c7",
+      "bodySha256": "88c06019829c49ba5386c19a13b586b2ece77444226a7c3152bacfb98b4fe34e"
+    },
+    {
+      "type": "LINE",
+      "id": "5c45eff544be9819",
+      "bodySha256": "19a0c72a2c74226860a2001de5463e05581fa68301fbe22a5353ff0a239b25aa"
+    },
+    {
+      "type": "LINE",
+      "id": "5d8d87da9f2915c6",
+      "bodySha256": "b6445202d0ac02730bcee73b01a2525e7670260538eaabd11bf6dcef9a4b2a2b"
+    },
+    {
+      "type": "LINE",
+      "id": "5e1acf9d4aed15a8",
+      "bodySha256": "ed106d8874bc676decdb911e6dadc8fff4c5a2997605dc05fa1032c9d79ee2f5"
+    },
+    {
+      "type": "LINE",
+      "id": "5ed4633ed2aec215",
+      "bodySha256": "16694bbac5a8a1405c1c809e79523f35c2ac32afaec61c2941f4714b3bc98450"
+    },
+    {
+      "type": "LINE",
+      "id": "5ef3fb789874864e",
+      "bodySha256": "ecb0aa3a36a0df5cc830e7757d38a853066e9629f85b470604116ef36d173bef"
+    },
+    {
+      "type": "LINE",
+      "id": "6793b2ccb8105aad",
+      "bodySha256": "2b1d93bde8d07fd682b036d94f2a7420138fcab5048ebee77ea5c5daa35b3b78"
+    },
+    {
+      "type": "LINE",
+      "id": "6bb9acea0072dac5",
+      "bodySha256": "bbbf68002b0804a7753fec656f2d4fd6e205ec83515534833b85ef43ad9c9bcd"
+    },
+    {
+      "type": "LINE",
+      "id": "6c4efe4e38993ffe",
+      "bodySha256": "e67745a2484f15e4e5445008964b3165c84cab545fc8c7d7219471e5e21d78b9"
+    },
+    {
+      "type": "LINE",
+      "id": "6c926e373c295419",
+      "bodySha256": "7a7a8a70be80c78e7d0074781030cb3bb19eeec580d4584b5b3d38f33bebe672"
+    },
+    {
+      "type": "LINE",
+      "id": "7007273ffdf9e6ec",
+      "bodySha256": "157069afa6f8a948bdfec1c2b1f49221b754151701c4c8b52ca6a771438ddd52"
+    },
+    {
+      "type": "LINE",
+      "id": "719167647381498f",
+      "bodySha256": "88276004aa487715eee603d864c0f028aa08b23be496461a1b33755126375e9f"
+    },
+    {
+      "type": "LINE",
+      "id": "71bfcf2fc04955ea",
+      "bodySha256": "e9ea2a23c8faed327f63ddb56e396fee0701c33db11c3caf9addbd08a40a9167"
+    },
+    {
+      "type": "LINE",
+      "id": "739ee16f2920b645",
+      "bodySha256": "7054b925b07bc72ec02dc7639d1edd0df6ea60fc101c5ee0512a5eb2037bc43f"
+    },
+    {
+      "type": "LINE",
+      "id": "7410c6602b1ab02b",
+      "bodySha256": "633aebbbcd4f9972b1940fecfd7e9516ae69093f905e8287c29e2945ad758e55"
+    },
+    {
+      "type": "LINE",
+      "id": "7423ef2df618f9f1",
+      "bodySha256": "e5a15bc153194235103811dff55fc56501d901fadf2b254b521a824b18718d2b"
+    },
+    {
+      "type": "LINE",
+      "id": "74bea24fbd04bbb2",
+      "bodySha256": "e8f3f30bf0b6333e80117b929b1e668867e373dc2475ed05d10f360384e069dd"
+    },
+    {
+      "type": "LINE",
+      "id": "7607f5b44aa3222b",
+      "bodySha256": "78f89885e441ecd50836958d15d7676f35c141b0774db6b637ceeeffacbc37db"
+    },
+    {
+      "type": "LINE",
+      "id": "76bee7969772db69",
+      "bodySha256": "1679faddfd5c5ee067f68713b40b9bef7f7a4d80a4e42169584d66b06c45c914"
+    },
+    {
+      "type": "LINE",
+      "id": "78f77fa1ca4540ad",
+      "bodySha256": "f7fc4f4b6150a59281f94956b3768cd0a5216985b5c83a3859adbb408f339d3f"
+    },
+    {
+      "type": "LINE",
+      "id": "7a5de9a82679f729",
+      "bodySha256": "4da746effe06dbfb2058b4dfcbf4c47bbd184420884d3254167dec6780a0076c"
+    },
+    {
+      "type": "LINE",
+      "id": "7b67d0d8d6a18e3e",
+      "bodySha256": "a61cf1dfafdd90e5d46552bb539d6241646646c7e5dbeae211ad11b60314eb33"
+    },
+    {
+      "type": "LINE",
+      "id": "7e6ebbe25d43c7bf",
+      "bodySha256": "f893695ebd777e79e9e211ff934676d7663bfcb509f9b5334513f548913becc2"
+    },
+    {
+      "type": "LINE",
+      "id": "80db1c2d0d54a368",
+      "bodySha256": "b2ee4b9d22e75f43dd2a0f2ef90152d5d6934653a0c8fdff8e9b891f0ed138e5"
+    },
+    {
+      "type": "LINE",
+      "id": "811342c9e25a7f3e",
+      "bodySha256": "af81592ce62d08a63a529869e71029c7e01dfc506a6a1716ee584463fed46b9b"
+    },
+    {
+      "type": "LINE",
+      "id": "8529d1558f595e96",
+      "bodySha256": "24c233340016c7f0da069936535aabb206b4fed45e56d4945316e03c6935d462"
+    },
+    {
+      "type": "LINE",
+      "id": "8533ee8a6ac9479f",
+      "bodySha256": "94ff5e9db0a636cc8558ef3f8d844662333ad90f39987f599f98445211c2c60e"
+    },
+    {
+      "type": "LINE",
+      "id": "877238d5982b0ab1",
+      "bodySha256": "7ba2ed74cf9abe8dd2c349faf7f065ce0777719b17b6fbc2ddbb48ed49cb5b48"
+    },
+    {
+      "type": "LINE",
+      "id": "87ff8ff49debec69",
+      "bodySha256": "6a68378f3804b1e58637c85a1cc6cf7be5318ae8e7475e8d5293212cdbe17475"
+    },
+    {
+      "type": "LINE",
+      "id": "8b3e17253ae90130",
+      "bodySha256": "19ff80ad468b6b4da56d7783cd5975adbbc043db06d032f520bec33b11c1e090"
+    },
+    {
+      "type": "LINE",
+      "id": "8bd4ea33e59351a2",
+      "bodySha256": "bd489acfa9d34c33162a2d28b725206db68919bc5da19edc8342c237d8b441a4"
+    },
+    {
+      "type": "LINE",
+      "id": "8d7e500e451d88cc",
+      "bodySha256": "5645d522e9d5dfff067bd8661d0b57fafe67352a4f9e3f98a2b131fc965a0663"
+    },
+    {
+      "type": "LINE",
+      "id": "8dffdfbc601c7a86",
+      "bodySha256": "136caaa92036c162ea83b8a4a904456fb3140fd74725e717c6cfe4bc6f5fd591"
+    },
+    {
+      "type": "LINE",
+      "id": "8fcb0b10dcecec30",
+      "bodySha256": "a1bf2ad6255241999500dcda0f82c6eb158f33714a5e21a120a0904ae0ee5627"
+    },
+    {
+      "type": "LINE",
+      "id": "9023f92b570de4f3",
+      "bodySha256": "1eb79a7413112850b585b827a23fcced8fc275255b0197ec4edd898c3a3bb4fa"
+    },
+    {
+      "type": "LINE",
+      "id": "91af68a8bfef6a24",
+      "bodySha256": "840f2c400a4910f126773f3a74df8e82bdfc0680aa9edc47288feafd7015a2b9"
+    },
+    {
+      "type": "LINE",
+      "id": "938516637042aa81",
+      "bodySha256": "201d4924d3c7e17b33d06fd2560e33046523e367dd7b85d4a20d952118878df6"
+    },
+    {
+      "type": "LINE",
+      "id": "95ba71597fc6bf64",
+      "bodySha256": "1eb877f2e7a1080e48c64b2b25b1db055aa6c658410ccd38aeca2f2626a3f936"
+    },
+    {
+      "type": "LINE",
+      "id": "9d036472a70b9a40",
+      "bodySha256": "ad240f307b7db674f26b269fe080f3918450655f803144235621ff87e76c7fc6"
+    },
+    {
+      "type": "LINE",
+      "id": "9e08861d85f9cc46",
+      "bodySha256": "9a0f7cb65f4a4bc909e4bf0dce1db2d4863e07d944b7e90328cd871a9717be17"
+    },
+    {
+      "type": "LINE",
+      "id": "9ef8ec401b453ee4",
+      "bodySha256": "153116e8a2f9416e517d024ad3399b70c7f920d9664ab17090b253fcd0cbf1ee"
+    },
+    {
+      "type": "LINE",
+      "id": "a24c4fabf2fcdc3a",
+      "bodySha256": "25fc805c94e2f0c6bc6eee4bff06e8f781313cda10a8bcd786f866d1bb0cad1f"
+    },
+    {
+      "type": "LINE",
+      "id": "a36491817685b0a8",
+      "bodySha256": "3925626a75cd5a9bda39a6c46c5f04bb9a4f96e5c93584f9837878b1ec05e197"
+    },
+    {
+      "type": "LINE",
+      "id": "a3cbe0dc3c131680",
+      "bodySha256": "b92e6b89cf8f120e0856a24b8c9a767d19f8d5c55b597c51ef70c2c17a89d574"
+    },
+    {
+      "type": "LINE",
+      "id": "a3e705c67ca15e75",
+      "bodySha256": "c676d2c72370fb7b32b9742be672b2bf8d7e2f714fc92d7060aefb7a95f27dba"
+    },
+    {
+      "type": "LINE",
+      "id": "a6a0a8edfb27d8d7",
+      "bodySha256": "f7b694b0c01b6b10e70233ca23e981d6b3df24c12430537d0ab2f154fa67ba6a"
+    },
+    {
+      "type": "LINE",
+      "id": "a6fc176fafaa0490",
+      "bodySha256": "62b8de4a76b1823f5c1b53478a5f9558faa237ea4010607bf03a7e42af4d2f38"
+    },
+    {
+      "type": "LINE",
+      "id": "a7c3b59bdeadc380",
+      "bodySha256": "3ab871aca16243f1f1610e6dbf5b502f503d4570e86be2f5ee4f5ef6cf8026e6"
+    },
+    {
+      "type": "LINE",
+      "id": "a8639b1442fbb279",
+      "bodySha256": "eef5424853b43832c6de711f45feb854a8a3208ffdd59a665b0159a32d64516c"
+    },
+    {
+      "type": "LINE",
+      "id": "a98e51eb37f67d6c",
+      "bodySha256": "85bba4075405e6ab4d66d5a1e8c2de065ebd6690ad1f42582c791184bff31bf7"
+    },
+    {
+      "type": "LINE",
+      "id": "ab541ba746aac418",
+      "bodySha256": "e15029b097c35c17c8d86fed4f976c895ffbe7f957a5ca5fc49b10f0bf18fefa"
+    },
+    {
+      "type": "LINE",
+      "id": "b390773b105d344c",
+      "bodySha256": "1657e06bfd4c353e30281241c1bcc51752d113e7cd60b5d5665d35606b0b8c76"
+    },
+    {
+      "type": "LINE",
+      "id": "b73313523dacce8e",
+      "bodySha256": "e93fb924d1be53bc70c0427f780aa8ccda4e0cf0d8e1fc82f0bcdd5e1bcc6e06"
+    },
+    {
+      "type": "LINE",
+      "id": "b89c9deba0b7eac1",
+      "bodySha256": "a856ffcafbc54b8c6fa535f33020320fad281f9d6df1056660a5a49cc6d6b45c"
+    },
+    {
+      "type": "LINE",
+      "id": "b8f43357f6fe14e5",
+      "bodySha256": "5f7c519a98388758050f828529db978c8658e66fcf4be71e7cd5be17ba1bb0cf"
+    },
+    {
+      "type": "LINE",
+      "id": "b9483c4da90cafc5",
+      "bodySha256": "c046adda732d5c2165f7c536a4c989536f80aea5a86cabc09972bb433f86a8d9"
+    },
+    {
+      "type": "LINE",
+      "id": "bac0b0e981a91b34",
+      "bodySha256": "1505af17daf4b1bd9c5fbe2e777f685a349c8395279e9bbd41b6520378beeb3b"
+    },
+    {
+      "type": "LINE",
+      "id": "c0a885d20ff9d1de",
+      "bodySha256": "c196b46199287c5a8d112178ee9b011c82bbc712bdf0e65f4858c75b93da1247"
+    },
+    {
+      "type": "LINE",
+      "id": "c15733e97f11b0da",
+      "bodySha256": "cf5eadcf6490a99ae0009e28c87c0f7f2d578024cd46f70a96a521d0eb780029"
+    },
+    {
+      "type": "LINE",
+      "id": "c1aaec765492998d",
+      "bodySha256": "8abeb23f6cb8e0612d907cfa2088542e1a02bfb61f8176a446ee62e06b4ad9d3"
+    },
+    {
+      "type": "LINE",
+      "id": "c27ca0f492b0d328",
+      "bodySha256": "a7781e33aae94636240df196e742679cfd0063277e92e84c17fe2036da90c41b"
+    },
+    {
+      "type": "LINE",
+      "id": "c2c3196386989103",
+      "bodySha256": "a7b0697a91cf61d1f6efda558c7b5ad56c996851a8d1f03a607880d39edaf427"
+    },
+    {
+      "type": "LINE",
+      "id": "c3c71a58bed4ef46",
+      "bodySha256": "4967692e91ece164459ef9b9b9bb94ea1a7cff08ccecc969b19d93fe4f5b403e"
+    },
+    {
+      "type": "LINE",
+      "id": "c59d3d681f8a2fc7",
+      "bodySha256": "b678be7a63e9b84d6f2d2dfabbe8c89b12801dd5381f73d88b809208453d3944"
+    },
+    {
+      "type": "LINE",
+      "id": "c63d82f1ede635e8",
+      "bodySha256": "84991efd7292393cc7300c111cdcca1e9615aae1fdbb2de77661c2df3d9e84aa"
+    },
+    {
+      "type": "LINE",
+      "id": "c7b350cac85319ab",
+      "bodySha256": "0ad59e89ff14b9d5dfcd382c1e4589009eb3fac598b641e12357643715a5e7e9"
+    },
+    {
+      "type": "LINE",
+      "id": "c7b8bd2dabd1e1f7",
+      "bodySha256": "a95aa51d8449e90e30e80cd9dc77e7a67de1782624b56e1ed85024a1b492c0f9"
+    },
+    {
+      "type": "LINE",
+      "id": "c9481645a9e57132",
+      "bodySha256": "ab74d82b313f141aedc5ce9ddc027b51771d313cc3008a21725f3637bb475e36"
+    },
+    {
+      "type": "LINE",
+      "id": "c9db3ab7f8208189",
+      "bodySha256": "9af89d435b2b0d2268c3c313950888375ba5a491b33dc5fbe46eb67e166cf015"
+    },
+    {
+      "type": "LINE",
+      "id": "cac294216459a2a4",
+      "bodySha256": "afa25cf0ee1457f447b23aa474c8417fafffa0afeaeec6f4f0beb1179280b128"
+    },
+    {
+      "type": "LINE",
+      "id": "cb14ff5a5e2947d4",
+      "bodySha256": "76e7e05a13d1110e26baddd6df675526a3982c658b440d1e08ea9e9eff8ae543"
+    },
+    {
+      "type": "LINE",
+      "id": "ccb62da88eb65e65",
+      "bodySha256": "e6b62b75d7eb81c48da29f8d1b43eb2a060c42d3def998ece59f76670e839b7c"
+    },
+    {
+      "type": "LINE",
+      "id": "cdaa6e9a0e913f6c",
+      "bodySha256": "54c0ba63b25cbe8a43bb0bee373dc2cf6b9e81a3e0a1483b540826359dc5285b"
+    },
+    {
+      "type": "LINE",
+      "id": "ce3044db39a1ac16",
+      "bodySha256": "fae4a1726445af70b9a46c6d00c3ba15dc4063ea8ef10593c656bf81d1149a1d"
+    },
+    {
+      "type": "LINE",
+      "id": "cf040586357915c1",
+      "bodySha256": "0d8ff6e3f4acedd2286a82a44dc8f1447e65c2d88464f4b487846d7e43c1aded"
+    },
+    {
+      "type": "LINE",
+      "id": "cf746f8cae61bfcd",
+      "bodySha256": "f49450ab22c8174f827d350fc212fa850dda396358575de5d2868897bcfeb069"
+    },
+    {
+      "type": "LINE",
+      "id": "d18df408d6c86239",
+      "bodySha256": "132d188cf6783b40da8e8d38f7c2f48e956e8ffce4a78c0b0bbc9559828315a9"
+    },
+    {
+      "type": "LINE",
+      "id": "d57c1a211a2e5220",
+      "bodySha256": "d78fe2d2372ca4aefa01c0e4314c4a30ea93feeeb48cb99802301e6ca3612837"
+    },
+    {
+      "type": "LINE",
+      "id": "d69f026ac3078a98",
+      "bodySha256": "9553f42ed89ed4bf2ac0196bb33cd336b9b248df4339e5bd6277fcab82503fb4"
+    },
+    {
+      "type": "LINE",
+      "id": "d702e1d704ea21b2",
+      "bodySha256": "5df9be1c2e2f4d503ee9576c109c22abb3c7784ac55a7a6deda3ee32c400af73"
+    },
+    {
+      "type": "LINE",
+      "id": "d707d01e69158d21",
+      "bodySha256": "351dc63e8cb5cfc07c81a3a37c29be1d67bffd77a2fb373c81f416dfa26fc42a"
+    },
+    {
+      "type": "LINE",
+      "id": "d83a70f678c657fe",
+      "bodySha256": "4409142dae0a92cf56434e03e4fbc3fb6ddf28086cfe6f87aa9b9103382841f7"
+    },
+    {
+      "type": "LINE",
+      "id": "dc8d8a6bd82a67bf",
+      "bodySha256": "2806c994be54f18b1efdcdb82178aaaa5e0824b173bb12529529a88147e88e10"
+    },
+    {
+      "type": "LINE",
+      "id": "dd288500bd9c5bd7",
+      "bodySha256": "94ab8bc86a6a3df6f6c4766151e0bdc0115c163c4b479bce7cab9702f1983942"
+    },
+    {
+      "type": "LINE",
+      "id": "e1030d7d21497e14",
+      "bodySha256": "b3f1330d05b665507dbc5d48de8d7bb8d8de092ce90942ce6a090f82336d5a2c"
+    },
+    {
+      "type": "LINE",
+      "id": "e23e381a6dd59ea7",
+      "bodySha256": "834b4a7dc0a11acef15176ab668e92d5f11c0efe929a076dbae34ec7a7d0a815"
+    },
+    {
+      "type": "LINE",
+      "id": "e6bd10489271844d",
+      "bodySha256": "4e8ad7a22563165963dbe3b9d3bf29b2b76344848c6c87a48998ca4d9bcc6591"
+    },
+    {
+      "type": "LINE",
+      "id": "e9709ab0fb473b97",
+      "bodySha256": "34a3f06d63400aea577fcb588655b123fb88375f4c3024c69aaee43792fa2d8d"
+    },
+    {
+      "type": "LINE",
+      "id": "eb593e030fd0e12f",
+      "bodySha256": "7a5a197b3e186a145015b37d82faffec055458b9d532549cf107637cc9c69d72"
+    },
+    {
+      "type": "LINE",
+      "id": "ec958438d49900f6",
+      "bodySha256": "4e54c3c66579800bac5da83cc88e6b0c7438f955f0966f6e48a8f83160fe5017"
+    },
+    {
+      "type": "LINE",
+      "id": "ee5537246ad19a51",
+      "bodySha256": "6ed31357f0fa288642acedbf18b6aa50e06e5860a1d08b514cacf646fee60503"
+    },
+    {
+      "type": "LINE",
+      "id": "f0f75476e8921c74",
+      "bodySha256": "a80cece6d9f230723717ce9249937dd004b2f6999400c6267d3f080247b335ca"
+    },
+    {
+      "type": "LINE",
+      "id": "f34564faa35ad80c",
+      "bodySha256": "f4a7e8163d0c1d529264d8d163bf428a9e382eb9a2a02c82e7d2262184684a89"
+    },
+    {
+      "type": "LINE",
+      "id": "f48e893d1e40c040",
+      "bodySha256": "3508b78f6087b199715e196ac0b23b5c56d8bbbe4f9c5d0a9cbde7cc7e509e07"
+    },
+    {
+      "type": "LINE",
+      "id": "f7a975e19aa5dd1b",
+      "bodySha256": "68cf9b9ece75b01ca898829097a766d72e8916014242dee65f534dacc1f57e37"
+    },
+    {
+      "type": "LINE",
+      "id": "f7aa46f70b0359ed",
+      "bodySha256": "f8a5ac2594b8247015b60bfea2b9bd0512ed5f015044ec7dd9e34c7f0a014420"
+    },
+    {
+      "type": "LINE",
+      "id": "f869c558d1be63d0",
+      "bodySha256": "8a77da6bcef1bf3d48bb22204887ef07049e8925c11b97d4ee39c17072cbc203"
+    },
+    {
+      "type": "LINE",
+      "id": "fc49f589380079ac",
+      "bodySha256": "e458697d54fd3a95c9d90a75439e26ce47f7968727c173128f34a8b26eba604b"
+    },
+    {
+      "type": "LINE",
+      "id": "fd8570e957badd7b",
+      "bodySha256": "b1778fb5dc4c28145db83d434692e8d93522bf5d26d0fc4ca67a6e34a3af90f8"
+    },
+    {
+      "type": "LINE",
+      "id": "fe1795dcfd905aeb",
+      "bodySha256": "03f33f4f7d5b711a23b4ba4e88f4f755ff9e7c954e65c7ec54aa04d55780ebbf"
+    },
+    {
+      "type": "LINE",
+      "id": "fe6ea83fc9f250c5",
+      "bodySha256": "9b6d85e03e3a116eee4109ac74c9132bb11195d00c88b7ea2dc857b80da9f72e"
+    },
+    {
+      "type": "VIA",
+      "id": "0b13092086c7b8f8",
+      "bodySha256": "e96d2a99d7e0b144a2448ea1f757a37ac43b5ff8dcb79c3409b07ba152d34e80"
+    },
+    {
+      "type": "VIA",
+      "id": "0e65388447439774",
+      "bodySha256": "447e665458cfba6d89520822f15b2ef83caeede3ed2c88d7b686420c7a3b6863"
+    },
+    {
+      "type": "VIA",
+      "id": "15e1fdfbc8ba8eb5",
+      "bodySha256": "0fd1311dcfb0ddc84f133a4244d93e8d6e33e3b5a555221b01868f9c2c871849"
+    },
+    {
+      "type": "VIA",
+      "id": "1b308d19b8b7e343",
+      "bodySha256": "b1d57205f4c5a0c1711f9dd7aaae1d8adef39d47ca605591a3e6483d624ccda2"
+    },
+    {
+      "type": "VIA",
+      "id": "1c49c8262bd5eaa2",
+      "bodySha256": "47b577ece8ad21e4ad6543f23b32359114b6a7d63c88f197b42eb6ba4886fe5d"
+    },
+    {
+      "type": "VIA",
+      "id": "2acc80d225513e93",
+      "bodySha256": "0126b7078f174e9637d7e6a096f69f408a7e2f2d1365ca70417f60f219604889"
+    },
+    {
+      "type": "VIA",
+      "id": "34db2a373178465f",
+      "bodySha256": "83c02f07245b10d1823cbb285158fbe00ac084b4e9bcda9c8c30f10498ff1e3e"
+    },
+    {
+      "type": "VIA",
+      "id": "3c6e2aa60ead2e95",
+      "bodySha256": "540b26308ada5024d8c62b6572e714fbdbd869eaad2e275dcabe81b73242ef7b"
+    },
+    {
+      "type": "VIA",
+      "id": "404a6c9023e93678",
+      "bodySha256": "c936e7cc497639a15d9abf09faaca3e22d2254d87969f6ba4a351b501e44169e"
+    },
+    {
+      "type": "VIA",
+      "id": "41552047b669c1e0",
+      "bodySha256": "d3821ebb2048c34a922010bfeb282552428904e69bd22d2d3ae072b0953e098b"
+    },
+    {
+      "type": "VIA",
+      "id": "4ae5f2d39ccde8fc",
+      "bodySha256": "144385955094d4622aaedc9c42c0cb7d4ec51973ebf0bab41ce8547ae5e07ca8"
+    },
+    {
+      "type": "VIA",
+      "id": "54089935a2a2c135",
+      "bodySha256": "5a7be54d285dda2a62ee7ce459096ed264f97ae9e10b2b187e1ad7b960a6cfa8"
+    },
+    {
+      "type": "VIA",
+      "id": "5c3f27abc3ad9470",
+      "bodySha256": "3ffcf6c7a0a0f1226b60999de4c45f21316c6ace0c0c060f07767417e0bf5f98"
+    },
+    {
+      "type": "VIA",
+      "id": "6a0bd823e67e58bd",
+      "bodySha256": "29b725c1e63c3167d5cdf1c393f0afd760ea9ba6b82285c1a9418204e03f57ef"
+    },
+    {
+      "type": "VIA",
+      "id": "877d03636eb63859",
+      "bodySha256": "ac6c28f0b80970bde0f2945258b6a1b479e77d15fd6180b54050e9d4f7055b5c"
+    },
+    {
+      "type": "VIA",
+      "id": "95b9402d0d852f03",
+      "bodySha256": "e5d876a392d71ff40ecced659f54b1fb4cc6a9016d4c7227fb025e2d7a3f61cb"
+    },
+    {
+      "type": "VIA",
+      "id": "a541d32cc4edf079",
+      "bodySha256": "21732c1c0d22d4dc6b5226b0154ec7f1b26e2f41863b3ff8db7d17f97f40f4c5"
+    },
+    {
+      "type": "VIA",
+      "id": "a5b7f0c73fdfd589",
+      "bodySha256": "4e3b4a926f9701b521e4f258662fcc196e655ce4d97f9d6ab085cf30a05ad668"
+    },
+    {
+      "type": "VIA",
+      "id": "ada06e0902546212",
+      "bodySha256": "2ec72098f7bee96ddf25c7ac786a0193f1e811c0c9818b35eb0ec359a9bbeaa2"
+    },
+    {
+      "type": "VIA",
+      "id": "d2baf19ac3a89b2d",
+      "bodySha256": "1f8c8424d4c7bfd489f499049134308e5ad48f205cd9173a007a1fb718b6e28c"
+    },
+    {
+      "type": "VIA",
+      "id": "d39b7beb8c45905f",
+      "bodySha256": "1438aecce0bf7828a713561f91a7f00b710bc3bf9dafd24b1828d0a5ac1d6cce"
+    },
+    {
+      "type": "VIA",
+      "id": "d8dd850ec1c2850a",
+      "bodySha256": "dfe2828ca0a743a796112872987e54be14201671e59fc37a4909f8c31f43193b"
+    },
+    {
+      "type": "VIA",
+      "id": "de519e0d9f8629d9",
+      "bodySha256": "0ad2ec1c9d57853a7ec7da8422a7cff7874693ac2200b033ff11fa9096e01068"
+    },
+    {
+      "type": "VIA",
+      "id": "e7295070ced588f4",
+      "bodySha256": "c2f9dbb712f586add5e9f1ba04e56b844539b4b7f6445b3acbc43b9a3c090fc5"
+    },
+    {
+      "type": "VIA",
+      "id": "fa499c2238d3bca9",
+      "bodySha256": "3a0fbc577150aa3dcd637a3170d15d18098393831fca934de2c40bfca92f9b2f"
+    },
+    {
+      "type": "VIA",
+      "id": "fb94b82c7a1e2ecc",
+      "bodySha256": "2771ec9b009c137e49f25b308cd4d66d515f4e6904a580d9abb306ba2164d3b9"
+    }
+  ],
+  "post47ADCProtectedCopperCounts": {
+    "FILL": 42,
+    "LINE": 142,
+    "VIA": 26
+  },
+  "allOtherProtectedRecordCount": 12939,
+  "allOtherProtectedBodiesSha256": "95c2452448ad7a01959658b3afbb05ca3252c8ce8803bbaf9c1555e8f3801be1",
+  "geometryProof": "Each replacement short PRE branch is contained in the original exclusive mixer copper region (outside area <=1e-10mm²). It joins current Rin.2 and Rb.1, stays separated from Rseries.1 and quiet Rb.2 by more than0.1524mm. This is NOT a full other-net clearance audit, which still requires latest placed board native DRC.",
+  "limitations": [
+    "The plan deliberately breaks the old passive PRE-to-series bypass. OPA input/output and quiet-bias routing MUST be completed before powered use.",
+    "No new OPA coordinates assumed. Existing OPA parts are parked pending placement. Do not connect guessed OPA pads.",
+    "Child bias-feed manifest governs ten old +3V3 LINE deletions and the R164 via clearance issue separately.",
+    "Existing post47 long routes and MCU fanout are fully protected here. Old left-side capacitor stubs stay untouched; relocated ADC buckets need separately reviewed short final routes.",
+    "No source/native/API writes, no global plane repour, no fabrication approval."
+  ],
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0
+}

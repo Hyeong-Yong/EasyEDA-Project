@@ -1,0 +1,373 @@
+{
+  "stage": "rename_r1",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-rename-rebased-v2.json",
+  "manifestHash": "8b69e22369e4f20b921e585ed323319bfb04ddf44198ea30ebdba2cd9beddc87",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_rename_r0-20261018.epru",
+  "priorHash": "cc99faf576b0644f32de63c1aa71c7c54e2ee62339ad0b31d520826febbdf61f",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_rename_r1-20261018.epru",
+  "sourceSha256": "ec15c1ca50910b4a2c05c855bab3d79a7b949ecd0d21a38f0eede326a7ee3e14",
+  "touched": [
+    {
+      "type": "LINE",
+      "id": "fd9d34eabb4f0ddf",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "22b6b228288f4a86",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "0e414fccd88516b8",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "323be82f95cfffb4",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "8cdd4344caf0f14a",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "ab36b95cf9bdf103",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "17a42338d206ea85",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "d8c925f97a626e33",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "4258c1fb06b257b4",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "d8f41bbe7659ae79",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "99367c2f509621d1",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "1ce2ed6bd0d072a0",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "2391d8b2df2cc463",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "5152bf88e05ce803",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    },
+    {
+      "type": "LINE",
+      "id": "2dfae3e0e3f002c3",
+      "ref": null,
+      "key": null,
+      "action": "rename"
+    }
+  ],
+  "created": [],
+  "changes": [
+    {
+      "key": "NET:[\"NET\",\"NET-(J8-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J9-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J10-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(J11-IN)\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC_BIAS_2V5\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC3_DRV2\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC3_DRV3\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "NET:[\"NET\",\"ADC3_DRV4\"]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J8-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J9-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J10-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(J11-IN)\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC_BIAS_2V5\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV2\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV3\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV4\"]]",
+      "fields": [
+        "missing"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:fd9d34eabb4f0ddf",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:323be82f95cfffb4",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:17a42338d206ea85",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:d8f41bbe7659ae79",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:22b6b228288f4a86",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:0e414fccd88516b8",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:8cdd4344caf0f14a",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:ab36b95cf9bdf103",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:d8c925f97a626e33",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:4258c1fb06b257b4",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:99367c2f509621d1",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:1ce2ed6bd0d072a0",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:2391d8b2df2cc463",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:5152bf88e05ce803",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "LINE:2dfae3e0e3f002c3",
+      "fields": [
+        "netName"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    }
+  ],
+  "issues": [],
+  "failure": null,
+  "containmentPassed": true,
+  "requiresIndependentGeometryAudit": false,
+  "saved": false,
+  "manufacturingReady": false
+}

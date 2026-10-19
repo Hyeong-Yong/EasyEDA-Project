@@ -1,0 +1,506 @@
+{
+  "schema": "labtool-commonpower-v4-two-components-actual-native-guard",
+  "status": "OFFLINE_PUBLIC_API_OPERATIONS_ROOT_REVIEW_REQUIRED",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_place_5-20261018.epru",
+  "sourceSha256": "6e30bca25f0745c32a8954653c0ce593f93bdca978b3ead54aca490c524b9665",
+  "placementPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-short-negative-commonpower-v4-proposal.json",
+  "placementSha256": "7070ccc735fa7ae1181ea3c1a0c27ee1145f99b938d7bdad831ceefbcad01022",
+  "nativeCalls": 0,
+  "operations": [
+    {
+      "ref": "D20",
+      "type": "COMPONENT",
+      "id": "63b34d484518e14f",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 1212.5984,
+        "y": 1307.0866,
+        "angle": 180,
+        "attrs": {
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1I124",
+          "Unique ID": "d8e102b0402a9b00",
+          "Tolerance": "0.1%",
+          "Temperature Coefficient": "25 ppm/K or better"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 1346.456692913386,
+        "y": 1307.0866141732286,
+        "rotation": 180,
+        "layer": 1
+      },
+      "expectedAfterRound4Mil": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 1346.4567,
+        "y": 1307.0866,
+        "angle": 180,
+        "attrs": {
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1I124",
+          "Unique ID": "d8e102b0402a9b00",
+          "Tolerance": "0.1%",
+          "Temperature Coefficient": "25 ppm/K or better"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "ownedAttrs": [
+        {
+          "type": "ATTR",
+          "id": "63b34d484518e14fee0",
+          "beforeBody": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "63b34d484518e14f",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Footprint",
+            "value": "70434f355ff1cc5a",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "expectedAfterRound4Mil": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "63b34d484518e14f",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Footprint",
+            "value": "70434f355ff1cc5a",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          }
+        },
+        {
+          "type": "ATTR",
+          "id": "63b34d484518e14fee1",
+          "beforeBody": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "63b34d484518e14f",
+            "layerId": 3,
+            "x": 1275.5906,
+            "y": 1290.2756,
+            "key": "Designator",
+            "value": "D20",
+            "keyVisible": false,
+            "valueVisible": true,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "expectedAfterRound4Mil": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "63b34d484518e14f",
+            "layerId": 3,
+            "x": 1409.4489,
+            "y": 1290.2756,
+            "key": "Designator",
+            "value": "D20",
+            "keyVisible": false,
+            "valueVisible": true,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          }
+        },
+        {
+          "type": "ATTR",
+          "id": "63b34d484518e14fe0",
+          "beforeBody": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "63b34d484518e14f",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Device",
+            "value": "454fdb5f6db86dc7",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "expectedAfterRound4Mil": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "63b34d484518e14f",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Device",
+            "value": "454fdb5f6db86dc7",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          }
+        }
+      ],
+      "allowedComponentChangedFields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "actualPadContract": [
+        {
+          "number": "1",
+          "net": "-3V_AFE",
+          "centerMm": [
+            35.399999987600005,
+            33.2
+          ],
+          "boundsMm": [
+            34.999999987500004,
+            32.900000003100004,
+            35.799999987700005,
+            33.4999999969
+          ]
+        },
+        {
+          "number": "2",
+          "net": "AFE_VNEG_RAW",
+          "centerMm": [
+            33.000000012399994,
+            33.2
+          ],
+          "boundsMm": [
+            32.6000000123,
+            32.900000003100004,
+            33.4000000125,
+            33.4999999969
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "C152",
+      "type": "COMPONENT",
+      "id": "cabb5d06f61cf1ad",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 1366.1417,
+        "y": 1173.2283,
+        "angle": 90,
+        "attrs": {
+          "Voltage Rating": "10 V",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1I109",
+          "Unique ID": "df863c43ab974c27"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 1220.472440944882,
+        "y": 1322.8346456692914,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedAfterRound4Mil": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 1220.4724,
+        "y": 1322.8346,
+        "angle": 270,
+        "attrs": {
+          "Voltage Rating": "10 V",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1I109",
+          "Unique ID": "df863c43ab974c27"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "ownedAttrs": [
+        {
+          "type": "ATTR",
+          "id": "cabb5d06f61cf1adee0",
+          "beforeBody": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "cabb5d06f61cf1ad",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Footprint",
+            "value": "7cd78de7fa8ab56e",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 90,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "expectedAfterRound4Mil": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "cabb5d06f61cf1ad",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Footprint",
+            "value": "7cd78de7fa8ab56e",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 270,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          }
+        },
+        {
+          "type": "ATTR",
+          "id": "cabb5d06f61cf1adee11",
+          "beforeBody": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "cabb5d06f61cf1ad",
+            "layerId": 3,
+            "x": 1329.6456,
+            "y": 1110.2362,
+            "key": "Designator",
+            "value": "C152",
+            "keyVisible": false,
+            "valueVisible": true,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 90,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "expectedAfterRound4Mil": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "cabb5d06f61cf1ad",
+            "layerId": 3,
+            "x": 1256.9685,
+            "y": 1385.8267,
+            "key": "Designator",
+            "value": "C152",
+            "keyVisible": false,
+            "valueVisible": true,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 270,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          }
+        },
+        {
+          "type": "ATTR",
+          "id": "cabb5d06f61cf1ade0",
+          "beforeBody": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "cabb5d06f61cf1ad",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Device",
+            "value": "bb3a3cf6b49b26eb",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 90,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "expectedAfterRound4Mil": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "cabb5d06f61cf1ad",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Device",
+            "value": "bb3a3cf6b49b26eb",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 270,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          }
+        }
+      ],
+      "allowedComponentChangedFields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "actualPadContract": [
+        {
+          "number": "1",
+          "net": "AFE_VNEG_RAW",
+          "centerMm": [
+            31.000000000000004,
+            32.65000101099999
+          ],
+          "boundsMm": [
+            30.3500000046,
+            32.1500010077,
+            31.6499999954,
+            33.1500010143
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "centerMm": [
+            31.000000000000004,
+            34.549998988999995
+          ],
+          "boundsMm": [
+            30.3500000046,
+            34.0499989857,
+            31.6499999954,
+            35.049998992300004
+          ]
+        }
+      ]
+    }
+  ],
+  "protectedContract": [
+    "Only2COMPONENTxy/rotation andtheir6ownedATTRxy/anglemaychange.",
+    "All437UID/PAD_NETcontracts/640VIA/799drills/6layers/18rules/oldCu bodiesunchanged.",
+    "Expectedcoordinatequantization is4decimalsMIL; exactpublicAPIattrplacementmustbeverifiedafteractualcapture, notassumedfromthisproposal."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "adc-c95-rotation-only-guarded-20261018-v1",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-remaining6_move-20261018.epru",
+  "sourceSha256": "af83b97cf7b775d834fc8339eb627beade225247ff077c2a234b3a50a4f808d4",
+  "componentMoves": [
+    {
+      "operation": "pcb_PrimitiveComponent.modify",
+      "ref": "C95",
+      "primitiveId": "32cf88e1aaf87f50",
+      "beforeComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 2125.9843,
+        "y": 3043.3071,
+        "angle": 180,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "086b10aa9eea5342",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I59"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "targetLayerId": 1,
+      "targetXYmil": [
+        2125.984251968504,
+        3043.3070866141734
+      ],
+      "axisAngleWorldDegrees": 0,
+      "nativeRotationDegrees": 0,
+      "requiredWorldPadsMm": {
+        "1": {
+          "net": "ADC3_INP7",
+          "xyMm": [
+            54.48,
+            77.3
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            53.52,
+            77.3
+          ]
+        }
+      },
+      "allowedChangedFields": [
+        "angle"
+      ],
+      "reason": "New far ADC tap avoids old layer17 GND neck; rotate same-body C95 to keep TOP signal and GND traces from crossing"
+    }
+  ],
+  "allSixLayerViaAndOldNewMutualCopperPassed": true,
+  "nativeWorldPadVerificationRequiredBeforeCopper": true,
+  "readOnlyBuilder": true,
+  "nativeCallsPerformed": false
+}

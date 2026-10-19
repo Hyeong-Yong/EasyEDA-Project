@@ -1,0 +1,21 @@
+{
+  "a1d7888349e74585": {
+    "beforeBodySha256": "4a7b3eb02622f1171b1b74dbbfaac17f54f53b29c56ffb3525e49af8ecff95c6",
+    "sourceSha256Required": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+    "allowedOuterActorKeys": ["REF_PLUS_PORT", "RAW5_R197_PORT", "RAW5_BRIDGE_006", "RAW5_BILAYER_EXTRA_VIA_1"],
+    "authorization": "Parent explicitly conditionally approved these four exact actor-mask unions on this original Bottom GND FILL only after review0635b30313ef9a2c6ed402ad6ed488c131e7068b803c5d669f76dfc4baa8645b. Additional outer actor or geometry changes require separate review. This is not board-outline or mechanical authorization. Preserve native outer vertices/edges outside these masks, all12old holes and local lobes; require Cuaddition0/outsideMaskRemoval0 and final345GND MCUVSS reach.",
+    "expectedActors": {
+      "RAW5_BRIDGE_006": {"kind": "LINE", "net": "+5V", "copperPathsSha256": "b2a1c5628dcf213887b369a897142d1073a7b74fe264ca4d08db3fa75946bbc0", "maskSha256": "0b73d07f9ae4f0601b5e381d376ad12b03dbf548a2852c7d9c065ef856f73b73"},
+      "RAW5_BILAYER_EXTRA_VIA_1": {"kind": "VIA", "net": "+5V", "copperPathsSha256": "730a59216c8901d42c124bc16fcb780f51fade5c9036752cb39bbba8828e8060", "maskSha256": "96f07288aa963a1b6372b8ff3cc60b3596aa2cd4ca0732d0f317467dc5471e52"},
+      "REF_PLUS_PORT": {"kind": "VIA", "net": "+5V_AFE", "copperPathsSha256": "4610bfa0fac25e4f9d0e72eed533444c9c40420a3acd6f90648c82d1fef7c9e6", "maskSha256": "2935b94a10416a450fa4fe8c0ed51aa1c46068bf5cdd0830497c2b6fb39fee11"},
+      "RAW5_R197_PORT": {"kind": "VIA", "net": "+5V", "copperPathsSha256": "9ac40a4924f16f4e32c8aec5d96f9bc74a4b798819c0d267bda7d70ea381cf83", "maskSha256": "5c120faad0f13513c4e76da137c2827801998c604fe76912dd2e166d41d21beb"}
+    },
+    "portCentersMm": {"REF_PLUS_PORT": [29.0, 72.9], "RAW5_R197_PORT": [28.9, 34.2], "RAW5_BILAYER_EXTRA_VIA_1": [33.5, 30.6]},
+    "clearanceMm": 0.17,
+    "fillPenRadiusMm": 0.00254,
+    "roundingReserveMm": 0.00001,
+    "approvedNominalOuterRemovalAreaMm2": 4.943454995288,
+    "approvedAdditionalRemovalBeyondPriorTwoPortMasksAreaMm2": 4.228005238287,
+    "nativeWritesAuthorizedByThisFile": false
+  }
+}

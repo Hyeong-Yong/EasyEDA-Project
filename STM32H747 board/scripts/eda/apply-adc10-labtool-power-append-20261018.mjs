@@ -1,0 +1,37 @@
+// Append only the independently reviewed new power circuit. Preserve every live
+// pre-existing record, including the editor's normalized display/cache fields.
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board';
+const uuid='360993a3108b5759',[candidateHash,reviewedLiveHash]=__taskArgs;
+if(![candidateHash,reviewedLiveHash].every(v=>/^[a-f0-9]{64}$/.test(v||'')))throw new Error('Two reviewed hashes required');
+const load=async path=>{const f=await eda.sys_FileSystem.readFileFromFileSystem(path);if(!f)throw new Error('Missing '+path);return f.text();};
+const hash=async s=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))).map(v=>v.toString(16).padStart(2,'0')).join('');
+const parse=s=>s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const i=x.indexOf('||');return{h:JSON.parse(x.slice(0,i)),b:JSON.parse(x.slice(i+2).replace(/\|$/,''))};});
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+const key=r=>r.h.type+':'+(r.h.id||'');
+const dir=root+'/output/candidates/adc10-labtool-20261018/';
+const plan=JSON.parse(await load(dir+'schematic-plan.json'));
+const item=plan.pages.find(x=>x.pageUuid===uuid);
+const candidate=await load(item.candidatePath),baseline=await load(item.baselinePath);
+const reviewedLive=await load(root+'/output/validation/native-adc10-labtool-page03-preapply-live-20261018.epru');
+if(item.candidateSha256!==candidateHash||await hash(candidate)!==candidateHash||await hash(baseline)!==item.baselineSha256||await hash(reviewedLive)!==reviewedLiveHash)throw new Error('Reviewed files changed');
+const br=parse(baseline),cr=parse(candidate),rr=parse(reviewedLive);
+const bm=new Map(br.map(r=>[key(r),r])),cm=new Map(cr.map(r=>[key(r),r]));
+if(br.length!==1976||cr.length!==2634||rr.length!==1970)throw new Error('Reviewed counts changed');
+for(const r of br)if(canonical(cm.get(key(r))?.b)!==canonical(r.b))throw new Error('Append-only contract failed '+key(r));
+const added=cr.filter(r=>!bm.has(key(r)));
+if(added.length!==658||added.some(r=>['DOCHEAD','META','CANVAS','ELE_PLACEHOLDER'].includes(r.h.type)))throw new Error('Reviewed new-record set changed');
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong power page');
+const before=parse(await eda.sys_FileManager.getDocumentSource()),rm=new Map(rr.map(r=>[key(r),r]));
+if(before.length!==rr.length||before[0]?.b.uuid!==uuid)throw new Error('Live page identity/count changed');
+for(const r of before)if(!['DOCHEAD','CANVAS'].includes(r.h.type)&&canonical(r.b)!==canonical(rm.get(key(r))?.b))throw new Error('Live changed after independent audit '+key(r));
+const used=new Set(before.map(key));if(added.some(r=>used.has(key(r))))throw new Error('New record collision');
+const rebased=before.concat(added).map(r=>JSON.stringify(r.h)+'||'+JSON.stringify(r.b)+'|').join('\n')+'\n';
+if(!await eda.sys_FileManager.setDocumentSource(rebased))throw new Error('Power source rejected; inspect before retry');
+const actual=await eda.sys_FileManager.getDocumentSource();
+const out=root+'/output/validation/native-adc10-labtool-page03-accepted-20261018.epru';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(out,new Blob([actual]),undefined,false))throw new Error('Accepted source not captured');
+if(!await eda.sch_Document.save())throw new Error('Power page save failed');
+const receipt={uuid,candidateHash,reviewedLiveHash,rebasedHash:await hash(rebased),addedRecords:added.length,preservedLiveRecords:before.length,acceptedPath:out,saved:true,manufacturingReady:false};
+if(!await eda.sys_FileSystem.saveFileToFileSystem(root+'/output/validation/native-adc10-labtool-power-append-20261018.json',new Blob([JSON.stringify(receipt,null,2)]),undefined,false))throw new Error('Receipt save failed');
+return receipt;

@@ -1,0 +1,102 @@
+{
+  "stage": "adjust_ref0",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-reference-rotations-v5b-execution.json",
+  "manifestHash": "19bbb77581c127b3b3adab94dfe5f91973e0492e4b3496291318a712f1140d2d",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_107_placed_v4_saved-20261018.epru",
+  "priorHash": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_adjust_ref0-20261018.epru",
+  "sourceSha256": "7724892d547a219629370056a842c80f4aba989fba8715d35153cb06b28a537f",
+  "touched": [
+    {
+      "type": "COMPONENT",
+      "id": "6eb1a2f698c02c69",
+      "ref": "R202",
+      "key": null,
+      "action": "place"
+    },
+    {
+      "type": "COMPONENT",
+      "id": "35c123a02723c3a7",
+      "ref": "C158",
+      "key": null,
+      "action": "place"
+    }
+  ],
+  "created": [],
+  "changes": [
+    {
+      "key": "COMPONENT:35c123a02723c3a7",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:35c123a02723c3a7ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:35c123a02723c3a7ee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:35c123a02723c3a7e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "COMPONENT:6eb1a2f698c02c69",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:6eb1a2f698c02c69ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:6eb1a2f698c02c69ee7",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:6eb1a2f698c02c69e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    }
+  ],
+  "issues": [],
+  "failure": null,
+  "containmentPassed": true,
+  "requiresIndependentGeometryAudit": false,
+  "saved": false,
+  "manufacturingReady": false
+}

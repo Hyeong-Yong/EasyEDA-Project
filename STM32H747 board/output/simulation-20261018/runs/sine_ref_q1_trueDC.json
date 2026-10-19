@@ -1,0 +1,45 @@
+{
+  "case": "sine_ref_q1_trueDC",
+  "returncode": 1,
+  "seconds": 22.0,
+  "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\sine_ref_q1_trueDC.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\sine_ref_q1_trueDC.log\n\n",
+  "stderr": "",
+  "command": [
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+    "-b",
+    "-r",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\sine_ref_q1_trueDC.raw",
+    "-o",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\sine_ref_q1_trueDC.log",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\sine_ref_q1_trueDC.cir"
+  ],
+  "warnings": [
+    "doAnalyses: TRAN:  Timestep too small; time = 2.43486e-08, timestep = 2.5e-18: trouble with node \"e.xu9.e29#branch\""
+  ],
+  "raw_exists": true,
+  "deck_sha256": "d178c0c8716ad2cce8c50d53ce2a95a79aa193435019143cce8a87f057b75b0a",
+  "optran_used": false,
+  "plots": [
+    {
+      "vectors": [
+        "time",
+        "v(raw_j2)",
+        "v(filt_j2)",
+        "v(buf_j2)",
+        "v(drv_j2)",
+        "v(adc_j2)",
+        "v(off)",
+        "v(ref25)",
+        "v(v5afe)",
+        "i(v5)",
+        "i(v3)",
+        "i(vn)"
+      ],
+      "points": 589,
+      "all_finite": true
+    }
+  ],
+  "numeric_valid": true,
+  "analysis_complete": false,
+  "run_ok": false
+}

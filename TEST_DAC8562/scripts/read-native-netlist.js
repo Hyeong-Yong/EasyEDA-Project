@@ -1,0 +1,1 @@
+await eda.dmt_EditorControl.openDocument('e58bcc16379b10f4');const ESYS_NetlistType={EASYEDA_PRO:'EasyEDA'};const netlist=await eda.sch_Netlist.getNetlist(ESYS_NetlistType.EASYEDA_PRO);return {netlist};

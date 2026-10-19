@@ -1,0 +1,320 @@
+{
+  "stage": "copper_via1",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-final-copper-v5-execution.json",
+  "manifestHash": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_copper_via0-20261018.epru",
+  "priorHash": "0aef8a42bede89a4b8fc30a9ae8237975f61f3ad224a3546d4333e457025d23f",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_copper_via1-20261018.epru",
+  "sourceSha256": "0c6adc347d555d387bb3efa793725395e1d81079cbf43863c359f902a44a97bb",
+  "touched": [
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "OFFSET_J7_PLUS_PORT",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "OFFSET_J6_PLUS_PORT",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J2",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J3",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J4",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J5",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J6",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J7",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J8",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J9",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J10",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_NEGATIVE_BYPASS_J11",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_POSITIVE_BYPASS_J6",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "GND_OFFSET_DIVIDER",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "RAW5_R197_PORT",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "RAW5_R200_PORT",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "PLUS_AFE_COMMON_PORT",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "MINUS_AFE_COMMON_PORT",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "RAW5_BILAYER_EXTRA_VIA_1",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "RAW5_BILAYER_EXTRA_VIA_2",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "PUMP_CHIP_GND",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "PUMP_INPUT_CAP_GND",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "PUMP_OUTPUT_CAP_GND",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "BOTTOM70_GND_LOBE_STITCH",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "REFERENCE_BUFFER_GND_V6",
+      "action": "via"
+    }
+  ],
+  "created": [
+    {
+      "key": "OFFSET_J7_PLUS_PORT",
+      "type": "VIA",
+      "id": "08e380958345598b"
+    },
+    {
+      "key": "OFFSET_J6_PLUS_PORT",
+      "type": "VIA",
+      "id": "d21c71a8d15740f5"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J2",
+      "type": "VIA",
+      "id": "8ffa2a0b581d0513"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J3",
+      "type": "VIA",
+      "id": "da399bc174447452"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J4",
+      "type": "VIA",
+      "id": "4536395732a4dbf2"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J5",
+      "type": "VIA",
+      "id": "09e9aa1bc63f5d96"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J6",
+      "type": "VIA",
+      "id": "5fdacc720a54c9cf"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J7",
+      "type": "VIA",
+      "id": "ff8702e9bc5cf610"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J8",
+      "type": "VIA",
+      "id": "0f440a50d1b4f189"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J9",
+      "type": "VIA",
+      "id": "b53cd285b790c617"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J10",
+      "type": "VIA",
+      "id": "d159de7181877721"
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J11",
+      "type": "VIA",
+      "id": "dbc8d40a77ff6613"
+    },
+    {
+      "key": "GND_POSITIVE_BYPASS_J6",
+      "type": "VIA",
+      "id": "1fd77ef0069f6955"
+    },
+    {
+      "key": "GND_OFFSET_DIVIDER",
+      "type": "VIA",
+      "id": "705f4146c3237e28"
+    },
+    {
+      "key": "RAW5_R197_PORT",
+      "type": "VIA",
+      "id": "a0f8870a924dd3e5"
+    },
+    {
+      "key": "RAW5_R200_PORT",
+      "type": "VIA",
+      "id": "59562aeb4cd83d77"
+    },
+    {
+      "key": "PLUS_AFE_COMMON_PORT",
+      "type": "VIA",
+      "id": "7f29d0c79bd70474"
+    },
+    {
+      "key": "MINUS_AFE_COMMON_PORT",
+      "type": "VIA",
+      "id": "cd5d7340addfbda0"
+    },
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_1",
+      "type": "VIA",
+      "id": "952c2f7f02508408"
+    },
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_2",
+      "type": "VIA",
+      "id": "7610427956839700"
+    },
+    {
+      "key": "PUMP_CHIP_GND",
+      "type": "VIA",
+      "id": "da34054ecb4ff89a"
+    },
+    {
+      "key": "PUMP_INPUT_CAP_GND",
+      "type": "VIA",
+      "id": "c27e315848acf3fa"
+    },
+    {
+      "key": "PUMP_OUTPUT_CAP_GND",
+      "type": "VIA",
+      "id": "e4182d6d6cf3b644"
+    },
+    {
+      "key": "BOTTOM70_GND_LOBE_STITCH",
+      "type": "VIA",
+      "id": "e910f0e67b4c8d58"
+    },
+    {
+      "key": "REFERENCE_BUFFER_GND_V6",
+      "type": "VIA",
+      "id": "15492f3dec2bd194"
+    }
+  ],
+  "changes": [],
+  "issues": [],
+  "failure": null,
+  "containmentPassed": true,
+  "requiresIndependentGeometryAudit": true,
+  "saved": false,
+  "manufacturingReady": false
+}

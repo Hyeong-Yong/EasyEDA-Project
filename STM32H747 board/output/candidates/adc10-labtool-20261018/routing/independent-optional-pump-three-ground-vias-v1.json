@@ -1,0 +1,104 @@
+{
+  "schema": "independent-optional-pump-three-local-ground-via-review",
+  "status": "FAIL",
+  "nativeCalls": 0,
+  "sourceActualPlacedV4Sha256": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "fixedPlacementSha256": "7070ccc735fa7ae1181ea3c1a0c27ee1145f99b938d7bdad831ceefbcad01022",
+  "fixedRow332Sha256": "cdd3fa342f17753e0b41b3709da76d2a8f538a48fec9cc0f3c436cf987c601c1",
+  "fixedCommon34Sha256": "4367046bff69088c9b404724fa07a4acc4ba7aa315abd1386546dcf5a85ddcf7",
+  "reserved43PortSha256": "7442307c0c676c975f2855e516b1e5422b991071f5c838c21a8cb802190b58d4",
+  "raw5V2Sha256": "23c724afbc6b521297267af628533c4d3122f49589bfd17b844cfce9283c9be4",
+  "newViaCreates": [
+    {
+      "key": "PUMP_OUTPUT_CAP_GND",
+      "net": "GND",
+      "xyMm": [
+        31.0,
+        35.4
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginal799DrillEdgeGapMm": 6.675694801662481,
+      "minimumReserved45DrillEdgeGapMm": 2.0627416997969497,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "originalPolygonValid": true
+        }
+      ],
+      "placementQualification": "OutsideSMAcourts, notvia-in-pad(.06mmminimum); mayoverlapconservativeSOT23/capcourtyardbutnotcomponentbodyorPAD. Rootreviewrequired."
+    }
+  ],
+  "newLineCreates": [
+    {
+      "key": "PUMP_OUTPUT_CAP_GND_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.3,
+      "startXYmm": [
+        31.000000000000004,
+        34.549998988999995
+      ],
+      "endXYmm": [
+        31.0,
+        35.4
+      ],
+      "role": "LocalHFpumpgroundreturn C152:2",
+      "lengthMm": 0.8500010110000034
+    }
+  ],
+  "fails": [
+    {
+      "key": "PUMP_CHIP_GND",
+      "otherCu": [
+        {
+          "key": "LINE:f2d2402a3200e954",
+          "net": "net-(u1b-pg13)",
+          "distanceMm": 0.0
+        },
+        {
+          "key": "LINE:0e6ede83e4a8e791",
+          "net": "net-(u1b-pg12)",
+          "distanceMm": 0.0
+        }
+      ],
+      "viaInPad": [],
+      "stubConflicts": [],
+      "oldDrillGap": 8.229700682299445,
+      "new45DrillGap": 1.355634918610402
+    },
+    {
+      "key": "PUMP_INPUT_CAP_GND",
+      "otherCu": [
+        {
+          "key": "LINE:c0a885d20ff9d1de",
+          "net": "adc3_inp8",
+          "distanceMm": 0.0
+        }
+      ],
+      "viaInPad": [],
+      "stubConflicts": [],
+      "oldDrillGap": 6.699141791018641,
+      "new45DrillGap": 4.610407852328798
+    }
+  ],
+  "old640Vias799DrillsUntouched": true,
+  "purpose": "BoundpumpHFreturnstoGNDplanesbesideICandinput/outputcapacitors, ratherthanlongindirectTOPgroundpath; separateGNDplannerwillprove128targetanchors. Notanoise/stabilitymeasurement.",
+  "remaining": [
+    "Parentapprovalbeforeanynativecreation",
+    "All6localFILLantipads(layer16+3V3)andnewlobeanchorgraph",
+    "MutualCuwithfinalsharedplus/minus/offsetroutes",
+    "NativeDRC/sourceaudit"
+  ],
+  "manufacturingApproved": false
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "legacy-ground-native-seam-line-only-candidates-v1",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire12-20261018.epru",
+  "sourceSha256": "00f0707624248ec16b99ee47a638e63608764652c3ddeb12a1f4af890104910d",
+  "status": "CANDIDATES_ONLY_REQUIRE_ANCHOR_PROOF_AND_ROOT_APPROVAL",
+  "nativeCalls": 0,
+  "frozenV5Changes": 0,
+  "fillChanges": 0,
+  "viaChanges": 0,
+  "ruleChanges": 0,
+  "selectedCandidateLines": [
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "targetKind": "FILL",
+      "targetId": "70d49360e5e3892f",
+      "targetLayer": 1,
+      "anchoredCandidateKind": "VIA",
+      "anchoredCandidateId": "d1aef3bb47b3962e",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        45.16000112,
+        109.63280080000001
+      ],
+      "endXYmm": [
+        45.16000112,
+        109.69999904000001
+      ],
+      "startXYMil": [
+        1777.9528,
+        4316.252
+      ],
+      "endXYMil": [
+        1777.9528,
+        4318.8976
+      ],
+      "lengthMm": 0.06719823999999619,
+      "rawTargetCopperOverlapMm2": 0.031425841492164826,
+      "rawAnchorCopperOverlapMm2": 0.04603189235456798,
+      "foreignCopperMinimumConservativeGapMm": 0.6584010199999952,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "4c508528fe578662",
+        "net": "+3V3",
+        "layerId": 1
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "targetKind": "FILL",
+      "targetId": "1d12bb8046962a4c",
+      "targetLayer": 17,
+      "anchoredCandidateKind": "FILL",
+      "anchoredCandidateId": "b99d5f8f2cae6046",
+      "net": "GND",
+      "layerId": 17,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        46.199552000000004,
+        109.78280303999999
+      ],
+      "endXYmm": [
+        46.199552000000004,
+        109.63279063999998
+      ],
+      "startXYMil": [
+        1818.88,
+        4322.1576
+      ],
+      "endXYMil": [
+        1818.88,
+        4316.2516
+      ],
+      "lengthMm": 0.15001240000000848,
+      "rawTargetCopperOverlapMm2": 0.0314288325772805,
+      "rawAnchorCopperOverlapMm2": 0.03142883257728627,
+      "foreignCopperMinimumConservativeGapMm": 0.22008972999999526,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "e9e83fdf77c0e28c",
+        "net": "A7",
+        "layerId": 17
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_3",
+      "targetKind": "FILL",
+      "targetId": "1e87af6d1a83be6a",
+      "targetLayer": 17,
+      "anchoredCandidateKind": "FILL",
+      "anchoredCandidateId": "b99d5f8f2cae6046",
+      "net": "GND",
+      "layerId": 17,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        52.80155302,
+        79.15249599999999
+      ],
+      "endXYmm": [
+        52.80155302,
+        79.00248359999999
+      ],
+      "startXYMil": [
+        2078.8013,
+        3116.24
+      ],
+      "endXYMil": [
+        2078.8013,
+        3110.334
+      ],
+      "lengthMm": 0.15001239999999427,
+      "rawTargetCopperOverlapMm2": 0.0314288325772805,
+      "rawAnchorCopperOverlapMm2": 0.031428832577283385,
+      "foreignCopperMinimumConservativeGapMm": 0.23295229000000273,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "a36491817685b0a8",
+        "net": "ADC3_INP2",
+        "layerId": 17
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_4",
+      "targetKind": "VIA",
+      "targetId": "e0f0dcd1975e7708",
+      "targetLayer": 1,
+      "anchoredCandidateKind": "FILL",
+      "anchoredCandidateId": "c667926ae983cbc8",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        53.64999937999999,
+        79.2750002
+      ],
+      "endXYmm": [
+        53.64999937999999,
+        79.00249376000001
+      ],
+      "startXYMil": [
+        2112.2047,
+        3121.063
+      ],
+      "endXYMil": [
+        2112.2047,
+        3110.3344
+      ],
+      "lengthMm": 0.2725064399999866,
+      "rawTargetCopperOverlapMm2": 0.04522793716248904,
+      "rawAnchorCopperOverlapMm2": 0.031428832577283385,
+      "foreignCopperMinimumConservativeGapMm": 0.7643503355036075,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "c946743470ba97f8",
+        "net": "NET-(U1D-VREF+)",
+        "layerId": 1
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true
+    }
+  ],
+  "unresolvedTargets": [],
+  "limitations": [
+    "Nearest unflagged existing GND actor must be independently proven anchored, not merely inferred from native silence.",
+    "Detailed drill/unsupported-shape and final actual-source rebase audit required before native approval.",
+    "No additional Inner17 routing authorized by this offline proposal.",
+    "No broad tolerance or width-pen graph equivalence is used for endpoints; both ends have positive raw copper overlap."
+  ]
+}

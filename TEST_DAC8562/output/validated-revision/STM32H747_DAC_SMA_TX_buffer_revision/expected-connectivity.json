@@ -1,0 +1,766 @@
+{
+  "name": "STM32H747_DAC_SMA_TX_buffer_revision",
+  "schematicUuid": "a15cc25fbe66470e",
+  "pages": [
+    "d0f2ce4acf23403e"
+  ],
+  "nets": {
+    "MCU_3V3": [
+      "C1.1",
+      "C2.1",
+      "J1.1",
+      "U1.8"
+    ],
+    "GND": [
+      "C1.2",
+      "C2.2",
+      "J1.10",
+      "J1.2",
+      "J1.5",
+      "J1.6",
+      "J1.7",
+      "J1.8",
+      "J1.9",
+      "J2.1",
+      "J2.2",
+      "J2.3",
+      "J2.4",
+      "J3.1",
+      "J3.2",
+      "J3.3",
+      "J3.4",
+      "R3.2",
+      "R4.2",
+      "U1.4"
+    ],
+    "DAC1_RAW": [
+      "J1.3",
+      "R3.1",
+      "U1.3"
+    ],
+    "DAC2_RAW": [
+      "J1.4",
+      "R4.1",
+      "U1.5"
+    ],
+    "TX_A": [
+      "R1.1",
+      "U1.1",
+      "U1.2"
+    ],
+    "TX_B": [
+      "R2.1",
+      "U1.6",
+      "U1.7"
+    ],
+    "SMA_A": [
+      "J2.5",
+      "R1.2"
+    ],
+    "SMA_B": [
+      "J3.5",
+      "R2.2"
+    ]
+  },
+  "noConnectPins": [],
+  "components": [
+    {
+      "id": "1e3be9ce346c4060",
+      "name": "J1",
+      "key": "HEADER",
+      "props": {
+        "LCSC Part Name": "2x5P 间距:2.54mm 方针 直插",
+        "Supplier Part": "C7074471",
+        "Manufacturer": "SAMTEC",
+        "Manufacturer Part": "TSW-105-07-G-D",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/TSW-105-07-G-D/8041085.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "adad224f390d47c2",
+        "Designator": "J1",
+        "Footprint": "08e3ac77bb634b20afa6379109504285",
+        "3D Model": "7b7f3c4e6c464868849b5f1bcdb86a18",
+        "3D Model Title": "HDR-TH_10P-P2.54-V-M-R2-C5-S2.54",
+        "3D Model Transform": "500.00294,196.85,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "2x5P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "2.54mm",
+        "Circluar Pins/Square Pins": "Square pin",
+        "Mounting Type": "Through Hole",
+        "Number of Rows": "2",
+        "Number of Pins": "10P",
+        "Length of Mating Pin": "5.84mm",
+        "Insulation Height": "2.54mm",
+        "Length of End Connection Pin": "2.54mm",
+        "Contact Material": "Phosphor bronze",
+        "Contact Plating": "Gold",
+        "Operating Temperature": "-55℃~+125℃",
+        "Color": "Black",
+        "Name": "TSW-105-07-G-D",
+        "Description": "Pin Structure:2x5P Pitch:2.54mm Row Spacing:2.54mm Circluar Pins/Square Pins:Square pin Mounting Type:Through Hole Number of Rows:2 Number of Pins:10P Length of Mating Pin:5.84mm Insulation Height:2.54mm Length of End Connection Pin:2.54mm Contact Materia",
+        "Device": "ac479637c9784c37",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-J1",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-J1"
+      },
+      "x": 190,
+      "y": 290,
+      "partId": "TSW-105-07-G-D.1",
+      "page": 1,
+      "pins": {
+        "1": [
+          165,
+          270
+        ],
+        "10": [
+          215,
+          310
+        ],
+        "3": [
+          165,
+          280
+        ],
+        "8": [
+          215,
+          300
+        ],
+        "5": [
+          165,
+          290
+        ],
+        "6": [
+          215,
+          290
+        ],
+        "7": [
+          165,
+          300
+        ],
+        "4": [
+          215,
+          280
+        ],
+        "9": [
+          165,
+          310
+        ],
+        "2": [
+          215,
+          270
+        ]
+      },
+      "nets": {
+        "1": "MCU_3V3",
+        "2": "GND",
+        "3": "DAC1_RAW",
+        "4": "DAC2_RAW",
+        "5": "GND",
+        "6": "GND",
+        "7": "GND",
+        "8": "GND",
+        "9": "GND",
+        "10": "GND"
+      }
+    },
+    {
+      "id": "b099897ad88f497d",
+      "name": "U1",
+      "key": "OPA2320AIDR",
+      "props": {
+        "LCSC Part Name": "",
+        "Supplier Part": "",
+        "Manufacturer": "Texas Instruments",
+        "Manufacturer Part": "OPA2320AIDR",
+        "Supplier Footprint": "SOIC-8",
+        "JLCPCB Part Class": "",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/opa2320.pdf",
+        "Supplier": "Manual procurement",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "6b08049a33f74aa0",
+        "Designator": "U1",
+        "Footprint": "4b0004117c7ef6c4",
+        "3D Model": "7abc64c95a1a4a04a4ef38f9097c870b|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+        "3D Model Transform": "192.913,236.22,0,0,0,0,0,0,0",
+        "Number of Channels": "2",
+        "Single Supply": "-",
+        "Dual Supply": "-18V~-2V；2V~18V",
+        "Vos - Input Offset Voltage": "50uV",
+        "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+        "Gain Bandwidth Product": "1MHz",
+        "Rail to Rail": "-",
+        "Slew Rate": "0.8V/us",
+        "Common Mode Rejection Ratio(CMRR)": "140dB",
+        "Input Voltage Noise Density": "12nV/√Hz@10Hz",
+        "Ib - Input Bias Current": "500pA",
+        "Quiescent Current(Iq)": "800uA",
+        "Output Current": "35mA",
+        "Input Offset Current(Ios)": "2nA",
+        "Operating Temperature": "-40℃~+85℃",
+        "Features": "Built-in compensation；Reverse-phase input protection；Overvoltage protection",
+        "Name": "OPA2320AIDR",
+        "Description": "Number of Channels:2 Single Supply:- Single Supply:- Dual Supply:-18V~-2V；2V~18V Dual Supply:-18V~-2V；2V~18V Vos - Input Offset Voltage:50uV Input Offset Voltage Drift(Vos TC):1uV/℃ Input Offset Voltage Drift(Vos TC):1uV/℃ Gain Bandwidth Product:1MHz Rail",
+        "Device": "2ae19a19071a450f",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-U1",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-U1",
+        "Value": "OPA2320AIDR",
+        "Tolerance": "",
+        "Temperature Coefficient": ""
+      },
+      "x": 440,
+      "y": 290,
+      "partId": "OPA2277UA.1",
+      "page": 1,
+      "pins": {
+        "1": [
+          480,
+          290
+        ],
+        "3": [
+          400,
+          300
+        ],
+        "2": [
+          400,
+          280
+        ],
+        "4": [
+          440,
+          330
+        ],
+        "8": [
+          440,
+          250
+        ]
+      },
+      "nets": {
+        "1": "TX_A",
+        "2": "TX_A",
+        "3": "DAC1_RAW",
+        "4": "GND",
+        "8": "MCU_3V3"
+      }
+    },
+    {
+      "id": "cad8649ebf654573",
+      "name": "U1",
+      "key": "OPA2320AIDR",
+      "props": {
+        "LCSC Part Name": "",
+        "Supplier Part": "",
+        "Manufacturer": "Texas Instruments",
+        "Manufacturer Part": "OPA2320AIDR",
+        "Supplier Footprint": "SOIC-8",
+        "JLCPCB Part Class": "",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/opa2320.pdf",
+        "Supplier": "Manual procurement",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "6b08049a33f74aa0",
+        "Designator": "U1",
+        "Footprint": "4b0004117c7ef6c4",
+        "3D Model": "7abc64c95a1a4a04a4ef38f9097c870b|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+        "3D Model Transform": "192.913,236.22,0,0,0,0,0,0,0",
+        "Number of Channels": "2",
+        "Single Supply": "-",
+        "Dual Supply": "-18V~-2V；2V~18V",
+        "Vos - Input Offset Voltage": "50uV",
+        "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+        "Gain Bandwidth Product": "1MHz",
+        "Rail to Rail": "-",
+        "Slew Rate": "0.8V/us",
+        "Common Mode Rejection Ratio(CMRR)": "140dB",
+        "Input Voltage Noise Density": "12nV/√Hz@10Hz",
+        "Ib - Input Bias Current": "500pA",
+        "Quiescent Current(Iq)": "800uA",
+        "Output Current": "35mA",
+        "Input Offset Current(Ios)": "2nA",
+        "Operating Temperature": "-40℃~+85℃",
+        "Features": "Built-in compensation；Reverse-phase input protection；Overvoltage protection",
+        "Name": "OPA2320AIDR",
+        "Description": "Number of Channels:2 Single Supply:- Single Supply:- Dual Supply:-18V~-2V；2V~18V Dual Supply:-18V~-2V；2V~18V Vos - Input Offset Voltage:50uV Input Offset Voltage Drift(Vos TC):1uV/℃ Input Offset Voltage Drift(Vos TC):1uV/℃ Gain Bandwidth Product:1MHz Rail",
+        "Device": "2ae19a19071a450f",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-U1",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-U1",
+        "Value": "OPA2320AIDR",
+        "Tolerance": "",
+        "Temperature Coefficient": ""
+      },
+      "x": 690,
+      "y": 290,
+      "partId": "OPA2277UA.2",
+      "page": 1,
+      "pins": {
+        "7": [
+          730,
+          290
+        ],
+        "5": [
+          650,
+          300
+        ],
+        "6": [
+          650,
+          280
+        ]
+      },
+      "nets": {
+        "5": "DAC2_RAW",
+        "6": "TX_B",
+        "7": "TX_B"
+      }
+    },
+    {
+      "id": "a35f41a733e84e46",
+      "name": "R1",
+      "key": "OLD_R16",
+      "props": {
+        "LCSC Part Name": "100Ω ±1% 100mW 厚膜电阻",
+        "Supplier Part": "C22775",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0603WAF1000T5E",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "07f417c254b141ee",
+        "Designator": "R1",
+        "Footprint": "ef342db1d439b2c5",
+        "3D Model": null,
+        "3D Model Title": null,
+        "3D Model Transform": null,
+        "Type": "Thick Film Resistors",
+        "Value": "100Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Temperature Coefficient": "±200ppm/℃",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "100Ω",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃ ",
+        "Device": "9650ee785f924d20",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-R1",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-R1"
+      },
+      "x": 940,
+      "y": 290,
+      "partId": "0603WAF1000T5E.1",
+      "page": 1,
+      "pins": {
+        "2": [
+          960,
+          290
+        ],
+        "1": [
+          920,
+          290
+        ]
+      },
+      "nets": {
+        "1": "TX_A",
+        "2": "SMA_A"
+      }
+    },
+    {
+      "id": "7b5f3d686bfc45af",
+      "name": "R2",
+      "key": "OLD_R16",
+      "props": {
+        "LCSC Part Name": "100Ω ±1% 100mW 厚膜电阻",
+        "Supplier Part": "C22775",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0603WAF1000T5E",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "07f417c254b141ee",
+        "Designator": "R2",
+        "Footprint": "ef342db1d439b2c5",
+        "3D Model": null,
+        "3D Model Title": null,
+        "3D Model Transform": null,
+        "Type": "Thick Film Resistors",
+        "Value": "100Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Temperature Coefficient": "±200ppm/℃",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "100Ω",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃ ",
+        "Device": "9650ee785f924d20",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-R2",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-R2"
+      },
+      "x": 1190,
+      "y": 290,
+      "partId": "0603WAF1000T5E.1",
+      "page": 1,
+      "pins": {
+        "2": [
+          1210,
+          290
+        ],
+        "1": [
+          1170,
+          290
+        ]
+      },
+      "nets": {
+        "1": "TX_B",
+        "2": "SMA_B"
+      }
+    },
+    {
+      "id": "831615a5ee8d48b6",
+      "name": "R3",
+      "key": "OLD_R3",
+      "props": {
+        "LCSC Part Name": "1MΩ ±1% 100mW 厚膜电阻",
+        "Supplier Part": "C22935",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0603WAF1004T5E",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0603WAF1004T5E/23662.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "971ec3d5757a4051",
+        "Designator": "R3",
+        "Footprint": "ef342db1d439b2c5",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "1MΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "100mW",
+        "Voltage-Supply(Max)": "75V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "1MΩ",
+        "Description": "Type:Thick Film Resistor Resistance:1MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+        "Device": "6814ac12736c4f19",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-R3",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-R3"
+      },
+      "x": 1440,
+      "y": 290,
+      "partId": "0603WAF1004T5E.1",
+      "page": 1,
+      "pins": {
+        "2": [
+          1460,
+          290
+        ],
+        "1": [
+          1420,
+          290
+        ]
+      },
+      "nets": {
+        "1": "DAC1_RAW",
+        "2": "GND"
+      }
+    },
+    {
+      "id": "9ec575484c9c4cce",
+      "name": "R4",
+      "key": "OLD_R3",
+      "props": {
+        "LCSC Part Name": "1MΩ ±1% 100mW 厚膜电阻",
+        "Supplier Part": "C22935",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0603WAF1004T5E",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0603WAF1004T5E/23662.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "971ec3d5757a4051",
+        "Designator": "R4",
+        "Footprint": "ef342db1d439b2c5",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "1MΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "100mW",
+        "Voltage-Supply(Max)": "75V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "1MΩ",
+        "Description": "Type:Thick Film Resistor Resistance:1MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+        "Device": "6814ac12736c4f19",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-R4",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-R4"
+      },
+      "x": 190,
+      "y": 550,
+      "partId": "0603WAF1004T5E.1",
+      "page": 1,
+      "pins": {
+        "2": [
+          210,
+          550
+        ],
+        "1": [
+          170,
+          550
+        ]
+      },
+      "nets": {
+        "1": "DAC2_RAW",
+        "2": "GND"
+      }
+    },
+    {
+      "id": "ad19f46906a044c3",
+      "name": "C1",
+      "key": "OLD_C18",
+      "props": {
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C14663",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0603KRX7R9BB104",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "129405e16f604773",
+        "Designator": "C1",
+        "Footprint": "160b6210e1cb6924",
+        "3D Model": "624118aa3cc7497086c383c2d72e0852|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "100nF",
+        "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R ",
+        "Device": "8b859d38a9dd4e52",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-C1",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-C1"
+      },
+      "x": 440,
+      "y": 550,
+      "partId": "CC0603KRX7R9BB104.1",
+      "page": 1,
+      "pins": {
+        "1": [
+          420,
+          550
+        ],
+        "2": [
+          460,
+          550
+        ]
+      },
+      "nets": {
+        "1": "MCU_3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "id": "b6f0e25ebc254c25",
+      "name": "C2",
+      "key": "OLD_C6",
+      "props": {
+        "LCSC Part Name": "4.7uF ±10% 25V",
+        "Supplier Part": "C1779",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21A475KAQNNNE",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21A475KAQNNNE/2131.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "7dfffaa273784a91",
+        "Designator": "C2",
+        "Footprint": "20c4ba6d3a8213cc",
+        "3D Model": "8c88e81f49c6409b980720ec8953afb6|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "4.7uF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "25V",
+        "Temperature Coefficient": "X5R",
+        "Name": "4.7uF",
+        "Description": "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:25V Temperature Coefficient:X5R ",
+        "Device": "fedcbdddebff4262",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-C2",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-C2"
+      },
+      "x": 690,
+      "y": 550,
+      "partId": "CL21A475KAQNNNE.1",
+      "page": 1,
+      "pins": {
+        "1": [
+          675,
+          550
+        ],
+        "2": [
+          705,
+          550
+        ]
+      },
+      "nets": {
+        "1": "MCU_3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "id": "fe34320be1134b7e",
+      "name": "J2",
+      "key": "OLD_J2",
+      "props": {
+        "LCSC Part Name": "SMA-KWE 全螺纹 牙长14mm总长20mm (外螺纹内孔）",
+        "Supplier Part": "C2913579",
+        "Manufacturer": "STA(思大)",
+        "Manufacturer Part": "STA-10204",
+        "Supplier Footprint": "插件",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211103/7D354F8DE7A29C6216F4994DB7AA59B6.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d8ed011ad61f47d2",
+        "Designator": "J2",
+        "Footprint": "d01e09325a979076",
+        "Connector Type": "板端",
+        "Interface Type": "-",
+        "Number of Ports": "1",
+        "Interface Diameter": "-",
+        "Interface Length/Height": "-",
+        "Frequency-Max": "6GHz",
+        "RF Series": "-",
+        "Impedance": "50Ω",
+        "Style": "弯头",
+        "Operating Temperature Range": "-65℃~+165℃",
+        "Name": "STA-10204",
+        "Description": "Connector Type:板端 Interface Type:- Number of Ports:1 Interface Diameter:- Interface Length/Height:- Frequency-Max:6GHz RF Series:- Impedance:50Ω Style:弯头 Operating Temperature Range:-65℃~+165℃ Operating Temperature Range:-65℃~+165℃ ",
+        "Device": "2d7a1bf6925e417e",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-J2",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-J2"
+      },
+      "x": 940,
+      "y": 550,
+      "partId": "STA-10204.1",
+      "page": 1,
+      "pins": {
+        "1": [
+          920,
+          530
+        ],
+        "2": [
+          920,
+          540
+        ],
+        "3": [
+          920,
+          550
+        ],
+        "4": [
+          920,
+          560
+        ],
+        "5": [
+          920,
+          570
+        ]
+      },
+      "nets": {
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "GND",
+        "5": "SMA_A"
+      }
+    },
+    {
+      "id": "b5653c4e967948c1",
+      "name": "J3",
+      "key": "OLD_J2",
+      "props": {
+        "LCSC Part Name": "SMA-KWE 全螺纹 牙长14mm总长20mm (外螺纹内孔）",
+        "Supplier Part": "C2913579",
+        "Manufacturer": "STA(思大)",
+        "Manufacturer Part": "STA-10204",
+        "Supplier Footprint": "插件",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211103/7D354F8DE7A29C6216F4994DB7AA59B6.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d8ed011ad61f47d2",
+        "Designator": "J3",
+        "Footprint": "d01e09325a979076",
+        "Connector Type": "板端",
+        "Interface Type": "-",
+        "Number of Ports": "1",
+        "Interface Diameter": "-",
+        "Interface Length/Height": "-",
+        "Frequency-Max": "6GHz",
+        "RF Series": "-",
+        "Impedance": "50Ω",
+        "Style": "弯头",
+        "Operating Temperature Range": "-65℃~+165℃",
+        "Name": "STA-10204",
+        "Description": "Connector Type:板端 Interface Type:- Number of Ports:1 Interface Diameter:- Interface Length/Height:- Frequency-Max:6GHz RF Series:- Impedance:50Ω Style:弯头 Operating Temperature Range:-65℃~+165℃ Operating Temperature Range:-65℃~+165℃ ",
+        "Device": "2d7a1bf6925e417e",
+        "Unique ID": "STM32H747_DAC_SMA_TX_buffer_revision-J3",
+        "Multi-Part Group": "STM32H747_DAC_SMA_TX_buffer_revision-J3"
+      },
+      "x": 1190,
+      "y": 550,
+      "partId": "STA-10204.1",
+      "page": 1,
+      "pins": {
+        "1": [
+          1170,
+          530
+        ],
+        "2": [
+          1170,
+          540
+        ],
+        "3": [
+          1170,
+          550
+        ],
+        "4": [
+          1170,
+          560
+        ],
+        "5": [
+          1170,
+          570
+        ]
+      },
+      "nets": {
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "GND",
+        "5": "SMA_B"
+      }
+    }
+  ]
+}

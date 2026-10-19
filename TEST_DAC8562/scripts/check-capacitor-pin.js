@@ -1,0 +1,1 @@
+await eda.dmt_EditorControl.openDocument('e58bcc16379b10f4');const pins=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId('194c4a2b5ce5d6ba');return pins.map(x=>({number:x.getState_PinNumber(),nc:x.getState_NoConnected(),x:x.getState_X(),y:x.getState_Y()}));

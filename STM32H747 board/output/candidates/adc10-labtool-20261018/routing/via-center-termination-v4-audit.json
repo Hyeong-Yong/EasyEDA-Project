@@ -1,0 +1,1541 @@
+{
+  "routingSha256": "c255e19d838132efe682fb9c024dd53e017a4fd0119a17732983efafc1f34048",
+  "sourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "newViasChecked": 62,
+  "allSelectedCoordinatesRatherThanSearchPreferencesUsed": true,
+  "centredEndpointVias": 61,
+  "tOnlyVias": 0,
+  "planeOnlyVias": 1,
+  "failures": [],
+  "vias": [
+    {
+      "viaKey": "AFE_PLUS_PORT_J2",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        138.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0302",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0009",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J2",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        135.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0303",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0018",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0005",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871505,
+          "nearestEndpointMm": 0.4609772228646332
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J3",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        124.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0305",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0008",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0009",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J3",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        121.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0306",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0017",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0018",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0035",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871836,
+          "nearestEndpointMm": 0.46097722286464704
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J4",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        110.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0308",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0007",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0008",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J4",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        107.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0309",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0016",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0017",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0065",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871586,
+          "nearestEndpointMm": 0.46097722286464704
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J5",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        96.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0311",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0006",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0007",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J5",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        93.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0312",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0015",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0016",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0095",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871836,
+          "nearestEndpointMm": 0.46097722286464704
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J6",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        82.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0314",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0005",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0006",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J6",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        79.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0315",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0014",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0015",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0125",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871836,
+          "nearestEndpointMm": 0.46097722286464704
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J7",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        68.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0317",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0004",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0005",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J7",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        65.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0318",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0013",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0014",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0155",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871836,
+          "nearestEndpointMm": 0.46097722286464704
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J8",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        54.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0320",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0003",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0004",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J8",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        51.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0321",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0012",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0013",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0185",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871836,
+          "nearestEndpointMm": 0.46097722286464704
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J9",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        40.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0323",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0002",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0003",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J9",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        37.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0324",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0011",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0012",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "NEG_INNER15_003",
+          "layerId": 15,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0215",
+          "layerId": 1,
+          "centrelineGapMm": 0.1798345565687196,
+          "nearestEndpointMm": 0.46097722286464704
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J10",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        26.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0326",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0001",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0002",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J10",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        23.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0327",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0010",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0011",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0245",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871752,
+          "nearestEndpointMm": 0.4609772228646436
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_PLUS_PORT_J11",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        15.5,
+        12.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0329",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_LOCAL_0340",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0001",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "AFE_MINUS_PORT_J11",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        8.9,
+        9.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0330",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0010",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [
+        {
+          "key": "LABTOOL_LOCAL_0275",
+          "layerId": 1,
+          "centrelineGapMm": 0.17983455656871752,
+          "nearestEndpointMm": 0.4609772228646436
+        }
+      ],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "OFFSET_OUTPUT_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "actualSelectedCenterMm": [
+        24.6,
+        67.9
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0408",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0019",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0020",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "OFFSET_UPPER_BUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "actualSelectedCenterMm": [
+        25.4,
+        87.0
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0410",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0022",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "OFFSET_LOWER_BUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "actualSelectedCenterMm": [
+        26.3,
+        61.2
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0411",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0019",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "OFFSET_BUCKET_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "actualSelectedCenterMm": [
+        30.4,
+        83.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0409",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "REF_PLUS_PORT",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        29.0,
+        72.9
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0346",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_LOCAL_0347",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "OFFSET_J7_PLUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "actualSelectedCenterMm": [
+        17.0,
+        66.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0407",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0020",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0021",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "OFFSET_J6_PLUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "actualSelectedCenterMm": [
+        16.6,
+        80.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0406",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0021",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_BOTTOM_0022",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J2",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        134.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0301",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J3",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        120.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0304",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J4",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        106.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0307",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J5",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        92.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0310",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J6",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        78.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0313",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J7",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        64.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0316",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J8",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        50.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0319",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J9",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        36.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0322",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J10",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        22.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0325",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_NEGATIVE_BYPASS_J11",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        6.4,
+        8.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0328",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_POSITIVE_BYPASS_J6",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        14.2,
+        80.15
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0331",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "GND_OFFSET_DIVIDER",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        26.3,
+        67.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0332",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "RAW5_R197_PORT",
+      "net": "+5V",
+      "actualSelectedCenterMm": [
+        28.9,
+        34.2
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_PWR_0031",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "RAW5_BRIDGE_007",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "RAW5_R200_PORT",
+      "net": "+5V",
+      "actualSelectedCenterMm": [
+        28.3,
+        22.0
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_PWR_0032",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "RAW5_CN1_FEED_002",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "RAW5_BRIDGE_001",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "PLUS_AFE_COMMON_PORT",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        31.0,
+        24.5
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_LOCAL_0333",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_LOCAL_0341",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_PWR_0033",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "MINUS_AFE_COMMON_PORT",
+      "net": "-3V_AFE",
+      "actualSelectedCenterMm": [
+        40.3,
+        31.7
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "NEG_INNER15_001",
+          "layerId": 15,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "LABTOOL_PWR_0034",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "RAW5_BILAYER_EXTRA_VIA_1",
+      "net": "+5V",
+      "actualSelectedCenterMm": [
+        33.5,
+        30.6
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "RAW5_BRIDGE_005",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "RAW5_BRIDGE_006",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "RAW5_BILAYER_EXTRA_VIA_2",
+      "net": "+5V",
+      "actualSelectedCenterMm": [
+        29.4,
+        33.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "RAW5_BRIDGE_006",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "RAW5_BRIDGE_007",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "PUMP_CHIP_GND",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        32.4,
+        28.1
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "PUMP_CHIP_GND_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "PUMP_INPUT_CAP_GND",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        28.7,
+        28.8
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "PUMP_INPUT_CAP_GND_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "PUMP_OUTPUT_CAP_GND",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        31.0,
+        35.4
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "PUMP_OUTPUT_CAP_GND_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "BOTTOM70_GND_LOBE_STITCH",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        31.3,
+        79.1
+      ],
+      "exactNewLineEndpointContacts": [],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": true,
+      "classification": "EXPLICIT_GROUND_PLANE_STITCH"
+    },
+    {
+      "viaKey": "REFERENCE_BUFFER_GND_V6",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        25.3,
+        70.6
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_C103-REFERENCE-FINAL-V6D_0006",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "REFERENCE_C160_GND_V6",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        29.0,
+        70.7
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_C103-REFERENCE-FINAL-V6D_0007",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "C103_POWER_LEFT_V6",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        21.4,
+        72.775
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_C103-REFERENCE-FINAL-V6D_0003",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "C103_POWER_BOTTOM_001",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "C103_GND_V6",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        21.5,
+        71.225
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_C103-REFERENCE-FINAL-V6D_0005",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "C103_POWER_VIN_V6",
+      "net": "+5V_AFE",
+      "actualSelectedCenterMm": [
+        25.4,
+        72.9
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "LABTOOL_C103-REFERENCE-FINAL-V6D_0004",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        },
+        {
+          "key": "C103_POWER_BOTTOM_001",
+          "layerId": 2,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C120",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        16.1,
+        137.32
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C120_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C123",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        16.1,
+        123.32
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C123_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C126",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        16.1,
+        109.32
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C126_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C129",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        16.1,
+        95.32
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C129_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C138",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        16.1,
+        53.32
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C138_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C141",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        16.1,
+        39.32
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C141_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C144",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        16.1,
+        25.32
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C144_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    },
+    {
+      "viaKey": "POSITIVE_BYPASS_GND_C147",
+      "net": "GND",
+      "actualSelectedCenterMm": [
+        15.1,
+        11.12
+      ],
+      "exactNewLineEndpointContacts": [
+        {
+          "key": "POSITIVE_BYPASS_GND_C147_STUB",
+          "layerId": 1,
+          "endpointErrorMm": 0.0
+        }
+      ],
+      "exactNewLineCentreTJunctions": [],
+      "nonCenteredCopperOverlapsInformational": [],
+      "intentionalPlaneOnly": false,
+      "classification": "CENTRED_ENDPOINT"
+    }
+  ],
+  "nativeCalls": 0,
+  "note": "Plane-only Bottom70 stitch must be proved against the authoritative final preserved Ground masks. Endpoint matching tolerance 0.00002mm covers native coordinate rounding only."
+}

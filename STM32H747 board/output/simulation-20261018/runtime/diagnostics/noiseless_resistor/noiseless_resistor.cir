@@ -1,0 +1,8 @@
+Absolute-zero noiseless resistor diagnostic
+.model R_NOISELESS RES (T_ABS=-273.15)
+V1 a 0 1
+R1 a b R_NOISELESS 1k
+R2 b 0 R_NOISELESS 1k
+.op
+.save v(a) v(b) i(v1)
+.end

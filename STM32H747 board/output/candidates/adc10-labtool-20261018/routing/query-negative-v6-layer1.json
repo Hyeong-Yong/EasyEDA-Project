@@ -1,0 +1,52 @@
+{
+  "schema": "adc10-labtool-bottom-bus-draft-20261018-v1",
+  "sourceSha256": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "portsPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-shared46-ports-v5.json",
+  "portsSha256": "e68854f4f1bb1856f7dd365a02eedd029019a829b566ce4b7dbccb298979e927",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "newLineCreates": [],
+  "connections": [],
+  "failedConnections": [
+    {
+      "net": "-3V_AFE",
+      "fromXYmm": [
+        40.3,
+        31.7
+      ],
+      "toXYmm": [
+        13.1,
+        29.0
+      ],
+      "role": "NegativefilteredDCfeedtoentryoutsidechannelpocket",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 126952
+    }
+  ],
+  "literalCopperConflicts": [],
+  "existingRawSource": {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "+5V",
+    "xyMm": [
+      89.34000166,
+      19.85999838
+    ]
+  },
+  "existingInvalidBottomFillsNotSilentlyRepaired": [
+    "9a405bd52ff5d175",
+    "d9b20cbcd6912827",
+    "cbf547853a678101",
+    "c18edd359ca3c0bd"
+  ],
+  "requiresLocalGroundFillVoids": true,
+  "clearanceMm": 0.17,
+  "existingViaChanges": 0,
+  "existingDrillChanges": 0,
+  "manufacturingReady": false,
+  "limitations": [
+    "NoGND FILLpathwrites;authoritativepreserving-splithelpermustsubtracteachtracewith.17mmclearance.",
+    "AllnewVIAantipadsandTOPstubconnectivityareseparaterequiredphases.",
+    "FullnativeDRC/sourceauditmustfollow,includingpreservingall799existingdrills/6layers/18rules."
+  ]
+}

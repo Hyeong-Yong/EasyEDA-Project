@@ -1,0 +1,637 @@
+{
+  "schema": "independent-eight-positive-bypass-ground-stitch-v3",
+  "passed": true,
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "manufacturingApproved": false,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v5b_saved-20261018.epru",
+  "sourceSha256": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+  "protectedCombinedRoutePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-combined-routing-v2.json",
+  "protectedCombinedRouteSha256": "fef1c7280edc8412c5f154f9663580f4ef49695746fb35250433ad02e4f59ed3",
+  "placementPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-short-negative-commonpower-v5b-ref-flipped-proposal.json",
+  "placementSha256": "7121af6778ac0a04d674d8ac355122fb613cd4028201dd7ad18e6dae606387fe",
+  "checkpointPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_107_placed_v5b_wip_20261018.epro2",
+  "checkpointSha256": "3c3b2da940e25735cb7d0746fb439c640133a29da32caf42d8c87e85550a8462",
+  "newViaCreates": [
+    {
+      "key": "POSITIVE_BYPASS_GND_C120",
+      "net": "GND",
+      "xyMm": [
+        16.1,
+        137.32
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C120:2",
+      "minimumOldNonFillCopperGapMm": 0.6252359635898778,
+      "minimumNewFrozenCopperGapMm": 0.2051287380017264,
+      "minimumOriginal799DrillEdgeGapMm": 2.6875770177055927,
+      "minimumReserved50DrillEdgeGapMm": 1.035483874189224,
+      "minimumAnyPadGapMm": 0.6252359635898778,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.2250004089999962,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.1590271608284692
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.1590271608284692
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.1590271608284692
+        }
+      ]
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C123",
+      "net": "GND",
+      "xyMm": [
+        16.1,
+        123.32
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C123:2",
+      "minimumOldNonFillCopperGapMm": 0.6252359622003338,
+      "minimumNewFrozenCopperGapMm": 0.20512870191675905,
+      "minimumOriginal799DrillEdgeGapMm": 2.7163311495267544,
+      "minimumReserved50DrillEdgeGapMm": 1.035483874189224,
+      "minimumAnyPadGapMm": 0.6252359622003338,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.22500040899999615,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.15902716082847201
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.15902716082847201
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.15902716082847201
+        }
+      ]
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C126",
+      "net": "GND",
+      "xyMm": [
+        16.1,
+        109.32
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C126:2",
+      "minimumOldNonFillCopperGapMm": 0.6252359608107952,
+      "minimumNewFrozenCopperGapMm": 0.2051286658317583,
+      "minimumOriginal799DrillEdgeGapMm": 2.6192253417368474,
+      "minimumReserved50DrillEdgeGapMm": 1.035483874189224,
+      "minimumAnyPadGapMm": 0.6252359608107952,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.22500040899999615,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.15902716082847201
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.15902716082847201
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.15902716082847201
+        }
+      ]
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C129",
+      "net": "GND",
+      "xyMm": [
+        16.1,
+        95.32
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C129:2",
+      "minimumOldNonFillCopperGapMm": 0.6252359594212625,
+      "minimumNewFrozenCopperGapMm": 0.20512862974676277,
+      "minimumOriginal799DrillEdgeGapMm": 2.6969652923489846,
+      "minimumReserved50DrillEdgeGapMm": 1.035483874189224,
+      "minimumAnyPadGapMm": 0.6252359594212625,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.22500040899999615,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.15902716082847201
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.15902716082847201
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.15902716082847201
+        }
+      ]
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C138",
+      "net": "GND",
+      "xyMm": [
+        16.1,
+        53.32
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C138:2",
+      "minimumOldNonFillCopperGapMm": 0.6252359552526991,
+      "minimumNewFrozenCopperGapMm": 0.20512852149181884,
+      "minimumOriginal799DrillEdgeGapMm": 2.660502092124805,
+      "minimumReserved50DrillEdgeGapMm": 1.0354838741892116,
+      "minimumAnyPadGapMm": 0.6252359552526991,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.22500040899999618,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.1590271608284718
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.1590271608284718
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.1590271608284718
+        }
+      ]
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C141",
+      "net": "GND",
+      "xyMm": [
+        16.1,
+        39.32
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C141:2",
+      "minimumOldNonFillCopperGapMm": 0.6252359538631893,
+      "minimumNewFrozenCopperGapMm": 0.20512848540682949,
+      "minimumOriginal799DrillEdgeGapMm": 2.6605021483563256,
+      "minimumReserved50DrillEdgeGapMm": 1.0354838741892116,
+      "minimumAnyPadGapMm": 0.6252359538631893,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.22500040899999618,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.1590271608284718
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.1590271608284718
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.1590271608284718
+        }
+      ]
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C144",
+      "net": "GND",
+      "xyMm": [
+        16.1,
+        25.32
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C144:2",
+      "minimumOldNonFillCopperGapMm": 0.6252359524736856,
+      "minimumNewFrozenCopperGapMm": 0.20512844932184643,
+      "minimumOriginal799DrillEdgeGapMm": 2.6969655699080493,
+      "minimumReserved50DrillEdgeGapMm": 1.0354838741892054,
+      "minimumAnyPadGapMm": 0.6252359524736856,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.22500040899999618,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.15902716082847163
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.15902716082847163
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.15902716082847163
+        }
+      ]
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C147",
+      "net": "GND",
+      "xyMm": [
+        15.1,
+        11.12
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pin": "C147:2",
+      "minimumOldNonFillCopperGapMm": 0.602356673149322,
+      "minimumNewFrozenCopperGapMm": 0.19926720316386223,
+      "minimumOriginal799DrillEdgeGapMm": 3.424153347371382,
+      "minimumReserved50DrillEdgeGapMm": 1.1410525841276549,
+      "minimumAnyPadGapMm": 0.365000457699999,
+      "noConservativeCourtyardIntersection": true,
+      "minimumConservativeCourtyardGapMm": 0.025000369399998945,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "net": "+3V3",
+          "layerId": 16,
+          "originalPolygonValid": true
+        }
+      ],
+      "originalInnerGroundContacts": [
+        {
+          "fillId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "contactAreaMm2": 0.15902716082847182
+        },
+        {
+          "fillId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "contactAreaMm2": 0.15902716082847182
+        },
+        {
+          "fillId": "ef12098577a13cc7",
+          "layerId": 18,
+          "contactAreaMm2": 0.15902716082847182
+        }
+      ]
+    }
+  ],
+  "newLineCreates": [
+    {
+      "key": "POSITIVE_BYPASS_GND_C120_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.19999954,
+        137.01999931480003
+      ],
+      "endXYmm": [
+        16.1,
+        137.32
+      ],
+      "lengthMm": 1.9235389674037442,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C120:2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C123_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.19999954,
+        123.01999937480002
+      ],
+      "endXYmm": [
+        16.1,
+        123.32
+      ],
+      "lengthMm": 1.9235389580459734,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C123:2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C126_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.19999954,
+        109.0199994348
+      ],
+      "endXYmm": [
+        16.1,
+        109.32
+      ],
+      "lengthMm": 1.9235389486882069,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C126:2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C129_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.19999954,
+        95.01999949479999
+      ],
+      "endXYmm": [
+        16.1,
+        95.32
+      ],
+      "lengthMm": 1.9235389393304396,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C129:2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C138_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.199999539999999,
+        53.0199996748
+      ],
+      "endXYmm": [
+        16.1,
+        53.32
+      ],
+      "lengthMm": 1.9235389112571468,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C138:2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C141_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.199999539999999,
+        39.01999973479999
+      ],
+      "endXYmm": [
+        16.1,
+        39.32
+      ],
+      "lengthMm": 1.9235389018993871,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C141:2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C144_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.19999954,
+        25.0199997948
+      ],
+      "endXYmm": [
+        16.1,
+        25.32
+      ],
+      "lengthMm": 1.9235388925416241,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C144:2"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C147_STUB",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        14.19999954,
+        11.019999854799998
+      ],
+      "endXYmm": [
+        15.1,
+        11.12
+      ],
+      "lengthMm": 0.9055389870349215,
+      "role": "Dedicated short GND return for positive OPA189 local bypass C147:2"
+    }
+  ],
+  "failures": [],
+  "searchDiagnostics": [
+    {
+      "ref": "C120",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 509,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 649,
+        "TOP_STUB_CU": 82,
+        "RESERVED50_OR_EARLIER_NEW_DRILL": 4
+      }
+    },
+    {
+      "ref": "C123",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 509,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 649,
+        "TOP_STUB_CU": 82,
+        "RESERVED50_OR_EARLIER_NEW_DRILL": 4
+      }
+    },
+    {
+      "ref": "C126",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 509,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 649,
+        "TOP_STUB_CU": 82,
+        "RESERVED50_OR_EARLIER_NEW_DRILL": 4
+      }
+    },
+    {
+      "ref": "C129",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 509,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 649,
+        "TOP_STUB_CU": 82,
+        "RESERVED50_OR_EARLIER_NEW_DRILL": 4
+      }
+    },
+    {
+      "ref": "C138",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 509,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 649,
+        "TOP_STUB_CU": 82,
+        "RESERVED50_OR_EARLIER_NEW_DRILL": 5
+      }
+    },
+    {
+      "ref": "C141",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 509,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 649,
+        "TOP_STUB_CU": 82,
+        "RESERVED50_OR_EARLIER_NEW_DRILL": 5
+      }
+    },
+    {
+      "ref": "C144",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 509,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 649,
+        "TOP_STUB_CU": 82,
+        "RESERVED50_OR_EARLIER_NEW_DRILL": 5
+      }
+    },
+    {
+      "ref": "C147",
+      "rejected": {
+        "ALL6_NON_FILL_VIA_CU": 238,
+        "BODY_OR_CONSERVATIVE_COURTYARD": 218,
+        "TOP_STUB_CU": 66
+      }
+    }
+  ],
+  "original640Vias799DrillsChanged": 0,
+  "protectedPriorNewViaCount": 50,
+  "requirements": [
+    "Recombine with router-owned C103/U32/C160 correction and independently crosscheck all new routes/vias.",
+    "All6 local FILL antipads mandatory; do not delete the original target pad-bearing lobes.",
+    "Rerun all345 GND pads and retained lobes to actual MCU-VSS after final mask.",
+    "Native readback, strict DRC, save/reopen and final physical graphs before completion."
+  ]
+}

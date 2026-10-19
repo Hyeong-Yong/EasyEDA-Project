@@ -1,0 +1,39 @@
+{
+  "schema": "adc10-labtool-frozen-v2-static-visual-qa-and-metadata-correction",
+  "routingSha256": "fef1c7280edc8412c5f154f9663580f4ef49695746fb35250433ad02e4f59ed3",
+  "sourceSha256": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+  "nativeCalls": 0,
+  "geometryChanged": false,
+  "inspectedPngFiles": [
+    "analog-left-strip-top-bottom-frozen-v2.png",
+    "reference-top-bottom-frozen-v2.png",
+    "pump-top-bottom-frozen-v2.png",
+    "negative-inner15-three-lines-frozen-v2.png"
+  ],
+  "visualObservations": [
+    "All ten row routes repeat the same short local feedback/negative-bypass arrangement. Separate Bottom positive and negative trunks stay on the analog strip's left side.",
+    "The FILTER divider is fully TOP routed after the two reference rotations. Its high-impedance node has no signal VIA. Static plane clearance/ground return validation remains a separate authoritative mask gate.",
+    "The updated Inner15 negative feed visibly passes below both RAW+5 bridge VIAs rather than intersecting the VIA at 29.4,33.8.",
+    "The pump flying-capacitor/output loops remain local; RAW+5, filtered +5AFE and regulated -3AFE are distinct nets. New pump GND VIAs are visible at their three approved sites.",
+    "No additional apparent same-layer crossing or unreserved VIA/footprint-body interference was found in the four previews. This is supplemental to numeric screening, not a DRC result."
+  ],
+  "correctionToFrozenMetadataOnly": {
+    "field": "replacementForUnroutedV7PowerEdge",
+    "actualV7UnroutedRole": "ReferenceRIGHTlandinglocalpositivebypasses",
+    "actualV7UnroutedFrom": "U9.2",
+    "actualV7UnroutedTo": "C103.1",
+    "alreadySuccessfulCommonToReferenceFeed": {
+      "lineKeys": ["LABTOOL_LOCAL_0341", "LABTOOL_LOCAL_0342", "LABTOOL_LOCAL_0343", "LABTOOL_LOCAL_0344", "LABTOOL_LOCAL_0345", "LABTOOL_LOCAL_0346"],
+      "lengthMm": 54.27545880532493,
+      "preservedInFrozenV2": true
+    },
+    "accurateConnectionDescription": "COMMON +5AFE feeds both the left channel rail and REF_PLUS through its two successful TOP branches. The added power VIA at 15.5,72.0 connects the existing filtered positive Bottom rail to C103.1 with two TOP lines. This completes C103's +5AFE bypass connection; C103 does not have a separate direct TOP connection to the reference tree.",
+    "electricalAndGeometryImpact": "None. All literal pad-to-pad graphs remain connected; R200 filtering is not bypassed. The frozen routing geometry and its hash stay unchanged."
+  },
+  "limitations": [
+    "All pictures are top-coordinate static offline overlays, not live EasyEDA screenshots or fabrication outputs.",
+    "Bottom is intentionally not mirrored so it aligns with TOP. Static FILL planes and pending local antipads are hidden.",
+    "The long filtered +5AFE DC supply feed and the C103 remote branch are visible routing compromises, not measured noise-performance guarantees.",
+    "Authoritative six-layer preserving masks, all physical Ground anchors, native source-union audits and strict unchanged-rule DRC remain mandatory."
+  ]
+}

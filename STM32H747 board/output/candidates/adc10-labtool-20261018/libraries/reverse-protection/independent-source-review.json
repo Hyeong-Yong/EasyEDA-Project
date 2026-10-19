@@ -1,0 +1,29 @@
+{
+  "schema": "adc10-labtool-reverse-protection-independent-source-review-20261018-v1",
+  "passed": true,
+  "reviewer": "/root/adc_library_builder/labtool_library_qa",
+  "method": "Independent parser of actual mini-project ZIP, plus visual review of official Vishay full-page pin/land diagrams",
+  "packageSha256": "ebf18f61170a0ca837994cdf43f2c769fca2e497f85f784c259c970cd6662ea2",
+  "documentCounts": {"SYMBOL": 1, "FOOTPRINT": 1, "DEVICE": 1},
+  "newDocumentAndHexPrimitiveIdCount": 26,
+  "existingIdCollisions": 0,
+  "actualSymbolPins": [
+    {"number": "1", "name": "K", "x": -25, "y": 0, "electric": "Passive"},
+    {"number": "2", "name": "A", "x": 25, "y": 0, "electric": "Passive"}
+  ],
+  "actualFootprintPads": [
+    {"number": "1", "name": "K", "centerMm": [-1.2, 0], "copperSizeMm": [0.8, 0.6]},
+    {"number": "2", "name": "A", "centerMm": [1.2, 0], "copperSizeMm": [0.8, 0.6]}
+  ],
+  "landPatternInnerGapMm": 1.6,
+  "symbolAndFootprintCathodeLeft": true,
+  "officialPin1CathodeBandVerified": true,
+  "actualDeviceBindingsCorrect": true,
+  "actualPinToPadNumberSetMatches": true,
+  "manufacturer": "Vishay Semiconductors",
+  "orderablePartNumberVerified": "BAT54WS-E3-08",
+  "nativeApiCalled": false,
+  "reviewerFileWrites": false,
+  "manufacturingApproved": false,
+  "shutdownCurrentAndDiodeForwardVoltageBenchValidated": false
+}

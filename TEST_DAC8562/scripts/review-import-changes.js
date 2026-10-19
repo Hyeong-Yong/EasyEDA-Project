@@ -1,0 +1,1 @@
+const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();if(d?.uuid!=='4e08f91f9a2c4fe4'||d.documentType!==3)throw new Error('Wrong PCB');if(!await eda.pcb_Document.save())throw new Error('Cannot save PCB');return {requested:await eda.pcb_Document.importChanges()};

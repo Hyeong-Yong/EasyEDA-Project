@@ -1,0 +1,55 @@
+STM32H747 representative ADC review: dcpoint_nominal_v5p5_v3p3p3_smap1
+* TI vendor model compatibility run in ngspice 47, NOT Cadence PSpice.
+* CAD files unchanged; see source-audit.json and model-index.json.
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/OPA189/OPAx189.LIB"
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/OPA320/OPAx320-Q1.LIB"
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/REF5025/REF5025.LIB"
+.options reltol=1e-5 abstol=1e-12 vntol=1e-7 itl1=500 itl4=1000 method=gear
+.temp 27
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/runtime/warm-start-full.inc"
+
+V5 v5 0 DC 5
+V3 v3 0 DC 3.3
+VN vn3 0 DC -3.01244
+R200 v5 v5afe 4.7
+C156 v5afe 0 4.7u
+C157 v5afe 0 4.7u
+* Nine unsimulated front buffers: explicit nominal 1.3mA DC rail load EACH.
+* This load is an assumption, not a full ten-channel coupling simulation.
+Iother v5afe vn3 11.7m
+
+XU9 v5afe ref_temp 0 nr ref25 REF5025
+C103 v5afe 0 1u
+C105 nr 0 1u
+R201 ref25 ref_esr 1
+C104 ref_esr 0 4.7u
+R202 ref25 off_filt 15.8k
+R203 off_filt 0 10k
+C158 off_filt 0 4.7u
+XU32 off_filt off_buf v5afe 0 off_buf OPAx189
+C160 v5afe 0 100n
+R204 off_buf off 1k
+C159 off 0 4.7u
+* Nine other OPA320 + input capacitances approximated by 4pF each.
+Cother off 0 36p
+
+* Actual J2 values; source resistance is generator, not board termination.
+Vsig_j2 src_j2 0 DC 1.0005 AC 1
+Rsource_j2 src_j2 raw_j2 50
+R177_j2 raw_j2 0 100000
+R140_j2 raw_j2 filt_j2 3320
+C97_j2 filt_j2 0 10n
+XU20_j2 filt_j2 buf_j2 v5afe vn3 buf_j2 OPAx189
+C120_j2 v5afe 0 100n
+C121_j2 vn3 0 100n
+R137_j2 buf_j2 sum_j2 4000
+XU10_j2 off sum_j2 v3 0 drv_j2 OPAx320-Q1
+C100_j2 v3 0 100n
+R187_j2 sum_j2 drv_j2 2800
+C122_j2 sum_j2 drv_j2 10n
+R141_j2 drv_j2 adc_j2 47
+C80_j2 adc_j2 0 10n
+
+.save v(raw_j2) v(filt_j2) v(buf_j2) v(drv_j2) v(adc_j2) v(off) v(ref25) v(v5afe) i(v5) i(v3) i(vn)
+.op
+.end

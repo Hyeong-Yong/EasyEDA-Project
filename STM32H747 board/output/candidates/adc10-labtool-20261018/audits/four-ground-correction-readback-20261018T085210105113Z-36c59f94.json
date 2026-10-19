@@ -1,0 +1,17 @@
+{
+  "schema": "labtool-four-ground-line-corrective-readback-v1",
+  "passed": false,
+  "errors": [
+    {
+      "code": "FAIL_CLOSED_EXCEPTION",
+      "message": "[Errno 2] No such file or directory: 'C:\\\\Dev\\\\EasyEDA\\\\EasyEDA-Project\\\\STM32H747 board\\\\output\\\\candidates\\\\adc10-labtool-20261018\\\\audits\\\\audits\\\\copper-readback-copper_wire13-20261018T084247311416Z-a6fc5dc5.json'",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-ground-correction-20261018.py\", line 209, in main\n    try: report=run(args)\n                ^^^^^^^^^\n  File \"C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-ground-correction-20261018.py\", line 102, in run\n    prefix = S['run'](SimpleNamespace(audited_report=args.main_audit, audited_report_sha=args.main_audit_sha,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-saved-delta-20261018.py\", line 105, in run\n    assert sha(apath) == args.audited_report_sha, 'FINAL_AUDIT_REPORT_HASH_MISMATCH'\n           ^^^^^^^^^^\n  File \"C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-saved-delta-20261018.py\", line 24, in sha\n    return hashlib.sha256(path.read_bytes()).hexdigest()\n                          ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jjj\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1019, in read_bytes\n    with self.open(mode='rb') as f:\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jjj\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Dev\\\\EasyEDA\\\\EasyEDA-Project\\\\STM32H747 board\\\\output\\\\candidates\\\\adc10-labtool-20261018\\\\audits\\\\audits\\\\copper-readback-copper_wire13-20261018T084247311416Z-a6fc5dc5.json'\n"
+    }
+  ],
+  "nativeApiCalls": 0,
+  "nativeDesignModified": false,
+  "manufacturingReady": false,
+  "auditedUtc": "2026-10-18T08:52:10.105113+00:00",
+  "correctionAuditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-ground-correction-20261018.py",
+  "correctionAuditorSha256": "6c696a1abf436804436c1df3d933b53b7ea49947ca9dcd6ffac6ce2e653810a4"
+}

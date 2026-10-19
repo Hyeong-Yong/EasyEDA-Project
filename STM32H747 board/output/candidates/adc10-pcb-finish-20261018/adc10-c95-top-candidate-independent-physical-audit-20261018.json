@@ -1,0 +1,156 @@
+{
+  "schema": "stm32h747-c95-top-candidate-independent-20261018-v1",
+  "passed": true,
+  "mode": "PROSPECTIVE_C95_NO_NATIVE_MUTATION",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-direct4_copper-20261018.epru",
+  "sourceSha256": "f4c4fd15b00355d60b78391249c64aff1dd99903597fdbf937ed5dbb48c9fc4a",
+  "candidatePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\strip\\c95-layer18\\c95-top-exterior-result.json",
+  "candidateSha256": "46e88e344d367897dc77b1b984f6b23faf17ce5b73c3b2f60a7adf1d0a7b9d32",
+  "newActors": 6,
+  "nearestDifferentNetSourceCopper": [
+    {
+      "new": "C95pad1",
+      "nearestSourceCopper": [
+        1.4650005977000118,
+        "LINE:ef214d19957c2e6c",
+        "GND"
+      ]
+    },
+    {
+      "new": "C95pad2",
+      "nearestSourceCopper": [
+        2.381969329386326,
+        "LINE:10e4ff36d924f313",
+        "NET-(D1-K)"
+      ]
+    },
+    {
+      "new": "signal",
+      "nearestSourceCopper": [
+        1.018495435730381,
+        "LINE:ef214d19957c2e6c",
+        "GND"
+      ]
+    },
+    {
+      "new": "GNDreturn",
+      "nearestSourceCopper": [
+        0.8424993601018478,
+        "U1.R1",
+        ""
+      ]
+    },
+    {
+      "new": "inner0",
+      "nearestSourceCopper": [
+        0.15798387253249685,
+        "VIA:4ae5f2d39ccde8fc",
+        "ADC3_INP8"
+      ]
+    },
+    {
+      "new": "newSignalVIA",
+      "nearestSourceCopper": [
+        0.17799927000000082,
+        "LINE:a36491817685b0a8",
+        "ADC3_INP2"
+      ]
+    }
+  ],
+  "newDrillNearestOldDrillGapMm": 1.0784853692532117,
+  "groundViaParentPlaneReach": [
+    {
+      "id": "4390d61d8c7f4f80",
+      "layerId": 15,
+      "areaMm2": 203.9104078732046,
+      "existingGNDviaAnchors": 31
+    },
+    {
+      "id": "daa2e5885d92eda0",
+      "layerId": 18,
+      "areaMm2": 203.9104078732046,
+      "existingGNDviaAnchors": 31
+    }
+  ],
+  "escapeToPin1ElectricalPathMm": 5.729181454594867,
+  "checks": [
+    {
+      "test": "Existing C95 numbered pin net retained 1",
+      "passed": true
+    },
+    {
+      "test": "Exact native C95 TOP pad geometry matches specified world pad 1",
+      "passed": true
+    },
+    {
+      "test": "Existing C95 numbered pin net retained 2",
+      "passed": true
+    },
+    {
+      "test": "Exact native C95 TOP pad geometry matches specified world pad 2",
+      "passed": true
+    },
+    {
+      "test": "All six-layer new VIA/pads/TOPsignal/TOPGND/inner18 copper clear of different-net non-FILL source and each other by .1524mm",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "C95 reserved TOP assembly envelope clear of all actual TOP silk/assembly/courtyard outline boxes by .10mm",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "U1",
+          "gapMm": 1.6741005383999974
+        }
+      ]
+    },
+    {
+      "test": "New .2mm physical drill clears every original plated drill by >=.25mm",
+      "passed": true,
+      "detail": {
+        "gapMm": 1.0784853692532117,
+        "nearestOldVIAId": "e0f0dcd1975e7708"
+      }
+    },
+    {
+      "test": "Explicit old return VIA is plated GND with all Cu layers retained",
+      "passed": true
+    },
+    {
+      "test": "Literal planned .30mm GND trace joins exact C95pin2 and protected old GNDvia annulus",
+      "passed": true
+    },
+    {
+      "test": "Protected return via physically enters unchanged valid multi-anchor inner GND plane",
+      "passed": true,
+      "detail": [
+        {
+          "id": "4390d61d8c7f4f80",
+          "layerId": 15,
+          "areaMm2": 203.9104078732046,
+          "existingGNDviaAnchors": 31
+        },
+        {
+          "id": "daa2e5885d92eda0",
+          "layerId": 18,
+          "areaMm2": 203.9104078732046,
+          "existingGNDviaAnchors": 31
+        }
+      ]
+    },
+    {
+      "test": "Literal ADC escape\u2192In18 branch\u2192new plated VIA\u2192TOP trace\u2192pin1 continuity",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0,
+  "limits": [
+    "Local GND/power FILL antipads and final GND graph AFTER cuts remain required; no exemption for routed signal copper/pads/vias.",
+    "Current source includes actual direct4 pads/traces; original MCU/BGA escape copper and all old drills are read-only.",
+    "TOP body screen uses actual native footprint layer3/9/48 outline bounding boxes as conservative assembly/courtyard proxies, not a manufacturer mechanical simulation.",
+    "ARC strokes use <=.5degree segmentation. Native strict DRC, rule-specific via/drill check and final CAM are mandatory. No fabrication approval."
+  ]
+}

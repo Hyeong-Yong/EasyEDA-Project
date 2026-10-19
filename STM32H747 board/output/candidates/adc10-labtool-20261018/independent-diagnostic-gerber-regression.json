@@ -1,0 +1,883 @@
+{
+  "schema": "labtool-adc10-focused-diagnostic-gerber-regression-v1",
+  "passed": true,
+  "checks": {
+    "all799OriginalDrillsPreserved": true,
+    "expectedNewPthCount": true,
+    "expectedExportedPhysicalDrillCount": true,
+    "everyNewNativeViaMatchesExport": true,
+    "oldMechanicalOutlineExact": true,
+    "priorVerifiedBottomSilkStrokesRetained": true,
+    "sixCopperLayerMembers": true
+  },
+  "baseline": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_adc10_routed_20261018_DIAGNOSTIC_NOT_FOR_FAB.zip",
+    "sha256": "af168c61f367eaa980b4e9140824e6c2cf6ee3e718466cae9c51a08004ce9405"
+  },
+  "current": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_labtool_adc10_final_20261018_DIAGNOSTIC_NOT_FOR_FAB.zip",
+    "sha256": "41bdde1426002cd641b437f877c395b948ca928282f7de92eec9efe724139ecb"
+  },
+  "executionManifest": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-final-copper-v5-execution.json",
+    "sha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3"
+  },
+  "beforeDrills": 799,
+  "afterDrills": 863,
+  "lostOriginalDrills": [],
+  "newViaMatches": [
+    {
+      "key": "AFE_PLUS_PORT_J2",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        138.40000006
+      ],
+      "matchedXYmm": [
+        15.5,
+        138.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J2",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        135.50000078
+      ],
+      "matchedXYmm": [
+        8.9,
+        135.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J3",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        124.40000012
+      ],
+      "matchedXYmm": [
+        15.5,
+        124.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J3",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        121.50000084
+      ],
+      "matchedXYmm": [
+        8.9,
+        121.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J4",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        110.40000017999999
+      ],
+      "matchedXYmm": [
+        15.5,
+        110.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J4",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        107.50000089999999
+      ],
+      "matchedXYmm": [
+        8.9,
+        107.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J5",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        96.40000024
+      ],
+      "matchedXYmm": [
+        15.5,
+        96.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J5",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        93.50000096000001
+      ],
+      "matchedXYmm": [
+        8.9,
+        93.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J6",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        82.4000003
+      ],
+      "matchedXYmm": [
+        15.5,
+        82.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J6",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        79.50000102
+      ],
+      "matchedXYmm": [
+        8.9,
+        79.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J7",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        68.40000035999999
+      ],
+      "matchedXYmm": [
+        15.5,
+        68.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J7",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        65.50000108
+      ],
+      "matchedXYmm": [
+        8.9,
+        65.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J8",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        54.40000042
+      ],
+      "matchedXYmm": [
+        15.5,
+        54.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J8",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        51.500001139999995
+      ],
+      "matchedXYmm": [
+        8.9,
+        51.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J9",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        40.40000048
+      ],
+      "matchedXYmm": [
+        15.5,
+        40.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J9",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        37.5000012
+      ],
+      "matchedXYmm": [
+        8.9,
+        37.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J10",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        26.40000054
+      ],
+      "matchedXYmm": [
+        15.5,
+        26.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J10",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        23.50000126
+      ],
+      "matchedXYmm": [
+        8.9,
+        23.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_PLUS_PORT_J11",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        15.499999480000001,
+        12.4000006
+      ],
+      "matchedXYmm": [
+        15.5,
+        12.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "AFE_MINUS_PORT_J11",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        8.89999998,
+        9.499998779999999
+      ],
+      "matchedXYmm": [
+        8.9,
+        9.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "OFFSET_OUTPUT_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "expectedXYmm": [
+        24.599999060000002,
+        67.89999882000001
+      ],
+      "matchedXYmm": [
+        24.6,
+        67.9
+      ],
+      "passed": true
+    },
+    {
+      "key": "OFFSET_UPPER_BUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "expectedXYmm": [
+        25.4,
+        87.00000125999999
+      ],
+      "matchedXYmm": [
+        25.4,
+        87.0
+      ],
+      "passed": true
+    },
+    {
+      "key": "OFFSET_LOWER_BUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "expectedXYmm": [
+        26.300000739999998,
+        61.19999952
+      ],
+      "matchedXYmm": [
+        26.3,
+        61.2
+      ],
+      "passed": true
+    },
+    {
+      "key": "OFFSET_BUCKET_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "expectedXYmm": [
+        30.40000016,
+        83.50000064
+      ],
+      "matchedXYmm": [
+        30.4,
+        83.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "REF_PLUS_PORT",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        29.000000419999996,
+        72.89999897999999
+      ],
+      "matchedXYmm": [
+        29.0,
+        72.9
+      ],
+      "passed": true
+    },
+    {
+      "key": "OFFSET_J7_PLUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "expectedXYmm": [
+        16.999999019999997,
+        66.39999928
+      ],
+      "matchedXYmm": [
+        17.0,
+        66.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "OFFSET_J6_PLUS_PORT",
+      "net": "ADC_OFFSET_0V97",
+      "expectedXYmm": [
+        16.59999982,
+        80.49999901999999
+      ],
+      "matchedXYmm": [
+        16.6,
+        80.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J2",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        134.79999963999998
+      ],
+      "matchedXYmm": [
+        6.4,
+        134.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J3",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        120.79999969999999
+      ],
+      "matchedXYmm": [
+        6.4,
+        120.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J4",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        106.79999975999999
+      ],
+      "matchedXYmm": [
+        6.4,
+        106.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J5",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        92.79999982
+      ],
+      "matchedXYmm": [
+        6.4,
+        92.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J6",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        78.79999988
+      ],
+      "matchedXYmm": [
+        6.4,
+        78.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J7",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        64.79999993999999
+      ],
+      "matchedXYmm": [
+        6.4,
+        64.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J8",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        50.8
+      ],
+      "matchedXYmm": [
+        6.4,
+        50.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J9",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        36.800000059999995
+      ],
+      "matchedXYmm": [
+        6.4,
+        36.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J10",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        22.80000012
+      ],
+      "matchedXYmm": [
+        6.4,
+        22.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_NEGATIVE_BYPASS_J11",
+      "net": "GND",
+      "expectedXYmm": [
+        6.3999999,
+        8.80000018
+      ],
+      "matchedXYmm": [
+        6.4,
+        8.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_POSITIVE_BYPASS_J6",
+      "net": "GND",
+      "expectedXYmm": [
+        14.19999954,
+        80.14999972
+      ],
+      "matchedXYmm": [
+        14.2,
+        80.15
+      ],
+      "passed": true
+    },
+    {
+      "key": "GND_OFFSET_DIVIDER",
+      "net": "GND",
+      "expectedXYmm": [
+        26.300000739999998,
+        67.39999981999999
+      ],
+      "matchedXYmm": [
+        26.3,
+        67.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "RAW5_R197_PORT",
+      "net": "+5V",
+      "expectedXYmm": [
+        28.90000062,
+        34.200000179999996
+      ],
+      "matchedXYmm": [
+        28.9,
+        34.2
+      ],
+      "passed": true
+    },
+    {
+      "key": "RAW5_R200_PORT",
+      "net": "+5V",
+      "expectedXYmm": [
+        28.299999279999998,
+        21.99999918
+      ],
+      "matchedXYmm": [
+        28.3,
+        22.0
+      ],
+      "passed": true
+    },
+    {
+      "key": "PLUS_AFE_COMMON_PORT",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        30.999998960000003,
+        24.49999926
+      ],
+      "matchedXYmm": [
+        31.0,
+        24.5
+      ],
+      "passed": true
+    },
+    {
+      "key": "MINUS_AFE_COMMON_PORT",
+      "net": "-3V_AFE",
+      "expectedXYmm": [
+        40.30000068,
+        31.7000001
+      ],
+      "matchedXYmm": [
+        40.3,
+        31.7
+      ],
+      "passed": true
+    },
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_1",
+      "net": "+5V",
+      "expectedXYmm": [
+        33.49999904,
+        30.59999976
+      ],
+      "matchedXYmm": [
+        33.5,
+        30.6
+      ],
+      "passed": true
+    },
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_2",
+      "net": "+5V",
+      "expectedXYmm": [
+        29.39999962,
+        33.80000097999999
+      ],
+      "matchedXYmm": [
+        29.4,
+        33.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "PUMP_CHIP_GND",
+      "net": "GND",
+      "expectedXYmm": [
+        32.40000124,
+        28.099999679999996
+      ],
+      "matchedXYmm": [
+        32.4,
+        28.1
+      ],
+      "passed": true
+    },
+    {
+      "key": "PUMP_INPUT_CAP_GND",
+      "net": "GND",
+      "expectedXYmm": [
+        28.70000102,
+        28.80000082
+      ],
+      "matchedXYmm": [
+        28.7,
+        28.8
+      ],
+      "passed": true
+    },
+    {
+      "key": "PUMP_OUTPUT_CAP_GND",
+      "net": "GND",
+      "expectedXYmm": [
+        30.999998960000003,
+        35.400000320000004
+      ],
+      "matchedXYmm": [
+        31.0,
+        35.4
+      ],
+      "passed": true
+    },
+    {
+      "key": "BOTTOM70_GND_LOBE_STITCH",
+      "net": "GND",
+      "expectedXYmm": [
+        31.3000009,
+        79.09999928
+      ],
+      "matchedXYmm": [
+        31.3,
+        79.1
+      ],
+      "passed": true
+    },
+    {
+      "key": "REFERENCE_BUFFER_GND_V6",
+      "net": "GND",
+      "expectedXYmm": [
+        25.3000002,
+        70.60000104
+      ],
+      "matchedXYmm": [
+        25.3,
+        70.6
+      ],
+      "passed": true
+    },
+    {
+      "key": "REFERENCE_C160_GND_V6",
+      "net": "GND",
+      "expectedXYmm": [
+        29.000000419999996,
+        70.70000083999999
+      ],
+      "matchedXYmm": [
+        29.0,
+        70.7
+      ],
+      "passed": true
+    },
+    {
+      "key": "C103_POWER_LEFT_V6",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        21.400000379999998,
+        72.77500049999999
+      ],
+      "matchedXYmm": [
+        21.4,
+        72.775
+      ],
+      "passed": true
+    },
+    {
+      "key": "C103_GND_V6",
+      "net": "GND",
+      "expectedXYmm": [
+        21.500000179999997,
+        71.22500106
+      ],
+      "matchedXYmm": [
+        21.5,
+        71.225
+      ],
+      "passed": true
+    },
+    {
+      "key": "C103_POWER_VIN_V6",
+      "net": "+5V_AFE",
+      "expectedXYmm": [
+        25.4,
+        72.89999897999999
+      ],
+      "matchedXYmm": [
+        25.4,
+        72.9
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C120",
+      "net": "GND",
+      "expectedXYmm": [
+        16.100000819999998,
+        137.31999968
+      ],
+      "matchedXYmm": [
+        16.1,
+        137.32
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C123",
+      "net": "GND",
+      "expectedXYmm": [
+        16.100000819999998,
+        123.31999973999999
+      ],
+      "matchedXYmm": [
+        16.1,
+        123.32
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C126",
+      "net": "GND",
+      "expectedXYmm": [
+        16.100000819999998,
+        109.31999979999999
+      ],
+      "matchedXYmm": [
+        16.1,
+        109.32
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C129",
+      "net": "GND",
+      "expectedXYmm": [
+        16.100000819999998,
+        95.31999986
+      ],
+      "matchedXYmm": [
+        16.1,
+        95.32
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C138",
+      "net": "GND",
+      "expectedXYmm": [
+        16.100000819999998,
+        53.32000004
+      ],
+      "matchedXYmm": [
+        16.1,
+        53.32
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C141",
+      "net": "GND",
+      "expectedXYmm": [
+        16.100000819999998,
+        39.3200001
+      ],
+      "matchedXYmm": [
+        16.1,
+        39.32
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C144",
+      "net": "GND",
+      "expectedXYmm": [
+        16.100000819999998,
+        25.32000016
+      ],
+      "matchedXYmm": [
+        16.1,
+        25.32
+      ],
+      "passed": true
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C147",
+      "net": "GND",
+      "expectedXYmm": [
+        15.10000028,
+        11.120000619999999
+      ],
+      "matchedXYmm": [
+        15.1,
+        11.12
+      ],
+      "passed": true
+    },
+    {
+      "key": "FINAL_FLOATING_TOP20_GND_STITCH",
+      "net": "GND",
+      "expectedXYmm": [
+        18.52239882,
+        74.75739938
+      ],
+      "matchedXYmm": [
+        18.5224,
+        74.7574
+      ],
+      "passed": true
+    },
+    {
+      "key": "FINAL_FLOATING_BOTTOM7_GND_STITCH",
+      "net": "GND",
+      "expectedXYmm": [
+        29.151501259999996,
+        32.476500959999996
+      ],
+      "matchedXYmm": [
+        29.1515,
+        32.4765
+      ],
+      "passed": true
+    }
+  ],
+  "copperMembers": [
+    "Gerber_TopLayer.GTL",
+    "Gerber_BottomLayer.GBL",
+    "Gerber_InnerLayer1.G1",
+    "Gerber_InnerLayer2.G2",
+    "Gerber_InnerLayer3.G3",
+    "Gerber_InnerLayer4.G4"
+  ],
+  "outlineExactResolvedObjects": true,
+  "bottomSilk": {
+    "oldObjectCount": 1207,
+    "newObjectCount": 1243,
+    "lostStrokeCount": 0,
+    "qualification": "Inherits prior actual-backside readability verification only if the exact resolved stroke multiset is retained."
+  },
+  "nativeCalls": 0,
+  "manufacturingApproved": false,
+  "limitations": [
+    "Focused drill/outline/silkscreen export check only, not full copper CAM clearance or signal-integrity validation.",
+    "Existing inner-layer export/CAM caveats and hardware noise/startup/settling validation are not cleared by this report."
+  ]
+}

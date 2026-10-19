@@ -1,0 +1,66 @@
+{
+  "schema": "stm32h747-read-only-open-sma-topology-research-v1",
+  "status": "research-only-no-native-or-library-changes",
+  "manufacturing_approved": false,
+  "latest_constraints": {
+    "open_input_requirement": "Physical MCU ADC pin near 0 V, not merely input-equivalent zero",
+    "new_negative_supply_allowed": false,
+    "normal_input": "DC plus 60 Hz, -2 V to +2 V",
+    "source_impedance_ohm": null
+  },
+  "current_circuit": {
+    "topology": "SMA -> 6.8k resistor -> summing node with 6.8k to REF3325 2.5V -> OPA320 follower -> 47ohm/2.2nF -> ADC",
+    "nominal_valid_transfer": "V_ADC = 0.5*V_input + 1.25 V, negligible source impedance",
+    "normal_input_zero_adc_v": 1.25,
+    "open_adc_v_without_pulldown": 2.5,
+    "available_documented_rails": ["+5V", "+3V3", "+1V8", "GND", "SMPS_GND"],
+    "negative_rail_documented": false,
+    "evidence": {
+      "latest_netlist": "output/validation/native-adc-dc-Protel2-20261016.net",
+      "rail_line_numbers": {"GND": 13717, "+3V3": 13959, "+1V8": 15061, "+5V": 15073, "ADC_BIAS_2V5": 15561},
+      "opa320_negative_supply_ground_lines": [13948, 13949, 13950],
+      "power_page": "output/native-schematics/03_MCU_POWER.epru"
+    }
+  },
+  "connector_to_ground_pulldown_calculation": {
+    "assumptions": "Ideal 2.5V reference and follower, 6.8k input and bias resistors, SMA unplugged, no other fitted DC return",
+    "open_sma_formula": "V_SMA = 2.5*Rpd/(13600+Rpd)",
+    "open_adc_formula": "V_ADC = 2.5*(6800+Rpd)/(13600+Rpd)",
+    "examples": [
+      {"Rpd_ohm": 100000, "open_sma_v": 2.2007042253521125, "open_adc_v": 2.3503521126760565},
+      {"Rpd_ohm": 1000000, "open_sma_v": 2.4664561957379636, "open_adc_v": 2.483228097868982},
+      {"Rpd_ohm": 50, "open_sma_v": 0.009157509157509158, "open_adc_v": 1.2545787545787546}
+    ],
+    "Rpd_max_for_10mV_input_equivalent_open_error_ohm": 54.618473895582326,
+    "conclusion": "A weak 100k/1M pulldown alone does not establish zero. A strong return heavily loads the source and still targets ADC 1.25V, not raw ADC 0V."
+  },
+  "options": [
+    {
+      "name": "High-impedance bipolar input buffer before level shifting",
+      "effect": "Weak GND return at the raw input plus a buffer prevents reference backfeed. Open and driven input 0V both approach ADC 1.25V/input-equivalent zero.",
+      "candidate": "OPA197/OPA4197 supplied +3.3V/-3V; LM27761 could create regulated -3V from existing +5V",
+      "eligible_under_latest_constraints": false,
+      "reason": "Needs a new negative rail and does not make raw ADC pin zero on open",
+      "precision_caveats": ["OPA197 at +3.3/-3V has input-stage transition around input +0.3 to +1.8V; precision and noise require validation.", "OPA197 bias current max over temperature can create 5mV across 1M; protection and PCB leakage add error.", "OPA320 on 0/+3.3V cannot directly follow raw -2V."]
+    },
+    {
+      "name": "Open detection plus ADC-path driver/GND selection",
+      "effect": "Reserve raw ADC 0V as an unplugged-state output while preserving the normal bipolar-input transfer.",
+      "status": "Candidate requiring threshold/source-impedance/fault/startup analysis; not implemented",
+      "constraints": ["Observe signal before the ADC-grounding switch to avoid self-latching.", "Do not short an active amplifier output to GND; disconnect/select paths with an appropriate switch.", "Voltage-threshold detection can confuse valid high-source-impedance inputs or overrange with an open connector."]
+    }
+  ],
+  "unresolved_user_choices": [
+    "Signal-source output impedance and worst-case range",
+    "Allowed measurement loading and absolute DC/60Hz error",
+    "Allowed open-detection delay, hysteresis and minimum separation from valid inputs",
+    "Required treatment of overrange, source power-off and startup"
+  ],
+  "official_sources": [
+    {"url": "https://www.ti.com/lit/ds/symlink/opa197.pdf", "relevant_sections": ["6.8", "7.3.6", "7.3.7"]},
+    {"url": "https://www.ti.com/lit/ds/symlink/opa320.pdf", "relevant_sections": ["6.1", "6.3", "6.7"]},
+    {"url": "https://www.ti.com/lit/ds/symlink/lm27761.pdf", "relevant_sections": ["5.3", "5.5", "7.4.1"]},
+    {"url": "https://www.ti.com/tool/CIRCUIT060066", "relevance": "TI input-buffer-before-level-translation example and source-impedance warning"}
+  ],
+  "scope_limit": "Read-only research and this report only. No EasyEDA/API/UI/native project, PCB, schematic, design library, or TEST_DAC8562 changes."
+}

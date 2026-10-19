@@ -1,0 +1,77 @@
+{
+  "ref": "CN2",
+  "product": "LPJE101-0AHNL",
+  "source": "output\\3d-models-20261018\\source-models\\manufacturer\\LINK-PP-LPJE101-0AHNL\\extracted\\LPJE101-0AHNL.STEP",
+  "source_sha256": "bca3ecd027c93f41e0ee177881ad7def828396ab9d0ab2c493c8c2acabae9c1e",
+  "source_product_page": "https://www.l-p.com/products/457326.htm",
+  "source_zip_url": "https://www.l-p.com/upload/file/2023/03-15/020654246.zip",
+  "rigid_transform_local_to_canonical_mm": [
+    [
+      0,
+      0,
+      1,
+      -5.2281420008
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      6.55
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "canonical_stats": {
+    "bounds": {
+      "min_mm": [
+        -5.2281420008,
+        -9.946931409029999,
+        -3.55
+      ],
+      "max_mm": [
+        10.721858099199999,
+        9.946931409031459,
+        14.775881492595575
+      ],
+      "span_mm": [
+        15.950000099999999,
+        19.893862818061457,
+        18.325881492595574
+      ]
+    },
+    "solids": 1,
+    "faces": 339,
+    "brep_valid": true,
+    "volume_mm3": 2468.138566923457
+  },
+  "relation": "Manufacturer-linked exact-MPN CAD with APPROXIMATE footprint registration and inferred seating datum; not certified mechanical fit.",
+  "registration_evidence": "Retaining-post centerplane localZ10.29→current footprint locatorX5.0618579992; localX+/-6.35→currentY+/-6.35. SourceY=-6.55 seating candidate reproduces drawing13.1mm body height. This datum is geometry/drawing-supported inference, not an explicit vendor Mpoint.",
+  "limitations": [
+    "Signal pitch1.02mm vs footprint1.016mm: up to0.014mmY residual.",
+    "Shield-leg centers+/-8.225mm vs current+/-8.128mm:0.097mm residual.",
+    "CAD sidewall span16.55mm vs official drawing16.26mm.",
+    "Metric rounding leaves up to0.005mmX pin-row/LED registration residual.",
+    "Full bounds include extended EMI springs; do not shrink to nominal enclosure dimensions."
+  ],
+  "path": "output\\3d-models-20261018\\source-models\\canonical-manufacturer-models\\CN2\\CN2_LPJE101-0AHNL_board-Zup-approx-registered.step",
+  "bytes": 1711062,
+  "sha256": "326b1712a6c270945055b2ad90fdfaeed0c5880a7064fb503235c3b7462030da",
+  "checks": {
+    "brep_valid": true,
+    "same_solids": true,
+    "same_faces": true,
+    "bbox_maxdelta_mm": 1.27613475342514e-11,
+    "volume_relative_delta": 7.296184799523765e-14,
+    "pass": true
+  }
+}

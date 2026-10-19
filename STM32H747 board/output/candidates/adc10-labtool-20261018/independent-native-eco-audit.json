@@ -1,0 +1,1966 @@
+{
+  "schema": "adc10-labtool-native-pcb-eco-independent-audit-20261018-v1",
+  "passed": true,
+  "before": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_pre_eco-20261018.epru",
+  "beforeSha256": "1ff6bfb0c46ae75d3306a1752ebf8d2d8040b40af7ff82e4385113e8e91200f6",
+  "after": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_eco_applied-20261018.epru",
+  "afterSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "schematicCheckpoint": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_schematic_verified_20261018.epro2",
+  "schematicCheckpointSha256": "570d9009677a4fc89cb8e350939c817c44c87bbd824acac0e6015c2fd966748d",
+  "schematicNetlist": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-labtool_schematic-Protel2-20261018.net",
+  "schematicNetlistSha256": "dd848d6113c5ec2a0835c128ed664aff57e1df0f7967b9571fbd861d7ab4c12d",
+  "comparisonCsvSha256": "73bb924f6ba1dc24f081529db39c6b8957b3e5623da6f415c02028055a3cde37",
+  "countsBefore": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 291,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 291,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 640,
+    "PAD": 4,
+    "LINE": 5659,
+    "ARC": 2184,
+    "FILL": 722,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 354,
+    "ATTR": 1062,
+    "PAD_NET": 1313
+  },
+  "countsAfter": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 354,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 354,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 640,
+    "PAD": 4,
+    "LINE": 5659,
+    "ARC": 2184,
+    "FILL": 722,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 437,
+    "ATTR": 1311,
+    "PAD_NET": 1523
+  },
+  "fullPhysicalComponents": 437,
+  "originalPhysicalComponentsRetained": 354,
+  "newComponentCount": 83,
+  "newComponentRefs": [
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C139",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "D20",
+    "R177",
+    "R178",
+    "R179",
+    "R180",
+    "R181",
+    "R182",
+    "R183",
+    "R184",
+    "R185",
+    "R186",
+    "R187",
+    "R188",
+    "R189",
+    "R190",
+    "R191",
+    "R192",
+    "R193",
+    "R194",
+    "R195",
+    "R196",
+    "R197",
+    "R198",
+    "R199",
+    "R200",
+    "R201",
+    "R202",
+    "R203",
+    "R204",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U30",
+    "U31",
+    "U32"
+  ],
+  "missingOriginalRefs": [],
+  "all354OriginalUniqueIdsPreserved": true,
+  "all437UniqueIdsMatchSchematicAndNetlist": true,
+  "oldComponentPhysicalPositionRotationLayerChanges": [],
+  "oldComponentNonAttrsBodyChanges": [],
+  "nativePrimitiveIdReplacements": [
+    {
+      "ref": "C105",
+      "beforePrimitiveId": "99c01e17dc7584e0",
+      "afterPrimitiveId": "46ce8a9598af4769",
+      "uniqueId": "9dc887e0bc1f8478"
+    },
+    {
+      "ref": "U9",
+      "beforePrimitiveId": "85ce966462706f54",
+      "afterPrimitiveId": "47617477dad79f23",
+      "uniqueId": "0702331c02f33d61"
+    },
+    {
+      "ref": "C80",
+      "beforePrimitiveId": "518aa576dd1f4a0e",
+      "afterPrimitiveId": "2205c1d5b75f10be",
+      "uniqueId": "75ec64e834085d51"
+    },
+    {
+      "ref": "C81",
+      "beforePrimitiveId": "1fc19d9011b0d2c7",
+      "afterPrimitiveId": "653f35ee257159b1",
+      "uniqueId": "eaf4271342fd54a8"
+    },
+    {
+      "ref": "C82",
+      "beforePrimitiveId": "f2c0f427d4d6b785",
+      "afterPrimitiveId": "c798560ccd8d6fdc",
+      "uniqueId": "36505e4cf6a15058"
+    },
+    {
+      "ref": "C86",
+      "beforePrimitiveId": "521960cee1879019",
+      "afterPrimitiveId": "adf693152f92bfee",
+      "uniqueId": "c915b0419ae05033"
+    },
+    {
+      "ref": "C87",
+      "beforePrimitiveId": "3fd1d2dd2ba483fc",
+      "afterPrimitiveId": "c6e18f6b93b30e73",
+      "uniqueId": "5e8c2e6a192f56fc"
+    },
+    {
+      "ref": "C88",
+      "beforePrimitiveId": "c4522a5d4858d2e5",
+      "afterPrimitiveId": "ff09acb80f2b6f5d",
+      "uniqueId": "7503f596a6845ea8"
+    },
+    {
+      "ref": "C93",
+      "beforePrimitiveId": "d73bedd5072ec1a9",
+      "afterPrimitiveId": "7302dfc7469ffe1e",
+      "uniqueId": "72678adef72d5ddc"
+    },
+    {
+      "ref": "C94",
+      "beforePrimitiveId": "8b84e0ff9041f44b",
+      "afterPrimitiveId": "91e52e82be11b4d5",
+      "uniqueId": "09d9181a8ced5c16"
+    },
+    {
+      "ref": "C95",
+      "beforePrimitiveId": "32cf88e1aaf87f50",
+      "afterPrimitiveId": "e791b87d774a58b4",
+      "uniqueId": "086b10aa9eea5342"
+    },
+    {
+      "ref": "C96",
+      "beforePrimitiveId": "3852588fa8b5215f",
+      "afterPrimitiveId": "c55bf03af9cc1274",
+      "uniqueId": "4446908c02d75f0c"
+    }
+  ],
+  "footprintReplacements": [
+    "C105",
+    "U9"
+  ],
+  "targetComponentCount": 177,
+  "existingOutsideTargetComponentOwnedBodyChanges": [],
+  "all437SchematicDeviceFootprintBindingsMatch": true,
+  "targetEffectiveValuesChecked": [
+    {
+      "ref": "J2",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J3",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J4",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J5",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J6",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J7",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J8",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J9",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J10",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "J11",
+      "schematicValue": "SMA-KWE901",
+      "pcbEffectiveValue": "SMA-KWE901"
+    },
+    {
+      "ref": "TP1",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP2",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP3",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP4",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP5",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP6",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP7",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP8",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP9",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "TP10",
+      "schematicValue": "TestPoint",
+      "pcbEffectiveValue": "TestPoint"
+    },
+    {
+      "ref": "C97",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C98",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C99",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C100",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C101",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C102",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C103",
+      "schematicValue": "1uF",
+      "pcbEffectiveValue": "1uF"
+    },
+    {
+      "ref": "C104",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C106",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C107",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C108",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C109",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C110",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C111",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C112",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C113",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C114",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C115",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C116",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C117",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C118",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C119",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "U10",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U11",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U12",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U13",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U14",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U15",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U16",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U17",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U18",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "U19",
+      "schematicValue": "OPA320AIDBVR",
+      "pcbEffectiveValue": "OPA320AIDBVR"
+    },
+    {
+      "ref": "R137",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R138",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R139",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R140",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R141",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R142",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R143",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R144",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R145",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R149",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R150",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R151",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R152",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R153",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R154",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R155",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R156",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R157",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R161",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R162",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R163",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R164",
+      "schematicValue": "4.00k",
+      "pcbEffectiveValue": "4.00k"
+    },
+    {
+      "ref": "R165",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R166",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R167",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R168",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R169",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R170",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "R171",
+      "schematicValue": "3.32k",
+      "pcbEffectiveValue": "3.32k"
+    },
+    {
+      "ref": "R172",
+      "schematicValue": "47",
+      "pcbEffectiveValue": "47"
+    },
+    {
+      "ref": "C120",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C121",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C122",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C123",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C124",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C125",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C126",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C127",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C128",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C129",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C130",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C131",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C132",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C133",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C134",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C135",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C136",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C137",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C138",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C139",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C140",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C141",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C142",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C143",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C144",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C145",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C146",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C147",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C148",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "C149",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C150",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C151",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C152",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C153",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C154",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C155",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C156",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C157",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C158",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C159",
+      "schematicValue": "4.7uF",
+      "pcbEffectiveValue": "4.7uF"
+    },
+    {
+      "ref": "C160",
+      "schematicValue": "100nF",
+      "pcbEffectiveValue": "100nF"
+    },
+    {
+      "ref": "D20",
+      "schematicValue": "BAT54WS",
+      "pcbEffectiveValue": "BAT54WS"
+    },
+    {
+      "ref": "R177",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R178",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R179",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R180",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R181",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R182",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R183",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R184",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R185",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R186",
+      "schematicValue": "100k",
+      "pcbEffectiveValue": "100k"
+    },
+    {
+      "ref": "R187",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R188",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R189",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R190",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R191",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R192",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R193",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R194",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R195",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R196",
+      "schematicValue": "2.80k",
+      "pcbEffectiveValue": "2.80k"
+    },
+    {
+      "ref": "R197",
+      "schematicValue": "4.7",
+      "pcbEffectiveValue": "4.7"
+    },
+    {
+      "ref": "R198",
+      "schematicValue": "15.4k",
+      "pcbEffectiveValue": "15.4k"
+    },
+    {
+      "ref": "R199",
+      "schematicValue": "10.0k",
+      "pcbEffectiveValue": "10.0k"
+    },
+    {
+      "ref": "R200",
+      "schematicValue": "4.7",
+      "pcbEffectiveValue": "4.7"
+    },
+    {
+      "ref": "R201",
+      "schematicValue": "1.0",
+      "pcbEffectiveValue": "1.0"
+    },
+    {
+      "ref": "R202",
+      "schematicValue": "15.8k",
+      "pcbEffectiveValue": "15.8k"
+    },
+    {
+      "ref": "R203",
+      "schematicValue": "10.0k",
+      "pcbEffectiveValue": "10.0k"
+    },
+    {
+      "ref": "R204",
+      "schematicValue": "1.00k",
+      "pcbEffectiveValue": "1.00k"
+    },
+    {
+      "ref": "U20",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U21",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U22",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U23",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U24",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U25",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U26",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U27",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U28",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U29",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "U30",
+      "schematicValue": "TPS60403DBVR",
+      "pcbEffectiveValue": "TPS60403DBVR"
+    },
+    {
+      "ref": "U31",
+      "schematicValue": "TPS72301DBVR",
+      "pcbEffectiveValue": "TPS72301DBVR"
+    },
+    {
+      "ref": "U32",
+      "schematicValue": "OPA189IDBVR",
+      "pcbEffectiveValue": "OPA189IDBVR"
+    },
+    {
+      "ref": "C80",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C81",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C82",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C86",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C87",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C88",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C93",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C94",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C95",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C96",
+      "schematicValue": "10nF",
+      "pcbEffectiveValue": "10nF"
+    },
+    {
+      "ref": "C105",
+      "schematicValue": "1uF",
+      "pcbEffectiveValue": "1uF"
+    },
+    {
+      "ref": "U9",
+      "schematicValue": "REF5025AID",
+      "pcbEffectiveValue": "REF5025AID"
+    }
+  ],
+  "existingComponentAttrsChanges": [
+    {
+      "ref": "C97",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C98",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C99",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C100",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C101",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C102",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C103",
+      "fields": {
+        "Channel ID": [
+          "$3I134",
+          "$1I115"
+        ],
+        "Name": [
+          "1uF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C104",
+      "fields": {
+        "Channel ID": [
+          "$3I135",
+          "$1I116"
+        ],
+        "Voltage Rating": [
+          null,
+          "10 V"
+        ],
+        "Name": [
+          "4.7uF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C105",
+      "fields": {
+        "Channel ID": [
+          "$3I136",
+          "$1I117"
+        ],
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C106",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C107",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C108",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C109",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C110",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C111",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C112",
+      "fields": {
+        "Name": [
+          "10nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C113",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C114",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C115",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C116",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C117",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C118",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C119",
+      "fields": {
+        "Name": [
+          "100nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U9",
+      "fields": {
+        "Channel ID": [
+          "$3I143",
+          "$1I125"
+        ],
+        "Name": [
+          "REF3325AIDBZR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U10",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U11",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U12",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U13",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U14",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U15",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U16",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U17",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U18",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "U19",
+      "fields": {
+        "Name": [
+          "OPA320AIDBVR",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C80",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C81",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C82",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C86",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C87",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C88",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C93",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C94",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C95",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "C96",
+      "fields": {
+        "Name": [
+          "2.2nF",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R137",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R138",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R139",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R140",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R141",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R142",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R143",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R144",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R145",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R149",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R150",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R151",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R152",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R153",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R154",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R155",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R156",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R157",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R161",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R162",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R163",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R164",
+      "fields": {
+        "Value": [
+          null,
+          "4.00k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R165",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R166",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R167",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R168",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R169",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R170",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R171",
+      "fields": {
+        "Value": [
+          null,
+          "3.32k"
+        ],
+        "Name": [
+          "6.8k",
+          null
+        ]
+      }
+    },
+    {
+      "ref": "R172",
+      "fields": {
+        "Name": [
+          "47",
+          null
+        ]
+      }
+    }
+  ],
+  "connectedLogicalPins": 1342,
+  "all1342PcbPinNetsMatchSchematic": true,
+  "physicalPadNetRecords": 1523,
+  "distinctPhysicalPadNumbers": 1461,
+  "padNetDifferences": [],
+  "padIdNumberFootprintErrors": [],
+  "ref5025UnconnectedPhysicalPins": {
+    "1": "",
+    "3": "",
+    "7": "",
+    "8": ""
+  },
+  "protectedKinds": [
+    "ACTIVE_LAYER",
+    "ARC",
+    "CANVAS",
+    "FILL",
+    "LAYER",
+    "LAYER_PHYS",
+    "LINE",
+    "PAD",
+    "PANELIZE",
+    "POLY",
+    "PREFERENCE",
+    "PRIMITIVE",
+    "RULE",
+    "RULE_TEMPLATE",
+    "SILK_OPTS",
+    "STRING",
+    "VIA"
+  ],
+  "protectedRecordCount": 9873,
+  "protectedRecordBodyChanges": [],
+  "allOriginalCopperOutlineRulesStackHolesJ18BodiesExact": true,
+  "allExistingNetAndRuleSelectorBodiesExact": true,
+  "comparisonCheckedActionCounts": {
+    "Add Component": 83,
+    "Modify Device": 10,
+    "Modify Footprint": 2,
+    "Update Net": 102,
+    "Update Property": 85
+  },
+  "comparisonUncheckedRuleActions": [
+    [
+      "",
+      "Delete Design Rule",
+      "TrackPhysics:copperThickness0.5oz",
+      "copperThickness0.5oz",
+      "-",
+      ""
+    ],
+    [
+      "",
+      "Modify Design Rule",
+      "TrackPhysics:copperThickness1oz",
+      "Stroke-TopLayer-min=0.102mm",
+      "Stroke-TopLayer-min=0.127mm",
+      ""
+    ]
+  ],
+  "uncheckedDesignRulesWereNotApplied": true,
+  "newNetRuleSelectorsDefaultOnly": true,
+  "newNetRuleSelectors": 63,
+  "preEcoVsLabtoolBeforeNonHeaderChanges": [],
+  "errors": [],
+  "nativeApiCalls": 0,
+  "nativeFilesModified": false,
+  "routingVerified": false,
+  "drcVerified": false,
+  "manufacturingApproved": false,
+  "limitations": [
+    "ECO connectivity/binding and bounded preservation audit only; 83 new components remain at native off-board default locations.",
+    "Old routed copper is preserved intentionally, so topology changes require explicit cutback/reroute and fresh strict DRC before completion."
+  ]
+}

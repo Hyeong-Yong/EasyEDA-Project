@@ -1,0 +1,87 @@
+{
+  "schema": "no-contact-lobes-invalid-source-conservative-exclusion-audit-v1",
+  "passed": true,
+  "graph": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\local-ground-lobe-connectivity-v6-routingv5-526-64vias.json",
+  "graphSha256": "87e37170268c63c4f1a13435905e24653630fdbf3d0368dc4a52331f78bfa68d",
+  "manifestSha256": "afd855a5241aefccba129acfe8945c01354efb15829ccf0a4418e2d7d95179bf",
+  "sourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "noContactUnanchoredCandidateCount": 116,
+  "excludedInvalidOriginalFills": [
+    {
+      "kind": "FILL",
+      "id": "9a405bd52ff5d175",
+      "layerId": 1,
+      "reason": "Hole lies outside shell[51.8223119 116.72493292]",
+      "noRepair": true,
+      "conservativeAllContoursPenExpandedBoundsMm": [
+        51.32936648,
+        116.47936826,
+        53.55253958,
+        118.26799815999999
+      ],
+      "sourceBodySha256": "89f81d6cd6dbafde0237e875de14dddc0f02ec126b590a4b0ae32904f6298d0a"
+    },
+    {
+      "kind": "FILL",
+      "id": "d9b20cbcd6912827",
+      "layerId": 1,
+      "reason": "Ring Self-intersection[52.39999934 37.52983604]",
+      "noRepair": true,
+      "conservativeAllContoursPenExpandedBoundsMm": [
+        51.879997839999994,
+        36.780000099999995,
+        53.220000240000005,
+        38.21999722
+      ],
+      "sourceBodySha256": "3daa6094fce4515bfe47ad14f3e8ed47eefa85d685662ba3cefa2724485fe45e"
+    },
+    {
+      "kind": "FILL",
+      "id": "cbf547853a678101",
+      "layerId": 1,
+      "reason": "Ring Self-intersection[55.60499928 114.8197602]",
+      "noRepair": true,
+      "conservativeAllContoursPenExpandedBoundsMm": [
+        54.15172304,
+        113.10211822,
+        56.73075014,
+        115.98148253999999
+      ],
+      "sourceBodySha256": "a1c5ed4ccc4849fbf1e6d032e0dbc82693ceadf8eeb4acc563d062a8febe99cc"
+    },
+    {
+      "kind": "FILL",
+      "id": "c18edd359ca3c0bd",
+      "layerId": 1,
+      "reason": "Ring Self-intersection[77.54999984 67.75483782]",
+      "noRepair": true,
+      "conservativeAllContoursPenExpandedBoundsMm": [
+        74.83151658,
+        64.85682990000001,
+        78.41928435999999,
+        68.4431702
+      ],
+      "sourceBodySha256": "2158a9d60cc056883c70e45cd0cbbe3ef6039ad3f9abc8d68c6e81037977a1b4"
+    },
+    {
+      "kind": "FILL",
+      "id": "1d653c2379903ff0",
+      "layerId": 17,
+      "reason": "Hole lies outside shell[57.85954138 89.10234148]",
+      "noRepair": true,
+      "conservativeAllContoursPenExpandedBoundsMm": [
+        47.15550132,
+        84.72322146,
+        58.003434920000004,
+        94.44199044
+      ],
+      "sourceBodySha256": "44da48d9306ef73461d404594d3aef20f8ff858553770a4aedc310f5a08f2a2d"
+    }
+  ],
+  "potentialHiddenContactsRequiringReview": [],
+  "noInvalidSourceGeometryRepaired": true,
+  "claim": "Only if every conservative same-layer bound is disjoint can excluded invalid original copper not hide a contact with a proposed no-contact lobe.",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "deletionAuthorized": false
+}

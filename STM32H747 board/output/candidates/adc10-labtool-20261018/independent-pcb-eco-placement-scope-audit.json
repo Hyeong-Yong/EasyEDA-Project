@@ -1,0 +1,2725 @@
+{
+  "schema": "adc10-labtool-independent-pcb-eco-placement-scope-audit-20261018-v1",
+  "status": "PASS",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_eco_applied-20261018.epru",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "beforePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_before-20261018.epru",
+  "beforeSha256": "b540cccce8f7918785bd1bd021df1614419fe9290a9642e82aba02455ef540db",
+  "placementPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-rebased-eco-proposal.json",
+  "placementSha256": "40ef99b3dbb429a848bbe9235a335d98718fa482fb8643aa4b9b22cd26735e93",
+  "checks": {
+    "all354OriginalPhysicalUIDsPreserved": true,
+    "exactly83NewPhysicalParts437Total": true,
+    "allProtectedCopperOutlineSilkRulesAndLayersExactlyEqual": true,
+    "allOriginalComponentHoleRecordsIdenticalNoNewComponentHoles": true,
+    "actual640ViasAnd799PhysicalDrills": true,
+    "placementProposalRebasedToActualEco": true,
+    "83NewAnd24ExistingPlacementEntriesComplete": true,
+    "all107ProposedPadNetBindingsVerified": true
+  },
+  "protectedTypes": [
+    {
+      "kind": "VIA",
+      "beforeCount": 640,
+      "afterCount": 640,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "PAD",
+      "beforeCount": 4,
+      "afterCount": 4,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "LINE",
+      "beforeCount": 5659,
+      "afterCount": 5659,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "ARC",
+      "beforeCount": 2184,
+      "afterCount": 2184,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "FILL",
+      "beforeCount": 722,
+      "afterCount": 722,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "POLY",
+      "beforeCount": 500,
+      "afterCount": 500,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "STRING",
+      "beforeCount": 21,
+      "afterCount": 21,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "RULE",
+      "beforeCount": 18,
+      "afterCount": 18,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "LAYER",
+      "beforeCount": 64,
+      "afterCount": 64,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    },
+    {
+      "kind": "LAYER_PHYS",
+      "beforeCount": 17,
+      "afterCount": 17,
+      "exactlyEqual": true,
+      "missing": [],
+      "added": [],
+      "changed": []
+    }
+  ],
+  "originalUIDDifferences": [],
+  "physicalDrills": {
+    "vias": 640,
+    "standaloneBoardHoles": 4,
+    "componentHoles": 155,
+    "total": 799
+  },
+  "componentHoleInventory": {
+    "CN1": {
+      "componentXY": [
+        3632.2835,
+        615.748
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "",
+          "localCenter": [
+            133.0709,
+            36.2205
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 51.1811,
+            "height": 51.1811
+          },
+          "plated": false
+        },
+        {
+          "pad": "1",
+          "localCenter": [
+            -114.9606,
+            166.1417
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 78.7402,
+            "height": 31.4961
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -114.9606,
+            -172.4409
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 78.7402,
+            "height": 31.4961
+          },
+          "plated": true
+        },
+        {
+          "pad": "3",
+          "localCenter": [
+            -114.9606,
+            32.2835
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 78.7402,
+            "height": 31.4961
+          },
+          "plated": true
+        },
+        {
+          "pad": "5",
+          "localCenter": [
+            172.4409,
+            -207.874
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 90.5512,
+            "height": 31.4961
+          },
+          "plated": true
+        },
+        {
+          "pad": "6",
+          "localCenter": [
+            172.4409,
+            181.8898
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 90.5512,
+            "height": 31.4961
+          },
+          "plated": true
+        }
+      ]
+    },
+    "CN2": {
+      "componentXY": [
+        3502.2103,
+        1476.7717
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "",
+          "localCenter": [
+            199.285748,
+            -250
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 127.992126,
+            "height": 127.992126
+          },
+          "plated": false
+        },
+        {
+          "pad": "",
+          "localCenter": [
+            199.285748,
+            250
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 127.992126,
+            "height": 127.992126
+          },
+          "plated": false
+        },
+        {
+          "pad": "1",
+          "localCenter": [
+            99.285709,
+            140
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "10",
+          "localCenter": [
+            -160.714291,
+            180
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "11",
+          "localCenter": [
+            -160.714291,
+            -180
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "12",
+          "localCenter": [
+            -160.714291,
+            -270
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "13",
+          "localCenter": [
+            64.285709,
+            -320.000039
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 64.015748,
+            "height": 64.015748
+          },
+          "plated": true
+        },
+        {
+          "pad": "14",
+          "localCenter": [
+            64.285709,
+            320
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 64.015748,
+            "height": 64.015748
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            29.285748,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "3",
+          "localCenter": [
+            99.285709,
+            60
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "4",
+          "localCenter": [
+            29.285748,
+            20
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "5",
+          "localCenter": [
+            99.285709,
+            -20
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "6",
+          "localCenter": [
+            29.285748,
+            -60
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "7",
+          "localCenter": [
+            99.285709,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "8",
+          "localCenter": [
+            29.285748,
+            -140
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        },
+        {
+          "pad": "9",
+          "localCenter": [
+            -160.714291,
+            270
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 35,
+            "height": 35
+          },
+          "plated": true
+        }
+      ]
+    },
+    "CN3": {
+      "componentXY": [
+        3659.498,
+        2549.8032
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "",
+          "localCenter": [
+            16.0925,
+            -113.7795
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 25.5906,
+            "height": 25.5906
+          },
+          "plated": false
+        },
+        {
+          "pad": "",
+          "localCenter": [
+            16.0925,
+            113.7795
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 25.5906,
+            "height": 25.5906
+          },
+          "plated": false
+        },
+        {
+          "pad": "S1",
+          "localCenter": [
+            -3.5925,
+            -170.0787
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 66.9291,
+            "height": 23.622
+          },
+          "plated": true
+        },
+        {
+          "pad": "S2",
+          "localCenter": [
+            160.9744,
+            -170.0787
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 55.1181,
+            "height": 23.622
+          },
+          "plated": true
+        },
+        {
+          "pad": "S3",
+          "localCenter": [
+            160.9744,
+            170.0787
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 55.1181,
+            "height": 23.622
+          },
+          "plated": true
+        },
+        {
+          "pad": "S4",
+          "localCenter": [
+            -3.5925,
+            170.0787
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 66.9291,
+            "height": 23.622
+          },
+          "plated": true
+        }
+      ]
+    },
+    "CN4": {
+      "componentXY": [
+        2345.6693,
+        5782.3327
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "",
+          "localCenter": [
+            -113.7795,
+            16.0925
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 25.5906,
+            "height": 25.5906
+          },
+          "plated": false
+        },
+        {
+          "pad": "",
+          "localCenter": [
+            113.7795,
+            16.0925
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 25.5906,
+            "height": 25.5906
+          },
+          "plated": false
+        },
+        {
+          "pad": "S1",
+          "localCenter": [
+            170.0787,
+            -3.5925
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 66.9291,
+            "height": 23.622
+          },
+          "plated": true
+        },
+        {
+          "pad": "S2",
+          "localCenter": [
+            170.0787,
+            160.9744
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 55.1181,
+            "height": 23.622
+          },
+          "plated": true
+        },
+        {
+          "pad": "S3",
+          "localCenter": [
+            -170.0787,
+            160.9744
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 55.1181,
+            "height": 23.622
+          },
+          "plated": true
+        },
+        {
+          "pad": "S4",
+          "localCenter": [
+            -170.0787,
+            -3.5925
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "SLOT",
+            "width": 66.9291,
+            "height": 23.622
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J1": {
+      "componentXY": [
+        3103.937,
+        5868.5039
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "",
+          "localCenter": [
+            -125,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 40.1575,
+            "height": 40.1575
+          },
+          "plated": false
+        },
+        {
+          "pad": "",
+          "localCenter": [
+            125,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 40.1575,
+            "height": 40.1575
+          },
+          "plated": false
+        }
+      ]
+    },
+    "J2": {
+      "componentXY": [
+        177.1654,
+        5511.811
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J3": {
+      "componentXY": [
+        177.1654,
+        4960.6299
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J4": {
+      "componentXY": [
+        177.1654,
+        4409.4488
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J5": {
+      "componentXY": [
+        177.1654,
+        3858.2677
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J6": {
+      "componentXY": [
+        177.1654,
+        3307.0866
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J7": {
+      "componentXY": [
+        177.1654,
+        2755.9055
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J8": {
+      "componentXY": [
+        177.1654,
+        2204.7244
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J9": {
+      "componentXY": [
+        177.1654,
+        1653.5433
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J10": {
+      "componentXY": [
+        177.1654,
+        1102.3622
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J11": {
+      "componentXY": [
+        177.1654,
+        551.1811
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J12": {
+      "componentXY": [
+        3759.8425,
+        5511.811
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J13": {
+      "componentXY": [
+        3759.8425,
+        4960.6299
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J14": {
+      "componentXY": [
+        3759.8425,
+        3858.2677
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J15": {
+      "componentXY": [
+        3759.8425,
+        4409.4488
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J16": {
+      "componentXY": [
+        1596.063,
+        5882.6772
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J17": {
+      "componentXY": [
+        3759.8425,
+        3307.0866
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            -100,
+            100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            100,
+            -100
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "plated": true
+        }
+      ]
+    },
+    "J18": {
+      "componentXY": [
+        1680.5118,
+        204.9213
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            200,
+            -50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "10",
+          "localCenter": [
+            -200,
+            50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "2",
+          "localCenter": [
+            200,
+            50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "3",
+          "localCenter": [
+            100,
+            -50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "4",
+          "localCenter": [
+            100,
+            50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "5",
+          "localCenter": [
+            3.9e-05,
+            -50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "6",
+          "localCenter": [
+            0,
+            50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "7",
+          "localCenter": [
+            -100,
+            -50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "8",
+          "localCenter": [
+            -100,
+            50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        },
+        {
+          "pad": "9",
+          "localCenter": [
+            -200,
+            -50
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 39.370079,
+            "height": 39.370079
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP1": {
+      "componentXY": [
+        763.7795,
+        5559.0551
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP2": {
+      "componentXY": [
+        763.7795,
+        5007.4804
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP3": {
+      "componentXY": [
+        763.7795,
+        4457.6772
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP4": {
+      "componentXY": [
+        763.7795,
+        3906.1024
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP5": {
+      "componentXY": [
+        763.7795,
+        3354.9213
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP6": {
+      "componentXY": [
+        763.7795,
+        2803.7402
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP7": {
+      "componentXY": [
+        763.7795,
+        2252.9528
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP8": {
+      "componentXY": [
+        763.7795,
+        1701.378
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP9": {
+      "componentXY": [
+        763.7795,
+        1151.7716
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP10": {
+      "componentXY": [
+        763.7795,
+        599.4094
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP11": {
+      "componentXY": [
+        3491.1417,
+        5566.9291
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP12": {
+      "componentXY": [
+        3491.1417,
+        5010.8268
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP13": {
+      "componentXY": [
+        3491.1417,
+        3909.4488
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP14": {
+      "componentXY": [
+        3491.1417,
+        4460.6299
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP15": {
+      "componentXY": [
+        1668.3071,
+        5495.0787
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP16": {
+      "componentXY": [
+        3491.1417,
+        3357.2835
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP17": {
+      "componentXY": [
+        2476.378,
+        444.8819
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP18": {
+      "componentXY": [
+        2476.378,
+        679.1339
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "TP19": {
+      "componentXY": [
+        2322.8346,
+        1987.2047
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "1",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 19.685,
+            "height": 19.685
+          },
+          "plated": true
+        }
+      ]
+    },
+    "U5": {
+      "componentXY": [
+        2068.8976,
+        1476.378
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "25",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "25",
+          "localCenter": [
+            -25.5906,
+            -27.5591
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "25",
+          "localCenter": [
+            -25.5906,
+            27.5591
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "25",
+          "localCenter": [
+            25.5906,
+            -27.5591
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "25",
+          "localCenter": [
+            25.5906,
+            27.5591
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        }
+      ]
+    },
+    "U7": {
+      "componentXY": [
+        3016.7323,
+        2624.0157
+      ],
+      "angle": 0,
+      "layerId": 1,
+      "holes": [
+        {
+          "pad": "33",
+          "localCenter": [
+            0,
+            0
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "33",
+          "localCenter": [
+            -40.3543,
+            -40.3543
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "33",
+          "localCenter": [
+            -40.3543,
+            42.3228
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "33",
+          "localCenter": [
+            42.3228,
+            -40.3543
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        },
+        {
+          "pad": "33",
+          "localCenter": [
+            42.3228,
+            42.3228
+          ],
+          "padAngle": 0,
+          "hole": {
+            "holeType": "ROUND",
+            "width": 11.811,
+            "height": 11.811
+          },
+          "plated": true
+        }
+      ]
+    }
+  },
+  "nativeCalls": 0,
+  "designModified": false,
+  "manufacturingApproved": false,
+  "qualification": "This is an actual preplacement ECO preservation audit, not proof that prospective placement/routing is electrically connected or DRC-clean."
+}

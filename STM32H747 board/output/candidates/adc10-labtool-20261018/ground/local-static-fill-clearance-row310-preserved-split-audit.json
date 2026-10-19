@@ -1,0 +1,2004 @@
+{
+  "schema": "adc10-labtool-offline-bounded-static-fill-clearance-plan-v1",
+  "passed": true,
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_eco_applied-20261018.epru",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "placement": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-rebased-eco-proposal.json",
+  "placementSha256": "40ef99b3dbb429a848bbe9235a335d98718fa482fb8643aa4b9b22cd26735e93",
+  "routes": [
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-row310-initial-placement-route-draft.json",
+      "sha256": "bea05171d807ea639e982fca1fb284b38c5daf3e70f0138deb7efd38ed853083"
+    }
+  ],
+  "projectNameRequired": "STM32H747_MCU_BOARD_v19",
+  "pcbUuidRequired": "0ac2a19168000d8e",
+  "actorCounts": {
+    "PAD": 259,
+    "LINE": 310
+  },
+  "clearanceMm": 0.17,
+  "layers": [
+    1
+  ],
+  "fillNets": [
+    "GND"
+  ],
+  "preservedLobeCount": 80,
+  "lobeDirectContactCounts": {
+    "NO_DIRECT_CONTACT": 68,
+    "DIRECT_PAD_OR_VIA_CONTACT": 12
+  },
+  "fillAudits": [
+    {
+      "id": "df8b96ef8c197120",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c44509e0a425b038df1321615c2effa65980609ef9dd7d689c3821e91197e168"
+    },
+    {
+      "id": "f6091682cd0f1d9f",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c475a7a2702b25fd09b9c92f82ef32833bc6386e4e86498cd26c325ede8d6b27"
+    },
+    {
+      "id": "49c5a7ee7c728caa",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c91a10121fe22172214a44f0cae822b59aacbcc955a715f53b7bdea72da7a282"
+    },
+    {
+      "id": "b6390a6cabe01150",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9e2f4d158ae257f8a78eae11a5fcbea82f6fd5828628fda8a90d40384f48d353"
+    },
+    {
+      "id": "bed0cd278807af22",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "a8add21687ba7c5eb245ce1f7a86edc68a9ebe5e0a65013652b4bba45702f686"
+    },
+    {
+      "id": "a561ae94fe89ac25",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "8b8bf26e58e26a352ea00e77046498459e4adca9201e4b5103313e43022ba633"
+    },
+    {
+      "id": "72a3572efdb0f858",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "8cebe464a00f861aee2ba26f78fecdaee8410197ceb55f4f03b79cbe737a02d9"
+    },
+    {
+      "id": "5872560e3d03e2f4",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ff9ee778961ea838363d7244a64be34593e91a818016e340497dc90fe0a568d1"
+    },
+    {
+      "id": "5d8fde275801b816",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "e8b36a22f0f0bf4b9b8a871601a4139c3b4aa0ad11e26f27cf10a18ba14b8b68"
+    },
+    {
+      "id": "0738f61bc609c749",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "053cbdd58193990a1caaa054016e5b04d4b2c520e6b7213e9c3d6e26118c54a8"
+    },
+    {
+      "id": "eced2cdfc1e1f2e6",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9eba4be361140c6c4c5bc5ce1bf808da86f13744e743874b606c67a4cf5d613e"
+    },
+    {
+      "id": "365de7b113f807fa",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "fd448923ac1566b8e6e799e9213d179dcb731ba56cf8ec10e97b1fe9fe0107f9"
+    },
+    {
+      "id": "9a405bd52ff5d175",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Hole lies outside shell[51.8223119 116.72493292]",
+      "beforeBodySha256": "89f81d6cd6dbafde0237e875de14dddc0f02ec126b590a4b0ae32904f6298d0a"
+    },
+    {
+      "id": "81ce770ea50096f2",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ba496f39f32c19e69f40980f91aa18ef44a9d2bad286ed3bd52dd76f6522ee8a"
+    },
+    {
+      "id": "a189d75595856670",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c0382884ae16ed60338057bb5146d3a42543f9cea9bb92d3a050f5b66bffe733"
+    },
+    {
+      "id": "fd00ff7d0fd67437",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "42d017cc94f56be1fab067fbde6b3a7629bec2f4c886b124955bbcd817f59f76"
+    },
+    {
+      "id": "fc5a71a640eed2a6",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9f63f94d50aa2a47c11993d714f60949c691a07fd53d3de2c7f33e13ae8b3164"
+    },
+    {
+      "id": "d9b20cbcd6912827",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[52.39999934 37.52983604]",
+      "beforeBodySha256": "3daa6094fce4515bfe47ad14f3e8ed47eefa85d685662ba3cefa2724485fe45e"
+    },
+    {
+      "id": "c667926ae983cbc8",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "d365ea7fec70747a2c2e960358416037850b5fad71d516680b1366797eda3f5d"
+    },
+    {
+      "id": "36925e3b018c170d",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "68a15f38b46d4b0ddb75417bf38892dba165fdcb09c7f0247e2ddfb963f356cf"
+    },
+    {
+      "id": "8ef3da0e4a3f1318",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "3c812c3a3c3c7d8e4a78cb3a420242565a1d427fb360ee6bde57926c7cfbcedc"
+    },
+    {
+      "id": "2949d013aa09f2f1",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "26dd2fe008a4b9de614f87c7ecee94e8c88cb803c642f0eb37ccdb522f1fa2ff"
+    },
+    {
+      "id": "432166bead84a320",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "e6f53325c4d7f40bf82eaaa951fe16d1a0af8c255173e911fc9566eb2517980b"
+    },
+    {
+      "id": "e6229c29463d5d07",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7ff8c7669a532525e51e0f623c95146379ce2ae8af89af52e55fb002ef804dff"
+    },
+    {
+      "id": "4c9ed9badbea0c09",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c29c4ef771c1b756dbdb3818b63e314a261aa004c400c7e78f047073a87d88fb"
+    },
+    {
+      "id": "70d49360e5e3892f",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ae42294466cd6bb38780b5a259003de702819c0dccb1285ee12c8b518b7c54a9"
+    },
+    {
+      "id": "e17453a5e0291c05",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "20c6269ff1ee9e0a4e579f28228edc587694a63596543af1704cb46571df0903"
+    },
+    {
+      "id": "933317dd38e2d8f5",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "b5633da09c7062e552f0ada21d1eaefc91799df9ad0d47a59a319bbb3ed3d767"
+    },
+    {
+      "id": "24ca3284aa7e94e7",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9df1407ac0907f0baf68eae177252efd864219581fc99fa583e285fa61f40702"
+    },
+    {
+      "id": "8e56a14144c76f68",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "897dba29056ffcfd57730242fd000c787269f85f2e8743ec38e7c45fdbd28507"
+    },
+    {
+      "id": "cbf547853a678101",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[55.60499928 114.8197602]",
+      "beforeBodySha256": "a1c5ed4ccc4849fbf1e6d032e0dbc82693ceadf8eeb4acc563d062a8febe99cc"
+    },
+    {
+      "id": "410ffe1fe7d3d61d",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "665e5f1c8ab97d1a26d990637b603fc07f290b8790b6547949d3fa00e741a8cd"
+    },
+    {
+      "id": "33a654ae79b708f5",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "b08c790d5978e5a8825df42cb666960765126663d9109e00f8cc0c377f4bb004"
+    },
+    {
+      "id": "113dd1f00dd5b5b8",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "3ef2dca09a3ef722ac23ad888108298baa315856e9a0e78971d7038f4dc7fc5a"
+    },
+    {
+      "id": "c18edd359ca3c0bd",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[77.54999984 67.75483782]",
+      "beforeBodySha256": "2158a9d60cc056883c70e45cd0cbbe3ef6039ad3f9abc8d68c6e81037977a1b4"
+    },
+    {
+      "id": "e680230ef8d2c5dd",
+      "status": "PLANNED_BOUNDED_LOCAL_CUT",
+      "validBefore": true,
+      "validAfter": true,
+      "affectedHoles": 12,
+      "retainedContours": 209,
+      "newUnionHoles": 120,
+      "preservedLocalLobes": 80,
+      "newCopperRemovalAreaMm2": 369.9300486142555
+    },
+    {
+      "id": "7d9be32581335ce0",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7d1727950aecbdcc952a1bf54ab7aeaa77d4778f8f61dbeb4c66e27ba0671146"
+    },
+    {
+      "id": "fd1c85170f225f8e",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "28c1a9152cd3836c49a825cb83867cb11fa56591ba1d6165c8a454cf6e523423"
+    },
+    {
+      "id": "b3c32fb4ee9a7fdb",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "e51a5c3720c02f189cfe5d6a6801778068a51f2eb47a32d4a104793701dfea8b"
+    },
+    {
+      "id": "469c19ed5bfb68ad",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c5fe263331e18716ad20c7a623cb5ade7984f5023fb2623d486151be82105d0b"
+    },
+    {
+      "id": "e20803fc251b0706",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "02ec483e8113f220fa4564681e56514194ecd07ecac403f6dfa4918087135de4"
+    },
+    {
+      "id": "19bdb7e810133ecb",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7a38c6b953461a838ba84037d115236a018bb1252b9f33d6072b02a9b93164bd"
+    },
+    {
+      "id": "923eed6eafd47910",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ef131726a0bc7b2e07cbefd0fe02cc0dea8e05b785ecb34a7cf627ed4fafb05d"
+    },
+    {
+      "id": "824128fd13c75535",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7ea2fc157c6d5682bfdfa7db0e653bc8db1496eefe5652dc14fcd7a858ca2ac0"
+    },
+    {
+      "id": "c46b37cc112ac765",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "4553f8bbca6002105b41eca354e2c720b114da699ec6307c6856c39cdf5ab547"
+    },
+    {
+      "id": "6047d2db3c95bf69",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9ca4749ca7fc22fc0cb983b80bc5e9835a264d3865882847ca4db74781d0d98e"
+    }
+  ],
+  "blocked": [],
+  "nativeCalls": 0,
+  "wholePcbSetSource": false,
+  "nativeDesignModified": false,
+  "manufacturingApproved": false,
+  "preservationContract": "Only listed FILL.path may change, after exact beforeBody guards. Other fields, all old outer boundaries and unaffected holes/arcs remain exact. Invalid geometry is never repaired. Stop each primitive if an outer boundary is touched.",
+  "limitations": [
+    "Offline local copper subtraction only; parent must rebase exact source body guards after placement/cutback and check native readback geometry.",
+    "Does not prove every surviving ground region is MCU-VSS anchored; physical ground graph and strict unchanged-rule native DRC are separate mandatory gates.",
+    "Placement bounding rectangles are conservative copper supersets; no non-GND FILLs are changed by default."
+  ],
+  "lobeSummary": [
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_1",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0011070556575000882,
+      "boundsMm": [
+        11.055425,
+        140.473943,
+        11.14757,
+        140.55897
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_2",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.839669795537462,
+      "boundsMm": [
+        9.355248,
+        137.299243,
+        13.38089,
+        139.526541
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_3",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.3546479577890009,
+      "boundsMm": [
+        19.07161,
+        137.32161,
+        20.25281,
+        138.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_4",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268520098,
+      "boundsMm": [
+        10.62255,
+        135.226382,
+        14.731586999999998,
+        137.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C121:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_5",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.974545521907993,
+      "boundsMm": [
+        20.543645,
+        135.127575,
+        22.156964,
+        137.149526
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_6",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002358967799996214,
+      "boundsMm": [
+        9.653345,
+        136.97255,
+        10.142566,
+        136.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_7",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0029459208239998253,
+      "boundsMm": [
+        9.106638,
+        136.545099,
+        9.17745,
+        136.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_8",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.06335825749149791,
+      "boundsMm": [
+        22.439339,
+        133.88255,
+        22.699014,
+        134.570763
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_9",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0011070556575001375,
+      "boundsMm": [
+        11.055425,
+        126.473943,
+        11.14757,
+        126.55897
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_10",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.778398416290014,
+      "boundsMm": [
+        9.355248,
+        123.299242,
+        13.38089,
+        125.52654099999998
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_11",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.35464795192499515,
+      "boundsMm": [
+        19.07161,
+        123.32161,
+        20.25281,
+        124.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_12",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268519958,
+      "boundsMm": [
+        10.62255,
+        121.226382,
+        14.731586999999998,
+        123.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C124:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_13",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9745455382509915,
+      "boundsMm": [
+        20.543645,
+        121.12757500000001,
+        22.156964,
+        123.14952599999998
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_14",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002358967800009897,
+      "boundsMm": [
+        9.653345,
+        122.97255,
+        10.142566,
+        122.97745000000002
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_15",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0029459208240003283,
+      "boundsMm": [
+        9.106638,
+        122.545099,
+        9.17745,
+        122.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_16",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0633582574915002,
+      "boundsMm": [
+        22.439339,
+        119.88255,
+        22.699014,
+        120.570763
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_17",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0011070556575011946,
+      "boundsMm": [
+        11.055425,
+        112.47394299999999,
+        11.14757,
+        112.55897
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_18",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.784969830473022,
+      "boundsMm": [
+        9.355248,
+        109.29924300000002,
+        13.38089,
+        111.52654100000001
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_19",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.3546479332594959,
+      "boundsMm": [
+        19.07161,
+        109.32161,
+        20.25281,
+        110.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_20",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268520387,
+      "boundsMm": [
+        10.62255,
+        107.226382,
+        14.731586999999998,
+        109.64659099999999
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C127:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_21",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9747888995375044,
+      "boundsMm": [
+        20.543645,
+        107.127575,
+        22.159143,
+        109.14952600000001
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_22",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002358967800009897,
+      "boundsMm": [
+        9.653345,
+        108.97254999999998,
+        10.142566,
+        108.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_23",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0029459208240003283,
+      "boundsMm": [
+        9.106638,
+        108.545099,
+        9.17745,
+        108.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_24",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.07372398417550072,
+      "boundsMm": [
+        22.439339,
+        105.88255,
+        22.700923,
+        106.66395
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_25",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0011070556575001327,
+      "boundsMm": [
+        11.055425,
+        98.473943,
+        11.14757,
+        98.55897
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_26",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.840966921887001,
+      "boundsMm": [
+        9.355248,
+        95.299243,
+        13.38089,
+        97.526541
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_27",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.35464767455949464,
+      "boundsMm": [
+        19.07161,
+        95.32161,
+        20.25281,
+        96.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_28",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268520156,
+      "boundsMm": [
+        10.62255,
+        93.226382,
+        14.731586999999998,
+        95.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C130:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_29",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9745456274179994,
+      "boundsMm": [
+        20.543645,
+        93.127575,
+        22.156964,
+        95.149526
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_30",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002358967800003055,
+      "boundsMm": [
+        9.653345,
+        94.97255,
+        10.142566,
+        94.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_31",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0029459208240003283,
+      "boundsMm": [
+        9.106638,
+        94.545099,
+        9.17745,
+        94.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_32",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.06335825749150036,
+      "boundsMm": [
+        22.439339,
+        91.88255,
+        22.699014,
+        92.570763
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_33",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 24.602447517738554,
+      "boundsMm": [
+        13.02241,
+        76.620009,
+        26.029989,
+        88.027589
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [
+        "09c2a1a19a5aed63"
+      ],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_34",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 29.64792383692336,
+      "boundsMm": [
+        14.17241,
+        79.322409,
+        23.177589,
+        87.227588
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [
+        "4858f59c063ce2a6",
+        "cdd4d1083365384b"
+      ],
+      "groundPadContactsAtProposedPositions": [
+        "C114:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_35",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0011071274130000288,
+      "boundsMm": [
+        11.055425,
+        84.473943,
+        11.147573,
+        84.558973
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_36",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.850337118013499,
+      "boundsMm": [
+        9.355248,
+        81.299243,
+        13.38089,
+        83.526544
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_37",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 17.31853834193399,
+      "boundsMm": [
+        10.62255,
+        78.5982,
+        21.50745,
+        83.24449
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "U14:2",
+        "C132:2",
+        "C133:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_38",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.35464707185249533,
+      "boundsMm": [
+        19.07161,
+        81.32161,
+        20.252808,
+        82.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_39",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.2758305454425063,
+      "boundsMm": [
+        20.820009,
+        80.119953,
+        21.50745,
+        81.227056
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_40",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002358967800003055,
+      "boundsMm": [
+        9.653345,
+        80.97255,
+        10.142566,
+        80.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_41",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0029459208240003283,
+      "boundsMm": [
+        9.106638,
+        80.545099,
+        9.17745,
+        80.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_42",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.03269401417799807,
+      "boundsMm": [
+        21.78004,
+        79.732551,
+        22.156964,
+        79.867449
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_43",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.022049816400001594,
+      "boundsMm": [
+        21.97255,
+        77.055127,
+        22.02745,
+        77.47999
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_44",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0011070556575001327,
+      "boundsMm": [
+        11.055425,
+        70.473943,
+        11.14757,
+        70.55897
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_45",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.845384012399997,
+      "boundsMm": [
+        9.355248,
+        67.299243,
+        13.38089,
+        69.526541
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_46",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.3546470826304954,
+      "boundsMm": [
+        19.07161,
+        67.32161,
+        20.252808,
+        68.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_47",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268520156,
+      "boundsMm": [
+        10.62255,
+        65.226382,
+        14.731586999999998,
+        67.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C136:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_48",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9747889756394994,
+      "boundsMm": [
+        20.543645,
+        65.127575,
+        22.159143,
+        67.149526
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_49",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002358967800003055,
+      "boundsMm": [
+        9.653345,
+        66.97255,
+        10.142566,
+        66.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_50",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0029459208240003283,
+      "boundsMm": [
+        9.106638,
+        66.545099,
+        9.17745,
+        66.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_51",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.07372398417550019,
+      "boundsMm": [
+        22.439339,
+        63.88255,
+        22.700923,
+        64.66395
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_52",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.00110690669749934,
+      "boundsMm": [
+        11.055425,
+        56.473943000000006,
+        11.147569,
+        56.55896899999999
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_53",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.8490326480074835,
+      "boundsMm": [
+        9.355248,
+        53.299243,
+        13.38089,
+        55.52653900000001
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_54",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.35464709606050593,
+      "boundsMm": [
+        19.07161,
+        53.32161,
+        20.252808,
+        54.00638500000001
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_55",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268519912,
+      "boundsMm": [
+        10.62255,
+        51.226382,
+        14.731586999999998,
+        53.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C139:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_56",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9747889832694987,
+      "boundsMm": [
+        20.543645,
+        51.127575,
+        22.159143,
+        53.149526
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_57",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002358967799996214,
+      "boundsMm": [
+        9.653345,
+        52.97255,
+        10.142566,
+        52.97744999999999
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_58",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0029459208239995737,
+      "boundsMm": [
+        9.106638,
+        52.54509900000001,
+        9.17745,
+        52.67255999999999
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_59",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0737239841755002,
+      "boundsMm": [
+        22.439339,
+        49.88255,
+        22.700923,
+        50.66395
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_60",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.789038409834001,
+      "boundsMm": [
+        9.355248,
+        39.299243,
+        13.38089,
+        41.526541
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_61",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.35464708896250163,
+      "boundsMm": [
+        19.07161,
+        39.32161,
+        20.252808,
+        40.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_62",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268519894,
+      "boundsMm": [
+        10.62255,
+        37.226382,
+        14.731586999999998,
+        39.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C142:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_63",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9747889832694988,
+      "boundsMm": [
+        20.543645,
+        37.127575,
+        22.159143,
+        39.149526
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_64",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0023589677999996343,
+      "boundsMm": [
+        9.653345,
+        38.97255,
+        10.142566,
+        38.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002945920824000077,
+      "boundsMm": [
+        9.106638,
+        38.545099,
+        9.17745,
+        38.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_66",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0737239841755002,
+      "boundsMm": [
+        22.439339,
+        35.88255,
+        22.700923,
+        36.66395
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_67",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.85006835556749,
+      "boundsMm": [
+        9.355248,
+        25.299242,
+        13.38089,
+        27.526542
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_68",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.35464709370300174,
+      "boundsMm": [
+        19.07161,
+        25.32161,
+        20.252808,
+        26.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_69",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.699550726852003,
+      "boundsMm": [
+        10.62255,
+        23.226382,
+        14.731586999999998,
+        25.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C145:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_70",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9747890010399999,
+      "boundsMm": [
+        20.543645,
+        23.127575,
+        22.159143,
+        25.149526
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_71",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0023589678000013447,
+      "boundsMm": [
+        9.653345,
+        24.97255,
+        10.142566,
+        24.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_72",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002945920823999951,
+      "boundsMm": [
+        9.106638,
+        24.545099,
+        9.17745,
+        24.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_73",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.07372398417550023,
+      "boundsMm": [
+        22.439339,
+        21.88255,
+        22.700923,
+        22.66395
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_74",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 4.856053132273505,
+      "boundsMm": [
+        9.355248,
+        11.299242,
+        13.38089,
+        13.526541999999997
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_75",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.3546470987270006,
+      "boundsMm": [
+        19.07161,
+        11.32161,
+        20.252808,
+        12.006385
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_76",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 1.6995507268520005,
+      "boundsMm": [
+        10.62255,
+        9.226382,
+        14.731586999999998,
+        11.646591
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C148:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_77",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.9745456466889989,
+      "boundsMm": [
+        20.543645,
+        9.127575,
+        22.156964,
+        11.149526
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_78",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0023589677999996343,
+      "boundsMm": [
+        9.653345,
+        10.97255,
+        10.142566,
+        10.97745
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_79",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.002945920824000014,
+      "boundsMm": [
+        9.106638,
+        10.545099,
+        9.17745,
+        10.67256
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_80",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "fillStyle": "SOLID",
+      "areaMm2": 0.0633582574914996,
+      "boundsMm": [
+        22.439339,
+        7.882550000000001,
+        22.699014,
+        8.570763
+      ],
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    }
+  ],
+  "operationManifestSha256": "b4dc31a3be9acf3e2311dd9b85b3b76b5636c22d7aa88020d51870d6ea897e3f",
+  "fillOperationCount": 1
+}

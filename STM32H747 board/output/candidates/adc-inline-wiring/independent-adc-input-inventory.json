@@ -1,0 +1,2114 @@
+{
+  "schema": "independent-ten-adc-input-inventory-20261016-v1",
+  "passed": true,
+  "schematicSourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc-inline-reopened-20261016.epru",
+  "schematicSourceSha256": "24a4bc9a6773479e94e95915fcee5e1439cd8aebcdcd1759b6aa14118e42dfd9",
+  "pcbSourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-multilayer-corners_j18_direction_v2_20261016-reopened.epru",
+  "pcbSourceSha256": "106a37094bd8b2a383af5c7fb76101a64ade8cb55e3d55dda590abebfbc1f7a9",
+  "nativeNetlistPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc-inline-after-Protel2-20261016.net",
+  "nativeNetlistSha256": "b6bcc0dd2882371f9a775d91c13609037e09ddb40ee2b2cfc13d1bce60425ec5",
+  "smaInputCount": 10,
+  "countsByAdcBank": {
+    "ADC1": 3,
+    "ADC2": 3,
+    "ADC3": 4
+  },
+  "alreadyUpdatedCount": 3,
+  "remainingUnchangedInputCount": 7,
+  "inputs": [
+    {
+      "bank": "ADC1",
+      "sma": {
+        "ref": "J2",
+        "schematicId": "08b2a67c12875778",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          221.499,
+          200.89311
+        ],
+        "pinNets": {
+          "1": "Net-(J2-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "b921a22d4b7579ed",
+          "XYmil": [
+            177.1654,
+            5511.811
+          ],
+          "XYmm": [
+            4.500001,
+            139.999999
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J2-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R137",
+        "schematicId": "8aca3284ddf555cd",
+        "value": "6.8k",
+        "DNP": "no",
+        "schematicXY": [
+          280,
+          150
+        ],
+        "pinNets": {
+          "1": "ADC1_PRE1",
+          "2": "ADC_BIAS_2V5"
+        },
+        "pcb": {
+          "id": "b87a423aa50c85bf",
+          "XYmil": [
+            545.2756,
+            5579.1338
+          ],
+          "XYmm": [
+            13.85,
+            141.709999
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R137-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R140",
+        "schematicId": "fa7b0903f6365559",
+        "value": "6.8k",
+        "DNP": "no",
+        "schematicXY": [
+          255,
+          190
+        ],
+        "pinNets": {
+          "1": "Net-(J2-In)",
+          "2": "ADC1_PRE1"
+        },
+        "pcb": {
+          "id": "dbb743ab5a330dfb",
+          "XYmil": [
+            393.3071,
+            5511.811
+          ],
+          "XYmm": [
+            9.99,
+            139.999999
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J2-In)"
+            ],
+            "2": [
+              "Net-(R137-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R141",
+        "schematicId": "86b67421d1d75ca7",
+        "value": "47",
+        "DNP": "no",
+        "schematicXY": [
+          420,
+          200
+        ],
+        "pinNets": {
+          "1": "ADC1_DRV1",
+          "2": "ADC1_INP0"
+        },
+        "pcb": {
+          "id": "c64e97b932dbc448",
+          "XYmil": [
+            609.8425,
+            5511.811
+          ],
+          "XYmm": [
+            15.489999,
+            139.999999
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R137-Pad2)"
+            ],
+            "2": [
+              "ADC1_INP0"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": null,
+      "adcCapacitor": {
+        "ref": "C80",
+        "schematicId": "91b97cfb8cae553a",
+        "value": "2.2nF",
+        "DNP": "no",
+        "schematicXY": [
+          455,
+          230
+        ],
+        "pinNets": {
+          "1": "ADC1_INP0",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "e3534666d2428429",
+          "XYmil": [
+            629.9213,
+            5577.9528
+          ],
+          "XYmm": [
+            16.000001,
+            141.680001
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC1_INP0"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "ADC1_PRE1",
+      "adcPort": "ADC1_INP0",
+      "gpio": "PA0_C",
+      "mcuBall": "T1",
+      "alreadyUpdatedDcBuffer": true,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC1",
+      "sma": {
+        "ref": "J3",
+        "schematicId": "9c2922b9510b51c0",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          556.4815,
+          200.89311
+        ],
+        "pinNets": {
+          "1": "Net-(J3-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "afef66d437b67df9",
+          "XYmil": [
+            177.1654,
+            4960.6299
+          ],
+          "XYmm": [
+            4.500001,
+            125.999999
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J3-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R138",
+        "schematicId": "7104ad5724315ce1",
+        "value": "6.8k",
+        "DNP": "no",
+        "schematicXY": [
+          615,
+          150
+        ],
+        "pinNets": {
+          "1": "ADC1_PRE2",
+          "2": "ADC_BIAS_2V5"
+        },
+        "pcb": {
+          "id": "9c34ed3686bc79f0",
+          "XYmil": [
+            545.2756,
+            5027.5591
+          ],
+          "XYmm": [
+            13.85,
+            127.700001
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R138-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R142",
+        "schematicId": "636d83834621512e",
+        "value": "6.8k",
+        "DNP": "no",
+        "schematicXY": [
+          590,
+          190
+        ],
+        "pinNets": {
+          "1": "Net-(J3-In)",
+          "2": "ADC1_PRE2"
+        },
+        "pcb": {
+          "id": "cedc928262cf36c3",
+          "XYmil": [
+            393.3071,
+            4960.6299
+          ],
+          "XYmm": [
+            9.99,
+            125.999999
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J3-In)"
+            ],
+            "2": [
+              "Net-(R138-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R143",
+        "schematicId": "f37591f7306b57a6",
+        "value": "47",
+        "DNP": "no",
+        "schematicXY": [
+          755,
+          200
+        ],
+        "pinNets": {
+          "1": "ADC1_DRV2",
+          "2": "ADC1_INP1"
+        },
+        "pcb": {
+          "id": "580983bf6e3b965a",
+          "XYmil": [
+            609.8425,
+            4960.6299
+          ],
+          "XYmm": [
+            15.489999,
+            125.999999
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R138-Pad2)"
+            ],
+            "2": [
+              "ADC1_INP1"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": null,
+      "adcCapacitor": {
+        "ref": "C81",
+        "schematicId": "2890fadd90ab5b1a",
+        "value": "2.2nF",
+        "DNP": "no",
+        "schematicXY": [
+          790,
+          230
+        ],
+        "pinNets": {
+          "1": "ADC1_INP1",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "363ea4d57e977218",
+          "XYmil": [
+            629.9213,
+            5026.378
+          ],
+          "XYmm": [
+            16.000001,
+            127.670001
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC1_INP1"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "ADC1_PRE2",
+      "adcPort": "ADC1_INP1",
+      "gpio": "PA1_C",
+      "mcuBall": "T2",
+      "alreadyUpdatedDcBuffer": true,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC1",
+      "sma": {
+        "ref": "J4",
+        "schematicId": "5b829a3135745dc5",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          886.4815,
+          200.902953
+        ],
+        "pinNets": {
+          "1": "Net-(J4-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "0b5fac9098dce533",
+          "XYmil": [
+            177.1654,
+            4409.4488
+          ],
+          "XYmm": [
+            4.500001,
+            112.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J4-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R139",
+        "schematicId": "98fdb1631478573d",
+        "value": "6.8k",
+        "DNP": "no",
+        "schematicXY": [
+          945,
+          150
+        ],
+        "pinNets": {
+          "1": "ADC1_PRE3",
+          "2": "ADC_BIAS_2V5"
+        },
+        "pcb": {
+          "id": "0cc0fd1c321e73eb",
+          "XYmil": [
+            545.2756,
+            4477.7559
+          ],
+          "XYmm": [
+            13.85,
+            113.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R139-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R144",
+        "schematicId": "f8536723f5b45ffe",
+        "value": "6.8k",
+        "DNP": "no",
+        "schematicXY": [
+          920,
+          190
+        ],
+        "pinNets": {
+          "1": "Net-(J4-In)",
+          "2": "ADC1_PRE3"
+        },
+        "pcb": {
+          "id": "8341872c1cd0254d",
+          "XYmil": [
+            393.3071,
+            4409.4488
+          ],
+          "XYmm": [
+            9.99,
+            112.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J4-In)"
+            ],
+            "2": [
+              "Net-(R139-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R145",
+        "schematicId": "d33a09e8cfa65dbe",
+        "value": "47",
+        "DNP": "no",
+        "schematicXY": [
+          1085,
+          200
+        ],
+        "pinNets": {
+          "1": "ADC1_DRV3",
+          "2": "ADC1_INP16"
+        },
+        "pcb": {
+          "id": "5a030c46d8a4174d",
+          "XYmil": [
+            609.8425,
+            4409.4488
+          ],
+          "XYmm": [
+            15.489999,
+            112.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R139-Pad2)"
+            ],
+            "2": [
+              "ADC1_INP16"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": null,
+      "adcCapacitor": {
+        "ref": "C82",
+        "schematicId": "5eb38ae1f71851e1",
+        "value": "2.2nF",
+        "DNP": "no",
+        "schematicXY": [
+          1120,
+          230
+        ],
+        "pinNets": {
+          "1": "ADC1_INP16",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "01349d333f813c93",
+          "XYmil": [
+            629.9213,
+            4476.5748
+          ],
+          "XYmm": [
+            16.000001,
+            113.705
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC1_INP16"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "ADC1_PRE3",
+      "adcPort": "ADC1_INP16",
+      "gpio": "PA0",
+      "mcuBall": "N5",
+      "alreadyUpdatedDcBuffer": true,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC2",
+      "sma": {
+        "ref": "J5",
+        "schematicId": "8f9b592c569a54d7",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          221.499,
+          330.902953
+        ],
+        "pinNets": {
+          "1": "Net-(J5-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "a720c263d59d27d0",
+          "XYmil": [
+            177.1654,
+            3858.2677
+          ],
+          "XYmm": [
+            4.500001,
+            98.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J5-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R149",
+        "schematicId": "259047a1516f5e63",
+        "value": "7.5k",
+        "DNP": "no",
+        "schematicXY": [
+          354.705315,
+          300
+        ],
+        "pinNets": {
+          "1": "+3V3",
+          "2": "Net-(R149-Pad2)"
+        },
+        "pcb": {
+          "id": "d753120e76d3ddd6",
+          "XYmil": [
+            545.2756,
+            3926.1811
+          ],
+          "XYmm": [
+            13.85,
+            99.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R149-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R152",
+        "schematicId": "9fdbe031b289594a",
+        "value": "5.1k",
+        "DNP": "no",
+        "schematicXY": [
+          262.403346,
+          316.548425
+        ],
+        "pinNets": {
+          "1": "Net-(J5-In)",
+          "2": "Net-(R149-Pad2)"
+        },
+        "pcb": {
+          "id": "c63b1fc1973e796b",
+          "XYmil": [
+            393.3071,
+            3858.2677
+          ],
+          "XYmm": [
+            9.99,
+            98.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J5-In)"
+            ],
+            "2": [
+              "Net-(R149-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R153",
+        "schematicId": "82c816aabeb85a58",
+        "value": "100",
+        "DNP": "no",
+        "schematicXY": [
+          392.750394,
+          318.016732
+        ],
+        "pinNets": {
+          "1": "Net-(R149-Pad2)",
+          "2": "ADC2_INP3"
+        },
+        "pcb": {
+          "id": "549535eed341c0e7",
+          "XYmil": [
+            609.8425,
+            3858.2677
+          ],
+          "XYmm": [
+            15.489999,
+            98.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R149-Pad2)"
+            ],
+            "2": [
+              "ADC2_INP3"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": {
+        "ref": "R158",
+        "schematicId": "f0c044c169bf540e",
+        "value": "30k_NC",
+        "DNP": "yes",
+        "schematicXY": [
+          357.844094,
+          340
+        ],
+        "pinNets": {
+          "1": "Net-(R149-Pad2)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "bc866c330e57c52d",
+          "XYmil": [
+            587.5984,
+            3926.1811
+          ],
+          "XYmm": [
+            14.924999,
+            99.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R149-Pad2)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "adcCapacitor": {
+        "ref": "C86",
+        "schematicId": "fe36865277405783",
+        "value": "10n",
+        "DNP": "no",
+        "schematicXY": [
+          432.754134,
+          342.031693
+        ],
+        "pinNets": {
+          "1": "ADC2_INP3",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "a86798959e40ccd5",
+          "XYmil": [
+            629.9213,
+            3925
+          ],
+          "XYmm": [
+            16.000001,
+            99.695
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC2_INP3"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "Net-(R149-Pad2)",
+      "adcPort": "ADC2_INP3",
+      "gpio": "PA6",
+      "mcuBall": "R3",
+      "alreadyUpdatedDcBuffer": false,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC2",
+      "sma": {
+        "ref": "J6",
+        "schematicId": "e2655a0b786355f2",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          556.4815,
+          330.89311
+        ],
+        "pinNets": {
+          "1": "Net-(J6-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "c8db40735c04cd92",
+          "XYmil": [
+            177.1654,
+            3307.0866
+          ],
+          "XYmm": [
+            4.500001,
+            84.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J6-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R150",
+        "schematicId": "4f50f5a820615bec",
+        "value": "7.5k",
+        "DNP": "no",
+        "schematicXY": [
+          689.691535,
+          300
+        ],
+        "pinNets": {
+          "1": "+3V3",
+          "2": "Net-(R150-Pad2)"
+        },
+        "pcb": {
+          "id": "cbe1679042360d9c",
+          "XYmil": [
+            545.2756,
+            3375
+          ],
+          "XYmm": [
+            13.85,
+            85.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R150-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R154",
+        "schematicId": "138d1428f6aa5cd1",
+        "value": "5.1k",
+        "DNP": "no",
+        "schematicXY": [
+          597.403346,
+          316.548425
+        ],
+        "pinNets": {
+          "1": "Net-(J6-In)",
+          "2": "Net-(R150-Pad2)"
+        },
+        "pcb": {
+          "id": "c24f4582621194cb",
+          "XYmil": [
+            393.3071,
+            3307.0866
+          ],
+          "XYmm": [
+            9.99,
+            84.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J6-In)"
+            ],
+            "2": [
+              "Net-(R150-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R155",
+        "schematicId": "2b58e987b21f58ca",
+        "value": "100",
+        "DNP": "no",
+        "schematicXY": [
+          727.750394,
+          318.016732
+        ],
+        "pinNets": {
+          "1": "Net-(R150-Pad2)",
+          "2": "ADC2_INP12"
+        },
+        "pcb": {
+          "id": "ccb8a287a8dc15df",
+          "XYmil": [
+            609.8425,
+            3307.0866
+          ],
+          "XYmm": [
+            15.489999,
+            84.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R150-Pad2)"
+            ],
+            "2": [
+              "ADC2_INP12"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": {
+        "ref": "R159",
+        "schematicId": "d5bc00f832905726",
+        "value": "30k_NC",
+        "DNP": "yes",
+        "schematicXY": [
+          692.844094,
+          340
+        ],
+        "pinNets": {
+          "1": "Net-(R150-Pad2)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "12d804aebf9e2f8c",
+          "XYmil": [
+            587.5984,
+            3375
+          ],
+          "XYmm": [
+            14.924999,
+            85.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R150-Pad2)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "adcCapacitor": {
+        "ref": "C87",
+        "schematicId": "eeb57f9f6ad45199",
+        "value": "10n",
+        "DNP": "no",
+        "schematicXY": [
+          767.755906,
+          342.031693
+        ],
+        "pinNets": {
+          "1": "ADC2_INP12",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "6f94a6866cdb3c91",
+          "XYmil": [
+            629.9213,
+            3373.8189
+          ],
+          "XYmm": [
+            16.000001,
+            85.695
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC2_INP12"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "Net-(R150-Pad2)",
+      "adcPort": "ADC2_INP12",
+      "gpio": "PC2",
+      "mcuBall": "M3",
+      "alreadyUpdatedDcBuffer": false,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC2",
+      "sma": {
+        "ref": "J7",
+        "schematicId": "91d44dbcee485701",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          886.4815,
+          330.902953
+        ],
+        "pinNets": {
+          "1": "Net-(J7-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "1772c366e461a031",
+          "XYmil": [
+            177.1654,
+            2755.9055
+          ],
+          "XYmm": [
+            4.500001,
+            70.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J7-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R151",
+        "schematicId": "9efe573c34e05329",
+        "value": "7.5k",
+        "DNP": "no",
+        "schematicXY": [
+          1019.216732,
+          300
+        ],
+        "pinNets": {
+          "1": "+3V3",
+          "2": "Net-(R151-Pad2)"
+        },
+        "pcb": {
+          "id": "551d9654bf1c3d95",
+          "XYmil": [
+            545.2756,
+            2823.8189
+          ],
+          "XYmm": [
+            13.85,
+            71.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R151-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R156",
+        "schematicId": "09f5429eeeae5292",
+        "value": "5.1k",
+        "DNP": "no",
+        "schematicXY": [
+          927.403346,
+          316.548425
+        ],
+        "pinNets": {
+          "1": "Net-(J7-In)",
+          "2": "Net-(R151-Pad2)"
+        },
+        "pcb": {
+          "id": "180de327c2e003ab",
+          "XYmil": [
+            393.3071,
+            2755.9055
+          ],
+          "XYmm": [
+            9.99,
+            70.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J7-In)"
+            ],
+            "2": [
+              "Net-(R151-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R157",
+        "schematicId": "c0f3d9c83f325608",
+        "value": "100",
+        "DNP": "no",
+        "schematicXY": [
+          1057.750394,
+          318.016732
+        ],
+        "pinNets": {
+          "1": "Net-(R151-Pad2)",
+          "2": "ADC2_INP13"
+        },
+        "pcb": {
+          "id": "402bb8f3f5082df0",
+          "XYmil": [
+            609.8425,
+            2755.9055
+          ],
+          "XYmm": [
+            15.489999,
+            70.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R151-Pad2)"
+            ],
+            "2": [
+              "ADC2_INP13"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": {
+        "ref": "R160",
+        "schematicId": "bf9ceeec20155ac3",
+        "value": "30k_NC",
+        "DNP": "yes",
+        "schematicXY": [
+          1022.844094,
+          340
+        ],
+        "pinNets": {
+          "1": "Net-(R151-Pad2)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "f24dbbd750462acd",
+          "XYmil": [
+            587.5984,
+            2823.8189
+          ],
+          "XYmm": [
+            14.924999,
+            71.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R151-Pad2)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "adcCapacitor": {
+        "ref": "C88",
+        "schematicId": "afec4d97056250b4",
+        "value": "10n",
+        "DNP": "no",
+        "schematicXY": [
+          1097.761024,
+          342.031693
+        ],
+        "pinNets": {
+          "1": "ADC2_INP13",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "7345ab6f180a3a7f",
+          "XYmil": [
+            629.9213,
+            2822.6378
+          ],
+          "XYmm": [
+            16.000001,
+            71.695
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC2_INP13"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "Net-(R151-Pad2)",
+      "adcPort": "ADC2_INP13",
+      "gpio": "PC3",
+      "mcuBall": "M4",
+      "alreadyUpdatedDcBuffer": false,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC3",
+      "sma": {
+        "ref": "J8",
+        "schematicId": "81e81b3782b2589e",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          221.499,
+          460.89311
+        ],
+        "pinNets": {
+          "1": "Net-(J8-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "8b88019d0dcca1ab",
+          "XYmil": [
+            177.1654,
+            2204.7244
+          ],
+          "XYmm": [
+            4.500001,
+            56.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J8-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R161",
+        "schematicId": "2f70f125c1db55b4",
+        "value": "7.5k",
+        "DNP": "no",
+        "schematicXY": [
+          354.216732,
+          430
+        ],
+        "pinNets": {
+          "1": "+3V3",
+          "2": "Net-(R161-Pad2)"
+        },
+        "pcb": {
+          "id": "916347846a1729a8",
+          "XYmil": [
+            545.2756,
+            2273.0315
+          ],
+          "XYmm": [
+            13.85,
+            57.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R161-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R165",
+        "schematicId": "97934279e18c505f",
+        "value": "5.1k",
+        "DNP": "no",
+        "schematicXY": [
+          262.403346,
+          446.548425
+        ],
+        "pinNets": {
+          "1": "Net-(J8-In)",
+          "2": "Net-(R161-Pad2)"
+        },
+        "pcb": {
+          "id": "47cc36cfc13ab740",
+          "XYmil": [
+            393.3071,
+            2204.7244
+          ],
+          "XYmm": [
+            9.99,
+            56.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J8-In)"
+            ],
+            "2": [
+              "Net-(R161-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R166",
+        "schematicId": "85822e98b8aa5813",
+        "value": "100",
+        "DNP": "no",
+        "schematicXY": [
+          392.750394,
+          448.016732
+        ],
+        "pinNets": {
+          "1": "Net-(R161-Pad2)",
+          "2": "ADC3_INP2"
+        },
+        "pcb": {
+          "id": "4d0dcd5f4b995171",
+          "XYmil": [
+            609.8425,
+            2204.7244
+          ],
+          "XYmm": [
+            15.489999,
+            56.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R161-Pad2)"
+            ],
+            "2": [
+              "ADC3_INP2"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": {
+        "ref": "R173",
+        "schematicId": "e47ab3ac1c3f5e4c",
+        "value": "30k_NC",
+        "DNP": "yes",
+        "schematicXY": [
+          357.844094,
+          470
+        ],
+        "pinNets": {
+          "1": "Net-(R161-Pad2)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "abc7c7c4cc223156",
+          "XYmil": [
+            587.5984,
+            2273.0315
+          ],
+          "XYmm": [
+            14.924999,
+            57.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R161-Pad2)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "adcCapacitor": {
+        "ref": "C93",
+        "schematicId": "4c84fff6aee55795",
+        "value": "10n",
+        "DNP": "no",
+        "schematicXY": [
+          432.755906,
+          472.031693
+        ],
+        "pinNets": {
+          "1": "ADC3_INP2",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "cc165f39431d3895",
+          "XYmil": [
+            629.9213,
+            2271.8504
+          ],
+          "XYmm": [
+            16.000001,
+            57.705
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC3_INP2"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "Net-(R161-Pad2)",
+      "adcPort": "ADC3_INP2",
+      "gpio": "PF9",
+      "mcuBall": "L4",
+      "alreadyUpdatedDcBuffer": false,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC3",
+      "sma": {
+        "ref": "J9",
+        "schematicId": "705fed672cce5c1f",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          556.4815,
+          460.89311
+        ],
+        "pinNets": {
+          "1": "Net-(J9-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "f26bff9701d0729d",
+          "XYmil": [
+            177.1654,
+            1653.5433
+          ],
+          "XYmm": [
+            4.500001,
+            42.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J9-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R162",
+        "schematicId": "c38a93fef3f65d46",
+        "value": "7.5k",
+        "DNP": "no",
+        "schematicXY": [
+          689.674409,
+          430
+        ],
+        "pinNets": {
+          "1": "+3V3",
+          "2": "Net-(R162-Pad2)"
+        },
+        "pcb": {
+          "id": "14939f88fac693fd",
+          "XYmil": [
+            545.2756,
+            1721.4567
+          ],
+          "XYmm": [
+            13.85,
+            43.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R162-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R167",
+        "schematicId": "9e7a7ba072b250f3",
+        "value": "5.1k",
+        "DNP": "no",
+        "schematicXY": [
+          597.403346,
+          446.548425
+        ],
+        "pinNets": {
+          "1": "Net-(J9-In)",
+          "2": "Net-(R162-Pad2)"
+        },
+        "pcb": {
+          "id": "46ac764e54699863",
+          "XYmil": [
+            393.3071,
+            1653.5433
+          ],
+          "XYmm": [
+            9.99,
+            42.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J9-In)"
+            ],
+            "2": [
+              "Net-(R162-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R168",
+        "schematicId": "9245f8a25f995532",
+        "value": "100",
+        "DNP": "no",
+        "schematicXY": [
+          727.750394,
+          448.016732
+        ],
+        "pinNets": {
+          "1": "Net-(R162-Pad2)",
+          "2": "ADC3_INP6"
+        },
+        "pcb": {
+          "id": "e96043b3e2b2b24a",
+          "XYmil": [
+            609.8425,
+            1653.5433
+          ],
+          "XYmm": [
+            15.489999,
+            42.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R162-Pad2)"
+            ],
+            "2": [
+              "ADC3_INP6"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": {
+        "ref": "R174",
+        "schematicId": "ce35412e405b5862",
+        "value": "30k_NC",
+        "DNP": "yes",
+        "schematicXY": [
+          692.844094,
+          470
+        ],
+        "pinNets": {
+          "1": "Net-(R162-Pad2)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "7255a5ecd906000a",
+          "XYmil": [
+            587.5984,
+            1721.4567
+          ],
+          "XYmm": [
+            14.924999,
+            43.725
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R162-Pad2)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "adcCapacitor": {
+        "ref": "C94",
+        "schematicId": "b6c531013c515411",
+        "value": "10n",
+        "DNP": "no",
+        "schematicXY": [
+          767.745669,
+          472.031693
+        ],
+        "pinNets": {
+          "1": "ADC3_INP6",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "b2e1abd182021a83",
+          "XYmil": [
+            629.9213,
+            1720.2756
+          ],
+          "XYmm": [
+            16.000001,
+            43.695
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC3_INP6"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "Net-(R162-Pad2)",
+      "adcPort": "ADC3_INP6",
+      "gpio": "PF10",
+      "mcuBall": "L3",
+      "alreadyUpdatedDcBuffer": false,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC3",
+      "sma": {
+        "ref": "J10",
+        "schematicId": "1a2b5cf320a15770",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          886.463583,
+          460.89311
+        ],
+        "pinNets": {
+          "1": "Net-(J10-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "f09a8f99f71c453e",
+          "XYmil": [
+            177.1654,
+            1102.3622
+          ],
+          "XYmm": [
+            4.500001,
+            28.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J10-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R163",
+        "schematicId": "53aee1b4cb9d5460",
+        "value": "7.5k",
+        "DNP": "no",
+        "schematicXY": [
+          1019.7,
+          430
+        ],
+        "pinNets": {
+          "1": "+3V3",
+          "2": "Net-(R163-Pad2)"
+        },
+        "pcb": {
+          "id": "c2247c27b3a80dd7",
+          "XYmil": [
+            545.2756,
+            1170.6693
+          ],
+          "XYmm": [
+            13.85,
+            29.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R163-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R169",
+        "schematicId": "7e4e2b60412850e1",
+        "value": "5.1k",
+        "DNP": "no",
+        "schematicXY": [
+          927.403346,
+          446.548425
+        ],
+        "pinNets": {
+          "1": "Net-(J10-In)",
+          "2": "Net-(R163-Pad2)"
+        },
+        "pcb": {
+          "id": "254506d0f221a8e9",
+          "XYmil": [
+            393.3071,
+            1102.3622
+          ],
+          "XYmm": [
+            9.99,
+            28.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J10-In)"
+            ],
+            "2": [
+              "Net-(R163-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R170",
+        "schematicId": "4c70bd77fae25ac7",
+        "value": "100",
+        "DNP": "no",
+        "schematicXY": [
+          1057.750394,
+          448.016732
+        ],
+        "pinNets": {
+          "1": "Net-(R163-Pad2)",
+          "2": "ADC3_INP7"
+        },
+        "pcb": {
+          "id": "04205fb14df03383",
+          "XYmil": [
+            609.8425,
+            1102.3622
+          ],
+          "XYmm": [
+            15.489999,
+            28.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R163-Pad2)"
+            ],
+            "2": [
+              "ADC3_INP7"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": {
+        "ref": "R175",
+        "schematicId": "409e6dd6802b5154",
+        "value": "30k_NC",
+        "DNP": "yes",
+        "schematicXY": [
+          1022.844094,
+          470
+        ],
+        "pinNets": {
+          "1": "Net-(R163-Pad2)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "79fafdc8dbc189e2",
+          "XYmil": [
+            587.5984,
+            1170.6693
+          ],
+          "XYmm": [
+            14.924999,
+            29.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R163-Pad2)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "adcCapacitor": {
+        "ref": "C95",
+        "schematicId": "830905e77f925459",
+        "value": "10n",
+        "DNP": "no",
+        "schematicXY": [
+          1097.774606,
+          472.031693
+        ],
+        "pinNets": {
+          "1": "ADC3_INP7",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "7d9c191d42577971",
+          "XYmil": [
+            629.9213,
+            1170.6693
+          ],
+          "XYmm": [
+            16.000001,
+            29.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC3_INP7"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "Net-(R163-Pad2)",
+      "adcPort": "ADC3_INP7",
+      "gpio": "PF8",
+      "mcuBall": "K4",
+      "alreadyUpdatedDcBuffer": false,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    },
+    {
+      "bank": "ADC3",
+      "sma": {
+        "ref": "J11",
+        "schematicId": "bd5f52a8a69e5f06",
+        "value": "SMA-KWE901",
+        "DNP": "no",
+        "schematicXY": [
+          1226.48,
+          460.89311
+        ],
+        "pinNets": {
+          "1": "Net-(J11-In)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "fd77caf2157b0c36",
+          "XYmil": [
+            177.1654,
+            551.1811
+          ],
+          "XYmm": [
+            4.500001,
+            14.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J11-In)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "biasResistor": {
+        "ref": "R164",
+        "schematicId": "3068c884989a5d91",
+        "value": "7.5k",
+        "DNP": "no",
+        "schematicXY": [
+          1359.689764,
+          430
+        ],
+        "pinNets": {
+          "1": "+3V3",
+          "2": "Net-(R164-Pad2)"
+        },
+        "pcb": {
+          "id": "b08087b98efb27ad",
+          "XYmil": [
+            545.2756,
+            619.4882
+          ],
+          "XYmm": [
+            13.85,
+            15.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "+3V3"
+            ],
+            "2": [
+              "Net-(R164-Pad2)"
+            ]
+          }
+        }
+      },
+      "inputResistor": {
+        "ref": "R171",
+        "schematicId": "6eddcb7c8b9658c5",
+        "value": "5.1k",
+        "DNP": "no",
+        "schematicXY": [
+          1267.403346,
+          446.548425
+        ],
+        "pinNets": {
+          "1": "Net-(J11-In)",
+          "2": "Net-(R164-Pad2)"
+        },
+        "pcb": {
+          "id": "c37e430535d28c7f",
+          "XYmil": [
+            393.3071,
+            551.1811
+          ],
+          "XYmm": [
+            9.99,
+            14.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(J11-In)"
+            ],
+            "2": [
+              "Net-(R164-Pad2)"
+            ]
+          }
+        }
+      },
+      "seriesResistor": {
+        "ref": "R172",
+        "schematicId": "e0f4774760e55005",
+        "value": "100",
+        "DNP": "no",
+        "schematicXY": [
+          1397.750394,
+          448.016732
+        ],
+        "pinNets": {
+          "1": "Net-(R164-Pad2)",
+          "2": "ADC3_INP8"
+        },
+        "pcb": {
+          "id": "6a881ec9977f9c8b",
+          "XYmil": [
+            609.8425,
+            551.1811
+          ],
+          "XYmm": [
+            15.489999,
+            14.0
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R164-Pad2)"
+            ],
+            "2": [
+              "ADC3_INP8"
+            ]
+          }
+        }
+      },
+      "shuntDnpResistor": {
+        "ref": "R176",
+        "schematicId": "b6fe782c8f5e5a43",
+        "value": "30k_NC",
+        "DNP": "yes",
+        "schematicXY": [
+          1362.844094,
+          470
+        ],
+        "pinNets": {
+          "1": "Net-(R164-Pad2)",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "5fb163652ad77f24",
+          "XYmil": [
+            587.5984,
+            619.4882
+          ],
+          "XYmm": [
+            14.924999,
+            15.735
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "Net-(R164-Pad2)"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "adcCapacitor": {
+        "ref": "C96",
+        "schematicId": "f7d0c798e499555b",
+        "value": "10n",
+        "DNP": "no",
+        "schematicXY": [
+          1437.754134,
+          472.031693
+        ],
+        "pinNets": {
+          "1": "ADC3_INP8",
+          "2": "GND"
+        },
+        "pcb": {
+          "id": "8e4c34ddd1fb1f04",
+          "XYmil": [
+            629.9213,
+            618.3071
+          ],
+          "XYmm": [
+            16.000001,
+            15.705
+          ],
+          "angle": 0,
+          "layer": 1,
+          "padNets": {
+            "1": [
+              "ADC3_INP8"
+            ],
+            "2": [
+              "GND"
+            ]
+          }
+        }
+      },
+      "mixNet": "Net-(R164-Pad2)",
+      "adcPort": "ADC3_INP8",
+      "gpio": "PF6",
+      "mcuBall": "K2",
+      "alreadyUpdatedDcBuffer": false,
+      "nativeEvidenceForSpecialOrTestOnlyConnector": false
+    }
+  ],
+  "scopeDecisionNeeded": "User says remaining six, but seven ordinary ADC inputs J5-J11 exist. Confirm whether to include all seven, or which one is intentionally excluded. No special/test-only evidence found for J11.",
+  "notes": [
+    "ADC1 physical MCU ports unchanged; labels one/two/three are input order, not ADC hardware channel numbers.",
+    "Current PCB still has pre-ADC-ECO passive inputs, including old ADC1 resistors/DNP footprints; this inventory does not authorize or implement ECO.",
+    "No live EasyEDA/API operations and no PCB or circuit mutations."
+  ]
+}

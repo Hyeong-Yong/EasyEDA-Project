@@ -1,0 +1,1967 @@
+{
+  "authorizationScope": "Parent explicitly approved omitting only the 58 frozen d25acd report lobes with zero same-layer copper/pad/via contact and no MCU-VSS anchor. Any later route variant requires a fresh list and separate review; no broad or automatic island deletion.",
+  "implementation": "Do not create these 58 new FILL lobes; original FILL modifications are identical to the preservation variant. No existing FILL primitive is deleted.",
+  "removedNewLobeCount": 58,
+  "retainedNewLobeCount": 13,
+  "nominalExtraRemovalAreaMm2ExactDecimal": "17.332892604933",
+  "nominalExtraRemovalIntegerTwiceAreaNm2": 34665785209866,
+  "nominalExtraRemovalAreaMm2": 17.332892604933,
+  "physicalPenEnvelopeExtraRemovalAreaMm2": 17.784108893366465,
+  "physicalPenQualification": "Nominal contour area is the exact requested 17.3328926 mm2 rounded value. Native 0.2 mil pen adds the separately reported physical envelope; the frozen DC graph established zero contact for every full physical envelope.",
+  "copperAdditionAreaVsPreservationVariantMm2": 0.0,
+  "copperAdditionAreaVsOriginalMm2": 0.0,
+  "symmetricDifferenceFromPreservationMinusApprovedMasksMm2": 0.0,
+  "extraRemovalOutsideApprovedMasksMm2": 0.0,
+  "approvedMaskNotRemovedAreaMm2": 0.0,
+  "allExistingTargetFILLBeforeBodiesAndPathsUnchangedVsPreservationVariant": true,
+  "fourInvalidTopInputFillsRemainExactAndUnmodified": [
+    {
+      "id": "9a405bd52ff5d175",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Hole lies outside shell[51.8223119 116.72493292]",
+      "beforeBodySha256": "89f81d6cd6dbafde0237e875de14dddc0f02ec126b590a4b0ae32904f6298d0a"
+    },
+    {
+      "id": "d9b20cbcd6912827",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[52.39999934 37.52983604]",
+      "beforeBodySha256": "3daa6094fce4515bfe47ad14f3e8ed47eefa85d685662ba3cefa2724485fe45e"
+    },
+    {
+      "id": "cbf547853a678101",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[55.60499928 114.8197602]",
+      "beforeBodySha256": "a1c5ed4ccc4849fbf1e6d032e0dbc82693ceadf8eeb4acc563d062a8febe99cc"
+    },
+    {
+      "id": "c18edd359ca3c0bd",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[77.54999984 67.75483782]",
+      "beforeBodySha256": "2158a9d60cc056883c70e45cd0cbbe3ef6039ad3f9abc8d68c6e81037977a1b4"
+    }
+  ],
+  "otherUnanchoredLoadLobesNotRemoved": [
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_70",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527874984,
+      "boundsMm": [
+        6.887795,
+        8.427509,
+        8.485061,
+        9.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C148:2",
+          "overlapAreaMm2": 0.34664558910725884
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          0
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_64",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875,
+      "boundsMm": [
+        6.887795,
+        22.427509,
+        8.485061,
+        23.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C145:2",
+          "overlapAreaMm2": 0.3466455891072588
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          4
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_52",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875002,
+      "boundsMm": [
+        6.887795,
+        50.427509,
+        8.485061,
+        51.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C139:2",
+          "overlapAreaMm2": 0.3466455891072589
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          10
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_58",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875002,
+      "boundsMm": [
+        6.887795,
+        36.427509,
+        8.485061,
+        37.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C142:2",
+          "overlapAreaMm2": 0.3466455891072589
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          7
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_27",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875003,
+      "boundsMm": [
+        6.887795,
+        92.427509,
+        8.485061,
+        93.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C130:2",
+          "overlapAreaMm2": 0.3466455891072589
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          19
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_38",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875003,
+      "boundsMm": [
+        6.887795,
+        78.427509,
+        8.485061,
+        79.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C133:2",
+          "overlapAreaMm2": 0.3466455891072589
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          16
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_45",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875003,
+      "boundsMm": [
+        6.887795,
+        64.427509,
+        8.485061,
+        65.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C136:2",
+          "overlapAreaMm2": 0.3466455891072589
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          13
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_6",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875069,
+      "boundsMm": [
+        6.887795,
+        134.427509,
+        8.485061,
+        135.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C121:2",
+          "overlapAreaMm2": 0.3466455891072586
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          28
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_20",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875075,
+      "boundsMm": [
+        6.887795,
+        106.42750899999999,
+        8.485061,
+        107.70004
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C127:2",
+          "overlapAreaMm2": 0.34664558910725896
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          22
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_13",
+      "layerId": 1,
+      "nominalAreaMm2": 0.8007262527875256,
+      "boundsMm": [
+        6.887795,
+        120.427509,
+        8.485061,
+        121.70004000000002
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C124:2",
+          "overlapAreaMm2": 0.3466455891072592
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 1
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          25
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_32",
+      "layerId": 1,
+      "nominalAreaMm2": 24.23551663005952,
+      "boundsMm": [
+        9.459112,
+        78.627415,
+        21.50745,
+        83.526544
+      ],
+      "allSameLayerPhysicalCopperContacts": [
+        {
+          "kind": "PAD",
+          "id": "C132:2",
+          "overlapAreaMm2": 0.22997660418627955
+        },
+        {
+          "kind": "PAD",
+          "id": "U14:2",
+          "overlapAreaMm2": 0.6578508268148366
+        }
+      ],
+      "directSameLayerContactCounts": {
+        "PAD": 2
+      },
+      "sameLayerCopperComponents": [
+        [
+          1,
+          33
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": false,
+      "containsGroundPadContact": true,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    }
+  ],
+  "nativeImplemented": false,
+  "schema": "adc10-labtool-explicitly-approved58-local-removal-static-fill-variant-v1",
+  "passedOfflineGeometry": true,
+  "manifest": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\local-static-fill-clearance-short-negative-row290-v2-approved58-removal.json",
+  "manifestSha256": "3b0beb7564e162efd572ea32898070ff3e4b1fbf42988547b34d929982987206",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "placementSha256": "6c28f76d936bfb004411455abab9127ba88e4004ce3ed5aae2defc66b8fed51f",
+  "routes": [
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-short-negative-row290-variant-v1b.json",
+      "sha256": "190a27e4d41a7bcafbe7b5e39c0c52ef8d25b9bb191e90aaca57559d7bcc863d"
+    }
+  ],
+  "preservationVariantSha256": "0a6abe494b41779b4a8b2f789c2e663f3e48e5029b316528783423f5508f427b",
+  "frozenGroundAuditSha256": "d25acd2e8fc97dbf639ecdfe12496369775eb4ad7f6f746fc8b8c3e79bf8c475",
+  "removed58SummarySortedByArea": [
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_47",
+      "layerId": 1,
+      "nominalAreaMm2": 0.00110690669749934,
+      "boundsMm": [
+        11.055425,
+        56.473943000000006,
+        11.147569,
+        56.55896899999999
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          31
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_1",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0011070556575000882,
+      "boundsMm": [
+        11.055425,
+        140.473943,
+        11.14757,
+        140.55897
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          39
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_22",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0011070556575001327,
+      "boundsMm": [
+        11.055425,
+        98.473943,
+        11.14757,
+        98.55897
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          36
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_40",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0011070556575001327,
+      "boundsMm": [
+        11.055425,
+        70.473943,
+        11.14757,
+        70.55897
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          32
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_8",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0011070556575001375,
+      "boundsMm": [
+        11.055425,
+        126.473943,
+        11.14757,
+        126.55897
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          38
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_15",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0011070556575011946,
+      "boundsMm": [
+        11.055425,
+        112.47394299999999,
+        11.14757,
+        112.55897
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          37
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_31",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0011071274130000288,
+      "boundsMm": [
+        11.055425,
+        84.473943,
+        11.147573,
+        84.558973
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          34
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_39",
+      "layerId": 1,
+      "nominalAreaMm2": 0.022676664600001582,
+      "boundsMm": [
+        21.97255,
+        77.035483,
+        22.02745,
+        77.47999
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          56
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_36",
+      "layerId": 1,
+      "nominalAreaMm2": 0.03269401417799807,
+      "boundsMm": [
+        21.78004,
+        79.732551,
+        22.156964,
+        79.867449
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          57
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_7",
+      "layerId": 1,
+      "nominalAreaMm2": 0.06335825749149791,
+      "boundsMm": [
+        22.439339,
+        133.88255,
+        22.699014,
+        134.570763
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          70
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_71",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0633582574914996,
+      "boundsMm": [
+        22.439339,
+        7.882550000000001,
+        22.699014,
+        8.570763
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          40
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_14",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0633582574915002,
+      "boundsMm": [
+        22.439339,
+        119.88255,
+        22.699014,
+        120.570763
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          67
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_28",
+      "layerId": 1,
+      "nominalAreaMm2": 0.06335825749150036,
+      "boundsMm": [
+        22.439339,
+        91.88255,
+        22.699014,
+        92.570763
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          61
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_46",
+      "layerId": 1,
+      "nominalAreaMm2": 0.07372398417550019,
+      "boundsMm": [
+        22.439339,
+        63.88255,
+        22.700923,
+        64.66395
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          52
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_53",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0737239841755002,
+      "boundsMm": [
+        22.439339,
+        49.88255,
+        22.700923,
+        50.66395
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          49
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_59",
+      "layerId": 1,
+      "nominalAreaMm2": 0.0737239841755002,
+      "boundsMm": [
+        22.439339,
+        35.88255,
+        22.700923,
+        36.66395
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          46
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_65",
+      "layerId": 1,
+      "nominalAreaMm2": 0.07372398417550023,
+      "boundsMm": [
+        22.439339,
+        21.88255,
+        22.700923,
+        22.66395
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          43
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_21",
+      "layerId": 1,
+      "nominalAreaMm2": 0.07372398417550072,
+      "boundsMm": [
+        22.439339,
+        105.88255,
+        22.700923,
+        106.66395
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          64
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_3",
+      "layerId": 1,
+      "nominalAreaMm2": 0.1694739898029929,
+      "boundsMm": [
+        8.839212,
+        136.171984,
+        10.155537,
+        137.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          30
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_49",
+      "layerId": 1,
+      "nominalAreaMm2": 0.16947398980299644,
+      "boundsMm": [
+        8.839212,
+        52.171984,
+        10.155537,
+        53.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          12
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_67",
+      "layerId": 1,
+      "nominalAreaMm2": 0.16947398980299952,
+      "boundsMm": [
+        8.839212,
+        10.171984,
+        10.155537,
+        11.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          2
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_55",
+      "layerId": 1,
+      "nominalAreaMm2": 0.1694739898029997,
+      "boundsMm": [
+        8.839212,
+        38.171984,
+        10.155537,
+        39.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          9
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_61",
+      "layerId": 1,
+      "nominalAreaMm2": 0.1694739898030023,
+      "boundsMm": [
+        8.839212,
+        24.171984,
+        10.155537,
+        25.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          6
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_24",
+      "layerId": 1,
+      "nominalAreaMm2": 0.1694739898030044,
+      "boundsMm": [
+        8.839212,
+        94.171984,
+        10.155537,
+        95.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          21
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_34",
+      "layerId": 1,
+      "nominalAreaMm2": 0.1694739898030044,
+      "boundsMm": [
+        8.839212,
+        80.171984,
+        10.155537,
+        81.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          18
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_42",
+      "layerId": 1,
+      "nominalAreaMm2": 0.1694739898030044,
+      "boundsMm": [
+        8.839212,
+        66.171984,
+        10.155537,
+        67.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          15
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_17",
+      "layerId": 1,
+      "nominalAreaMm2": 0.16947398980301556,
+      "boundsMm": [
+        8.839212,
+        108.171984,
+        10.155537,
+        109.27894499999998
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          24
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_10",
+      "layerId": 1,
+      "nominalAreaMm2": 0.16947398980302067,
+      "boundsMm": [
+        8.839212,
+        122.17198400000001,
+        10.155537,
+        123.278945
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          27
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_19",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929499092,
+      "boundsMm": [
+        8.63255,
+        106.62903500000002,
+        9.184288,
+        107.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          23
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_26",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929499872,
+      "boundsMm": [
+        8.63255,
+        92.629035,
+        9.184288,
+        93.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          20
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_37",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929499872,
+      "boundsMm": [
+        8.63255,
+        78.629035,
+        9.184288,
+        79.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          17
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_44",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929499872,
+      "boundsMm": [
+        8.63255,
+        64.629035,
+        9.184288,
+        65.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          14
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_51",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929499872,
+      "boundsMm": [
+        8.63255,
+        50.629035,
+        9.184288,
+        51.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          11
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_57",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929499872,
+      "boundsMm": [
+        8.63255,
+        36.629035,
+        9.184288,
+        37.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          8
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_69",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929500064,
+      "boundsMm": [
+        8.63255,
+        8.629035,
+        9.184288,
+        9.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          1
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_63",
+      "layerId": 1,
+      "nominalAreaMm2": 0.2358547992950007,
+      "boundsMm": [
+        8.63255,
+        22.629035,
+        9.184288,
+        23.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          5
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_5",
+      "layerId": 1,
+      "nominalAreaMm2": 0.2358547992950026,
+      "boundsMm": [
+        8.63255,
+        134.629035,
+        9.184288,
+        135.726653
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          29
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_12",
+      "layerId": 1,
+      "nominalAreaMm2": 0.23585479929501046,
+      "boundsMm": [
+        8.63255,
+        120.62903499999999,
+        9.184288,
+        121.72665300000001
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          26
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_35",
+      "layerId": 1,
+      "nominalAreaMm2": 0.2758305454425063,
+      "boundsMm": [
+        20.820009,
+        80.119953,
+        21.50745,
+        81.227056
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          58
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_33",
+      "layerId": 1,
+      "nominalAreaMm2": 0.35464707185249533,
+      "boundsMm": [
+        19.07161,
+        81.32161,
+        20.252808,
+        82.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          59
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_41",
+      "layerId": 1,
+      "nominalAreaMm2": 0.3546470826304954,
+      "boundsMm": [
+        19.07161,
+        67.32161,
+        20.252808,
+        68.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          54
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_54",
+      "layerId": 1,
+      "nominalAreaMm2": 0.35464708896250163,
+      "boundsMm": [
+        19.07161,
+        39.32161,
+        20.252808,
+        40.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          48
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_60",
+      "layerId": 1,
+      "nominalAreaMm2": 0.35464709370300174,
+      "boundsMm": [
+        19.07161,
+        25.32161,
+        20.252808,
+        26.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          45
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_48",
+      "layerId": 1,
+      "nominalAreaMm2": 0.35464709606050593,
+      "boundsMm": [
+        19.07161,
+        53.32161,
+        20.252808,
+        54.00638500000001
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          51
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_66",
+      "layerId": 1,
+      "nominalAreaMm2": 0.3546470987270006,
+      "boundsMm": [
+        19.07161,
+        11.32161,
+        20.252808,
+        12.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          42
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_23",
+      "layerId": 1,
+      "nominalAreaMm2": 0.35464767455949464,
+      "boundsMm": [
+        19.07161,
+        95.32161,
+        20.25281,
+        96.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          63
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_16",
+      "layerId": 1,
+      "nominalAreaMm2": 0.3546479332594959,
+      "boundsMm": [
+        19.07161,
+        109.32161,
+        20.25281,
+        110.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          66
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_9",
+      "layerId": 1,
+      "nominalAreaMm2": 0.35464795192499515,
+      "boundsMm": [
+        19.07161,
+        123.32161,
+        20.25281,
+        124.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          69
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_2",
+      "layerId": 1,
+      "nominalAreaMm2": 0.3546479577890009,
+      "boundsMm": [
+        19.07161,
+        137.32161,
+        20.25281,
+        138.006385
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          72
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_4",
+      "layerId": 1,
+      "nominalAreaMm2": 0.974545521907993,
+      "boundsMm": [
+        20.543645,
+        135.127575,
+        22.156964,
+        137.149526
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          71
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_11",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9745455382509915,
+      "boundsMm": [
+        20.543645,
+        121.12757500000001,
+        22.156964,
+        123.14952599999998
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          68
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_25",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9745456274179994,
+      "boundsMm": [
+        20.543645,
+        93.127575,
+        22.156964,
+        95.149526
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          62
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_68",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9745456466889989,
+      "boundsMm": [
+        20.543645,
+        9.127575,
+        22.156964,
+        11.149526
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          41
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_18",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9747888995375044,
+      "boundsMm": [
+        20.543645,
+        107.127575,
+        22.159143,
+        109.14952600000001
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          65
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_43",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9747889756394994,
+      "boundsMm": [
+        20.543645,
+        65.127575,
+        22.159143,
+        67.149526
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          53
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_50",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9747889832694987,
+      "boundsMm": [
+        20.543645,
+        51.127575,
+        22.159143,
+        53.149526
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          50
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_56",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9747889832694988,
+      "boundsMm": [
+        20.543645,
+        37.127575,
+        22.159143,
+        39.149526
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          47
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_62",
+      "layerId": 1,
+      "nominalAreaMm2": 0.9747890010399999,
+      "boundsMm": [
+        20.543645,
+        23.127575,
+        22.159143,
+        25.149526
+      ],
+      "directSameLayerContactCounts": {},
+      "sameLayerCopperComponents": [
+        [
+          1,
+          44
+        ]
+      ],
+      "reachesActualMCUVssA17": false,
+      "sameGraphOriginalGroundViaIds": [],
+      "noSameLayerCopperContactDetected": true,
+      "containsGroundPadContact": false,
+      "containsGroundViaContact": false,
+      "separatedOnlyByReviewedLocalCuts": true,
+      "deletionAuthorized": false,
+      "requiresAnchorOrExplicitRemovalReview": true
+    }
+  ],
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "manufacturingApproved": false
+}

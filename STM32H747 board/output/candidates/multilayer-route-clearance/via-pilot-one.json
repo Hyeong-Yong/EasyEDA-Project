@@ -1,0 +1,126 @@
+{
+  "schema": "stm32h747-via-clearance-pilot-v1",
+  "status": "review-only-not-applied",
+  "pcbUuid": "0ac2a19168000d8e",
+  "stage": "multilayer-via-clearance-one-via-pilot",
+  "source": {
+    "path": "output\\validation\\native-final-pcb-final_reconstruction-reopened.epru",
+    "sha256": "941ae88e8eba3ed22b25b1fcd9317a619b6082e7b44898d7f369f4f35f79b797"
+  },
+  "changes": [
+    {
+      "id": "e917297287b005ea",
+      "type": "VIA",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D10",
+        "ruleName": "",
+        "centerX": 2531.4961,
+        "centerY": 4097.4409,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D10",
+        "ruleName": "",
+        "centerX": 2531.4961,
+        "centerY": 4097.4409,
+        "holeDiameter": 7.874,
+        "viaDiameter": 13.779528,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    }
+  ],
+  "proof": {
+    "net": "D10",
+    "same_net_endpoint_contacts": [
+      {
+        "id": "10a3fd0e3e415370",
+        "type": "LINE",
+        "net": "D10",
+        "layer_id": 1,
+        "endpoint": 0,
+        "point_mil": [
+          2531.4961,
+          4097.4409
+        ]
+      },
+      {
+        "id": "fe3e72bdfcb16a66",
+        "type": "LINE",
+        "net": "D10",
+        "layer_id": 2,
+        "endpoint": 1,
+        "point_mil": [
+          2531.4961,
+          4097.4409
+        ]
+      }
+    ],
+    "same_net_line_copper_contacts": [
+      {
+        "id": "10a3fd0e3e415370",
+        "type": "LINE",
+        "layer_id": 1,
+        "width_mil": 5.9055,
+        "centerline_distance_mil": 0.0,
+        "closest_point_mil": [
+          2531.4961,
+          4097.4409
+        ]
+      },
+      {
+        "id": "fe3e72bdfcb16a66",
+        "type": "LINE",
+        "layer_id": 2,
+        "width_mil": 5.9055,
+        "centerline_distance_mil": 0.0,
+        "closest_point_mil": [
+          2531.4961,
+          4097.4409
+        ]
+      },
+      {
+        "id": "5821585cb5134ea0",
+        "type": "LINE",
+        "layer_id": 2,
+        "width_mil": 5.9055,
+        "centerline_distance_mil": 4.072200000000066,
+        "closest_point_mil": [
+          2527.4239,
+          4097.4409
+        ]
+      }
+    ],
+    "affected_current_drc_rows": [
+      {
+        "global_index": "err1021",
+        "pair": "Track to Via",
+        "ids": [
+          "bbe59ee8b65065ce",
+          "e917297287b005ea"
+        ],
+        "actual_mm": 0.15100172999999964,
+        "required_mm": 0.15200122,
+        "radial_clearance_gain_mm": 0.024999599999999986,
+        "candidate_mm": 0.17600132999999962,
+        "passes": true
+      }
+    ],
+    "drill_center_net_layer_unchanged": true,
+    "different_net_clearance_is_monotonic_non_decreasing": true,
+    "full_native_drc_required_after_application": true
+  }
+}

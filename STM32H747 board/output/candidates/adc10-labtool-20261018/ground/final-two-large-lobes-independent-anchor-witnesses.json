@@ -1,0 +1,106 @@
+{
+  "schema": "large-two-ground-lobe-stitch-local-anchor-witness-audit-v1",
+  "passed": true,
+  "results": [
+    {
+      "candidate": {
+        "key": "FINAL_FLOATING_TOP20_GND_STITCH",
+        "lobeKey": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_71",
+        "xyMm": [
+          18.5224,
+          74.7574
+        ],
+        "diameterMm": 0.45,
+        "holeDiameterMm": 0.2
+      },
+      "annulusFullyCoveredByPreservedLobe": true,
+      "lobeAnnulusOverlapAreaMm2": 0.12761438831914435,
+      "anchorWitnesses": [
+        {
+          "planeId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "validConnectedPolygon": true,
+          "postMaskPathSha256": "6413310720390e13d831c5158c77d2601bf4707970550de9f33b55531fb1367c",
+          "candidateAnnulusOverlapAreaMm2": 0.12761438831914435,
+          "existingViaId": "0301b55c74123544",
+          "existingViaAnnulusOverlapAreaMm2": 0.04405623721885426,
+          "existingViaActuallyAnchoredToMcuVss": true
+        },
+        {
+          "planeId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "validConnectedPolygon": true,
+          "postMaskPathSha256": "ac49723e58fa032eb54b4f9027878744e5865f23892ba9bcf4859350b1827d30",
+          "candidateAnnulusOverlapAreaMm2": 0.12761438831914435,
+          "existingViaId": "04a3fc1bd9cef8ea",
+          "existingViaAnnulusOverlapAreaMm2": 0.147246782148579,
+          "existingViaActuallyAnchoredToMcuVss": true
+        },
+        {
+          "planeId": "ef12098577a13cc7",
+          "layerId": 18,
+          "validConnectedPolygon": true,
+          "postMaskPathSha256": "7eec9a6db1435a4c26521212d69b78d9ecb8c9aa3a7c2cf688baf4e2d5506848",
+          "candidateAnnulusOverlapAreaMm2": 0.12761438831914435,
+          "existingViaId": "0301b55c74123544",
+          "existingViaAnnulusOverlapAreaMm2": 0.04405623721885426,
+          "existingViaActuallyAnchoredToMcuVss": true
+        }
+      ],
+      "anchorProofPassed": true
+    },
+    {
+      "candidate": {
+        "key": "FINAL_FLOATING_BOTTOM7_GND_STITCH",
+        "lobeKey": "LOCAL_STATIC_LOBE_a1d7888349e74585_2",
+        "xyMm": [
+          29.1515,
+          32.4765
+        ],
+        "diameterMm": 0.45,
+        "holeDiameterMm": 0.2
+      },
+      "annulusFullyCoveredByPreservedLobe": true,
+      "lobeAnnulusOverlapAreaMm2": 0.1276143883191438,
+      "anchorWitnesses": [
+        {
+          "planeId": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "validConnectedPolygon": true,
+          "postMaskPathSha256": "6413310720390e13d831c5158c77d2601bf4707970550de9f33b55531fb1367c",
+          "candidateAnnulusOverlapAreaMm2": 0.1276143883191438,
+          "existingViaId": "0301b55c74123544",
+          "existingViaAnnulusOverlapAreaMm2": 0.04405623721885426,
+          "existingViaActuallyAnchoredToMcuVss": true
+        },
+        {
+          "planeId": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "validConnectedPolygon": true,
+          "postMaskPathSha256": "ac49723e58fa032eb54b4f9027878744e5865f23892ba9bcf4859350b1827d30",
+          "candidateAnnulusOverlapAreaMm2": 0.1276143883191438,
+          "existingViaId": "04a3fc1bd9cef8ea",
+          "existingViaAnnulusOverlapAreaMm2": 0.147246782148579,
+          "existingViaActuallyAnchoredToMcuVss": true
+        },
+        {
+          "planeId": "ef12098577a13cc7",
+          "layerId": 18,
+          "validConnectedPolygon": true,
+          "postMaskPathSha256": "7eec9a6db1435a4c26521212d69b78d9ecb8c9aa3a7c2cf688baf4e2d5506848",
+          "candidateAnnulusOverlapAreaMm2": 0.1276143883191438,
+          "existingViaId": "0301b55c74123544",
+          "existingViaAnnulusOverlapAreaMm2": 0.04405623721885426,
+          "existingViaActuallyAnchoredToMcuVss": true
+        }
+      ],
+      "anchorProofPassed": true
+    }
+  ],
+  "manifestSha256": "7a8c66abfa32ae896645c998828b199f66068224cd1648545d0b69562eecfa86",
+  "graphSha256": "26d61300c601186ff2ede9395325f0d035ba2e09c70069edea7e9e25c9b5236f",
+  "candidatesSha256": "79955120fe7a89966b57f73f7ca57fd9391e052bd338d6803fa2859e97773f45",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "scope": "Sufficient DC anchor proof only. SourceV4 graph establishes each witness oldvia reaches MCUVSS via actual Cu/barrels. Independent all-layer copper/drill/body/noVIP and final whole-net graph are still mandatory."
+}

@@ -1,0 +1,451 @@
+{
+  "method": "Read-only ZIP entry hashing and parsed EPRU log inspection. No native API, bridge, UI, source checkpoint edit, or system library access.",
+  "model_uuid": "6034de4795654a0c8c74309dab7cb0b9",
+  "source_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+  "before": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_before_3d_models_20261018.epro2",
+    "bytes": 21192572,
+    "sha256": "10b0d1abb13e9c5842c3baa35e960feea852cfd9a909c7628b65704e48f47f10",
+    "entries": {
+      "IMAGE/": {
+        "bytes": 0,
+        "compressed_bytes": 2,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "IMAGE/6e1143375f4d7b58.webp": {
+        "bytes": 26108,
+        "compressed_bytes": 22395,
+        "sha256": "e9b12b8b199781a00f1854e6d34b5ea67ba75212c5831c20b525b0a23554b27a"
+      },
+      "IMAGE/d25ba9ad5894cf5c.webp": {
+        "bytes": 56202,
+        "compressed_bytes": 53171,
+        "sha256": "8a9a0029624efef5895bddf56ae0251b49b780f796c8fec482e450418503b8b3"
+      },
+      "IMAGE/884e9cee09bd3f65.webp": {
+        "bytes": 140986,
+        "compressed_bytes": 138673,
+        "sha256": "42730dd2e88b47dabc7264e8e89f6118df3373d24f77ea9e3c19fc0d2e425bbc"
+      },
+      "IMAGE/6cbee023e77e073a.webp": {
+        "bytes": 138392,
+        "compressed_bytes": 136091,
+        "sha256": "c90b47c0cd4f9d1d99ea08e15ad82c63ba93d905b3617349a36b28ceaa846217"
+      },
+      "IMAGE/3ca9811d1a42d086.webp": {
+        "bytes": 108898,
+        "compressed_bytes": 105316,
+        "sha256": "8e77f6d9f7cbb9fcb35c46b47223c8452c0a3a377da94a7b736843e0a24ad573"
+      },
+      "IMAGE/3278c4b2f6c424d2.webp": {
+        "bytes": 72642,
+        "compressed_bytes": 70140,
+        "sha256": "082ff3ded0a430f8c0cf2284be92ad334657e7ec7cd18e95260e8f305cf1985d"
+      },
+      "IMAGE/c1fb7bedd62e38c3.webp": {
+        "bytes": 123034,
+        "compressed_bytes": 121126,
+        "sha256": "4fd7f81a4a13f734704eedf88cf022450f8eeb785653d74e26e221572249de38"
+      },
+      "IMAGE/e8a4e3fabe30ab59.webp": {
+        "bytes": 137398,
+        "compressed_bytes": 135132,
+        "sha256": "68d09575027a1fa6cbfb7737dbfa407a97858029c3e2bcabf1272aeeef9ded7f"
+      },
+      "IMAGE/360993a3108b5759.webp": {
+        "bytes": 74602,
+        "compressed_bytes": 72631,
+        "sha256": "3f431799ee44607f8ae5ab790e60928ee835c8f68927a8b5208a373d698009dd"
+      },
+      "IMAGE/c0b1ffcb620d758f.webp": {
+        "bytes": 64164,
+        "compressed_bytes": 61169,
+        "sha256": "fd2e53322c044a12ef82970eaf1d7391bb67c7e868ec1918a8807414d444ceee"
+      },
+      "IMAGE/3c13ef086afba6f5.webp": {
+        "bytes": 123374,
+        "compressed_bytes": 121519,
+        "sha256": "c53430cf51b42d805578103a434c24477ae98d4cfe670571ae74108f118712cb"
+      },
+      "IMAGE/a07bf8e4331877a8.webp": {
+        "bytes": 81358,
+        "compressed_bytes": 79692,
+        "sha256": "32b8c4cfbdd4bc43c07365f6734ed4dd7c50138d9e4c8a8f9d5ade6784643b81"
+      },
+      "IMAGE/6da689cbfc28e476.webp": {
+        "bytes": 81808,
+        "compressed_bytes": 804,
+        "sha256": "21d0d5d3c5c1db55587ff64d538af11e906db3caaf24fa2cbaf11ac30f7e53bd"
+      },
+      "IMAGE/9a0a68d8722d6718.webp": {
+        "bytes": 211438,
+        "compressed_bytes": 17089,
+        "sha256": "4dc0314e787bdd16dea9743a22ab1b01df099eb921a425f617b43ad08b22cdc9"
+      },
+      "IMAGE/0ac2a19168000d8e.webp": {
+        "bytes": 68118,
+        "compressed_bytes": 65908,
+        "sha256": "3fa6af70f3423d03442133926a6031a1c56df8ea8d74afdae17a5b16bbc2bada"
+      },
+      "project2.json": {
+        "bytes": 149,
+        "compressed_bytes": 115,
+        "sha256": "c9a85c870bd90a97b72a2e3c5a1da9d0fbe03d27b016d6269fc6635498265ca4"
+      },
+      "STM32H747_MCU_BOARD_v19.epru": {
+        "bytes": 108469137,
+        "compressed_bytes": 19989017,
+        "sha256": "4006f9dd47501aa38be6748814f35e9296de50de0668e624522064902ea3ef79"
+      }
+    },
+    "project_metadata": {
+      "title": "STM32H747_MCU_BOARD_v19",
+      "cbb_project": 0,
+      "editorVersion": "3.2.206",
+      "introduction": "",
+      "description": "",
+      "tags": "[]"
+    },
+    "text_entry": "STM32H747_MCU_BOARD_v19.epru",
+    "doc_types": {
+      "FOOTPRINT": 1000,
+      "SYMBOL": 1463,
+      "DEVICE": 1468,
+      "BOARD": 1,
+      "SCH": 1,
+      "SCH_PAGE": 5,
+      "PCB": 1,
+      "CONFIG": 1,
+      "BLOB": 1
+    },
+    "record_types": {
+      "DOCHEAD": 3941,
+      "LAYER": 18999,
+      "META": 3940,
+      "ACTIVE_LAYER": 1001,
+      "CANVAS": 2469,
+      "ELE_PLACEHOLDER": 380,
+      "FILL": 766,
+      "POLY": 44012,
+      "PAD": 3614,
+      "ATTR": 21602,
+      "LINE": 11985,
+      "ARC": 2344,
+      "NET": 376,
+      "PART": 1472,
+      "RECT": 6,
+      "PIN": 3986,
+      "TABLE": 1,
+      "OBJ": 1,
+      "RULE": 20,
+      "WIRE": 681,
+      "COMPONENT": 990,
+      "TEXT": 177,
+      "PRIMITIVE": 37,
+      "LAYER_PHYS": 17,
+      "RULE_TEMPLATE": 1,
+      "SILK_OPTS": 2,
+      "PREFERENCE": 1,
+      "PANELIZE": 1,
+      "PAD_NET": 1523,
+      "VIA": 704,
+      "RULE_SELECTOR": 259,
+      "STRING": 21,
+      "BLOB": 1
+    },
+    "total_records": 125330,
+    "model_uuid_occurrences": 0,
+    "model_reference_records": [],
+    "step_header_present": false,
+    "blob_media_kinds": {}
+  },
+  "after": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_3d_c1_pilot_20261018.epro2",
+    "bytes": 21192886,
+    "sha256": "7c3f10584601e6a85622f4f99b64d90998d89b84ab6c83aab8fd1d8ab5863baf",
+    "entries": {
+      "IMAGE/": {
+        "bytes": 0,
+        "compressed_bytes": 2,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "IMAGE/6e1143375f4d7b58.webp": {
+        "bytes": 26108,
+        "compressed_bytes": 22395,
+        "sha256": "e9b12b8b199781a00f1854e6d34b5ea67ba75212c5831c20b525b0a23554b27a"
+      },
+      "IMAGE/d25ba9ad5894cf5c.webp": {
+        "bytes": 56202,
+        "compressed_bytes": 53171,
+        "sha256": "8a9a0029624efef5895bddf56ae0251b49b780f796c8fec482e450418503b8b3"
+      },
+      "IMAGE/884e9cee09bd3f65.webp": {
+        "bytes": 140986,
+        "compressed_bytes": 138673,
+        "sha256": "42730dd2e88b47dabc7264e8e89f6118df3373d24f77ea9e3c19fc0d2e425bbc"
+      },
+      "IMAGE/6cbee023e77e073a.webp": {
+        "bytes": 138392,
+        "compressed_bytes": 136091,
+        "sha256": "c90b47c0cd4f9d1d99ea08e15ad82c63ba93d905b3617349a36b28ceaa846217"
+      },
+      "IMAGE/3ca9811d1a42d086.webp": {
+        "bytes": 108898,
+        "compressed_bytes": 105316,
+        "sha256": "8e77f6d9f7cbb9fcb35c46b47223c8452c0a3a377da94a7b736843e0a24ad573"
+      },
+      "IMAGE/3278c4b2f6c424d2.webp": {
+        "bytes": 72642,
+        "compressed_bytes": 70140,
+        "sha256": "082ff3ded0a430f8c0cf2284be92ad334657e7ec7cd18e95260e8f305cf1985d"
+      },
+      "IMAGE/c1fb7bedd62e38c3.webp": {
+        "bytes": 123034,
+        "compressed_bytes": 121126,
+        "sha256": "4fd7f81a4a13f734704eedf88cf022450f8eeb785653d74e26e221572249de38"
+      },
+      "IMAGE/e8a4e3fabe30ab59.webp": {
+        "bytes": 137398,
+        "compressed_bytes": 135132,
+        "sha256": "68d09575027a1fa6cbfb7737dbfa407a97858029c3e2bcabf1272aeeef9ded7f"
+      },
+      "IMAGE/360993a3108b5759.webp": {
+        "bytes": 74602,
+        "compressed_bytes": 72631,
+        "sha256": "3f431799ee44607f8ae5ab790e60928ee835c8f68927a8b5208a373d698009dd"
+      },
+      "IMAGE/c0b1ffcb620d758f.webp": {
+        "bytes": 64164,
+        "compressed_bytes": 61169,
+        "sha256": "fd2e53322c044a12ef82970eaf1d7391bb67c7e868ec1918a8807414d444ceee"
+      },
+      "IMAGE/3c13ef086afba6f5.webp": {
+        "bytes": 123374,
+        "compressed_bytes": 121519,
+        "sha256": "c53430cf51b42d805578103a434c24477ae98d4cfe670571ae74108f118712cb"
+      },
+      "IMAGE/a07bf8e4331877a8.webp": {
+        "bytes": 81358,
+        "compressed_bytes": 79692,
+        "sha256": "32b8c4cfbdd4bc43c07365f6734ed4dd7c50138d9e4c8a8f9d5ade6784643b81"
+      },
+      "IMAGE/6da689cbfc28e476.webp": {
+        "bytes": 81808,
+        "compressed_bytes": 804,
+        "sha256": "21d0d5d3c5c1db55587ff64d538af11e906db3caaf24fa2cbaf11ac30f7e53bd"
+      },
+      "IMAGE/9a0a68d8722d6718.webp": {
+        "bytes": 211438,
+        "compressed_bytes": 17089,
+        "sha256": "4dc0314e787bdd16dea9743a22ab1b01df099eb921a425f617b43ad08b22cdc9"
+      },
+      "IMAGE/0ac2a19168000d8e.webp": {
+        "bytes": 68118,
+        "compressed_bytes": 65908,
+        "sha256": "3fa6af70f3423d03442133926a6031a1c56df8ea8d74afdae17a5b16bbc2bada"
+      },
+      "project2.json": {
+        "bytes": 149,
+        "compressed_bytes": 115,
+        "sha256": "c9a85c870bd90a97b72a2e3c5a1da9d0fbe03d27b016d6269fc6635498265ca4"
+      },
+      "STM32H747_MCU_BOARD_v19.epru": {
+        "bytes": 108469477,
+        "compressed_bytes": 19989331,
+        "sha256": "df6718753e85b4e7896d3089987c823d8f8bbb04003558933d3a2c0eeb5212f2"
+      }
+    },
+    "project_metadata": {
+      "title": "STM32H747_MCU_BOARD_v19",
+      "cbb_project": 0,
+      "editorVersion": "3.2.206",
+      "introduction": "",
+      "description": "",
+      "tags": "[]"
+    },
+    "text_entry": "STM32H747_MCU_BOARD_v19.epru",
+    "doc_types": {
+      "FOOTPRINT": 1000,
+      "SYMBOL": 1463,
+      "DEVICE": 1468,
+      "BOARD": 1,
+      "SCH": 1,
+      "SCH_PAGE": 5,
+      "PCB": 1,
+      "CONFIG": 1,
+      "BLOB": 1
+    },
+    "record_types": {
+      "DOCHEAD": 3941,
+      "LAYER": 18999,
+      "META": 3940,
+      "ACTIVE_LAYER": 1001,
+      "CANVAS": 2469,
+      "ELE_PLACEHOLDER": 380,
+      "FILL": 766,
+      "POLY": 44012,
+      "PAD": 3614,
+      "ATTR": 21602,
+      "LINE": 11985,
+      "ARC": 2344,
+      "NET": 377,
+      "PART": 1472,
+      "RECT": 6,
+      "PIN": 3986,
+      "TABLE": 1,
+      "OBJ": 1,
+      "RULE": 20,
+      "WIRE": 681,
+      "COMPONENT": 990,
+      "TEXT": 177,
+      "PRIMITIVE": 37,
+      "LAYER_PHYS": 17,
+      "RULE_TEMPLATE": 1,
+      "SILK_OPTS": 2,
+      "PREFERENCE": 1,
+      "PANELIZE": 1,
+      "PAD_NET": 1523,
+      "VIA": 704,
+      "RULE_SELECTOR": 259,
+      "STRING": 21,
+      "BLOB": 1
+    },
+    "total_records": 125331,
+    "model_uuid_occurrences": 1,
+    "model_reference_records": [
+      {
+        "line": 111599,
+        "doc_type": "PCB",
+        "document_uuid": "0ac2a19168000d8e",
+        "head": {
+          "type": "COMPONENT",
+          "ticket": 179289,
+          "id": "84b1ab3682614f8a",
+          "firstTicket": 47119
+        },
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1501.4174,
+          "y": 2774.9999,
+          "angle": 0,
+          "attrs": {
+            "Name": "1.5p",
+            "Unique ID": "80ee70e8847f5fdf",
+            "3D Model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+            "3D Model Title": "0402C",
+            "3D Model Transform": "39.37,19.685,19.685,0,0,0,0,0,0",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$2I15"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      }
+    ],
+    "step_header_present": false,
+    "blob_media_kinds": {}
+  },
+  "file_byte_increase": 314,
+  "entry_names_unchanged": true,
+  "changed_entries": [
+    "STM32H747_MCU_BOARD_v19.epru"
+  ],
+  "canonical_added_records": [
+    "[\"FOOTPRINT\", \"e2e3d06dac58c326\", \"NET\", \"[\\\"NET\\\",\\\"\\\"]\"]"
+  ],
+  "canonical_added_record_details_first25": [
+    {
+      "record_key": [
+        "FOOTPRINT",
+        "e2e3d06dac58c326",
+        "NET",
+        "[\"NET\",\"\"]"
+      ],
+      "record": {
+        "head": {
+          "type": "NET",
+          "ticket": 179288,
+          "id": "[\"NET\",\"\"]"
+        },
+        "body": {
+          "netType": null,
+          "specialColor": null,
+          "retLine": true,
+          "differentialName": null,
+          "isPositiveNet": false,
+          "equalLengthGroupName": null
+        }
+      }
+    }
+  ],
+  "canonical_removed_records": [],
+  "canonical_body_changed_count": 1,
+  "canonical_body_changes_first25": [
+    {
+      "record_key": [
+        "PCB",
+        "0ac2a19168000d8e",
+        "COMPONENT",
+        "84b1ab3682614f8a"
+      ],
+      "before": {
+        "head": {
+          "type": "COMPONENT",
+          "ticket": 107231,
+          "id": "84b1ab3682614f8a",
+          "firstTicket": 47119
+        },
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1501.4174,
+          "y": 2774.9999,
+          "angle": 0,
+          "attrs": {
+            "Name": "1.5p",
+            "Unique ID": "80ee70e8847f5fdf",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$2I15"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      },
+      "after": {
+        "head": {
+          "type": "COMPONENT",
+          "ticket": 179289,
+          "id": "84b1ab3682614f8a",
+          "firstTicket": 47119
+        },
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "layerId": 1,
+          "x": 1501.4174,
+          "y": 2774.9999,
+          "angle": 0,
+          "attrs": {
+            "Name": "1.5p",
+            "Unique ID": "80ee70e8847f5fdf",
+            "3D Model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+            "3D Model Title": "0402C",
+            "3D Model Transform": "39.37,19.685,19.685,0,0,0,0,0,0",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$2I15"
+          },
+          "locked": false,
+          "zIndex": -1
+        }
+      }
+    }
+  ],
+  "conclusion": "The pilot checkpoint stores a qualified external system-library reference and its title/transform. No standalone 3D model entry, model document type, or new geometry payload was found in the archive. This verifies saved binding metadata, not embedded model portability. Rendering or STEP export may resolve/cache the referenced model separately; that is not proven by this checkpoint.",
+  "limits": "The comparison proves what is present in these two ZIP snapshots. It does not inspect unrelated app caches or network fetching, nor claim the native renderer cannot cache external models elsewhere."
+}

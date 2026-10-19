@@ -1,0 +1,1177 @@
+{
+  "log": [
+    {
+      "type": "openProject",
+      "message": "DAC8562 module",
+      "timestamp": 1791800418023
+    },
+    {
+      "type": "error",
+      "message": " <span class=\"i18n\">Invalid format.</span>",
+      "timestamp": 1791802177643
+    },
+    {
+      "type": "error",
+      "message": " <span class=\"i18n\">Invalid format.</span>",
+      "timestamp": 1791802287325
+    },
+    {
+      "type": "warn",
+      "message": " <span class=\"i18n\">Found un-poured copper region object(s), suggesting rebuild copper region(s) at copper region manager.</span> <span>{</span> <span class=\"link\" data-log-find-id=\"e39925c8424cd454\" data-log-find-pcbId=\"4e08f91f9a2c4fe4@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\" data-log-find-path=\"dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\">e2</span> <span class=\"link\" data-log-find-id=\"ddc263dd728deb27\" data-log-find-pcbId=\"4e08f91f9a2c4fe4@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\" data-log-find-path=\"dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\">e3</span> <span>}</span>",
+      "timestamp": 1791805461405
+    },
+    {
+      "type": "warn",
+      "message": " <span class=\"i18n\">Found un-poured copper region object(s), suggesting rebuild copper region(s) at copper region manager.</span> <span>{</span> <span class=\"link\" data-log-find-id=\"e39925c8424cd454\" data-log-find-pcbId=\"4e08f91f9a2c4fe4@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\" data-log-find-path=\"dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\">e2</span> <span class=\"link\" data-log-find-id=\"ddc263dd728deb27\" data-log-find-pcbId=\"4e08f91f9a2c4fe4@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\" data-log-find-path=\"dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\">e3</span> <span>}</span>",
+      "timestamp": 1791806163562
+    },
+    {
+      "type": "info",
+      "message": " <span class=\"i18n\">No changes, the schematic already matches the PCB!</span>",
+      "timestamp": 1791809471661
+    },
+    {
+      "type": "info",
+      "message": " <span class=\"i18n\">No changes, the schematic already matches the PCB!</span>",
+      "timestamp": 1791809505666
+    },
+    {
+      "type": "info",
+      "message": " <span class=\"i18n\">No changes, the schematic already matches the PCB!</span>",
+      "timestamp": 1791809511856
+    },
+    {
+      "type": "info",
+      "message": " <span class=\"i18n\">No changes, the schematic already matches the PCB!</span>",
+      "timestamp": 1791809513912
+    },
+    {
+      "type": "info",
+      "message": " <span class=\"i18n\">No changes, the schematic already matches the PCB!</span>",
+      "timestamp": 1791809538316
+    },
+    {
+      "type": "warn",
+      "message": " <span class=\"i18n\">Found un-poured copper region object(s), suggesting rebuild copper region(s) at copper region manager.</span> <span>{</span> <span class=\"link\" data-log-find-id=\"e39925c8424cd454\" data-log-find-pcbId=\"4e08f91f9a2c4fe4@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\" data-log-find-path=\"dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\">e2</span> <span class=\"link\" data-log-find-id=\"ddc263dd728deb27\" data-log-find-pcbId=\"4e08f91f9a2c4fe4@dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\" data-log-find-path=\"dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03\">e3</span> <span>}</span>",
+      "timestamp": 1791810145358
+    },
+    {
+      "type": "info",
+      "message": " <span class=\"i18n\" i18n-params-title=\"DAC8562 module\">Auto backup project {title} successfully!</span>",
+      "timestamp": 1791814819900
+    }
+  ],
+  "comparison": [
+    {
+      "type": "NET",
+      "object": "'A_MINUS'",
+      "net1": [
+        "C25.1",
+        "R14.2",
+        "R15.2",
+        "U4.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'A_PLUS'",
+      "net1": [
+        "R12.2",
+        "R13.1",
+        "U4.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'BSW_GATE'",
+      "net1": [
+        "Q1.1",
+        "U1.7"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'B_MINUS'",
+      "net1": [
+        "C26.1",
+        "R19.2",
+        "R20.1",
+        "U4.6"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'B_PLUS'",
+      "net1": [
+        "R17.2",
+        "R18.1",
+        "U4.5"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'CLR_N'",
+      "net1": [
+        "R9.2",
+        "U3.5",
+        "U6.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_AVDD_FB'",
+      "net1": [
+        "C27.2",
+        "R22.2",
+        "R23.1",
+        "U2.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_HOST_CLR'",
+      "net1": [
+        "J1.6",
+        "U6.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_HOST_DIN'",
+      "net1": [
+        "J1.10",
+        "U5.5"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_HOST_LDAC'",
+      "net1": [
+        "J1.7",
+        "U5.12"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_HOST_SCLK'",
+      "net1": [
+        "J1.9",
+        "U5.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_HOST_SYNC'",
+      "net1": [
+        "J1.8",
+        "U5.9"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_HW_PGOOD'",
+      "net1": [
+        "J4.5",
+        "J105.6",
+        "U12.4",
+        "U13.1",
+        "U104.1",
+        "U105.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_NEG_GOOD'",
+      "net1": [
+        "U11.4",
+        "U12.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_NEG_LED_A'",
+      "net1": [
+        "R39.2",
+        "U10.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_NEG_LED_K'",
+      "net1": [
+        "Q3.3",
+        "U10.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_NEG_LOCAL'",
+      "net1": [
+        "Q3.1",
+        "R38.2",
+        "U9.1",
+        "U9.6"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_NEG_VALID_N'",
+      "net1": [
+        "R40.2",
+        "U10.4",
+        "U11.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_OUTPUT_ENABLE'",
+      "net1": [
+        "J4.4",
+        "R43.1",
+        "U13.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_OUT_COIL_N'",
+      "net1": [
+        "D3.2",
+        "K1.8",
+        "Q4.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_POS_GOOD'",
+      "net1": [
+        "R41.2",
+        "U7.1",
+        "U7.6",
+        "U8.1",
+        "U8.6",
+        "U12.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_RELAY_ENABLE'",
+      "net1": [
+        "Q4.1",
+        "R42.1",
+        "U13.4"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_SMA_A'",
+      "net1": [
+        "J2.5",
+        "K1.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_SMA_B'",
+      "net1": [
+        "J3.5",
+        "K1.6"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_SPI_ENABLE'",
+      "net1": [
+        "J4.3",
+        "Q2.1",
+        "R25.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DAC_SPI_OE_N'",
+      "net1": [
+        "Q2.3",
+        "R24.2",
+        "U5.1",
+        "U5.4",
+        "U5.10",
+        "U5.13",
+        "U6.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'DIN_DAC'",
+      "net1": [
+        "R7.2",
+        "U3.8"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'LDAC_N'",
+      "net1": [
+        "R8.2",
+        "U3.4",
+        "U5.11"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'LDO_BYP'",
+      "net1": [
+        "C14.1",
+        "U2.6"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'LED_A'",
+      "net1": [
+        "LED1.1",
+        "R11.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_3V3'",
+      "net1": [
+        "C33.1",
+        "C34.1",
+        "C35.1",
+        "C127.1",
+        "C128.1",
+        "J4.1",
+        "J105.1",
+        "R40.1",
+        "R41.1",
+        "U11.5",
+        "U12.5",
+        "U13.5",
+        "U104.5",
+        "U105.5"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_BUFFER_A'",
+      "net1": [
+        "R103.1",
+        "U101.1",
+        "U101.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_BUFFER_B'",
+      "net1": [
+        "R113.1",
+        "U101.6",
+        "U101.7"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_INPUT_ENABLE'",
+      "net1": [
+        "J105.4",
+        "R124.1",
+        "U104.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_INPUT_SAFE'",
+      "net1": [
+        "Q101.1",
+        "R123.1",
+        "U104.4"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_IN_A'",
+      "net1": [
+        "J101.5",
+        "R101.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_IN_B'",
+      "net1": [
+        "J102.5",
+        "R111.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_IN_COIL_N'",
+      "net1": [
+        "D101.2",
+        "K101.8",
+        "Q101.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_MINUS_A'",
+      "net1": [
+        "C101.1",
+        "R104.2",
+        "R105.1",
+        "U103.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_MINUS_B'",
+      "net1": [
+        "C111.1",
+        "R114.2",
+        "R115.1",
+        "U103.6"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_OUTPUT_ENABLE'",
+      "net1": [
+        "J105.5",
+        "R126.1",
+        "U105.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_OUTPUT_SAFE'",
+      "net1": [
+        "Q102.1",
+        "R125.1",
+        "U105.4"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_OUT_A'",
+      "net1": [
+        "C102.1",
+        "J103.5",
+        "K102.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_OUT_B'",
+      "net1": [
+        "C112.1",
+        "J104.5",
+        "K102.6"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_OUT_COIL_N'",
+      "net1": [
+        "D102.2",
+        "K102.8",
+        "Q102.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_PLUS_A'",
+      "net1": [
+        "R103.2",
+        "R106.1",
+        "U103.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_PLUS_B'",
+      "net1": [
+        "R113.2",
+        "R116.1",
+        "U103.5"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_RAW_A'",
+      "net1": [
+        "C101.2",
+        "R107.1",
+        "U103.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_RAW_B'",
+      "net1": [
+        "C111.2",
+        "R117.1",
+        "U103.7"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_RCV_EXTERNAL_A'",
+      "net1": [
+        "K101.4",
+        "R101.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_RCV_EXTERNAL_B'",
+      "net1": [
+        "K101.5",
+        "R111.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_RECEIVE_A'",
+      "net1": [
+        "K101.3",
+        "R102.1",
+        "U101.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_RECEIVE_B'",
+      "net1": [
+        "K101.6",
+        "R112.1",
+        "U101.5"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_SENSE_A'",
+      "net1": [
+        "K102.4",
+        "R105.2",
+        "R107.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_SENSE_B'",
+      "net1": [
+        "K102.5",
+        "R115.2",
+        "R117.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_SPARE'",
+      "net1": [
+        "U102.6",
+        "U102.7"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_VBIAS'",
+      "net1": [
+        "K101.2",
+        "K101.7",
+        "R102.2",
+        "R104.1",
+        "R112.2",
+        "R114.1",
+        "U102.1",
+        "U102.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_VHALF'",
+      "net1": [
+        "R121.2",
+        "R122.1",
+        "U102.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'MCU_VREF_PLUS'",
+      "net1": [
+        "J105.3",
+        "R121.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'OA_RAW'",
+      "net1": [
+        "C25.2",
+        "R16.1",
+        "U4.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'OB_RAW'",
+      "net1": [
+        "C26.2",
+        "R21.1",
+        "U4.7"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'OUT_A'",
+      "net1": [
+        "C22.1",
+        "K1.4",
+        "R15.1",
+        "R16.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'OUT_B'",
+      "net1": [
+        "C23.1",
+        "K1.5",
+        "R20.2",
+        "R21.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'SCLK_DAC'",
+      "net1": [
+        "R6.2",
+        "U3.7"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'SYNC_N'",
+      "net1": [
+        "R10.2",
+        "U3.6",
+        "U5.8"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'U7_OV'",
+      "net1": [
+        "R28.2",
+        "R29.1",
+        "U7.4"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'U7_UV'",
+      "net1": [
+        "R26.2",
+        "R27.1",
+        "U7.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'U8_OV'",
+      "net1": [
+        "R32.2",
+        "R33.1",
+        "U8.4"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'U8_UV'",
+      "net1": [
+        "R30.2",
+        "R31.1",
+        "U8.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'U9_OV'",
+      "net1": [
+        "R36.2",
+        "R37.1",
+        "U9.4"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'U9_UV'",
+      "net1": [
+        "R34.2",
+        "R35.1",
+        "U9.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'VIN_CTRL'",
+      "net1": [
+        "C8.1",
+        "R5.2",
+        "U1.4",
+        "U1.8",
+        "U1.10"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'VIN_RAW'",
+      "net1": [
+        "C7.1",
+        "C30.1",
+        "C31.1",
+        "D3.1",
+        "D101.1",
+        "D102.1",
+        "J1.1",
+        "J1.2",
+        "K1.1",
+        "K101.1",
+        "K102.1",
+        "Q1.2",
+        "R5.1",
+        "R11.1",
+        "U1.5",
+        "U1.6",
+        "U7.5",
+        "U8.5"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'VIN_SW'",
+      "net1": [
+        "C6.1",
+        "L1.1",
+        "Q1.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "CN",
+      "net1": [
+        "C4.1",
+        "U1.18"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "CP",
+      "net1": [
+        "C5.1",
+        "U1.21"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "DACA",
+      "net1": [
+        "R12.1",
+        "U3.1"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "DACB",
+      "net1": [
+        "R17.1",
+        "U3.2"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "DIN",
+      "net1": [
+        "R7.1",
+        "U5.6"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "FBN",
+      "net1": [
+        "C2.2",
+        "R3.2",
+        "R4.1",
+        "U1.16"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "FBP",
+      "net1": [
+        "C1.2",
+        "R1.2",
+        "R2.1",
+        "U1.22"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "GND",
+      "net1": [
+        "C3.2",
+        "C4.2",
+        "C5.2",
+        "C6.2",
+        "C7.2",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C14.2",
+        "C15.2",
+        "C16.2",
+        "C17.2",
+        "C18.2",
+        "C19.2",
+        "C20.2",
+        "C21.2",
+        "C22.2",
+        "C23.2",
+        "C24.2",
+        "C28.2",
+        "C29.2",
+        "C30.2",
+        "C31.2",
+        "C32.1",
+        "C33.2",
+        "C34.2",
+        "C35.2",
+        "C102.2",
+        "C112.2",
+        "C121.2",
+        "C122.2",
+        "C123.2",
+        "C124.2",
+        "C125.2",
+        "C126.2",
+        "C127.2",
+        "C128.2",
+        "J1.3",
+        "J1.4",
+        "J1.5",
+        "J2.1",
+        "J2.2",
+        "J2.3",
+        "J2.4",
+        "J3.1",
+        "J3.2",
+        "J3.3",
+        "J3.4",
+        "J4.2",
+        "J4.6",
+        "J4.7",
+        "J4.8",
+        "J4.9",
+        "J4.10",
+        "J101.1",
+        "J101.2",
+        "J101.3",
+        "J101.4",
+        "J102.1",
+        "J102.2",
+        "J102.3",
+        "J102.4",
+        "J103.1",
+        "J103.2",
+        "J103.3",
+        "J103.4",
+        "J104.1",
+        "J104.2",
+        "J104.3",
+        "J104.4",
+        "J105.2",
+        "J105.7",
+        "J105.8",
+        "J105.9",
+        "J105.10",
+        "K1.2",
+        "K1.7",
+        "K102.2",
+        "K102.7",
+        "L2.2",
+        "LED1.2",
+        "Q2.2",
+        "Q4.2",
+        "Q101.2",
+        "Q102.2",
+        "R2.2",
+        "R13.2",
+        "R18.2",
+        "R23.2",
+        "R25.2",
+        "R27.2",
+        "R29.2",
+        "R31.2",
+        "R33.2",
+        "R34.1",
+        "R36.1",
+        "R38.1",
+        "R39.1",
+        "R42.2",
+        "R43.2",
+        "R106.2",
+        "R116.2",
+        "R122.2",
+        "R123.2",
+        "R124.2",
+        "R125.2",
+        "R126.2",
+        "U1.2",
+        "U1.3",
+        "U1.9",
+        "U1.11",
+        "U1.19",
+        "U1.25",
+        "U2.4",
+        "U2.9",
+        "U3.3",
+        "U5.7",
+        "U6.5",
+        "U6.7",
+        "U6.9",
+        "U6.12",
+        "U7.2",
+        "U8.2",
+        "U9.5",
+        "U10.3",
+        "U11.3",
+        "U12.3",
+        "U13.3",
+        "U102.5",
+        "U104.3",
+        "U105.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "SCLK",
+      "net1": [
+        "R6.1",
+        "U5.3"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "SWN",
+      "net1": [
+        "D2.1",
+        "L2.1",
+        "U1.13",
+        "U1.14"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "SWP",
+      "net1": [
+        "D1.2",
+        "L1.2",
+        "U1.1",
+        "U1.24"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "VDD5",
+      "net1": [
+        "C15.1",
+        "C16.1",
+        "C27.1",
+        "C28.1",
+        "C29.1",
+        "R8.1",
+        "R9.1",
+        "R10.1",
+        "R22.1",
+        "R24.1",
+        "R30.1",
+        "R32.1",
+        "U2.1",
+        "U3.9",
+        "U5.14",
+        "U6.4",
+        "U6.10",
+        "U6.13",
+        "U6.14"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "VNEG12",
+      "net1": [
+        "C2.1",
+        "C11.1",
+        "C12.1",
+        "C19.1",
+        "C21.1",
+        "C32.2",
+        "C122.1",
+        "C124.1",
+        "C126.1",
+        "D2.2",
+        "Q3.2",
+        "R3.1",
+        "R35.2",
+        "R37.2",
+        "U1.15",
+        "U4.4",
+        "U9.2",
+        "U101.4",
+        "U102.4",
+        "U103.4"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "VPOS12",
+      "net1": [
+        "C1.1",
+        "C9.1",
+        "C10.1",
+        "C13.1",
+        "C18.1",
+        "C20.1",
+        "C121.1",
+        "C123.1",
+        "C125.1",
+        "D1.1",
+        "R1.1",
+        "R26.1",
+        "R28.1",
+        "U1.23",
+        "U2.5",
+        "U2.8",
+        "U4.8",
+        "U101.8",
+        "U102.8",
+        "U103.8"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "VREF1V2",
+      "net1": [
+        "C3.1",
+        "R4.2",
+        "U1.17"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "VREF2V5",
+      "net1": [
+        "C17.1",
+        "C24.1",
+        "R14.1",
+        "R19.1",
+        "U3.10"
+      ],
+      "net2": []
+    }
+  ]
+}

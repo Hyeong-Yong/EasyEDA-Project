@@ -1,0 +1,120 @@
+{
+  "schema": "stm32h747-multilayer-fill-clearance-stroke-margin-report-v1",
+  "status": "offline-two-fill-subset-only-stroke-margin-plan-ready",
+  "readOnlyAnalysis": true,
+  "manufacturingApproved": false,
+  "plan": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\multilayer-fill-clearance\\multilayer-fill-clearance-local-routes-stroke-margin-2-plan.json",
+    "sha256": "2fd0bd7a5fac3cfd229ba7f33b8907e31844060643d0c7d3a105bbf334b086a1",
+    "changeCount": 2
+  },
+  "checks": {
+    "source_sha256": "082516ac6ef9cea0f7a3af82bc810a33efbbd597e24f1e88a9505a64bd9e2a87",
+    "selected_ids_exact": [
+      "8e56a14144c76f68",
+      "eced2cdfc1e1f2e6"
+    ],
+    "only_fill_path_changes": true,
+    "strict_subset_all": true,
+    "minimum_physical_edge_rule_surplus_mil": 0.1968499999997988,
+    "minimum_safety_margin_mil": 0.1968503937007874,
+    "all_expected_same_net_contacts_preserved": true,
+    "lost_same_net_contact_rows": [],
+    "all_candidate_components_have_same_net_anchor": true,
+    "unanchored_candidate_components": []
+  },
+  "fills": [
+    {
+      "id": "8e56a14144c76f68",
+      "layer_id": 1,
+      "net_name": "GND",
+      "current_area_mil2": 566.4668750999999,
+      "candidate_area_mil2": 562.218050827932,
+      "removed_area_mil2": 4.248824272067836,
+      "serialized_added_area_mil2": 0.0,
+      "strict_subset": true,
+      "current_contour_count": 1,
+      "candidate_contour_count": 1,
+      "opponent_track_id": "a2a2c1fc45da3946",
+      "required_rule_mil": 5.9843,
+      "target_fill_half_width_mil": 0.1,
+      "candidate_contour_distance_mil": 6.281149999999799,
+      "physical_edge_rule_surplus_mil": 0.1968499999997988,
+      "safety_margin_mil": 0.1968503937007874
+    },
+    {
+      "id": "eced2cdfc1e1f2e6",
+      "layer_id": 1,
+      "net_name": "GND",
+      "current_area_mil2": 1895.3172737450375,
+      "candidate_area_mil2": 1887.8123518794437,
+      "removed_area_mil2": 7.504921865593741,
+      "serialized_added_area_mil2": 0.0,
+      "strict_subset": true,
+      "current_contour_count": 2,
+      "candidate_contour_count": 2,
+      "opponent_track_id": "a2a2c1fc45da3946",
+      "required_rule_mil": 5.9843,
+      "target_fill_half_width_mil": 0.1,
+      "candidate_contour_distance_mil": 6.281149999999799,
+      "physical_edge_rule_surplus_mil": 0.1968499999997988,
+      "safety_margin_mil": 0.1968503937007874
+    }
+  ],
+  "connectivity": {
+    "8e56a14144c76f68": {
+      "expected_contact_ids": [
+        "eced2cdfc1e1f2e6"
+      ],
+      "preserved_contact_ids": [
+        "eced2cdfc1e1f2e6"
+      ],
+      "lost_contact_ids": [],
+      "candidate_components": [
+        {
+          "component_index": 0,
+          "same_net_contacts": [
+            "eced2cdfc1e1f2e6"
+          ]
+        }
+      ]
+    },
+    "eced2cdfc1e1f2e6": {
+      "expected_contact_ids": [
+        "01a6811f30422607",
+        "3de4fa6d5f5df65ce3",
+        "3de4fa6d5f5df65ce9",
+        "89b9b83ec57e92b3",
+        "8e56a14144c76f68",
+        "ba46ca6a0cf01552"
+      ],
+      "preserved_contact_ids": [
+        "01a6811f30422607",
+        "3de4fa6d5f5df65ce3",
+        "3de4fa6d5f5df65ce9",
+        "89b9b83ec57e92b3",
+        "8e56a14144c76f68",
+        "ba46ca6a0cf01552"
+      ],
+      "lost_contact_ids": [],
+      "candidate_components": [
+        {
+          "component_index": 0,
+          "same_net_contacts": [
+            "01a6811f30422607",
+            "3de4fa6d5f5df65ce3",
+            "3de4fa6d5f5df65ce9",
+            "89b9b83ec57e92b3",
+            "8e56a14144c76f68",
+            "ba46ca6a0cf01552"
+          ]
+        }
+      ]
+    }
+  },
+  "requiredPostApply": [
+    "full-source guard must prove only the two target paths changed apart from installed refs/zIndex normalization already present in before bodies",
+    "save/reopen path equivalence gate",
+    "native DRC clearance plus Connection0 gate"
+  ]
+}

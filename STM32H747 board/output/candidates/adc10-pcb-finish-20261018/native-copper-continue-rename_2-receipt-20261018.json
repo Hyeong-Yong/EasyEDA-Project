@@ -1,0 +1,154 @@
+{
+  "schema": "stm32h747-adc10-copper-cut-continuation-receipt-20261018-v1",
+  "stage": "rename_2",
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/adc10-copper-cut-execution-manifest-fresh-20261018.json",
+  "manifestSha256": "389a1ddba84f1344f9cf76dd89ba1d1e203ad9bae2ac4f0eeff9f82be91eafe1",
+  "actualBeforePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-copper_rename_1-20261018.epru",
+  "actualBeforeSha256": "5c0ed903c5fe0431a16168f2a57b1e5bf73ea9bdc6b8d382c83302e12a3cb923",
+  "sourcePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-copper_continue_rename_2-20261018.epru",
+  "sourceSha256": "dbd9170b37167fb26f12c5371d613990a55de4291ad61dc7c5495f63f73e5a04",
+  "passed": true,
+  "error": null,
+  "touched": [
+    {
+      "id": "7e76decf03f32b0b",
+      "action": "net-only",
+      "net": "ADC2_PRE3"
+    },
+    {
+      "id": "f0b73498ef65edc3",
+      "action": "net-only",
+      "net": "ADC2_PRE3"
+    },
+    {
+      "id": "68880870a3b58064",
+      "action": "net-only",
+      "net": "ADC3_PRE1"
+    },
+    {
+      "id": "f04fc5e62f68a7e4",
+      "action": "net-only",
+      "net": "ADC3_PRE1"
+    },
+    {
+      "id": "b118a0849efe1c18",
+      "action": "net-only",
+      "net": "ADC3_PRE2"
+    },
+    {
+      "id": "bd7607acec746955",
+      "action": "net-only",
+      "net": "ADC3_PRE2"
+    },
+    {
+      "id": "538dd76dadec0659",
+      "action": "net-only",
+      "net": "ADC3_PRE3"
+    },
+    {
+      "id": "9fd4b6b48bd43b13",
+      "action": "net-only",
+      "net": "ADC3_PRE3"
+    },
+    {
+      "id": "2b91e558537d0967",
+      "action": "net-only",
+      "net": "ADC3_PRE4"
+    },
+    {
+      "id": "417c4f71bbd1e36f",
+      "action": "net-only",
+      "net": "ADC3_PRE4"
+    }
+  ],
+  "normalizations": [
+    {
+      "net": "ADC2_PRE3",
+      "oldIds": [
+        "7e76decf03f32b0b",
+        "f0b73498ef65edc3"
+      ],
+      "newId": "b55c188cc65ce094",
+      "geometry": "Exact same horizontal union/width/layer; direction reversal allowed",
+      "zIndex": -1
+    },
+    {
+      "net": "ADC3_PRE1",
+      "oldIds": [
+        "68880870a3b58064",
+        "f04fc5e62f68a7e4"
+      ],
+      "newId": "ac167e04ee334ff7",
+      "geometry": "Exact same horizontal union/width/layer; direction reversal allowed",
+      "zIndex": -1
+    },
+    {
+      "net": "ADC3_PRE2",
+      "oldIds": [
+        "b118a0849efe1c18",
+        "bd7607acec746955"
+      ],
+      "newId": "189472c11f6f92c9",
+      "geometry": "Exact same horizontal union/width/layer; direction reversal allowed",
+      "zIndex": -1
+    },
+    {
+      "net": "ADC3_PRE3",
+      "oldIds": [
+        "538dd76dadec0659",
+        "9fd4b6b48bd43b13"
+      ],
+      "newId": "39b4fe28b42621e2",
+      "geometry": "Exact same horizontal union/width/layer; direction reversal allowed",
+      "zIndex": -1
+    },
+    {
+      "net": "ADC3_PRE4",
+      "oldIds": [
+        "2b91e558537d0967",
+        "417c4f71bbd1e36f"
+      ],
+      "newId": "6ad061c7ebe01a4e",
+      "geometry": "Exact same horizontal union/width/layer; direction reversal allowed",
+      "zIndex": -1
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "NET:[\"NET\",\"NET-(R151-PAD2)\"]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R151-PAD2)\"]]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "NET:[\"NET\",\"NET-(R161-PAD2)\"]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R161-PAD2)\"]]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "NET:[\"NET\",\"NET-(R162-PAD2)\"]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R162-PAD2)\"]]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "NET:[\"NET\",\"NET-(R163-PAD2)\"]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R163-PAD2)\"]]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "NET:[\"NET\",\"NET-(R164-PAD2)\"]"
+    },
+    {
+      "obsoleteUnusedMetadataRemoved": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R164-PAD2)\"]]"
+    }
+  ],
+  "afterIssues": [],
+  "records": 12920,
+  "physicalParts": 354,
+  "saved": false,
+  "newRoutesApplied": false,
+  "manufacturingReady": false,
+  "recoveryCheckpoint": "STM32H747_before_pcb_route_20261018.epro2",
+  "warning": "Do not rerun any completed continuation or prior rename_1. Native merges change IDs. Stop and inspect captured source after failure or timeout."
+}

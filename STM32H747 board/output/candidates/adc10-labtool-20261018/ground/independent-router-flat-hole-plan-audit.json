@@ -1,0 +1,2411 @@
+{
+  "schema": "adc10-labtool-independent-router-flat-hole-physical-preservation-audit-v1",
+  "passed": false,
+  "routerPlan": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\all6-local-fill-voids-local332-channelpads-v2.json",
+  "routerPlanSha256": "bcbcce987e1085306316bfd8733e0fc1d2bfd0e47a4cf194ec2db299e0fbec91",
+  "latestSourceSha256": "6e30bca25f0745c32a8954653c0ce593f93bdca978b3ead54aca490c524b9665",
+  "comparisonUsesSameChannelsOnlyPadScopeAsRouter": true,
+  "placement": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-short-negative-commonpower-v3-proposal.json",
+  "placementSha256": "f5b57e6a6b7b0e551873f1ea92d129b222ccc7d800637d12889b6dde992d8eff",
+  "routeSha256": "cdd3fa342f17753e0b41b3709da76d2a8f538a48fec9cc0f3c436cf987c601c1",
+  "actorCounts": {
+    "PAD": 190,
+    "LINE": 332,
+    "VIA": 192
+  },
+  "integerGridMm": 1e-06,
+  "fills": [
+    {
+      "primitiveId": "e680230ef8d2c5dd",
+      "layerId": 1,
+      "net": "GND",
+      "beforeBodyExactLatestSource": true,
+      "outerPathExact": true,
+      "validBefore": true,
+      "validAfter": true,
+      "validityAfter": "Valid Geometry",
+      "copperAddedVsOriginalMm2": 4.58293e-07,
+      "extraCopperRemovedOutsideRawRequestedVoidMm2": 120.583880845748,
+      "copperLeftInsideRawRequestedVoidMm2": 0.0017016067445,
+      "extraRemovedComponentsOverOneUm2": [
+        {
+          "component": 357,
+          "areaMm2": 1.112015499984529e-06,
+          "boundsMm": [
+            23.181687,
+            118.698169,
+            23.213346,
+            118.731974
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 754,
+          "areaMm2": 1.112015499984529e-06,
+          "boundsMm": [
+            23.181687,
+            90.698169,
+            23.213346,
+            90.731974
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1868,
+          "areaMm2": 1.112015499991185e-06,
+          "boundsMm": [
+            23.181687,
+            6.698169,
+            23.213346,
+            6.731974
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 163,
+          "areaMm2": 1.1120155000245513e-06,
+          "boundsMm": [
+            23.181687,
+            132.698169,
+            23.213346,
+            132.731974
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 319,
+          "areaMm2": 1.248301499955935e-06,
+          "boundsMm": [
+            5.827299,
+            120.213638,
+            5.852475,
+            120.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 513,
+          "areaMm2": 1.248301499955935e-06,
+          "boundsMm": [
+            5.827299,
+            106.213638,
+            5.852475,
+            106.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 716,
+          "areaMm2": 1.248301499955935e-06,
+          "boundsMm": [
+            5.827299,
+            92.213638,
+            5.852475,
+            92.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 855,
+          "areaMm2": 1.248301499955935e-06,
+          "boundsMm": [
+            5.827299,
+            78.213638,
+            5.852475,
+            78.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 995,
+          "areaMm2": 1.248301499955935e-06,
+          "boundsMm": [
+            5.827299,
+            64.213638,
+            5.852475,
+            64.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1628,
+          "areaMm2": 1.2483014999960923e-06,
+          "boundsMm": [
+            5.827299,
+            22.213638,
+            5.852475,
+            22.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1199,
+          "areaMm2": 1.2483015000171276e-06,
+          "boundsMm": [
+            5.827299,
+            50.213638,
+            5.852475,
+            50.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1414,
+          "areaMm2": 1.2483015000171276e-06,
+          "boundsMm": [
+            5.827299,
+            36.213638,
+            5.852475,
+            36.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 125,
+          "areaMm2": 1.248301500095026e-06,
+          "boundsMm": [
+            5.827299,
+            134.213638,
+            5.852475,
+            134.244588
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 527,
+          "areaMm2": 1.2757899999922408e-06,
+          "boundsMm": [
+            23.367494,
+            105.457626,
+            23.371461,
+            105.496861
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1642,
+          "areaMm2": 1.2757900000022741e-06,
+          "boundsMm": [
+            23.367494,
+            21.457626,
+            23.371461,
+            21.496861
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1009,
+          "areaMm2": 1.2757900000045882e-06,
+          "boundsMm": [
+            23.367494,
+            63.457626,
+            23.371461,
+            63.496861
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1213,
+          "areaMm2": 1.2757900000045882e-06,
+          "boundsMm": [
+            23.367494,
+            49.457626,
+            23.371461,
+            49.496861
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1428,
+          "areaMm2": 1.2757900000045882e-06,
+          "boundsMm": [
+            23.367494,
+            35.457626,
+            23.371461,
+            35.496861
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 530,
+          "areaMm2": 1.2945649999731443e-06,
+          "boundsMm": [
+            23.3679,
+            105.405523,
+            23.371525,
+            105.445518
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1645,
+          "areaMm2": 1.294564999985602e-06,
+          "boundsMm": [
+            23.3679,
+            21.405523,
+            23.371525,
+            21.445518
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1012,
+          "areaMm2": 1.294564999988746e-06,
+          "boundsMm": [
+            23.3679,
+            63.405523,
+            23.371525,
+            63.445518
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1216,
+          "areaMm2": 1.294564999988746e-06,
+          "boundsMm": [
+            23.3679,
+            49.405523,
+            23.371525,
+            49.445518
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1431,
+          "areaMm2": 1.294564999988746e-06,
+          "boundsMm": [
+            23.3679,
+            35.405523,
+            23.371525,
+            35.445518
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 136,
+          "areaMm2": 1.3014835005265013e-06,
+          "boundsMm": [
+            6.510508,
+            132.648714,
+            10.213211,
+            133.98132
+          ],
+          "groundPadContacts": [
+            "C97:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 330,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            118.648714,
+            10.213211,
+            119.98132
+          ],
+          "groundPadContacts": [
+            "C98:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 524,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            104.648714,
+            10.213211,
+            105.98132
+          ],
+          "groundPadContacts": [
+            "C99:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 727,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            90.648714,
+            10.213211,
+            91.98132
+          ],
+          "groundPadContacts": [
+            "C106:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 866,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            76.648714,
+            10.213211,
+            77.98132
+          ],
+          "groundPadContacts": [
+            "C107:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1006,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            62.648714,
+            10.213211,
+            63.98132
+          ],
+          "groundPadContacts": [
+            "C108:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1210,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            48.648714,
+            10.213211,
+            49.98132
+          ],
+          "groundPadContacts": [
+            "C109:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1425,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            34.648714,
+            10.213211,
+            35.98132
+          ],
+          "groundPadContacts": [
+            "C110:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1639,
+          "areaMm2": 1.301483500748546e-06,
+          "boundsMm": [
+            6.510508,
+            20.648714,
+            10.213211,
+            21.98132
+          ],
+          "groundPadContacts": [
+            "C111:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": false,
+          "groundContactPresent": true
+        },
+        {
+          "component": 130,
+          "areaMm2": 1.3169724999595788e-06,
+          "boundsMm": [
+            5.928658,
+            134.141558,
+            5.966602,
+            134.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1633,
+          "areaMm2": 1.316972499997212e-06,
+          "boundsMm": [
+            5.928658,
+            22.141558,
+            5.966602,
+            22.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1204,
+          "areaMm2": 1.3169725000020698e-06,
+          "boundsMm": [
+            5.928658,
+            50.141558,
+            5.966602,
+            50.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1419,
+          "areaMm2": 1.3169725000020698e-06,
+          "boundsMm": [
+            5.928658,
+            36.141558,
+            5.966602,
+            36.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 324,
+          "areaMm2": 1.3169725000262013e-06,
+          "boundsMm": [
+            5.928658,
+            120.141558,
+            5.966602,
+            120.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 518,
+          "areaMm2": 1.3169725000262013e-06,
+          "boundsMm": [
+            5.928658,
+            106.141558,
+            5.966602,
+            106.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 721,
+          "areaMm2": 1.3169725000262013e-06,
+          "boundsMm": [
+            5.928658,
+            92.141558,
+            5.966602,
+            92.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 860,
+          "areaMm2": 1.3169725000262013e-06,
+          "boundsMm": [
+            5.928658,
+            78.141558,
+            5.966602,
+            78.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1000,
+          "areaMm2": 1.3169725000262013e-06,
+          "boundsMm": [
+            5.928658,
+            64.141558,
+            5.966602,
+            64.157052
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 53,
+          "areaMm2": 1.3406910002178307e-06,
+          "boundsMm": [
+            8.281505,
+            136.214368,
+            8.794051,
+            137.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 247,
+          "areaMm2": 1.3406910002733419e-06,
+          "boundsMm": [
+            8.281505,
+            122.214368,
+            8.794051,
+            123.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 442,
+          "areaMm2": 1.3406910002733419e-06,
+          "boundsMm": [
+            8.281505,
+            108.214368,
+            8.794051,
+            109.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 924,
+          "areaMm2": 1.3406910002733419e-06,
+          "boundsMm": [
+            8.281505,
+            66.214368,
+            8.794051,
+            67.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1771,
+          "areaMm2": 1.3406910011060091e-06,
+          "boundsMm": [
+            8.281505,
+            10.214368,
+            8.794051,
+            11.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1128,
+          "areaMm2": 1.3406910020496987e-06,
+          "boundsMm": [
+            8.281505,
+            52.214368,
+            8.794051,
+            53.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1557,
+          "areaMm2": 1.341356500206281e-06,
+          "boundsMm": [
+            8.281505,
+            24.214368,
+            8.794051,
+            25.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1343,
+          "areaMm2": 1.341356502038149e-06,
+          "boundsMm": [
+            8.281505,
+            38.214368,
+            8.794051,
+            39.890744
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 642,
+          "areaMm2": 1.3414835002278913e-06,
+          "boundsMm": [
+            8.281505,
+            94.214368,
+            8.794057,
+            95.890761
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 811,
+          "areaMm2": 1.3414835002278913e-06,
+          "boundsMm": [
+            8.281505,
+            80.214368,
+            8.794057,
+            81.890761
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 161,
+          "areaMm2": 1.3530144999646187e-06,
+          "boundsMm": [
+            23.219741,
+            132.740428,
+            23.248133,
+            132.789658
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1866,
+          "areaMm2": 1.3530145000060087e-06,
+          "boundsMm": [
+            23.219741,
+            6.740428,
+            23.248133,
+            6.789658
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 355,
+          "areaMm2": 1.3530145000088941e-06,
+          "boundsMm": [
+            23.219741,
+            118.740428,
+            23.248133,
+            118.789658
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 752,
+          "areaMm2": 1.3530145000088941e-06,
+          "boundsMm": [
+            23.219741,
+            90.740428,
+            23.248133,
+            90.789658
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 127,
+          "areaMm2": 1.6538554998354366e-06,
+          "boundsMm": [
+            5.860652,
+            134.173684,
+            5.899898,
+            134.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1630,
+          "areaMm2": 1.6538554999765155e-06,
+          "boundsMm": [
+            5.860652,
+            22.173684,
+            5.899898,
+            22.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1201,
+          "areaMm2": 1.6538554999977747e-06,
+          "boundsMm": [
+            5.860652,
+            50.173684,
+            5.899898,
+            50.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1416,
+          "areaMm2": 1.6538554999977747e-06,
+          "boundsMm": [
+            5.860652,
+            36.173684,
+            5.899898,
+            36.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 321,
+          "areaMm2": 1.653855500087608e-06,
+          "boundsMm": [
+            5.860652,
+            120.173684,
+            5.899898,
+            120.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 515,
+          "areaMm2": 1.653855500087608e-06,
+          "boundsMm": [
+            5.860652,
+            106.173684,
+            5.899898,
+            106.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 718,
+          "areaMm2": 1.653855500087608e-06,
+          "boundsMm": [
+            5.860652,
+            92.173684,
+            5.899898,
+            92.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 857,
+          "areaMm2": 1.653855500087608e-06,
+          "boundsMm": [
+            5.860652,
+            78.173684,
+            5.899898,
+            78.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 997,
+          "areaMm2": 1.653855500087608e-06,
+          "boundsMm": [
+            5.860652,
+            64.173684,
+            5.899898,
+            64.205338
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 693,
+          "areaMm2": 1.6659715015286626e-06,
+          "boundsMm": [
+            22.910086,
+            91.566282,
+            23.363347,
+            93.078231
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 102,
+          "areaMm2": 1.6660000015032105e-06,
+          "boundsMm": [
+            22.910067,
+            133.566282,
+            23.363347,
+            135.078288
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 296,
+          "areaMm2": 1.6660000015088162e-06,
+          "boundsMm": [
+            22.910067,
+            119.566282,
+            23.363347,
+            121.078288
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1820,
+          "areaMm2": 1.6660000015521525e-06,
+          "boundsMm": [
+            22.910067,
+            7.566282,
+            23.363347,
+            9.078288
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 17,
+          "areaMm2": 2.5098569955040137e-06,
+          "boundsMm": [
+            19.0716,
+            137.796282,
+            21.014408,
+            138.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 213,
+          "areaMm2": 2.5098569955398427e-06,
+          "boundsMm": [
+            19.0716,
+            123.796282,
+            21.014408,
+            124.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1523,
+          "areaMm2": 2.5098760024150346e-06,
+          "boundsMm": [
+            19.0716,
+            25.796296,
+            21.014379,
+            26.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 888,
+          "areaMm2": 2.5101124955361973e-06,
+          "boundsMm": [
+            19.0716,
+            67.796289,
+            21.014394,
+            68.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1093,
+          "areaMm2": 2.5101125092820623e-06,
+          "boundsMm": [
+            19.0716,
+            53.796289,
+            21.014394,
+            54.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1309,
+          "areaMm2": 2.5101125092820623e-06,
+          "boundsMm": [
+            19.0716,
+            39.796289,
+            21.014394,
+            40.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 408,
+          "areaMm2": 2.511336495588021e-06,
+          "boundsMm": [
+            19.0716,
+            109.796296,
+            21.014379,
+            110.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 608,
+          "areaMm2": 2.511336495588021e-06,
+          "boundsMm": [
+            19.0716,
+            95.796296,
+            21.014379,
+            96.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1737,
+          "areaMm2": 2.511336498926449e-06,
+          "boundsMm": [
+            19.0716,
+            11.796296,
+            21.014379,
+            12.596594
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1086,
+          "areaMm2": 0.0014428007199997403,
+          "boundsMm": [
+            11.0512,
+            56.473933,
+            11.151446,
+            56.566359
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 12,
+          "areaMm2": 0.0014429522414995909,
+          "boundsMm": [
+            11.0512,
+            140.473933,
+            11.15145,
+            140.566363
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 208,
+          "areaMm2": 0.0014429522415000207,
+          "boundsMm": [
+            11.0512,
+            126.473933,
+            11.15145,
+            126.566363
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 404,
+          "areaMm2": 0.0014429522415000207,
+          "boundsMm": [
+            11.0512,
+            112.473933,
+            11.15145,
+            112.566363
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 884,
+          "areaMm2": 0.0014429544855003027,
+          "boundsMm": [
+            11.0512,
+            70.473933,
+            11.151452,
+            70.566365
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 604,
+          "areaMm2": 0.0014429555875003,
+          "boundsMm": [
+            11.0512,
+            98.473933,
+            11.151452,
+            98.566365
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 803,
+          "areaMm2": 0.0014430412650002567,
+          "boundsMm": [
+            11.051199,
+            84.473933,
+            11.151452,
+            84.566365
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 867,
+          "areaMm2": 0.025016520000001305,
+          "boundsMm": [
+            21.97,
+            77.028683,
+            22.03,
+            77.48
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 816,
+          "areaMm2": 0.03493951085700141,
+          "boundsMm": [
+            21.773534,
+            79.730001,
+            22.162756,
+            79.869999
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 315,
+          "areaMm2": 0.06738365234299991,
+          "boundsMm": [
+            22.436352,
+            119.88,
+            22.702442,
+            120.588139
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 712,
+          "areaMm2": 0.06738365234299991,
+          "boundsMm": [
+            22.436352,
+            91.88,
+            22.702442,
+            92.588139
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1839,
+          "areaMm2": 0.06738365234300031,
+          "boundsMm": [
+            22.436352,
+            7.88,
+            22.702442,
+            8.588139
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 121,
+          "areaMm2": 0.06738365234300288,
+          "boundsMm": [
+            22.436352,
+            133.88,
+            22.702442,
+            134.588139
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 288,
+          "areaMm2": 0.07024743497299829,
+          "boundsMm": [
+            8.63,
+            120.6641,
+            9.18318,
+            121.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 482,
+          "areaMm2": 0.07024743497299829,
+          "boundsMm": [
+            8.63,
+            106.6641,
+            9.18318,
+            107.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 685,
+          "areaMm2": 0.07024743497299829,
+          "boundsMm": [
+            8.63,
+            92.6641,
+            9.18318,
+            93.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 834,
+          "areaMm2": 0.07024743497299829,
+          "boundsMm": [
+            8.63,
+            78.6641,
+            9.18318,
+            79.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 964,
+          "areaMm2": 0.07024743497299829,
+          "boundsMm": [
+            8.63,
+            64.6641,
+            9.18318,
+            65.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1597,
+          "areaMm2": 0.07024743497299991,
+          "boundsMm": [
+            8.63,
+            22.6641,
+            9.18318,
+            23.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1812,
+          "areaMm2": 0.07024743497299993,
+          "boundsMm": [
+            8.63,
+            8.6641,
+            9.18318,
+            9.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1168,
+          "areaMm2": 0.07024743497299996,
+          "boundsMm": [
+            8.63,
+            50.6641,
+            9.18318,
+            51.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1383,
+          "areaMm2": 0.07024743497299996,
+          "boundsMm": [
+            8.63,
+            36.6641,
+            9.18318,
+            37.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 94,
+          "areaMm2": 0.07024743497300652,
+          "boundsMm": [
+            8.63,
+            134.6641,
+            9.18318,
+            135.22362
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 990,
+          "areaMm2": 0.07822639511299913,
+          "boundsMm": [
+            22.436352,
+            63.88,
+            22.704242,
+            64.683409
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 508,
+          "areaMm2": 0.07822639511299972,
+          "boundsMm": [
+            22.436352,
+            105.88,
+            22.704242,
+            106.683409
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1194,
+          "areaMm2": 0.07822639511299986,
+          "boundsMm": [
+            22.436352,
+            49.88,
+            22.704242,
+            50.683409
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1409,
+          "areaMm2": 0.07822639511299986,
+          "boundsMm": [
+            22.436352,
+            35.88,
+            22.704242,
+            36.683409
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1623,
+          "areaMm2": 0.07822639511300052,
+          "boundsMm": [
+            22.436352,
+            21.88,
+            22.704242,
+            22.683409
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 69,
+          "areaMm2": 0.18041307722099661,
+          "boundsMm": [
+            8.834508,
+            136.165312,
+            10.1646,
+            137.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1144,
+          "areaMm2": 0.18041307722099825,
+          "boundsMm": [
+            8.834508,
+            52.165312,
+            10.1646,
+            53.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1359,
+          "areaMm2": 0.18041307722099825,
+          "boundsMm": [
+            8.834508,
+            38.165312,
+            10.1646,
+            39.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1787,
+          "areaMm2": 0.18041307722100008,
+          "boundsMm": [
+            8.834508,
+            10.165312,
+            10.1646,
+            11.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1573,
+          "areaMm2": 0.18041307722100186,
+          "boundsMm": [
+            8.834508,
+            24.165312,
+            10.1646,
+            25.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 263,
+          "areaMm2": 0.1804130772210041,
+          "boundsMm": [
+            8.834508,
+            122.165312,
+            10.1646,
+            123.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 458,
+          "areaMm2": 0.1804130772210041,
+          "boundsMm": [
+            8.834508,
+            108.165312,
+            10.1646,
+            109.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 660,
+          "areaMm2": 0.1804130772210041,
+          "boundsMm": [
+            8.834508,
+            94.165312,
+            10.1646,
+            95.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 812,
+          "areaMm2": 0.1804130772210041,
+          "boundsMm": [
+            8.834508,
+            80.165312,
+            10.1646,
+            81.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 940,
+          "areaMm2": 0.1804130772210041,
+          "boundsMm": [
+            8.834508,
+            66.165312,
+            10.1646,
+            67.296014
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 813,
+          "areaMm2": 0.2817318933065023,
+          "boundsMm": [
+            20.819999,
+            80.114114,
+            21.51,
+            81.230909
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 806,
+          "areaMm2": 0.35793367546249866,
+          "boundsMm": [
+            19.0716,
+            81.3216,
+            20.259529,
+            82.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 916,
+          "areaMm2": 0.35793393081399894,
+          "boundsMm": [
+            19.0716,
+            67.3216,
+            20.25953,
+            68.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1335,
+          "areaMm2": 0.35793393714200034,
+          "boundsMm": [
+            19.0716,
+            39.3216,
+            20.25953,
+            40.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1549,
+          "areaMm2": 0.3579339418834996,
+          "boundsMm": [
+            19.0716,
+            25.3216,
+            20.25953,
+            26.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1120,
+          "areaMm2": 0.35793394424000036,
+          "boundsMm": [
+            19.0716,
+            53.3216,
+            20.25953,
+            54.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1763,
+          "areaMm2": 0.35793394690750063,
+          "boundsMm": [
+            19.0716,
+            11.3216,
+            20.25953,
+            12.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 634,
+          "areaMm2": 0.3579345288709983,
+          "boundsMm": [
+            19.0716,
+            95.3216,
+            20.259532,
+            96.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 434,
+          "areaMm2": 0.35793478755199803,
+          "boundsMm": [
+            19.0716,
+            109.3216,
+            20.259532,
+            110.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 239,
+          "areaMm2": 0.3579348062154981,
+          "boundsMm": [
+            19.0716,
+            123.3216,
+            20.259532,
+            124.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 45,
+          "areaMm2": 0.3579348120795097,
+          "boundsMm": [
+            19.0716,
+            137.3216,
+            20.259532,
+            138.009147
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 405,
+          "areaMm2": 0.6601604191479924,
+          "boundsMm": [
+            13.9241,
+            110.39774,
+            15.21983,
+            111.1445
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 210,
+          "areaMm2": 0.6601604192904924,
+          "boundsMm": [
+            13.9241,
+            124.39774,
+            15.21983,
+            125.1445
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1306,
+          "areaMm2": 0.6601606632950036,
+          "boundsMm": [
+            13.9241,
+            40.39774,
+            15.219831,
+            41.1445
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 605,
+          "areaMm2": 0.7229037181974931,
+          "boundsMm": [
+            13.9241,
+            96.39774,
+            15.21983,
+            97.224499
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 14,
+          "areaMm2": 0.7385894755489891,
+          "boundsMm": [
+            13.9241,
+            138.39774,
+            15.21983,
+            139.244499
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1519,
+          "areaMm2": 0.7385907652465,
+          "boundsMm": [
+            13.9241,
+            26.39774,
+            15.219831,
+            27.2445
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 805,
+          "areaMm2": 0.7385907669109986,
+          "boundsMm": [
+            13.9241,
+            82.39774,
+            15.219831,
+            83.2445
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 885,
+          "areaMm2": 0.7385907735899986,
+          "boundsMm": [
+            13.9241,
+            68.39774,
+            15.219831,
+            69.2445
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1088,
+          "areaMm2": 0.7385907790120048,
+          "boundsMm": [
+            13.9241,
+            54.39774,
+            15.219831,
+            55.2445
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1734,
+          "areaMm2": 0.7581990797545007,
+          "boundsMm": [
+            13.9241,
+            12.39774,
+            15.219831,
+            13.269501
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 70,
+          "areaMm2": 0.9880896755805062,
+          "boundsMm": [
+            20.540956,
+            135.124896,
+            22.162756,
+            137.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 264,
+          "areaMm2": 0.9880896919215035,
+          "boundsMm": [
+            20.540956,
+            121.124896,
+            22.162756,
+            123.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 661,
+          "areaMm2": 0.9880897810855037,
+          "boundsMm": [
+            20.540956,
+            93.124896,
+            22.162756,
+            95.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1788,
+          "areaMm2": 0.9880898003534998,
+          "boundsMm": [
+            20.540956,
+            9.124896,
+            22.162756,
+            11.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 459,
+          "areaMm2": 0.9883435835890032,
+          "boundsMm": [
+            20.540956,
+            107.124896,
+            22.164959,
+            109.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 941,
+          "areaMm2": 0.9883436596870036,
+          "boundsMm": [
+            20.540956,
+            65.124896,
+            22.164959,
+            67.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1145,
+          "areaMm2": 0.9883436673169979,
+          "boundsMm": [
+            20.540956,
+            51.124896,
+            22.164959,
+            53.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1360,
+          "areaMm2": 0.9883436673169979,
+          "boundsMm": [
+            20.540956,
+            37.124896,
+            22.164959,
+            39.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 1574,
+          "areaMm2": 0.9883436850864978,
+          "boundsMm": [
+            20.540956,
+            23.124896,
+            22.164959,
+            25.154511
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": false
+        },
+        {
+          "component": 76,
+          "areaMm2": 1.247682652705982,
+          "boundsMm": [
+            6.153659,
+            134.461317,
+            8.497851,
+            135.713585
+          ],
+          "groundPadContacts": [
+            "C121:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1151,
+          "areaMm2": 1.247682652705998,
+          "boundsMm": [
+            6.153659,
+            50.461317,
+            8.497851,
+            51.713585
+          ],
+          "groundPadContacts": [
+            "C139:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1366,
+          "areaMm2": 1.247682652705998,
+          "boundsMm": [
+            6.153659,
+            36.461317,
+            8.497851,
+            37.713585
+          ],
+          "groundPadContacts": [
+            "C142:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1580,
+          "areaMm2": 1.247682652705999,
+          "boundsMm": [
+            6.153659,
+            22.461317,
+            8.497851,
+            23.713585
+          ],
+          "groundPadContacts": [
+            "C145:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 1794,
+          "areaMm2": 1.2476826527060005,
+          "boundsMm": [
+            6.153659,
+            8.461317,
+            8.497851,
+            9.713585
+          ],
+          "groundPadContacts": [
+            "C148:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 270,
+          "areaMm2": 1.2476826527060036,
+          "boundsMm": [
+            6.153659,
+            120.461317,
+            8.497851,
+            121.713585
+          ],
+          "groundPadContacts": [
+            "C124:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 465,
+          "areaMm2": 1.2476826527060036,
+          "boundsMm": [
+            6.153659,
+            106.461317,
+            8.497851,
+            107.713585
+          ],
+          "groundPadContacts": [
+            "C127:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 667,
+          "areaMm2": 1.2476826527060036,
+          "boundsMm": [
+            6.153659,
+            92.461317,
+            8.497851,
+            93.713585
+          ],
+          "groundPadContacts": [
+            "C130:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 817,
+          "areaMm2": 1.2476826527060036,
+          "boundsMm": [
+            6.153659,
+            78.461317,
+            8.497851,
+            79.713585
+          ],
+          "groundPadContacts": [
+            "C133:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 947,
+          "areaMm2": 1.2476826527060036,
+          "boundsMm": [
+            6.153659,
+            64.461317,
+            8.497851,
+            65.713585
+          ],
+          "groundPadContacts": [
+            "C136:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 804,
+          "areaMm2": 22.84497198429455,
+          "boundsMm": [
+            9.454377,
+            78.621677,
+            21.51,
+            83.526554
+          ],
+          "groundPadContacts": [
+            "U14:2",
+            "C132:2"
+          ],
+          "originalGroundViaContacts": [],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 789,
+          "areaMm2": 27.95428256166592,
+          "boundsMm": [
+            13.0224,
+            76.619999,
+            26.029999,
+            88.027599
+          ],
+          "groundPadContacts": [],
+          "originalGroundViaContacts": [
+            "09c2a1a19a5aed63"
+          ],
+          "valid": true,
+          "groundContactPresent": true
+        },
+        {
+          "component": 790,
+          "areaMm2": 29.662509902219472,
+          "boundsMm": [
+            14.1724,
+            79.322399,
+            23.177599,
+            87.227598
+          ],
+          "groundPadContacts": [
+            "C114:2"
+          ],
+          "originalGroundViaContacts": [
+            "4858f59c063ce2a6",
+            "cdd4d1083365384b"
+          ],
+          "valid": true,
+          "groundContactPresent": true
+        }
+      ],
+      "routerDroppedContainedRingCount": 44,
+      "routerReportedNestedUnionAreaChangeMm2": 0.0,
+      "affectedOriginalHoleIndexes": [
+        216,
+        220
+      ],
+      "affectedOriginalArcCommands": 0,
+      "retainedOriginalContourArrayCount": 216,
+      "fillPhysicalPenRadiusMmOmittedByRouterMask": 0.00254
+    },
+    {
+      "primitiveId": "f9e70adc3ac35fbd",
+      "layerId": 15,
+      "net": "GND",
+      "beforeBodyExactLatestSource": true,
+      "outerPathExact": true,
+      "validBefore": true,
+      "validAfter": true,
+      "validityAfter": "Valid Geometry",
+      "copperAddedVsOriginalMm2": 0.0,
+      "extraCopperRemovedOutsideRawRequestedVoidMm2": 1.5706e-07,
+      "copperLeftInsideRawRequestedVoidMm2": 0.007989644445,
+      "extraRemovedComponentsOverOneUm2": [],
+      "routerDroppedContainedRingCount": 0,
+      "routerReportedNestedUnionAreaChangeMm2": null,
+      "affectedOriginalHoleIndexes": [],
+      "affectedOriginalArcCommands": 0,
+      "retainedOriginalContourArrayCount": 314,
+      "fillPhysicalPenRadiusMmOmittedByRouterMask": 0.00254
+    },
+    {
+      "primitiveId": "41fd0322eb2cc785",
+      "layerId": 16,
+      "net": "+3V3",
+      "beforeBodyExactLatestSource": true,
+      "outerPathExact": true,
+      "validBefore": true,
+      "validAfter": true,
+      "validityAfter": "Valid Geometry",
+      "copperAddedVsOriginalMm2": 0.0,
+      "extraCopperRemovedOutsideRawRequestedVoidMm2": 2.502925e-07,
+      "copperLeftInsideRawRequestedVoidMm2": 0.012783589108,
+      "extraRemovedComponentsOverOneUm2": [],
+      "routerDroppedContainedRingCount": 0,
+      "routerReportedNestedUnionAreaChangeMm2": null,
+      "affectedOriginalHoleIndexes": [],
+      "affectedOriginalArcCommands": 0,
+      "retainedOriginalContourArrayCount": 367,
+      "fillPhysicalPenRadiusMmOmittedByRouterMask": 0.00254
+    },
+    {
+      "primitiveId": "b99d5f8f2cae6046",
+      "layerId": 17,
+      "net": "GND",
+      "beforeBodyExactLatestSource": true,
+      "outerPathExact": true,
+      "validBefore": true,
+      "validAfter": true,
+      "validityAfter": "Valid Geometry",
+      "copperAddedVsOriginalMm2": 0.0,
+      "extraCopperRemovedOutsideRawRequestedVoidMm2": 1.570555e-07,
+      "copperLeftInsideRawRequestedVoidMm2": 0.007989647344,
+      "extraRemovedComponentsOverOneUm2": [],
+      "routerDroppedContainedRingCount": 0,
+      "routerReportedNestedUnionAreaChangeMm2": null,
+      "affectedOriginalHoleIndexes": [],
+      "affectedOriginalArcCommands": 0,
+      "retainedOriginalContourArrayCount": 195,
+      "fillPhysicalPenRadiusMmOmittedByRouterMask": 0.00254
+    },
+    {
+      "primitiveId": "ef12098577a13cc7",
+      "layerId": 18,
+      "net": "GND",
+      "beforeBodyExactLatestSource": true,
+      "outerPathExact": true,
+      "validBefore": true,
+      "validAfter": true,
+      "validityAfter": "Valid Geometry",
+      "copperAddedVsOriginalMm2": 0.0,
+      "extraCopperRemovedOutsideRawRequestedVoidMm2": 1.5706e-07,
+      "copperLeftInsideRawRequestedVoidMm2": 0.007989644445,
+      "extraRemovedComponentsOverOneUm2": [],
+      "routerDroppedContainedRingCount": 0,
+      "routerReportedNestedUnionAreaChangeMm2": null,
+      "affectedOriginalHoleIndexes": [],
+      "affectedOriginalArcCommands": 0,
+      "retainedOriginalContourArrayCount": 316,
+      "fillPhysicalPenRadiusMmOmittedByRouterMask": 0.00254
+    },
+    {
+      "primitiveId": "2fb535085249015d",
+      "layerId": 2,
+      "net": "GND",
+      "beforeBodyExactLatestSource": true,
+      "outerPathExact": true,
+      "validBefore": true,
+      "validAfter": true,
+      "validityAfter": "Valid Geometry",
+      "copperAddedVsOriginalMm2": 0.0,
+      "extraCopperRemovedOutsideRawRequestedVoidMm2": 1.570815e-07,
+      "copperLeftInsideRawRequestedVoidMm2": 0.00798964553,
+      "extraRemovedComponentsOverOneUm2": [],
+      "routerDroppedContainedRingCount": 0,
+      "routerReportedNestedUnionAreaChangeMm2": null,
+      "affectedOriginalHoleIndexes": [],
+      "affectedOriginalArcCommands": 0,
+      "retainedOriginalContourArrayCount": 207,
+      "fillPhysicalPenRadiusMmOmittedByRouterMask": 0.00254
+    }
+  ],
+  "totalExtraCopperRemovedOutsideRawRequestedVoidsMm2": 120.5838817242975,
+  "totalCopperAddedVsOriginalMm2": 4.58293e-07,
+  "rootCause": "normalized_holes() drops every contained contour, including negative boundary contours enclosing real GND copper islands created by the requested clearance union. Its validation first flips all contours positive and compares void union areas; that cannot detect loss of those real copper islands.",
+  "physicalPenQualification": "Router mask uses 0.17 mm around actor copper but does not additionally reserve the static FILL 0.2 mil pen radius 0.00254 mm. Clearance remains above the current 0.1524 mm rule by nominal margin; however its declared full 0.17 mm physical gap is not established by that construction.",
+  "decision": "Do not apply the flattened plan as a preservation-equivalent local cut. Preserve copper islands as separate FILL lobes first; any removal needs an explicit frozen list and ground/load contact review.",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "manufacturingApproved": false
+}

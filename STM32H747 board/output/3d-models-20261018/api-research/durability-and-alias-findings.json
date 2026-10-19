@@ -1,0 +1,61 @@
+{
+  "scope": "Read-only official source/type research and checkpoint ZIP inspection; no EasyEDA native/API/UI calls or global/shared library changes.",
+  "official_types": {
+    "package": "@jlceda/pro-api-types",
+    "version": "0.4.27",
+    "official_sdk_dependency_evidence": "https://raw.githubusercontent.com/easyeda/easyeda-api-sdk/main/package.json",
+    "official_docs_evidence": "https://prodocs.lceda.cn/cn/api/guide/ancillary-projects/pro-api-types.html",
+    "tarball": "https://registry.npmjs.org/@jlceda/pro-api-types/-/pro-api-types-0.4.27.tgz",
+    "verified_registry_integrity": "sha512-abEQrqxTOTB5ovGMvecJjpwu2LctpNisZAmTqadVzTse25nPb76lLd+z7ilEFTHeUMncWr9LPg5BIDe+p81oDA==",
+    "installed": false,
+    "local_dts": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/3d-models-20261018/api-research/pro-api-types-0.4.27/package/index.d.ts",
+    "version_limit": "This is an official published declaration package, not proof that every method behaves identically in the installed EasyEDA 3.2.206 runtime."
+  },
+  "library_alias_evidence": {
+    "getter_declaration_line": 4890,
+    "getter_signature": "getProjectLibraryUuid(): Promise<string | undefined>",
+    "actual_runtime_getter_from_main": "project",
+    "alias_literal_mappings_in_dts": "No declared literal mapping of project alias to actual current project UUID was found.",
+    "conclusion": "Use the runtime getter's returned value for documented project scope. Actual project UUID and alias equivalence is not documented; replacing one with the other for create/copy would be a pilot hypothesis, not an established correction. Existing historical symbol/footprint scripts using the actual project UUID do not prove 3D import support."
+  },
+  "model_apis": [
+    {"line": 3004, "method": "lib_3DModel.create", "fact": "Accepts libraryUuid:string and Blob. Offline remarks at2970 describe organizing into a local model-directory library; no project-alias writable-target guarantee."},
+    {"line": 3126, "method": "lib_3DModel.copy", "fact": "Accepts source model UUID/source library UUID/target library UUID; returns a new target model UUID. Duplicate target model name fails. Generic target signature does not explicitly confirm project alias or actual project UUID targets."},
+    {"line": 3089, "method": "lib_3DModel.get", "fact": "Returns ILIB_3DModelItem metadata only. No STEP/OBJ/blob/source URL binary payload is part of this interface."},
+    {"line": 9011, "method": "pcb_ManufactureData.get3DFile", "fact": "Public STEP/OBJ board export with Component Model selection and autoGenerateModels=false; captures resolved geometry as an export, not editable source-model embedding."},
+    {"line": 40494, "method": "sys_FileManager.getProjectFileByProjectUuid", "fact": "Public full project checkpoint export; binary model inclusion is not promised by the declaration."},
+    {"line": 40522, "method": "sys_FileManager.getDeviceFileByDeviceUuid", "fact": "Public elibz/elibz2 library export. No 3D-payload inclusion option or guarantee is documented."},
+    {"line": 40576, "method": "sys_FileManager.getFootprintFileByFootprintUuid", "fact": "Public elibz/elibz2 footprint export. Instance-only 3D overrides should not be assumed present in the footprint master export."}
+  ],
+  "unsupported_shortcuts": [
+    "No public get3DModelSourceFile/get3DModelBinary method is present in the declared model class.",
+    "IPCB_PrimitiveComponent constructor has a model3D parameter at18987 but is marked @internal; it is not a supported way to replace an existing routed component.",
+    "No native model record or SQL payload should be fabricated from the sparse public doctype16 reference.",
+    "No copy/create retry with an alternate target scope should be described as proven correct without a controlled result and readback."
+  ],
+  "runtime_pilot_verified": {
+    "component": "C1",
+    "component_id": "84b1ab3682614f8a",
+    "3D Model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+    "3D Model Title": "0402C",
+    "3D Model Transform": "39.37,19.685,19.685,0,0,0,0,0,0",
+    "unit_conclusion": "Saved native UI pilot resolves distances as mil for this installed runtime: 39.37mil = 1mm, 19.685mil = 0.5mm.",
+    "reference_conclusion": "Saved value is qualified modelUuid|sourceLibraryUuid, not an unqualified UUID. Updating the local PCB instance does not itself modify the system model."
+  },
+  "checkpoint_audit": {
+    "report": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/3d-models-20261018/api-research/c1-checkpoint-payload-audit.json",
+    "before": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/checkpoints/STM32H747_before_3d_models_20261018.epro2",
+    "after": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/checkpoints/STM32H747_3d_c1_pilot_20261018.epro2",
+    "bytes_added": 314,
+    "zip_entries_before_and_after": 18,
+    "changed_zip_entries": ["STM32H747_MCU_BOARD_v19.epru"],
+    "existing_logical_records_with_changed_body": 1,
+    "changed_record": "C1 COMPONENT adds only three 3D attributes. Position/angle/layer/lock/other attributes unchanged.",
+    "additional_logical_record": "One default empty NET record in C1 footprint e2e3d06dac58c326; netType/specialColor/differentialName/equalLengthGroupName null, retLine=true, isPositiveNet=false.",
+    "model_uuid_occurrences_before_after": [0, 1],
+    "new_model_documents_or_geometry_files": 0,
+    "conclusion": "Checkpoint preserves the external system-library reference plus title/transform. It does not embed a new model geometry payload. This proves durable binding metadata, not self-contained model portability.",
+    "original_checkpoint_hashes_verified_unchanged": true
+  },
+  "recommended_completion_path": "Continue native qualified system-model instance links when appropriate, preserve the original system libraries unchanged, save/export the project and a STEP assembly with autoGenerateModels=false, and record that editable model references depend on the external system model library/cache. Retain separately obtained original STEP source assets as distinct evidence; do not claim those files are the system model source or embedded in the checkpoint."
+}

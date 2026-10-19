@@ -1,0 +1,89 @@
+{
+  "schema": "adc10-labtool-C103-only-placement-guarded-operations-v6",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v5b_saved-20261018.epru",
+  "sourceSha256": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+  "placementPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-v6-c103-local-bypass-proposal.json",
+  "placementSha256": "2cbb87c1ace266d67fdbc90a15807a8d8316773e719cd31108b2cd33fa6ddd43",
+  "operations": [
+    {
+      "ref": "C103",
+      "componentId": "22492dfdcfa7b019",
+      "uniqueId": "d5e2941e244657a1",
+      "beforeBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 803.1496,
+        "y": 2897.6378,
+        "angle": 0,
+        "attrs": {
+          "Unique ID": "d5e2941e244657a1",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1I115"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "beforeBodySha256": "17b290f5eb94e2eb825317ad2ede18929594378ed97daffa8e40549d40a07d8c",
+      "afterBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 881.8897637795276,
+        "y": 2834.645669291339,
+        "angle": 180,
+        "attrs": {
+          "Unique ID": "d5e2941e244657a1",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1I115"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "allowedChangedFields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "value": null,
+      "footprint": "4265bf1593bd2ff7",
+      "expectedPads": [
+        {
+          "number": "1",
+          "net": "+5V_AFE",
+          "centerMm": [
+            22.4,
+            72.7749999994
+          ],
+          "boundsMm": [
+            21.949999998299997,
+            72.3499999985,
+            22.8500000017,
+            73.2000000003
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "centerMm": [
+            22.4,
+            71.2250000006
+          ],
+          "boundsMm": [
+            21.949999998299997,
+            70.7999999997,
+            22.8500000017,
+            71.6500000015
+          ]
+        }
+      ]
+    }
+  ],
+  "allOther106EntriesExact": true,
+  "nativeCalls": 0,
+  "originalDrillChanges": 0,
+  "viaChanges": 0,
+  "rootMustVerifySourceBeforeApplying": true
+}

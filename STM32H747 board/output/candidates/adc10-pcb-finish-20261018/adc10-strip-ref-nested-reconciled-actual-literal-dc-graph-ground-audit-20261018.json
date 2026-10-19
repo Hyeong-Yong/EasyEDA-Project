@@ -1,0 +1,3120 @@
+{
+  "schema": "stm32h747-adc10-strip-literal-copper-graph-ground-audit-20261018-v1",
+  "passed": true,
+  "errors": [],
+  "mode": "ACTUAL_NATIVE_ALL_ROUTES",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-ref_nested_reconciled-20261018.epru",
+  "sourceSha256": "a51d905974dc802b3a5a62d5d69e5d0de017941c4d67f382d972d36165ead230",
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\strip\\adc10-strip-phase2-rebased-closed-operations-20261018.json",
+  "manifestSha256": "717e616c61c0c9ce6220ff8a6f4221496b1b0189c034cf8ce7717b57aaf3ba24",
+  "channelGraphs": [
+    {
+      "sma": "J2",
+      "PRE": "ADC1_PRE1",
+      "DRV": "ADC1_DRV1",
+      "PREPins": [
+        [
+          "R140",
+          "2"
+        ],
+        [
+          "R137",
+          "1"
+        ],
+        [
+          "C97",
+          "1"
+        ],
+        [
+          "U10",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U10",
+          "1"
+        ],
+        [
+          "U10",
+          "4"
+        ],
+        [
+          "R141",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000014
+    },
+    {
+      "sma": "J3",
+      "PRE": "ADC1_PRE2",
+      "DRV": "ADC1_DRV2",
+      "PREPins": [
+        [
+          "R142",
+          "2"
+        ],
+        [
+          "R138",
+          "1"
+        ],
+        [
+          "C98",
+          "1"
+        ],
+        [
+          "U11",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U11",
+          "1"
+        ],
+        [
+          "U11",
+          "4"
+        ],
+        [
+          "R143",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000014
+    },
+    {
+      "sma": "J4",
+      "PRE": "ADC1_PRE3",
+      "DRV": "ADC1_DRV3",
+      "PREPins": [
+        [
+          "R144",
+          "2"
+        ],
+        [
+          "R139",
+          "1"
+        ],
+        [
+          "C99",
+          "1"
+        ],
+        [
+          "U12",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U12",
+          "1"
+        ],
+        [
+          "U12",
+          "4"
+        ],
+        [
+          "R145",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000014
+    },
+    {
+      "sma": "J5",
+      "PRE": "ADC2_PRE1",
+      "DRV": "ADC2_DRV1",
+      "PREPins": [
+        [
+          "R152",
+          "2"
+        ],
+        [
+          "R149",
+          "1"
+        ],
+        [
+          "C106",
+          "1"
+        ],
+        [
+          "U13",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U13",
+          "1"
+        ],
+        [
+          "U13",
+          "4"
+        ],
+        [
+          "R153",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000013
+    },
+    {
+      "sma": "J6",
+      "PRE": "ADC2_PRE2",
+      "DRV": "ADC2_DRV2",
+      "PREPins": [
+        [
+          "R154",
+          "2"
+        ],
+        [
+          "R150",
+          "1"
+        ],
+        [
+          "C107",
+          "1"
+        ],
+        [
+          "U14",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U14",
+          "1"
+        ],
+        [
+          "U14",
+          "4"
+        ],
+        [
+          "R155",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000014
+    },
+    {
+      "sma": "J7",
+      "PRE": "ADC2_PRE3",
+      "DRV": "ADC2_DRV3",
+      "PREPins": [
+        [
+          "R156",
+          "2"
+        ],
+        [
+          "R151",
+          "1"
+        ],
+        [
+          "C108",
+          "1"
+        ],
+        [
+          "U15",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U15",
+          "1"
+        ],
+        [
+          "U15",
+          "4"
+        ],
+        [
+          "R157",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000013
+    },
+    {
+      "sma": "J8",
+      "PRE": "ADC3_PRE1",
+      "DRV": "ADC3_DRV1",
+      "PREPins": [
+        [
+          "R165",
+          "2"
+        ],
+        [
+          "R161",
+          "1"
+        ],
+        [
+          "C109",
+          "1"
+        ],
+        [
+          "U16",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U16",
+          "1"
+        ],
+        [
+          "U16",
+          "4"
+        ],
+        [
+          "R166",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000014
+    },
+    {
+      "sma": "J9",
+      "PRE": "ADC3_PRE2",
+      "DRV": "ADC3_DRV2",
+      "PREPins": [
+        [
+          "R167",
+          "2"
+        ],
+        [
+          "R162",
+          "1"
+        ],
+        [
+          "C110",
+          "1"
+        ],
+        [
+          "U17",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U17",
+          "1"
+        ],
+        [
+          "U17",
+          "4"
+        ],
+        [
+          "R168",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000013
+    },
+    {
+      "sma": "J10",
+      "PRE": "ADC3_PRE3",
+      "DRV": "ADC3_DRV3",
+      "PREPins": [
+        [
+          "R169",
+          "2"
+        ],
+        [
+          "R163",
+          "1"
+        ],
+        [
+          "C111",
+          "1"
+        ],
+        [
+          "U18",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U18",
+          "1"
+        ],
+        [
+          "U18",
+          "4"
+        ],
+        [
+          "R170",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000014
+    },
+    {
+      "sma": "J11",
+      "PRE": "ADC3_PRE4",
+      "DRV": "ADC3_DRV4",
+      "PREPins": [
+        [
+          "R171",
+          "2"
+        ],
+        [
+          "R164",
+          "1"
+        ],
+        [
+          "C112",
+          "1"
+        ],
+        [
+          "U19",
+          "3"
+        ]
+      ],
+      "DRVPins": [
+        [
+          "U19",
+          "1"
+        ],
+        [
+          "U19",
+          "4"
+        ],
+        [
+          "R172",
+          "1"
+        ]
+      ],
+      "PRECopperComponent": [
+        0
+      ],
+      "DRVCopperComponent": [
+        0
+      ],
+      "PREtoDRVMinimumCopperGapMm": 0.6483999859000014
+    }
+  ],
+  "biasPins": [
+    [
+      "R137",
+      "2"
+    ],
+    [
+      "R138",
+      "2"
+    ],
+    [
+      "R139",
+      "2"
+    ],
+    [
+      "R149",
+      "2"
+    ],
+    [
+      "R150",
+      "2"
+    ],
+    [
+      "R151",
+      "2"
+    ],
+    [
+      "R161",
+      "2"
+    ],
+    [
+      "R162",
+      "2"
+    ],
+    [
+      "R163",
+      "2"
+    ],
+    [
+      "R164",
+      "2"
+    ],
+    [
+      "U9",
+      "2"
+    ],
+    [
+      "C104",
+      "1"
+    ],
+    [
+      "C105",
+      "1"
+    ]
+  ],
+  "biasCopperCommonComponents": [
+    0
+  ],
+  "supplyPins": [
+    {
+      "pin": [
+        "U10",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        9
+      ],
+      "existing3V3VIAAnchors": [
+        "844e3b3f0bdf3b43"
+      ]
+    },
+    {
+      "pin": [
+        "U11",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        8
+      ],
+      "existing3V3VIAAnchors": [
+        "9a8c794b92100357"
+      ]
+    },
+    {
+      "pin": [
+        "U12",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        7
+      ],
+      "existing3V3VIAAnchors": [
+        "94420939c44a3798"
+      ]
+    },
+    {
+      "pin": [
+        "U13",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        6
+      ],
+      "existing3V3VIAAnchors": [
+        "712a554f2be6aa88"
+      ]
+    },
+    {
+      "pin": [
+        "U14",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        5
+      ],
+      "existing3V3VIAAnchors": [
+        "2118a6991c941c7d"
+      ]
+    },
+    {
+      "pin": [
+        "U15",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        4
+      ],
+      "existing3V3VIAAnchors": [
+        "5a0785713fb4f660"
+      ]
+    },
+    {
+      "pin": [
+        "U16",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        3
+      ],
+      "existing3V3VIAAnchors": [
+        "fc11d37bcedb9e63"
+      ]
+    },
+    {
+      "pin": [
+        "U17",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        2
+      ],
+      "existing3V3VIAAnchors": [
+        "73a006ac849478e2"
+      ]
+    },
+    {
+      "pin": [
+        "U18",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        1
+      ],
+      "existing3V3VIAAnchors": [
+        "9e4555707672f41a"
+      ]
+    },
+    {
+      "pin": [
+        "U19",
+        "5"
+      ],
+      "TOPCopperComponents": [
+        0
+      ],
+      "existing3V3VIAAnchors": [
+        "db712c485151c309"
+      ]
+    },
+    {
+      "pin": [
+        "C100",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        9
+      ],
+      "existing3V3VIAAnchors": [
+        "844e3b3f0bdf3b43"
+      ]
+    },
+    {
+      "pin": [
+        "C101",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        8
+      ],
+      "existing3V3VIAAnchors": [
+        "9a8c794b92100357"
+      ]
+    },
+    {
+      "pin": [
+        "C102",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        7
+      ],
+      "existing3V3VIAAnchors": [
+        "94420939c44a3798"
+      ]
+    },
+    {
+      "pin": [
+        "C113",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        6
+      ],
+      "existing3V3VIAAnchors": [
+        "712a554f2be6aa88"
+      ]
+    },
+    {
+      "pin": [
+        "C114",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        5
+      ],
+      "existing3V3VIAAnchors": [
+        "2118a6991c941c7d"
+      ]
+    },
+    {
+      "pin": [
+        "C115",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        4
+      ],
+      "existing3V3VIAAnchors": [
+        "5a0785713fb4f660"
+      ]
+    },
+    {
+      "pin": [
+        "C116",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        3
+      ],
+      "existing3V3VIAAnchors": [
+        "fc11d37bcedb9e63"
+      ]
+    },
+    {
+      "pin": [
+        "C117",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        2
+      ],
+      "existing3V3VIAAnchors": [
+        "73a006ac849478e2"
+      ]
+    },
+    {
+      "pin": [
+        "C118",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        1
+      ],
+      "existing3V3VIAAnchors": [
+        "9e4555707672f41a"
+      ]
+    },
+    {
+      "pin": [
+        "C119",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        0
+      ],
+      "existing3V3VIAAnchors": [
+        "db712c485151c309"
+      ]
+    },
+    {
+      "pin": [
+        "U9",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        5
+      ],
+      "existing3V3VIAAnchors": [
+        "2118a6991c941c7d"
+      ]
+    },
+    {
+      "pin": [
+        "C103",
+        "1"
+      ],
+      "TOPCopperComponents": [
+        5
+      ],
+      "existing3V3VIAAnchors": [
+        "2118a6991c941c7d"
+      ]
+    }
+  ],
+  "groundPads": [
+    {
+      "pin": [
+        "U10",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148577,
+      "padAreaCoverageRatio": 1.0000000000000007,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U11",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148577,
+      "padAreaCoverageRatio": 1.0000000000000007,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U12",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148577,
+      "padAreaCoverageRatio": 1.0000000000000007,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U13",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148344,
+      "padAreaCoverageRatio": 1.0000000000000009,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U14",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148344,
+      "padAreaCoverageRatio": 1.0000000000000009,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U15",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148344,
+      "padAreaCoverageRatio": 1.0000000000000009,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U16",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148344,
+      "padAreaCoverageRatio": 1.0000000000000009,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U17",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148343,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U18",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148401,
+      "padAreaCoverageRatio": 1.0000000000000002,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U19",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.6578508268148374,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C97",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.34720000108800486,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C98",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.34720000108800486,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C99",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.34720000108800486,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C106",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879977,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C107",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879977,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C108",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879977,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C109",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879977,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C110",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010880013,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C111",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.34720000108799953,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C112",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010880004,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C100",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010880092,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C101",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010880092,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C102",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010880092,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C113",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879963,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C114",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879963,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C115",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879963,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C116",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879963,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C117",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.34720000108800275,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C118",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.34720000108800275,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C119",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.34720000108799953,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "U9",
+        "3"
+      ],
+      "intersectionAreaMm2": 0.7778508141748354,
+      "padAreaCoverageRatio": 0.9999999999999997,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C103",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.765000004509998,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C104",
+        "2"
+      ],
+      "intersectionAreaMm2": 1.2999999993800087,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    },
+    {
+      "pin": [
+        "C105",
+        "2"
+      ],
+      "intersectionAreaMm2": 0.3472000010879977,
+      "padAreaCoverageRatio": 1.0,
+      "groundCopperComponent": "FILL:e680230ef8d2c5dd outer-minus-holes connected Polygon",
+      "existingGNDVIAAnchorCount": 142
+    }
+  ],
+  "actualMainGNDFILLAreaMm2": 10608.170502921106,
+  "mainGNDPolygonValid": true,
+  "mainGNDPolygonIsSingleConnectedComponent": true,
+  "existingGNDVIAAnchors": [
+    "04a3fc1bd9cef8ea",
+    "09c2a1a19a5aed63",
+    "0c7f47e91ce9e2fe",
+    "0d2a475b07570ca3",
+    "0d39033d6f9bd3a0",
+    "1002ea5b114a9303",
+    "10994d4ff3dd6adc",
+    "1210e789c5ffa92e",
+    "127684a9b8ab3d97",
+    "1614e767d92217db",
+    "16e1db7c517a73d1",
+    "184afd9d8462f868",
+    "19fd03ddfca3e97f",
+    "1af9010dc6f3ab21",
+    "1b1c6a514aa71e74",
+    "1c7088dcdab79e78",
+    "1e0b559a102f4605",
+    "206ba2e22a11d0f7",
+    "22b830a6fdd24cdd",
+    "25465e7d06ad687a",
+    "273602aeb0a03090",
+    "2932a4ad409939ff",
+    "2da83a95ebe1294d",
+    "2eea6c34a8d3b74b",
+    "2f7c161a32b9952f",
+    "2fbd4f6b1a65ee30",
+    "3135af74371f7e26",
+    "34bc34dd09443fe0",
+    "39c6acdd4ca1dd9b",
+    "3a266b92f94a83b0",
+    "3c38bac4f17d26d8",
+    "413a0f18c70f2071",
+    "41b0daf283c87659",
+    "426b9e0db24cd545",
+    "43c59704ef4039d6",
+    "44eb1a0bddbf2626",
+    "4858f59c063ce2a6",
+    "495e1158115763a0",
+    "4b1044b4fd16b45e",
+    "4d3d96f447b68aec",
+    "4dc0a997cea5f014",
+    "4dcf01f9f3ffc56b",
+    "4de09e6f7d4e2434",
+    "4e052568307001d7",
+    "4ff71610ea96521d",
+    "55104e0add45cc1c",
+    "55423ca1b3677f32",
+    "558e17321aa83c23",
+    "5598a98a441e4fa8",
+    "5685ece285eb7b5e",
+    "57cf2d22fc3b380a",
+    "59451f965efbdba8",
+    "5ab7d9d365f5395e",
+    "5c20387b7dc9a288",
+    "5e2d7017d985a51a",
+    "6066df72028c158b",
+    "6171452886e1fe4f",
+    "6242a175f0ffece3",
+    "626195ed013f03f4",
+    "644a72cb2f5bccd9",
+    "6c91125a516c2c24",
+    "6f752600529ad10f",
+    "6f7afb29738f56d0",
+    "728a5a9bad708a05",
+    "73014344639cd3c4",
+    "7480e3be393d6509",
+    "74f572a4c47de80f",
+    "769f5e6e88e0eaa1",
+    "7793e5145ba8f85c",
+    "7a89a215152fd975",
+    "7b0747af3c3973e1",
+    "7b1be328c88376a1",
+    "7bae82218308b29e",
+    "7f72f04bc8a42d8a",
+    "86814e779c2b93ba",
+    "86cfae3f636e4007",
+    "8881e487893a55a3",
+    "89d2014c6f4d04f3",
+    "8adf201eafa7a7e4",
+    "90a128f885634422",
+    "9205c5de6de1be52",
+    "936de03829a902fd",
+    "959ac54d32208fe5",
+    "95a3cccc05de581e",
+    "96259e6d0bb4d604",
+    "9742a2b21fdf7218",
+    "9991496907d0d760",
+    "9c451ec56e8afe11",
+    "9cf1e82a589b797c",
+    "a079b1d48e7ddf56",
+    "a0c8b9175c5b91ae",
+    "a1784c259804bee7",
+    "a660596f7134230d",
+    "a7ab3c8228fd06d1",
+    "a8f596f825f340df",
+    "a97c547896a31ae2",
+    "ac55b0607d69b1f8",
+    "ad0199459479d8a7",
+    "b159c8c2d7d6186c",
+    "b3321b14a755b55b",
+    "b582117f386c2e39",
+    "b81b28aa3cb0f0a9",
+    "b967a30f8b837d79",
+    "ba93e8306e7e003e",
+    "bd86c24228fe55b9",
+    "be62050d570a800c",
+    "bed4f1836df9f75e",
+    "c345d46f8e6686d2",
+    "c5cd2595836db881",
+    "ca23bd3ba38906b7",
+    "cb148e82773eb128",
+    "cbad26ae5871ad75",
+    "cc6a60cdc69a41dc",
+    "cc77894f0fe88c20",
+    "cdd4d1083365384b",
+    "ce47f5366ab1ccf7",
+    "ce97bb971ed86e49",
+    "d31615a4a1df49d1",
+    "d85edcb8e0219587",
+    "dda9df707e0fe978",
+    "debf1f00c568ff4a",
+    "df2dbb14d465623c",
+    "e079042ffac9ac69",
+    "e083a128de1079a2",
+    "e1aacc0b8c808eca",
+    "e2bd74edb5aabc02",
+    "e51327e892da7aea",
+    "e5bc05ffd9d747b8",
+    "e8f86abab76996fc",
+    "e91b484aaed41d8e",
+    "ece9d21e55023ac5",
+    "ef850811148f394c",
+    "f0a0e0a825304e24",
+    "f2ee26a687bf1ab9",
+    "f76e00b6d78430d4",
+    "f8750bdbee7b65ad",
+    "f87e14a829bce556",
+    "fccdd7220bc8a3c6",
+    "fd7135b3babe5e0a",
+    "fef455035300dc27",
+    "ff4b3cdb1eda282c",
+    "ff9b163d822352b3"
+  ],
+  "checks": [
+    {
+      "test": "Actual pad assigned expected net ('R140', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R137', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C97', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U10', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U10', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U10', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R141', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J2",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R140",
+            "2"
+          ],
+          [
+            "R137",
+            "1"
+          ],
+          [
+            "C97",
+            "1"
+          ],
+          [
+            "U10",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J2",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U10",
+            "1"
+          ],
+          [
+            "U10",
+            "4"
+          ],
+          [
+            "R141",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J2",
+      "passed": true,
+      "detail": 0.6483999859000014
+    },
+    {
+      "test": "Actual pad assigned expected net ('R142', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R138', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C98', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U11', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U11', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U11', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R143', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J3",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R142",
+            "2"
+          ],
+          [
+            "R138",
+            "1"
+          ],
+          [
+            "C98",
+            "1"
+          ],
+          [
+            "U11",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J3",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U11",
+            "1"
+          ],
+          [
+            "U11",
+            "4"
+          ],
+          [
+            "R143",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J3",
+      "passed": true,
+      "detail": 0.6483999859000014
+    },
+    {
+      "test": "Actual pad assigned expected net ('R144', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R139', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C99', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U12', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U12', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U12', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R145', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J4",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R144",
+            "2"
+          ],
+          [
+            "R139",
+            "1"
+          ],
+          [
+            "C99",
+            "1"
+          ],
+          [
+            "U12",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J4",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U12",
+            "1"
+          ],
+          [
+            "U12",
+            "4"
+          ],
+          [
+            "R145",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J4",
+      "passed": true,
+      "detail": 0.6483999859000014
+    },
+    {
+      "test": "Actual pad assigned expected net ('R152', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R149', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C106', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U13', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U13', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U13', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R153', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J5",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R152",
+            "2"
+          ],
+          [
+            "R149",
+            "1"
+          ],
+          [
+            "C106",
+            "1"
+          ],
+          [
+            "U13",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J5",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U13",
+            "1"
+          ],
+          [
+            "U13",
+            "4"
+          ],
+          [
+            "R153",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J5",
+      "passed": true,
+      "detail": 0.6483999859000013
+    },
+    {
+      "test": "Actual pad assigned expected net ('R154', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R150', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C107', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U14', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U14', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U14', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R155', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J6",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R154",
+            "2"
+          ],
+          [
+            "R150",
+            "1"
+          ],
+          [
+            "C107",
+            "1"
+          ],
+          [
+            "U14",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J6",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U14",
+            "1"
+          ],
+          [
+            "U14",
+            "4"
+          ],
+          [
+            "R155",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J6",
+      "passed": true,
+      "detail": 0.6483999859000014
+    },
+    {
+      "test": "Actual pad assigned expected net ('R156', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R151', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C108', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U15', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U15', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U15', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R157', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J7",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R156",
+            "2"
+          ],
+          [
+            "R151",
+            "1"
+          ],
+          [
+            "C108",
+            "1"
+          ],
+          [
+            "U15",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J7",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U15",
+            "1"
+          ],
+          [
+            "U15",
+            "4"
+          ],
+          [
+            "R157",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J7",
+      "passed": true,
+      "detail": 0.6483999859000013
+    },
+    {
+      "test": "Actual pad assigned expected net ('R165', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R161', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C109', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U16', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U16', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U16', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R166', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J8",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R165",
+            "2"
+          ],
+          [
+            "R161",
+            "1"
+          ],
+          [
+            "C109",
+            "1"
+          ],
+          [
+            "U16",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J8",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U16",
+            "1"
+          ],
+          [
+            "U16",
+            "4"
+          ],
+          [
+            "R166",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J8",
+      "passed": true,
+      "detail": 0.6483999859000014
+    },
+    {
+      "test": "Actual pad assigned expected net ('R167', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R162', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C110', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U17', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U17', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U17', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R168', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J9",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R167",
+            "2"
+          ],
+          [
+            "R162",
+            "1"
+          ],
+          [
+            "C110",
+            "1"
+          ],
+          [
+            "U17",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J9",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U17",
+            "1"
+          ],
+          [
+            "U17",
+            "4"
+          ],
+          [
+            "R168",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J9",
+      "passed": true,
+      "detail": 0.6483999859000013
+    },
+    {
+      "test": "Actual pad assigned expected net ('R169', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R163', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C111', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U18', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U18', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U18', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R170', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J10",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R169",
+            "2"
+          ],
+          [
+            "R163",
+            "1"
+          ],
+          [
+            "C111",
+            "1"
+          ],
+          [
+            "U18",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J10",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U18",
+            "1"
+          ],
+          [
+            "U18",
+            "4"
+          ],
+          [
+            "R170",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J10",
+      "passed": true,
+      "detail": 0.6483999859000014
+    },
+    {
+      "test": "Actual pad assigned expected net ('R171', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R164', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C112', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U19', '3')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U19', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U19', '4')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R172', '1')",
+      "passed": true
+    },
+    {
+      "test": "Literal PRE copper joins Rin2/Rb1/Cpre1/OPA+ J11",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R171",
+            "2"
+          ],
+          [
+            "R164",
+            "1"
+          ],
+          [
+            "C112",
+            "1"
+          ],
+          [
+            "U19",
+            "3"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Literal DRV copper joins OPAout/INminus/47Rinput J11",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "U19",
+            "1"
+          ],
+          [
+            "U19",
+            "4"
+          ],
+          [
+            "R172",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "PRE never physically shorts/bypasses OPA to DRV J11",
+      "passed": true,
+      "detail": 0.6483999859000014
+    },
+    {
+      "test": "Actual pad assigned expected net ('R137', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R138', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R139', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R149', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R150', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R151', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R161', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R162', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R163', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('R164', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('U9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C104', '1')",
+      "passed": true
+    },
+    {
+      "test": "Actual pad assigned expected net ('C105', '1')",
+      "passed": true
+    },
+    {
+      "test": "All13 quiet-bias pads join one literal TOP copper component",
+      "passed": true,
+      "detail": {
+        "pins": [
+          [
+            "R137",
+            "2"
+          ],
+          [
+            "R138",
+            "2"
+          ],
+          [
+            "R139",
+            "2"
+          ],
+          [
+            "R149",
+            "2"
+          ],
+          [
+            "R150",
+            "2"
+          ],
+          [
+            "R151",
+            "2"
+          ],
+          [
+            "R161",
+            "2"
+          ],
+          [
+            "R162",
+            "2"
+          ],
+          [
+            "R163",
+            "2"
+          ],
+          [
+            "R164",
+            "2"
+          ],
+          [
+            "U9",
+            "2"
+          ],
+          [
+            "C104",
+            "1"
+          ],
+          [
+            "C105",
+            "1"
+          ]
+        ],
+        "components": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Actual pad assigned expected net ('U10', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U10', '5')",
+      "passed": true,
+      "detail": [
+        "844e3b3f0bdf3b43"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U11', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U11', '5')",
+      "passed": true,
+      "detail": [
+        "9a8c794b92100357"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U12', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U12', '5')",
+      "passed": true,
+      "detail": [
+        "94420939c44a3798"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U13', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U13', '5')",
+      "passed": true,
+      "detail": [
+        "712a554f2be6aa88"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U14', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U14', '5')",
+      "passed": true,
+      "detail": [
+        "2118a6991c941c7d"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U15', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U15', '5')",
+      "passed": true,
+      "detail": [
+        "5a0785713fb4f660"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U16', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U16', '5')",
+      "passed": true,
+      "detail": [
+        "fc11d37bcedb9e63"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U17', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U17', '5')",
+      "passed": true,
+      "detail": [
+        "73a006ac849478e2"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U18', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U18', '5')",
+      "passed": true,
+      "detail": [
+        "9e4555707672f41a"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U19', '5')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U19', '5')",
+      "passed": true,
+      "detail": [
+        "db712c485151c309"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C100', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C100', '1')",
+      "passed": true,
+      "detail": [
+        "844e3b3f0bdf3b43"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C101', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C101', '1')",
+      "passed": true,
+      "detail": [
+        "9a8c794b92100357"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C102', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C102', '1')",
+      "passed": true,
+      "detail": [
+        "94420939c44a3798"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C113', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C113', '1')",
+      "passed": true,
+      "detail": [
+        "712a554f2be6aa88"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C114', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C114', '1')",
+      "passed": true,
+      "detail": [
+        "2118a6991c941c7d"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C115', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C115', '1')",
+      "passed": true,
+      "detail": [
+        "5a0785713fb4f660"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C116', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C116', '1')",
+      "passed": true,
+      "detail": [
+        "fc11d37bcedb9e63"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C117', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C117', '1')",
+      "passed": true,
+      "detail": [
+        "73a006ac849478e2"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C118', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C118', '1')",
+      "passed": true,
+      "detail": [
+        "9e4555707672f41a"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C119', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C119', '1')",
+      "passed": true,
+      "detail": [
+        "db712c485151c309"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('U9', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('U9', '1')",
+      "passed": true,
+      "detail": [
+        "2118a6991c941c7d"
+      ]
+    },
+    {
+      "test": "Actual pad assigned expected net ('C103', '1')",
+      "passed": true
+    },
+    {
+      "test": "New supply pin physically reaches existing protected main3V3 VIA ('C103', '1')",
+      "passed": true,
+      "detail": [
+        "2118a6991c941c7d"
+      ]
+    },
+    {
+      "test": "Actual connected main TOP GND polygon overlaps existing protected GND VIAs",
+      "passed": true,
+      "detail": {
+        "count": 142,
+        "ids": [
+          "04a3fc1bd9cef8ea",
+          "09c2a1a19a5aed63",
+          "0c7f47e91ce9e2fe",
+          "0d2a475b07570ca3",
+          "0d39033d6f9bd3a0",
+          "1002ea5b114a9303",
+          "10994d4ff3dd6adc",
+          "1210e789c5ffa92e",
+          "127684a9b8ab3d97",
+          "1614e767d92217db",
+          "16e1db7c517a73d1",
+          "184afd9d8462f868",
+          "19fd03ddfca3e97f",
+          "1af9010dc6f3ab21",
+          "1b1c6a514aa71e74",
+          "1c7088dcdab79e78",
+          "1e0b559a102f4605",
+          "206ba2e22a11d0f7",
+          "22b830a6fdd24cdd",
+          "25465e7d06ad687a",
+          "273602aeb0a03090",
+          "2932a4ad409939ff",
+          "2da83a95ebe1294d",
+          "2eea6c34a8d3b74b",
+          "2f7c161a32b9952f",
+          "2fbd4f6b1a65ee30",
+          "3135af74371f7e26",
+          "34bc34dd09443fe0",
+          "39c6acdd4ca1dd9b",
+          "3a266b92f94a83b0",
+          "3c38bac4f17d26d8",
+          "413a0f18c70f2071",
+          "41b0daf283c87659",
+          "426b9e0db24cd545",
+          "43c59704ef4039d6",
+          "44eb1a0bddbf2626",
+          "4858f59c063ce2a6",
+          "495e1158115763a0",
+          "4b1044b4fd16b45e",
+          "4d3d96f447b68aec",
+          "4dc0a997cea5f014",
+          "4dcf01f9f3ffc56b",
+          "4de09e6f7d4e2434",
+          "4e052568307001d7",
+          "4ff71610ea96521d",
+          "55104e0add45cc1c",
+          "55423ca1b3677f32",
+          "558e17321aa83c23",
+          "5598a98a441e4fa8",
+          "5685ece285eb7b5e",
+          "57cf2d22fc3b380a",
+          "59451f965efbdba8",
+          "5ab7d9d365f5395e",
+          "5c20387b7dc9a288",
+          "5e2d7017d985a51a",
+          "6066df72028c158b",
+          "6171452886e1fe4f",
+          "6242a175f0ffece3",
+          "626195ed013f03f4",
+          "644a72cb2f5bccd9",
+          "6c91125a516c2c24",
+          "6f752600529ad10f",
+          "6f7afb29738f56d0",
+          "728a5a9bad708a05",
+          "73014344639cd3c4",
+          "7480e3be393d6509",
+          "74f572a4c47de80f",
+          "769f5e6e88e0eaa1",
+          "7793e5145ba8f85c",
+          "7a89a215152fd975",
+          "7b0747af3c3973e1",
+          "7b1be328c88376a1",
+          "7bae82218308b29e",
+          "7f72f04bc8a42d8a",
+          "86814e779c2b93ba",
+          "86cfae3f636e4007",
+          "8881e487893a55a3",
+          "89d2014c6f4d04f3",
+          "8adf201eafa7a7e4",
+          "90a128f885634422",
+          "9205c5de6de1be52",
+          "936de03829a902fd",
+          "959ac54d32208fe5",
+          "95a3cccc05de581e",
+          "96259e6d0bb4d604",
+          "9742a2b21fdf7218",
+          "9991496907d0d760",
+          "9c451ec56e8afe11",
+          "9cf1e82a589b797c",
+          "a079b1d48e7ddf56",
+          "a0c8b9175c5b91ae",
+          "a1784c259804bee7",
+          "a660596f7134230d",
+          "a7ab3c8228fd06d1",
+          "a8f596f825f340df",
+          "a97c547896a31ae2",
+          "ac55b0607d69b1f8",
+          "ad0199459479d8a7",
+          "b159c8c2d7d6186c",
+          "b3321b14a755b55b",
+          "b582117f386c2e39",
+          "b81b28aa3cb0f0a9",
+          "b967a30f8b837d79",
+          "ba93e8306e7e003e",
+          "bd86c24228fe55b9",
+          "be62050d570a800c",
+          "bed4f1836df9f75e",
+          "c345d46f8e6686d2",
+          "c5cd2595836db881",
+          "ca23bd3ba38906b7",
+          "cb148e82773eb128",
+          "cbad26ae5871ad75",
+          "cc6a60cdc69a41dc",
+          "cc77894f0fe88c20",
+          "cdd4d1083365384b",
+          "ce47f5366ab1ccf7",
+          "ce97bb971ed86e49",
+          "d31615a4a1df49d1",
+          "d85edcb8e0219587",
+          "dda9df707e0fe978",
+          "debf1f00c568ff4a",
+          "df2dbb14d465623c",
+          "e079042ffac9ac69",
+          "e083a128de1079a2",
+          "e1aacc0b8c808eca",
+          "e2bd74edb5aabc02",
+          "e51327e892da7aea",
+          "e5bc05ffd9d747b8",
+          "e8f86abab76996fc",
+          "e91b484aaed41d8e",
+          "ece9d21e55023ac5",
+          "ef850811148f394c",
+          "f0a0e0a825304e24",
+          "f2ee26a687bf1ab9",
+          "f76e00b6d78430d4",
+          "f8750bdbee7b65ad",
+          "f87e14a829bce556",
+          "fccdd7220bc8a3c6",
+          "fd7135b3babe5e0a",
+          "fef455035300dc27",
+          "ff4b3cdb1eda282c",
+          "ff9b163d822352b3"
+        ]
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U10', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148577,
+        "padAreaCoverageRatio": 1.0000000000000007
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U11', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148577,
+        "padAreaCoverageRatio": 1.0000000000000007
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U12', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148577,
+        "padAreaCoverageRatio": 1.0000000000000007
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U13', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148344,
+        "padAreaCoverageRatio": 1.0000000000000009
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U14', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148344,
+        "padAreaCoverageRatio": 1.0000000000000009
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U15', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148344,
+        "padAreaCoverageRatio": 1.0000000000000009
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U16', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148344,
+        "padAreaCoverageRatio": 1.0000000000000009
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U17', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148343,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U18', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148401,
+        "padAreaCoverageRatio": 1.0000000000000002
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U19', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.6578508268148374,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C97', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.34720000108800486,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C98', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.34720000108800486,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C99', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.34720000108800486,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C106', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879977,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C107', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879977,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C108', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879977,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C109', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879977,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C110', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010880013,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C111', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.34720000108799953,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C112', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010880004,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C100', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010880092,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C101', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010880092,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C102', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010880092,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C113', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879963,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C114', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879963,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C115', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879963,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C116', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879963,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C117', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.34720000108800275,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C118', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.34720000108800275,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C119', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.34720000108799953,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('U9', '3')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.7778508141748354,
+        "padAreaCoverageRatio": 0.9999999999999997
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C103', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.765000004509998,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C104', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 1.2999999993800087,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "New GND pad contacts literal via-anchored GND solid, not just a label ('C105', '2')",
+      "passed": true,
+      "detail": {
+        "intersectionAreaMm2": 0.3472000010879977,
+        "padAreaCoverageRatio": 1.0
+      }
+    },
+    {
+      "test": "All34 new-component GND pads checked",
+      "passed": true
+    },
+    {
+      "test": "Frozen manifest unchanged during audit",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Literal copper/pad overlap graph only, not a same-NET label shortcut. No native/API calls or writes.",
+    "Existing protected main3V3 VIAs are physical anchors into unchanged original power distribution; this audit does not re-simulate the regulator.",
+    "Single connected Polygon topology is checked. Minimum copper neck width and full-board different-net clearance remain native strict DRC responsibilities.",
+    "Prospective mode is a plan proof, not an implementation claim. Actual mode must be rerun after all204LINEs are captured. No fabrication approval."
+  ],
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0
+}

@@ -1,0 +1,438 @@
+{
+  "status": "PASS_NATIVE_PRESERVATION_AND_LABEL_MAPPING_NOT_FULL_DRC_APPROVAL",
+  "baseline": "output\\validation\\native-multilayer-cn1_cutout_192_20261016-reopened.epru",
+  "baseline_sha256": "0b3a4a798f61a094af51a79a75e8561c75dce8f44bd279d3afee910a01bae2c8",
+  "final": "output\\validation\\native-multilayer-corners_j18_direction_v2_20261016-reopened.epru",
+  "final_sha256": "106a37094bd8b2a383af5c7fb76101a64ade8cb55e3d55dda590abebfbc1f7a9",
+  "plan_sha256": "a598937b8be3dc5132fb338377308fa85c6f7d468a55fe5fed902fabad431ab4",
+  "record_count_before": 12732,
+  "record_count_after": 12753,
+  "reviewed_target_pad_count": 4,
+  "reviewed_target_fill_count": 6,
+  "protected_records_including_ui": 12722,
+  "protected_nonui_records_exact": 12719,
+  "protected_nonui_canonical_sha256": "3adee76830f85e303f071743529fd373e514197be2b40cc1afb5ce19a9e29a2e",
+  "ignored_ui_types": [
+    "ACTIVE_LAYER",
+    "CANVAS",
+    "DOCHEAD"
+  ],
+  "actual_ui_body_differences": [
+    "DOCHEAD",
+    "ACTIVE_LAYER"
+  ],
+  "normalizations": [],
+  "fill_path_identity": [
+    {
+      "id": "e680230ef8d2c5dd",
+      "sourceExactDuplicateLineSegmentsRemoved": 0,
+      "checkpointExactDuplicateLineSegmentsRemoved": 0,
+      "maximumCoordinateQuantizationMil": 0.0,
+      "planned_contours": 231,
+      "actual_contours": 231
+    },
+    {
+      "id": "f9e70adc3ac35fbd",
+      "sourceExactDuplicateLineSegmentsRemoved": 0,
+      "checkpointExactDuplicateLineSegmentsRemoved": 0,
+      "maximumCoordinateQuantizationMil": 0.0,
+      "planned_contours": 313,
+      "actual_contours": 313
+    },
+    {
+      "id": "41fd0322eb2cc785",
+      "sourceExactDuplicateLineSegmentsRemoved": 0,
+      "checkpointExactDuplicateLineSegmentsRemoved": 0,
+      "maximumCoordinateQuantizationMil": 0.0,
+      "planned_contours": 362,
+      "actual_contours": 362
+    },
+    {
+      "id": "b99d5f8f2cae6046",
+      "sourceExactDuplicateLineSegmentsRemoved": 0,
+      "checkpointExactDuplicateLineSegmentsRemoved": 0,
+      "maximumCoordinateQuantizationMil": 0.0,
+      "planned_contours": 195,
+      "actual_contours": 195
+    },
+    {
+      "id": "ef12098577a13cc7",
+      "sourceExactDuplicateLineSegmentsRemoved": 0,
+      "checkpointExactDuplicateLineSegmentsRemoved": 0,
+      "maximumCoordinateQuantizationMil": 0.0,
+      "planned_contours": 313,
+      "actual_contours": 313
+    },
+    {
+      "id": "2fb535085249015d",
+      "sourceExactDuplicateLineSegmentsRemoved": 0,
+      "checkpointExactDuplicateLineSegmentsRemoved": 0,
+      "maximumCoordinateQuantizationMil": 0.0,
+      "planned_contours": 207,
+      "actual_contours": 207
+    }
+  ],
+  "new_strings": 21,
+  "strings": [
+    {
+      "id": "e31f696eebef4ec3",
+      "pin": 1,
+      "kind": "header",
+      "text": "1 PD3",
+      "actual_mm": [
+        47.76499972,
+        1.1500002399999998
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "7da7853576f8609f",
+      "pin": 1,
+      "kind": "function",
+      "text": "SCK",
+      "actual_mm": [
+        47.76499972,
+        2.15000078
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "f2431c1b915159e7",
+      "pin": 2,
+      "kind": "header",
+      "text": "2 PB15",
+      "actual_mm": [
+        47.76499972,
+        8.199998840000001
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "4cc0bcb04b4237eb",
+      "pin": 2,
+      "kind": "function",
+      "text": "MOSI",
+      "actual_mm": [
+        47.76499972,
+        9.19999938
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "78520ff7c888e095",
+      "pin": 3,
+      "kind": "header",
+      "text": "3",
+      "actual_mm": [
+        45.22499972,
+        1.1500002399999998
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "33ae4fc662f30c6a",
+      "pin": 3,
+      "kind": "function",
+      "text": "GND",
+      "actual_mm": [
+        45.22499972,
+        2.15000078
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "c866bc08d120d991",
+      "pin": 4,
+      "kind": "header",
+      "text": "4 PC7",
+      "actual_mm": [
+        45.22499972,
+        8.199998840000001
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "d39240d07f55baf7",
+      "pin": 4,
+      "kind": "function",
+      "text": "CSn",
+      "actual_mm": [
+        45.22499972,
+        9.19999938
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "2f9637c46a483a8c",
+      "pin": 5,
+      "kind": "header",
+      "text": "5",
+      "actual_mm": [
+        42.68499972,
+        1.1500002399999998
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "5852c478dc265023",
+      "pin": 5,
+      "kind": "function",
+      "text": "GND",
+      "actual_mm": [
+        42.68499972,
+        2.15000078
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "81dd1a375583db35",
+      "pin": 6,
+      "kind": "header",
+      "text": "6",
+      "actual_mm": [
+        42.68499972,
+        8.199998840000001
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "66f60e1639e368e5",
+      "pin": 6,
+      "kind": "function",
+      "text": "GND",
+      "actual_mm": [
+        42.68499972,
+        9.19999938
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "1fd1c5da63fff45b",
+      "pin": 7,
+      "kind": "header",
+      "text": "7",
+      "actual_mm": [
+        40.14499972,
+        1.1500002399999998
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "605d0f7f5ad10846",
+      "pin": 7,
+      "kind": "function",
+      "text": "GND",
+      "actual_mm": [
+        40.14499972,
+        2.15000078
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "8d7eea778d5d7a1d",
+      "pin": 8,
+      "kind": "header",
+      "text": "8",
+      "actual_mm": [
+        40.14499972,
+        8.199998840000001
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "82b9fc62064ac9ff",
+      "pin": 8,
+      "kind": "function",
+      "text": "GND",
+      "actual_mm": [
+        40.14499972,
+        9.19999938
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "9cb37e886ee35510",
+      "pin": 9,
+      "kind": "header",
+      "text": "9",
+      "actual_mm": [
+        37.604999719999995,
+        1.1500002399999998
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "3eb72ca54f09556b",
+      "pin": 9,
+      "kind": "function",
+      "text": "+3V3",
+      "actual_mm": [
+        37.604999719999995,
+        2.15000078
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "ce00ece084908b7c",
+      "pin": 10,
+      "kind": "header",
+      "text": "10",
+      "actual_mm": [
+        37.604999719999995,
+        8.199998840000001
+      ],
+      "actual_font_size_mm": 0.6500012399999999,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "227f9dac7eb966d4",
+      "pin": 10,
+      "kind": "function",
+      "text": "+3V3",
+      "actual_mm": [
+        37.604999719999995,
+        9.19999938
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    },
+    {
+      "id": "26cc404321122903",
+      "pin": null,
+      "kind": "title",
+      "text": "J18 SPI2",
+      "actual_mm": [
+        42.68499972,
+        10.49999932
+      ],
+      "actual_font_size_mm": 0.9000007400000001,
+      "actual_stroke_width_mm": 0.11999976,
+      "mirror": false,
+      "layer": 4
+    }
+  ],
+  "all_21_strings_including_title_persisted_after_close_reopen": true,
+  "native_string_mirror_expected": false,
+  "direction_v2_engine_note": "Bottom engine automatically mirrors when native mirror is false; native true cancels that reflection. Actual Gerber backside preview is the final physical orientation check.",
+  "counts_before": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 280,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 280,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 634,
+    "PAD": 4,
+    "LINE": 5422,
+    "ARC": 2184,
+    "FILL": 730,
+    "POLY": 500,
+    "COMPONENT": 330,
+    "ATTR": 990,
+    "PAD_NET": 1234
+  },
+  "counts_after": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 280,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 280,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 634,
+    "PAD": 4,
+    "LINE": 5422,
+    "ARC": 2184,
+    "FILL": 730,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 330,
+    "ATTR": 990,
+    "PAD_NET": 1234
+  },
+  "all_18_rules_and_280_rule_selectors_exact": true,
+  "all_330_components_1234_pad_nets_634_vias_unchanged": true,
+  "native_drc": {
+    "path": "output\\validation\\native-pcb-drc-0ac2a19168000d8e-corners_j18_20261016.json",
+    "sha256": "99d93e994dcbf58de41de004d34fcf761af7dfa60615dd2079e45753cbd826e8",
+    "passed": false,
+    "violations": 1,
+    "counts": {
+      "Netlist Error": 1
+    },
+    "interpretation": "Clearance/connection/other geometry errors zero; one real schematic-PCB netlist mismatch remains. No waiver or rule change."
+  },
+  "native_api_called": false,
+  "native_project_modified_by_auditor": false
+}

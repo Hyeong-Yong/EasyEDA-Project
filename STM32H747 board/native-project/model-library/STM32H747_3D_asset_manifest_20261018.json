@@ -1,0 +1,851 @@
+{
+  "schema": "STM32H747-private-flat-STEP-library-assets-v1",
+  "operation": "COPYFILE_EXCL exact derivative byte copies; no source modification; no native APIs/UI/path registration",
+  "libraryDirectory": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\model-library",
+  "prefix": "STM32H747_3D_",
+  "nativeTransformAssumption": "Existing board native calibration observes complete-bbox centerXY/minZ normalization. These canonical assets already contain correct per-reference baked rotations and offsets. Apply no additional rotation. Absolute sizeXYZ in mil equals complete physical bbox spans, preserving unity geometry scale.",
+  "nativeTransformRecovery": "Native normalized p=(pX-centerX,pY-centerY,pZ-minZ). Offset=(centerX,centerY,minZ) restores canonical pinregistered coordinates. Do not set offsets0 solely because STEP is canonical.",
+  "nativeValidationRequired": "Root must verify one imported pilot actual OBJ bounds/pin locations and source-unit handling before batch binding. OCCT analytic bbox can differ from importer mesh extrema by tessellation/float precision; first3 fields are physical dimensions, NOT scale ratios.",
+  "fileUnits": "mm, explicit STEP units",
+  "license": "Historical/user-supplied source and manufacturer download. No open public redistribution licence assumed. Retain provenance.",
+  "entries": [
+    {
+      "ref": "CN1",
+      "componentId": "8dfdc04036ba85c3",
+      "footprintUuid": "83fb62ef25d3eef1",
+      "currentComponentOriginMm": [
+        92.2600009,
+        15.6399992
+      ],
+      "currentComponentRotationDeg": 0,
+      "modelPart": "PJ-051BH",
+      "optional": false,
+      "expectedLibraryTitle": "STM32H747_3D_CN1_PJ051BH_PINREG_ZUP_20261018",
+      "lookupAliases": [
+        "STM32H747_3D_CN1_PJ051BH_PINREG_ZUP_20261018",
+        "STM32H747_3D_CN1_PJ051BH_PINREG_ZUP_20261018.step",
+        "CN1 PJ-051BH",
+        "PJ-051BH"
+      ],
+      "sourceDerivativePath": "output\\3d-models-20261018\\source-models\\canonical-pinregistered-models\\CN1\\CN1_PJ-051BH_board-Zup-pinregistered.step",
+      "sourceDerivativeSha256": "99c3113c8bc68d72596ab2f393ca46cb2fa718164f50df20fed13b543b2516ef",
+      "flatAssetPath": "native-project\\model-library\\STM32H747_3D_CN1_PJ051BH_PINREG_ZUP_20261018.step",
+      "flatAssetAbsolutePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\model-library\\STM32H747_3D_CN1_PJ051BH_PINREG_ZUP_20261018.step",
+      "bytes": 669987,
+      "sha256": "99c3113c8bc68d72596ab2f393ca46cb2fa718164f50df20fed13b543b2516ef",
+      "geometryScaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "bakedRigidTransform": [
+        [
+          1.110223024625e-16,
+          -1.110223024625e-16,
+          1,
+          7.379999100000004
+        ],
+        [
+          1,
+          1.2325951644074834e-32,
+          -1.110223024625e-16,
+          -0.32999920000000316
+        ],
+        [
+          0,
+          1,
+          1.110223024625e-16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "canonicalBoundsMm": {
+        "min_mm": [
+          -4.370001,
+          -5.379999199999999,
+          -2.500000000000001
+        ],
+        "max_mm": [
+          7.379999100000001,
+          4.720000800000002,
+          7.300000000000002
+        ],
+        "span_mm": [
+          11.750000100000001,
+          10.100000000000001,
+          9.800000000000002
+        ]
+      },
+      "completeBboxCenterMm": [
+        1.5049990500000003,
+        -0.3299991999999987,
+        2.4000000000000004
+      ],
+      "mountPlaneCanonicalZmm": 0,
+      "canonicalMinZmm": -2.500000000000001,
+      "canonicalMaxZmm": 7.300000000000002,
+      "expectedNativeTransformOrder": [
+        "sizeX_mil",
+        "sizeY_mil",
+        "sizeZ_mil",
+        "rotZ_deg",
+        "rotX_deg",
+        "rotY_deg",
+        "offsetX_mil",
+        "offsetY_mil",
+        "offsetZ_mil"
+      ],
+      "expectedNativeTransform9tupleMil": [
+        462.59842913385836,
+        397.63779527559063,
+        385.8267716535434,
+        0,
+        0,
+        0,
+        59.25193110236222,
+        -12.992094488188926,
+        -98.42519685039375
+      ],
+      "expectedNativeTransformString": "462.5984291339,397.6377952756,385.8267716535,0,0,0,59.2519311024,-12.9920944882,-98.4251968504",
+      "expectedNativeSizeXYZmm": [
+        11.750000100000001,
+        10.100000000000001,
+        9.800000000000002
+      ],
+      "expectedNativeRotationZXYdeg": [
+        0,
+        0,
+        0
+      ],
+      "expectedNativeOffsetXYZmm": [
+        1.5049990500000003,
+        -0.3299991999999987,
+        -2.500000000000001
+      ],
+      "normalizationRecoveryMaxErrorMm": 0,
+      "expectedCurrentBoardBboxXYmm": {
+        "min": [
+          87.88999989999999,
+          10.260000000000002
+        ],
+        "max": [
+          99.64,
+          20.360000000000003
+        ]
+      },
+      "validationStatus": "FILE_PREPARATION_ONLY_NATIVE_IMPORT_AND_PILOT_REQUIRED",
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": [],
+      "sourceProvenance": {
+        "sourceReference": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\보드 자료\\MCU_BOARD.step",
+        "originalStepSha256": "db0b1ddb40318053e4bee5212ebc6c44201b839d464ca432b66323c3b91891f9",
+        "extraction": "OCCT selected-child serialization; original historical source preserved."
+      }
+    },
+    {
+      "ref": "CN2",
+      "componentId": "abea6ad277f2bdcf",
+      "footprintUuid": "74ecde493bb3cd4f",
+      "currentComponentOriginMm": [
+        88.95614162,
+        37.510001179999996
+      ],
+      "currentComponentRotationDeg": 0,
+      "modelPart": "LPJE101-0AHNL",
+      "optional": false,
+      "expectedLibraryTitle": "STM32H747_3D_CN2_LPJE101_0AHNL_APPROX_ZUP_20261018",
+      "lookupAliases": [
+        "STM32H747_3D_CN2_LPJE101_0AHNL_APPROX_ZUP_20261018",
+        "STM32H747_3D_CN2_LPJE101_0AHNL_APPROX_ZUP_20261018.step",
+        "CN2 LPJE101-0AHNL",
+        "LPJE101-0AHNL"
+      ],
+      "sourceDerivativePath": "output\\3d-models-20261018\\source-models\\canonical-manufacturer-models\\CN2\\CN2_LPJE101-0AHNL_board-Zup-approx-registered.step",
+      "sourceDerivativeSha256": "326b1712a6c270945055b2ad90fdfaeed0c5880a7064fb503235c3b7462030da",
+      "flatAssetPath": "native-project\\model-library\\STM32H747_3D_CN2_LPJE101_0AHNL_APPROX_ZUP_20261018.step",
+      "flatAssetAbsolutePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\model-library\\STM32H747_3D_CN2_LPJE101_0AHNL_APPROX_ZUP_20261018.step",
+      "bytes": 1711062,
+      "sha256": "326b1712a6c270945055b2ad90fdfaeed0c5880a7064fb503235c3b7462030da",
+      "geometryScaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "bakedRigidTransform": [
+        [
+          0,
+          0,
+          1,
+          -5.2281420008
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          6.55
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "canonicalBoundsMm": {
+        "min_mm": [
+          -5.2281420008,
+          -9.946931409029999,
+          -3.55
+        ],
+        "max_mm": [
+          10.721858099199999,
+          9.946931409031459,
+          14.775881492595575
+        ],
+        "span_mm": [
+          15.950000099999999,
+          19.893862818061457,
+          18.325881492595574
+        ]
+      },
+      "completeBboxCenterMm": [
+        2.746858049199999,
+        7.300826609935029e-13,
+        5.612940746297788
+      ],
+      "mountPlaneCanonicalZmm": 0,
+      "canonicalMinZmm": -3.55,
+      "canonicalMaxZmm": 14.775881492595575,
+      "expectedNativeTransformOrder": [
+        "sizeX_mil",
+        "sizeY_mil",
+        "sizeZ_mil",
+        "rotZ_deg",
+        "rotX_deg",
+        "rotY_deg",
+        "offsetX_mil",
+        "offsetY_mil",
+        "offsetZ_mil"
+      ],
+      "expectedNativeTransform9tupleMil": [
+        627.9527598425196,
+        783.2229455929707,
+        721.4913973462825,
+        0,
+        0,
+        0,
+        108.14401768503934,
+        2.8743411850137912e-11,
+        -139.76377952755905
+      ],
+      "expectedNativeTransformString": "627.9527598425,783.222945593,721.4913973463,0,0,0,108.144017685,0,-139.7637795276",
+      "expectedNativeSizeXYZmm": [
+        15.950000099999999,
+        19.893862818061457,
+        18.325881492595574
+      ],
+      "expectedNativeRotationZXYdeg": [
+        0,
+        0,
+        0
+      ],
+      "expectedNativeOffsetXYZmm": [
+        2.746858049199999,
+        7.300826609935029e-13,
+        -3.55
+      ],
+      "normalizationRecoveryMaxErrorMm": 1.7763568394002505e-15,
+      "expectedCurrentBoardBboxXYmm": {
+        "min": [
+          83.72799961919999,
+          27.563069770969996
+        ],
+        "max": [
+          99.67799971919999,
+          47.45693258903145
+        ]
+      },
+      "validationStatus": "FILE_PREPARATION_ONLY_NATIVE_IMPORT_AND_PILOT_REQUIRED",
+      "relation": "Manufacturer-linked exact-MPN CAD with APPROXIMATE footprint registration and inferred seating datum; not certified mechanical fit.",
+      "limitations": [
+        "Signal pitch1.02mm vs footprint1.016mm: up to0.014mmY residual.",
+        "Shield-leg centers+/-8.225mm vs current+/-8.128mm:0.097mm residual.",
+        "CAD sidewall span16.55mm vs official drawing16.26mm.",
+        "Metric rounding leaves up to0.005mmX pin-row/LED registration residual.",
+        "Full bounds include extended EMI springs; do not shrink to nominal enclosure dimensions."
+      ],
+      "sourceProvenance": {
+        "manufacturerProductPage": "https://www.l-p.com/products/457326.htm",
+        "officialZipUrl": "https://www.l-p.com/upload/file/2023/03-15/020654246.zip",
+        "originalStepSha256": "bca3ecd027c93f41e0ee177881ad7def828396ab9d0ab2c493c8c2acabae9c1e",
+        "registrationEvidence": "Retaining-post centerplane localZ10.29→current footprint locatorX5.0618579992; localX+/-6.35→currentY+/-6.35. SourceY=-6.55 seating candidate reproduces drawing13.1mm body height. This datum is geometry/drawing-supported inference, not an explicit vendor Mpoint."
+      }
+    },
+    {
+      "ref": "CN3",
+      "componentId": "1bb54a689e8b2f5b",
+      "footprintUuid": "8bd1ebd7c6524c9d",
+      "currentComponentOriginMm": [
+        92.95124919999999,
+        64.76500127999999
+      ],
+      "currentComponentRotationDeg": 0,
+      "modelPart": "USB_C_USB4105-GF-A",
+      "optional": false,
+      "expectedLibraryTitle": "STM32H747_3D_CN3_USB4105_GF_A_ZUP_20261018",
+      "lookupAliases": [
+        "STM32H747_3D_CN3_USB4105_GF_A_ZUP_20261018",
+        "STM32H747_3D_CN3_USB4105_GF_A_ZUP_20261018.step",
+        "CN3 USB_C_USB4105-GF-A",
+        "USB_C_USB4105-GF-A"
+      ],
+      "sourceDerivativePath": "output\\3d-models-20261018\\source-models\\canonical-reference-models\\CN3\\CN3_USB_C_USB4105-GF-A_board-Zup.step",
+      "sourceDerivativeSha256": "a53b7f178ed7797919c6ded9adc72af16fca40c1682d753f27b6fb5ba3528e67",
+      "flatAssetPath": "native-project\\model-library\\STM32H747_3D_CN3_USB4105_GF_A_ZUP_20261018.step",
+      "flatAssetAbsolutePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\model-library\\STM32H747_3D_CN3_USB4105_GF_A_ZUP_20261018.step",
+      "bytes": 3885660,
+      "sha256": "a53b7f178ed7797919c6ded9adc72af16fca40c1682d753f27b6fb5ba3528e67",
+      "geometryScaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "bakedRigidTransform": [
+        [
+          1.110223024625e-16,
+          -1.110223024625e-16,
+          1,
+          4.088750800000014
+        ],
+        [
+          1,
+          1.2325951644074834e-32,
+          -1.110223024625e-16,
+          -0.0000012799999922208372
+        ],
+        [
+          0,
+          1,
+          1.110223024625e-16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "canonicalBoundsMm": {
+        "min_mm": [
+          -1.0212491999910007,
+          -4.790001379999991,
+          -0.850000000011999
+        ],
+        "max_mm": [
+          6.688750800008,
+          4.789998820000012,
+          3.310000000000002
+        ],
+        "span_mm": [
+          7.709999999999001,
+          9.580000200000002,
+          4.160000000012001
+        ]
+      },
+      "completeBboxCenterMm": [
+        2.8337508000084997,
+        -0.000001279999989556302,
+        1.2299999999940014
+      ],
+      "mountPlaneCanonicalZmm": 0,
+      "canonicalMinZmm": -0.850000000011999,
+      "canonicalMaxZmm": 3.310000000000002,
+      "expectedNativeTransformOrder": [
+        "sizeX_mil",
+        "sizeY_mil",
+        "sizeZ_mil",
+        "rotZ_deg",
+        "rotX_deg",
+        "rotY_deg",
+        "offsetX_mil",
+        "offsetY_mil",
+        "offsetZ_mil"
+      ],
+      "expectedNativeTransform9tupleMil": [
+        303.5433070865748,
+        377.16536220472454,
+        163.77952755952762,
+        0,
+        0,
+        0,
+        111.56499212631888,
+        -0.00005039370037623236,
+        -33.464566929606264
+      ],
+      "expectedNativeTransformString": "303.5433070866,377.1653622047,163.7795275595,0,0,0,111.5649921263,-0.0000503937,-33.4645669296",
+      "expectedNativeSizeXYZmm": [
+        7.709999999999001,
+        9.580000200000002,
+        4.160000000012001
+      ],
+      "expectedNativeRotationZXYdeg": [
+        0,
+        0,
+        0
+      ],
+      "expectedNativeOffsetXYZmm": [
+        2.8337508000084997,
+        -0.000001279999989556302,
+        -0.850000000011999
+      ],
+      "normalizationRecoveryMaxErrorMm": 4.440892098500626e-16,
+      "expectedCurrentBoardBboxXYmm": {
+        "min": [
+          91.93000000000899,
+          59.9749999
+        ],
+        "max": [
+          99.64000000000799,
+          69.5550001
+        ]
+      },
+      "validationStatus": "FILE_PREPARATION_ONLY_NATIVE_IMPORT_AND_PILOT_REQUIRED",
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": [],
+      "sourceProvenance": {
+        "sourceReference": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\보드 자료\\MCU_BOARD.step",
+        "originalStepSha256": "db0b1ddb40318053e4bee5212ebc6c44201b839d464ca432b66323c3b91891f9",
+        "extraction": "OCCT selected-child serialization; original historical source preserved."
+      }
+    },
+    {
+      "ref": "CN4",
+      "componentId": "3663918f8e6c2c4f",
+      "footprintUuid": "ae37a0fb8459ebec",
+      "currentComponentOriginMm": [
+        59.580000219999995,
+        146.87125057999998
+      ],
+      "currentComponentRotationDeg": 0,
+      "modelPart": "USB_C_USB4105-GF-A",
+      "optional": false,
+      "expectedLibraryTitle": "STM32H747_3D_CN4_USB4105_GF_A_ZUP_20261018",
+      "lookupAliases": [
+        "STM32H747_3D_CN4_USB4105_GF_A_ZUP_20261018",
+        "STM32H747_3D_CN4_USB4105_GF_A_ZUP_20261018.step",
+        "CN4 USB_C_USB4105-GF-A",
+        "USB_C_USB4105-GF-A"
+      ],
+      "sourceDerivativePath": "output\\3d-models-20261018\\source-models\\canonical-reference-models\\CN4\\CN4_USB_C_USB4105-GF-A_board-Zup.step",
+      "sourceDerivativeSha256": "ca4cb89a521d827f13ad3b2648612064efabfcb22201c47f46289ffb9b02036a",
+      "flatAssetPath": "native-project\\model-library\\STM32H747_3D_CN4_USB4105_GF_A_ZUP_20261018.step",
+      "flatAssetAbsolutePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\model-library\\STM32H747_3D_CN4_USB4105_GF_A_ZUP_20261018.step",
+      "bytes": 3885660,
+      "sha256": "ca4cb89a521d827f13ad3b2648612064efabfcb22201c47f46289ffb9b02036a",
+      "geometryScaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "bakedRigidTransform": [
+        [
+          -1,
+          -1.3596310734463073e-32,
+          1.224646799147e-16,
+          -2.200000039920269e-7
+        ],
+        [
+          1.224646799147e-16,
+          -1.110223024625e-16,
+          1,
+          4.088749420000028
+        ],
+        [
+          0,
+          1,
+          1.110223024625e-16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "canonicalBoundsMm": {
+        "min_mm": [
+          -4.790000320000008,
+          -1.0212505799910003,
+          -0.850000000011999
+        ],
+        "max_mm": [
+          4.7899998799999945,
+          6.688749420008001,
+          3.310000000000002
+        ],
+        "span_mm": [
+          9.580000200000002,
+          7.709999999999002,
+          4.160000000012001
+        ]
+      },
+      "completeBboxCenterMm": [
+        -2.2000000665656216e-7,
+        2.8337494200085005,
+        1.2299999999940014
+      ],
+      "mountPlaneCanonicalZmm": 0,
+      "canonicalMinZmm": -0.850000000011999,
+      "canonicalMaxZmm": 3.310000000000002,
+      "expectedNativeTransformOrder": [
+        "sizeX_mil",
+        "sizeY_mil",
+        "sizeZ_mil",
+        "rotZ_deg",
+        "rotX_deg",
+        "rotY_deg",
+        "offsetX_mil",
+        "offsetY_mil",
+        "offsetZ_mil"
+      ],
+      "expectedNativeTransform9tupleMil": [
+        377.16536220472454,
+        303.5433070865749,
+        163.77952755952762,
+        0,
+        0,
+        0,
+        -0.000008661417584904022,
+        111.56493779561026,
+        -33.464566929606264
+      ],
+      "expectedNativeTransformString": "377.1653622047,303.5433070866,163.7795275595,0,0,0,-0.0000086614,111.5649377956,-33.4645669296",
+      "expectedNativeSizeXYZmm": [
+        9.580000200000002,
+        7.709999999999002,
+        4.160000000012001
+      ],
+      "expectedNativeRotationZXYdeg": [
+        0,
+        0,
+        0
+      ],
+      "expectedNativeOffsetXYZmm": [
+        -2.2000000665656216e-7,
+        2.8337494200085005,
+        -0.850000000011999
+      ],
+      "normalizationRecoveryMaxErrorMm": 4.440892098500626e-16,
+      "expectedCurrentBoardBboxXYmm": {
+        "min": [
+          54.789999899999984,
+          145.85000000000898
+        ],
+        "max": [
+          64.37000009999998,
+          153.560000000008
+        ]
+      },
+      "validationStatus": "FILE_PREPARATION_ONLY_NATIVE_IMPORT_AND_PILOT_REQUIRED",
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": [],
+      "sourceProvenance": {
+        "sourceReference": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\보드 자료\\MCU_BOARD.step",
+        "originalStepSha256": "db0b1ddb40318053e4bee5212ebc6c44201b839d464ca432b66323c3b91891f9",
+        "extraction": "OCCT selected-child serialization; original historical source preserved."
+      }
+    },
+    {
+      "ref": "L1",
+      "componentId": "2eb86da4421c0b6a",
+      "footprintUuid": "b4f9adb2635c7c19",
+      "currentComponentOriginMm": [
+        44.34000022,
+        76.27500112
+      ],
+      "currentComponentRotationDeg": 0,
+      "modelPart": "LQM2MPN2R2NG0L",
+      "optional": false,
+      "expectedLibraryTitle": "STM32H747_3D_L1_LQM2MPN2R2NG0L_ZUP_20261018",
+      "lookupAliases": [
+        "STM32H747_3D_L1_LQM2MPN2R2NG0L_ZUP_20261018",
+        "STM32H747_3D_L1_LQM2MPN2R2NG0L_ZUP_20261018.step",
+        "L1 LQM2MPN2R2NG0L",
+        "LQM2MPN2R2NG0L"
+      ],
+      "sourceDerivativePath": "output\\3d-models-20261018\\source-models\\canonical-reference-models\\L1\\L1_LQM2MPN2R2NG0L_board-Zup.step",
+      "sourceDerivativeSha256": "f272e3e5b7b48a97f2b55dcf43bd797141447004af684b9cc663b844cd0fbed3",
+      "flatAssetPath": "native-project\\model-library\\STM32H747_3D_L1_LQM2MPN2R2NG0L_ZUP_20261018.step",
+      "flatAssetAbsolutePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\model-library\\STM32H747_3D_L1_LQM2MPN2R2NG0L_ZUP_20261018.step",
+      "bytes": 161591,
+      "sha256": "f272e3e5b7b48a97f2b55dcf43bd797141447004af684b9cc663b844cd0fbed3",
+      "geometryScaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "bakedRigidTransform": [
+        [
+          1.110223024625e-16,
+          1.110223024625e-16,
+          -1,
+          7.799999934832158e-7
+        ],
+        [
+          -1,
+          1.2325951644074834e-32,
+          -1.110223024625e-16,
+          -0.0000011199999789823778
+        ],
+        [
+          0,
+          1,
+          1.110223024625e-16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "canonicalBoundsMm": {
+        "min_mm": [
+          -0.7999992200000067,
+          -1.000001119999979,
+          -8.326672684688674e-17
+        ],
+        "max_mm": [
+          0.8000007799999937,
+          0.9999988800000211,
+          1
+        ],
+        "span_mm": [
+          1.6000000000000005,
+          2,
+          1
+        ]
+      },
+      "completeBboxCenterMm": [
+        7.79999993538727e-7,
+        -0.0000011199999789268666,
+        0.49999999999999994
+      ],
+      "mountPlaneCanonicalZmm": 0,
+      "canonicalMinZmm": -8.326672684688674e-17,
+      "canonicalMaxZmm": 1,
+      "expectedNativeTransformOrder": [
+        "sizeX_mil",
+        "sizeY_mil",
+        "sizeZ_mil",
+        "rotZ_deg",
+        "rotX_deg",
+        "rotY_deg",
+        "offsetX_mil",
+        "offsetY_mil",
+        "offsetZ_mil"
+      ],
+      "expectedNativeTransform9tupleMil": [
+        62.99212598425199,
+        78.74015748031496,
+        39.37007874015748,
+        0,
+        0,
+        0,
+        0.000030708661162942006,
+        -0.00004409448735932546,
+        -3.278217592397116e-15
+      ],
+      "expectedNativeTransformString": "62.9921259843,78.7401574803,39.3700787402,0,0,0,0.0000307087,-0.0000440945,0",
+      "expectedNativeSizeXYZmm": [
+        1.6000000000000005,
+        2,
+        1
+      ],
+      "expectedNativeRotationZXYdeg": [
+        0,
+        0,
+        0
+      ],
+      "expectedNativeOffsetXYZmm": [
+        7.79999993538727e-7,
+        -0.0000011199999789268666,
+        -8.326672684688674e-17
+      ],
+      "normalizationRecoveryMaxErrorMm": 1.1102230246251565e-16,
+      "expectedCurrentBoardBboxXYmm": {
+        "min": [
+          43.540001,
+          75.27500000000002
+        ],
+        "max": [
+          45.14000099999999,
+          77.27500000000002
+        ]
+      },
+      "validationStatus": "FILE_PREPARATION_ONLY_NATIVE_IMPORT_AND_PILOT_REQUIRED",
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": [],
+      "sourceProvenance": {
+        "sourceReference": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\보드 자료\\MCU_BOARD.step",
+        "originalStepSha256": "db0b1ddb40318053e4bee5212ebc6c44201b839d464ca432b66323c3b91891f9",
+        "extraction": "OCCT selected-child serialization; original historical source preserved."
+      }
+    },
+    {
+      "ref": "J1",
+      "componentId": "494c9d883ad9da29",
+      "footprintUuid": "44621f0fae033d38",
+      "currentComponentOriginMm": [
+        78.8399998,
+        149.05999906
+      ],
+      "currentComponentRotationDeg": 0,
+      "modelPart": "FTSH-107-01-L-DV-K-A",
+      "optional": true,
+      "expectedLibraryTitle": "STM32H747_3D_J1_FTSH107_CONTACTREG_ZUP_20261018",
+      "lookupAliases": [
+        "STM32H747_3D_J1_FTSH107_CONTACTREG_ZUP_20261018",
+        "STM32H747_3D_J1_FTSH107_CONTACTREG_ZUP_20261018.step",
+        "J1 FTSH-107-01-L-DV-K-A",
+        "FTSH-107-01-L-DV-K-A"
+      ],
+      "sourceDerivativePath": "output\\3d-models-20261018\\source-models\\canonical-pinregistered-models\\J1\\J1_FTSH-107-01-L-DV-K-A_board-Zup-pinregistered.step",
+      "sourceDerivativeSha256": "c23d1791c31b22a90f30c1fdd08a899a33a26a763f10d8ef38e40cd5c86977c1",
+      "flatAssetPath": "native-project\\model-library\\STM32H747_3D_J1_FTSH107_CONTACTREG_ZUP_20261018.step",
+      "flatAssetAbsolutePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\native-project\\model-library\\STM32H747_3D_J1_FTSH107_CONTACTREG_ZUP_20261018.step",
+      "bytes": 1168357,
+      "sha256": "c23d1791c31b22a90f30c1fdd08a899a33a26a763f10d8ef38e40cd5c86977c1",
+      "geometryScaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "bakedRigidTransform": [
+        [
+          1,
+          0,
+          0,
+          1.9999998812636477e-7
+        ],
+        [
+          0,
+          1.110223024625e-16,
+          -1,
+          9.400000067216752e-7
+        ],
+        [
+          0,
+          1,
+          1.110223024625e-16,
+          0.4064
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "canonicalBoundsMm": {
+        "min_mm": [
+          -4.444999800000012,
+          -2.920999059999993,
+          -0.8636001
+        ],
+        "max_mm": [
+          4.445000199999988,
+          2.9210009400000065,
+          6.121400000000001
+        ],
+        "span_mm": [
+          8.89,
+          5.842,
+          6.9850001000000015
+        ]
+      },
+      "completeBboxCenterMm": [
+        1.9999998812636477e-7,
+        9.400000067216752e-7,
+        2.6288999500000005
+      ],
+      "mountPlaneCanonicalZmm": 0,
+      "canonicalMinZmm": -0.8636001,
+      "canonicalMaxZmm": 6.121400000000001,
+      "expectedNativeTransformOrder": [
+        "sizeX_mil",
+        "sizeY_mil",
+        "sizeZ_mil",
+        "rotZ_deg",
+        "rotX_deg",
+        "rotY_deg",
+        "offsetX_mil",
+        "offsetY_mil",
+        "offsetZ_mil"
+      ],
+      "expectedNativeTransform9tupleMil": [
+        350.00000000000006,
+        230,
+        275.00000393700793,
+        0,
+        0,
+        0,
+        0.000007874015280565543,
+        0.00003700787428038091,
+        -34.000003937007875
+      ],
+      "expectedNativeTransformString": "350,230,275.000003937,0,0,0,0.000007874,0.0000370079,-34.000003937",
+      "expectedNativeSizeXYZmm": [
+        8.89,
+        5.842,
+        6.9850001000000015
+      ],
+      "expectedNativeRotationZXYdeg": [
+        0,
+        0,
+        0
+      ],
+      "expectedNativeOffsetXYZmm": [
+        1.9999998812636477e-7,
+        9.400000067216752e-7,
+        -0.8636001
+      ],
+      "normalizationRecoveryMaxErrorMm": 0,
+      "expectedCurrentBoardBboxXYmm": {
+        "min": [
+          74.39499999999998,
+          146.139
+        ],
+        "max": [
+          83.285,
+          151.981
+        ]
+      },
+      "validationStatus": "FILE_PREPARATION_ONLY_NATIVE_IMPORT_AND_PILOT_REQUIRED",
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": [
+        "Optional: root already has a calibrated exact-name system J1 model.",
+        "Visual pin1 mark not independently verified; SMT contact seating datum is geometry-verified."
+      ],
+      "sourceProvenance": {
+        "sourceReference": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\보드 자료\\MCU_BOARD.step",
+        "originalStepSha256": "db0b1ddb40318053e4bee5212ebc6c44201b839d464ca432b66323c3b91891f9",
+        "extraction": "OCCT selected-child serialization; original historical source preserved."
+      }
+    }
+  ]
+}

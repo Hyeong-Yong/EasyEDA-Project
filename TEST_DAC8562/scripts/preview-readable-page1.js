@@ -1,0 +1,1 @@
+const tab=await eda.dmt_EditorControl.openDocument('e58bcc16379b10f4');const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();if(d?.uuid!=='e58bcc16379b10f4'||d.documentType!==1)throw new Error('Wrong page');return {zoomed:await eda.dmt_EditorControl.zoomToRegion(0,1650,1510,0,tab),saved:await eda.sch_Document.save()};

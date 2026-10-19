@@ -1,0 +1,150 @@
+{
+  "schema": "adc10-labtool-bottom70-ground-stitch-candidate-readonly-v1",
+  "screenPassed": true,
+  "targetLobeKey": "LOCAL_STATIC_LOBE_a1d7888349e74585_1",
+  "targetLobeAreaMm2": 70.30000384023006,
+  "targetLobeBoundsMm": [
+    28.751499519999996,
+    73.210201,
+    38.29588734,
+    87.54949977999999
+  ],
+  "fillPlanSha256": "17558601e2024fe89cc6a1a91005bd66fcc52e8fdb3ae25b5df8cc45a635becd",
+  "placementSha256": "7070ccc735fa7ae1181ea3c1a0c27ee1145f99b938d7bdad831ceefbcad01022",
+  "reservedPortPlanSha256": "e68854f4f1bb1856f7dd365a02eedd029019a829b566ce4b7dbccb298979e927",
+  "modules": [
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-local-ground-phase332-v2.json",
+      "sha256": "cdd3fa342f17753e0b41b3709da76d2a8f538a48fec9cc0f3c436cf987c601c1"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\commonpower-top-local-v5-short-fly-review.json",
+      "sha256": "4367046bff69088c9b404724fa07a4acc4ba7aa315abd1386546dcf5a85ddcf7"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\independent-raw5-bilayer-route-v2-shortvia.json",
+      "sha256": "23c724afbc6b521297267af628533c4d3122f49589bfd17b844cfce9283c9be4"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\independent-optional-pump-three-ground-vias-v3.json",
+      "sha256": "cd16b7dc9f49f1e32df989b67438b10f0132e1590496a685e28dc72354638264"
+    }
+  ],
+  "originalDrills": 799,
+  "reservedNewVias": 51,
+  "sitesTested": 2392,
+  "candidates": [
+    {
+      "key": "BOTTOM_GND_LOBE_STITCH_CANDIDATE_1",
+      "net": "GND",
+      "xyMm": [
+        31.3,
+        79.1
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginal799DrillEdgeGapMm": 4.39355767449382,
+      "minimumReservedNewDrillEdgeGapMm": 4.291105380967083,
+      "nonGroundSourceAndModuleCopperGapMm": 0.3749995200000029,
+      "minimumAnyPadGapMm": 0.4250000045999976,
+      "insideRetainedBottomLobeWithReserveMm": 0.05,
+      "inner15Or18GroundPlaneContacts": [
+        "f9e70adc3ac35fbd",
+        "ef12098577a13cc7"
+      ],
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "valid": true
+        }
+      ],
+      "groundStubNeeded": false
+    },
+    {
+      "key": "BOTTOM_GND_LOBE_STITCH_CANDIDATE_2",
+      "net": "GND",
+      "xyMm": [
+        31.4,
+        79.1
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginal799DrillEdgeGapMm": 4.404994512643246,
+      "minimumReservedNewDrillEdgeGapMm": 4.312206367402836,
+      "nonGroundSourceAndModuleCopperGapMm": 0.3749995200000029,
+      "minimumAnyPadGapMm": 0.5250000045999955,
+      "insideRetainedBottomLobeWithReserveMm": 0.05,
+      "inner15Or18GroundPlaneContacts": [
+        "f9e70adc3ac35fbd",
+        "ef12098577a13cc7"
+      ],
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "valid": true
+        }
+      ],
+      "groundStubNeeded": false
+    },
+    {
+      "key": "BOTTOM_GND_LOBE_STITCH_CANDIDATE_3",
+      "net": "GND",
+      "xyMm": [
+        31.5,
+        79.1
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginal799DrillEdgeGapMm": 4.418521736820902,
+      "minimumReservedNewDrillEdgeGapMm": 4.3354162101487,
+      "nonGroundSourceAndModuleCopperGapMm": 0.3749995200000029,
+      "minimumAnyPadGapMm": 0.6250000045999968,
+      "insideRetainedBottomLobeWithReserveMm": 0.05,
+      "inner15Or18GroundPlaneContacts": [
+        "f9e70adc3ac35fbd",
+        "ef12098577a13cc7"
+      ],
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "valid": true
+        }
+      ],
+      "groundStubNeeded": false
+    }
+  ],
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "scope": "Candidate only, no approval to create. V4 fixed-source model plus row332/common34/raw9/pump3 and reserved46 geometry. R202/C158 V5 pose and final shared routes must be rechecked.",
+  "manufacturingApproved": false
+}

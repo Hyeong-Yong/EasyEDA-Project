@@ -1,0 +1,506 @@
+{
+  "schema": "stm32-switch-xfmr-native-mesh-calibration-v1",
+  "native_calls": 0,
+  "source_export": "STM32H747_std27_j12_switch_xfmr_407_STM32H747_std27_j12_switch_xfmr_407",
+  "source_export_sha256": "c5334b6c5cc130dd8c67b51baa8b7c4f5561e463d839250b93697c0d98ce70d2",
+  "evidence": [
+    {
+      "ref": "TR1",
+      "source_default_full_mesh_xyz_mm": [
+        10.350020320040642,
+        7.770153299182255,
+        3.28800169626408
+      ],
+      "source_auto_center_component_local_mm": [
+        0.0001490752959227848,
+        7.505014986719516e-05,
+        1.64400084813204
+      ],
+      "terminal_piece_count": 16,
+      "terminal_material": "mtl25",
+      "known_pitch_mm": 1.27,
+      "measured_default_pitch_mm": 1.0387468089589005,
+      "default_row_levels_mm": [
+        -3.6358885407962376,
+        -2.5971418444295935,
+        -1.558395001809096,
+        -0.5196481591885842,
+        0.5190986346806241,
+        1.5578454773011359,
+        2.5965923199216334,
+        3.6353390162882775
+      ],
+      "max_row_fit_residual_mm": 5.977836226023214e-08,
+      "auto_fit_scale": 0.8179108731959847,
+      "intrinsic_full_mesh_xyz_mm": [
+        12.65421534206773,
+        9.500000004670925,
+        4.0199999829030535
+      ],
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0,
+        -0.0003359317781244433,
+        0
+      ],
+      "native_terminal_midpoint_from_fullbbox_mm": [
+        -0.0003359317781244433,
+        0.0
+      ],
+      "offset_basis": "Align measured mean of physical terminal centers to the source physical-pad centroid(0,0); remove tiny fullbbox asymmetry from lettering/mesh.",
+      "mounting_plane": "Full mesh minZ=0 is the SMD contact plane.",
+      "orientation_and_equivalence_basis": "Sixteen lead pieces, eight in each native Y row, known1.27mm pitch along X. Top circular pin1 marking is native(-X,-Y); rot270 maps it to source left row+Y. H1102N is a package-equivalent visual surrogate, not exact KMS-1102NL.",
+      "source_feature_evidence": "api-research/standard407-isolated-geometry.json",
+      "projected_terminal_bbox_pad_checks": [
+        {
+          "source_pad_num": "9",
+          "projected_metal_piece_bbox_mm": [
+            3.4868979471184747,
+            -4.699999811576012,
+            4.750000002335462,
+            -4.190000059280593
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            -4.744999399999999,
+            5.174999809999999,
+            -4.1450005999999995
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354617,
+            0.5099997522954185
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "10",
+          "projected_metal_piece_bbox_mm": [
+            3.486897947118475,
+            -3.430000068443651,
+            4.750000002335462,
+            -2.920000077729642
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            -3.4749993999999997,
+            5.174999809999999,
+            -2.8750006
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354617,
+            0.5099999907140087
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "11",
+          "projected_metal_piece_bbox_mm": [
+            3.486897947118475,
+            -2.1600000868927176,
+            4.7500000023354625,
+            -1.6499999769694138
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            -2.2049994,
+            5.174999809999999,
+            -1.6050006
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.5100001099233038
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "12",
+          "projected_metal_piece_bbox_mm": [
+            3.4868979471184756,
+            -0.8899999861324718,
+            4.7500000023354625,
+            -0.37999999541846313
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            -0.9349993999999999,
+            5.174999809999999,
+            -0.33500060000000004
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.5099999907140087
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "13",
+          "projected_metal_piece_bbox_mm": [
+            3.4868979471184756,
+            0.3799999954184615,
+            4.7500000023354625,
+            0.8899999861324703
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            0.33500060000000004,
+            5.174999809999999,
+            0.9349993999999999
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.5099999907140088
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "14",
+          "projected_metal_piece_bbox_mm": [
+            3.486897947118476,
+            1.6499999769694123,
+            4.7500000023354625,
+            2.160000086892716
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            1.6050006,
+            5.174999809999999,
+            2.2049994
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.5100001099233036
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "15",
+          "projected_metal_piece_bbox_mm": [
+            3.486897947118476,
+            2.9200000777296404,
+            4.750000002335463,
+            3.430000068443649
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            2.8750006,
+            5.174999809999999,
+            3.4749993999999997
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354635,
+            0.5099999907140087
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "16",
+          "projected_metal_piece_bbox_mm": [
+            3.4868979471184764,
+            4.1900000592805915,
+            4.750000002335463,
+            4.69999981157601
+          ],
+          "source_pad_bbox_mm": [
+            3.79999875,
+            4.1450005999999995,
+            5.174999809999999,
+            4.744999399999999
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354635,
+            0.5099997522954185
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "8",
+          "projected_metal_piece_bbox_mm": [
+            -4.750000002335463,
+            -4.69999981157601,
+            -3.4868979471184764,
+            -4.1900000592805915
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            -4.744999399999999,
+            -3.79999875,
+            -4.1450005999999995
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354635,
+            0.5099997522954185
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "7",
+          "projected_metal_piece_bbox_mm": [
+            -4.750000002335463,
+            -3.4300000684436496,
+            -3.486897947118476,
+            -2.920000077729641
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            -3.4749993999999997,
+            -3.79999875,
+            -2.8750006
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354635,
+            0.5099999907140087
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "6",
+          "projected_metal_piece_bbox_mm": [
+            -4.7500000023354625,
+            -2.1600000868927163,
+            -3.486897947118476,
+            -1.6499999769694123
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            -2.2049994,
+            -3.79999875,
+            -1.6050006
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.510000109923304
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "5",
+          "projected_metal_piece_bbox_mm": [
+            -4.7500000023354625,
+            -0.8899999861324702,
+            -3.4868979471184756,
+            -0.3799999954184616
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            -0.9349993999999999,
+            -3.79999875,
+            -0.33500060000000004
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.5099999907140087
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "4",
+          "projected_metal_piece_bbox_mm": [
+            -4.7500000023354625,
+            0.3799999954184631,
+            -3.4868979471184756,
+            0.8899999861324719
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            0.33500060000000004,
+            -3.79999875,
+            0.9349993999999999
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.5099999907140088
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "3",
+          "projected_metal_piece_bbox_mm": [
+            -4.7500000023354625,
+            1.6499999769694138,
+            -3.486897947118475,
+            2.160000086892717
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            1.6050006,
+            -3.79999875,
+            2.2049994
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354626,
+            0.5100001099233034
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "2",
+          "projected_metal_piece_bbox_mm": [
+            -4.750000002335462,
+            2.9200000777296418,
+            -3.486897947118475,
+            3.4300000684436505
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            2.8750006,
+            -3.79999875,
+            3.4749993999999997
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354617,
+            0.5099999907140087
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "1",
+          "projected_metal_piece_bbox_mm": [
+            -4.750000002335462,
+            4.190000059280593,
+            -3.4868979471184747,
+            4.699999811576012
+          ],
+          "source_pad_bbox_mm": [
+            -5.174999809999999,
+            4.1450005999999995,
+            -3.79999875,
+            4.744999399999999
+          ],
+          "bbox_overlap_xy_mm": [
+            0.9500012523354617,
+            0.5099997522954185
+          ],
+          "positive_projected_overlap": true
+        }
+      ],
+      "projected_pad_check_limit": "Projected entire metal-piece bounding boxes only; this does not establish full solder-contact-area overlap or manufacturing clearance.",
+      "manual_QA": "Exact MPN enclosure, markings, height and manufacturer mechanical fit are unverified; only package-equivalent visual preview is intended."
+    },
+    {
+      "ref": "SW1",
+      "source_default_full_mesh_xyz_mm": [
+        9.960367353001601,
+        6.958013919227824,
+        8.767439246590447
+      ],
+      "source_auto_center_component_local_mm": [
+        0.00015750031496963857,
+        0.0002781605588211278,
+        4.383719623295224
+      ],
+      "terminal_piece_count": 4,
+      "terminal_material": "mtl16",
+      "known_pitch_mm": 4.5,
+      "measured_default_pitch_mm": 5.211819757324122,
+      "default_row_levels_mm": [
+        -2.613031326919412,
+        2.59878843040471
+      ],
+      "max_row_fit_residual_mm": 0.0,
+      "auto_fit_scale": 1.1581821682942492,
+      "intrinsic_full_mesh_xyz_mm": [
+        8.600000609291937,
+        6.007702509766203,
+        7.570000200834538
+      ],
+      "final_relative_rotZ_deg": 0,
+      "final_relative_offset_mm": [
+        0,
+        0.0061488153179212685,
+        0
+      ],
+      "native_terminal_midpoint_from_fullbbox_mm": [
+        0.0,
+        -0.0061488153179212685
+      ],
+      "offset_basis": "Align measured mean of physical terminal centers to the source physical-pad centroid(0,0); remove tiny fullbbox asymmetry from lettering/mesh.",
+      "mounting_plane": "Full mesh minZ=0 is the SMD contact plane.",
+      "orientation_and_equivalence_basis": "Four physical metal leads, native left/right X ends and Y-pair span4.5mm, matching source pad-row orientation and Y spacing. Source pad centers are X+/-4.25,Y+/-2.25; metal-piece centers need not coincide with enlarged copper-pad centers. Symmetric nonpolar switch body; internal contact common-pair semantics not encoded by the mesh. Different TS014 switch family is a visual surrogate, not exact GT-TC089B-H075-L1.",
+      "source_feature_evidence": "api-research/standard407-isolated-geometry.json",
+      "projected_terminal_bbox_pad_checks": [
+        {
+          "source_pad_num": "2",
+          "projected_metal_piece_bbox_mm": [
+            -4.300000304645969,
+            1.9000000264909598,
+            -3.000000079472862,
+            2.5999999735090404
+          ],
+          "source_pad_bbox_mm": [
+            -5.04999879,
+            1.75000031,
+            -3.44999945,
+            2.75000085
+          ],
+          "bbox_overlap_xy_mm": [
+            0.8500008546459688,
+            0.6999999470180807
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "1",
+          "projected_metal_piece_bbox_mm": [
+            -4.300000304645969,
+            -2.5999999735090404,
+            -3.000000079472862,
+            -1.90000002649096
+          ],
+          "source_pad_bbox_mm": [
+            -5.04999879,
+            -2.75000085,
+            -3.44999945,
+            -1.75000031
+          ],
+          "bbox_overlap_xy_mm": [
+            0.8500008546459688,
+            0.6999999470180804
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "1",
+          "projected_metal_piece_bbox_mm": [
+            3.000000079472862,
+            -2.5999999735090404,
+            4.300000304645969,
+            -1.90000002649096
+          ],
+          "source_pad_bbox_mm": [
+            3.44999945,
+            -2.75000085,
+            5.04999879,
+            -1.75000031
+          ],
+          "bbox_overlap_xy_mm": [
+            0.8500008546459688,
+            0.6999999470180804
+          ],
+          "positive_projected_overlap": true
+        },
+        {
+          "source_pad_num": "2",
+          "projected_metal_piece_bbox_mm": [
+            3.000000079472862,
+            1.9000000264909598,
+            4.300000304645969,
+            2.5999999735090404
+          ],
+          "source_pad_bbox_mm": [
+            3.44999945,
+            1.75000031,
+            5.04999879,
+            2.75000085
+          ],
+          "bbox_overlap_xy_mm": [
+            0.8500008546459688,
+            0.6999999470180807
+          ],
+          "positive_projected_overlap": true
+        }
+      ],
+      "projected_pad_check_limit": "Projected entire metal-piece bounding boxes only; this does not establish full solder-contact-area overlap or manufacturing clearance.",
+      "manual_QA": "Exact MPN enclosure, markings, height and manufacturer mechanical fit are unverified; only package-equivalent visual preview is intended."
+    }
+  ]
+}

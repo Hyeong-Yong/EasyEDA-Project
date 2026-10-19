@@ -1,5 +1,7 @@
 # EasyEDA 실행 코드 위치
 
+2026-10-18 LabTool 원리 ADC 변경의 최신 실제 상태는 `../../config/labtool-adc-status.md`가 우선합니다. 437부품/1,342핀 회로도 및 PCB 변경·배선·저장과 전체 ERC/엄격 DRC 0건을 완료했습니다. 실제 누적 배선 감사·특정 native 교차점 직렬화 검증·최종 GND 보강/저장 본문 대조·전체 복구본/드릴/기구 대조가 완료 증거이며 `../../output/candidates/adc10-labtool-20261018/final-labtool-verification-index.json`에서 확인합니다. 이 디렉터리의 모든 import/apply/ground_seam 실행은 이미 끝난 이력이므로 재실행하지 마십시오. 라이브러리 17개 문서도 재수입하면 안 됩니다. 과거 354부품 DRC 0이나 offline `passed`만으로 새 PCB 완료를 판단하지 않습니다. 국소 구리 여유 공간의 권위 있는 계획기는 `../../output/candidates/adc10-labtool-20261018/ground/plan-local-static-fill-clearance.py`의 보존형 split 방식입니다. `all6-local-fill-voids-local332-channelpads-v2.json`의 flat-hole 계획은 실제 접지 섬을 잃는 오류로 적용 금지입니다. 제조 승인은 별도입니다.
+
 EasyEDA에 전달할 JavaScript 본문은 이 디렉터리에만 둡니다. 직접 HTTP 요청을 보내지 말고 상위의 안전 클라이언트를 사용합니다.
 
 ```powershell

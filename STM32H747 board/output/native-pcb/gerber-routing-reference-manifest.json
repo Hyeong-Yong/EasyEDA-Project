@@ -1,0 +1,622 @@
+{
+  "schema": "stm32h747-native-pcb-routing-reference-v1",
+  "status": "editable_reference_draft_not_manufacturing_ready",
+  "document_uuid": "5071d923069698ff",
+  "editor_format": "3.2.206",
+  "coordinate_transform": {
+    "gerber_source": {
+      "coordinate_system": "KiCad Gerber absolute millimetres; Y is negative in this export",
+      "board_bounds_source_mm": [
+        147.46,
+        -218.96,
+        247.46,
+        -64.96
+      ]
+    },
+    "native": "x=(sourceX-boardMinX)*39.37007874; y=(sourceY-boardMinY)*39.37007874",
+    "native_axis_direction": "x-right, y-up",
+    "runtime_evidence": "output/validation/native-pcb-coordinate-probe.epru: API pads at y=100/200 round-trip to raw centerY=100/200, and y=200 renders above y=100",
+    "input_preview_transform_ignored": "The semantic input's toBoardLocalMm.yDown preview is not an EasyEDA PCB disk/API transform and must not be applied here.",
+    "corner_check_mil": {
+      "source_min_xy_to_native": [
+        0,
+        0
+      ],
+      "source_max_xy_to_native": [
+        3937.007874,
+        6062.992126
+      ]
+    },
+    "native_internal_units": "mil",
+    "board_local_size_mm": [
+      100.0,
+      154.0
+    ]
+  },
+  "stackup": {
+    "source": "archived 260616 Gerber job MaterialStackup",
+    "layers_top_to_bottom": [
+      {
+        "id": 5,
+        "type": "SolderMask",
+        "name": "Top Solder Mask",
+        "thickness_mm": 0.02
+      },
+      {
+        "id": 1,
+        "type": "Copper",
+        "name": "F.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "id": 101,
+        "type": "Dielectric",
+        "name": "F.Cu/In1.Cu",
+        "material": "FR4",
+        "thickness_mm": 0.1
+      },
+      {
+        "id": 15,
+        "type": "Copper",
+        "name": "In1.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "id": 102,
+        "type": "Dielectric",
+        "name": "In1.Cu/In2.Cu",
+        "material": "FR4",
+        "thickness_mm": 0.515
+      },
+      {
+        "id": 16,
+        "type": "Copper",
+        "name": "In2.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "id": 103,
+        "type": "Dielectric",
+        "name": "In2.Cu/In3.Cu",
+        "material": "FR4",
+        "thickness_mm": 0.1
+      },
+      {
+        "id": 17,
+        "type": "Copper",
+        "name": "In3.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "id": 104,
+        "type": "Dielectric",
+        "name": "In3.Cu/In4.Cu",
+        "material": "FR4",
+        "thickness_mm": 0.515
+      },
+      {
+        "id": 18,
+        "type": "Copper",
+        "name": "In4.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "id": 105,
+        "type": "Dielectric",
+        "name": "In4.Cu/B.Cu",
+        "material": "FR4",
+        "thickness_mm": 0.1
+      },
+      {
+        "id": 2,
+        "type": "Copper",
+        "name": "B.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "id": 6,
+        "type": "SolderMask",
+        "name": "Bottom Solder Mask",
+        "thickness_mm": 0.02
+      }
+    ],
+    "copper_layer_count": 6,
+    "permittivity_and_loss_tangent": "unspecified in Gerber Job; native values are null (unknown), not physical zero",
+    "impedance_validation": "not performed; dielectric constant and loss tangent are unavailable",
+    "thickness_audit": {
+      "declared_board_thickness_mm": 1.58,
+      "copper_and_dielectric_sum_mm": 1.54,
+      "solder_mask_sum_mm": 0.04,
+      "material_stack_total_including_mask_mm": 1.58,
+      "native_layer_phys_sum_mm": 1.58,
+      "interpretation": "Gerber job explicitly declares Top/Bottom Solder Mask as 0.02 mm each; native LAYER_PHYS emits both masks plus six copper and five dielectric layers, totaling the declared 1.58 mm."
+    }
+  },
+  "gerber_polarity_and_fill_audit": {
+    "raw_files": {
+      "status": "additive_only_no_clear_apertures_verified",
+      "negative_lpc_directives": 0,
+      "negative_file_polarity_attributes": 0,
+      "legacy_negative_image_polarity_directives": 0,
+      "aperture_macro_clear_primitives": 0,
+      "aperture_macro_composite_clear_capable_primitives": 0,
+      "standard_aperture_hole_modifiers": 0,
+      "files": [
+        {
+          "layer": "F.Cu",
+          "file": "MCU_BOARD_v19_260616-F_Cu.gbr",
+          "sha256": "963ee5a7aabaffe9f90f1960a078cb0f40f01191e5955dcd960e4150c0f35187",
+          "lpd_directives": 1,
+          "lpc_directives": 0,
+          "file_polarity_positive_attributes": 1,
+          "file_polarity_negative_attributes": 0,
+          "legacy_negative_image_polarity_directives": 0,
+          "aperture_macro_definitions": 5,
+          "aperture_macro_dark_primitives": 13,
+          "aperture_macro_clear_primitives": 0,
+          "aperture_macro_composite_clear_capable_primitives": 0,
+          "standard_aperture_hole_modifiers": 0,
+          "region_begin_directives": 62,
+          "region_end_directives": 62
+        },
+        {
+          "layer": "In1.Cu",
+          "file": "MCU_BOARD_v19_260616-In1_Cu.gbr",
+          "sha256": "4ca6c2f95f0776df1ac9f373853e8bcc240a56999047cb1137699f6442ae4065",
+          "lpd_directives": 1,
+          "lpc_directives": 0,
+          "file_polarity_positive_attributes": 1,
+          "file_polarity_negative_attributes": 0,
+          "legacy_negative_image_polarity_directives": 0,
+          "aperture_macro_definitions": 0,
+          "aperture_macro_dark_primitives": 0,
+          "aperture_macro_clear_primitives": 0,
+          "aperture_macro_composite_clear_capable_primitives": 0,
+          "standard_aperture_hole_modifiers": 0,
+          "region_begin_directives": 4,
+          "region_end_directives": 4
+        },
+        {
+          "layer": "In2.Cu",
+          "file": "MCU_BOARD_v19_260616-In2_Cu.gbr",
+          "sha256": "e7c39431aaf87f908b78becb63efd2f37c9673f19d05a267637a8430f3cc8e8d",
+          "lpd_directives": 1,
+          "lpc_directives": 0,
+          "file_polarity_positive_attributes": 1,
+          "file_polarity_negative_attributes": 0,
+          "legacy_negative_image_polarity_directives": 0,
+          "aperture_macro_definitions": 0,
+          "aperture_macro_dark_primitives": 0,
+          "aperture_macro_clear_primitives": 0,
+          "aperture_macro_composite_clear_capable_primitives": 0,
+          "standard_aperture_hole_modifiers": 0,
+          "region_begin_directives": 6,
+          "region_end_directives": 6
+        },
+        {
+          "layer": "In3.Cu",
+          "file": "MCU_BOARD_v19_260616-In3_Cu.gbr",
+          "sha256": "d9d7f57b65c3a7ed257687df680919baf8328fa1b8ca49b6934f170a2ffb5715",
+          "lpd_directives": 1,
+          "lpc_directives": 0,
+          "file_polarity_positive_attributes": 1,
+          "file_polarity_negative_attributes": 0,
+          "legacy_negative_image_polarity_directives": 0,
+          "aperture_macro_definitions": 1,
+          "aperture_macro_dark_primitives": 9,
+          "aperture_macro_clear_primitives": 0,
+          "aperture_macro_composite_clear_capable_primitives": 0,
+          "standard_aperture_hole_modifiers": 0,
+          "region_begin_directives": 33,
+          "region_end_directives": 33
+        },
+        {
+          "layer": "In4.Cu",
+          "file": "MCU_BOARD_v19_260616-In4_Cu.gbr",
+          "sha256": "10c2f994583237ef8d0b61a8fdaa574bdef28a0e5ffd26d30a91237147afa085",
+          "lpd_directives": 1,
+          "lpc_directives": 0,
+          "file_polarity_positive_attributes": 1,
+          "file_polarity_negative_attributes": 0,
+          "legacy_negative_image_polarity_directives": 0,
+          "aperture_macro_definitions": 0,
+          "aperture_macro_dark_primitives": 0,
+          "aperture_macro_clear_primitives": 0,
+          "aperture_macro_composite_clear_capable_primitives": 0,
+          "standard_aperture_hole_modifiers": 0,
+          "region_begin_directives": 4,
+          "region_end_directives": 4
+        },
+        {
+          "layer": "B.Cu",
+          "file": "MCU_BOARD_v19_260616-B_Cu.gbr",
+          "sha256": "3db1e2fc2e90fd3ddf48b99a767b30b42cdea5f6d11b00bba574ed1553e51901",
+          "lpd_directives": 1,
+          "lpc_directives": 0,
+          "file_polarity_positive_attributes": 1,
+          "file_polarity_negative_attributes": 0,
+          "legacy_negative_image_polarity_directives": 0,
+          "aperture_macro_definitions": 1,
+          "aperture_macro_dark_primitives": 9,
+          "aperture_macro_clear_primitives": 0,
+          "aperture_macro_composite_clear_capable_primitives": 0,
+          "standard_aperture_hole_modifiers": 0,
+          "region_begin_directives": 44,
+          "region_end_directives": 44
+        }
+      ]
+    },
+    "object_polarities": {
+      "conductor_flash.dark": 462,
+      "region.dark": 153,
+      "track.dark": 7702
+    },
+    "multi_contour_regions": 0,
+    "native_fill_subpath_semantics": "parallel independent outlines; input contains no explicit hole contours",
+    "expected_fill_count": 615,
+    "expected_fill_path_sha256": "428889553e004c15f36288af02e3f38974b095eb38ce1f1263cc9f716e67a7f5",
+    "max_region_area_relative_error_after_transform": 2.1375771334244694e-07
+  },
+  "format_compatibility": {
+    "group_id": {
+      "emitted_for_ungrouped_primitives": 0,
+      "runtime_type": "integer",
+      "installed_schema_declared_type": "string",
+      "scope": "PCB/FOOTPRINT TPcbBase.groupId only",
+      "basis": "The installed EasyEDA 3.2 TPcbBase $comment explicitly states that the writer emits numeric 0 for ungrouped primitives and that its string schema is intentionally narrower than observed runtime data.",
+      "validator_policy": "Accept exact integer zero only at top-level $body.groupId in PCB or FOOTPRINT records; no other type or enum exception is accepted."
+    },
+    "layer_phys_thickness": {
+      "emitted_unit": "mil",
+      "installed_schema_comment_claim": "disk value = internal mm * 10 (0.1 mm unit)",
+      "runtime_probe_observation": "EasyEDA 3.2 getter emitted mask=0.394, copper=1.379, dielectric=59.449, copper=1.378, mask=0.394; their sum is 62.994 mil (about 1.600 mm), proving the live disk unit is mil.",
+      "evidence": "output/validation/native-pcb-coordinate-probe.epru",
+      "policy": "Runtime getter evidence overrides the contradictory installed-schema unit comment; numeric schema type remains satisfied."
+    }
+  },
+  "net_patch": {
+    "source": "latestPatches.page6BiasChannels in gerber-copper-routes.json",
+    "old_to_latest": {
+      "Net-(C77-Pad1)": "Net-(R137-Pad2)",
+      "Net-(C77-Pad2)": "Net-(R137-Pad2)",
+      "Net-(C78-Pad1)": "Net-(R138-Pad2)",
+      "Net-(C78-Pad2)": "Net-(R138-Pad2)",
+      "Net-(C79-Pad1)": "Net-(R139-Pad2)",
+      "Net-(C79-Pad2)": "Net-(R139-Pad2)",
+      "Net-(C83-Pad1)": "Net-(R149-Pad2)",
+      "Net-(C83-Pad2)": "Net-(R149-Pad2)",
+      "Net-(C84-Pad1)": "Net-(R150-Pad2)",
+      "Net-(C84-Pad2)": "Net-(R150-Pad2)",
+      "Net-(C85-Pad1)": "Net-(R151-Pad2)",
+      "Net-(C85-Pad2)": "Net-(R151-Pad2)",
+      "Net-(C89-Pad1)": "Net-(R161-Pad2)",
+      "Net-(C89-Pad2)": "Net-(R161-Pad2)",
+      "Net-(C90-Pad1)": "Net-(R162-Pad2)",
+      "Net-(C90-Pad2)": "Net-(R162-Pad2)",
+      "Net-(C91-Pad1)": "Net-(R163-Pad2)",
+      "Net-(C91-Pad2)": "Net-(R163-Pad2)",
+      "Net-(C92-Pad1)": "Net-(R164-Pad2)",
+      "Net-(C92-Pad2)": "Net-(R164-Pad2)"
+    },
+    "renamed_object_counts": {
+      "added_bridge": 10,
+      "renamed_region.F.Cu": 10,
+      "renamed_to.Net-(R137-Pad2)": 2,
+      "renamed_to.Net-(R138-Pad2)": 2,
+      "renamed_to.Net-(R139-Pad2)": 2,
+      "renamed_to.Net-(R149-Pad2)": 2,
+      "renamed_to.Net-(R150-Pad2)": 2,
+      "renamed_to.Net-(R151-Pad2)": 2,
+      "renamed_to.Net-(R161-Pad2)": 2,
+      "renamed_to.Net-(R162-Pad2)": 2,
+      "renamed_to.Net-(R163-Pad2)": 2,
+      "renamed_to.Net-(R164-Pad2)": 2,
+      "renamed_track.F.Cu": 10
+    },
+    "bridges": [
+      {
+        "primitive_id": "3396a575612c90fb",
+        "removed_component": "C77",
+        "net": "Net-(R137-Pad2)",
+        "start_mm": [
+          159.3875,
+          -78.96
+        ],
+        "end_mm": [
+          161.1125,
+          -78.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "144f87088e924b1b",
+        "removed_component": "C78",
+        "net": "Net-(R138-Pad2)",
+        "start_mm": [
+          159.3875,
+          -92.96
+        ],
+        "end_mm": [
+          161.1125,
+          -92.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "82ea56962d65a4c4",
+        "removed_component": "C79",
+        "net": "Net-(R139-Pad2)",
+        "start_mm": [
+          159.3875,
+          -106.96
+        ],
+        "end_mm": [
+          161.1125,
+          -106.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "e71b2865d111736f",
+        "removed_component": "C83",
+        "net": "Net-(R149-Pad2)",
+        "start_mm": [
+          159.3875,
+          -120.96
+        ],
+        "end_mm": [
+          161.1125,
+          -120.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "9d0d8fb696158432",
+        "removed_component": "C84",
+        "net": "Net-(R150-Pad2)",
+        "start_mm": [
+          159.3875,
+          -134.96
+        ],
+        "end_mm": [
+          161.1125,
+          -134.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "f0b73498ef65edc3",
+        "removed_component": "C85",
+        "net": "Net-(R151-Pad2)",
+        "start_mm": [
+          159.3875,
+          -148.96
+        ],
+        "end_mm": [
+          161.1125,
+          -148.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "f04fc5e62f68a7e4",
+        "removed_component": "C89",
+        "net": "Net-(R161-Pad2)",
+        "start_mm": [
+          159.387499,
+          -162.96
+        ],
+        "end_mm": [
+          161.112501,
+          -162.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "b118a0849efe1c18",
+        "removed_component": "C90",
+        "net": "Net-(R162-Pad2)",
+        "start_mm": [
+          159.3875,
+          -176.96
+        ],
+        "end_mm": [
+          161.1125,
+          -176.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "9fd4b6b48bd43b13",
+        "removed_component": "C91",
+        "net": "Net-(R163-Pad2)",
+        "start_mm": [
+          159.3875,
+          -190.96
+        ],
+        "end_mm": [
+          161.1125,
+          -190.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      },
+      {
+        "primitive_id": "417c4f71bbd1e36f",
+        "removed_component": "C92",
+        "net": "Net-(R164-Pad2)",
+        "start_mm": [
+          159.3875,
+          -204.96
+        ],
+        "end_mm": [
+          161.1125,
+          -204.96
+        ],
+        "width_mm": 0.25,
+        "status": "explicit_advisory_patch_requires_final_drc"
+      }
+    ]
+  },
+  "counts": {
+    "flash.FILL.In1.Cu": 130,
+    "flash.FILL.In2.Cu": 66,
+    "flash.FILL.In3.Cu": 136,
+    "flash.FILL.In4.Cu": 130,
+    "outline.LINE": 8,
+    "patch_bridge.LINE.F.Cu": 10,
+    "region.FILL.B.Cu": 44,
+    "region.FILL.F.Cu": 62,
+    "region.FILL.In1.Cu": 4,
+    "region.FILL.In2.Cu": 6,
+    "region.FILL.In3.Cu": 33,
+    "region.FILL.In4.Cu": 4,
+    "track.ARC.B.Cu": 604,
+    "track.ARC.F.Cu": 1068,
+    "track.ARC.In2.Cu": 52,
+    "track.ARC.In3.Cu": 460,
+    "track.LINE.B.Cu": 1515,
+    "track.LINE.F.Cu": 2827,
+    "track.LINE.In2.Cu": 128,
+    "track.LINE.In3.Cu": 1047,
+    "via.VIA": 634
+  },
+  "skipped_source_objects": [
+    {
+      "layer": "F.Cu",
+      "category": "track",
+      "index": 0,
+      "reason": "unattributed zero-length Gerber object"
+    }
+  ],
+  "outline_primitive_ids": [
+    "29512932fa0eb1ba",
+    "e5a59516f9230ee2",
+    "e9f2e83bc4f335cc",
+    "fe6c231027603ca0",
+    "f614cce4900c7115",
+    "6e8dd66b3e3db1b0",
+    "e94386c2e1a58187",
+    "5b55024cb3a23233"
+  ],
+  "validation": {
+    "route_net_set_equals_latest_reference_netlist": true,
+    "latest_unique_net_count": 279,
+    "via_count_matches_source": true,
+    "explicit_bridge_count": 10,
+    "outline_item_count": 8,
+    "physical_components_intentionally_absent": true,
+    "gerber_negative_lpc_directives": 0,
+    "gerber_negative_file_polarity_attributes": 0,
+    "gerber_legacy_negative_image_polarity_directives": 0,
+    "gerber_aperture_macro_clear_primitives": 0,
+    "gerber_aperture_macro_composite_clear_capable_primitives": 0,
+    "gerber_standard_aperture_hole_modifiers": 0,
+    "all_route_objects_additive_dark": true,
+    "multi_contour_regions": 0
+  },
+  "release_gates": {
+    "native_schema_validation": "pending",
+    "schematic_to_pcb_netlist_match": "not_run_route_only",
+    "pcb_drc": "not_run_route_only",
+    "manufacturing_output_authorized": false,
+    "builder_native_contracts": "pass"
+  },
+  "limitations": [
+    "The archived Gerber is revision 260616; only explicit 260827 net changes in latestPatches are applied.",
+    "The ten added F.Cu bridge lines are explicit reconstruction hints across removed capacitors, not released routing.",
+    "Conductor flashes on inner layers are reference copper and may overlap pads after schematic-to-PCB import; deduplicate before release.",
+    "No components or footprint pads are present in this route-only document.",
+    "Run schematic-native netlist comparison, placement review, ERC and full PCB DRC before manufacturing output."
+  ],
+  "native_record_counts": {
+    "DOCHEAD": 1,
+    "LAYER": 15,
+    "LAYER_PHYS": 13,
+    "META": 1,
+    "CANVAS": 1,
+    "ACTIVE_LAYER": 1,
+    "PREFERENCE": 1,
+    "NET": 279,
+    "LINE": 5535,
+    "ARC": 2184,
+    "FILL": 615,
+    "VIA": 634
+  },
+  "native_source_validation": {
+    "status": "complete",
+    "record_count": 9280,
+    "primitive_count": 8968,
+    "record_counts": {
+      "ACTIVE_LAYER": 1,
+      "ARC": 2184,
+      "CANVAS": 1,
+      "DOCHEAD": 1,
+      "FILL": 615,
+      "LAYER": 15,
+      "LAYER_PHYS": 13,
+      "LINE": 5535,
+      "META": 1,
+      "NET": 279,
+      "PREFERENCE": 1,
+      "VIA": 634
+    },
+    "unique_primitive_ids": 8968,
+    "current_16_hex_primitive_ids": 8968,
+    "native_coordinate_axis": "y-up",
+    "unique_routed_nets": 279,
+    "obsolete_patch_nets_remaining": 0,
+    "fill_count": 615,
+    "fill_path_sha256": "428889553e004c15f36288af02e3f38974b095eb38ce1f1263cc9f716e67a7f5",
+    "solid_fill_count": 615,
+    "circle_path_count": 400,
+    "clockwise_polygon_path_count": 215,
+    "gerber_subtractive_geometry_counts": {
+      "negative_lpc_directives": 0,
+      "negative_file_polarity_attributes": 0,
+      "legacy_negative_image_polarity_directives": 0,
+      "aperture_macro_clear_primitives": 0,
+      "aperture_macro_composite_clear_capable_primitives": 0,
+      "standard_aperture_hole_modifiers": 0
+    },
+    "native_layer_phys_sum_mil": 62.205,
+    "native_layer_phys_sum_mm": 1.580007,
+    "native_layer_phys_decode_tolerance_mm": 1.651e-05,
+    "documented_runtime_group_id_zero": true
+  },
+  "sources": {
+    "gerber_copper_routes": {
+      "path": "output\\semantic\\gerber-copper-routes.json",
+      "sha256": "feec14cf04ee7b790b89a2e4bdcb61e633d756f646e7ad37a262d740d4c5645b"
+    },
+    "gerber_component_footprints": {
+      "path": "output\\semantic\\gerber-component-footprints.json",
+      "sha256": "b9180f58df3e27e34ec36f435e641417ed5295f9821053d8702bd35b34bd1dbf"
+    },
+    "reference_netlist": {
+      "path": "output\\semantic\\reference-netlist.json",
+      "sha256": "285f593e2b90a93d17a3d47efbf84382f9f002aa699544340d778e9a389f7e78"
+    },
+    "gerber_job_stackup": {
+      "path": "보드 자료\\MCU_BOARD_v19_260616_Gerber\\MCU_BOARD_v19_260616-job.gbrjob",
+      "sha256": "30f6b85c10508668feda47cdf1cfbc8be9f4a3ce0c20b41ca3c99e46b68c83e0"
+    },
+    "gerber_copper_directory": {
+      "path": "보드 자료\\MCU_BOARD_v19_260616_Gerber",
+      "polarity_audit": "see gerber_polarity_and_fill_audit.raw_files"
+    }
+  },
+  "output": {
+    "path": "output\\native-pcb\\gerber-routing-reference.epru",
+    "sha256": "b5f4f9ba2db36c4dd9f598f7a12bc7da78c5873ad39cd9cfd5440877cc1c46f5",
+    "bytes": 6376543
+  }
+}

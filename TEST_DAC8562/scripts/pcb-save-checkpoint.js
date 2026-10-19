@@ -1,0 +1,1 @@
+const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();if(d?.uuid!=='4e08f91f9a2c4fe4'||d.documentType!==3)throw new Error('Wrong PCB');if((await eda.pcb_PrimitiveComponent.getAll()).length!==154)throw new Error('Unexpected PCB state');return {saved:await eda.pcb_Document.save(),stage:'Unrouted placement; not manufacturing-ready'};

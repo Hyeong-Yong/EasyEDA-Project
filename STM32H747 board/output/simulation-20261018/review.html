@@ -1,0 +1,29 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>STM32H747 대표 회로 시뮬레이션 검토</title>
+<style>body{font-family:Segoe UI,Malgun Gothic,sans-serif;background:#f3f6fa;color:#20314a;max-width:1050px;margin:40px auto;line-height:1.7;padding:0 24px}h1{line-height:1.3}h2{margin-top:34px}.notice{background:#fff2da;border-left:4px solid #ce8d27;padding:16px}.ok{background:#e7f3ed;padding:16px}figure{margin:24px 0;background:white;border-radius:10px;overflow:hidden}img{max-width:100%;display:block}figcaption{padding:10px 20px}table{border-collapse:collapse;background:white}td,th{padding:8px 16px;border:1px solid #dbe3ee;text-align:left}code{background:#e9edf3;padding:2px 5px}a{color:#145fa6}li{margin:8px 0}</style>
+<h1>STM32H747 대표 ADC 회로<br>시뮬레이션 검토 · 2026-10-18</h1>
+<p>실행 엔진: <b>ngspice 47</b> / TI 공식 PSpice 포맷 원본 모델. <b>Cadence PSpice 실행 결과가 아닙니다.</b><br>회로도·PCB·펌웨어와 TEST_DAC8562는 수정하지 않았습니다.</p>
+<div class="ok">대표 J2 채널의 <b>명목 DC·60 Hz 전달 특성은 설계 의도에 부합</b>합니다. 제조사 모델을 임의로 변경하지 않고, 초기 추정값 후 새로운 DC Newton 해를 구했습니다. 원본 ZIP/LIB 해시와 실행 로그를 보존했습니다. 단, 최저 전원에서의 정밀 출력 여유는 아래 별도 주의사항을 확인해야 합니다.</div>
+<h2>핵심 결과</h2><table><tr><th>항목</th><th>모델 결과</th><th>해석</th></tr>
+<tr><td>DC 변환</td><td>약 VADC = 1.64815 − 0.70000 × VSMA</td><td>이상적 명목식 1.6472868 − 0.7 × VSMA와 모델 오프셋 차이</td></tr>
+<tr><td>−3 dB 대역</td><td>3313.6 Hz</td><td>DC·60 Hz용 수 kHz 대역</td></tr>
+<tr><td>60 Hz</td><td>-0.001185 dB / 추가 위상 -1.343°</td><td>출력은 기본적으로 반전됨</td></tr>
+<tr><td>7.8 kHz 감쇠</td><td>-10.32 dB</td><td>15.6 kS/s의 Nyquist에서 강한 차단은 아님</td></tr>
+<tr><td>DC 점 검증</td><td>44/44 점</td><td>5 V±5%, 3.3 V±5%의 지정 조합 및 입력 범위; 공차/온도 전수 보증 아님</td></tr>
+<tr><td>±2 V 입력 결과 범위</td><td>0.248150…3.048152 V</td><td>검증 성공점만; 최소 출력 레일 여유 86.9 mV</td></tr>
+<tr><td>4 V 입력 계단 정착</td><td>450.2 µs</td><td>시뮬레이션 최종값의 0.5 LSB(3.3 V/16 bit) 기준, 이상적 고정 바이어스</td></tr></table>
+<h2>잡음 결과와 검증 한계</h2><table><tr><th>적분 상한 (하한 0.1 Hz)</th><th>ADC 핀 잡음</th></tr><tr><td>10</td><td>0.884 µVrms</td></tr><tr><td>3300</td><td>1.457 µVrms</td></tr><tr><td>7800</td><td>1.691 µVrms</td></tr><tr><td>100000000.0</td><td>5.384 µVrms</td></tr></table>
+<p>위 수치는 모델과 수동소자 열잡음의 <b>명목 아날로그 출력 잡음</b>입니다. 실제 전원 리플, MCU 내부 ADC·VREF+ 잡음, PCB 결합, 디지털 스위칭, 샘플링 후 alias는 포함하지 않습니다. 이를 실제 ADC의 유효 비트 수나 보드 잡음 보증으로 해석하면 안 됩니다.</p>
+<h2>추가 확인이 필요한 항목</h2><div class="notice"><ol>
+<li><b>최저 전원에서의 출력 여유:</b> 3.3 V−5%=3.135 V, 입력 −2 V에서 출력 상단 여유는 약 86.9 mV입니다. 모델에서는 포화가 없었지만 <a href="https://www.ti.com/lit/ds/symlink/opa320.pdf">OPA320 데이터시트 §6.7</a>의 보증 개방루프 이득 시험 범위는 RL=10 kΩ에서 레일과 0.1 V, RL=2 kΩ에서 0.2 V 이상 떨어진 영역입니다. 실제 피드백 전류도 약 0.742 mA입니다. 따라서 이 저전원 조건의 편차·온도 포함 정밀 선형성은 이번 명목 모델 결과로 보증할 수 없습니다. 실제 3.3 V 최저 전압·공차를 확인하고, −5%까지 요구한다면 이득 축소 등의 여유 확보를 검토하십시오. 회로는 변경하지 않았습니다.</li>
+<li><b>Anti-alias:</b> 7.8 kHz에서 약 −10.3 dB이므로 강한 외부 고주파가 있으면 alias가 남을 수 있습니다. 신호 환경에 따라 필터 차수/대역 또는 취득 구조를 별도로 검토해야 합니다. 이번에는 수정하지 않았습니다.</li>
+<li><b>DC 절대 정확도:</b> 명목식 대비 모델 DC 오프셋은 약 0.86 mV입니다. 0.1% 저항 극단 조합만으로도 수 mV 오차가 가능하므로, 16-bit 분해능을 16-bit 절대 정확도로 간주하면 안 됩니다. 정밀 목표에 따라 매칭 저항망·기준전압·보정/실측을 검토하십시오.</li>
+<li><b>기동 정착:</b> REF 단독 모델의 분압 필터는 전원 램프 시작 후 약 0.208 s에 0.1% 이내에 들어옵니다. U32·후단 RC·펌프 및 실제 전원 순서는 별도이며 이 수치는 최대 보증이 아닙니다.</li>
+<li><b>ADC 채널 잔류 전하:</b> ST 자료의 CADC는 4 pF 전형값이며 최대값은 없습니다. Cs/Ron 가정 시험은 실제 MCU 스위치 전하주입·샘플 정확도 보증을 대신하지 않습니다. 8 µs 취득 조건의 결과는 results.json에 분리했습니다.</li>
+<li><b>음전원:</b> TPS72301은 이상적 −4.5 V/13 mA 부하에서 약 -3.01295 V로 수렴합니다. 모든 입력 −2 V일 때 10개 전단 OP AMP의 신호 전류까지 포함하면 명목 약 20.4 mA, 25°C 최대 정지전류 가정에서는 약 24.4 mA입니다. 전 온도 최대 정지전류 기준 약 25.4 mA에 피드백 분압 전류 약 0.119 mA도 추가해야 합니다. TPS60403 암호화 모델은 실행하지 않았으므로 펌프 리플·최대 부하·전원 차단 검증은 미완료입니다.</li>
+</ol></div>
+<figure><img src="plots/ac.png" alt="ac"><figcaption>원본 제조사 모델의 대표 채널 AC 해석</figcaption></figure><figure><img src="plots/noise.png" alt="noise"><figcaption>아날로그 모델의 잡음만 포함 — 보드 실측/ADC 코드 잡음 아님</figcaption></figure><figure><img src="plots/sine.png" alt="sine"><figcaption>60 Hz 과도해석은 이상적 고정 바이어스 사용</figcaption></figure><figure><img src="plots/step.png" alt="step"><figcaption>입력 자체의 계단 정착과 ADC 채널 전환 정착은 별개</figcaption></figure><figure><img src="plots/reference.png" alt="reference"><figcaption>공유 기준전압의 단독 블록 기동 — 전체 보드 기동 보증 아님</figcaption></figure><figure><img src="plots/kick.png" alt="kick"><figcaption>샘플링 커패시터·스위치 저항 가정 시험</figcaption></figure>
+<h2>디버깅 커넥터도 있습니다</h2><p>최종 회로도와 PCB에서 <b>J1, Samtec FTSH-107-01-L-DV-K-A, 14핀(2×7), 1.27 mm SWD 헤더</b>와 Top 실크를 확인했습니다. 케이블 연결 전 실제 핀 번호를 대조하십시오.</p><table><tr><th>J1 핀</th><th>신호</th></tr><tr><td>3</td><td>+3V3/VTref</td></tr><tr><td>4</td><td>SWDIO/PA13</td></tr><tr><td>5</td><td>GND</td></tr><tr><td>6</td><td>SWCLK/PA14</td></tr><tr><td>7</td><td>GND</td></tr><tr><td>12</td><td>RESET# via R59 0R to NRST</td></tr></table>
+<p>나머지 핀은 현재 접속 없음이며 SWO/JTAG 별도 연결은 없습니다. UART 콘솔은 CN4 USB-C ↔ CH340C(U8) ↔ PA10 RX / PA9 TX입니다. TP17=GND, TP18=+3V3, TP19=+1V8입니다.</p>
+<h2>증거 및 재현 자료</h2><ul><li><a href="results.json">수치 결과 및 한계 JSON</a></li><li><a href="source-audit.json">최종 회로도 값·핀/넷 대조</a></li><li><a href="models/model-index.json">제조사 원본 모델 출처·해시·제약</a></li><li><a href="runtime/ngspice-runtime.json">실행 엔진 출처·해시·설정</a></li><li><a href="runtime/dcpoint-accepted-summary.json">개별 DC 점 전체 기록</a></li><li><a href="runs/">RAW·실행 로그</a> / <a href="decks/">SPICE 입력 덱</a></li></ul>
+<p>실패한 초기 실행도 로그에 남겼고 성공으로 계산하지 않았습니다. 무모델 션트 저항을 추가하여 결과를 바꾸는 수렴 우회는 채택하지 않았습니다. Noise 분석 문법과 내부 노드 초기값은 ngspice용이므로 덱을 PSpice에 그대로 넣을 수 있다고 보장하지 않습니다. MCU 전체·전원 전체·전체 PCB SPICE/CAM 검증이나 제조 승인이 아닙니다.</p>
+<p>공식 자료: <a href="https://www.ti.com/product/OPA189">TI OPA189</a> · <a href="https://www.ti.com/product/OPA320">TI OPA320</a> · <a href="https://www.ti.com/lit/ds/symlink/ref50.pdf">REF50</a> · <a href="https://www.st.com/resource/en/datasheet/stm32h747xi.pdf">STM32H747 DS12930</a> · <a href="https://ngspice.sourceforge.io/download.html">ngspice</a></p></html>

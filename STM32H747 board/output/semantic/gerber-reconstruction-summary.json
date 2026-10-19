@@ -1,0 +1,50 @@
+{
+  "footprintManifest": {
+    "path": "output\\semantic\\gerber-component-footprints.json",
+    "bytes": 3788936,
+    "sha256": "57e9066ddd962068c34acae2ce9b9c6b30c3a68aa33c5436956ffec90896b165"
+  },
+  "routeManifest": {
+    "path": "output\\semantic\\gerber-copper-routes.json",
+    "bytes": 15607319,
+    "sha256": "feec14cf04ee7b790b89a2e4bdcb61e633d756f646e7ad37a262d740d4c5645b"
+  },
+  "summary": {
+    "components": 343,
+    "uniqueComponentPads": 1189,
+    "componentPadFlashesAcrossCopperLayers": 1393,
+    "vias": 634,
+    "routesByLayer": {
+      "F.Cu": {
+        "tracks": 3896,
+        "regions": 62,
+        "conductorFlashes": 0
+      },
+      "In1.Cu": {
+        "tracks": 0,
+        "regions": 4,
+        "conductorFlashes": 130
+      },
+      "In2.Cu": {
+        "tracks": 180,
+        "regions": 6,
+        "conductorFlashes": 66
+      },
+      "In3.Cu": {
+        "tracks": 1507,
+        "regions": 33,
+        "conductorFlashes": 136
+      },
+      "In4.Cu": {
+        "tracks": 0,
+        "regions": 4,
+        "conductorFlashes": 130
+      },
+      "B.Cu": {
+        "tracks": 2119,
+        "regions": 44,
+        "conductorFlashes": 0
+      }
+    }
+  }
+}

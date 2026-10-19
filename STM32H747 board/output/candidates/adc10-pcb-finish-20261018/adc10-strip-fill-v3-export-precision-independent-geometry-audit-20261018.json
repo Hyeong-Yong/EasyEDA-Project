@@ -1,0 +1,49 @@
+{
+  "schema": "stm32h747-adc10-independent-strip-fill-v3-actual-geometry-audit-20261018-v1",
+  "passed": true,
+  "errors": [],
+  "beforePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-strip_place4-20261018.epru",
+  "beforeSha256": "7043fe5ad1561e371372ad833cd736ab46ee675f0257412f46ea482db63d4f24",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-strip_fill_v3-20261018.epru",
+  "sourceSha256": "39b7016594cb6fc950cfb5298678a7c6b0bc50e76653f079222cc9c729bd2919",
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\strip\\adc10-strip-phase1-explicit-closed-API-polygon-20261018.json",
+  "manifestSha256": "cb5554b84c2d4fcf2b4001a31951a97111e1296719ce2142627dc75ab21be932",
+  "targetFILL": "e680230ef8d2c5dd",
+  "nativeRecordCount": 12920,
+  "protectedNonTargetBodyDifferences": [],
+  "protectedNonTargetBodyCount": 12918,
+  "targetChangedFields": [
+    "refs",
+    "path"
+  ],
+  "refsNormalization": {
+    "before": null,
+    "after": [
+      null
+    ]
+  },
+  "actualVersusReviewedSymmetricDifferenceAreaMm2": 0.0001699483891020844,
+  "actualVersusReviewedHausdorffMm": 1.7234292548120898e-06,
+  "actualCopperAdditionVersusOriginalAreaMm2": 0.0,
+  "actualCopperRemovedAreaMm2": 76.47262093964574,
+  "oldContourCount": 231,
+  "actualContourCount": 294,
+  "allReviewedNumericVerticesAndContourOrderExact": false,
+  "originalOuterNumericContourExact": true,
+  "typedCoordinateRepresentationQualification": {
+    "passed": true,
+    "numericCoordinatesChecked": 67026,
+    "everyActualCoordinateEqualsRoundReviewedMil4": true,
+    "maxAxisCoordinateErrorMm": 1.2600000278325752e-06,
+    "actualVersusExactlyQuantizedApprovedPolygonXORAreaMm2": 0.0,
+    "actualVersusExactlyQuantizedApprovedPolygonHausdorffMm": 0.0,
+    "scope": "Only all numeric coordinates mapping exactly to4decimalmil, identical vertex/contour count/order. No other geometry tolerance or rule change."
+  },
+  "publicAPISerializationNote": "Repeated L commands may be compressed, while every numeric vertex, order and explicit closure is exact. Native FILL refs normalizes null to [null] only on the one target record.",
+  "limitations": [
+    "Static actual-source and approved geometry equivalence only, not final native DRC or fabrication approval.",
+    "This is pad-clearance FILL stage; new204routes and final routed-copper ground connectivity are audited separately."
+  ],
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "adc-inline-saved-reopened-visual-review-20261016-v1",
+  "passed": true,
+  "sourcePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc-inline-reopened-20261016.epru",
+  "sourceSha256": "24a4bc9a6773479e94e95915fcee5e1439cd8aebcdcd1759b6aa14118e42dfd9",
+  "candidateSha256": "b09110fc407485b51ff163c14a40e47d18dff5f66ee3b86cc3bd44a7bc5c4adf",
+  "renderer": "Saved/reopened actual native source plus unchanged saved symbol vectors; independent offline SVG/PNG renderer, not native EasyEDA SVG export",
+  "reviewedFiles": [
+    "adc-inline-final-source-visual-qa.png",
+    "adc-inline-final-channel-1.png",
+    "adc-inline-final-channel-2.png",
+    "adc-inline-final-channel-3.png",
+    "adc-inline-final-input-chains.png"
+  ],
+  "fullPagePixelsIdenticalToVisuallyReviewedCandidate": true,
+  "pixelDifferenceBoundingBox": null,
+  "findings": {
+    "allThreeInputPathsVisuallyContinuous": true,
+    "feedbackLoopsClearlyDrawnBelowEachOpamp": true,
+    "preAndDrvTeleportTextLabelsRemoved": true,
+    "allThreeDnpResistorsAndInternalGlyphsAndNcCrossesRemoved": true,
+    "allRefAndValueLabelsReadable": true,
+    "decouplerGroundLabelsClearOfTestPoints": true,
+    "noNewOverlapWithAdc2Adc3J18OrPageFrame": true,
+    "formerLowerBufferAreaCleared": true,
+    "freshBaselineReferenceUserEditsPreserved": true
+  },
+  "nativeReadbackAudit": "adc-inline-final-reopened-normalization-audit.json",
+  "finalCheckpointScopeAudit": "adc-inline-final-project-scope-audit.json",
+  "floatingInputBehaviorUnchanged": true,
+  "floatingZeroRedesignPendingUserChoice": true,
+  "manufacturingReady": false
+}

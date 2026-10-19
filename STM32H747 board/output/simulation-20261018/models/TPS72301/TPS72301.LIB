@@ -1,0 +1,97 @@
+***
+*$
+*  TPS72301 Model
+*****************************************************************************
+*  (C) Copyright 2013 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warrenties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+** Released by: WEBENCH(R) Design Center, Texas Instruments Inc.
+* Part: TPS72301
+* Date: 05/01/2013
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 16.2
+* EVM Order Number: 
+* EVM Users Guide: 
+* Datasheet: SLVS346B - SEPTEMBER 2003 - REVISED JULY 2007
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+* source LDO_Create.php - TPS72301
+
+.SUBCKT TPS72301 GND IN EN FB OUT
+X1  OUT GND IN IN EN FB  LDO_BASIC 
++ PARAMS: 
++ rinp = 1.000e+7 
++ rout = 2.500e-2 
++ psrr = 5.623e-4 
++ pole = 3.000e+2 
++ zero = 4.000e+4 
++ venb = 1.500e+0 
++ ehys = 1.000e-1 
++ uvlo = -1.500e+0 
++ uhys = -1.000e-1 
++ vref = -1.186e+0 
++ drop = 2.800e-1 
++ ilim = 3.000e-1 
++ ttrn = 1.000e-3 
+.ENDS TPS72301 
+
+*$
+.SUBCKT ldo_basic out vgnd vin bias enb fbk 
++ PARAMS: 
++ rinp = 1e07 
++ rout = 0.1
++ psrr = 5e-4
++ pole = 100
++ zero = 10e3
++ venb = 1.0
++ ehys = 0.1
++ uvlo = 2.0
++ uhys = 0.1
++ vref = 1.20
++ drop = 0.25
++ ilim = 0.10
++ ttrn = 1e-4
+R00 vin vxx  { rinp } 
+C00 vin vxx  { 1/(6.28*rinp*pole) } 
+EX1 vx1   0 VALUE {IF(ABS(V(enb, vgnd) + V(egd)*SGN(V(enb, vgnd))*ehys) > venb, 1, 0)}
+RX1 vx1 egd 10
+CX1 egd   0 1n
+EX2 vx2   0 VALUE {IF(V(bias, vgnd) + V(vgd)*uhys < uvlo, 1, 0)}
+RX2 vx2 vgd 10
+CX2 vgd   0 1n
+E01 v01 vgnd VALUE { 
++ IF(V(egd)>0.51&V(vgd)>0.51, { vref }, 0) }
+R01 v01 ref {3.333e5*SQRT(ttrn)}
+C01 ref vgnd {1e-6*SQRT(ttrn)}
+E02 v02   0  VALUE {
++ V(ref)*(ABS(V(out)) + 1E-6)/(ABS(V(fbk)) + 1E-6) }
+R02 v02 des 10
+C02 des   0 1n
+E03 drv   0 VALUE {
++ MAX(V(des), MIN(V(vin)+drop, 0))}
+R03 drv vxx { psrr*rinp } 
+C03 drv vxx { 1/(6.28*psrr*rinp*zero) } 
+E04 vyy   0  VALUE { 
++ MAX(V(vxx), V(vzz) - ilim*rout) }
+R04 vyy vzz { rout }
+F04 vin vyy V04 1
+V04 vzz out 0V
+.ENDS ldo_basic
+

@@ -1,0 +1,5922 @@
+{
+  "schema": "stm32h747-adc10-native-cut-merge-readback-audit-20261018-v2",
+  "passed": true,
+  "stage": "r164",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-copper_continue_r164-20261018.epru",
+  "sourceSha256": "8da561d713741da9d84514c117c1498f9e37311238ca6ea19350c62546549bc9",
+  "baselinePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-baseline-20261018.epru",
+  "baselineSha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b",
+  "manifestSha256": "389a1ddba84f1344f9cf76dd89ba1d1e203ad9bae2ac4f0eeff9f82be91eafe1",
+  "records": 12920,
+  "recordCounts": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 291,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 291,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 634,
+    "PAD": 4,
+    "LINE": 5402,
+    "ARC": 2184,
+    "FILL": 720,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 354,
+    "ATTR": 1062,
+    "PAD_NET": 1313
+  },
+  "normalizations": [
+    {
+      "net": "ADC1_PRE1",
+      "oldIds": [
+        "25ef3cb7904d4783",
+        "3396a575612c90fb"
+      ],
+      "newId": "6aa0cc5deb9a2d11",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 5511.811,
+        "endX": 413.3858,
+        "endY": 5511.811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R137-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R137-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC1_PRE2",
+      "oldIds": [
+        "144f87088e924b1b",
+        "b18871066aee2f5d"
+      ],
+      "newId": "64c11829ed0eeee0",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4960.6299,
+        "endX": 537.5,
+        "endY": 4960.6299,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R138-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R138-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC1_PRE3",
+      "oldIds": [
+        "82ea56962d65a4c4",
+        "ccc806d44ffdad43"
+      ],
+      "newId": "9a4752adef0ff5f5",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC1_PRE3",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 4409.4488,
+        "endX": 537.5,
+        "endY": 4409.4488,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R139-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R139-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC2_PRE1",
+      "oldIds": [
+        "423bd76acd917f60",
+        "e71b2865d111736f"
+      ],
+      "newId": "e73fa5b8cf82414b",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 3858.2677,
+        "endX": 413.3858,
+        "endY": 3858.2677,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R149-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R149-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC2_PRE2",
+      "oldIds": [
+        "9d0d8fb696158432",
+        "ea09a4e1cd613a0a"
+      ],
+      "newId": "dfcc25b4255e0e63",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 3307.0866,
+        "endX": 537.5,
+        "endY": 3307.0866,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R150-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R150-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC2_PRE3",
+      "oldIds": [
+        "7e76decf03f32b0b",
+        "f0b73498ef65edc3"
+      ],
+      "newId": "b55c188cc65ce094",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC2_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2755.9055,
+        "endX": 413.3858,
+        "endY": 2755.9055,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R151-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R151-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC3_PRE1",
+      "oldIds": [
+        "68880870a3b58064",
+        "f04fc5e62f68a7e4"
+      ],
+      "newId": "ac167e04ee334ff7",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE1",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 2204.7244,
+        "endX": 413.3858,
+        "endY": 2204.7244,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R161-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R161-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC3_PRE2",
+      "oldIds": [
+        "b118a0849efe1c18",
+        "bd7607acec746955"
+      ],
+      "newId": "189472c11f6f92c9",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE2",
+        "layerId": 1,
+        "startX": 413.3858,
+        "startY": 1653.5433,
+        "endX": 537.5,
+        "endY": 1653.5433,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R162-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R162-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC3_PRE3",
+      "oldIds": [
+        "538dd76dadec0659",
+        "9fd4b6b48bd43b13"
+      ],
+      "newId": "39b4fe28b42621e2",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE3",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 1102.3622,
+        "endX": 413.3858,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R163-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R163-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    },
+    {
+      "net": "ADC3_PRE4",
+      "oldIds": [
+        "2b91e558537d0967",
+        "417c4f71bbd1e36f"
+      ],
+      "newId": "6ad061c7ebe01a4e",
+      "newBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ADC3_PRE4",
+        "layerId": 1,
+        "startX": 537.5,
+        "startY": 551.1811,
+        "endX": 413.3858,
+        "endY": 551.1811,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      },
+      "symmetricDifferenceAreaMm2": 0.0,
+      "hausdorffMm": 0.0,
+      "nativeZIndex": -1,
+      "prunedUnusedMetadata": [
+        {
+          "type": "NET",
+          "id": "[\"NET\",\"NET-(R164-PAD2)\"]",
+          "originalBody": {
+            "netType": null,
+            "specialColor": null,
+            "retLine": true,
+            "differentialName": null,
+            "isPositiveNet": false,
+            "equalLengthGroupName": null
+          }
+        },
+        {
+          "type": "RULE_SELECTOR",
+          "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(R164-PAD2)\"]]",
+          "originalBody": {
+            "ruleOrder": 4,
+            "ruleKeyValue": {},
+            "copperValue": {},
+            "innerPlaneValue": {}
+          }
+        }
+      ]
+    }
+  ],
+  "unusedMetadataRemoved": 20,
+  "targetCoordinateRepresentationNormalizations": [
+    {
+      "type": "COMPONENT",
+      "id": "32d1b9056f08dfce",
+      "field": "y",
+      "idealMil": 617.5196960629921,
+      "actualMil": 617.5197,
+      "deltaMil": 3.937007818421989e-06,
+      "deltaMm": 9.999999858791852e-08,
+      "classification": "Observed exact4decimal-mil coordinate representation; no other field tolerance applied"
+    },
+    {
+      "type": "ATTR",
+      "id": "32d1b9056f08dfceee7",
+      "field": "y",
+      "idealMil": 597.8346960629921,
+      "actualMil": 597.8347,
+      "deltaMil": 3.937007932108827e-06,
+      "deltaMm": 1.000000014755642e-07,
+      "classification": "Observed exact4decimal-mil coordinate representation; no other field tolerance applied"
+    }
+  ],
+  "nativeLogicalTicketReindexedSharedRecords": 12562,
+  "connectedPins": 1136,
+  "physicalParts": 354,
+  "R164PadToViaGapMm": 0.18500032850000012,
+  "checks": [
+    {
+      "test": "Exactly2 original collinear segments ADC1_PRE1",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC1_PRE1",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "6aa0cc5deb9a2d11"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC1_PRE1",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC1_PRE1",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R137-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R137-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R137-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R137-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R137-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC1_PRE2",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC1_PRE2",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "64c11829ed0eeee0"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC1_PRE2",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC1_PRE2",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R138-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R138-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R138-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R138-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R138-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC1_PRE3",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC1_PRE3",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "9a4752adef0ff5f5"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC1_PRE3",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC1_PRE3",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R139-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R139-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R139-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R139-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R139-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC2_PRE1",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC2_PRE1",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "e73fa5b8cf82414b"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC2_PRE1",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC2_PRE1",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R149-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R149-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R149-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R149-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R149-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC2_PRE2",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC2_PRE2",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "dfcc25b4255e0e63"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC2_PRE2",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC2_PRE2",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R150-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R150-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R150-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R150-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R150-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC2_PRE3",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC2_PRE3",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "b55c188cc65ce094"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC2_PRE3",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC2_PRE3",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R151-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R151-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R151-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R151-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R151-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC3_PRE1",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC3_PRE1",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "ac167e04ee334ff7"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC3_PRE1",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC3_PRE1",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R161-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R161-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R161-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R161-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R161-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC3_PRE2",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC3_PRE2",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "189472c11f6f92c9"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC3_PRE2",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC3_PRE2",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R162-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R162-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R162-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R162-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R162-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC3_PRE3",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC3_PRE3",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "39b4fe28b42621e2"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC3_PRE3",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC3_PRE3",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R163-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R163-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R163-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R163-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R163-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exactly2 original collinear segments ADC3_PRE4",
+      "passed": true
+    },
+    {
+      "test": "Native pair merged into exactly1 segment ADC3_PRE4",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "6ad061c7ebe01a4e"
+        ]
+      ]
+    },
+    {
+      "test": "Exact same copper union geometry ADC3_PRE4",
+      "passed": true,
+      "detail": {
+        "symmetricDifferenceAreaMm2": 0.0,
+        "hausdorffMm": 0.0
+      }
+    },
+    {
+      "test": "Native merge preserves all fields except endpoints/direction/net/zIndex ADC3_PRE4",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('NET', '[\"NET\",\"NET-(R164-PAD2)\"]')",
+      "passed": true
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R164-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Exact original old-net metadata identity ('RULE_SELECTOR', '[\"RULE_SELECTOR\",[\"NET\",\"NET-(R164-PAD2)\"]]')",
+      "passed": true
+    },
+    {
+      "test": "Deleted selector contains no rule overrides NET-(R164-PAD2)",
+      "passed": true,
+      "detail": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    },
+    {
+      "test": "Pruned old-net metadata has zero actual circuit members NET-(R164-PAD2)",
+      "passed": true
+    },
+    {
+      "test": "Only observed target coordinate exactly rounds to4decimal mil ('COMPONENT', '32d1b9056f08dfce')",
+      "passed": true,
+      "detail": {
+        "idealMil": 617.5196960629921,
+        "actualMil": 617.5197,
+        "deltaMil": 3.937007818421989e-06,
+        "deltaMm": 9.999999858791852e-08
+      }
+    },
+    {
+      "test": "Only observed target coordinate exactly rounds to4decimal mil ('ATTR', '32d1b9056f08dfceee7')",
+      "passed": true,
+      "detail": {
+        "idealMil": 597.8346960629921,
+        "actualMil": 597.8347,
+        "deltaMil": 3.937007932108827e-06,
+        "deltaMm": 1.000000014755642e-07
+      }
+    },
+    {
+      "test": "Exact native membership after scoped merge and unused-net cleanup",
+      "passed": true,
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "test": "Every other native primitive body exactly protected",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "All18 RULE definitions and selected rule template exactly unchanged; empty NET-owned selectors are not definitions",
+      "passed": true
+    },
+    {
+      "test": "all634 VIAs exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "all4 NPTH mechanical pads exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "all21 J18 strings exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "complete six-layer stack exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "every physical pin-net assignment exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C4', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C4', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C5', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C6', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C7', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C7', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C8', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C8', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C9', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C10', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C10', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C11', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C11', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C12', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C12', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C13', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C13', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C14', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C14', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C15', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C15', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C16', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C16', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C17', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C17', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C18', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C18', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C19', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C19', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C20', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C20', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C21', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C21', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C22', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C22', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C23', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C23', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C24', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C24', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C25', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C25', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C26', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C26', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C27', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C27', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C28', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C28', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C29', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C29', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C30', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C30', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C31', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C31', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C32', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C32', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C33', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C33', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C34', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C34', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C35', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C35', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C36', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C36', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C37', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C37', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C38', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C38', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C39', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C39', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C40', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C40', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C41', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C41', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C42', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C42', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C43', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C43', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C44', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C44', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C45', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C45', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C46', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C46', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C47', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C47', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C48', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C48', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C49', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C49', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C50', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C50', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C51', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C51', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C52', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C52', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C53', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C53', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C54', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C54', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C55', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C55', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C56', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C56', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C57', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C57', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C58', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C58', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C59', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C59', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C60', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C60', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C61', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C61', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C62', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C62', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C63', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C63', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C64', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C64', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C65', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C65', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C66', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C66', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C67', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C67', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C68', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C68', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C69', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C69', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C70', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C70', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C71', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C71', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C72', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C72', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C73', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C73', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C74', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C74', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C75', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C75', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C76', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C76', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN1', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN1', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN1', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN2', '14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'A1_B12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'A4_B9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'A5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'A6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'A7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'B1_A12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'B4_A9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'B5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'B6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'B7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'S1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'S2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'S3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN3', 'S4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'A1_B12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'A5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'A6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'A7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'B1_A12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'B5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'B6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'B7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'S1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'S2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'S3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('CN4', 'S4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D4', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D4', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D5', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D6', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('D6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('FB1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('FB1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('FB2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('FB2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('FB3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('FB3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J1', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J1', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J1', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J1', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J1', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J1', '12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J4', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J4', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J4', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J4', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J4', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J5', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J6', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J7', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J7', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J7', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J7', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J7', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J8', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J8', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J8', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J8', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J8', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J9', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J10', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J10', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J10', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J10', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J10', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J11', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J11', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J11', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J11', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J11', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J12', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J12', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J12', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J12', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J12', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J13', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J13', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J13', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J13', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J13', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J14', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J14', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J14', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J14', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J14', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J15', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J15', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J15', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J15', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J15', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J16', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J16', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J16', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J16', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J16', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J17', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J17', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J17', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J17', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J17', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('J18', '10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('L1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('L1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('Q1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('Q1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('Q1', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R4', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R4', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R5', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R6', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R7', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R7', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R8', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R8', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R9', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R10', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R10', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R11', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R11', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R12', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R12', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R13', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R13', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R14', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R14', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R15', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R15', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R16', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R16', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R17', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R17', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R18', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R18', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R19', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R19', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R20', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R20', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R21', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R21', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R22', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R22', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R23', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R23', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R24', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R24', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R25', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R25', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R26', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R26', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R27', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R27', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R28', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R28', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R29', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R29', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R30', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R30', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R31', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R31', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R32', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R32', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R33', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R33', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R34', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R34', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R35', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R35', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R36', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R36', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R37', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R37', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R38', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R38', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R39', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R39', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R40', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R40', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R41', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R41', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R42', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R42', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R43', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R43', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R44', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R44', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R45', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R45', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R46', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R46', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R47', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R47', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R48', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R48', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R49', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R49', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R50', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R50', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R51', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R51', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R52', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R52', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R53', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R53', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R54', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R54', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R55', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R55', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R56', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R56', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R57', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R57', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R58', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R58', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R59', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R59', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R60', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R60', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R61', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R61', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R62', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R62', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R63', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R63', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R64', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R64', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R65', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R65', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R66', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R66', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R67', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R67', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R68', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R68', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R69', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R69', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R70', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R70', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R71', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R71', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R72', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R72', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R73', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R73', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R74', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R74', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R75', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R75', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R76', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R76', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R77', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R77', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R78', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R78', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R79', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R79', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R80', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R80', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R81', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R81', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R82', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R82', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R83', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R83', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R84', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R84', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R85', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R85', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R86', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R86', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R87', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R87', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R88', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R88', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R89', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R89', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R90', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R90', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R91', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R91', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R92', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R92', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R93', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R93', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R94', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R94', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R95', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R95', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R96', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R96', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R97', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R97', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R98', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R98', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R99', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R99', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R100', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R100', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R101', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R101', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R102', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R102', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R103', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R103', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R104', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R104', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R105', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R105', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R106', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R106', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R107', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R107', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R108', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R108', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R109', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R109', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R110', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R110', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R111', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R111', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R112', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R112', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R113', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R113', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R114', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R114', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R115', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R115', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R116', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R116', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R117', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R117', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R118', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R118', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R119', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R119', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R120', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R120', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R121', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R121', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R122', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R122', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R123', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R123', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R124', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R124', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R125', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R125', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R126', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R126', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R127', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R127', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R128', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R128', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R129', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R129', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R130', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R130', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R131', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R131', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R132', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R132', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R133', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R133', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R134', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R134', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R135', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R135', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R136', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R136', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('SW1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('SW1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('SW1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('SW1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP4', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP5', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP6', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP7', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP8', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP9', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP10', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP11', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP12', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP13', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP14', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP15', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP16', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP17', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP18', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TP19', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TR1', '16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS1', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS1', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS1', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS1', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS2', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS2', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS2', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS2', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS3', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS3', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('TVS3', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'A17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'B17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'C17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'D17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'E15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'F17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'G17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'H16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'J17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'K15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'L15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'M1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'M2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'M3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'M4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'M5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'M13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'M15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'N17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'P17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'R14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'T17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U1', 'U17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U2', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U2', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U3', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U3', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U3', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U3', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U3', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U3', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'A1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'A2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'A3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'A7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'A8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'A9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'B1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'B2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'B3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'B7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'B8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'B9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'C1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'C2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'C3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'C7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'C8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'C9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'D1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'D2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'D3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'D7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'D8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'D9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'E1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'E2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'E8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'E9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'F1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'F2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'F3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'F7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'F8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'F9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'G1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'G2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'G3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'G7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'G8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'G9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'H1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'H2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'H3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'H8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'H9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'J1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'J2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'J3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'J7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'J8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'J9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'K1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'K7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'K8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'K9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'L1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'L2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'L3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'L7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'L8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'L9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'M1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'M2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'M3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'M7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'M8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'M9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'N1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'N2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'N3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'N7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'N8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'N9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'P1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'P2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'P3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'P7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'P8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'P9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'R1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'R2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'R3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'R7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'R8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U4', 'R9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '12')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '15')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '17')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '18')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '19')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '20')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '21')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '22')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '23')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '24')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '25')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '25')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '25')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '25')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U5', '25')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U6', '8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '7')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '8')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '9')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '10')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '11')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '13')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '14')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '18')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '19')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '20')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '21')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '22')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '23')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '24')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '26')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '27')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '28')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '29')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '30')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '31')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '32')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '33')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '33')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '33')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '33')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U7', '33')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U8', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U8', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U8', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U8', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U8', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U8', '6')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U8', '16')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X1', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X1', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X2', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X2', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X2', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('X2', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('Y1', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('Y1', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C97', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C97', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C98', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C98', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C99', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C99', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C100', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C100', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C101', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C101', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C102', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C102', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C103', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C103', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C104', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C104', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C105', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C105', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C106', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C106', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C107', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C107', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C108', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C108', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C109', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C109', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C110', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C110', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C111', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C111', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C112', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C112', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C113', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C113', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C114', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C114', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C115', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C115', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C116', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C116', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C117', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C117', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C118', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C118', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C119', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C119', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U9', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U9', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U9', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U10', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U10', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U10', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U10', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U10', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U11', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U11', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U11', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U11', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U11', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U12', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U12', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U12', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U12', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U12', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U13', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U13', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U13', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U13', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U13', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U14', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U14', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U14', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U14', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U14', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U15', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U15', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U15', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U15', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U15', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U16', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U16', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U16', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U16', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U16', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U17', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U17', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U17', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U17', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U17', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U18', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U18', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U18', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U18', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U18', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U19', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U19', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U19', '3')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U19', '4')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('U19', '5')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C80', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C80', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C81', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C81', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C82', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C82', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C86', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C86', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C87', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C87', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C88', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C88', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C93', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C93', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C94', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C94', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C95', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C95', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C96', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('C96', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R137', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R137', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R138', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R138', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R139', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R139', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R140', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R140', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R141', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R141', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R142', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R142', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R143', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R143', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R144', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R144', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R145', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R145', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R149', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R149', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R150', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R150', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R151', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R151', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R152', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R152', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R153', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R153', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R154', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R154', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R155', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R155', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R156', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R156', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R157', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R157', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R161', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R161', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R162', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R162', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R163', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R163', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R164', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R164', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R165', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R165', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R166', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R166', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R167', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R167', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R168', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R168', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R169', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R169', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R170', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R170', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R171', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R171', '2')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R172', '1')",
+      "passed": true
+    },
+    {
+      "test": "Physical duplicate pads agree ('R172', '2')",
+      "passed": true
+    },
+    {
+      "test": "Frozen354parts/1136pins exact independent schematic contract",
+      "passed": true
+    },
+    {
+      "test": "Actual translated R164 pad-to-via clearance",
+      "passed": true,
+      "detail": 0.18500032850000012
+    },
+    {
+      "test": "Shared primitive headers differ only by native logical-ticket reindexing",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Actual static source audit only. No API/native writes. Header logical tickets are reindexed by native source serialization; body preservation is the protection contract.",
+    "Native same-net end-to-end collinear pair merging is proven exact by copper symmetric difference and Hausdorff metrics, not inferred from label names.",
+    "Only empty/unreferenced old NET metadata and empty NET-owned selectors are allowed to disappear. All18 rule definitions remain exact.",
+    "Cut-only board remains unrouted. This is not final full-board DRC or fabrication approval."
+  ],
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0
+}

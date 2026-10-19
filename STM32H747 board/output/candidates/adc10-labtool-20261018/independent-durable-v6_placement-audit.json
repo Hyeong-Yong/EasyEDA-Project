@@ -1,0 +1,2998 @@
+{
+  "schema": "labtool-adc10-saved-native-durability-scope-audit-v1",
+  "passed": true,
+  "baselineCheckpoint": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_pcb_eco_wip_20261018.epro2",
+    "sha256": "81cac5325f1922744018936757c57411b5654e3bb12566ae066d5334df180881"
+  },
+  "checkpoint": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_107_placed_v6_wip_20261018.epro2",
+    "sha256": "fb6a90e8b62b797783ae69b8b2ebc48b7d1114862881bcde946429abb820761d"
+  },
+  "nativeSource": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+    "sha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9"
+  },
+  "documentCount": 3941,
+  "changedDesignDocuments": [
+    [
+      "PCB",
+      "0ac2a19168000d8e"
+    ]
+  ],
+  "nonTargetDocumentBodiesExact": 3940,
+  "sessionHeaderChanges": [
+    {
+      "document": [
+        "PCB",
+        "0ac2a19168000d8e"
+      ],
+      "fields": [
+        "updateTime",
+        "version"
+      ],
+      "allowed": true
+    }
+  ],
+  "projectMetadataExact": true,
+  "storedPcbMatchesNativeReadback": {
+    "passed": true,
+    "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+    "sourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+    "sourceNonHeaderRecords": 13646,
+    "snapshotNonHeaderRecords": 13637,
+    "bodyDifferences": [],
+    "sourceOnlyBookkeeping": [
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"+5V_AFE\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"-3V_AFE\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_BUF\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_DRV\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_RAW\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_SUM\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"ADC_OFFSET_0V97\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_FLY_N\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_FLY_P\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_NEG_FB\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_OFFSET_BUFFER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_OFFSET_FILTER\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_PUMP_IN\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_REF_2V5\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_REF_ESR\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_REF_NR\"]]"
+      ],
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"AFE_VNEG_RAW\"]]"
+      ]
+    ],
+    "checkpointOnlyBookkeeping": [
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder1"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder10"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder11"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder12"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder13"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder14"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder15"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder16"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder17"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder18"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder19"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder2"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder20"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder21"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder22"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder23"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder24"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder25"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder26"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder27"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder28"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder29"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder3"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder30"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder31"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder32"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder33"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder34"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder35"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder36"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder37"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder38"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder39"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder4"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder40"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder41"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder42"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder43"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder44"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder45"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder46"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder47"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder48"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder49"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder5"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder50"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder51"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder52"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder53"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder54"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder6"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder7"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder8"
+      ],
+      [
+        "ELE_PLACEHOLDER",
+        "placeholder9"
+      ],
+      [
+        "META",
+        "META"
+      ]
+    ],
+    "explicitDerivedEmptyNetDefaultSelector": [
+      [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"\"]]"
+      ]
+    ],
+    "normalizations": [
+      {
+        "record": [
+          "FILL",
+          "eb2a18d5d0bae0ca"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5ab25a99505bd60c"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 14,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "432166bead84a320"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "469c19ed5bfb68ad"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "cbf547853a678101"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 3,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "a561ae94fe89ac25"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "f6091682cd0f1d9f"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "7d03d112eab237df"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "ecb71ce364d2385b"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "1e87af6d1a83be6a"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "2399986461d5eed4"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "cbb438589c903d80"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "19bdb7e810133ecb"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "19bdb7e810133ecb"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1047,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "a189d75595856670"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "e680230ef8d2c5dd"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "72a5844ef496cbcf"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "a1c01ee87101da2f"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "8ef3da0e4a3f1318"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "c46b37cc112ac765"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5d8fde275801b816"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "75060bf5a8ae3c7e"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "d408b11385040441"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "993e4217fc313400"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "1f7456beafc57cea"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "0044c100d6a9bd29"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "2949d013aa09f2f1"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "14e441d4b704ab08"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "8060ac040f55a833"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "753230317095a585"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5872560e3d03e2f4"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "468f75d6d1f1ee07"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "fe4d63b75591ff83"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "12699f5a9f5faaf1"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "24608fa61ee2c49b"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "19d29a26fca5b4f3"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "fd00ff7d0fd67437"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "72a3572efdb0f858"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "ee866a029f7d21a6"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "74e329f46e55e8a5"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 3,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "20165e9aa0a02d4d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "6dde924646053863"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "647c91cbbc161db2"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "b3c32fb4ee9a7fdb"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "b3c32fb4ee9a7fdb"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 32,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "d1e39ef5874e7684"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "89b66ad2eafff7de"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "fd1c85170f225f8e"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "0738f61bc609c749"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "70d49360e5e3892f"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "e17453a5e0291c05"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "d0974487dc77f704"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "de50436c0593254b"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "33a654ae79b708f5"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "df8b96ef8c197120"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "cfed7b97d61d1e0a"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 8,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "23f25be226b43a88"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "6b6dd15dcbe71dff"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "e10cbc17a7a5e7cb"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5277e1b9c83312a9"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "9ceb7c450311986d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "9ceb7c450311986d"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 381,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "ca6da24ce03912de"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "9ea2de8ebfd2bbc4"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "f0e17116e3b96dd5"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "5567eba4f67fdfef"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "c69588a06643ce52"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "9a6ae14a869202f6"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "44ba81d42a48a2e8"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "8e56a14144c76f68"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "daa2e5885d92eda0"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "421d7000da3c5f74"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "fc5a71a640eed2a6"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 3,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "410ffe1fe7d3d61d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "b99d5f8f2cae6046"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "d5e9a5542f6b132d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "378b6a6933052c9a"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "4d15a7a468210b3d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "c667926ae983cbc8"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "10d9c57edac01cda"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "10d9c57edac01cda"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 173,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "fa332cfb0daf456d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "391b102333fee94b"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "16e0013714208663"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "eced2cdfc1e1f2e6"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "4390d61d8c7f4f80"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "a7cecc90c6e5b57b"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "96c80bd398f39338"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5d02054cd56a5a95"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "d9b20cbcd6912827"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "499febbc2ec31473"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "c0a5584b0a2864b3"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "9c9a28e54b362bc6"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "e2f4d4e8fcb3572c"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "41fd0322eb2cc785"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "6047d2db3c95bf69"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "9066d6aec386fa8b"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "386aed6381d4282c"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "1cd997827b0241d6"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "402bcf974fe2c3d7"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "d5451b91b0340103"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "2fb535085249015d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "9a405bd52ff5d175"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "c33ca60388ee2151"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "e01f61eca6d53dde"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "923eed6eafd47910"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "923eed6eafd47910"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 102,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "352a8286c4721361"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "e20803fc251b0706"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "49ff2fbfe7351543"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "a2dfbc2c3368b76d"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5e69a5150dabf175"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "e5b3b2a088b93ade"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "817dade6cf784cbc"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5a3e1e9918aa0e15"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "1d66d461f5bf4823"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "f68553f27ae09713"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "1c525f2deea5d1f7"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "fb628cfb34c600d1"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "3b8987152eba8626"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "fac64b92d88bc7c9"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 2,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "f9e70adc3ac35fbd"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "9bbb881293539c05"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "1851c8f8acea0434"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "ff816bcab0c50ebd"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "81ce770ea50096f2"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "355558e8535889ce"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "6b847e87b8f864f4"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "113dd1f00dd5b5b8"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "933317dd38e2d8f5"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "62f29c1272170b13"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "af06de1adcfd8f47"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 3,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "6f99e67037973235"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "824128fd13c75535"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "824128fd13c75535"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 56,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "c18edd359ca3c0bd"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 15,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "b5586ca901b78f63"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "5a3746298a661623"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 1,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "1d653c2379903ff0"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "1d653c2379903ff0"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 59,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "182a15d69607db10"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "1d12bb8046962a4c"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "365de7b113f807fa"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "7ea3e8a355c335ee"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "24ca3284aa7e94e7"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "2eb567a90d4f6487"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "7d9be32581335ce0"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "7d9be32581335ce0"
+        ],
+        "field": "path",
+        "rule": "FILL exact coordinates/commands; only duplicate zero-length L encoding differs",
+        "detail": {
+          "sourceExactDuplicateLineSegmentsRemoved": 0,
+          "checkpointExactDuplicateLineSegmentsRemoved": 76,
+          "maximumCoordinateQuantizationMil": 0.0
+        }
+      },
+      {
+        "record": [
+          "FILL",
+          "8ad2530000be270f"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "d8ad16a3b68b1fd9"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "ef12098577a13cc7"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "FILL",
+          "a1d7888349e74585"
+        ],
+        "field": "refs",
+        "rule": "FILL empty references null versus singleton-null serialization",
+        "detail": null
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"+5V_AFE\"]]"
+        ],
+        "net": "+5V_AFE",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"-3V_AFE\"]]"
+        ],
+        "net": "-3V_AFE",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_BUF\"]]"
+        ],
+        "net": "ADC_J10_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_DRV\"]]"
+        ],
+        "net": "ADC_J10_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_FILTER\"]]"
+        ],
+        "net": "ADC_J10_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_RAW\"]]"
+        ],
+        "net": "ADC_J10_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J10_SUM\"]]"
+        ],
+        "net": "ADC_J10_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_BUF\"]]"
+        ],
+        "net": "ADC_J11_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_DRV\"]]"
+        ],
+        "net": "ADC_J11_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_FILTER\"]]"
+        ],
+        "net": "ADC_J11_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_RAW\"]]"
+        ],
+        "net": "ADC_J11_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J11_SUM\"]]"
+        ],
+        "net": "ADC_J11_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_BUF\"]]"
+        ],
+        "net": "ADC_J2_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_DRV\"]]"
+        ],
+        "net": "ADC_J2_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_FILTER\"]]"
+        ],
+        "net": "ADC_J2_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_RAW\"]]"
+        ],
+        "net": "ADC_J2_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J2_SUM\"]]"
+        ],
+        "net": "ADC_J2_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_BUF\"]]"
+        ],
+        "net": "ADC_J3_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_DRV\"]]"
+        ],
+        "net": "ADC_J3_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_FILTER\"]]"
+        ],
+        "net": "ADC_J3_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_RAW\"]]"
+        ],
+        "net": "ADC_J3_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J3_SUM\"]]"
+        ],
+        "net": "ADC_J3_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_BUF\"]]"
+        ],
+        "net": "ADC_J4_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_DRV\"]]"
+        ],
+        "net": "ADC_J4_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_FILTER\"]]"
+        ],
+        "net": "ADC_J4_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_RAW\"]]"
+        ],
+        "net": "ADC_J4_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J4_SUM\"]]"
+        ],
+        "net": "ADC_J4_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_BUF\"]]"
+        ],
+        "net": "ADC_J5_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_DRV\"]]"
+        ],
+        "net": "ADC_J5_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_FILTER\"]]"
+        ],
+        "net": "ADC_J5_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_RAW\"]]"
+        ],
+        "net": "ADC_J5_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J5_SUM\"]]"
+        ],
+        "net": "ADC_J5_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_BUF\"]]"
+        ],
+        "net": "ADC_J6_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_DRV\"]]"
+        ],
+        "net": "ADC_J6_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_FILTER\"]]"
+        ],
+        "net": "ADC_J6_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_RAW\"]]"
+        ],
+        "net": "ADC_J6_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J6_SUM\"]]"
+        ],
+        "net": "ADC_J6_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_BUF\"]]"
+        ],
+        "net": "ADC_J7_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_DRV\"]]"
+        ],
+        "net": "ADC_J7_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_FILTER\"]]"
+        ],
+        "net": "ADC_J7_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_RAW\"]]"
+        ],
+        "net": "ADC_J7_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J7_SUM\"]]"
+        ],
+        "net": "ADC_J7_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_BUF\"]]"
+        ],
+        "net": "ADC_J8_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_DRV\"]]"
+        ],
+        "net": "ADC_J8_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_FILTER\"]]"
+        ],
+        "net": "ADC_J8_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_RAW\"]]"
+        ],
+        "net": "ADC_J8_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J8_SUM\"]]"
+        ],
+        "net": "ADC_J8_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_BUF\"]]"
+        ],
+        "net": "ADC_J9_BUF",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_DRV\"]]"
+        ],
+        "net": "ADC_J9_DRV",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_FILTER\"]]"
+        ],
+        "net": "ADC_J9_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_RAW\"]]"
+        ],
+        "net": "ADC_J9_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_J9_SUM\"]]"
+        ],
+        "net": "ADC_J9_SUM",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"ADC_OFFSET_0V97\"]]"
+        ],
+        "net": "ADC_OFFSET_0V97",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_FLY_N\"]]"
+        ],
+        "net": "AFE_FLY_N",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_FLY_P\"]]"
+        ],
+        "net": "AFE_FLY_P",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_NEG_FB\"]]"
+        ],
+        "net": "AFE_NEG_FB",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_OFFSET_BUFFER\"]]"
+        ],
+        "net": "AFE_OFFSET_BUFFER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_OFFSET_FILTER\"]]"
+        ],
+        "net": "AFE_OFFSET_FILTER",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_PUMP_IN\"]]"
+        ],
+        "net": "AFE_PUMP_IN",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_REF_2V5\"]]"
+        ],
+        "net": "AFE_REF_2V5",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_REF_ESR\"]]"
+        ],
+        "net": "AFE_REF_ESR",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_REF_NR\"]]"
+        ],
+        "net": "AFE_REF_NR",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      },
+      {
+        "record": [
+          "RULE_SELECTOR",
+          "[\"RULE_SELECTOR\",[\"NET\",\"AFE_VNEG_RAW\"]]"
+        ],
+        "net": "AFE_VNEG_RAW",
+        "exactRuntimeBody": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        "rule": "Runtime-only no-op inheritance; selected global RULE bodies must remain exact"
+      }
+    ],
+    "normalizationRuleCounts": {
+      "FILL empty references null versus singleton-null serialization": 112,
+      "FILL exact coordinates/commands; only duplicate zero-length L encoding differs": 40,
+      "Runtime-only no-op inheritance; selected global RULE bodies must remain exact": 63
+    },
+    "errors": []
+  },
+  "protected": {
+    "RULE": {
+      "count": 18,
+      "bodyExact": true
+    },
+    "RULE_TEMPLATE": {
+      "count": 1,
+      "bodyExact": true
+    },
+    "LAYER": {
+      "count": 64,
+      "bodyExact": true
+    },
+    "LAYER_PHYS": {
+      "count": 17,
+      "bodyExact": true
+    },
+    "PAD": {
+      "count": 4,
+      "bodyExact": true
+    },
+    "PAD_NET": {
+      "count": 1523,
+      "bodyExact": true
+    },
+    "ARC": {
+      "count": 2184,
+      "bodyExact": true
+    },
+    "POLY": {
+      "count": 500,
+      "bodyExact": true
+    },
+    "STRING": {
+      "count": 21,
+      "bodyExact": true
+    }
+  },
+  "physicalParts": 437,
+  "footprintLinks": 437,
+  "missingFootprints": [],
+  "historicalTombstoneCounts": {
+    "before": 560,
+    "after": 622
+  },
+  "errors": [],
+  "nativeCalls": 0,
+  "manufacturingReady": false
+}

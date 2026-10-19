@@ -1,0 +1,37 @@
+{
+  "case": "dcpoint_nominal_v5p5_v3p3p3_smap0p5",
+  "returncode": 1,
+  "seconds": 19.235,
+  "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.log\n\n",
+  "stderr": "",
+  "command": [
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+    "-b",
+    "-r",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.raw",
+    "-o",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.log",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.cir"
+  ],
+  "warnings": [
+    "Warning: Dynamic gmin stepping failed",
+    "Warning: True gmin stepping failed",
+    "Warning: source stepping failed",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+    "Warning: singular matrix:  check node xu20_j2.n2991579",
+    "Warning: singular matrix:  check node xu20_j2.n2991579",
+    "Error: Transient op failed, timestep too small",
+    "Error: The operating point could not be simulated successfully.",
+    "DC solution failed -",
+    "a.xu20_j2.x_u19.ag1#branch_1_0            -nan(ind)            -doAnalyses: OP:  Timestep too small; trouble with xu9:q-instance q.xu9.q26"
+  ],
+  "raw_exists": true,
+  "deck_sha256": "7b2b173c583887ca8fa6e46b72450e0ffd1f7f29df166c60115de126be0211d1",
+  "optran_used": false,
+  "numeric_valid": false,
+  "parse_error": "not enough values to unpack (expected 2, got 1)",
+  "run_ok": false
+}

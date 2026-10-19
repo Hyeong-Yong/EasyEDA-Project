@@ -1,0 +1,38 @@
+{
+  "scope": "Read-only official drawing comparison. No native CAD mutation/import or substitution approval.",
+  "pdf_review": "Full mechanical pages rendered and inspected; body and mounting dimensions read from drawings, not invented from pad bounding boxes.",
+  "PJ-051AH_vs_PJ-051BH": {
+    "official_AH_pdf": "https://www.sameskydevices.com/product/resource/pj-051ah.pdf",
+    "official_BH_pdf": "https://www.sameskydevices.com/product/resource/pj-051bh.pdf",
+    "datasheet_date": "2024-09-12",
+    "AH_original_bytes": 297580,
+    "AH_original_sha256": "85751b1fca32a54ae18830269d22e45f86f11736d1020d9965ecd868b964b7a4",
+    "BH_original_bytes": 269578,
+    "BH_original_sha256": "8c0121495ef9341749fccdaa73ef73451725582fff5d7c51161be2165aa26f92",
+    "same_drawn_enclosure_L_W_H_mm": [11.5, 10.1, 7.3],
+    "same_mating_plug_outer_diameter_mm": 5.5,
+    "same_jack_insertion_depth_mm": 8.2,
+    "AH_center_pin_diameter_mm": 2.0,
+    "BH_center_pin_diameter_mm": 2.5,
+    "land_pattern_comparison": "Shown recommended top-view PCB layout dimensions are the same: three 0.8x2.0 slots, two 0.8x2.3 slots, 10.3 spacing, and the same locator hole and terminal coordinate dimensions. This does not authorize changing the current PCB, whose approved custom cutout is independently controlled.",
+    "classification": "AH is an exterior/land-pattern surrogate only, not an exact connector model because center-pin geometry differs. The historical MCU_BOARD.step has an explicitly named PJ-051BH body."
+  },
+  "LPJE101DNL_vs_LPJE101-0AHNL_family": {
+    "official_exact_family_product_page": "https://www.l-p.com/products/457326.htm",
+    "official_AHNL_drawing_linked_by_exact_family_page": "https://www.l-p.com/file/datasheet/lpje101ahnl-drawing.pdf",
+    "official_DNL_drawing": "https://www.l-p.com/file/datasheet/lpje101dnl-drawing.pdf",
+    "AHNL_original_bytes": 234585,
+    "AHNL_original_sha256": "20e4530f58b60208c1258cd1434054ed562dba62f20e979022018095dd2a1d31",
+    "DNL_original_bytes": 164573,
+    "DNL_original_sha256": "f713e5e5ebb32dd881bbf5e543b5280f7828613413780e19f390fda429bcf236",
+    "AHNL_drawing_part_label": "LPJE101AHNL",
+    "AHNL_drawing_rev_date": "A / 2010-07-15",
+    "DNL_drawing_rev_date": "A / 2009-09-17",
+    "same_drawn_enclosure_L_W_H_mm": [15.75, 16.26, 13.1],
+    "same_shown_signal_pin_and_mounting_geometry": "Eight diameter0.9 signal holes with 1.02 stagger pitch and 7.14 row span; two diameter3.25 retainers at12.70 spacing; two diameter1.7 shield holes at16.25 spacing. Compare drawings directly for coordinate directions/tolerances.",
+    "AHNL_only_features": "Green/yellow LED windows and four additional diameter0.9 LED holes (outer13.72/inner9.14 row spans), plus EMI fingers visible in drawing. DNL drawing has neither LED windows/holes nor those EMI finger geometry.",
+    "classification": "DNL is not an exact replacement. Existing MCU_BOARD.step has no CN2 occurrence or RJ45/LPJE product. Manufacturer exact-family ZIP is separately preserved under source-models/manufacturer/LINK-PP-LPJE101-0AHNL with its own manifest.",
+    "MPN_qualification": "Current inventory part label LPJE101-0AHN lacks terminalL while its footprint says LPJE101-0AHNL. Manufacturer source is explicitly LPJE101-0AHNL; drawing correspondence is confirmed at family level only, not proof of every procurement suffix."
+  },
+  "license": "Manufacturer original downloads; no open redistribution licence assumed. PDFs preserved unchanged."
+}

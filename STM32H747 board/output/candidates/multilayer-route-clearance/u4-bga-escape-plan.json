@@ -1,0 +1,1003 @@
+{
+  "schema": "stm32h747-u4-bga-escape-clearance-plan-v1",
+  "status": "review-only-not-applied",
+  "pcbUuid": "0ac2a19168000d8e",
+  "source": {
+    "path": "output\\candidates\\multilayer-route-clearance\\via031-track013-candidate-after-via-pilot.epru",
+    "sha256": "7b423803509182374a9440d5354d78498df691b09569f83a2b358b5e42bc02ff"
+  },
+  "officialComponentEvidence": {
+    "part": "IS42S32160F-6BLI",
+    "package": "90-ball TF-BGA, 8x13 mm, 0.8-mm pitch",
+    "nominalBallDiameterMm": 0.45,
+    "datasheet": "https://www.issi.com/WW/pdf/42-45R-S-32160F.pdf",
+    "layoutGuide": "https://www.issi.com/WW/pdf/appnotes/dram/AN42S01.AN.pdf",
+    "layoutGuideSummary": "Follow IPC-7351; BGA land is usually about 80% of nominal ball. General minimum trace width is 0.13 mm."
+  },
+  "footprintRequirement": {
+    "componentId": "3de4fa6d5f5df65c",
+    "footprintUuid": "a3627e2915fe61c1",
+    "pads": 90,
+    "beforeCopperDiameterMm": 0.4064,
+    "afterCopperDiameterMm": 0.36,
+    "centresNumbersIdsNetsAndNonCopperFieldsImmutable": true,
+    "notEmbeddedInPcbCandidate": true
+  },
+  "routeRequirement": {
+    "trackWidthMm": 0.13,
+    "changedLineRecords": 15,
+    "changedTargets": 5,
+    "onlyEndpointCoordinatesChangeFromVia031Track013Source": true
+  },
+  "changes": [
+    {
+      "type": "LINE",
+      "id": "0bb371de8a825f3a",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A0",
+        "layerId": 1,
+        "startX": 1787.2047,
+        "startY": 4604.5276,
+        "endX": 1803.1496,
+        "endY": 4588.5827,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 489
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A0",
+        "layerId": 1,
+        "startX": 1787.2047,
+        "startY": 4604.33075,
+        "endX": 1803.1496,
+        "endY": 4588.5827,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 489
+      },
+      "changedFields": [
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "086d18a33e12fec7",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A0",
+        "layerId": 1,
+        "startX": 1726.5748,
+        "startY": 4604.5276,
+        "endX": 1787.2047,
+        "endY": 4604.5276,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 491
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A0",
+        "layerId": 1,
+        "startX": 1726.5748,
+        "startY": 4604.33075,
+        "endX": 1787.2047,
+        "endY": 4604.33075,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 491
+      },
+      "changedFields": [
+        "endY",
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "cde13d11df37c532",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A0",
+        "layerId": 1,
+        "startX": 1726.378,
+        "startY": 4604.3307,
+        "endX": 1726.5748,
+        "endY": 4604.5276,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 492
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A0",
+        "layerId": 1,
+        "startX": 1726.378,
+        "startY": 4604.3307,
+        "endX": 1726.5748,
+        "endY": 4604.33075,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 492
+      },
+      "changedFields": [
+        "endY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "29046ebf54cdc5f5",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D29",
+        "layerId": 1,
+        "startX": 1692.0945,
+        "startY": 4382.7937,
+        "endX": 1708.6614,
+        "endY": 4399.3606,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 1476
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D29",
+        "layerId": 1,
+        "startX": 1692.9134,
+        "startY": 4382.7937,
+        "endX": 1708.6614,
+        "endY": 4399.3606,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 1476
+      },
+      "changedFields": [
+        "startX"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "47704872340467cc",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D29",
+        "layerId": 1,
+        "startX": 1691.9291,
+        "startY": 4284.4488,
+        "endX": 1692.0945,
+        "endY": 4284.6142,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 1479
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D29",
+        "layerId": 1,
+        "startX": 1691.9291,
+        "startY": 4284.4488,
+        "endX": 1692.9134,
+        "endY": 4284.6142,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 1479
+      },
+      "changedFields": [
+        "endX"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "9812f461c9a5af9a",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D29",
+        "layerId": 1,
+        "startX": 1692.0945,
+        "startY": 4284.6142,
+        "endX": 1692.0945,
+        "endY": 4382.7937,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 1513
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D29",
+        "layerId": 1,
+        "startX": 1692.9134,
+        "startY": 4284.6142,
+        "endX": 1692.9134,
+        "endY": 4382.7937,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 1513
+      },
+      "changedFields": [
+        "endX",
+        "startX"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "a2a2c1fc45da3946",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D30",
+        "layerId": 1,
+        "startX": 1498.0315,
+        "startY": 4415.148,
+        "endX": 1692.9134,
+        "endY": 4415.148,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 2025
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D30",
+        "layerId": 1,
+        "startX": 1498.0315,
+        "startY": 4415.35435,
+        "endX": 1692.9134,
+        "endY": 4415.35435,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 2025
+      },
+      "changedFields": [
+        "endY",
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "d49cbe4561a26629",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D30",
+        "layerId": 1,
+        "startX": 1692.9134,
+        "startY": 4415.148,
+        "endX": 1708.6614,
+        "endY": 4430.896,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2033
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D30",
+        "layerId": 1,
+        "startX": 1692.9134,
+        "startY": 4415.35435,
+        "endX": 1708.6614,
+        "endY": 4430.896,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2033
+      },
+      "changedFields": [
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "5fbc7255cb8177cb",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D30",
+        "layerId": 1,
+        "startX": 1448.6126,
+        "startY": 4415.148,
+        "endX": 1498.0315,
+        "endY": 4415.148,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2038
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D30",
+        "layerId": 1,
+        "startX": 1448.6126,
+        "startY": 4415.148,
+        "endX": 1498.0315,
+        "endY": 4415.35435,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2038
+      },
+      "changedFields": [
+        "endY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "5e524449434351bc",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A10",
+        "layerId": 1,
+        "startX": 1851.378,
+        "startY": 4573.8189,
+        "endX": 1851.2126,
+        "endY": 4573.6535,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2057
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A10",
+        "layerId": 1,
+        "startX": 1851.378,
+        "startY": 4573.8189,
+        "endX": 1851.2126,
+        "endY": 4572.83465,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2057
+      },
+      "changedFields": [
+        "endY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "6f2679c63ef53dfb",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A10",
+        "layerId": 1,
+        "startX": 1851.2126,
+        "startY": 4573.6535,
+        "endX": 1819.7165,
+        "endY": 4573.6535,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 2058
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A10",
+        "layerId": 1,
+        "startX": 1851.2126,
+        "startY": 4572.83465,
+        "endX": 1819.7165,
+        "endY": 4572.83465,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 2058
+      },
+      "changedFields": [
+        "endY",
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "c521f9be8e493945",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A10",
+        "layerId": 1,
+        "startX": 1819.7165,
+        "startY": 4573.6535,
+        "endX": 1803.1496,
+        "endY": 4557.0866,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2059
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "A10",
+        "layerId": 1,
+        "startX": 1819.7165,
+        "startY": 4572.83465,
+        "endX": 1803.1496,
+        "endY": 4557.0866,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2059
+      },
+      "changedFields": [
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "f9544c5e41fe13d8",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D1",
+        "layerId": 1,
+        "startX": 1992.126,
+        "startY": 4557.0866,
+        "endX": 2008.6519,
+        "endY": 4573.6126,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2984
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D1",
+        "layerId": 1,
+        "startX": 1992.126,
+        "startY": 4557.0866,
+        "endX": 2008.6519,
+        "endY": 4572.83465,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2984
+      },
+      "changedFields": [
+        "endY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "5c7064be98aa8e27",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D1",
+        "layerId": 1,
+        "startX": 2070.8661,
+        "startY": 4573.6126,
+        "endX": 2085.6299,
+        "endY": 4588.3763,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2999
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D1",
+        "layerId": 1,
+        "startX": 2070.8661,
+        "startY": 4572.83465,
+        "endX": 2085.6299,
+        "endY": 4588.3763,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 2999
+      },
+      "changedFields": [
+        "startY"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "ac014b365d587bca",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D1",
+        "layerId": 1,
+        "startX": 2008.6519,
+        "startY": 4573.6126,
+        "endX": 2070.8661,
+        "endY": 4573.6126,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 3041
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "D1",
+        "layerId": 1,
+        "startX": 2008.6519,
+        "startY": 4572.83465,
+        "endX": 2070.8661,
+        "endY": 4572.83465,
+        "width": 5.11811,
+        "locked": false,
+        "zIndex": 3041
+      },
+      "changedFields": [
+        "endY",
+        "startY"
+      ]
+    }
+  ],
+  "targetProof": [
+    {
+      "targetId": "086d18a33e12fec7",
+      "net": "A0",
+      "axis": "y",
+      "oldAxisMil": 4604.5276,
+      "newAxisMil": 4604.33075,
+      "translationMm": 0.004999990000006801,
+      "oldStartMil": [
+        1726.5748,
+        4604.5276
+      ],
+      "oldEndMil": [
+        1787.2047,
+        4604.5276
+      ],
+      "newStartMil": [
+        1726.5748,
+        4604.33075
+      ],
+      "newEndMil": [
+        1787.2047,
+        4604.33075
+      ],
+      "connectedNeighborIds": [
+        "0bb371de8a825f3a",
+        "cde13d11df37c532"
+      ]
+    },
+    {
+      "targetId": "9812f461c9a5af9a",
+      "net": "D29",
+      "axis": "x",
+      "oldAxisMil": 1692.0945,
+      "newAxisMil": 1692.9134,
+      "translationMm": 0.02080005999999962,
+      "oldStartMil": [
+        1692.0945,
+        4284.6142
+      ],
+      "oldEndMil": [
+        1692.0945,
+        4382.7937
+      ],
+      "newStartMil": [
+        1692.9134,
+        4284.6142
+      ],
+      "newEndMil": [
+        1692.9134,
+        4382.7937
+      ],
+      "connectedNeighborIds": [
+        "29046ebf54cdc5f5",
+        "47704872340467cc"
+      ]
+    },
+    {
+      "targetId": "a2a2c1fc45da3946",
+      "net": "D30",
+      "axis": "y",
+      "oldAxisMil": 4415.148,
+      "newAxisMil": 4415.35435,
+      "translationMm": 0.0052412899999866565,
+      "oldStartMil": [
+        1498.0315,
+        4415.148
+      ],
+      "oldEndMil": [
+        1692.9134,
+        4415.148
+      ],
+      "newStartMil": [
+        1498.0315,
+        4415.35435
+      ],
+      "newEndMil": [
+        1692.9134,
+        4415.35435
+      ],
+      "connectedNeighborIds": [
+        "5fbc7255cb8177cb",
+        "d49cbe4561a26629"
+      ]
+    },
+    {
+      "targetId": "6f2679c63ef53dfb",
+      "net": "A10",
+      "axis": "y",
+      "oldAxisMil": 4573.6535,
+      "newAxisMil": 4572.83465,
+      "translationMm": 0.02079879000001438,
+      "oldStartMil": [
+        1851.2126,
+        4573.6535
+      ],
+      "oldEndMil": [
+        1819.7165,
+        4573.6535
+      ],
+      "newStartMil": [
+        1851.2126,
+        4572.83465
+      ],
+      "newEndMil": [
+        1819.7165,
+        4572.83465
+      ],
+      "connectedNeighborIds": [
+        "5e524449434351bc",
+        "c521f9be8e493945"
+      ]
+    },
+    {
+      "targetId": "ac014b365d587bca",
+      "net": "D1",
+      "axis": "y",
+      "oldAxisMil": 4573.6126,
+      "newAxisMil": 4572.83465,
+      "translationMm": 0.019759930000015264,
+      "oldStartMil": [
+        2008.6519,
+        4573.6126
+      ],
+      "oldEndMil": [
+        2070.8661,
+        4573.6126
+      ],
+      "newStartMil": [
+        2008.6519,
+        4572.83465
+      ],
+      "newEndMil": [
+        2070.8661,
+        4572.83465
+      ],
+      "connectedNeighborIds": [
+        "5c7064be98aa8e27",
+        "f9544c5e41fe13d8"
+      ]
+    }
+  ],
+  "staticGeometryProof": {
+    "u4OriginalDrcRows": 38,
+    "u4RowsPassingAfterPadAndRoutePlan": 38,
+    "u4RowsFailing": [],
+    "perTargetNearestClearance": [
+      {
+        "targetId": "086d18a33e12fec7",
+        "net": "A0",
+        "routeIds": [
+          "086d18a33e12fec7",
+          "0bb371de8a825f3a",
+          "cde13d11df37c532"
+        ],
+        "minimumDifferentNetClearanceMm": 0.134998333000011,
+        "passesSelectedRule": false,
+        "nearestDifferentNetObjects": [
+          {
+            "id": "fa8a5d0f113c3ada",
+            "label": "LINE:fa8a5d0f113c3ada",
+            "net": "+3V3",
+            "clearanceMm": 0.134998333000011
+          },
+          {
+            "id": "c86ba01d59c2f57f",
+            "label": "LINE:c86ba01d59c2f57f",
+            "net": "GND",
+            "clearanceMm": 0.13549793829999854
+          },
+          {
+            "id": "3de4fa6d5f5df65ce29",
+            "label": "U4_E8",
+            "net": "D16",
+            "clearanceMm": 0.15500047300000566
+          },
+          {
+            "id": "3de4fa6d5f5df65ce30",
+            "label": "U4_E9",
+            "net": "GND",
+            "clearanceMm": 0.15500047300000566
+          },
+          {
+            "id": "3de4fa6d5f5df65ce35",
+            "label": "U4_F8",
+            "net": "FMC_NBL2",
+            "clearanceMm": 0.15500047300000566
+          },
+          {
+            "id": "3de4fa6d5f5df65ce36",
+            "label": "U4_F9",
+            "net": "+3V3",
+            "clearanceMm": 0.15500047300000566
+          },
+          {
+            "id": "0f9793dcbbcc1d91",
+            "label": "LINE:0f9793dcbbcc1d91",
+            "net": "FMC_NBL2",
+            "clearanceMm": 0.2600006230000013
+          },
+          {
+            "id": "54b28e3e2a611f47",
+            "label": "LINE:54b28e3e2a611f47",
+            "net": "D16",
+            "clearanceMm": 0.2600006230000013
+          }
+        ]
+      },
+      {
+        "targetId": "9812f461c9a5af9a",
+        "net": "D29",
+        "routeIds": [
+          "29046ebf54cdc5f5",
+          "47704872340467cc",
+          "9812f461c9a5af9a"
+        ],
+        "minimumDifferentNetClearanceMm": 0.13499960299999625,
+        "passesSelectedRule": false,
+        "nearestDifferentNetObjects": [
+          {
+            "id": "daf9f8125bbefc34",
+            "label": "LINE:daf9f8125bbefc34",
+            "net": "GND",
+            "clearanceMm": 0.13499960299999625
+          },
+          {
+            "id": "950b2622ec5d71db",
+            "label": "LINE:950b2622ec5d71db",
+            "net": "GND",
+            "clearanceMm": 0.13499960300000202
+          },
+          {
+            "id": "3de4fa6d5f5df65ce13",
+            "label": "U4_C1",
+            "net": "GND",
+            "clearanceMm": 0.15499920299999734
+          },
+          {
+            "id": "3de4fa6d5f5df65ce19",
+            "label": "U4_D1",
+            "net": "GND",
+            "clearanceMm": 0.1549992030000031
+          },
+          {
+            "id": "90f36b62cec55379",
+            "label": "VIA:90f36b62cec55379",
+            "net": "GND",
+            "clearanceMm": 0.17999920819999468
+          },
+          {
+            "id": "309ebe5df5b3de60",
+            "label": "VIA:309ebe5df5b3de60",
+            "net": "GND",
+            "clearanceMm": 0.17999920820000045
+          },
+          {
+            "id": "bfc12f1a823a7562",
+            "label": "LINE:bfc12f1a823a7562",
+            "net": "FMC_NBL3",
+            "clearanceMm": 0.2999997063540184
+          },
+          {
+            "id": "69e32bfe502873f2",
+            "label": "LINE:69e32bfe502873f2",
+            "net": "FMC_NBL3",
+            "clearanceMm": 0.3099992530000032
+          }
+        ]
+      },
+      {
+        "targetId": "a2a2c1fc45da3946",
+        "net": "D30",
+        "routeIds": [
+          "5fbc7255cb8177cb",
+          "a2a2c1fc45da3946",
+          "d49cbe4561a26629"
+        ],
+        "minimumDifferentNetClearanceMm": 0.13500087300001615,
+        "passesSelectedRule": false,
+        "nearestDifferentNetObjects": [
+          {
+            "id": "89b9b83ec57e92b3",
+            "label": "LINE:89b9b83ec57e92b3",
+            "net": "GND",
+            "clearanceMm": 0.13500087300001615
+          },
+          {
+            "id": "ba46ca6a0cf01552",
+            "label": "LINE:ba46ca6a0cf01552",
+            "net": "GND",
+            "clearanceMm": 0.13500087300001615
+          },
+          {
+            "id": "bba52bee3ce149e6",
+            "label": "LINE:bba52bee3ce149e6",
+            "net": "+3V3",
+            "clearanceMm": 0.14024089300100512
+          },
+          {
+            "id": "f56ae03bce7f86e0",
+            "label": "LINE:f56ae03bce7f86e0",
+            "net": "D25",
+            "clearanceMm": 0.14945220300001252
+          },
+          {
+            "id": "3de4fa6d5f5df65ce2",
+            "label": "U4_A2",
+            "net": "D24",
+            "clearanceMm": 0.15500047299998257
+          },
+          {
+            "id": "3de4fa6d5f5df65ce8",
+            "label": "U4_B2",
+            "net": "+3V3",
+            "clearanceMm": 0.15500047299998257
+          },
+          {
+            "id": "3de4fa6d5f5df65ce14",
+            "label": "U4_C2",
+            "net": "D27",
+            "clearanceMm": 0.15500047299998257
+          },
+          {
+            "id": "3de4fa6d5f5df65ce3",
+            "label": "U4_A3",
+            "net": "GND",
+            "clearanceMm": 0.1550004730000057
+          }
+        ]
+      },
+      {
+        "targetId": "6f2679c63ef53dfb",
+        "net": "A10",
+        "routeIds": [
+          "5e524449434351bc",
+          "6f2679c63ef53dfb",
+          "c521f9be8e493945"
+        ],
+        "minimumDifferentNetClearanceMm": 0.1550004730000057,
+        "passesSelectedRule": true,
+        "nearestDifferentNetObjects": [
+          {
+            "id": "3de4fa6d5f5df65ce46",
+            "label": "U4_H7",
+            "net": "",
+            "clearanceMm": 0.1550004730000057
+          },
+          {
+            "id": "3de4fa6d5f5df65ce47",
+            "label": "U4_H8",
+            "net": "A15",
+            "clearanceMm": 0.15500047300000572
+          },
+          {
+            "id": "831aab0a7ffce2be",
+            "label": "LINE:831aab0a7ffce2be",
+            "net": "A15",
+            "clearanceMm": 0.2600006230000014
+          },
+          {
+            "id": "3de4fa6d5f5df65ce53",
+            "label": "U4_J8",
+            "net": "SDNE1",
+            "clearanceMm": 0.27533136335291536
+          },
+          {
+            "id": "3de4fa6d5f5df65ce52",
+            "label": "U4_J7",
+            "net": "A14",
+            "clearanceMm": 0.2961790429902643
+          },
+          {
+            "id": "3de4fa6d5f5df65ce41",
+            "label": "U4_G8",
+            "net": "A0",
+            "clearanceMm": 0.32483446623877615
+          },
+          {
+            "id": "78ea81f6bb8760b0",
+            "label": "VIA:78ea81f6bb8760b0",
+            "net": "A2",
+            "clearanceMm": 0.335686954728897
+          },
+          {
+            "id": "2749e64ec76ea6c3",
+            "label": "VIA:2749e64ec76ea6c3",
+            "net": "FMC_NBL2",
+            "clearanceMm": 0.3710439755205693
+          }
+        ]
+      },
+      {
+        "targetId": "ac014b365d587bca",
+        "net": "D1",
+        "routeIds": [
+          "5c7064be98aa8e27",
+          "ac014b365d587bca",
+          "f9544c5e41fe13d8"
+        ],
+        "minimumDifferentNetClearanceMm": 0.12500289100748724,
+        "passesSelectedRule": false,
+        "nearestDifferentNetObjects": [
+          {
+            "id": "a4d99e5cae33d8f4",
+            "label": "LINE:a4d99e5cae33d8f4",
+            "net": "+3V3",
+            "clearanceMm": 0.12500289100748724
+          },
+          {
+            "id": "08bab84c49139f9e",
+            "label": "LINE:08bab84c49139f9e",
+            "net": "+3V3",
+            "clearanceMm": 0.13500087300001615
+          },
+          {
+            "id": "8be795786edc5cae",
+            "label": "LINE:8be795786edc5cae",
+            "net": "+3V3",
+            "clearanceMm": 0.13500087300001615
+          },
+          {
+            "id": "efa8ec8af5af8c4a",
+            "label": "LINE:efa8ec8af5af8c4a",
+            "net": "GND",
+            "clearanceMm": 0.13500087300001617
+          },
+          {
+            "id": "3de4fa6d5f5df65ce82",
+            "label": "U4_P7",
+            "net": "+3V3",
+            "clearanceMm": 0.1550004730000057
+          },
+          {
+            "id": "3de4fa6d5f5df65ce88",
+            "label": "U4_R7",
+            "net": "+3V3",
+            "clearanceMm": 0.1550004730000057
+          },
+          {
+            "id": "3de4fa6d5f5df65ce83",
+            "label": "U4_P8",
+            "net": "GND",
+            "clearanceMm": 0.15500047300000572
+          },
+          {
+            "id": "3de4fa6d5f5df65ce89",
+            "label": "U4_R8",
+            "net": "D0",
+            "clearanceMm": 0.15500047300000572
+          }
+        ]
+      }
+    ],
+    "allChangedRouteGroupsPassLineViaPadCheck": false,
+    "scope": "Top-layer LINE/VIA and component-pad copper; copper FILLs and ARC curves require native DRC/reclip verification."
+  },
+  "candidate": {
+    "path": "output\\candidates\\multilayer-route-clearance\\u4-bga-escape-route-candidate.epru",
+    "sha256": "7d8ba75049867dedfc28471bba902017afe09e6ae08cc452b5a8a84f5d9d05fa",
+    "bytes": 6396791
+  },
+  "applicationGate": {
+    "nativeProjectWriteAuthorized": false,
+    "requiresFullU4LibrarySourceUpdate": true,
+    "requiresNativeDrc": true,
+    "requiresFillReclip": true,
+    "requiresImpedanceAndLengthReview": true,
+    "manufacturingApproved": false
+  }
+}

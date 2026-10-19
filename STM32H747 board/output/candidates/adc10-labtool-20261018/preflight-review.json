@@ -1,0 +1,186 @@
+{
+  "schema": "adc10-labtool-preflight-20261018-v1",
+  "status": "preliminary_review_pending_bandwidth_choice",
+  "native_design_modified": false,
+  "native_library_modified": false,
+  "firmware_modified": false,
+  "manufacturing_approved": false,
+  "project_name": "STM32H747_MCU_BOARD_v19",
+  "project_uuid": "761c4fdb8e3e1a273a7eb212bd6961ba8b6efdb0e27d1b0c207735a7e696c24c",
+  "dedicated_window_id": "25441fd2-fc1e-49ec-800a-41d996a74f69",
+  "recovery_checkpoint": {
+    "path": "output\\checkpoints\\STM32H747_before_labtool_afe_20261018.epro2",
+    "bytes": 20762963,
+    "sha256": "5601a7f128d3d10c6be747b65f4492c2154734b674ef78127dc232373513b2d0"
+  },
+  "baseline_comparisons": {
+    "schematic": {
+      "previous_path": "output\\validation\\native-adc10-sch-reopened-20261017.epru",
+      "captured_path": "output\\validation\\native-adc10-sch-labtool_before-20261018.epru",
+      "previous_sha256": "2040eee2c98254060060ab6ed9f9184f7e80bcd0e7e0e87286471be3e5e6e402",
+      "captured_sha256": "beba5a88411269cfb8d433861903574fdce2c706aeb55ab6862c048dfa00f452",
+      "record_counts": {
+        "DOCHEAD": 1,
+        "CANVAS": 1,
+        "RECT": 1,
+        "POLY": 568,
+        "WIRE": 135,
+        "ATTR": 1934,
+        "LINE": 287,
+        "COMPONENT": 137,
+        "TEXT": 72
+      },
+      "excluded_types": [
+        "CANVAS",
+        "DOCHEAD"
+      ],
+      "changed_non_view_record_count": 0,
+      "changed_non_view_records": []
+    },
+    "pcb": {
+      "previous_path": "output\\validation\\native-adc10-pcb-routed_reopen_probe-20261018.epru",
+      "captured_path": "output\\validation\\native-adc10-pcb-labtool_before-20261018.epru",
+      "previous_sha256": "8731b8a06570881f4478c390aafc41f1c5c8486f1d1bfdf93695763e35c1e154",
+      "captured_sha256": "b540cccce8f7918785bd1bd021df1614419fe9290a9642e82aba02455ef540db",
+      "record_counts": {
+        "DOCHEAD": 1,
+        "CANVAS": 1,
+        "LAYER": 64,
+        "LAYER_PHYS": 17,
+        "ACTIVE_LAYER": 1,
+        "NET": 291,
+        "RULE_TEMPLATE": 1,
+        "RULE": 18,
+        "RULE_SELECTOR": 291,
+        "PRIMITIVE": 37,
+        "SILK_OPTS": 2,
+        "PREFERENCE": 1,
+        "PANELIZE": 1,
+        "VIA": 640,
+        "PAD": 4,
+        "LINE": 5659,
+        "ARC": 2184,
+        "FILL": 722,
+        "POLY": 500,
+        "STRING": 21,
+        "COMPONENT": 354,
+        "ATTR": 1062,
+        "PAD_NET": 1313
+      },
+      "excluded_types": [
+        "CANVAS",
+        "DOCHEAD"
+      ],
+      "changed_non_view_record_count": 0,
+      "changed_non_view_records": []
+    }
+  },
+  "scope": {
+    "connectors": [
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "J7",
+      "J8",
+      "J9",
+      "J10",
+      "J11"
+    ],
+    "channel_count": 10,
+    "preserve_mcu_pins": true,
+    "preserve_dc": true,
+    "ac_coupling": false,
+    "automatic_ground_switch": false,
+    "test_dac8562_access": false
+  },
+  "verified_power_inventory": {
+    "available_rails": [
+      "+5V",
+      "+3V3",
+      "+1V8",
+      "GND"
+    ],
+    "existing_negative_rail": false,
+    "adc_vdda_path": "+3V3 -> FB2 -> VDDA",
+    "adc_vref_positive_path": "VDDA -> R71 (0 ohm) -> VREF+",
+    "existing_bias_reference_is_adc_vref": false,
+    "opa320_total_supply_max_v": 5.5
+  },
+  "proposed_architecture_not_applied": [
+    "GND-referenced input with pulldown; no positive-bias resistor connected to SMA",
+    "DC-coupled bipolar-capable input buffer with adequate negative supply headroom",
+    "Post-buffer inverting attenuator/level shifter, low-noise filtered buffered offset",
+    "Per-channel ADC kickback isolation and charge reservoir, with settling verification",
+    "Review VDDA/VREF+ noise as well as offset-reference noise"
+  ],
+  "illustrative_dc_calculation_only": {
+    "rin_ohm": 4000.0,
+    "rf_ohm": 3000.0,
+    "reference_v": 2.5,
+    "divider_top_ohm": 16500.0,
+    "divider_bottom_ohm": 10000.0,
+    "vplus_v": 0.9433962264150944,
+    "gain_from_buffer": -0.75,
+    "adc_offset_v": 1.650943396226415,
+    "input_pulldown_ohm": 1000000.0,
+    "source_impedance_ohm": 50.0,
+    "source_loading_ratio": 0.999950002499875,
+    "points": [
+      {
+        "source_v": -2,
+        "adc_v": 3.1508683999762273
+      },
+      {
+        "source_v": 0,
+        "adc_v": 1.650943396226415
+      },
+      {
+        "source_v": 2,
+        "adc_v": 0.15101839247660265
+      }
+    ],
+    "open_input_adc_v_ideal": 1.650943396226415,
+    "open_input_sma_v_ideal": 0.0,
+    "polarity": "inverting; user firmware calibration must use this sign",
+    "offset_reference_noise_gain": 0.660377358490566,
+    "reference_divider_10uF_pole_hz_ideal": 2.556124843597107,
+    "not_validated": [
+      "component tolerances",
+      "temperature",
+      "startup",
+      "opamp models",
+      "overload protection",
+      "noise integration",
+      "filter response",
+      "layout",
+      "ERC",
+      "DRC"
+    ]
+  },
+  "pending_decision": {
+    "question": "Prioritize DC/60Hz low noise with several-kHz bandwidth, pass 1MHz, or use component-population alternatives?",
+    "existing_samples_per_second_per_channel": 15600,
+    "nyquist_hz": 7800,
+    "one_mhz_waveform_acquisition_supported_at_existing_sampling": false,
+    "native_application_must_wait_for_filter_and_driver_bandwidth_contract": true
+  },
+  "required_before_manufacturing": [
+    "final part and power budget selection",
+    "independent electrical review",
+    "10-channel schematic ERC and pin-net audit",
+    "PCB ECO with protected geometry preservation",
+    "full strict 18-rule DRC without waivers",
+    "reopened saved source and netlist verification",
+    "CAM and hardware validation"
+  ],
+  "primary_sources": {
+    "labtool": "https://github.com/embeddedartists/labtool",
+    "opa192_candidate": "https://www.ti.com/lit/ds/symlink/opa192.pdf",
+    "opa320_existing": "https://www.ti.com/lit/ds/symlink/opa320.pdf",
+    "reference_candidate": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+    "charge_pump_candidate": "https://www.ti.com/lit/ds/symlink/tps60403.pdf",
+    "analog_ldo_candidate": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+  }
+}

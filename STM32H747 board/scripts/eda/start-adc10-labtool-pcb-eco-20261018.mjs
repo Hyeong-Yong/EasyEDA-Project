@@ -1,0 +1,15 @@
+const root='C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board',uuid='0ac2a19168000d8e';
+const parse=s=>s.split(/\r?\n/).filter(x=>x.includes('||')).map(x=>{const p=x.indexOf('||'),v=x.slice(p+2).replace(/\|$/,'');return{h:JSON.parse(x.slice(0,p)),b:v?JSON.parse(v):''};});
+const canonical=v=>JSON.stringify(v,(_,q)=>q&&typeof q==='object'&&!Array.isArray(q)?Object.fromEntries(Object.entries(q).sort(([a],[b])=>a.localeCompare(b))):q);
+await eda.dmt_EditorControl.openDocument(uuid);
+if((await eda.dmt_SelectControl.getCurrentDocumentInfo())?.uuid!==uuid)throw new Error('Wrong dedicated PCB');
+const f=await eda.sys_FileSystem.readFileFromFileSystem(root+'/output/validation/native-adc10-pcb-labtool_before-20261018.epru');
+if(!f)throw new Error('Fresh protected PCB baseline absent');
+const baseline=parse(await f.text()),live=parse(await eda.sys_FileManager.getDocumentSource());
+const map=new Map(live.map(r=>[r.h.type+':'+r.h.id,r]));
+if(live.length!==baseline.length)throw new Error('PCB record count changed since protected baseline');
+for(const r of baseline)if(!['DOCHEAD','CANVAS','ACTIVE_LAYER','ELE_PLACEHOLDER'].includes(r.h.type)&&canonical(map.get(r.h.type+':'+r.h.id)?.b)!==canonical(r.b))throw new Error('Protected PCB changed '+r.h.type+':'+r.h.id);
+const started=Date.now(),result=await eda.pcb_Document.importChanges('416c10313f778784');
+const out=root+'/output/validation/native-adc10-labtool-eco-start-20261018.json';
+if(!await eda.sys_FileSystem.saveFileToFileSystem(out,new Blob([JSON.stringify({started,result,meaning:'Comparison workflow launched, NOT proof of applied ECO'},null,2)]),undefined,false))throw new Error('ECO start report not saved');
+return{result,path:out,meaning:'Inspect exact STM32 comparison and actual board before further writes'};

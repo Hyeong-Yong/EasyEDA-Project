@@ -1,0 +1,1851 @@
+{
+  "schema": "adc10-actual-native-placement-envelope-audit-20261018-v1",
+  "status": "PASS",
+  "sourcePath": "STM32H747 board\\output\\validation\\native-adc10-pcb-ref_courtyard-20261018.epru",
+  "sourceSha256": "5a7aa8d85268aac8c31347c53b1f236ea521b1d94dc2899157037839bf832668",
+  "liveCalls": 0,
+  "actualPartsScreened": 98,
+  "newParts": 34,
+  "originalPackageBodyVsConservativeNeighborEnvelopeConflicts": [],
+  "currentConservativeEnvelopeOverlaps": [],
+  "proposedThreeCapMovesMm": {
+    "C103": [
+      19.8,
+      78.6
+    ],
+    "C104": [
+      19.8,
+      75.5
+    ],
+    "C105": [
+      25.4,
+      74.1
+    ]
+  },
+  "afterThreeMovesEnvelopeOverlaps": [],
+  "new34EnvelopeInventory": [
+    {
+      "ref": "D2",
+      "componentId": "50d3ad89712e5179",
+      "xyMm": [
+        30.825000579999998,
+        72.27500149999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        29.900000575799996,
+        70.42500149159999,
+        31.7500005842,
+        74.12500150839999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "D3",
+      "componentId": "424de2a8fcb92fb1",
+      "xyMm": [
+        32.75000308,
+        72.26537997999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        31.825003075799998,
+        70.41537997159999,
+        33.67500308419999,
+        74.1153799884
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J2",
+      "componentId": "b921a22d4b7579ed",
+      "xyMm": [
+        4.50000116,
+        139.99999939999998
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        135.84999939419995,
+        8.650001165800001,
+        144.1499994058
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J3",
+      "componentId": "afef66d437b67df9",
+      "xyMm": [
+        4.50000116,
+        125.99999946
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        121.8499994542,
+        8.650001165800001,
+        130.14999946580002
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J4",
+      "componentId": "0b5fac9098dce533",
+      "xyMm": [
+        4.50000116,
+        111.99999952
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        107.84999951420001,
+        8.650001165800001,
+        116.1499995258
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J5",
+      "componentId": "a720c263d59d27d0",
+      "xyMm": [
+        4.50000116,
+        97.99999958
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        93.8499995742,
+        8.650001165800001,
+        102.14999958579999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J6",
+      "componentId": "c8db40735c04cd92",
+      "xyMm": [
+        4.50000116,
+        83.99999964
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        79.8499996342,
+        8.650001165800001,
+        88.1499996458
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J7",
+      "componentId": "1772c366e461a031",
+      "xyMm": [
+        4.50000116,
+        69.99999969999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        65.8499996942,
+        8.650001165800001,
+        74.14999970579998
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J8",
+      "componentId": "8b88019d0dcca1ab",
+      "xyMm": [
+        4.50000116,
+        55.99999976
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        51.849999754200006,
+        8.650001165800001,
+        60.1499997658
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J9",
+      "componentId": "f26bff9701d0729d",
+      "xyMm": [
+        4.50000116,
+        41.99999982
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        37.849999814200004,
+        8.650001165800001,
+        46.149999825799995
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J10",
+      "componentId": "f09a8f99f71c453e",
+      "xyMm": [
+        4.50000116,
+        27.99999988
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        23.849999874199998,
+        8.650001165800001,
+        32.1499998858
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "J11",
+      "componentId": "fd77caf2157b0c36",
+      "xyMm": [
+        4.50000116,
+        13.99999994
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        0.35000115420000005,
+        9.8499999342,
+        8.650001165800001,
+        18.1499999458
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R68",
+      "componentId": "5b93534d0f6fead5",
+      "xyMm": [
+        30.825000579999998,
+        69.2500012
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        30.3250005894,
+        68.2800012096,
+        31.325000570599997,
+        70.2200011904
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R69",
+      "componentId": "90712463b0637e71",
+      "xyMm": [
+        32.75000308,
+        69.24538347999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        32.2500030894,
+        68.27538348959999,
+        33.250003070599995,
+        70.21538347039998
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP1",
+      "componentId": "a1ee0cf3db67c445",
+      "xyMm": [
+        19.399999299999998,
+        141.19999954
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        140.44009836637082,
+        20.160000319999998,
+        141.95990071362917
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP2",
+      "componentId": "bcf60ae9058386cb",
+      "xyMm": [
+        19.399999299999998,
+        127.19000216
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        126.4301009863708,
+        20.160000319999998,
+        127.94990333362921
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP3",
+      "componentId": "4fa0b8862303e26c",
+      "xyMm": [
+        19.399999299999998,
+        113.22500088
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        112.4650997063708,
+        20.160000319999998,
+        113.9849020536292
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP4",
+      "componentId": "2016dd04179d4a92",
+      "xyMm": [
+        19.399999299999998,
+        99.21500096
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        98.4550997863708,
+        20.160000319999998,
+        99.9749021336292
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP5",
+      "componentId": "5ac7c35dfd2d4d9b",
+      "xyMm": [
+        19.399999299999998,
+        85.21500102
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        84.4550998463708,
+        20.160000319999998,
+        85.9749021936292
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP6",
+      "componentId": "52391193a121b2e9",
+      "xyMm": [
+        19.399999299999998,
+        71.21500108000001
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        70.4550999063708,
+        20.160000319999998,
+        71.97490225362921
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP7",
+      "componentId": "53fba35fdf6dbb19",
+      "xyMm": [
+        19.399999299999998,
+        57.22500112
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        56.46509994637081,
+        20.160000319999998,
+        57.98490229362919
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP8",
+      "componentId": "a6ed66c6195ce69c",
+      "xyMm": [
+        19.399999299999998,
+        43.215001199999996
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        42.45510002637081,
+        20.160000319999998,
+        43.974902373629185
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP9",
+      "componentId": "bfc940966732b1c2",
+      "xyMm": [
+        19.399999299999998,
+        29.25499864
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        28.49509746637081,
+        20.160000319999998,
+        30.01489981362919
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "TP10",
+      "componentId": "89ccc18768ca7560",
+      "xyMm": [
+        19.399999299999998,
+        15.22499876
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        18.639998279999997,
+        14.46509758637081,
+        20.160000319999998,
+        15.98489993362919
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C97",
+      "componentId": "eea530b12b3d6f40",
+      "xyMm": [
+        15.799998879999999,
+        136.90000052
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        135.95000051499997,
+        16.2999988706,
+        137.850000525
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C98",
+      "componentId": "a98e8e75624cbb46",
+      "xyMm": [
+        15.799998879999999,
+        122.90000058
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        121.950000575,
+        16.2999988706,
+        123.85000058499999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C99",
+      "componentId": "999e9dd81bd08253",
+      "xyMm": [
+        15.799998879999999,
+        108.90000064
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        107.95000063500001,
+        16.2999988706,
+        109.850000645
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C100",
+      "componentId": "b34bdc3c5fee4f8b",
+      "xyMm": [
+        21.99999918,
+        138.94999896
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        138.44999896939999,
+        22.949999185,
+        139.4499989506
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C101",
+      "componentId": "f604eebb81922842",
+      "xyMm": [
+        21.99999918,
+        124.94999901999999
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        124.44999902939999,
+        22.949999185,
+        125.4499990106
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C102",
+      "componentId": "2bbbedecdf317c38",
+      "xyMm": [
+        21.99999918,
+        110.94999908
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        110.4499990894,
+        22.949999185,
+        111.4499990706
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C103",
+      "componentId": "22492dfdcfa7b019",
+      "xyMm": [
+        19.800001039999998,
+        78.60000027999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        19.200001046199997,
+        77.25000028759999,
+        20.4000010338,
+        79.95000027239999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C104",
+      "componentId": "a4b01fa7718db686",
+      "xyMm": [
+        19.800001039999998,
+        75.49999886
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        19.000000049199997,
+        73.8999988596,
+        20.6000020308,
+        77.0999988604
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C105",
+      "componentId": "99c01e17dc7584e0",
+      "xyMm": [
+        25.4,
+        74.09999911999999
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        24.9000000094,
+        73.149999115,
+        25.899999990599998,
+        75.04999912499999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C106",
+      "componentId": "0255eedec1ab23fe",
+      "xyMm": [
+        15.799998879999999,
+        94.90000069999999
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        93.950000695,
+        16.2999988706,
+        95.85000070499999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C107",
+      "componentId": "f468151047bb41d3",
+      "xyMm": [
+        15.799998879999999,
+        80.90000076
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        79.950000755,
+        16.2999988706,
+        81.85000076499999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C108",
+      "componentId": "6e3576eff4f908ef",
+      "xyMm": [
+        15.799998879999999,
+        66.90000081999999
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        65.950000815,
+        16.2999988706,
+        67.85000082499998
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C109",
+      "componentId": "bfd16e6dbe4388a0",
+      "xyMm": [
+        15.799998879999999,
+        52.90000088
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        51.950000875,
+        16.2999988706,
+        53.850000885
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C110",
+      "componentId": "18ed44c7a7f0e082",
+      "xyMm": [
+        15.799998879999999,
+        38.90000094
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        37.950000935,
+        16.2999988706,
+        39.850000945
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C111",
+      "componentId": "877d2677cfaf6259",
+      "xyMm": [
+        15.799998879999999,
+        24.900001
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        23.950000995,
+        16.2999988706,
+        25.850001005
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C112",
+      "componentId": "86aa8424dbcbfcee",
+      "xyMm": [
+        15.799998879999999,
+        10.90000106
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        15.299998889399998,
+        9.950001054999998,
+        16.2999988706,
+        11.850001065
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C113",
+      "componentId": "e2f3db272f27b23e",
+      "xyMm": [
+        21.99999918,
+        96.94999913999999
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        96.44999914939999,
+        22.949999185,
+        97.44999913059999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C114",
+      "componentId": "0033437ab8137387",
+      "xyMm": [
+        21.99999918,
+        82.9499992
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        82.44999920939999,
+        22.949999185,
+        83.4499991906
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C115",
+      "componentId": "401f0e8d6a22c3b0",
+      "xyMm": [
+        21.99999918,
+        68.94999926
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        68.4499992694,
+        22.949999185,
+        69.4499992506
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C116",
+      "componentId": "b6a2f30d98601684",
+      "xyMm": [
+        21.99999918,
+        54.949999319999996
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        54.4499993294,
+        22.949999185,
+        55.44999931059999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C117",
+      "componentId": "35ca952e41414ea7",
+      "xyMm": [
+        21.99999918,
+        40.94999938
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        40.449999389400006,
+        22.949999185,
+        41.4499993706
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C118",
+      "componentId": "4499ce70d762c342",
+      "xyMm": [
+        21.99999918,
+        26.94999944
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        26.4499994494,
+        22.949999185,
+        27.4499994306
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "C119",
+      "componentId": "c4e75a995045150a",
+      "xyMm": [
+        21.99999918,
+        12.949999499999999
+      ],
+      "angle": 180,
+      "envelopeMm": [
+        21.049999175,
+        12.449999509399998,
+        22.949999185,
+        13.4499994906
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": true
+    },
+    {
+      "ref": "U9",
+      "componentId": "85ce966462706f54",
+      "xyMm": [
+        22.999999719999998,
+        77.00000093999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        20.8749997282,
+        75.17500093239998,
+        25.124999711799997,
+        78.8250009476
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        22.299999722999996,
+        75.4900009374,
+        23.699999717,
+        78.51000094259999
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U10",
+      "componentId": "90f01c582fa9048f",
+      "xyMm": [
+        18.8000005,
+        137.99999832
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        136.17499831240002,
+        20.9250004918,
+        139.82499832759999
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        136.4999983228,
+        19.6500005018,
+        139.4999983172
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U11",
+      "componentId": "2f5e13909cc52aa0",
+      "xyMm": [
+        18.8000005,
+        123.99999838
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        122.17499837239998,
+        20.9250004918,
+        125.8249983876
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        122.4999983828,
+        19.6500005018,
+        125.49999837719999
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U12",
+      "componentId": "5632682afac84b4f",
+      "xyMm": [
+        18.8000005,
+        109.99999844
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        108.17499843239999,
+        20.9250004918,
+        111.82499844760001
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        108.4999984428,
+        19.6500005018,
+        111.49999843719999
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U13",
+      "componentId": "7171a481791815b3",
+      "xyMm": [
+        18.8000005,
+        95.9999985
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        94.1749984924,
+        20.9250004918,
+        97.82499850760001
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        94.49999850280001,
+        19.6500005018,
+        97.4999984972
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U14",
+      "componentId": "deb64f5e0ed4bd2b",
+      "xyMm": [
+        18.8000005,
+        81.99999856
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        80.17499855239998,
+        20.9250004918,
+        83.8249985676
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        80.4999985628,
+        19.6500005018,
+        83.49999855719999
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U15",
+      "componentId": "1e53cb97dd774e37",
+      "xyMm": [
+        18.8000005,
+        67.99999862
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        66.17499861239999,
+        20.9250004918,
+        69.82499862760001
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        66.4999986228,
+        19.6500005018,
+        69.49999861719999
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U16",
+      "componentId": "4666c1618fc027f1",
+      "xyMm": [
+        18.8000005,
+        53.99999868
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        52.1749986724,
+        20.9250004918,
+        55.824998687599994
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        52.4999986828,
+        19.6500005018,
+        55.4999986772
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U17",
+      "componentId": "aa8c486101280833",
+      "xyMm": [
+        18.8000005,
+        39.99999874
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        38.174998732400006,
+        20.9250004918,
+        41.8249987476
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        38.4999987428,
+        19.6500005018,
+        41.4999987372
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U18",
+      "componentId": "414448f141bf24a6",
+      "xyMm": [
+        18.8000005,
+        25.999998799999997
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        24.174998792399997,
+        20.9250004918,
+        27.824998807599997
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        24.499998802799997,
+        19.6500005018,
+        27.499998797199996
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "U19",
+      "componentId": "cc730f0914480653",
+      "xyMm": [
+        18.8000005,
+        11.99999886
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        16.6750005082,
+        10.1749988524,
+        20.9250004918,
+        13.8249988676
+      ],
+      "envelopeOrigin": "Native layer48 package courtyard",
+      "nativePackageBodyMm": [
+        17.950000498199998,
+        10.499998862799998,
+        19.6500005018,
+        13.499998857200001
+      ],
+      "newPart": true
+    },
+    {
+      "ref": "C80",
+      "componentId": "518aa576dd1f4a0e",
+      "xyMm": [
+        16.00000102,
+        141.68000112
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        140.73000111499996,
+        16.5000010106,
+        142.630001125
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C81",
+      "componentId": "1fc19d9011b0d2c7",
+      "xyMm": [
+        16.00000102,
+        127.67000119999999
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        126.720001195,
+        16.5000010106,
+        128.620001205
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C82",
+      "componentId": "f2c0f427d4d6b785",
+      "xyMm": [
+        16.00000102,
+        113.70499992
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        112.75499991500001,
+        16.5000010106,
+        114.654999925
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C86",
+      "componentId": "521960cee1879019",
+      "xyMm": [
+        16.00000102,
+        99.695
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        98.744999995,
+        16.5000010106,
+        100.64500000499999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C87",
+      "componentId": "3fd1d2dd2ba483fc",
+      "xyMm": [
+        16.00000102,
+        85.69500006
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        84.745000055,
+        16.5000010106,
+        86.64500006499999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C88",
+      "componentId": "c4522a5d4858d2e5",
+      "xyMm": [
+        16.00000102,
+        71.69500012
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        70.74500011500001,
+        16.5000010106,
+        72.645000125
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C93",
+      "componentId": "d73bedd5072ec1a9",
+      "xyMm": [
+        16.00000102,
+        57.70500015999999
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        56.75500015499999,
+        16.5000010106,
+        58.65500016499999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C94",
+      "componentId": "8b84e0ff9041f44b",
+      "xyMm": [
+        16.00000102,
+        43.69500024
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        42.745000235,
+        16.5000010106,
+        44.645000245
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C95",
+      "componentId": "32cf88e1aaf87f50",
+      "xyMm": [
+        16.00000102,
+        29.73500022
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        28.785000215,
+        16.5000010106,
+        30.685000225
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "C96",
+      "componentId": "3852588fa8b5215f",
+      "xyMm": [
+        16.00000102,
+        15.70500034
+      ],
+      "angle": -90,
+      "envelopeMm": [
+        15.500001029399998,
+        14.755000334999998,
+        16.5000010106,
+        16.655000345
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R137",
+      "componentId": "8a92a6903fad3d44",
+      "xyMm": [
+        13.85000024,
+        141.70999851999997
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        140.73999852959997,
+        14.350000230600001,
+        142.67999851039997
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R138",
+      "componentId": "056457acff55658f",
+      "xyMm": [
+        13.85000024,
+        127.70000114000001
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        126.73000114960001,
+        14.350000230600001,
+        128.6700011304
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R139",
+      "componentId": "f1f0a171beb96e49",
+      "xyMm": [
+        13.85000024,
+        113.73499986
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        112.7649998696,
+        14.350000230600001,
+        114.7049998504
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R140",
+      "componentId": "20a99bbc9bb90724",
+      "xyMm": [
+        9.99000034,
+        139.99999939999998
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        139.49999940939998,
+        10.960000330400002,
+        140.49999939059998
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R141",
+      "componentId": "047c16e9ef60374e",
+      "xyMm": [
+        15.489999499999998,
+        139.99999939999998
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        139.49999940939998,
+        16.459999490399998,
+        140.49999939059998
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R142",
+      "componentId": "79fa2038c0b2e94d",
+      "xyMm": [
+        9.99000034,
+        125.99999946
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        125.4999994694,
+        10.960000330400002,
+        126.4999994506
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R143",
+      "componentId": "743ca6117153a8c1",
+      "xyMm": [
+        15.489999499999998,
+        125.99999946
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        125.4999994694,
+        16.459999490399998,
+        126.4999994506
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R144",
+      "componentId": "d38facf9b00933e0",
+      "xyMm": [
+        9.99000034,
+        111.99999952
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        111.4999995294,
+        10.960000330400002,
+        112.4999995106
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R145",
+      "componentId": "c0ed52da64856bf2",
+      "xyMm": [
+        15.489999499999998,
+        111.99999952
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        111.4999995294,
+        16.459999490399998,
+        112.4999995106
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R149",
+      "componentId": "94c9c42258f439eb",
+      "xyMm": [
+        13.85000024,
+        99.72499993999999
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        98.75499994959999,
+        14.350000230600001,
+        100.69499993039999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R150",
+      "componentId": "ffdedb1654ccafa3",
+      "xyMm": [
+        13.85000024,
+        85.725
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        84.7550000096,
+        14.350000230600001,
+        86.69499999039999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R151",
+      "componentId": "311f8fa91efe7cea",
+      "xyMm": [
+        13.85000024,
+        71.72500006
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        70.7550000696,
+        14.350000230600001,
+        72.6950000504
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R152",
+      "componentId": "0cfcccb21ad194d1",
+      "xyMm": [
+        9.99000034,
+        97.99999958
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        97.49999958939999,
+        10.960000330400002,
+        98.4999995706
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R153",
+      "componentId": "49e342f159db65a5",
+      "xyMm": [
+        15.489999499999998,
+        97.99999958
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        97.49999958939999,
+        16.459999490399998,
+        98.4999995706
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R154",
+      "componentId": "10623a5221c701cb",
+      "xyMm": [
+        9.99000034,
+        83.99999964
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        83.4999996494,
+        10.960000330400002,
+        84.4999996306
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R155",
+      "componentId": "3dc54e75e0dc9fd2",
+      "xyMm": [
+        15.489999499999998,
+        83.99999964
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        83.4999996494,
+        16.459999490399998,
+        84.4999996306
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R156",
+      "componentId": "c8843ac1a0a2212f",
+      "xyMm": [
+        9.99000034,
+        69.99999969999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        69.49999970939999,
+        10.960000330400002,
+        70.49999969059999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R157",
+      "componentId": "105b1c33cd069109",
+      "xyMm": [
+        15.489999499999998,
+        69.99999969999999
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        69.49999970939999,
+        16.459999490399998,
+        70.49999969059999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R161",
+      "componentId": "b8fb6fc7d8f12dec",
+      "xyMm": [
+        13.85000024,
+        57.7350001
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        56.7650001096,
+        14.350000230600001,
+        58.7050000904
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R162",
+      "componentId": "41739d5247754b09",
+      "xyMm": [
+        13.85000024,
+        43.725000179999995
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        42.7550001896,
+        14.350000230600001,
+        44.69500017039999
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R163",
+      "componentId": "2941b0f97fcf9813",
+      "xyMm": [
+        13.85000024,
+        29.73500022
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        28.7650002296,
+        14.350000230600001,
+        30.7050002104
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R164",
+      "componentId": "32d1b9056f08dfce",
+      "xyMm": [
+        13.85000024,
+        15.685000379999998
+      ],
+      "angle": 90,
+      "envelopeMm": [
+        13.350000249399999,
+        14.715000389599997,
+        14.350000230600001,
+        16.6550003704
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R165",
+      "componentId": "92a99cca9f2372ea",
+      "xyMm": [
+        9.99000034,
+        55.99999976
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        55.499999769400006,
+        10.960000330400002,
+        56.4999997506
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R166",
+      "componentId": "1e00d9d7c6577d11",
+      "xyMm": [
+        15.489999499999998,
+        55.99999976
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        55.499999769400006,
+        16.459999490399998,
+        56.4999997506
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R167",
+      "componentId": "aae6cbc06e6cc184",
+      "xyMm": [
+        9.99000034,
+        41.99999982
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        41.499999829400004,
+        10.960000330400002,
+        42.499999810599995
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R168",
+      "componentId": "56bd79a9b0feb168",
+      "xyMm": [
+        15.489999499999998,
+        41.99999982
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        41.499999829400004,
+        16.459999490399998,
+        42.499999810599995
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R169",
+      "componentId": "50b7feb148227762",
+      "xyMm": [
+        9.99000034,
+        27.99999988
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        27.4999998894,
+        10.960000330400002,
+        28.4999998706
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R170",
+      "componentId": "b9b66083d3921084",
+      "xyMm": [
+        15.489999499999998,
+        27.99999988
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        27.4999998894,
+        16.459999490399998,
+        28.4999998706
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R171",
+      "componentId": "823d3701ffc07621",
+      "xyMm": [
+        9.99000034,
+        13.99999994
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        9.020000349599998,
+        13.4999999494,
+        10.960000330400002,
+        14.499999930600001
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    },
+    {
+      "ref": "R172",
+      "componentId": "a8c4a972655e9521",
+      "xyMm": [
+        15.489999499999998,
+        13.99999994
+      ],
+      "angle": 0,
+      "envelopeMm": [
+        14.519999509599996,
+        13.4999999494,
+        16.459999490399998,
+        14.499999930600001
+      ],
+      "envelopeOrigin": "Conservative imported silk drawing envelope (not claimed factory courtyard)",
+      "nativePackageBodyMm": null,
+      "newPart": false
+    }
+  ],
+  "conclusion": "No overlap of native courtyards/imported drawing envelopes or native assembly bodies.",
+  "correctionWouldPreservePartValuesPinsNets": true,
+  "doNotChangeFrozen204LineBatchMidExecution": true,
+  "manufacturingReady": false
+}

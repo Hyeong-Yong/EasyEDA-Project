@@ -1,0 +1,101 @@
+{
+  "schema": "independent-old-ref-3v3-six-branch-audit-20261018",
+  "status": "PASS",
+  "nativeCalls": 0,
+  "baselineSha256": "b540cccce8f7918785bd1bd021df1614419fe9290a9642e82aba02455ef540db",
+  "actualEcoSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "exactSixBodiesMatchBaselineAndActual": true,
+  "deletedLineIds": [
+    "0074ee2853c5f528",
+    "894fec9d56a4bbbf",
+    "8bed767bd15efcb1",
+    "8f2d79e61b91a9c3",
+    "bdbacbd270c676c0",
+    "c38941e71664641b"
+  ],
+  "branchBoundsMm": [
+    19.647601039999998,
+    77.67260055999999,
+    23.65240126,
+    82.35240069999999
+  ],
+  "padContacts": [
+    {
+      "ref": "C103",
+      "pin": "1",
+      "areaMm2": 0.26122057427100354,
+      "centerMm": [
+        19.800001039999998,
+        77.8250002806
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "areaMm2": 0.23491133062536992,
+      "centerMm": [
+        21.949999711799997,
+        77.950000945
+      ]
+    }
+  ],
+  "viaContacts": [],
+  "otherCopperContacts": [
+    {
+      "kind": "LINE",
+      "id": "92c4b056c6ed62be",
+      "net": "+3V3",
+      "startMm": [
+        23.50000126,
+        87.55000016
+      ],
+      "endMm": [
+        23.50000126,
+        82.20000069999999
+      ],
+      "contactBoundsMm": [
+        23.34760126,
+        82.04760069999999,
+        23.65240126,
+        82.35240069999999
+      ]
+    },
+    {
+      "kind": "LINE",
+      "id": "ed4e9fc7355bbc7a",
+      "net": "+3V3",
+      "startMm": [
+        23.50000126,
+        82.20000069999999
+      ],
+      "endMm": [
+        21.52000014,
+        82.20000069999999
+      ],
+      "contactBoundsMm": [
+        23.34760126,
+        82.04760069999999,
+        23.65240126,
+        82.35240069999999
+      ]
+    }
+  ],
+  "contactsOnlyOldU9InputAndC103Input": true,
+  "remainingCopperOnlyContactAtRetainedTee": true,
+  "retainedTeeGlobalSolidReachedPads": [
+    {
+      "ref": "C114",
+      "pin": "1"
+    },
+    {
+      "ref": "U14",
+      "pin": "5"
+    }
+  ],
+  "opa320U14Pin5RetainedReach": true,
+  "allOtherOldCopperUnchangedByThisPlan": true,
+  "limits": [
+    "Read-only geometry ownership proof; actual nativeoperations require exactfullbodyguards and postapply DRC/netlist.",
+    "Reference NC/power assignments changedbyECO; these sixphysicalbranchtraces still carryold+3V3 and mustnotcontactnewREF5025 NCpads."
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "schema": "adc10-offline-source-visual-review-20261017-v1",
+  "passed": true,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-dc-buffer-20261017\\06_ADC_TIMER_DAC_adc10_candidate.epru",
+  "sourceSha256": "2465cf49c7a91d2809a6aa050d1ca9fcbfbdebfefc42731f4fb43e02f7d842eb",
+  "renderer": "Exact saved project SYMBOL vectors plus candidate source, independent offline SVG/PNG; not native EasyEDA SVG export",
+  "reviewedFiles": [
+    "adc10-proposed-source-visual-qa.png",
+    "adc10-proposed-adc1-bank.png",
+    "adc10-proposed-adc2-bank.png",
+    "adc10-proposed-adc3-bank.png",
+    "adc10-proposed-reference-context.png",
+    "adc10-proposed-timer-dac-context.png",
+    "adc10-proposed-notes-j18-context.png"
+  ],
+  "manualFindings": {
+    "all10InputPathsContinuousAndReadable": true,
+    "all10MixersHaveSingleVisibleJunctionDot": true,
+    "all10FeedbackLoopsClearBelowOpamp": true,
+    "all7DnpGrayGlyphsAndNcOverlaysGone": true,
+    "noFloatingLegacyJunctionDots": true,
+    "allReferencesValuesAndAdcPortMcuLabelsLegible": true,
+    "threeBankGrouping3_3_4FitsA3Frame": true,
+    "rightmostAdc3PortFitsFrame": true,
+    "timerPlus95yAndDacMcoPlus100yReadable": true,
+    "noNewJ18OrReferenceOverlap": true,
+    "referenceTwoTextCaptionChangesLegible": true,
+    "lowerLeftNotesStateNoFloatingDetector": true
+  },
+  "exact30ChannelJunctionDotChecks": [
+    {
+      "role": "mixer",
+      "point": [
+        280,
+        190
+      ],
+      "dotId": "5d3539a0d85a5707"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        400,
+        200
+      ],
+      "dotId": "712b2e6658357393"
+    },
+    {
+      "role": "adc",
+      "point": [
+        455,
+        200
+      ],
+      "dotId": "430d4377cb89570b"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        615,
+        190
+      ],
+      "dotId": "bdced2d64cfe5504"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        735,
+        200
+      ],
+      "dotId": "8a002150af0c686a"
+    },
+    {
+      "role": "adc",
+      "point": [
+        790,
+        200
+      ],
+      "dotId": "5872a8a14c3d5637"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        945,
+        190
+      ],
+      "dotId": "cff6485ff8d95dff"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        1065,
+        200
+      ],
+      "dotId": "c84808a69ba33c53"
+    },
+    {
+      "role": "adc",
+      "point": [
+        1120,
+        200
+      ],
+      "dotId": "3b0e506a04b057b1"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        280,
+        360
+      ],
+      "dotId": "48df78ff2e555fde"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        400,
+        370
+      ],
+      "dotId": "19a4c33cc05400b0"
+    },
+    {
+      "role": "adc",
+      "point": [
+        455,
+        370
+      ],
+      "dotId": "fdb11b1316a65b45"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        615,
+        360
+      ],
+      "dotId": "c0c8369848f85a5d"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        735,
+        370
+      ],
+      "dotId": "f2146b8b3696824c"
+    },
+    {
+      "role": "adc",
+      "point": [
+        790,
+        370
+      ],
+      "dotId": "b45e2aad15e058e5"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        945,
+        360
+      ],
+      "dotId": "710c9345c7565802"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        1065,
+        370
+      ],
+      "dotId": "15fed70d632d6dab"
+    },
+    {
+      "role": "adc",
+      "point": [
+        1120,
+        370
+      ],
+      "dotId": "c5823f455be45862"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        280,
+        530
+      ],
+      "dotId": "300f56dbbb6350ae"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        400,
+        540
+      ],
+      "dotId": "9b91a92d02199a2c"
+    },
+    {
+      "role": "adc",
+      "point": [
+        455,
+        540
+      ],
+      "dotId": "271a44a5b23352d8"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        615,
+        530
+      ],
+      "dotId": "9a13c3cb2668548f"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        735,
+        540
+      ],
+      "dotId": "0439153c25bb8a50"
+    },
+    {
+      "role": "adc",
+      "point": [
+        790,
+        540
+      ],
+      "dotId": "88eba56fd21a51a5"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        945,
+        530
+      ],
+      "dotId": "5a34721371d753ea"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        1065,
+        540
+      ],
+      "dotId": "c4d2559c8755d6b2"
+    },
+    {
+      "role": "adc",
+      "point": [
+        1120,
+        540
+      ],
+      "dotId": "6d2d02d6e0855050"
+    },
+    {
+      "role": "mixer",
+      "point": [
+        1285,
+        530
+      ],
+      "dotId": "8b53dbd2b123598a"
+    },
+    {
+      "role": "feedback",
+      "point": [
+        1405,
+        540
+      ],
+      "dotId": "e331a78baa9efed1"
+    },
+    {
+      "role": "adc",
+      "point": [
+        1460,
+        540
+      ],
+      "dotId": "28eab7575ff656ac"
+    }
+  ],
+  "allPageJunctionCircleCount": 39,
+  "orphanJunctionCircles": [],
+  "nativeErcAndNetlistRequiredAfterApplication": true,
+  "rawZeroDetectorAdded": false,
+  "pcbApplied": false,
+  "manufacturingApproval": false
+}

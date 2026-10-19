@@ -1,0 +1,79 @@
+{
+  "a1d7888349e74585": {
+    "beforeBodySha256": "4a7b3eb02622f1171b1b74dbbfaac17f54f53b29c56ffb3525e49af8ecff95c6",
+    "sourceSha256Required": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+    "allowedOuterActorKeys": [
+      "REF_PLUS_PORT",
+      "RAW5_R197_PORT",
+      "RAW5_BRIDGE_006",
+      "RAW5_BILAYER_EXTRA_VIA_1"
+    ],
+    "authorization": "Parent explicitly conditionally approved these four exact actor-mask unions on this original Bottom GND FILL only after review0635b30313ef9a2c6ed402ad6ed488c131e7068b803c5d669f76dfc4baa8645b. Additional outer actor or geometry changes require separate review. This is not board-outline or mechanical authorization. Preserve native outer vertices/edges outside these masks, all12old holes and local lobes; require Cuaddition0/outsideMaskRemoval0 and final345GND MCUVSS reach. Parent separately approved the exact frozenV2 RAW5_BILAYER_EXTRA_VIA_2(29.4,33.8),diameter.45/hole.20,clearance.17 mask joining these four masks. Additional ear removal0.0227637806385mm2 was specifically reviewed in2f9d7abe3cf5197c6a8599450e80d6c6e934b4e0a1e3f93cfefe41f43a92982e. No unapproved actor or generic numerical-sliver waiver.",
+    "expectedActors": {
+      "RAW5_BRIDGE_006": {
+        "kind": "LINE",
+        "net": "+5V",
+        "copperPathsSha256": "b2a1c5628dcf213887b369a897142d1073a7b74fe264ca4d08db3fa75946bbc0",
+        "maskSha256": "0b73d07f9ae4f0601b5e381d376ad12b03dbf548a2852c7d9c065ef856f73b73"
+      },
+      "RAW5_BILAYER_EXTRA_VIA_1": {
+        "kind": "VIA",
+        "net": "+5V",
+        "copperPathsSha256": "730a59216c8901d42c124bc16fcb780f51fade5c9036752cb39bbba8828e8060",
+        "maskSha256": "96f07288aa963a1b6372b8ff3cc60b3596aa2cd4ca0732d0f317467dc5471e52"
+      },
+      "REF_PLUS_PORT": {
+        "kind": "VIA",
+        "net": "+5V_AFE",
+        "copperPathsSha256": "4610bfa0fac25e4f9d0e72eed533444c9c40420a3acd6f90648c82d1fef7c9e6",
+        "maskSha256": "2935b94a10416a450fa4fe8c0ed51aa1c46068bf5cdd0830497c2b6fb39fee11"
+      },
+      "RAW5_R197_PORT": {
+        "kind": "VIA",
+        "net": "+5V",
+        "copperPathsSha256": "9ac40a4924f16f4e32c8aec5d96f9bc74a4b798819c0d267bda7d70ea381cf83",
+        "maskSha256": "5c120faad0f13513c4e76da137c2827801998c604fe76912dd2e166d41d21beb"
+      },
+      "RAW5_BILAYER_EXTRA_VIA_2": {
+        "kind": "VIA",
+        "net": "+5V",
+        "copperPathsSha256": "0db6c6fe90724d277aed6ca7f13ad7e26c7a8768dfc0062ad711ddae2157bf4b",
+        "maskSha256": "1c5e179e18d695df1ea9ac44182d5334d55a3bdd19a59665f0b3b0b36e897ef5"
+      }
+    },
+    "portCentersMm": {
+      "REF_PLUS_PORT": [
+        29.0,
+        72.9
+      ],
+      "RAW5_R197_PORT": [
+        28.9,
+        34.2
+      ],
+      "RAW5_BILAYER_EXTRA_VIA_1": [
+        33.5,
+        30.6
+      ],
+      "RAW5_BILAYER_EXTRA_VIA_2": [
+        29.4,
+        33.8
+      ]
+    },
+    "clearanceMm": 0.17,
+    "fillPenRadiusMm": 0.00254,
+    "roundingReserveMm": 1e-05,
+    "approvedNominalOuterRemovalAreaMm2": 4.943454995288,
+    "approvedAdditionalRemovalBeyondPriorTwoPortMasksAreaMm2": 4.228005238287,
+    "nativeWritesAuthorizedByThisFile": false,
+    "allowedConnectedInteriorActorKeys": [
+      "RAW5_BILAYER_EXTRA_VIA_2"
+    ],
+    "approvedAdditionalVia2EarAreaMm2": 0.0227637806385,
+    "requiresExactIntegerUnionMaskProof": true,
+    "rebaseAudit": {
+      "oldScopeSha256": "2f00902abb1608941fa201abcf7d3e0be27239d9bf27631cb8c85e82cb68a3c3",
+      "oldSourceSha256": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+      "authorizedSourcePoseChange": "C103 only; reviewed FILL body and exact actor masks unchanged"
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "schema": "stm32h747-cn1-cutout-192-report-v1",
+  "status": "pass-static-candidate-ready-for-root-native-application",
+  "readOnlyAnalysis": true,
+  "manufacturingApproved": false,
+  "plan": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\cn1-cutout-192\\cn1-cutout-192-plan.json",
+    "changeCount": 4,
+    "sha256": "faadbfac9c26138635042c62a14828b81a51baa93cce208adba1df30c30c4da8"
+  },
+  "inputs": {
+    "nativeBefore": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-cn1-cutout-192-before-20261016.epru",
+      "sha256": "3281799454ec209367c91e5db0f0b64b7074e1e2ffea6cc6abb43d3c42dd4d99",
+      "recordCount": 12732
+    },
+    "prechangeCheckpoint": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_before_cn1_cutout_192_20261016.epro2",
+      "sha256": "a90f0150deaa2a009fd2a53fc500b7788ef5dce54e1e0a8e7d570d8ce52d81e0"
+    },
+    "nativeDrc": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-pcb-drc-0ac2a19168000d8e-copper_clearances.json",
+      "sha256": "5435d918e65d9e2f1da18dbf0e639a5ebef5fd9f809774272d3f4c5971847709"
+    },
+    "priorStaticOutlinePlan": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\multilayer-route-clearance\\plan.json",
+      "sha256": "7b64d42575a1ff550f962591c9eb42c73f3cbac04fcca3eafe315944eb1a4e0b"
+    }
+  },
+  "checks": {
+    "sourceIdentity": "0ac2a19168000d8e",
+    "sourceRecordCount": 12732,
+    "fourExpectedPolyIdsExact": true,
+    "allBeforeBodiesExactCurrentSource": true,
+    "onlyPathChanges": true,
+    "allLayer11": true,
+    "allWidthMil3_937": true,
+    "orthogonalClosedCwCycle": true,
+    "existingCutoutCenterPreservedExactlyInNativeMil": true,
+    "cn1NpthBodyUnchangedByPlan": true,
+    "oldDistanceModelCalibrationMaxErrorMm": 8.659739592076221e-15,
+    "allFourPredictedNpthClearancesPass": true,
+    "minimumPredictedNpthClearanceMm": 0.3099981100000033,
+    "minimumPredictedNpthRuleMarginMm": 0.009998710000003297,
+    "nearestOtherCopperClearanceMm": 0.41310666440925115,
+    "nearestOtherCopperRuleMarginMm": 0.11310726440925112,
+    "nearestOtherCopperPasses": true,
+    "staticCopperCollisionCount": 0,
+    "staticCopperBelowRuleCount": 0
+  },
+  "geometry": {
+    "requestedSizeMm": [
+      1.92,
+      1.92
+    ],
+    "native4DecimalMilBounds": {
+      "minX": 3727.5591,
+      "maxX": 3803.1496,
+      "minY": 614.1732,
+      "maxY": 689.7638
+    },
+    "nativeRepresentedSizeMm": [
+      1.9199987000000063,
+      1.9200012399999997
+    ],
+    "nativeRepresentationErrorMm": [
+      -1.2999999936536e-06,
+      1.239999999791408e-06
+    ],
+    "currentBoundsMil": {
+      "minX": 3729.9213,
+      "maxX": 3800.7874,
+      "minY": 616.5354,
+      "maxY": 687.4016
+    },
+    "currentSizeMm": [
+      1.7999989400000047,
+      1.8000014800000013
+    ],
+    "preservedCutoutCenterMil": [
+      3765.35435,
+      651.9685
+    ],
+    "resultCutoutCenterMil": [
+      3765.35435,
+      651.9685
+    ],
+    "cutoutCenterShiftMil": [
+      0.0,
+      0.0
+    ],
+    "outwardChangePerEdgeMm": [
+      0.059999880000000755,
+      0.059999880000000755,
+      0.059999880000000755,
+      0.05999987999999787
+    ],
+    "orderedCycleIds": [
+      "f614cce4900c7115",
+      "e94386c2e1a58187",
+      "5b55024cb3a23233",
+      "6e8dd66b3e3db1b0"
+    ],
+    "orderedCycleOrientation": "CW",
+    "signedAreaMil2": -5713.931249300484,
+    "orthogonalClosed": true
+  },
+  "cn1Npth": {
+    "objectId": "8dfdc04036ba85c3e6",
+    "componentId": "8dfdc04036ba85c3",
+    "reference": "CN1",
+    "localPadId": "e6",
+    "number": "",
+    "plated": false,
+    "holeType": "ROUND",
+    "diameterMm": 1.29999994,
+    "sourceCenterMil": [
+      3765.354399999998,
+      651.9685000000005
+    ],
+    "cutoutCenterMil": [
+      3765.35435,
+      651.9685
+    ],
+    "sourceMinusCutoutCenterMil": [
+      4.9999997827399056e-05,
+      5.684341886080801e-13
+    ],
+    "sourceMinusCutoutCenterMm": [
+      1.269999944815936e-06,
+      1.4438228390645236e-14
+    ],
+    "interpretation": "The approximately 1.27 nm X offset is retained because the user prioritized preserving the existing square cutout center; the 1.30 mm NPTH is unchanged."
+  },
+  "perEdgeCn1NpthClearance": [
+    {
+      "outline_id": "5b55024cb3a23233",
+      "old_clearance_to_cn1_npth_mm": 0.2500007700000018,
+      "new_clearance_to_cn1_npth_mm": 0.3100006500000026,
+      "selected_rule_mm": 0.2999994,
+      "new_rule_margin_mm": 0.01000125000000257,
+      "passes": true
+    },
+    {
+      "outline_id": "6e8dd66b3e3db1b0",
+      "old_clearance_to_cn1_npth_mm": 0.2500007699999961,
+      "new_clearance_to_cn1_npth_mm": 0.3100006499999968,
+      "selected_rule_mm": 0.2999994,
+      "new_rule_margin_mm": 0.010001249999996797,
+      "passes": true
+    },
+    {
+      "outline_id": "e94386c2e1a58187",
+      "old_clearance_to_cn1_npth_mm": 0.24999823000000254,
+      "new_clearance_to_cn1_npth_mm": 0.3099981100000033,
+      "selected_rule_mm": 0.2999994,
+      "new_rule_margin_mm": 0.009998710000003297,
+      "passes": true
+    },
+    {
+      "outline_id": "f614cce4900c7115",
+      "old_clearance_to_cn1_npth_mm": 0.250000769999999,
+      "new_clearance_to_cn1_npth_mm": 0.3100006499999969,
+      "selected_rule_mm": 0.2999994,
+      "new_rule_margin_mm": 0.010001249999996853,
+      "passes": true
+    }
+  ],
+  "nearbyCopperSearch": {
+    "searchRadiusMil": 20.0,
+    "selectedRuleMm": 0.2999994,
+    "fillBoundaryHalfWidthIncluded": true,
+    "candidateCountWithinSearchRadius": 5,
+    "nearest": {
+      "id": "2fb535085249015d",
+      "kind": "FILL",
+      "layerId": 2,
+      "netName": "GND",
+      "minimum_clearance_mm": 0.41310666440925115,
+      "per_edge_clearance_mm": {
+        "5b55024cb3a23233": 0.41310666440925115,
+        "6e8dd66b3e3db1b0": 0.4131075624612385,
+        "e94386c2e1a58187": 0.41310666440925115,
+        "f614cce4900c7115": 0.41310756246123126
+      }
+    },
+    "allCandidatesSorted": [
+      {
+        "id": "2fb535085249015d",
+        "kind": "FILL",
+        "layerId": 2,
+        "netName": "GND",
+        "minimum_clearance_mm": 0.41310666440925115,
+        "per_edge_clearance_mm": {
+          "5b55024cb3a23233": 0.41310666440925115,
+          "6e8dd66b3e3db1b0": 0.4131075624612385,
+          "e94386c2e1a58187": 0.41310666440925115,
+          "f614cce4900c7115": 0.41310756246123126
+        }
+      },
+      {
+        "id": "b99d5f8f2cae6046",
+        "kind": "FILL",
+        "layerId": 17,
+        "netName": "GND",
+        "minimum_clearance_mm": 0.41310666440925115,
+        "per_edge_clearance_mm": {
+          "5b55024cb3a23233": 0.41310666440925115,
+          "6e8dd66b3e3db1b0": 0.4131075624612385,
+          "e94386c2e1a58187": 0.41310666440925115,
+          "f614cce4900c7115": 0.41310756246123126
+        }
+      },
+      {
+        "id": "e680230ef8d2c5dd",
+        "kind": "FILL",
+        "layerId": 1,
+        "netName": "GND",
+        "minimum_clearance_mm": 0.41310666440925115,
+        "per_edge_clearance_mm": {
+          "5b55024cb3a23233": 0.41310666440925115,
+          "6e8dd66b3e3db1b0": 0.41310756246123936,
+          "e94386c2e1a58187": 0.41310666440925115,
+          "f614cce4900c7115": 0.41310756246123126
+        }
+      },
+      {
+        "id": "ef12098577a13cc7",
+        "kind": "FILL",
+        "layerId": 18,
+        "netName": "GND",
+        "minimum_clearance_mm": 0.41310666440925115,
+        "per_edge_clearance_mm": {
+          "5b55024cb3a23233": 0.41310666440925115,
+          "6e8dd66b3e3db1b0": 0.4131075624612385,
+          "e94386c2e1a58187": 0.41310666440925115,
+          "f614cce4900c7115": 0.41310756246123126
+        }
+      },
+      {
+        "id": "f9e70adc3ac35fbd",
+        "kind": "FILL",
+        "layerId": 15,
+        "netName": "GND",
+        "minimum_clearance_mm": 0.41310666440925115,
+        "per_edge_clearance_mm": {
+          "5b55024cb3a23233": 0.41310666440925115,
+          "6e8dd66b3e3db1b0": 0.4131075624612385,
+          "e94386c2e1a58187": 0.41310666440925115,
+          "f614cce4900c7115": 0.41310756246123126
+        }
+      }
+    ]
+  },
+  "priorPlanComparison": {
+    "priorRecommendedSizeMm": [
+      1.91999874,
+      1.91999874
+    ],
+    "priorBoundsMil": {
+      "min_x": 3727.5591492125986,
+      "max_x": 3803.1496507874017,
+      "min_y": 614.1732492125984,
+      "max_y": 689.7637507874015
+    },
+    "differenceReason": "The prior plan was centered on the NPTH. This authorized plan preserves the existing square cutout center instead, then applies native 4-decimal-mil quantization.",
+    "oldSquareCenterPriority": true
+  },
+  "requiredPostApply": [
+    "full-source diff: only four POLY paths plus narrowly proven recreate metadata normalization",
+    "save/reopen path equality and geometry audit",
+    "native DRC must be zero; predicted static clearance is not a substitute",
+    "fresh full checkpoint and final diagnostic export comparison",
+    "mechanical enclosure/fabricator fit remains a separate manufacturing review"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "adc-inline-offline-visual-review-20261016-v1",
+  "passed": true,
+  "candidateSha256": "b09110fc407485b51ff163c14a40e47d18dff5f66ee3b86cc3bd44a7bc5c4adf",
+  "baselineSha256": "20e28dc52e3145e15eae3c7dd46a54810849a0aadd2f6be36bd09e1673ef6283",
+  "renderer": "Actual candidate native source and unchanged checkpoint symbol vectors, independent offline SVG/PNG renderer; not a native EasyEDA SVG export",
+  "reviewedFiles": [
+    "adc-inline-proposed-source-visual-qa.png",
+    "adc-inline-proposed-channel-1.png",
+    "adc-inline-proposed-channel-2.png",
+    "adc-inline-proposed-channel-3.png"
+  ],
+  "findings": {
+    "allThreeInputPathsVisuallyContinuous": true,
+    "bufferFeedbackLoopsClearlyDrawnBelowEachOpamp": true,
+    "preAndDrvTeleportTextLabelsRemoved": true,
+    "dnpResistorsAndTheirGrayGlyphsAndRedCrossesGone": true,
+    "allExistingRefAndValueLabelsReadable": true,
+    "decouplerGroundLabelsDoNotTouchTestPointLabelsOrCircles": true,
+    "noNewOverlapWithAdc2OrAdc3Rows": true,
+    "noNewOverlapWithJ18BoxOrPageFrame": true,
+    "formerLowerBufferAreaCleared": true,
+    "freshBaselineReferenceBlockPreservedNotResetToEarlierCoordinates": true,
+    "allComponentsInsidePage": true
+  },
+  "scope": {
+    "changedExistingBodies": 180,
+    "deletedRecords": 192,
+    "addedRecords": 72,
+    "unaffectedFreshBaselineBodiesExact": 2512,
+    "partValuesAndLibraryBindingsUnchangedForAllRemainingParts": true,
+    "allLibrariesUnchanged": true,
+    "adc2AndAdc3Unchanged": true,
+    "floatingInputBehaviorUnchanged": true,
+    "floatingInputRedesignPendingUserChoice": true,
+    "nativeApplyAndSaveStillRequired": true,
+    "nativeErcAndNetlistReadbackStillRequired": true,
+    "manufacturingReady": false
+  }
+}

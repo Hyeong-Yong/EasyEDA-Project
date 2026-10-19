@@ -1,0 +1,1645 @@
+{
+  "schema": "stm32-remaining-standard-3d-model-registry-v1",
+  "status": "PROPOSED_MODELS_FOR_RAW_NATIVE_MESH_INSPECTION_NOT_FINAL_TRANSFORMS",
+  "scope": "Read-only library search/metadata and local evidence analysis; no board writes, imports, library updates or UI operations.",
+  "model_search_method": "eda.lib_3DModel.search(key, undefined, undefined, 30, 1)",
+  "model_get_method": "eda.lib_3DModel.get(uuid)",
+  "model_get_evidence": "api-research/models-standard-selected-metadata.json",
+  "project_guard": {
+    "project": "STM32H747_MCU_BOARD_v19",
+    "window_id": "c020406e-b1fa-42b2-83be-6df87769a738",
+    "client": "scripts/easyeda-safe-client.mjs"
+  },
+  "candidate_plan_sha256": "4e7e48e9a01585166166d9f3e0f7894466d4e5b816d24d3e3814102c0fd73e58",
+  "family_count": 18,
+  "target_count": 27,
+  "excluded_dnp_refs": [
+    "C33",
+    "R61",
+    "R64",
+    "R98",
+    "R125",
+    "R126"
+  ],
+  "sizing_policy": "Do not derive native full-mesh XYZ sizes from names/body dimensions. UUID+title-only native pilot export, then inspect exact raw mesh XYZ, terminals, pin1 and mounting plane. All size/transform fields here intentionally null.",
+  "bga_orientation_proposal": "Source A1=(-X,-Y), numeric columns+Y and letter rows+X. If native TL mesh has A1=(-X,+Y), numeric+X, letters-Y, rotZ+90 is proposed. This is conditional, not geometry verification.",
+  "rejected_candidate": {
+    "uuid": "5c2f7145caaf447aaed38d08d694cdc0",
+    "name": "ind-smd_l2.7-w2.4_blm18pg121s11",
+    "reason": "Name/body dimensions conflict with 0603/1608 target; BLM18 substring is not sufficient."
+  },
+  "families": [
+    {
+      "family": "0603_FERRITE",
+      "refs": [
+        "FB1",
+        "FB2",
+        "FB3"
+      ],
+      "status": "visual_package_candidate_only",
+      "recommended_uuid": "44d717a022884e8a80ead7728bb0329d",
+      "model_title": "IND-SMD_L1.6-W0.8-H0.7",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "44d717a022884e8a80ead7728bb0329d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 14,
+        "name": "ind-smd_l1.6-w0.8-h0.7",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781301080000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "api-research/models-standard-extra-search.json",
+          "key": "IND-SMD_L1.6-W0.8"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "44d717a022884e8a80ead7728bb0329d",
+        "name": "IND-SMD_L1.6-W0.8-H0.7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic 1608 two-terminal magnetic-package candidate; not an exact Murata BLM18 model. Inspect mesh for ferrite-bead appearance before retaining.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "0805_LED",
+      "refs": [
+        "D2",
+        "D3",
+        "D4",
+        "D6"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "model_title": "LED0805-RD_RED",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "c29cff0e46ad4ec698b672e6ab540619",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 26,
+        "name": "led0805-rd_red",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781301778000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-passives-small-ic.json",
+          "key": "0805"
+        },
+        {
+          "file": "models-remaining-small.json",
+          "key": "LED0805-RD_RED"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "c29cff0e46ad4ec698b672e6ab540619",
+        "name": "LED0805-RD_RED",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic red LED0805 package, not exact WR148SR-W. Cathode mark and pin mapping require mesh inspection.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "CRYSTAL_3215_2PIN",
+      "refs": [
+        "Y1"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "322660504eb3452fba8a1d5fb6a3cd9f",
+      "model_title": "SMD-3215_2P_L3.2-W1.5-H0.8",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "322660504eb3452fba8a1d5fb6a3cd9f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 27,
+        "name": "smd-3215_2p_l3.2-w1.5-h0.8",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1745751140000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "3215"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "322660504eb3452fba8a1d5fb6a3cd9f",
+        "name": "SMD-3215_2P_L3.2-W1.5-H0.8",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic SMD3215 two-pin crystal package, not exact NDK NX3215SA.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "OSCILLATOR_3225_4PIN",
+      "refs": [
+        "X1",
+        "X2"
+      ],
+      "status": "same_size_different_series_candidate",
+      "recommended_uuid": "963ffc640bca471d86f4230614807d79",
+      "model_title": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "963ffc640bca471d86f4230614807d79",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 2,
+        "name": "osc-smd-4p_ecs-txo-3225mv-240-tr",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1753216746000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "3225"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "963ffc640bca471d86f4230614807d79",
+        "name": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Four-pad ECS TXO3225 family package; board uses ECS3225MV oscillator, not exact TXO part. Height and lid/terminal differences require inspection.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "DFN6_3X3_EP",
+      "refs": [
+        "U3"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "2351360292744dbc91885e7d69b823ec",
+      "model_title": "DFN-6_L3.0-W3.0-H1.0-P0.95",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "2351360292744dbc91885e7d69b823ec",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 2,
+        "name": "dfn-6_l3.0-w3.0-h1.0-p0.95",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781298962000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "DFN-6_L3.0"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "2351360292744dbc91885e7d69b823ec",
+        "name": "DFN-6_L3.0-W3.0-H1.0-P0.95",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "DFN6 3x3 P0.95 package counterpart already selected by root; not exact ST1L05CPU33R MPN.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "QFN24_4X4_EP",
+      "refs": [
+        "U5"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "29c69a3747974ad89ca8d7477a9f3747",
+      "model_title": "SQFN-24_L4.0-W4.0-H1.0-P0.50",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "29c69a3747974ad89ca8d7477a9f3747",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 8,
+        "name": "sqfn-24_l4.0-w4.0-h1.0-p0.50",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781302636000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "QFN-24_L4.0"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "29c69a3747974ad89ca8d7477a9f3747",
+        "name": "SQFN-24_L4.0-W4.0-H1.0-P0.50",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "SQFN24 4x4 P0.50 package counterpart for LAN8742A-CZ-TR; exposed pad and pin1 require raw-mesh check.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "QFN32_5X5_EP",
+      "refs": [
+        "U7"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "bd31547231e8451b98b8304566565548",
+      "model_title": "QFN-32_L5.0-W5.0-H0.9-P0.50_3",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "bd31547231e8451b98b8304566565548",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 0,
+        "name": "qfn-32_l5.0-w5.0-h0.9-p0.50_3",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1586331915000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "QFN-32_L5.0"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "bd31547231e8451b98b8304566565548",
+        "name": "QFN-32_L5.0-W5.0-H0.9-P0.50_3",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "QFN32 5x5 P0.50 package counterpart for USB3320C-EZK; exposed pad and pin1 require raw-mesh check.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SMB_DO214AA",
+      "refs": [
+        "D5"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "1bbe644b2ecd467e97e82d069ce5a126",
+      "model_title": "SMB_L4.3-W3.6-LS5.3-BI",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "1bbe644b2ecd467e97e82d069ce5a126",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 1,
+        "name": "smb_l4.3-w3.6-ls5.3-bi",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1745751083000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-remaining-small.json",
+          "key": "SMB_L4.3"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "1bbe644b2ecd467e97e82d069ce5a126",
+        "name": "SMB_L4.3-W3.6-LS5.3-BI",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic SMB bidirectional package candidate for SMBJ6.5CA; BI token is model-name evidence only, not independent geometry verification.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SOD323",
+      "refs": [
+        "D20"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "63730cd75e074609861c8d6cfe0f6507",
+      "model_title": "SOD-323_L1.7-W1.3-LS2.5-RD-1",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "63730cd75e074609861c8d6cfe0f6507",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 19,
+        "name": "sod-323_l1.7-w1.3-ls2.5-rd-1",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781303722000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-remaining-small.json",
+          "key": "SOD-323"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "63730cd75e074609861c8d6cfe0f6507",
+        "name": "SOD-323_L1.7-W1.3-LS2.5-RD-1",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic SOD323 package candidate for BAT54WS-E3-08. Board requires cathode pin1/anode pin2; model band direction remains unverified.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SOD523",
+      "refs": [
+        "D1"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "c9cd6b3de4464affa41bb10afbd29ee3",
+      "model_title": "SOD-523_L1.2-W0.8-H0.7-LS1.6",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "c9cd6b3de4464affa41bb10afbd29ee3",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 8,
+        "name": "sod-523_l1.2-w0.8-h0.7-ls1.6",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781384525000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "SOD-523"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "c9cd6b3de4464affa41bb10afbd29ee3",
+        "name": "SOD-523_L1.2-W0.8-H0.7-LS1.6",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic SOD523 package counterpart for ESD8351XV2T1G; do not infer electrical polarity or marking from the generic model.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SOIC16_150MIL",
+      "refs": [
+        "U8"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "3622ca242287487a9c2e38fcfcddad34",
+      "model_title": "SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL-1",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "3622ca242287487a9c2e38fcfcddad34",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 3,
+        "name": "soic-16_l9.9-w3.9-p1.27-ls6.0-tl-1",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781384538000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "api-research/models-standard-extra-search.json",
+          "key": "SOIC-16_L9.9-W3.9-P1.27-LS6.0"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "3622ca242287487a9c2e38fcfcddad34",
+        "name": "SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL-1",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic 16-lead 150-mil SOIC, P1.27 LS6.0 candidate for CH340C. Avoid 14-pin/15-pin and exposed-pad search results.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SOIC8_150MIL",
+      "refs": [
+        "U6",
+        "U9"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "97bd43a9d3eb4c6e8f9c2731ad707392",
+      "model_title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "97bd43a9d3eb4c6e8f9c2731ad707392",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 2,
+        "name": "soic-8_l4.9-w3.9-p1.27-ls6.0-bl-2",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1766550237000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "api-research/models-standard-extra-search.json",
+          "key": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "97bd43a9d3eb4c6e8f9c2731ad707392",
+        "name": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic 8-lead narrow SOIC, P1.27 LS6.0 without EP token, shared by STS5PF30L and REF5025AID. Not exact MPN geometry.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SOT223",
+      "refs": [
+        "U2"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "72b2852661134777881d1857feec3023",
+      "model_title": "SOT-223-3L-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "72b2852661134777881d1857feec3023",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 14,
+        "name": "sot-223-3l-4p_l6.5-w3.5-h1.6-ls7.0-p2.30",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1719569565000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "SOT-223"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "72b2852661134777881d1857feec3023",
+        "name": "SOT-223-3L-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Three-lead plus tab, four-physical-pad SOT223 counterpart for LD1117S18TR; do not choose SOT223-5/6 or two-lead variants.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SOT23_3",
+      "refs": [
+        "Q1"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "e225ba99af1f4d9384be1c241ef125ab",
+      "model_title": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR-1",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "e225ba99af1f4d9384be1c241ef125ab",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 1,
+        "name": "sot-23_l2.9-w1.3-p1.90-ls2.4-br-1",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781303855000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-remaining-small.json",
+          "key": "SOT-23_L2.9"
+        },
+        {
+          "file": "api-research/models-standard-extra-search.json",
+          "key": "SOT-23_L2.9-W1.3"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "e225ba99af1f4d9384be1c241ef125ab",
+        "name": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR-1",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic three-lead SOT23 P1.90 package candidate for 9013M; actual lead-side/pin1 orientation requires mesh inspection.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "SOT23_6",
+      "refs": [
+        "TVS1",
+        "TVS2",
+        "TVS3"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+      "model_title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 14,
+        "name": "sot-23-6l_l3.0-w1.7-h1.5-ls2.8-p0.95",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781384702000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-packages-more.json",
+          "key": "SOT-23-6"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+        "name": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic six-lead SOT23 P0.95 body3.0x1.7 counterpart for USBLC6-2SC6 and USBLC6-4SC6; no five-lead substitution.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "TANTALUM_B_3528",
+      "refs": [
+        "C41"
+      ],
+      "status": "visual_package_candidate_only",
+      "recommended_uuid": "3374b87e848e42cdbf68b58df1ef103d",
+      "model_title": "CAP-SMD_L3.5-W2.8-H1.9",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "3374b87e848e42cdbf68b58df1ef103d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 1,
+        "name": "cap-smd_l3.5-w2.8-h1.9",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1781295040000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-special-family2-research-20261018.json",
+          "key": "CAP-SMD_L3.5-W2.8"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "3374b87e848e42cdbf68b58df1ef103d",
+        "name": "CAP-SMD_L3.5-W2.8-H1.9",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic 3528 H1.9 capacitor-package candidate previously metadata-confirmed by special-model research. Inspect tantalum molded body and positive-polarity stripe before retaining; not exact TPSB476M006R0250.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "TFBGA265_14X14",
+      "refs": [
+        "U1"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "e1878b6c003f47de9314929abaa1d61c",
+      "model_title": "TFBGA-265_L14.0-W14.0-P0.80-TL",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "e1878b6c003f47de9314929abaa1d61c",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 0,
+        "name": "tfbga-265_l14.0-w14.0-p0.80-tl",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1792095147000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-exact-keywords.json",
+          "key": "TFBGA265"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "e1878b6c003f47de9314929abaa1d61c",
+        "name": "TFBGA-265_L14.0-W14.0-P0.80-TL",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic TFBGA265 14x14 P0.80 counterpart; avoids claiming STM32H745/750/757-specific model as STM32H747. Ball omission map and A1 require raw-mesh validation.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    },
+    {
+      "family": "TFBGA90_13X8_SOURCE_AXES",
+      "refs": [
+        "U4"
+      ],
+      "status": "package_class_candidate",
+      "recommended_uuid": "a776beb50b5a4f47b88257987385b603",
+      "model_title": "TFBGA-90_L13.0-W8.0-R15-C6-P0.80-TL",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "search_metadata": {
+        "uuid": "a776beb50b5a4f47b88257987385b603",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "ordinal": 0,
+        "name": "tfbga-90_l13.0-w8.0-r15-c6-p0.80-tl",
+        "type": 16,
+        "description": "",
+        "updateTimestamp": 1792095159000,
+        "ascription": "LCSC",
+        "lastModifiedBy": "LCSC"
+      },
+      "search_evidence": [
+        {
+          "file": "models-exact-keywords.json",
+          "key": "TFBGA90"
+        }
+      ],
+      "readback_metadata": {
+        "libraryType": "5",
+        "uuid": "a776beb50b5a4f47b88257987385b603",
+        "name": "TFBGA-90_L13.0-W8.0-R15-C6-P0.80-TL",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "classification": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "libraryType": "5"
+        },
+        "description": ""
+      },
+      "metadata_get_confirmed": true,
+      "matching_basis": "Generic TFBGA90 13x8, R15 C6 P0.80 TL counterpart for IS42S32160F-6BLI. Source axes differ from common library orientation; raw-mesh A1/axes check required.",
+      "exact_mpn_equivalence_claimed": false,
+      "model_mesh_bbox_mm": null,
+      "native_size_xyz_mil": null,
+      "geometry_registration_verified": false
+    }
+  ],
+  "targets": [
+    {
+      "ref": "FB1",
+      "component_id": "f5f60ffd73012dc8",
+      "footprint_uuid": "3e7a172f5ea6b299",
+      "part_number": "BLM18SN220TH1D",
+      "family": "0603_FERRITE",
+      "model_uuid": "44d717a022884e8a80ead7728bb0329d",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "IND-SMD_L1.6-W0.8-H0.7",
+      "bind_value": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 90,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "FB2",
+      "component_id": "275858446251063a",
+      "footprint_uuid": "a0694410ff1546b0",
+      "part_number": "BLM18AG601SH1D",
+      "family": "0603_FERRITE",
+      "model_uuid": "44d717a022884e8a80ead7728bb0329d",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "IND-SMD_L1.6-W0.8-H0.7",
+      "bind_value": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 90,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "FB3",
+      "component_id": "b8ea110027e95a05",
+      "footprint_uuid": "1fcbcac367acb46e",
+      "part_number": "BLM18AG601SH1D",
+      "family": "0603_FERRITE",
+      "model_uuid": "44d717a022884e8a80ead7728bb0329d",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "IND-SMD_L1.6-W0.8-H0.7",
+      "bind_value": "44d717a022884e8a80ead7728bb0329d|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 270,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "D2",
+      "component_id": "50d3ad89712e5179",
+      "footprint_uuid": "8c7160781c71475b",
+      "part_number": "WR148SR-W",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "LED0805-RD_RED",
+      "bind_value": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 270,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "D3",
+      "component_id": "424de2a8fcb92fb1",
+      "footprint_uuid": "988b0e2f2c43cdee",
+      "part_number": "WR148SR-W",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "LED0805-RD_RED",
+      "bind_value": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 270,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "D4",
+      "component_id": "46079e9f39489b73",
+      "footprint_uuid": "7595e44162ada516",
+      "part_number": "WR148SR-W",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "LED0805-RD_RED",
+      "bind_value": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 270,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "D6",
+      "component_id": "e8ca410e95b6f3a6",
+      "footprint_uuid": "11c5f66e3d70a4ba",
+      "part_number": "WR148SR-W",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "LED0805-RD_RED",
+      "bind_value": "c29cff0e46ad4ec698b672e6ab540619|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 180,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "Y1",
+      "component_id": "cde1fff1072b88f8",
+      "footprint_uuid": "946f9a4a7b838408",
+      "part_number": "NX3215SA-32.768KHZ-EXS00A-MU00466",
+      "family": "CRYSTAL_3215_2PIN",
+      "model_uuid": "322660504eb3452fba8a1d5fb6a3cd9f",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SMD-3215_2P_L3.2-W1.5-H0.8",
+      "bind_value": "322660504eb3452fba8a1d5fb6a3cd9f|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "X1",
+      "component_id": "59864b879ec70d56",
+      "footprint_uuid": "db556e3e9bde77bc",
+      "part_number": "ECS-3225MV-250-CN-TR",
+      "family": "OSCILLATOR_3225_4PIN",
+      "model_uuid": "963ffc640bca471d86f4230614807d79",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+      "bind_value": "963ffc640bca471d86f4230614807d79|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 180,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Body long axis X from pad spans; canonical pin1 marker at -X/-Y, source pin1 at +X/+Y.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "X2",
+      "component_id": "7a78390f74f1d904",
+      "footprint_uuid": "90d1db4e3011968e",
+      "part_number": "ECS-3225MV-240-CN-TR",
+      "family": "OSCILLATOR_3225_4PIN",
+      "model_uuid": "963ffc640bca471d86f4230614807d79",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "OSC-SMD-4P_ECS-TXO-3225MV-240-TR",
+      "bind_value": "963ffc640bca471d86f4230614807d79|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 180,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Body long axis X from pad spans; canonical pin1 marker at -X/-Y, source pin1 at +X/+Y.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U3",
+      "component_id": "b714c779758adebf",
+      "footprint_uuid": "c52d48619e1c0e4b",
+      "part_number": "ST1L05CPU33R",
+      "family": "DFN6_3X3_EP",
+      "model_uuid": "2351360292744dbc91885e7d69b823ec",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "DFN-6_L3.0-W3.0-H1.0-P0.95",
+      "bind_value": "2351360292744dbc91885e7d69b823ec|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U5",
+      "component_id": "0c0d782d6b7f0167",
+      "footprint_uuid": "b098cceac55eab69",
+      "part_number": "LAN8742A-CZ-TR",
+      "family": "QFN24_4X4_EP",
+      "model_uuid": "29c69a3747974ad89ca8d7477a9f3747",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SQFN-24_L4.0-W4.0-H1.0-P0.50",
+      "bind_value": "29c69a3747974ad89ca8d7477a9f3747|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 270,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first side is left with pin1 at +Y, subsequent pins toward -Y; exposed-pad drill holes ignored.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U7",
+      "component_id": "ae8670f38e12646e",
+      "footprint_uuid": "15077d1eac66847c",
+      "part_number": "USB3320C-EZK",
+      "family": "QFN32_5X5_EP",
+      "model_uuid": "bd31547231e8451b98b8304566565548",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "QFN-32_L5.0-W5.0-H0.9-P0.50_3",
+      "bind_value": "bd31547231e8451b98b8304566565548|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first side is left with pin1 at +Y, subsequent pins toward -Y; exposed-pad drill holes ignored.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "D5",
+      "component_id": "ad02e0c439a87e52",
+      "footprint_uuid": "2e858dc15f165a79",
+      "part_number": "SMBJ6.5CA",
+      "family": "SMB_DO214AA",
+      "model_uuid": "1bbe644b2ecd467e97e82d069ce5a126",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SMB_L4.3-W3.6-LS5.3-BI",
+      "bind_value": "1bbe644b2ecd467e97e82d069ce5a126|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 270,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "D20",
+      "component_id": "63b34d484518e14f",
+      "footprint_uuid": "70434f355ff1cc5a",
+      "part_number": "BAT54WS-E3-08",
+      "family": "SOD323",
+      "model_uuid": "63730cd75e074609861c8d6cfe0f6507",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOD-323_L1.7-W1.3-LS2.5-RD-1",
+      "bind_value": "63730cd75e074609861c8d6cfe0f6507|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 180
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "D1",
+      "component_id": "9a2a8ba00736c620",
+      "footprint_uuid": "162b7d7fab268137",
+      "part_number": "ESD8351XV2T1G",
+      "family": "SOD523",
+      "model_uuid": "c9cd6b3de4464affa41bb10afbd29ee3",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOD-523_L1.2-W0.8-H0.7-LS1.6",
+      "bind_value": "c9cd6b3de4464affa41bb10afbd29ee3|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 90,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U8",
+      "component_id": "6c30820ef1d8656e",
+      "footprint_uuid": "1eb8a2f122b4bc3a",
+      "part_number": "CH340C",
+      "family": "SOIC16_150MIL",
+      "model_uuid": "3622ca242287487a9c2e38fcfcddad34",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL-1",
+      "bind_value": "3622ca242287487a9c2e38fcfcddad34|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 180,
+        "local_offset_mm": [
+          0.0,
+          1.1102230246251565e-16,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U6",
+      "component_id": "979e77e2d5c031f6",
+      "footprint_uuid": "1ca9393943312cd4",
+      "part_number": "STS5PF30L",
+      "family": "SOIC8_150MIL",
+      "model_uuid": "97bd43a9d3eb4c6e8f9c2731ad707392",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2",
+      "bind_value": "97bd43a9d3eb4c6e8f9c2731ad707392|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 180,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U9",
+      "component_id": "47617477dad79f23",
+      "footprint_uuid": "4db9a138dc2b9021",
+      "part_number": "REF5025AID",
+      "family": "SOIC8_150MIL",
+      "model_uuid": "97bd43a9d3eb4c6e8f9c2731ad707392",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-2",
+      "bind_value": "97bd43a9d3eb4c6e8f9c2731ad707392|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 90
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U2",
+      "component_id": "9a31f61bd6016251",
+      "footprint_uuid": "04732c29820c84d6",
+      "part_number": "LD1117S18TR",
+      "family": "SOT223",
+      "model_uuid": "72b2852661134777881d1857feec3023",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOT-223-3L-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+      "bind_value": "72b2852661134777881d1857feec3023|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 180,
+        "local_offset_mm": [
+          -1.5749996694000004,
+          0.0,
+          0
+        ],
+        "basis": "Canonical three pins on left row, tab on right; midpoint between lead row and tab.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "Q1",
+      "component_id": "2dfcd47a3736e0bb",
+      "footprint_uuid": "9c0ae71d43b31d89",
+      "part_number": "9013M",
+      "family": "SOT23_3",
+      "model_uuid": "e225ba99af1f4d9384be1c241ef125ab",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR-1",
+      "bind_value": "e225ba99af1f4d9384be1c241ef125ab|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 180,
+        "local_offset_mm": [
+          -0.33333300109999997,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "TVS1",
+      "component_id": "508af5dc4a0f5024",
+      "footprint_uuid": "3ec59e00eedadef4",
+      "part_number": "USBLC6-4SC6",
+      "family": "SOT23_6",
+      "model_uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+      "bind_value": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          4.233333333880651e-07,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "TVS2",
+      "component_id": "9c6402d9e52ebd8c",
+      "footprint_uuid": "d2a3371c469ae0ea",
+      "part_number": "USBLC6-2SC6",
+      "family": "SOT23_6",
+      "model_uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+      "bind_value": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "TVS3",
+      "component_id": "4e45713caf58ce98",
+      "footprint_uuid": "7232e95676350835",
+      "part_number": "USBLC6-2SC6",
+      "family": "SOT23_6",
+      "model_uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOT-23-6L_L3.0-W1.7-H1.5-LS2.8-P0.95",
+      "bind_value": "4f0b8a3103a94d818231c78af7ee5d6d|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 90,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical first pin on left row at +Y, numbering progresses toward -Y; body center is midpoint of lead-row centers.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "C41",
+      "component_id": "b0c812bc9bb1914b",
+      "footprint_uuid": "35f939ab93ffe613",
+      "part_number": "TPSB476M006R0250",
+      "family": "TANTALUM_B_3528",
+      "model_uuid": "3374b87e848e42cdbf68b58df1ef103d",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CAP-SMD_L3.5-W2.8-H1.9",
+      "bind_value": "3374b87e848e42cdbf68b58df1ef103d|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 270,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Canonical terminal1 at -X, terminal2 at +X; rotation/center computed from actual pad centroids.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U1",
+      "component_id": "a2d6b5393a9714c7",
+      "footprint_uuid": "6824cbb9b1729037",
+      "part_number": "STM32H747XIH6",
+      "family": "TFBGA265_14X14",
+      "model_uuid": "e1878b6c003f47de9314929abaa1d61c",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "TFBGA-265_L14.0-W14.0-P0.80-TL",
+      "bind_value": "e1878b6c003f47de9314929abaa1d61c|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Source canonical A1 at minX/minY; letter rows increase +X, numeric columns +Y. Source body axes are used, not assumed model axes.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    },
+    {
+      "ref": "U4",
+      "component_id": "3de4fa6d5f5df65c",
+      "footprint_uuid": "a3627e2915fe61c1",
+      "part_number": "IS42S32160F-6BLI",
+      "family": "TFBGA90_13X8_SOURCE_AXES",
+      "model_uuid": "a776beb50b5a4f47b88257987385b603",
+      "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "TFBGA-90_L13.0-W8.0-R15-C6-P0.80-TL",
+      "bind_value": "a776beb50b5a4f47b88257987385b603|0819f05c4eef4c71ace90d822a990e87",
+      "dnp": false,
+      "canonical_registration": {
+        "local_rotation_z_deg": 0,
+        "local_offset_mm": [
+          0.0,
+          0.0,
+          0
+        ],
+        "basis": "Source canonical A1 at minX/minY; letter rows increase +X, numeric columns +Y. Source body axes are used, not assumed model axes.",
+        "side": "top",
+        "component_rotation_deg": 0
+      },
+      "model_mesh_bbox_mm": null,
+      "model_mesh_default_axis_correction_deg": null,
+      "native_size_xyz_mil": null,
+      "final_transform": null
+    }
+  ]
+}

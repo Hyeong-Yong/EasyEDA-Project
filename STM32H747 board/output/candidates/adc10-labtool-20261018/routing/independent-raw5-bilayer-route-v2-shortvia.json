@@ -1,0 +1,327 @@
+{
+  "schema": "independent-raw5-bilayer-route-v2-shortvia",
+  "status": "PASS_SCOPED_RAW5_COPPER_GNDVOIDS_AND_MUTUAL_ROUTING_PENDING",
+  "nativeCalls": 0,
+  "actualSourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v4_saved-20261018.epru",
+  "actualSourceSha256": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "modelBaselineAndVirtualIsolation": true,
+  "placementSha256": "7070ccc735fa7ae1181ea3c1a0c27ee1145f99b938d7bdad831ceefbcad01022",
+  "fixedRow332Sha256": "cdd3fa342f17753e0b41b3709da76d2a8f538a48fec9cc0f3c436cf987c601c1",
+  "fixedCommon34Sha256": "4367046bff69088c9b404724fa07a4acc4ba7aa315abd1386546dcf5a85ddcf7",
+  "newLineCreates": [
+    {
+      "key": "RAW5_CN1_FEED_001",
+      "net": "+5V",
+      "layerId": 2,
+      "widthMm": 0.4,
+      "startXYmm": [
+        89.34000166,
+        19.85999838
+      ],
+      "endXYmm": [
+        29.8,
+        21.3
+      ],
+      "role": "ExistingCN1PTHraw5VfeedtopumpandquietAFEfilter",
+      "inheritedOriginalKey": "LABTOOL_BOTTOM_0004"
+    },
+    {
+      "key": "RAW5_CN1_FEED_002",
+      "net": "+5V",
+      "layerId": 2,
+      "widthMm": 0.4,
+      "startXYmm": [
+        29.8,
+        21.3
+      ],
+      "endXYmm": [
+        28.3,
+        22.0
+      ],
+      "role": "ExistingCN1PTHraw5VfeedtopumpandquietAFEfilter",
+      "inheritedOriginalKey": "LABTOOL_BOTTOM_0005"
+    },
+    {
+      "key": "RAW5_BRIDGE_001",
+      "net": "+5V",
+      "layerId": 1,
+      "widthMm": 0.4,
+      "startXYmm": [
+        28.3,
+        22.0
+      ],
+      "endXYmm": [
+        28.7,
+        23.7
+      ],
+      "role": "ExistingportR200toR197bilayerbridge"
+    },
+    {
+      "key": "RAW5_BRIDGE_002",
+      "net": "+5V",
+      "layerId": 1,
+      "widthMm": 0.4,
+      "startXYmm": [
+        28.7,
+        23.7
+      ],
+      "endXYmm": [
+        31.700000000000003,
+        25.7
+      ],
+      "role": "ExistingportR200toR197bilayerbridge"
+    },
+    {
+      "key": "RAW5_BRIDGE_003",
+      "net": "+5V",
+      "layerId": 1,
+      "widthMm": 0.4,
+      "startXYmm": [
+        31.700000000000003,
+        25.7
+      ],
+      "endXYmm": [
+        32.8,
+        25.8
+      ],
+      "role": "ExistingportR200toR197bilayerbridge"
+    },
+    {
+      "key": "RAW5_BRIDGE_004",
+      "net": "+5V",
+      "layerId": 1,
+      "widthMm": 0.4,
+      "startXYmm": [
+        32.8,
+        25.8
+      ],
+      "endXYmm": [
+        33.3,
+        29.0
+      ],
+      "role": "ExistingportR200toR197bilayerbridge"
+    },
+    {
+      "key": "RAW5_BRIDGE_005",
+      "net": "+5V",
+      "layerId": 1,
+      "widthMm": 0.4,
+      "startXYmm": [
+        33.3,
+        29.0
+      ],
+      "endXYmm": [
+        33.5,
+        30.6
+      ],
+      "role": "ExistingportR200toR197bilayerbridge"
+    },
+    {
+      "key": "RAW5_BRIDGE_006",
+      "net": "+5V",
+      "layerId": 2,
+      "widthMm": 0.4,
+      "startXYmm": [
+        33.5,
+        30.6
+      ],
+      "endXYmm": [
+        29.4,
+        33.8
+      ],
+      "role": "ExistingportR200toR197bilayerbridge"
+    },
+    {
+      "key": "RAW5_BRIDGE_007",
+      "net": "+5V",
+      "layerId": 1,
+      "widthMm": 0.4,
+      "startXYmm": [
+        29.4,
+        33.8
+      ],
+      "endXYmm": [
+        28.9,
+        34.2
+      ],
+      "role": "ExistingportR200toR197bilayerbridge"
+    }
+  ],
+  "newViaCreates": [
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_1",
+      "net": "+5V",
+      "xyMm": [
+        33.5,
+        30.6
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginalDrillEdgeGapMm": 6.6792350612595985,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "valid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "a1d7888349e74585",
+          "layerId": 2,
+          "net": "GND",
+          "valid": true
+        }
+      ],
+      "minimumReserved43DrillEdgeGapMm": 5.64123293994593
+    },
+    {
+      "key": "RAW5_BILAYER_EXTRA_VIA_2",
+      "net": "+5V",
+      "xyMm": [
+        29.4,
+        33.8
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginalDrillEdgeGapMm": 5.480958135764011,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "e680230ef8d2c5dd",
+          "layerId": 1,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "f9e70adc3ac35fbd",
+          "layerId": 15,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "valid": true
+        },
+        {
+          "id": "b99d5f8f2cae6046",
+          "layerId": 17,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "ef12098577a13cc7",
+          "layerId": 18,
+          "net": "GND",
+          "valid": true
+        },
+        {
+          "id": "a1d7888349e74585",
+          "layerId": 2,
+          "net": "GND",
+          "valid": true
+        }
+      ],
+      "minimumReserved43DrillEdgeGapMm": 0.44032746917517596
+    }
+  ],
+  "literalCopperConflicts": [],
+  "visitedStates": 19521,
+  "bridgeLengthMm": 17.149064667961675,
+  "originalCN1toR200InheritedLineCount": 2,
+  "original640Vias799DrillsUnchanged": true,
+  "requiredCopperClearanceMm": 0.17,
+  "requiredDrillEdgeGapMm": 0.301,
+  "existingSource": {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "+5V",
+    "xyMm": [
+      89.34000166,
+      19.85999838
+    ]
+  },
+  "startR200Port": [
+    28.3,
+    22.0
+  ],
+  "endR197Port": [
+    28.9,
+    34.2
+  ],
+  "remaining": [
+    "All6layernewVIAantipads/localTOP/BOTTOMtraceGNDvoids andunanchoredlobeproof",
+    "Mutualclearanceagainstnewsharedplus/minus/offsetroutes byotherowner",
+    "Nativeexactguardapply+DRC+netlistreopenaudit"
+  ],
+  "manufacturingApproved": false,
+  "reserved43ViaSha256": "7442307c0c676c975f2855e516b1e5422b991071f5c838c21a8cb802190b58d4",
+  "raw5WholeTreeConnectivity": {
+    "CN1toBothInputIsolatorPins": [
+      {
+        "role": "R197raw5Vpowerportstub",
+        "pinEndpoint": [
+          27.699999999999996,
+          34.1099990054
+        ],
+        "reachableFromCN1": true
+      },
+      {
+        "role": "R200raw5Vpowerportstub",
+        "pinEndpoint": [
+          28.2900009946,
+          23.0
+        ],
+        "reachableFromCN1": true
+      }
+    ],
+    "allPass": true,
+    "viaTransitions": [
+      "2existingreservedRAW5ports",
+      "2newexplicitall6layerVIAs"
+    ],
+    "limits": "Coordinategraphusesexactsharedendpoints; actualnativepadshape/sourcepincontract/DRCfollow-uprequired."
+  },
+  "recommendation": "Preferthis2VIA/17.149mmbridgerouteoverzeroVIA24.886mmTOPfallback: avoidsRAW5routingbeneathC152andU31body/highZFBneighborhood. Notabenchnoiseguarantee.",
+  "reservedPortCountChecked": 43
+}

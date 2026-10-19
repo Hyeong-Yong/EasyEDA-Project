@@ -1,0 +1,101 @@
+{
+  "schema": "labtool-commonpower-v4-bounded-api-batch",
+  "PCBRequired": "0ac2a19168000d8e",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_place_5-20261018.epru",
+  "sourceSha256": "6e30bca25f0745c32a8954653c0ce593f93bdca978b3ead54aca490c524b9665",
+  "reviewedProposalPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\commonpower-v4-two-component-actual-operations.json",
+  "reviewedProposalSha256": "3e6a17917f4bc09fd677bd4457fab3ce5f7fe250f3654c0b800d0211574b8258",
+  "batches": [
+    {
+      "stage": "adjust_power0",
+      "operations": [
+        {
+          "type": "COMPONENT",
+          "id": "63b34d484518e14f",
+          "action": "place",
+          "ref": "D20",
+          "uniqueId": "d8e102b0402a9b00",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1212.5984,
+            "y": 1307.0866,
+            "angle": 180,
+            "attrs": {
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I124",
+              "Unique ID": "d8e102b0402a9b00",
+              "Tolerance": "0.1%",
+              "Temperature Coefficient": "25 ppm/K or better"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1346.4567,
+            "y": 1307.0866,
+            "angle": 180,
+            "attrs": {
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I124",
+              "Unique ID": "d8e102b0402a9b00",
+              "Tolerance": "0.1%",
+              "Temperature Coefficient": "25 ppm/K or better"
+            },
+            "locked": false,
+            "zIndex": -1
+          }
+        },
+        {
+          "type": "COMPONENT",
+          "id": "cabb5d06f61cf1ad",
+          "action": "place",
+          "ref": "C152",
+          "uniqueId": "df863c43ab974c27",
+          "beforeBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1366.1417,
+            "y": 1173.2283,
+            "angle": 90,
+            "attrs": {
+              "Voltage Rating": "10 V",
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I109",
+              "Unique ID": "df863c43ab974c27"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "afterBody": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 1220.4724,
+            "y": 1322.8346,
+            "angle": 270,
+            "attrs": {
+              "Voltage Rating": "10 V",
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I109",
+              "Unique ID": "df863c43ab974c27"
+            },
+            "locked": false,
+            "zIndex": -1
+          }
+        }
+      ]
+    }
+  ],
+  "nativeCalls": 0,
+  "manufacturingReady": false
+}

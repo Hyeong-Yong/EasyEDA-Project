@@ -1,0 +1,584 @@
+{
+  "schema": "stm32h747-remaining6-moves-qualified-independent-20261018-v1",
+  "passed": true,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-remaining6_move-20261018.epru",
+  "sourceSha256": "af83b97cf7b775d834fc8339eb627beade225247ff077c2a234b3a50a4f808d4",
+  "beforePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-direct4_copper-20261018.epru",
+  "beforeSha256": "f4c4fd15b00355d60b78391249c64aff1dd99903597fdbf937ed5dbb48c9fc4a",
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\bottom-buckets\\remaining6-move-only-guarded-20261018.json",
+  "manifestSha256": "e41bcb02cd1b7bbf31f93c8c2b6c0ef89230c1da7835ffc5462eb8f9bff560b2",
+  "moves": [
+    {
+      "ref": "C87",
+      "componentId": "3fd1d2dd2ba483fc",
+      "actualAngle": 180,
+      "targetLayerId": 2,
+      "ownedATTRIds": [
+        "3fd1d2dd2ba483fcee0",
+        "3fd1d2dd2ba483fcee7",
+        "3fd1d2dd2ba483fce0"
+      ],
+      "pins": [
+        {
+          "num": "1",
+          "net": "ADC2_INP12",
+          "actualXYmm": [
+            57.52000083479999,
+            82.5999999
+          ],
+          "errorMm": 8.407681082058387e-07
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "actualXYmm": [
+            58.4800008452,
+            82.59999990000001
+          ],
+          "errorMm": 8.510952038900596e-07
+        }
+      ]
+    },
+    {
+      "ref": "C93",
+      "componentId": "d73bedd5072ec1a9",
+      "actualAngle": 0,
+      "targetLayerId": 2,
+      "ownedATTRIds": [
+        "d73bedd5072ec1a9ee0",
+        "d73bedd5072ec1a9ee7",
+        "d73bedd5072ec1a9e0"
+      ],
+      "pins": [
+        {
+          "num": "1",
+          "net": "ADC3_INP2",
+          "actualXYmm": [
+            50.0799998652,
+            75.51999882000001
+          ],
+          "errorMm": 1.18767461928348e-06
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "actualXYmm": [
+            49.1199998548,
+            75.51999882000001
+          ],
+          "errorMm": 1.1888999123039976e-06
+        }
+      ]
+    },
+    {
+      "ref": "C94",
+      "componentId": "8b84e0ff9041f44b",
+      "actualAngle": 270,
+      "targetLayerId": 2,
+      "ownedATTRIds": [
+        "8b84e0ff9041f44bee0",
+        "8b84e0ff9041f44bee7",
+        "8b84e0ff9041f44be0"
+      ],
+      "pins": [
+        {
+          "num": "1",
+          "net": "ADC3_INP6",
+          "actualXYmm": [
+            50.600000400000006,
+            78.2400000348
+          ],
+          "errorMm": 4.0151095182384855e-07
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "actualXYmm": [
+            50.6000004,
+            79.2000000452
+          ],
+          "errorMm": 4.025456964755212e-07
+        }
+      ]
+    },
+    {
+      "ref": "C82",
+      "componentId": "f2c0f427d4d6b785",
+      "actualAngle": 270,
+      "targetLayerId": 2,
+      "ownedATTRIds": [
+        "f2c0f427d4d6b785ee0",
+        "f2c0f427d4d6b785ee7",
+        "f2c0f427d4d6b785e0"
+      ],
+      "pins": [
+        {
+          "num": "1",
+          "net": "ADC1_INP16",
+          "actualXYmm": [
+            58.040000760000005,
+            83.71999923479999
+          ],
+          "errorMm": 1.0784855446202183e-06
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "actualXYmm": [
+            58.040000760000005,
+            84.67999924520001
+          ],
+          "errorMm": 1.0711316664727512e-06
+        }
+      ]
+    },
+    {
+      "ref": "C80",
+      "componentId": "518aa576dd1f4a0e",
+      "actualAngle": 270,
+      "targetLayerId": 2,
+      "ownedATTRIds": [
+        "518aa576dd1f4a0eee0",
+        "518aa576dd1f4a0eee7",
+        "518aa576dd1f4a0ee0"
+      ],
+      "pins": [
+        {
+          "num": "1",
+          "net": "ADC1_INP0",
+          "actualXYmm": [
+            58.95999892,
+            83.6799993148
+          ],
+          "errorMm": 1.2790226965836715e-06
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "actualXYmm": [
+            58.95999892,
+            84.6399993252
+          ],
+          "errorMm": 1.2734814710352706e-06
+        }
+      ]
+    },
+    {
+      "ref": "C95",
+      "componentId": "32cf88e1aaf87f50",
+      "actualAngle": 180,
+      "targetLayerId": 1,
+      "ownedATTRIds": [
+        "32cf88e1aaf87f50ee0",
+        "32cf88e1aaf87f50ee7",
+        "32cf88e1aaf87f50e0"
+      ],
+      "pins": [
+        {
+          "num": "1",
+          "net": "ADC3_INP7",
+          "actualXYmm": [
+            53.52000121479999,
+            77.30000034
+          ],
+          "errorMm": 1.2614828606824834e-06
+        },
+        {
+          "num": "2",
+          "net": "GND",
+          "actualXYmm": [
+            54.480001225200006,
+            77.30000034
+          ],
+          "errorMm": 1.2715011057264687e-06
+        }
+      ]
+    }
+  ],
+  "protectedNativeBodyCount": 13122,
+  "checks": [
+    {
+      "test": "Exact old component guard C87",
+      "passed": true
+    },
+    {
+      "test": "Exact XY4dp/layer/otherbody, -90\u2192270 is exact modulo360 only C87",
+      "passed": true
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C87.Footprint",
+      "passed": true,
+      "detail": {
+        "id": "3fd1d2dd2ba483fcee0"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C87.Designator",
+      "passed": true,
+      "detail": {
+        "id": "3fd1d2dd2ba483fcee7"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C87.Device",
+      "passed": true,
+      "detail": {
+        "id": "3fd1d2dd2ba483fce0"
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C87.1",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          57.52000083479999,
+          82.5999999
+        ],
+        "targetXYmm": [
+          57.52,
+          82.6
+        ],
+        "distanceErrorMm": 8.407681082058387e-07,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C87.2",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          58.4800008452,
+          82.59999990000001
+        ],
+        "targetXYmm": [
+          58.48,
+          82.6
+        ],
+        "distanceErrorMm": 8.510952038900596e-07,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact old component guard C93",
+      "passed": true
+    },
+    {
+      "test": "Exact XY4dp/layer/otherbody, -90\u2192270 is exact modulo360 only C93",
+      "passed": true
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C93.Footprint",
+      "passed": true,
+      "detail": {
+        "id": "d73bedd5072ec1a9ee0"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C93.Designator",
+      "passed": true,
+      "detail": {
+        "id": "d73bedd5072ec1a9ee7"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C93.Device",
+      "passed": true,
+      "detail": {
+        "id": "d73bedd5072ec1a9e0"
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C93.1",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          50.0799998652,
+          75.51999882000001
+        ],
+        "targetXYmm": [
+          50.08,
+          75.52
+        ],
+        "distanceErrorMm": 1.18767461928348e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C93.2",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          49.1199998548,
+          75.51999882000001
+        ],
+        "targetXYmm": [
+          49.12,
+          75.52
+        ],
+        "distanceErrorMm": 1.1888999123039976e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact old component guard C94",
+      "passed": true
+    },
+    {
+      "test": "Exact XY4dp/layer/otherbody, -90\u2192270 is exact modulo360 only C94",
+      "passed": true
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C94.Footprint",
+      "passed": true,
+      "detail": {
+        "id": "8b84e0ff9041f44bee0"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C94.Designator",
+      "passed": true,
+      "detail": {
+        "id": "8b84e0ff9041f44bee7"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C94.Device",
+      "passed": true,
+      "detail": {
+        "id": "8b84e0ff9041f44be0"
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C94.1",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          50.600000400000006,
+          78.2400000348
+        ],
+        "targetXYmm": [
+          50.6,
+          78.24
+        ],
+        "distanceErrorMm": 4.0151095182384855e-07,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C94.2",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          50.6000004,
+          79.2000000452
+        ],
+        "targetXYmm": [
+          50.6,
+          79.2
+        ],
+        "distanceErrorMm": 4.025456964755212e-07,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact old component guard C82",
+      "passed": true
+    },
+    {
+      "test": "Exact XY4dp/layer/otherbody, -90\u2192270 is exact modulo360 only C82",
+      "passed": true
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C82.Footprint",
+      "passed": true,
+      "detail": {
+        "id": "f2c0f427d4d6b785ee0"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C82.Designator",
+      "passed": true,
+      "detail": {
+        "id": "f2c0f427d4d6b785ee7"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C82.Device",
+      "passed": true,
+      "detail": {
+        "id": "f2c0f427d4d6b785e0"
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C82.1",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          58.040000760000005,
+          83.71999923479999
+        ],
+        "targetXYmm": [
+          58.04,
+          83.72
+        ],
+        "distanceErrorMm": 1.0784855446202183e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C82.2",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          58.040000760000005,
+          84.67999924520001
+        ],
+        "targetXYmm": [
+          58.04,
+          84.68
+        ],
+        "distanceErrorMm": 1.0711316664727512e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact old component guard C80",
+      "passed": true
+    },
+    {
+      "test": "Exact XY4dp/layer/otherbody, -90\u2192270 is exact modulo360 only C80",
+      "passed": true
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C80.Footprint",
+      "passed": true,
+      "detail": {
+        "id": "518aa576dd1f4a0eee0"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C80.Designator",
+      "passed": true,
+      "detail": {
+        "id": "518aa576dd1f4a0eee7"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C80.Device",
+      "passed": true,
+      "detail": {
+        "id": "518aa576dd1f4a0ee0"
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C80.1",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          58.95999892,
+          83.6799993148
+        ],
+        "targetXYmm": [
+          58.96,
+          83.68
+        ],
+        "distanceErrorMm": 1.2790226965836715e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C80.2",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          58.95999892,
+          84.6399993252
+        ],
+        "targetXYmm": [
+          58.96,
+          84.64
+        ],
+        "distanceErrorMm": 1.2734814710352706e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact old component guard C95",
+      "passed": true
+    },
+    {
+      "test": "Exact XY4dp/layer/otherbody, -90\u2192270 is exact modulo360 only C95",
+      "passed": true
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C95.Footprint",
+      "passed": true,
+      "detail": {
+        "id": "32cf88e1aaf87f50ee0"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C95.Designator",
+      "passed": true,
+      "detail": {
+        "id": "32cf88e1aaf87f50ee7"
+      }
+    },
+    {
+      "test": "Exact ownedATTR rigid localY-reflection/rotation/translation and layer:text-angle convention C95.Device",
+      "passed": true,
+      "detail": {
+        "id": "32cf88e1aaf87f50e0"
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C95.1",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          53.52000121479999,
+          77.30000034
+        ],
+        "targetXYmm": [
+          53.52,
+          77.3
+        ],
+        "distanceErrorMm": 1.2614828606824834e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact native numbered pin/net world geometry within derived representation bound C95.2",
+      "passed": true,
+      "detail": {
+        "actualXYmm": [
+          54.480001225200006,
+          77.30000034
+        ],
+        "targetXYmm": [
+          54.48,
+          77.3
+        ],
+        "distanceErrorMm": 1.2715011057264687e-06,
+        "derivedXYEuclideanBoundMm": 1.8034061347185992e-06
+      }
+    },
+    {
+      "test": "Exact native membership, no copper/VIA/FILL/other record creation/deletion",
+      "passed": true
+    },
+    {
+      "test": "Every body equals exact qualified6moves/ownedATTR model; all copper/direct4/originaldrills/rules/stack/pins exact",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0,
+  "limits": [
+    "Move-only source proof. Remaining6 copper/antipads/drill additions are not applied by this report and DRC0 is not claimed.",
+    "Only native exact angle equivalence -90==270 modulo360 and exact4decimal-mil coordinates qualified; no broad geometry-field exemptions.",
+    "Bottom localY reflection and native text-angle/layer convention are tested on all owned attrs; all other fields exact."
+  ]
+}

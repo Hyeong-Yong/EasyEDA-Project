@@ -1,0 +1,458 @@
+{
+  "schema": "adc10-bottom-bucket-feasibility-20261017-v1",
+  "readOnly": true,
+  "nativeCallsPerformed": false,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-oriented-20261017.epru",
+  "sourceSha256": "a1981a3fd491e3f61daee520ebc2e768ddb3d2210e6ca0ce03474cec4a60213a",
+  "status": "DRAFT_NOT_FOR_APPLICATION",
+  "clearanceMm": 0.1524,
+  "arcTessellationMaxSagittaMm": 0.001,
+  "obstaclesChecked": {
+    "localVias": 153,
+    "bottomLineAndArcSegments": 471,
+    "bottomFills": 14
+  },
+  "searchStats": {
+    "ADC3_INP8": {
+      "testedCandidates": 672,
+      "padClearancePass": 38,
+      "straightSignalPass": 38,
+      "groundReturnPass": 31,
+      "acceptedCandidates": 31
+    },
+    "ADC2_INP12": {
+      "testedCandidates": 960,
+      "padClearancePass": 3,
+      "straightSignalPass": 0,
+      "groundReturnPass": 0,
+      "acceptedCandidates": 0
+    },
+    "ADC3_INP6": {
+      "testedCandidates": 960,
+      "padClearancePass": 1,
+      "straightSignalPass": 0,
+      "groundReturnPass": 0,
+      "acceptedCandidates": 0
+    },
+    "ADC3_INP7": {
+      "testedCandidates": 960,
+      "padClearancePass": 1,
+      "straightSignalPass": 0,
+      "groundReturnPass": 0,
+      "acceptedCandidates": 0
+    },
+    "ADC3_INP2": {
+      "testedCandidates": 672,
+      "padClearancePass": 1,
+      "straightSignalPass": 1,
+      "groundReturnPass": 1,
+      "acceptedCandidates": 1
+    },
+    "ADC2_INP13": {
+      "testedCandidates": 960,
+      "padClearancePass": 0,
+      "straightSignalPass": 0,
+      "groundReturnPass": 0,
+      "acceptedCandidates": 0
+    },
+    "ADC1_INP1": {
+      "testedCandidates": 960,
+      "padClearancePass": 20,
+      "straightSignalPass": 0,
+      "groundReturnPass": 0,
+      "acceptedCandidates": 0
+    },
+    "ADC2_INP3": {
+      "testedCandidates": 672,
+      "padClearancePass": 1,
+      "straightSignalPass": 1,
+      "groundReturnPass": 1,
+      "acceptedCandidates": 1
+    },
+    "ADC1_INP0": {
+      "testedCandidates": 960,
+      "padClearancePass": 7,
+      "straightSignalPass": 0,
+      "groundReturnPass": 0,
+      "acceptedCandidates": 0
+    },
+    "ADC1_INP16": {
+      "testedCandidates": 960,
+      "padClearancePass": 5,
+      "straightSignalPass": 0,
+      "groundReturnPass": 0,
+      "acceptedCandidates": 0
+    }
+  },
+  "channels": [
+    {
+      "status": "NO_STRAIGHT_ROUTE_DRAFT",
+      "ref": "C80",
+      "escapeViaId": "d2baf19ac3a89b2d",
+      "escapeXYmm": [
+        56.0999996,
+        79.874999
+      ]
+    },
+    {
+      "status": "NO_STRAIGHT_ROUTE_DRAFT",
+      "ref": "C81",
+      "escapeViaId": "6a0bd823e67e58bd",
+      "escapeXYmm": [
+        56.0259992,
+        80.7490003
+      ]
+    },
+    {
+      "status": "NO_STRAIGHT_ROUTE_DRAFT",
+      "ref": "C82",
+      "escapeViaId": "ada06e0902546212",
+      "escapeXYmm": [
+        53.6999993,
+        83.975001
+      ]
+    },
+    {
+      "status": "CONDITIONAL_OFFLINE_DRAFT",
+      "ref": "C86",
+      "componentId": "521960cee1879019",
+      "sourceComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 3925,
+        "angle": 270,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "c915b0419ae05033",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3fe36865277405783"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "targetLayer": "BOTTOM",
+      "centerXYmm": [
+        56.586740000000006,
+        82.50674
+      ],
+      "axisOfPositiveLocalX": [
+        -1,
+        0
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC2_INP3",
+          "xyMm": [
+            56.10674,
+            82.50674
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            57.06674,
+            82.50674
+          ]
+        }
+      },
+      "signalConnection": {
+        "widthMm": 0.1524,
+        "escapeViaId": "54089935a2a2c135",
+        "startXYmm": [
+          55.1874995,
+          81.5875
+        ],
+        "endXYmm": [
+          56.10674,
+          82.50674
+        ],
+        "lengthMm": 1.3
+      },
+      "groundConnection": {
+        "mode": "DIRECT_SOLID_EXISTING_GND_FILL",
+        "fillId": "647c91cbbc161db2",
+        "verifiedGroundViaIds": [
+          "7a8fe419424f8ce1",
+          "a9918a4593cef8a4",
+          "94816e53b57cdde0",
+          "a2044e14af4951c8",
+          "2bf29815f20a1f95",
+          "d2ca99068209dff4",
+          "ec22630f76c0a2d1",
+          "a1a900a1f8dae432",
+          "6d9460e3251003b1",
+          "8169548052c24c3a",
+          "5b3a75fba0599b52",
+          "8a69674e6d8aa6f6",
+          "05bef01f2319ed22",
+          "2728f708699029d2",
+          "c37c7eba30d0f566",
+          "4ece9ddbb446331b",
+          "58734eff0b49c3d5",
+          "b41b90a4a72f0a60",
+          "1688317dcabb7de8",
+          "c7bd87965eb8f1e1",
+          "a64a4e2b395dc749"
+        ],
+        "lengthMm": 0,
+        "padCenterAndAtLeastTwoCornersInsideSameFill": true
+      },
+      "requiresLocalGroundFillCutbackIds": [
+        "647c91cbbc161db2"
+      ],
+      "assemblyBoundingBoxMm": [
+        55.736740000000005,
+        82.00674,
+        57.43674000000001,
+        83.00674
+      ]
+    },
+    {
+      "status": "NO_STRAIGHT_ROUTE_DRAFT",
+      "ref": "C87",
+      "escapeViaId": "fb94b82c7a1e2ecc",
+      "escapeXYmm": [
+        52.8249998,
+        81.5499995
+      ]
+    },
+    {
+      "status": "NO_STRAIGHT_ROUTE_DRAFT",
+      "ref": "C88",
+      "escapeViaId": "1b308d19b8b7e343",
+      "escapeXYmm": [
+        52.8249998,
+        82.3500004
+      ]
+    },
+    {
+      "status": "CONDITIONAL_OFFLINE_DRAFT",
+      "ref": "C93",
+      "componentId": "d73bedd5072ec1a9",
+      "sourceComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 2271.8504,
+        "angle": 270,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "72678adef72d5ddc",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I57"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "targetLayer": "BOTTOM",
+      "centerXYmm": [
+        53.247460000000004,
+        83.09246
+      ],
+      "axisOfPositiveLocalX": [
+        -1,
+        0
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC3_INP2",
+          "xyMm": [
+            52.76746,
+            83.09246
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            53.72746,
+            83.09246
+          ]
+        }
+      },
+      "signalConnection": {
+        "widthMm": 0.1524,
+        "escapeViaId": "3c6e2aa60ead2e95",
+        "startXYmm": [
+          52.0249988,
+          82.3500004
+        ],
+        "endXYmm": [
+          52.76746,
+          83.09246
+        ],
+        "lengthMm": 1.05
+      },
+      "groundConnection": {
+        "mode": "DIRECT_SOLID_EXISTING_GND_FILL",
+        "fillId": "647c91cbbc161db2",
+        "verifiedGroundViaIds": [
+          "7a8fe419424f8ce1",
+          "a9918a4593cef8a4",
+          "94816e53b57cdde0",
+          "a2044e14af4951c8",
+          "2bf29815f20a1f95",
+          "d2ca99068209dff4",
+          "ec22630f76c0a2d1",
+          "a1a900a1f8dae432",
+          "6d9460e3251003b1",
+          "8169548052c24c3a",
+          "5b3a75fba0599b52",
+          "8a69674e6d8aa6f6",
+          "05bef01f2319ed22",
+          "2728f708699029d2",
+          "c37c7eba30d0f566",
+          "4ece9ddbb446331b",
+          "58734eff0b49c3d5",
+          "b41b90a4a72f0a60",
+          "1688317dcabb7de8",
+          "c7bd87965eb8f1e1",
+          "a64a4e2b395dc749"
+        ],
+        "lengthMm": 0,
+        "padCenterAndAtLeastTwoCornersInsideSameFill": true
+      },
+      "requiresLocalGroundFillCutbackIds": [
+        "647c91cbbc161db2"
+      ],
+      "assemblyBoundingBoxMm": [
+        52.39746,
+        82.59246,
+        54.097460000000005,
+        83.59246
+      ]
+    },
+    {
+      "status": "NO_STRAIGHT_ROUTE_DRAFT",
+      "ref": "C94",
+      "escapeViaId": "0b13092086c7b8f8",
+      "escapeXYmm": [
+        52.0249988,
+        81.5499995
+      ]
+    },
+    {
+      "status": "NO_STRAIGHT_ROUTE_DRAFT",
+      "ref": "C95",
+      "escapeViaId": "2acc80d225513e93",
+      "escapeXYmm": [
+        51.2750003,
+        82.3000005
+      ]
+    },
+    {
+      "status": "CONDITIONAL_OFFLINE_DRAFT",
+      "ref": "C96",
+      "componentId": "3852588fa8b5215f",
+      "sourceComponentBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 618.3071,
+        "angle": 270,
+        "attrs": {
+          "Name": "2.2nF",
+          "Unique ID": "4446908c02d75f0c",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I60"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "targetLayer": "BOTTOM",
+      "centerXYmm": [
+        50.117149999999995,
+        80.58177
+      ],
+      "axisOfPositiveLocalX": [
+        1,
+        0
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC3_INP8",
+          "xyMm": [
+            50.59715,
+            80.58177
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            49.63715,
+            80.58177
+          ]
+        }
+      },
+      "signalConnection": {
+        "widthMm": 0.1524,
+        "escapeViaId": "4ae5f2d39ccde8fc",
+        "startXYmm": [
+          51.2250004,
+          80.7500011
+        ],
+        "endXYmm": [
+          50.59715,
+          80.58177
+        ],
+        "lengthMm": 0.65
+      },
+      "groundConnection": {
+        "mode": "DIRECT_SOLID_EXISTING_GND_FILL",
+        "fillId": "647c91cbbc161db2",
+        "verifiedGroundViaIds": [
+          "7a8fe419424f8ce1",
+          "a9918a4593cef8a4",
+          "94816e53b57cdde0",
+          "a2044e14af4951c8",
+          "2bf29815f20a1f95",
+          "d2ca99068209dff4",
+          "ec22630f76c0a2d1",
+          "a1a900a1f8dae432",
+          "6d9460e3251003b1",
+          "8169548052c24c3a",
+          "5b3a75fba0599b52",
+          "8a69674e6d8aa6f6",
+          "05bef01f2319ed22",
+          "2728f708699029d2",
+          "c37c7eba30d0f566",
+          "4ece9ddbb446331b",
+          "58734eff0b49c3d5",
+          "b41b90a4a72f0a60",
+          "1688317dcabb7de8",
+          "c7bd87965eb8f1e1",
+          "a64a4e2b395dc749"
+        ],
+        "lengthMm": 0,
+        "padCenterAndAtLeastTwoCornersInsideSameFill": true
+      },
+      "requiresLocalGroundFillCutbackIds": [
+        "647c91cbbc161db2"
+      ],
+      "assemblyBoundingBoxMm": [
+        49.267149999999994,
+        80.08177,
+        50.96715,
+        81.08177
+      ]
+    }
+  ],
+  "limitations": [
+    "Three conditional candidate placements were found with the searched straight ADC stubs. Seven channels remain unresolved by this bounded search, not proven impossible.",
+    "Ground pads may join a literal existing GND FILL if the pad center and at least two pad corners are inside it and existing GND-via centers also lie in that same solid polygon. Ground need not have its own straight trace to a separate via.",
+    "Seven unresolved channels need bent ADC routing, different assignment/order of shared free space, or a separately reviewed limited reroute. No such routing was generated.",
+    "Every listed ground-FILL cutback must be explicitly implemented and its remaining ground connectivity rechecked. Static FILL geometry does not regenerate clearances automatically.",
+    "Bottom component angle/mirror mapping, through-hole component pads, new-route mutual clearance, soldermask, courtyards and assembly constraints still need independent checking. These positions must not be applied as an approved layout.",
+    "Original ADC escape vias, long routes, holes and unrelated non-ground copper remain protected; no live/source mutation or new drilling was performed."
+  ],
+  "manufacturingReady": false,
+  "routingCompleted": false,
+  "applicationApproved": false,
+  "workStoppedForParentInputConditionClarification": true
+}

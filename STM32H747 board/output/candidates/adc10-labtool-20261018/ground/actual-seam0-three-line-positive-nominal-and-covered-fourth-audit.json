@@ -1,0 +1,107 @@
+{
+  "schema": "actual-three-line-and-contained-fourth-request-audit-v1",
+  "passed": true,
+  "actualSource": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_ground_seam0-20261018.epru",
+  "actualSourceSha256": "49d21b37803cd04e82c401f8c3b05d1e702e17519a1b12de9db6c68d623e72d7",
+  "beforeSourceSha256": "74d29fb7f5d3579cbf12ef085f26059cad63b86aff5a3dcf8dff8a0cfaf92bfb",
+  "contractSha256": "801e10de9ece1ae57c80c13e289277377e80d4576874acaa3d80ddb56a1c6da9",
+  "generatorSha256": "454f010cef98ebc63c1a0cf218dd3dca4381e6323a978518a5b13324458d514d",
+  "requestedLineCount": 4,
+  "persistedNewLineCount": 3,
+  "unchangedOldBodiesExceptDochead": true,
+  "removedOldRecords": 0,
+  "newDrills": 0,
+  "newFills": 0,
+  "newVias": 0,
+  "bridgeProofs": [
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "notAPersistedNewLine": true,
+      "fullyCoveredByEachUnchangedOldTrace": [
+        {
+          "oldLineId": "d22bf385d3281e2e",
+          "oldBodyExact": true,
+          "requestedCapsuleOutsideOldCopperMm2": 0.0,
+          "oldTraceOverlapTarget70dMm2": 0.2847465132930193,
+          "oldTraceOverlapD1ViaAnnulusMm2": 0.09424503705304957
+        },
+        {
+          "oldLineId": "d7d16ee6a48fa28a",
+          "oldBodyExact": true,
+          "requestedCapsuleOutsideOldCopperMm2": 0.0,
+          "oldTraceOverlapTarget70dMm2": 0.2847473432878227,
+          "oldTraceOverlapD1ViaAnnulusMm2": 0.09424503705304973
+        }
+      ]
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "actualNativeLineId": "e273a4afad415a1c",
+      "actualBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 17,
+        "startX": 1818.88,
+        "startY": 4322.1576,
+        "endX": 1818.88,
+        "endY": 4316.2516,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "actualCoordinatesWidthLayerNetExactVsFrozen": true,
+      "rawTargetOverlapMm2": 0.031454459935566045,
+      "rawAnchorOverlapMm2": 0.03145445993557182,
+      "noFillPenUsed": true,
+      "viaHoleExcluded": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_3",
+      "actualNativeLineId": "45f4cf971c4f5355",
+      "actualBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 17,
+        "startX": 2078.8013,
+        "startY": 3116.24,
+        "endX": 2078.8013,
+        "endY": 3110.334,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "actualCoordinatesWidthLayerNetExactVsFrozen": true,
+      "rawTargetOverlapMm2": 0.031454459935566045,
+      "rawAnchorOverlapMm2": 0.03145445993556893,
+      "noFillPenUsed": true,
+      "viaHoleExcluded": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_4",
+      "actualNativeLineId": "d62f70872e023378",
+      "actualBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 2112.2047,
+        "startY": 3121.063,
+        "endX": 2112.2047,
+        "endY": 3110.3344,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      },
+      "actualCoordinatesWidthLayerNetExactVsFrozen": true,
+      "rawTargetOverlapMm2": 0.01386538126958168,
+      "rawAnchorOverlapMm2": 0.03145445993556893,
+      "noFillPenUsed": true,
+      "viaHoleExcluded": true
+    }
+  ],
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "strictNativeDrcIsSeparateGate": true
+}

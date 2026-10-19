@@ -1,0 +1,4286 @@
+{
+  "schema": "adc10-labtool-selected-power-net-six-layer-contact-audit-v1",
+  "analysisCompleted": true,
+  "net": "+3V3",
+  "allPhysicalLoadPadsSourceAnchored": true,
+  "allOriginalSelectedNetViasSourceAnchored": true,
+  "allPlannedSelectedNetViasSourceAnchored": true,
+  "loadConnectivityPassed": true,
+  "generatorSha256": "2ef4487d238696d7d16ab1d636060c69dfad2d0849769e5aed572a78ffbfd089",
+  "geometryHelperSha256": "d42603119ada33cbe629e7549ab03c563a212c210b8c2b5f2c2a32dc37becf40",
+  "physicalPadNetGeometryCoverage": {
+    "expectedCount": 138,
+    "coveredCount": 138,
+    "omitted": [],
+    "exact": true
+  },
+  "originalViaGeometryCoverage": {
+    "expectedCount": 77,
+    "coveredCount": 77,
+    "omitted": [],
+    "exact": true
+  },
+  "manifest": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\local-static-fill-clearance-v6-routingv5-approved116-omission-final.json",
+  "manifestSha256": "660036f5ebfd445fbe96780349bd661510c0abeb0767f93ac1c44390a8bfa0a2",
+  "sourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "placementSha256": "2cbb87c1ace266d67fdbc90a15807a8d8316773e719cd31108b2cd33fa6ddd43",
+  "lobeCount": 0,
+  "unanchoredLobeCount": 0,
+  "originalViaAnchorAudit": [
+    {
+      "id": "02e9897c90f63a0e",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "048e9017af77d3cb",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "0dc2c28a346797a6",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "104c2268e223ee88",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "1343bc6dd107e6a6",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "14241fa00c86d7a3",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "162be45139e08026",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "1a5c3f7598ea0914",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "2118a6991c941c7d",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "213e82cc256458d4",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "22f2a834fada428f",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "238da22024d130e5",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "2d55509a209802f9",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "2dacdc30f596e6e6",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "2ef20276e4f850b9",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "32b07d272fafa2d2",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "3a687d9fd853d79e",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "4051c7a9855e8c24",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "45f5baa249e2ad1d",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "48f19ecb28123ad9",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "507547bb1c01fe73",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "54ccc2941af4ba97",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "5698d3c72aa6f817",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "58e66da7980556f9",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "5a0785713fb4f660",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "5abd7dac3339c291",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "64e6f546a080e74a",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "680205f1b1d20cfb",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "689655bf2164420b",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "6ba50f61ecf04034",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "6d495ca90b5a7139",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "6de8789d41c7cec4",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "712a554f2be6aa88",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "73a006ac849478e2",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "758299d2e9231bf5",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "79371f0cd10dd4aa",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "80c1c219a504d62a",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "844e3b3f0bdf3b43",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "894ff04e58b69b1e",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "8fc22727a491f3fa",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "91cd2d64585084cb",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "92dc9f6bda5835a5",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "94420939c44a3798",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "94ccf180c71a63e0",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "9a8c794b92100357",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "9ba2244707ccb89d",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "9d5a51911d3cbf20",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "9e4555707672f41a",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "9f8ab3785d7311f8",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "9fe559176eb8f76a",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "a3557893e2576857",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "ac18c5b7897b5e0d",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "ad24a9ff33b484f5",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "aeea5c39125cfd9b",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "af74ae24681d8a35",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "b207477536ed85bf",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "b47d47474314d484",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "b5384e98397cc531",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "b6b70ca4c9b47ee8",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "c17ad2a516a2c038",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "c5201d1c02c5c398",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "c6e938d5a86ccd32",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "cb1b3a32116bcd3e",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "d07f3b92d6182b2c",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "d0802efa9bb7ec9a",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "d0e40b70c4bd64d1",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "d3748eb889a45102",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "db712c485151c309",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "db932b87f9448dff",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "e311d4f65937fa31",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "e7aea29851b29249",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "edf384412eb957d7",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "f0d5acfca2f95473",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "f61535390b556e2d",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "f81446f170fa160f",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "fb478939afe83acc",
+      "reachesSelectedSourcePad": true
+    },
+    {
+      "id": "fc11d37bcedb9e63",
+      "reachesSelectedSourcePad": true
+    }
+  ],
+  "unanchoredOriginalViaIds": [],
+  "plannedViaAnchorAudit": [],
+  "unanchoredPlannedViaIds": [],
+  "lobesSortedByArea": [],
+  "excludedOriginalInvalidGeometryNoRepair": [],
+  "sixLayerComponentCounts": {
+    "1": 71,
+    "2": 78,
+    "15": 80,
+    "16": 1,
+    "17": 80,
+    "18": 80
+  },
+  "physicalActorCounts": {
+    "1": {
+      "LINE": 169,
+      "FILL": 3,
+      "VIA": 77,
+      "PAD": 114
+    },
+    "2": {
+      "LINE": 46,
+      "VIA": 77,
+      "PAD": 27
+    },
+    "15": {
+      "FILL": 3,
+      "VIA": 77,
+      "PAD": 3
+    },
+    "16": {
+      "FILL": 4,
+      "VIA": 77,
+      "PAD": 3
+    },
+    "17": {
+      "FILL": 3,
+      "VIA": 77,
+      "PAD": 3
+    },
+    "18": {
+      "FILL": 3,
+      "VIA": 77,
+      "PAD": 3
+    }
+  },
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "manufacturingApproved": false,
+  "limitations": [
+    "Conservative source geometry graph: no equality-of-NET-name joins. Only actual same-layer copper overlap and plated barrel contacts join regions.",
+    "Invalid original FILLs are retained and excluded without repair, so a reported missing anchor can need focused original-geometry/CAM review.",
+    "This establishes DC copper connectivity only, not return impedance, analog noise, narrow-neck fabrication, or native DRC completion."
+  ],
+  "allLobesSourceAnchored": true,
+  "originalPowerSourcePhysicalPad": "U3:4",
+  "originalPowerSourceFanoutVia": null,
+  "sourcePadSurfaceComponents": [
+    [
+      1,
+      62
+    ]
+  ],
+  "sourceAnchoredLobeCount": 0,
+  "targetNetPhysicalPads": [
+    {
+      "pin": "C100:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        138.6399989577,
+        21.7999991736,
+        139.2599989623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          9
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C101:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        124.63999901769999,
+        21.7999991736,
+        125.2599990223
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          8
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C102:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        110.6399990777,
+        21.7999991736,
+        111.2599990823
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          7
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C113:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        96.63999913769999,
+        21.7999991736,
+        97.25999914229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          6
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C114:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        82.63999919769999,
+        21.7999991736,
+        83.2599992023
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          5
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C115:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        68.6399992577,
+        21.7999991736,
+        69.2599992623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          4
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C116:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        54.639999317699996,
+        21.7999991736,
+        55.2599993223
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          3
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C117:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        40.6399993777,
+        21.7999991736,
+        41.2599993823
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          2
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C118:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        26.6399994377,
+        21.7999991736,
+        27.2599994423
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          1
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C119:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        12.639999497699998,
+        21.7999991736,
+        13.2599995023
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          0
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U10:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        138.6499983281,
+        20.6500004957,
+        139.2499983219
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          9
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U11:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        124.64999838809999,
+        20.6500004957,
+        125.2499983819
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          8
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U12:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        110.64999844809999,
+        20.6500004957,
+        111.2499984419
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          7
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U13:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        96.6499985081,
+        20.6500004957,
+        97.24999850190001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          6
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U14:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        82.64999856809999,
+        20.6500004957,
+        83.2499985619
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          5
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U15:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        68.6499986281,
+        20.6500004957,
+        69.2499986219
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          4
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U16:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        54.6499986881,
+        20.6500004957,
+        55.249998681899996
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          3
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U17:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        40.6499987481,
+        20.6500004957,
+        41.2499987419
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          2
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U18:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        26.649998808099998,
+        20.6500004957,
+        27.249998801899995
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          1
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U19:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        12.649998868099999,
+        20.6500004957,
+        13.2499988619
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          0
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    }
+  ],
+  "unanchoredTargetNetPhysicalPads": [],
+  "allPhysicalNetPads": [
+    {
+      "pin": "C3:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        55.8900003864,
+        69.91000179769999,
+        56.45000038399999,
+        70.53000180229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          51
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C5:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.209999877499996,
+        95.16645052269999,
+        48.1599998825,
+        96.24145053169998
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          36
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C6:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        53.0300010264,
+        93.59000015769999,
+        53.590001023999996,
+        94.21000016229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          71
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C7:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.6649992977,
+        89.0500001064,
+        48.2849993023,
+        89.61000010400001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          37
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C8:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.6900010577,
+        89.05499882640001,
+        49.3100010623,
+        89.61499882400001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          39
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C9:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.7150002777,
+        89.05499882640001,
+        50.3350002823,
+        89.61499882400001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          38
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C10:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.7399994977,
+        89.05499882640001,
+        51.3599995023,
+        89.61499882400001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          38
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C11:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.75500030640001,
+        88.9899991977,
+        53.315000304,
+        89.6099992023
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          52
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C12:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.75500030640001,
+        87.9399987577,
+        53.315000304,
+        88.5599987623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          51
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C13:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.75500030640001,
+        85.8649990977,
+        53.315000304,
+        86.4849991023
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          49
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C14:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.75500030640001,
+        86.8900008577,
+        53.315000304,
+        87.5100008623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          50
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C15:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.6900006777,
+        83.91000083599998,
+        53.3100006823,
+        84.47000083359998
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          48
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C16:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.639999716,
+        86.01499879769999,
+        48.19999971359999,
+        86.63499880229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          15
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C17:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.615001017699996,
+        84.240000176,
+        51.2350010223,
+        84.8000001736
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          47
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C18:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.5899992577,
+        84.240000176,
+        50.2099992623,
+        84.8000001736
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          36
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C19:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.639999716,
+        83.96500035769999,
+        48.19999971359999,
+        84.5850003623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          35
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C20:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.639999716,
+        84.98999957769999,
+        48.19999971359999,
+        85.60999958229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          13
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C21:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.639999716,
+        87.0400005577,
+        48.19999971359999,
+        87.6600005623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          18
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C22:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.114999477699996,
+        82.4000007064,
+        50.7349994823,
+        82.960000704
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          33
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C23:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.4400000977,
+        90.09499989599999,
+        51.0600001023,
+        90.65499989359999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          53
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C24:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        51.4649993177,
+        90.09499989599999,
+        52.0849993223,
+        90.65499989359999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          53
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C25:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        51.640000237699994,
+        83.91000083599998,
+        52.260000242299995,
+        84.47000083359998
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          46
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C31:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.610000938300004,
+        95.0914507997,
+        49.5100009417,
+        95.9414508015
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          36
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C32:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.9249998577,
+        95.686451756,
+        50.5449998623,
+        96.2464517536
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          36
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C38:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        66.3900022464,
+        54.315001237699995,
+        66.950002244,
+        54.9350012423
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          65
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C45:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        71.8875000017,
+        9.4150000422,
+        73.0625000139,
+        10.8650000378
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          62
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C46:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        71.8875000017,
+        11.3750012022,
+        73.0625000139,
+        12.825001197799999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          62
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C47:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        75.762498716,
+        10.475000017699998,
+        76.3224987136,
+        11.095000022299999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          62
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C48:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        44.689998897699994,
+        119.10976025599999,
+        45.309998902299995,
+        119.66976025359999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          25
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C49:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        43.215000577699996,
+        119.10976025599999,
+        43.8350005823,
+        119.66976025359999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          26
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C50:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        42.189998817699994,
+        119.10976025599999,
+        42.809998822299995,
+        119.66976025359999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          27
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C51:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        38.174998986400006,
+        115.43999963769998,
+        38.734998984,
+        116.05999964229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          24
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C52:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        38.174998986400006,
+        114.35975795769998,
+        38.734998984,
+        114.97975796229998
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          23
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C53:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.36500097769999,
+        119.10976025599999,
+        49.985000982299994,
+        119.66976025359999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          39
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C54:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.3900001977,
+        119.10976025599999,
+        51.0100002023,
+        119.66976025359999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          49
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C55:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        54.239999216,
+        115.43999963769998,
+        54.799999213599996,
+        116.05999964229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          60
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C56:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        54.239999216,
+        114.38475917769999,
+        54.799999213599996,
+        115.00475918229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          48
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C57:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.8899991977,
+        110.5947601664,
+        51.5099992023,
+        111.154760164
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          55
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C58:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.6900010577,
+        108.6950001864,
+        49.3100010623,
+        109.255000184
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          37
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C59:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        43.919999536,
+        108.63475797769999,
+        44.479999533599994,
+        109.25475798229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          21
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C60:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.6900010577,
+        114.5697585664,
+        49.3100010623,
+        115.129758564
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          42
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C61:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        40.5399995777,
+        111.159758376,
+        41.1599995823,
+        111.7197583736
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          21
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C67:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.1500006264,
+        37.44000069769999,
+        48.710000623999996,
+        38.060000702299995
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          29
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C72:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        83.6075014664,
+        74.1274990777,
+        84.167501464,
+        74.7474990823
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          67
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C76:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        54.645000577699996,
+        126.60999925599998,
+        55.2650005823,
+        127.16999925359998
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          61
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "FB1:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.7500006583,
+        74.9249988797,
+        49.6500006617,
+        75.7749988815
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          31
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "FB2:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.7250005183,
+        74.9500000997,
+        51.625000521699995,
+        75.8000001015
+      ],
+      "sameLayerCopperComponents": [
+        [
+          2,
+          32
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "FB3:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        56.849999698299996,
+        43.84999935850001,
+        57.74999970169999,
+        44.699999360300005
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          64
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "J1:3",
+      "physicalPadPrimitiveId": "e3",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        75.92999927,
+        145.62999957,
+        76.67000033000001,
+        148.41999907
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          70
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "J18:9",
+      "physicalPadPrimitiveId": "e9",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        36.7549997182,
+        3.0850010182,
+        38.4549997218,
+        4.7850010218
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          18,
+          0
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "J18:10",
+      "physicalPadPrimitiveId": "e10",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        36.7549997182,
+        5.6250010182,
+        38.4549997218,
+        7.3250010218
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          1
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R53:2",
+      "physicalPadPrimitiveId": "e2",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        56.969999725,
+        71.0950007485,
+        57.60999971500001,
+        71.6350007607
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          51
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R60:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        38.50000017789999,
+        85.954998905,
+        39.040000190099995,
+        86.594998895
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          15
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R61:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        38.515002408499996,
+        87.030000565,
+        39.0550024207,
+        87.670000555
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          19
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R64:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        72.70000128499998,
+        135.34000306849998,
+        73.34000127499999,
+        135.88000308069996
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          69
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R68:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        30.505000584999998,
+        68.4700021885,
+        31.145000574999997,
+        69.0100022007
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          13
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R69:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        32.430003084999996,
+        68.46538446849999,
+        33.070003075,
+        69.00538448069999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          12
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R70:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        34.355003045,
+        68.4700021885,
+        34.995003035,
+        69.0100022007
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          14
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R73:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        75.7724996485,
+        9.404999605,
+        76.3124996607,
+        10.044999595
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          62
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R78:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.879999205,
+        31.7975025085,
+        51.519999195000004,
+        32.3375025207
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          40
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R79:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.144999397899994,
+        34.305000605,
+        47.6849994101,
+        34.945000595
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          28
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R80:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.144999397899994,
+        35.355001044999995,
+        47.6849994101,
+        35.995001035
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          28
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R81:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.1400006779,
+        39.479999144999994,
+        47.6800006901,
+        40.119999135
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          30
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R82:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.1400006779,
+        38.454999924999996,
+        47.6800006901,
+        39.094999915
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          30
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R98:2",
+      "physicalPadPrimitiveId": "e2",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.43000118499999,
+        42.3149999393,
+        53.070001174999994,
+        42.854999951500005
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          50
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R122:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        68.460004685,
+        58.47999930849999,
+        69.10000467500001,
+        59.019999320699995
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          65
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R123:2",
+      "physicalPadPrimitiveId": "e2",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        84.717500745,
+        75.3825004285,
+        85.357500735,
+        75.92250044069999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          67
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "R126:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        69.2199996979,
+        60.75500104499999,
+        69.75999971009999,
+        61.395001035
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          66
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "TP18:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        62.40000093,
+        16.750000789999998,
+        63.40000147,
+        17.75000133
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          63
+        ],
+        [
+          2,
+          62
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:B1",
+      "physicalPadPrimitiveId": "e18",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        44.3357,
+        80.21070064,
+        44.5643,
+        80.43930064
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          16
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:E6",
+      "physicalPadPrimitiveId": "e74",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        46.735697740000006,
+        84.21070026,
+        46.964297740000006,
+        84.43930026
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          17
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:E9",
+      "physicalPadPrimitiveId": "e77",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        46.735697740000006,
+        86.61070054,
+        46.964297740000006,
+        86.83930054
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          18
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:E11",
+      "physicalPadPrimitiveId": "e79",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        46.735697740000006,
+        88.21069987999999,
+        46.964297740000006,
+        88.43929988
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          20
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:F5",
+      "physicalPadPrimitiveId": "e90",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.53569868,
+        83.41069931999999,
+        47.76429868,
+        83.63929931999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          33
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:F17",
+      "physicalPadPrimitiveId": "e95",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        47.53569868,
+        93.01070044,
+        47.76429868,
+        93.23930044
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          36
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:G5",
+      "physicalPadPrimitiveId": "e100",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.33569962000001,
+        83.41069931999999,
+        48.56429962000001,
+        83.63929931999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          32
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:G13",
+      "physicalPadPrimitiveId": "e106",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.33569962000001,
+        89.81070176,
+        48.56429962000001,
+        90.03930176
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          35
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:G17",
+      "physicalPadPrimitiveId": "e110",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.33569962000001,
+        93.01070044,
+        48.56429962000001,
+        93.23930044
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          36
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:H5",
+      "physicalPadPrimitiveId": "e115",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.13569802000001,
+        83.41069931999999,
+        49.36429802000001,
+        83.63929931999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          32
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:H13",
+      "physicalPadPrimitiveId": "e121",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.13569802000001,
+        89.81070176,
+        49.36429802000001,
+        90.03930176
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          34
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:J13",
+      "physicalPadPrimitiveId": "e136",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.93569896,
+        89.81070176,
+        50.16429896,
+        90.03930176
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          44
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:K5",
+      "physicalPadPrimitiveId": "e145",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.7356999,
+        83.41069931999999,
+        50.9642999,
+        83.63929931999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          42
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:K13",
+      "physicalPadPrimitiveId": "e151",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.7356999,
+        89.81070176,
+        50.9642999,
+        90.03930176
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          45
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:L5",
+      "physicalPadPrimitiveId": "e160",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        51.5356983,
+        83.41069931999999,
+        51.7642983,
+        83.63929931999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          43
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:L13",
+      "physicalPadPrimitiveId": "e166",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        51.5356983,
+        89.81070176,
+        51.7642983,
+        90.03930176
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          46
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:M5",
+      "physicalPadPrimitiveId": "e175",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.335699240000004,
+        83.41069931999999,
+        52.564299240000004,
+        83.63929931999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          52
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:M13",
+      "physicalPadPrimitiveId": "e176",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.335699240000004,
+        89.81070176,
+        52.564299240000004,
+        90.03930176
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          58
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:N7",
+      "physicalPadPrimitiveId": "e187",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        53.13570018,
+        85.0107012,
+        53.36430018,
+        85.2393012
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          53
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:N8",
+      "physicalPadPrimitiveId": "e188",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        53.13570018,
+        85.81069959999999,
+        53.36430018,
+        86.03929959999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          54
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:N10",
+      "physicalPadPrimitiveId": "e190",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        53.13570018,
+        87.41070148,
+        53.36430018,
+        87.63930148
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          55
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:N11",
+      "physicalPadPrimitiveId": "e191",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        53.13570018,
+        88.21069987999999,
+        53.36430018,
+        88.43929988
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          56
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:N12",
+      "physicalPadPrimitiveId": "e192",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        53.13570018,
+        89.01070082,
+        53.36430018,
+        89.23930082
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          57
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U1:P17",
+      "physicalPadPrimitiveId": "e214",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        53.93569858,
+        93.01070044,
+        54.16429858,
+        93.23930044
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          59
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U2:3",
+      "physicalPadPrimitiveId": "e3",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        66.34999926569999,
+        52.0249993788,
+        68.34999925349999,
+        53.524999376
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          65
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U3:4",
+      "physicalPadPrimitiveId": "e4",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        71.88750037,
+        14.33500054,
+        72.61250019,
+        14.83499954
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          62
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U3:5",
+      "physicalPadPrimitiveId": "e5",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        71.88750037,
+        15.28500118,
+        72.61250019,
+        15.785000179999999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          62
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:A7",
+      "physicalPadPrimitiveId": "e4",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        40.82000218,
+        115.57000000000001,
+        41.18000146,
+        115.92999928
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          24
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:B2",
+      "physicalPadPrimitiveId": "e8",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        41.62000312,
+        111.57000038,
+        41.980002400000004,
+        111.92999966000001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          22
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:B7",
+      "physicalPadPrimitiveId": "e10",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        41.62000312,
+        115.57000000000001,
+        41.980002400000004,
+        115.92999928
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          23
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:C9",
+      "physicalPadPrimitiveId": "e18",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        42.42000152,
+        117.17000188,
+        42.7800008,
+        117.53000116
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          27
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:D9",
+      "physicalPadPrimitiveId": "e24",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        43.21999992,
+        117.17000188,
+        43.5799992,
+        117.53000116
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          26
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:E1",
+      "physicalPadPrimitiveId": "e25",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        44.02000086,
+        110.76999944,
+        44.38000014,
+        111.12999872
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          21
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:F9",
+      "physicalPadPrimitiveId": "e36",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        44.8200018,
+        117.17000188,
+        45.180001080000004,
+        117.53000116
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          25
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:L1",
+      "physicalPadPrimitiveId": "e61",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.820001420000004,
+        110.76999944,
+        49.1800007,
+        111.12999872
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          37
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:L7",
+      "physicalPadPrimitiveId": "e64",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        48.820001420000004,
+        115.57000000000001,
+        49.1800007,
+        115.92999928
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          38
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:M9",
+      "physicalPadPrimitiveId": "e72",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        49.62000236,
+        117.17000188,
+        49.980001640000005,
+        117.53000116
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          39
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:N9",
+      "physicalPadPrimitiveId": "e78",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.42000076,
+        117.17000188,
+        50.780000040000004,
+        117.53000116
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          49
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:P2",
+      "physicalPadPrimitiveId": "e80",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        51.21999916,
+        111.57000038,
+        51.579998440000004,
+        111.92999966000001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          47
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:P7",
+      "physicalPadPrimitiveId": "e82",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        51.21999916,
+        115.57000000000001,
+        51.579998440000004,
+        115.92999928
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          48
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U4:R7",
+      "physicalPadPrimitiveId": "e88",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        52.020000100000004,
+        115.57000000000001,
+        52.37999938,
+        115.92999928
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          60
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U5:9",
+      "physicalPadPrimitiveId": "e9",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        50.1949974,
+        37.62000096,
+        51.00499832,
+        37.880000439999996
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          29
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U6:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        66.35000064999998,
+        55.780000199999996,
+        67.94999999,
+        56.379999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          65
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U6:2",
+      "physicalPadPrimitiveId": "e2",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        66.35000064999998,
+        57.05000019999999,
+        67.94999999,
+        57.649998999999994
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          65
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U6:3",
+      "physicalPadPrimitiveId": "e3",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        66.35000064999998,
+        58.320000199999996,
+        67.94999999,
+        58.919999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          65
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U8:4",
+      "physicalPadPrimitiveId": "e4",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        61.67999983,
+        130.40000081999997,
+        63.279999169999996,
+        130.99999961999998
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          68
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U8:16",
+      "physicalPadPrimitiveId": "e16",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        55.98000107,
+        126.59000081999999,
+        57.58000041,
+        127.18999961999998
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          61
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "X1:4",
+      "physicalPadPrimitiveId": "e4",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        55.050000389999994,
+        71.02500019,
+        56.45000012999999,
+        72.22500033
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          51
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "X2:4",
+      "physicalPadPrimitiveId": "e4",
+      "proposedMovedComponent": false,
+      "isTarget177Component": false,
+      "boundsMm": [
+        82.71250031,
+        75.37499911,
+        84.11250005,
+        76.57499925
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          67
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C100:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        138.6399989577,
+        21.7999991736,
+        139.2599989623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          9
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C101:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        124.63999901769999,
+        21.7999991736,
+        125.2599990223
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          8
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C102:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        110.6399990777,
+        21.7999991736,
+        111.2599990823
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          7
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C113:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        96.63999913769999,
+        21.7999991736,
+        97.25999914229999
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          6
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C114:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        82.63999919769999,
+        21.7999991736,
+        83.2599992023
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          5
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C115:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        68.6399992577,
+        21.7999991736,
+        69.2599992623
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          4
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C116:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        54.639999317699996,
+        21.7999991736,
+        55.2599993223
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          3
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C117:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        40.6399993777,
+        21.7999991736,
+        41.2599993823
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          2
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C118:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        26.6399994377,
+        21.7999991736,
+        27.2599994423
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          1
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "C119:1",
+      "physicalPadPrimitiveId": "e1",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        21.239999176,
+        12.639999497699998,
+        21.7999991736,
+        13.2599995023
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          0
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U10:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        138.6499983281,
+        20.6500004957,
+        139.2499983219
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          9
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U11:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        124.64999838809999,
+        20.6500004957,
+        125.2499983819
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          8
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U12:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        110.64999844809999,
+        20.6500004957,
+        111.2499984419
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          7
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U13:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        96.6499985081,
+        20.6500004957,
+        97.24999850190001
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          6
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U14:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        82.64999856809999,
+        20.6500004957,
+        83.2499985619
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          5
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U15:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        68.6499986281,
+        20.6500004957,
+        69.2499986219
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          4
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U16:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        54.6499986881,
+        20.6500004957,
+        55.249998681899996
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          3
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U17:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        40.6499987481,
+        20.6500004957,
+        41.2499987419
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          2
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U18:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        26.649998808099998,
+        20.6500004957,
+        27.249998801899995
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          1
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    },
+    {
+      "pin": "U19:5",
+      "physicalPadPrimitiveId": "1191f8e5d1ab0799",
+      "proposedMovedComponent": false,
+      "isTarget177Component": true,
+      "boundsMm": [
+        19.5500004859,
+        12.649998868099999,
+        20.6500004957,
+        13.2499988619
+      ],
+      "sameLayerCopperComponents": [
+        [
+          1,
+          0
+        ]
+      ],
+      "reachesOriginalPowerSourcePad": true
+    }
+  ],
+  "unanchoredNonTargetNetPhysicalPads": [],
+  "otherNetLobesRetainedButNotJoinedIntoSelectedNetGraph": [
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_9",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_9",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810482902155411,
+      "boundsMm": [
+        12.722412,
+        136.679636,
+        15.458065,
+        137.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C120:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_12",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_12",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058124987,
+      "boundsMm": [
+        6.156509,
+        134.464027,
+        8.491276,
+        135.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C121:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_23",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_23",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810485130055043,
+      "boundsMm": [
+        12.722412,
+        122.679636,
+        15.458069,
+        123.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C123:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_26",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_26",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058124939,
+      "boundsMm": [
+        6.156509,
+        120.464027,
+        8.491276,
+        121.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C124:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_36",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_36",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810485297170088,
+      "boundsMm": [
+        12.722412,
+        108.67963599999999,
+        15.458069,
+        109.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C126:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_39",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_39",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058125036,
+      "boundsMm": [
+        6.156509,
+        106.464027,
+        8.491276,
+        107.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C127:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_50",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_50",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810485049494992,
+      "boundsMm": [
+        12.722412,
+        94.679636,
+        15.458069,
+        95.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C129:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_53",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_53",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058124974,
+      "boundsMm": [
+        6.156509,
+        92.464027,
+        8.491276,
+        93.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C130:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_56",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_56",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 22.732116550285575,
+      "boundsMm": [
+        13.02241,
+        76.620009,
+        26.029989,
+        88.027589
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [
+        "09c2a1a19a5aed63"
+      ],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_57",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_57",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 29.6479238374858,
+      "boundsMm": [
+        14.17241,
+        79.322409,
+        23.177589,
+        87.227588
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [
+        "4858f59c063ce2a6",
+        "cdd4d1083365384b"
+      ],
+      "groundPadContactsAtProposedPositions": [
+        "C114:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_59",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_59",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 22.28696325519905,
+      "boundsMm": [
+        9.459112,
+        78.627415,
+        21.50745,
+        83.526544
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "U14:2",
+        "C132:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_67",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_67",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058124974,
+      "boundsMm": [
+        6.156509,
+        78.464027,
+        8.491276,
+        79.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C133:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_71",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_71",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 20.077817639411037,
+      "boundsMm": [
+        13.02241,
+        72.557409,
+        24.866486,
+        75.677591
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_76",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_76",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 4.344997398487514,
+      "boundsMm": [
+        26.970009,
+        67.802106,
+        29.631366000000003,
+        71.891946
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C160:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_77",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_77",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 3.4656966436929957,
+      "boundsMm": [
+        23.822411,
+        68.243249,
+        26.029989,
+        71.379711
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "U32:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_81",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_81",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 215.82149655935294,
+      "boundsMm": [
+        26.970009,
+        18.560129,
+        37.27585,
+        68.447451
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C150:2",
+        "C152:2",
+        "U30:4",
+        "U31:1"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_88",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_88",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058124974,
+      "boundsMm": [
+        6.156509,
+        64.464027,
+        8.491276,
+        65.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C136:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_98",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_98",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810486825295013,
+      "boundsMm": [
+        12.722412,
+        52.679635999999995,
+        15.458065,
+        53.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C138:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_101",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_101",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.232388005812496,
+      "boundsMm": [
+        6.156509,
+        50.464027,
+        8.491276,
+        51.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C139:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_110",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_110",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810486801850005,
+      "boundsMm": [
+        12.722412,
+        38.679636,
+        15.458065,
+        39.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C141:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_113",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_113",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.232388005812496,
+      "boundsMm": [
+        6.156509,
+        36.464027,
+        8.491276,
+        37.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C142:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_120",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_120",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 13.358606391746994,
+      "boundsMm": [
+        36.16755,
+        21.34755,
+        40.45245,
+        28.469283
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [
+        "16e1db7c517a73d1"
+      ],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_124",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_124",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810486784260011,
+      "boundsMm": [
+        12.722412,
+        24.679636,
+        15.458065,
+        25.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C144:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_129",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_129",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058125025,
+      "boundsMm": [
+        6.156509,
+        22.464027,
+        8.491276,
+        23.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C145:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_137",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_137",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 0.7810486456924993,
+      "boundsMm": [
+        12.722412,
+        10.679636,
+        15.458065,
+        11.437467
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C147:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_140",
+      "semanticId": "LOCAL_STATIC_LOBE_e680230ef8d2c5dd_140",
+      "sourceParentPrimitiveId": "e680230ef8d2c5dd",
+      "sourceParentBeforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 1.2323880058124994,
+      "boundsMm": [
+        6.156509,
+        8.464027,
+        8.491276,
+        9.708756
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [
+        "C148:2"
+      ],
+      "noDirectPadOrViaContactDetected": false,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_a1d7888349e74585_1",
+      "semanticId": "LOCAL_STATIC_LOBE_a1d7888349e74585_1",
+      "sourceParentPrimitiveId": "a1d7888349e74585",
+      "sourceParentBeforeBodySha256": "4a7b3eb02622f1171b1b74dbbfaac17f54f53b29c56ffb3525e49af8ecff95c6",
+      "net": "GND",
+      "layerId": 2,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 70.30000384023006,
+      "boundsMm": [
+        28.751499519999996,
+        73.210201,
+        38.29588734,
+        87.54949977999999
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    },
+    {
+      "key": "LOCAL_STATIC_LOBE_a1d7888349e74585_2",
+      "semanticId": "LOCAL_STATIC_LOBE_a1d7888349e74585_2",
+      "sourceParentPrimitiveId": "a1d7888349e74585",
+      "sourceParentBeforeBodySha256": "4a7b3eb02622f1171b1b74dbbfaac17f54f53b29c56ffb3525e49af8ecff95c6",
+      "net": "GND",
+      "layerId": 2,
+      "widthMil": 0.2,
+      "lineWidthMil": 0.2,
+      "fillStyle": "SOLID",
+      "locked": false,
+      "areaMm2": 7.58451118903618,
+      "boundsMm": [
+        28.751499519999996,
+        30.376500000000004,
+        33.171307,
+        33.831311
+      ],
+      "nativeOuterClockwise": true,
+      "nativeHolesCounterclockwise": true,
+      "valid": true,
+      "requiresIndependentPhysicalGroundAnchorAudit": true,
+      "originalGroundViaAnnulusContacts": [],
+      "groundPadContactsAtProposedPositions": [],
+      "noDirectPadOrViaContactDetected": true,
+      "contactQualification": "Literal nominal copper intersects native via annulus/pad geometry; positive-area contact only. This is not a multi-layer MCU-VSS reach proof and does not include same-layer trace/fill-neighbor chains."
+    }
+  ]
+}

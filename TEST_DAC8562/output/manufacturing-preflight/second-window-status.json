@@ -1,0 +1,354 @@
+{
+  "project": {
+    "itemType": "Project",
+    "uuid": "dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03",
+    "friendlyName": "DAC8562 module",
+    "name": "/DAC8562 module",
+    "teamUuid": "f46bc5929ad24f25811a10517717dc34",
+    "description": "",
+    "data": [
+      {
+        "itemType": "Board",
+        "name": "Board1",
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "e7fbc7dcdd497c03",
+          "name": "Schematic1",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "e58bcc16379b10f4",
+              "name": "DAC8562",
+              "parentSchematicUuid": "e7fbc7dcdd497c03",
+              "showTitleBlock": true,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DAC8562 module"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 2
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-10-13"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-10-11"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 1
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DAC8562"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Custom redesign"
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "V1.3"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Custom"
+                },
+                "Drawn": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DAC8562 Dual Bipolar Output"
+                },
+                "Description": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "5V input; high-Z bipolar outputs; dual-feedback compensation"
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "13:14:43"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "21:40:54"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1654"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "2800"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "e3a1c5f417017755",
+              "name": "DAC_MCU",
+              "parentSchematicUuid": "e7fbc7dcdd497c03",
+              "showTitleBlock": true,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DAC8562 module"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 2
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-10-13"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-10-12"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 2
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "DAC_MCU"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "EasyEDA.com"
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "V1.3"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Custom"
+                },
+                "Drawn": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "17:29:07"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "21:30:50"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1654"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "2200"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            }
+          ],
+          "parentProjectUuid": "dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03",
+          "parentBoardName": "Board1"
+        },
+        "pcb": {
+          "itemType": "PCB",
+          "name": "PCB1",
+          "uuid": "4e08f91f9a2c4fe4",
+          "parentBoardName": "Board1",
+          "parentProjectUuid": "dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03"
+        },
+        "parentProjectUuid": "dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03"
+      },
+      {
+        "itemType": "Panel",
+        "uuid": "458da9240aa63aad",
+        "name": "Panel1",
+        "parentProjectUuid": "dd59729173ceab597e015b7842a752ad416a6b41fb9eba8523f1bdbee791bf03"
+      }
+    ]
+  },
+  "document": {
+    "documentType": 0,
+    "uuid": "0",
+    "tabId": "0"
+  }
+}

@@ -1,0 +1,3852 @@
+{
+  "schema": "adc10-independent-local3v3-bias-feed-isolation-20261017-v1",
+  "passed": true,
+  "planningOnly": true,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-oriented-20261017.epru",
+  "sourceSha256": "a1981a3fd491e3f61daee520ebc2e768ddb3d2210e6ca0ce03474cec4a60213a",
+  "libraryCheckpointPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_adc10_schematic_20261017.epro2",
+  "libraryCheckpointSha256": "769f02d99203e2b48faf94c5c361ccc4b37892ada17354fe90e7e7c17595758c",
+  "electricalMinimalCutKeys": [
+    [
+      "LINE",
+      "0a0a083417ffd17f"
+    ],
+    [
+      "LINE",
+      "0c18903f0916153b"
+    ],
+    [
+      "LINE",
+      "1f4e64b0d6b10c7e"
+    ],
+    [
+      "LINE",
+      "201ec1ff29e86abb"
+    ],
+    [
+      "LINE",
+      "59f5d519415cb73b"
+    ],
+    [
+      "LINE",
+      "5c0d1526d89cdcb8"
+    ],
+    [
+      "LINE",
+      "82f3e4fdef9cb675"
+    ],
+    [
+      "LINE",
+      "b6685f12d88e9f3e"
+    ],
+    [
+      "LINE",
+      "b71ab5776c56eda5"
+    ],
+    [
+      "LINE",
+      "df44139d5cb8a334"
+    ]
+  ],
+  "electricalMinimalCutCount": 10,
+  "feedArcKeys": [],
+  "dedicatedExisting3V3ViaBoundaryKeys": [
+    [
+      "VIA",
+      "2118a6991c941c7d"
+    ],
+    [
+      "VIA",
+      "5a0785713fb4f660"
+    ],
+    [
+      "VIA",
+      "712a554f2be6aa88"
+    ],
+    [
+      "VIA",
+      "73a006ac849478e2"
+    ],
+    [
+      "VIA",
+      "844e3b3f0bdf3b43"
+    ],
+    [
+      "VIA",
+      "94420939c44a3798"
+    ],
+    [
+      "VIA",
+      "9a8c794b92100357"
+    ],
+    [
+      "VIA",
+      "9e4555707672f41a"
+    ],
+    [
+      "VIA",
+      "db712c485151c309"
+    ],
+    [
+      "VIA",
+      "fc11d37bcedb9e63"
+    ]
+  ],
+  "clearanceWarnings": [
+    {
+      "ref": "R164",
+      "viaKey": [
+        "VIA",
+        "db712c485151c309"
+      ],
+      "gapMm": 0.1350004284999985,
+      "minimumRuleMm": 0.1524,
+      "requiredAction": "Delete or relocate this dedicated3V3 via (or explicitly adjust component geometry) before claiming clearance. Do not rename via to bias without six-layer plane clearances/refill/nativeDRC."
+    }
+  ],
+  "clearanceCleanMinimalCut": false,
+  "channels": [
+    {
+      "ref": "R137",
+      "componentId": "8a92a6903fad3d44",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.85000024,
+        142.21999752539998
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC1_PRE1",
+      "padCenterDistanceMm": 0.7550023000000067,
+      "feedLineKey": [
+        "LINE",
+        "59f5d519415cb73b"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 5599.2125,
+        "endX": 545.2756,
+        "endY": 5628.937,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 540
+      },
+      "feedLineBodySha256": "5bc9f3783d3fcd977101ca9472ea51b22f87518b09ffcede300543a2e9376e92",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          142.21999749999998
+        ],
+        [
+          13.85000024,
+          142.97499979999998
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "844e3b3f0bdf3b43"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 5628.937,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "7e6fb6c949ace21e3970cc51e2a8541e6d992ac2a32917ce74da4bde9d8da859",
+      "viaCenterMmYUp": [
+        13.85000024,
+        142.97499979999998
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "59f5d519415cb73b"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R137",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "59f5d519415cb73b"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "844e3b3f0bdf3b43"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.28500266850000555,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "844e3b3f0bdf3b43"
+        ],
+        "gapMm": 0.28500266850000555
+      }
+    },
+    {
+      "ref": "R138",
+      "componentId": "056457acff55658f",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.85000024,
+        128.21000014540002
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC1_PRE2",
+      "padCenterDistanceMm": 0.7649997399999919,
+      "feedLineKey": [
+        "LINE",
+        "5c0d1526d89cdcb8"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 5047.6378,
+        "endX": 545.2756,
+        "endY": 5077.7559,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 609
+      },
+      "feedLineBodySha256": "89342cd0d830cfd8096d81666760faeb3d06c2000125b172f78100e01ff2d577",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          128.21000012000002
+        ],
+        [
+          13.85000024,
+          128.97499986
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "9a8c794b92100357"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 5077.7559,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "ffa6e57dc42d164c1af4877b86a12d5131d4dde61ad9a4ba0180883fe5b2de3d",
+      "viaCenterMmYUp": [
+        13.85000024,
+        128.97499986
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "5c0d1526d89cdcb8"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R138",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "5c0d1526d89cdcb8"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "9a8c794b92100357"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.2950001084999909,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "9a8c794b92100357"
+        ],
+        "gapMm": 0.2950001084999909
+      }
+    },
+    {
+      "ref": "R139",
+      "componentId": "f1f0a171beb96e49",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.85000024,
+        114.24499886539998
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC1_PRE3",
+      "padCenterDistanceMm": 0.6300012800000073,
+      "feedLineKey": [
+        "LINE",
+        "82f3e4fdef9cb675"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 4497.8346,
+        "endX": 545.2756,
+        "endY": 4522.6378,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 537
+      },
+      "feedLineBodySha256": "1e3556aeaa3f68640b508530b49de72b7a297f71052af64f7529947e5b506e2a",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          114.24499884
+        ],
+        [
+          13.85000024,
+          114.87500012000001
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "94420939c44a3798"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 4522.6378,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "710757ad5f398cd35a40c7ad9ab843648e9e8f619210fef6d6ba476300c50818",
+      "viaCenterMmYUp": [
+        13.85000024,
+        114.87500012000001
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "82f3e4fdef9cb675"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R139",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "82f3e4fdef9cb675"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "94420939c44a3798"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.1600016485000062,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "94420939c44a3798"
+        ],
+        "gapMm": 0.1600016485000062
+      }
+    },
+    {
+      "ref": "R149",
+      "componentId": "94c9c42258f439eb",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.85000024,
+        100.2349989454
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC2_PRE1",
+      "padCenterDistanceMm": 0.690001160000008,
+      "feedLineKey": [
+        "LINE",
+        "0a0a083417ffd17f"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 3946.2598,
+        "endX": 545.2756,
+        "endY": 3973.4252,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 510
+      },
+      "feedLineBodySha256": "322ae22b01f676cedbb86dbbffed2da9e01ec8b4875db04fa10171d49cd4d79d",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          100.23499892
+        ],
+        [
+          13.85000024,
+          100.92500008
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "712a554f2be6aa88"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 3973.4252,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "832eee5e6d523a09eff45aad5ca95d8c2dfa4865a719020c16b6df5848ed6e17",
+      "viaCenterMmYUp": [
+        13.85000024,
+        100.92500008
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "0a0a083417ffd17f"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R149",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "0a0a083417ffd17f"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "712a554f2be6aa88"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.22000152850001853,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "712a554f2be6aa88"
+        ],
+        "gapMm": 0.22000152850001853
+      }
+    },
+    {
+      "ref": "R150",
+      "componentId": "ffdedb1654ccafa3",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.85000024,
+        86.2349990054
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC2_PRE2",
+      "padCenterDistanceMm": 0.6649999399999946,
+      "feedLineKey": [
+        "LINE",
+        "b71ab5776c56eda5"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 3395.0787,
+        "endX": 545.2756,
+        "endY": 3421.2598,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 560
+      },
+      "feedLineBodySha256": "21ac5ecb58bff1b192db5199db32c66aa29aa3d3719ccefef7479613a10a73d7",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          86.23499898
+        ],
+        [
+          13.85000024,
+          86.89999891999999
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "2118a6991c941c7d"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 3421.2598,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "5af12763e7e745d37fbbab50a150327177d69f3ba19ab4fc9fc875bc41b99f7d",
+      "viaCenterMmYUp": [
+        13.85000024,
+        86.89999891999999
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "b71ab5776c56eda5"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R150",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "b71ab5776c56eda5"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "2118a6991c941c7d"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.19500030850000505,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "2118a6991c941c7d"
+        ],
+        "gapMm": 0.19500030850000505
+      }
+    },
+    {
+      "ref": "R151",
+      "componentId": "311f8fa91efe7cea",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.85000024,
+        72.23499906539999
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC2_PRE3",
+      "padCenterDistanceMm": 0.690001160000008,
+      "feedLineKey": [
+        "LINE",
+        "1f4e64b0d6b10c7e"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 2843.8976,
+        "endX": 545.2756,
+        "endY": 2871.063,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 598
+      },
+      "feedLineBodySha256": "e77828fcc2a501532f25485c5a7963aeb264f6a1b6bd5903a846dff2ee1357c3",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          72.23499903999999
+        ],
+        [
+          13.85000024,
+          72.9250002
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "5a0785713fb4f660"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 2871.063,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "64b02c291f40b7976956c2f6b2a754e13cadae458fcd77f34dd183d59fb1eeb6",
+      "viaCenterMmYUp": [
+        13.85000024,
+        72.9250002
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "1f4e64b0d6b10c7e"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R151",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "1f4e64b0d6b10c7e"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "5a0785713fb4f660"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.22000152850000695,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "5a0785713fb4f660"
+        ],
+        "gapMm": 0.22000152850000695
+      }
+    },
+    {
+      "ref": "R161",
+      "componentId": "b8fb6fc7d8f12dec",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.85000024,
+        58.244999105400005
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC3_PRE1",
+      "padCenterDistanceMm": 0.6549999599999925,
+      "feedLineKey": [
+        "LINE",
+        "201ec1ff29e86abb"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 2293.1102,
+        "endX": 545.2756,
+        "endY": 2318.8976,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 575
+      },
+      "feedLineBodySha256": "f7eaf8f053f40dfda8c57bbdeefc3606650abeca595190a8c0e97c820a17fc53",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          58.24499908
+        ],
+        [
+          13.85000024,
+          58.89999903999999
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "fc11d37bcedb9e63"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 2318.8976,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "2ce17dd16beba41df422054124dcb806b5c52a5fbfc41fa19e9f42b4e82d277d",
+      "viaCenterMmYUp": [
+        13.85000024,
+        58.89999903999999
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "201ec1ff29e86abb"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R161",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "201ec1ff29e86abb"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "fc11d37bcedb9e63"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.185000328500003,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "fc11d37bcedb9e63"
+        ],
+        "gapMm": 0.185000328500003
+      }
+    },
+    {
+      "ref": "R162",
+      "componentId": "41739d5247754b09",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.850000240000004,
+        44.2349991854
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC3_PRE2",
+      "padCenterDistanceMm": 0.6400012599999978,
+      "feedLineKey": [
+        "LINE",
+        "df44139d5cb8a334"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 1741.5354,
+        "endX": 545.2756,
+        "endY": 1766.7323,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 573
+      },
+      "feedLineBodySha256": "66f0539e3b24c616e6c1b313dd3fd8bea7b4988c45db839ce96a32a5c32dd536",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          44.23499916
+        ],
+        [
+          13.85000024,
+          44.87500041999999
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "73a006ac849478e2"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 1766.7323,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "166a7f77880c9cbc067afebaf6b1d998be86512dc0b20e5c24548b87105a1823",
+      "viaCenterMmYUp": [
+        13.85000024,
+        44.87500041999999
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "df44139d5cb8a334"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R162",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "df44139d5cb8a334"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "73a006ac849478e2"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.1700016284999967,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "73a006ac849478e2"
+        ],
+        "gapMm": 0.1700016284999967
+      }
+    },
+    {
+      "ref": "R163",
+      "componentId": "2941b0f97fcf9813",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.850000240000004,
+        30.244999225399997
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC3_PRE3",
+      "padCenterDistanceMm": 0.6549999599999983,
+      "feedLineKey": [
+        "LINE",
+        "0c18903f0916153b"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 1190.748,
+        "endX": 545.2756,
+        "endY": 1216.5354,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 500
+      },
+      "feedLineBodySha256": "7a24e5c746c91fd5de39b7468333dbda5fc45c28a7bb87c996a1356314cbb637",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          30.2449992
+        ],
+        [
+          13.85000024,
+          30.899999159999997
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "9e4555707672f41a"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 1216.5354,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "3d1c9b2c9fa26bb2eb080bc9661a12f7a377f436f383c146e29a27063f233df2",
+      "viaCenterMmYUp": [
+        13.85000024,
+        30.899999159999997
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "0c18903f0916153b"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R163",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "0c18903f0916153b"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "9e4555707672f41a"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.18500032849999723,
+      "retainedViaGapMeets01524mm": true,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "9e4555707672f41a"
+        ],
+        "gapMm": 0.18500032849999723
+      }
+    },
+    {
+      "ref": "R164",
+      "componentId": "32d1b9056f08dfce",
+      "biasPadNumber": "2",
+      "biasPadCenterMmYUp": [
+        13.850000240000004,
+        16.2449992854
+      ],
+      "prePadNumber": "1",
+      "preNet": "ADC3_PRE4",
+      "padCenterDistanceMm": 0.6050000599999996,
+      "feedLineKey": [
+        "LINE",
+        "b6685f12d88e9f3e"
+      ],
+      "feedLineNet": "+3V3",
+      "feedLineBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "layerId": 1,
+        "startX": 545.2756,
+        "startY": 639.5669,
+        "endX": 545.2756,
+        "endY": 663.3858,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": 521
+      },
+      "feedLineBodySha256": "06c4f2d25390f4ff5f85506bb203c767b57d3332a001dcb4c78e41b2e0523c67",
+      "feedLinePathMmYUp": [
+        [
+          13.85000024,
+          16.24499926
+        ],
+        [
+          13.85000024,
+          16.84999932
+        ]
+      ],
+      "feedArcKeys": [],
+      "dedicatedViaKey": [
+        "VIA",
+        "db712c485151c309"
+      ],
+      "dedicatedViaBody": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "+3V3",
+        "ruleName": "",
+        "centerX": 545.2756,
+        "centerY": 663.3858,
+        "holeDiameter": 7.874,
+        "viaDiameter": 15.748,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "dedicatedViaBodySha256": "ffc1bd133f1a351de3b6cb61bdd4a5e60a1fb3c2927ea89adb0a88e72ccebbbb",
+      "viaCenterMmYUp": [
+        13.85000024,
+        16.84999932
+      ],
+      "viaCopperDiameterMm": 0.39999919999999994,
+      "viaHoleDiameterMm": 0.19999959999999997,
+      "viaOnlyRoutedAttachmentKeys": [
+        [
+          "LINE",
+          "b6685f12d88e9f3e"
+        ]
+      ],
+      "viaInside3V3PlaneFill": "41fd0322eb2cc785",
+      "lineOtherSurfaceTrackContacts": [],
+      "linePadContacts": [
+        {
+          "ref": "R164",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ],
+      "smallestElectricalIsolationOperation": {
+        "deleteRecordKeys": [
+          [
+            "LINE",
+            "b6685f12d88e9f3e"
+          ]
+        ],
+        "retainGlobal3V3Via": [
+          "VIA",
+          "db712c485151c309"
+        ],
+        "renameExistingLineOrViaAllowed": false
+      },
+      "retainedViaToBiasPadCopperGapMm": 0.1350004284999985,
+      "retainedViaGapMeets01524mm": false,
+      "nearestRemaining3V3CopperAfterSingleLineCut": {
+        "key": [
+          "VIA",
+          "db712c485151c309"
+        ],
+        "gapMm": 0.1350004284999985
+      }
+    }
+  ],
+  "checks": [
+    {
+      "test": "single native +3V3 In2 large FILL identified",
+      "passed": true
+    },
+    {
+      "test": "R137 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R137 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R137 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "59f5d519415cb73b"
+        ]
+      ]
+    },
+    {
+      "test": "R137 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R137 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5399985497642773e-08
+    },
+    {
+      "test": "R137 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "844e3b3f0bdf3b43"
+        ]
+      ]
+    },
+    {
+      "test": "R137 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R137 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "59f5d519415cb73b"
+        ]
+      ]
+    },
+    {
+      "test": "R137 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R137 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R137",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R137 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "844e3b3f0bdf3b43"
+        ]
+      ]
+    },
+    {
+      "test": "R137 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R137 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "844e3b3f0bdf3b43"
+        ],
+        "gapMm": 0.28500266850000555
+      }
+    },
+    {
+      "test": "R138 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R138 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R138 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "5c0d1526d89cdcb8"
+        ]
+      ]
+    },
+    {
+      "test": "R138 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R138 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5400008598808197e-08
+    },
+    {
+      "test": "R138 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "9a8c794b92100357"
+        ]
+      ]
+    },
+    {
+      "test": "R138 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R138 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "5c0d1526d89cdcb8"
+        ]
+      ]
+    },
+    {
+      "test": "R138 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R138 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R138",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R138 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "9a8c794b92100357"
+        ]
+      ]
+    },
+    {
+      "test": "R138 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R138 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "9a8c794b92100357"
+        ],
+        "gapMm": 0.2950001084999909
+      }
+    },
+    {
+      "test": "R139 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R139 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R139 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "82f3e4fdef9cb675"
+        ]
+      ]
+    },
+    {
+      "test": "R139 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R139 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5399985497642773e-08
+    },
+    {
+      "test": "R139 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "94420939c44a3798"
+        ]
+      ]
+    },
+    {
+      "test": "R139 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R139 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "82f3e4fdef9cb675"
+        ]
+      ]
+    },
+    {
+      "test": "R139 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R139 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R139",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R139 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "94420939c44a3798"
+        ]
+      ]
+    },
+    {
+      "test": "R139 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R139 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "94420939c44a3798"
+        ],
+        "gapMm": 0.1600016485000062
+      }
+    },
+    {
+      "test": "R149 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R149 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R149 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "0a0a083417ffd17f"
+        ]
+      ]
+    },
+    {
+      "test": "R149 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R149 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5400008598808197e-08
+    },
+    {
+      "test": "R149 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "712a554f2be6aa88"
+        ]
+      ]
+    },
+    {
+      "test": "R149 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R149 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "0a0a083417ffd17f"
+        ]
+      ]
+    },
+    {
+      "test": "R149 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R149 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R149",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R149 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "712a554f2be6aa88"
+        ]
+      ]
+    },
+    {
+      "test": "R149 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R149 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "712a554f2be6aa88"
+        ],
+        "gapMm": 0.22000152850001853
+      }
+    },
+    {
+      "test": "R150 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R150 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R150 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "b71ab5776c56eda5"
+        ]
+      ]
+    },
+    {
+      "test": "R150 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R150 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5399997048225485e-08
+    },
+    {
+      "test": "R150 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "2118a6991c941c7d"
+        ]
+      ]
+    },
+    {
+      "test": "R150 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R150 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "b71ab5776c56eda5"
+        ]
+      ]
+    },
+    {
+      "test": "R150 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R150 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R150",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R150 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "2118a6991c941c7d"
+        ]
+      ]
+    },
+    {
+      "test": "R150 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R150 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "2118a6991c941c7d"
+        ],
+        "gapMm": 0.19500030850000505
+      }
+    },
+    {
+      "test": "R151 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R151 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R151 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "1f4e64b0d6b10c7e"
+        ]
+      ]
+    },
+    {
+      "test": "R151 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R151 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5399997048225485e-08
+    },
+    {
+      "test": "R151 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "5a0785713fb4f660"
+        ]
+      ]
+    },
+    {
+      "test": "R151 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R151 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "1f4e64b0d6b10c7e"
+        ]
+      ]
+    },
+    {
+      "test": "R151 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R151 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R151",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R151 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "5a0785713fb4f660"
+        ]
+      ]
+    },
+    {
+      "test": "R151 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R151 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "5a0785713fb4f660"
+        ],
+        "gapMm": 0.22000152850000695
+      }
+    },
+    {
+      "test": "R161 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R161 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R161 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "201ec1ff29e86abb"
+        ]
+      ]
+    },
+    {
+      "test": "R161 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R161 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5400008598808197e-08
+    },
+    {
+      "test": "R161 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "fc11d37bcedb9e63"
+        ]
+      ]
+    },
+    {
+      "test": "R161 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R161 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "201ec1ff29e86abb"
+        ]
+      ]
+    },
+    {
+      "test": "R161 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R161 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R161",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R161 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "fc11d37bcedb9e63"
+        ]
+      ]
+    },
+    {
+      "test": "R161 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R161 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "fc11d37bcedb9e63"
+        ],
+        "gapMm": 0.185000328500003
+      }
+    },
+    {
+      "test": "R162 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R162 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R162 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "df44139d5cb8a334"
+        ]
+      ]
+    },
+    {
+      "test": "R162 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R162 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.540000282351701e-08
+    },
+    {
+      "test": "R162 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "73a006ac849478e2"
+        ]
+      ]
+    },
+    {
+      "test": "R162 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R162 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "df44139d5cb8a334"
+        ]
+      ]
+    },
+    {
+      "test": "R162 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R162 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R162",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R162 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "73a006ac849478e2"
+        ]
+      ]
+    },
+    {
+      "test": "R162 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R162 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "73a006ac849478e2"
+        ],
+        "gapMm": 0.1700016284999967
+      }
+    },
+    {
+      "test": "R163 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R163 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R163 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "0c18903f0916153b"
+        ]
+      ]
+    },
+    {
+      "test": "R163 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R163 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.5399997048225654e-08
+    },
+    {
+      "test": "R163 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "9e4555707672f41a"
+        ]
+      ]
+    },
+    {
+      "test": "R163 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R163 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "0c18903f0916153b"
+        ]
+      ]
+    },
+    {
+      "test": "R163 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R163 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R163",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R163 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "9e4555707672f41a"
+        ]
+      ]
+    },
+    {
+      "test": "R163 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R163 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "9e4555707672f41a"
+        ],
+        "gapMm": 0.18500032849999723
+      }
+    },
+    {
+      "test": "R164 intended top90deg orientation",
+      "passed": true
+    },
+    {
+      "test": "R164 actual numbered bias/pre pad identity",
+      "passed": true
+    },
+    {
+      "test": "R164 exactly one +3V3 feed touches bias copper",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "b6685f12d88e9f3e"
+        ]
+      ]
+    },
+    {
+      "test": "R164 feed has no local arc",
+      "passed": true
+    },
+    {
+      "test": "R164 LINE starts exactly at actual bias pad center",
+      "passed": true,
+      "detail": 2.539999993587133e-08
+    },
+    {
+      "test": "R164 single VIA termination",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "db712c485151c309"
+        ]
+      ]
+    },
+    {
+      "test": "R164 VIA remains global +3V3",
+      "passed": true
+    },
+    {
+      "test": "R164 VIA has only this one routed copper attachment across6Cu",
+      "passed": true,
+      "detail": [
+        [
+          "LINE",
+          "b6685f12d88e9f3e"
+        ]
+      ]
+    },
+    {
+      "test": "R164 feed has no shared/interior routed-copper junction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "R164 feed touches only the intended resistor pad",
+      "passed": true,
+      "detail": [
+        {
+          "ref": "R164",
+          "num": "2",
+          "net": "ADC_BIAS_2V5"
+        }
+      ]
+    },
+    {
+      "test": "R164 feed touches only its dedicated power VIA",
+      "passed": true,
+      "detail": [
+        [
+          "VIA",
+          "db712c485151c309"
+        ]
+      ]
+    },
+    {
+      "test": "R164 old VIA is inside native+3V3 In2 copper plane",
+      "passed": true
+    },
+    {
+      "test": "R164 one LINE deletion geometrically disconnects all remaining3V3 surface routes",
+      "passed": true,
+      "detail": {
+        "key": [
+          "VIA",
+          "db712c485151c309"
+        ],
+        "gapMm": 0.1350004284999985
+      }
+    },
+    {
+      "test": "ten independent single-LINE branches and ten distinct VIA boundaries",
+      "passed": true
+    },
+    {
+      "test": "in-memory minimal plan all non-target original record bodies literal exact",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedUnrelatedGlobal3V3CopperCount": 248,
+  "protectedUnrelatedGlobal3V3CopperBodyGuards": [
+    {
+      "key": [
+        "FILL",
+        "1066f919677354c4"
+      ],
+      "bodySha256": "eb559a9791065e80a52e6110a7bd61566b33d09447b8358c57b16dc01ffa56b0"
+    },
+    {
+      "key": [
+        "FILL",
+        "11d81713d9a69804"
+      ],
+      "bodySha256": "c0622e546c5d24e25b4f200e0c34401a50d30431007d741e2f40cb99fab5178e"
+    },
+    {
+      "key": [
+        "FILL",
+        "16792307cf9b801d"
+      ],
+      "bodySha256": "2d102504279c12d87f919c1417a1486e511051fb6fd344b8d574f27717aec121"
+    },
+    {
+      "key": [
+        "FILL",
+        "2a29571663fd1c78"
+      ],
+      "bodySha256": "9e3fadb9fb4ce9e40ffbdf4507fa733ca88cded6cee7597bdc5e66a2b3f374d3"
+    },
+    {
+      "key": [
+        "FILL",
+        "2f264e1bc5e5e5a8"
+      ],
+      "bodySha256": "1a5fe7b07c109312f6a6d691cb7d4f2528eb25febc8c22da3d090060ab7c8e2a"
+    },
+    {
+      "key": [
+        "FILL",
+        "2f6385a333013be0"
+      ],
+      "bodySha256": "4f71f9152ea06a5ff2fb2f4374b24586b3b083cc91492f70289bd3bc2b76e738"
+    },
+    {
+      "key": [
+        "FILL",
+        "3755f8b0d2f0d972"
+      ],
+      "bodySha256": "62110204c95cdf9e779f7ad7cf2e8cadb75c96bd67c76121f5c79f1fac480a41"
+    },
+    {
+      "key": [
+        "FILL",
+        "3cb17b1ca56c42f4"
+      ],
+      "bodySha256": "c43a2550f391a6ee2702945ddbedfa5f624c9a9022daf6d15149a9fa33784571"
+    },
+    {
+      "key": [
+        "FILL",
+        "3d2723a986596c52"
+      ],
+      "bodySha256": "ed90c8f5f51629602129d1916d69feb64c8fc35486b42232b55c373310170870"
+    },
+    {
+      "key": [
+        "FILL",
+        "41fd0322eb2cc785"
+      ],
+      "bodySha256": "467996c2328732f5541963bd4531c8620a4bc4df25a71e96774b378f6fcc0a00"
+    },
+    {
+      "key": [
+        "FILL",
+        "6289a42b3d765718"
+      ],
+      "bodySha256": "002fedbb1556f67384eeeb326386561e6d643e2b9e648299c09849d382c8004f"
+    },
+    {
+      "key": [
+        "FILL",
+        "858134ed40f08613"
+      ],
+      "bodySha256": "5ce5d9961b75ed410759f414d2bcda9b4bf1070a2466117b03157dcf9debc374"
+    },
+    {
+      "key": [
+        "FILL",
+        "9c5f3161b306e1da"
+      ],
+      "bodySha256": "bb355c4ee66f3e17afa2a9d0ac3e473625e7b06e04903655ffbf34fb18b65ce5"
+    },
+    {
+      "key": [
+        "FILL",
+        "9e439ba3c64f2f28"
+      ],
+      "bodySha256": "e7aa548873f601b1c5220cadeea15a5e0fcbce057588bc425a6302c9d30370a8"
+    },
+    {
+      "key": [
+        "FILL",
+        "bfa988600f995870"
+      ],
+      "bodySha256": "03e437571b584331f97ee0c2c2a5e4f26b4463ad806dce19c95deedd8cf78512"
+    },
+    {
+      "key": [
+        "FILL",
+        "c9e7ce4dbfe35c52"
+      ],
+      "bodySha256": "34ab1ebbeee7b6ae451c15ce221c906434b47df69ff526acdd61b70fc68fd46d"
+    },
+    {
+      "key": [
+        "LINE",
+        "00db08c6353a46d2"
+      ],
+      "bodySha256": "74660ea69ef3417e33f56aac5f89729377638314fe7519b6d755e3146431d7ca"
+    },
+    {
+      "key": [
+        "LINE",
+        "01f0d60f191a5c02"
+      ],
+      "bodySha256": "a5fc925ddabeef74f71f6eaae6b8772ced9728a6ec56da12ebc28845424ac494"
+    },
+    {
+      "key": [
+        "LINE",
+        "0245edf50c9845ff"
+      ],
+      "bodySha256": "28da78b89c7890b744c763c6b32a98b8a70e038b4e1e4ed7a4e01f99c34cb0ce"
+    },
+    {
+      "key": [
+        "LINE",
+        "0307cb20bc7f6138"
+      ],
+      "bodySha256": "745da70d7960cc0167f9878bb46fe6b04806ebdd301eb5889d032fcb08edc3b5"
+    },
+    {
+      "key": [
+        "LINE",
+        "03aceccdc09f107d"
+      ],
+      "bodySha256": "7d953f1d59b4b31e9f45ba99cb25bef232c08a3a27db272586fe9389acd78ee3"
+    },
+    {
+      "key": [
+        "LINE",
+        "04151ab8aa0dc9e5"
+      ],
+      "bodySha256": "2c2ace7a979f63866fedec9e73cf8ea96eca09cb8275f849045409c79534d62c"
+    },
+    {
+      "key": [
+        "LINE",
+        "04e00ee46906facc"
+      ],
+      "bodySha256": "8cd20b15144247ce1de5f840b8247818a288f11d05a4bc9cfff81ba733bc40e3"
+    },
+    {
+      "key": [
+        "LINE",
+        "052b63f7f1f84bda"
+      ],
+      "bodySha256": "3e96c06774147a243e793537567ad09e142e0efc516a24e0c944bf0d6e02c66d"
+    },
+    {
+      "key": [
+        "LINE",
+        "0629c2554572a49c"
+      ],
+      "bodySha256": "d70d086458584875fe796079b1180281e4efbfc262e29dbac7b18f5594994ca7"
+    },
+    {
+      "key": [
+        "LINE",
+        "07821d7ff4533a97"
+      ],
+      "bodySha256": "d5364df85b399000c2fb4217f90eaf78cf54c19f5221863007cefedf9693013b"
+    },
+    {
+      "key": [
+        "LINE",
+        "08a800ddc21bbd8d"
+      ],
+      "bodySha256": "1bdff19166d3313b34d5b58cbb9b7397a8c20283eb9fe6ad73439b4f3b09684d"
+    },
+    {
+      "key": [
+        "LINE",
+        "090975aaac014bf9"
+      ],
+      "bodySha256": "c06a4079818c4f1992d6caf47301097ffcdb26b1ae49c46a015c88945d933195"
+    },
+    {
+      "key": [
+        "LINE",
+        "0916f877ce7e7e83"
+      ],
+      "bodySha256": "a3c8b110d19b0e436c082e9f69f8064534de4bf6246ccc1421a7e5dbfc144cc3"
+    },
+    {
+      "key": [
+        "LINE",
+        "15d4ac523f79b562"
+      ],
+      "bodySha256": "25677955be371f1e5bf533d22d7b3dc5c898747e98cac7d413952bde940b0b59"
+    },
+    {
+      "key": [
+        "LINE",
+        "1b9cd3256bc611d1"
+      ],
+      "bodySha256": "7931f6d540f17cf5b063025a7af94ab3cc95fed2a148e03dd0f1fb0b1896a562"
+    },
+    {
+      "key": [
+        "LINE",
+        "1cc4e8845b42909c"
+      ],
+      "bodySha256": "8b693ced004525b967fab2e5d9195b21a072ffe01fbea798b1dd27e0746ee351"
+    },
+    {
+      "key": [
+        "LINE",
+        "1e51682ddf73aeaf"
+      ],
+      "bodySha256": "c3612ca61cb1ccc2fc81489549bc34dfd064adc1695dcad4d0d6904d791331b6"
+    },
+    {
+      "key": [
+        "LINE",
+        "1eafbaa1f61da991"
+      ],
+      "bodySha256": "95f2e41e40a6062aab70f654ebd2016b1fb27ac9d28faa60470481784ab15d53"
+    },
+    {
+      "key": [
+        "LINE",
+        "1f78aaee7673e83e"
+      ],
+      "bodySha256": "8032a360599ded7063167d9ad1f69e1b82f82f788315e62e76b6270bfa1f32c4"
+    },
+    {
+      "key": [
+        "LINE",
+        "1fb0a2cb375efff3"
+      ],
+      "bodySha256": "4862718e09b42f505fb096c9a548a6c0bad7ce266446852f909057139496d27c"
+    },
+    {
+      "key": [
+        "LINE",
+        "1fc02439384dcd0d"
+      ],
+      "bodySha256": "7feba31b8f71fbc77aea8a0a804beff2d41a23f4eeaf88e3a09c199eec6a4fe7"
+    },
+    {
+      "key": [
+        "LINE",
+        "200839ba94b427f0"
+      ],
+      "bodySha256": "db1bc65b6f16b064745e2261be2dc5afba8dc2dfe312ccaf8b775bbc1c32dff5"
+    },
+    {
+      "key": [
+        "LINE",
+        "2133b1908275c020"
+      ],
+      "bodySha256": "f01d7b95867cd075b13ccccc285342cac4844ba0690bc45ad6edcd528d16fd85"
+    },
+    {
+      "key": [
+        "LINE",
+        "247ea04b3c5f1307"
+      ],
+      "bodySha256": "8a0887fabbba9d9229ab33b17eac5763110a6e3e2f3c417e32ee14593bab9a04"
+    },
+    {
+      "key": [
+        "LINE",
+        "2a95585b3d7aef57"
+      ],
+      "bodySha256": "2989b458e9bbc3d4754a18b634489def1a894b4b8cebdc2e3d0dd0a4353dc52a"
+    },
+    {
+      "key": [
+        "LINE",
+        "2ac53d6796736fcb"
+      ],
+      "bodySha256": "eca88837c00bb98472c72c29fc55bd5c3b69e2bcaa615b64beb404ea7174f713"
+    },
+    {
+      "key": [
+        "LINE",
+        "2b2672a2e948bb6e"
+      ],
+      "bodySha256": "b7c050a85a35a34ac9c1985d54a363b0498ab49a307bd98c0a50f84516d90ee8"
+    },
+    {
+      "key": [
+        "LINE",
+        "2c0149c70d8f42fb"
+      ],
+      "bodySha256": "6fc6beb3999d8bc7f388a7c21265b4d4c957ac1428de226126de0dea640bb13f"
+    },
+    {
+      "key": [
+        "LINE",
+        "2df8ecd51b5c1e53"
+      ],
+      "bodySha256": "4058aea3647d5c4afae3a345338f4bf374a23a43e7ff5464e5659d88ec6fda3f"
+    },
+    {
+      "key": [
+        "LINE",
+        "2ecfbb85467e54a5"
+      ],
+      "bodySha256": "98a59e5fadea80ad788a2c46c130ec3c79a7c233f89395b2c0d2e095bd3aa0e4"
+    },
+    {
+      "key": [
+        "LINE",
+        "2f771e771cd86884"
+      ],
+      "bodySha256": "bc1f1bab0804593714ee025c71a2c70189a7b9bd8df788b9f32fa5165d6c76ae"
+    },
+    {
+      "key": [
+        "LINE",
+        "2f9728142f55ebae"
+      ],
+      "bodySha256": "044a3c4a798e75c78ad9c172c47fbba5f76f4f7186edf53af2c0b7931fd74821"
+    },
+    {
+      "key": [
+        "LINE",
+        "32ecaf63b597a16f"
+      ],
+      "bodySha256": "b712c2a19f61c2f283e3281739a0b739b0c7df0b8386333947bd72c34e113f35"
+    },
+    {
+      "key": [
+        "LINE",
+        "332ccb18b8f7492a"
+      ],
+      "bodySha256": "66c7a5c6c00bbb00356af90e70e4fa86dc1ca7c921f9ec40a08c2e1650a04908"
+    },
+    {
+      "key": [
+        "LINE",
+        "33ea4431f3d7465e"
+      ],
+      "bodySha256": "070800d9d9941f04972f8b4c84cc4556e63ea69cf55730a5c49b0a1ea94b1d3d"
+    },
+    {
+      "key": [
+        "LINE",
+        "34f292746edc66e2"
+      ],
+      "bodySha256": "25d7236700cbf80da1296b6032ccd7920590855c06ca58a691bcfbbc969a2474"
+    },
+    {
+      "key": [
+        "LINE",
+        "36e8750ea3b25ac1"
+      ],
+      "bodySha256": "d076a39fa854659c4aea9dec9319bdfbe40251a1a93b6aa01a3819190bfc9227"
+    },
+    {
+      "key": [
+        "LINE",
+        "3c57d54ca532d119"
+      ],
+      "bodySha256": "767846f8215a853bf3d8a358cd4b471ab6822c820cbdb5a47e9071972034b859"
+    },
+    {
+      "key": [
+        "LINE",
+        "3c992ff429709ad1"
+      ],
+      "bodySha256": "94c290214b7b892d2955ec3604e309450b23571021459ff4787d11106f3035b4"
+    },
+    {
+      "key": [
+        "LINE",
+        "3cf74cd665bc56a3"
+      ],
+      "bodySha256": "deb6d9aa92c65b05670f8a8f8c7298d57a6b6284a55f71dbec89fa74af54043d"
+    },
+    {
+      "key": [
+        "LINE",
+        "3e0900b985523f39"
+      ],
+      "bodySha256": "32b5c6803c5381b407620029d6f652c85bbe13afa6e7495e05d6011ebf09c882"
+    },
+    {
+      "key": [
+        "LINE",
+        "3e295269dbf02b76"
+      ],
+      "bodySha256": "fc1bc8957a9ceaed91cf11655973652771ab3e8dfd15d93b4babac263e6afb00"
+    },
+    {
+      "key": [
+        "LINE",
+        "3f727c217afd695d"
+      ],
+      "bodySha256": "a3760b3c47019261fc2690dde12fb4f28dafadd0973bdf75823816a1d399e467"
+    },
+    {
+      "key": [
+        "LINE",
+        "41eeb5f5f68eacbe"
+      ],
+      "bodySha256": "3628a547363837520dc57c5ddf51fae69d74f4725649e22875939fb606512820"
+    },
+    {
+      "key": [
+        "LINE",
+        "42114860c3882e87"
+      ],
+      "bodySha256": "2067297f9a971e0aacdf450bb5fc25de056b570553b8c0c07ac3b3c24cf6e52a"
+    },
+    {
+      "key": [
+        "LINE",
+        "4287e03e20c55c36"
+      ],
+      "bodySha256": "5deffe7898ea6025dc98371dc9dbbd6e4c6ccb22807a0a367fa77cee0a56726a"
+    },
+    {
+      "key": [
+        "LINE",
+        "42a9390b6220d5a0"
+      ],
+      "bodySha256": "4e037590441c4eddb26de402784871acb504b22d3fbf0c612c253465e0da8d09"
+    },
+    {
+      "key": [
+        "LINE",
+        "4476da28127f602b"
+      ],
+      "bodySha256": "dd666e89e97710c03be1fce1ada9525bfa51286c4d998048b6a91df49faa4c7c"
+    },
+    {
+      "key": [
+        "LINE",
+        "44f5ee1d72e6e23a"
+      ],
+      "bodySha256": "673430c512b9bf0829bb23fca5a46a80a35a83fa171f6a0fd736c45e065ef39f"
+    },
+    {
+      "key": [
+        "LINE",
+        "4785cd736ef13d62"
+      ],
+      "bodySha256": "edf643a9f6df31a26af2790cbf8a664f903b9ed334e58ce2bd13d94cda508f3d"
+    },
+    {
+      "key": [
+        "LINE",
+        "4a21f67f2251bf68"
+      ],
+      "bodySha256": "40a35de263bea3e5049e0aa95406225f834d7a7ba5cf43800f520b26fdf92d66"
+    },
+    {
+      "key": [
+        "LINE",
+        "4a298a1a2df31d80"
+      ],
+      "bodySha256": "c183dd0632143ffd991197925587a6103e2bd617dcee51a19e9b760d125eabac"
+    },
+    {
+      "key": [
+        "LINE",
+        "4bd5d7aa3af5c36b"
+      ],
+      "bodySha256": "97c8a858e37ae3cb16b518d40dd41ae343bef88866ea45d32eda6b7a01608391"
+    },
+    {
+      "key": [
+        "LINE",
+        "4c508528fe578662"
+      ],
+      "bodySha256": "cb9a8926e40a8515201c2cf9332071c86241b2e0d67431d7bf63850e16e9b7f9"
+    },
+    {
+      "key": [
+        "LINE",
+        "4e50dd687937be46"
+      ],
+      "bodySha256": "065a9bc2f0b8421aaf02c8283132152f54d0da368f087bedf71799810dad0ab1"
+    },
+    {
+      "key": [
+        "LINE",
+        "4fc7f4d7a46fce83"
+      ],
+      "bodySha256": "9e78971b1756ee180130da14c6c113c2f3b96a374f6e53841917c8e3499a894e"
+    },
+    {
+      "key": [
+        "LINE",
+        "5271b09e42842f47"
+      ],
+      "bodySha256": "f97e931efce6babc7a4d4bbfe0a668d0dc1c06866430f9775c9e44239bea38ea"
+    },
+    {
+      "key": [
+        "LINE",
+        "534780f70b513e7c"
+      ],
+      "bodySha256": "45a3cfa8ad4678e0730e17b86000da28677cd456f7c6cab9adc8fb9d02a793ec"
+    },
+    {
+      "key": [
+        "LINE",
+        "54b390f079bdc4c9"
+      ],
+      "bodySha256": "f1f9923851940aa9aaa35a200ec419947a14c12adbad23a9ed55218c3d5a5187"
+    },
+    {
+      "key": [
+        "LINE",
+        "55172b021115c2ca"
+      ],
+      "bodySha256": "b73b1c2f3c9de87722ed8d56183f685784ca9d70cd157c36d1bfe25e82efa5d1"
+    },
+    {
+      "key": [
+        "LINE",
+        "55d7d981f1dadf33"
+      ],
+      "bodySha256": "a5533609bd2b34a6d07ee60c34dd6d0be77b67e78d5bc8e7a372f21ac60aa350"
+    },
+    {
+      "key": [
+        "LINE",
+        "568e52996ae302c7"
+      ],
+      "bodySha256": "a09c6c3c496940322305bae98703b8388767d98fd6f02134f905cfa1aac4587d"
+    },
+    {
+      "key": [
+        "LINE",
+        "59f1457bb012a0f0"
+      ],
+      "bodySha256": "5e23f5dd01f10febc6ca6fcda2d16e7312cd91db1e20bff695958d7d7f3aa92d"
+    },
+    {
+      "key": [
+        "LINE",
+        "5b8439cfbff9cd25"
+      ],
+      "bodySha256": "80411321a0fe9ac189e9432a6c77d49d096d710ed96e6ba07e781ec2ebccae8c"
+    },
+    {
+      "key": [
+        "LINE",
+        "5c34630f2a81605f"
+      ],
+      "bodySha256": "c964120d3e220d109876acda6896bdc01f111ac0be8518b08e1234b82558aada"
+    },
+    {
+      "key": [
+        "LINE",
+        "5d4f43f20f55824c"
+      ],
+      "bodySha256": "ae4bc194ee452a8d54970fd66b290fe56e806995a0d9f9d062840674efa2ffaf"
+    },
+    {
+      "key": [
+        "LINE",
+        "5db899150569d311"
+      ],
+      "bodySha256": "a83715cca153246ff4f696d0c0c07e52f060d2ae0fdfd7f07134da6cd485956c"
+    },
+    {
+      "key": [
+        "LINE",
+        "64be50ad7b58e5ab"
+      ],
+      "bodySha256": "6da68240125b595c8b68fb2ac16b76dd7858107db86d502be47b4c6252244416"
+    },
+    {
+      "key": [
+        "LINE",
+        "68741ec65c8ed1b6"
+      ],
+      "bodySha256": "2bf311f8defe351acc469cdd33b30d3e0cc7d998c92f681376924cccb9ba5564"
+    },
+    {
+      "key": [
+        "LINE",
+        "692ff855cd6b21dc"
+      ],
+      "bodySha256": "b5ed1f011396a32c5bbbb60fa153f4f9c629063fcf93977d8f557db2abaa4fda"
+    },
+    {
+      "key": [
+        "LINE",
+        "6a525fe7bf7de6f8"
+      ],
+      "bodySha256": "db2e8667695aea6fd2467b30ce5076c44f3cd3422c778d94fe422bef47613a73"
+    },
+    {
+      "key": [
+        "LINE",
+        "6aa8579ba1c323cf"
+      ],
+      "bodySha256": "a497bf201d7d1f95fa04b65d19ceaa0cd7bd102e4fad137a1923eb56526d78ba"
+    },
+    {
+      "key": [
+        "LINE",
+        "6b3f44a292e46155"
+      ],
+      "bodySha256": "e9b29e761c0cd05372a6d7b829302f5d6e9c367bf428d519b042123486c177d2"
+    },
+    {
+      "key": [
+        "LINE",
+        "6cc3b242f7919595"
+      ],
+      "bodySha256": "6d23847bbe63418c8e27ea829eb4896932dccead87967d1599c22956542f7a3a"
+    },
+    {
+      "key": [
+        "LINE",
+        "6e9937fbbe5f03ed"
+      ],
+      "bodySha256": "b211eb597142107a07ca41bc31474456c462aed3d339fcdb301149bb63090831"
+    },
+    {
+      "key": [
+        "LINE",
+        "6efbaf230e67db50"
+      ],
+      "bodySha256": "a0618b83b93bb37cb9742b7d2fb5e5526f4778720653bba89ac855f45e1d74b3"
+    },
+    {
+      "key": [
+        "LINE",
+        "6f0437f91c76b6b1"
+      ],
+      "bodySha256": "8f4b3be1e47752e4344dd74144405eb98f8892668ebca0153f2230697bd4804b"
+    },
+    {
+      "key": [
+        "LINE",
+        "7088b172ad72d00d"
+      ],
+      "bodySha256": "fe1ff009e29d3c82a59b3d2bc0bc6902aa959038f6ecdefe66405cbbc862747c"
+    },
+    {
+      "key": [
+        "LINE",
+        "70a2d449a402de8d"
+      ],
+      "bodySha256": "2b7bbc8ecff65ccd4dbe08f0d880e0665bc3739f17a343042eb693d94a0facfe"
+    },
+    {
+      "key": [
+        "LINE",
+        "7741a268ecab1631"
+      ],
+      "bodySha256": "446ed7bd47c9122a65544dfcbea1a17358015311ee4f11be76bf74bcc86482e2"
+    },
+    {
+      "key": [
+        "LINE",
+        "788aa13e966c7372"
+      ],
+      "bodySha256": "6caa35caf6b7e9076dae7a1673a558d688c4fd2eacbbfb16ae3af2ebb946b4f1"
+    },
+    {
+      "key": [
+        "LINE",
+        "79475a28f49bc647"
+      ],
+      "bodySha256": "cc5d2068333782b3b6155f8b224350cf89a57c6c2d1c039fb5d4fdc2fb33ddd3"
+    },
+    {
+      "key": [
+        "LINE",
+        "79d95720913c36a5"
+      ],
+      "bodySha256": "9f2f779cce24ab72845baec60c3460782416071c19bf9c737169b83a849f2bc3"
+    },
+    {
+      "key": [
+        "LINE",
+        "7a64db5cc09941c9"
+      ],
+      "bodySha256": "7caa6ae129c205368159c087cfd4477a0dfa1eb85f1e0a33db52ac425ecef700"
+    },
+    {
+      "key": [
+        "LINE",
+        "7b85e74dc5413360"
+      ],
+      "bodySha256": "091801023d00a8306c7354c39f5ea66c9161c96ec3ec6a25134ee9b53442568a"
+    },
+    {
+      "key": [
+        "LINE",
+        "81d593f1b31a4724"
+      ],
+      "bodySha256": "255d38c3c884d918fe6d89411edcfa01eb282a9cbe292f984d38f04dce51e203"
+    },
+    {
+      "key": [
+        "LINE",
+        "827a588d3bc55569"
+      ],
+      "bodySha256": "227eb4a561c491f72ec2911d0284707aae03456c723e9973a5a2afd2e1a9ff86"
+    },
+    {
+      "key": [
+        "LINE",
+        "84729b9724be2d73"
+      ],
+      "bodySha256": "c3264fb51273a6c9ee754ce1e7c87fbb90d1da768393742c91e5e71fa1874152"
+    },
+    {
+      "key": [
+        "LINE",
+        "861157bb46156cfc"
+      ],
+      "bodySha256": "87a368bf16de1a6ae904de7ef2f9f9dd8657954d0bea0ba8e27f03d797ad06c7"
+    },
+    {
+      "key": [
+        "LINE",
+        "88b9056da612ffdd"
+      ],
+      "bodySha256": "1dd336d762d667329d00aaa4a1729febf402cfa60fefda001b3858acd3fb3c4b"
+    },
+    {
+      "key": [
+        "LINE",
+        "8b63d459a4369c8a"
+      ],
+      "bodySha256": "26f321dbea9fca98f3820f524abe949f609dc8f82021604fd3ac547f13dbb946"
+    },
+    {
+      "key": [
+        "LINE",
+        "8be795786edc5cae"
+      ],
+      "bodySha256": "80d2951558e14165904b0a55eb27df96c5ab772e8534d8759a9c3a2112db0b07"
+    },
+    {
+      "key": [
+        "LINE",
+        "8db98f4883a7c329"
+      ],
+      "bodySha256": "2d0b21a0948aaea8f3d10aa8e1783db56fbe67244b3d85f26aa6fd6d5688d638"
+    },
+    {
+      "key": [
+        "LINE",
+        "8fb3354345e9c653"
+      ],
+      "bodySha256": "59d9ef3e8bc6b835c6d1866d726b0a78560247e47ac413d4f24801ad709b47df"
+    },
+    {
+      "key": [
+        "LINE",
+        "92a8d4d945e73627"
+      ],
+      "bodySha256": "5d6df4eb02fff86c9c3c18cc7537502866a76833a5fbc79e99e54be147749c3d"
+    },
+    {
+      "key": [
+        "LINE",
+        "9410544562cfed97"
+      ],
+      "bodySha256": "c2eca26ee73e07296d5058e38f5555cd59c88fbf4f9c3f3191421fb4eca286ee"
+    },
+    {
+      "key": [
+        "LINE",
+        "944ceb08f8a4bc64"
+      ],
+      "bodySha256": "b0475a12f97f3584f97016135945a4e94c49e48490d6ac808f2617c7ccdded43"
+    },
+    {
+      "key": [
+        "LINE",
+        "94af542e46e1fff7"
+      ],
+      "bodySha256": "81215355ae9b7a0bcc05dbe995de42c79e6dcf235ecaaa01c963f5cbeeaf0e6f"
+    },
+    {
+      "key": [
+        "LINE",
+        "9560729bacd87016"
+      ],
+      "bodySha256": "cfbf96dc527bb8a37ebfbd7f0d8cd52043c13da142adc17a2b77f0a8c93abbdc"
+    },
+    {
+      "key": [
+        "LINE",
+        "96367d9e929b87c0"
+      ],
+      "bodySha256": "7db6cabb201f04ac0354d4baf21825bfdfbab48b724e4cd824397991a66a91bd"
+    },
+    {
+      "key": [
+        "LINE",
+        "9ab3184647f5d089"
+      ],
+      "bodySha256": "b785e049c5a0f38b5705898241c89ee967d3bdbb967dd415aee7bb701b9c13a6"
+    },
+    {
+      "key": [
+        "LINE",
+        "9c40d0f3be29cdfb"
+      ],
+      "bodySha256": "f1c2de268fe3b46a0933953a6fb746a8ce39561a165c8a4bffd8ba408a147c8c"
+    },
+    {
+      "key": [
+        "LINE",
+        "9ce1454cfb9947d2"
+      ],
+      "bodySha256": "a01b51335fab6afebc85634037a053ddde17f4ad63e9bc34a156d260ca9e7dc3"
+    },
+    {
+      "key": [
+        "LINE",
+        "9e02ceaa74e41aea"
+      ],
+      "bodySha256": "aef301484e14daf50868f00aef92aab4ad2799039fa1301fe33ef20d4e64e839"
+    },
+    {
+      "key": [
+        "LINE",
+        "a041d2b6905060b7"
+      ],
+      "bodySha256": "5b6bc712b2b4e6af470e8b4eaf02394038be103975444355883c162837a17adf"
+    },
+    {
+      "key": [
+        "LINE",
+        "a133db9c73a2cdeb"
+      ],
+      "bodySha256": "627ca0ba13308163044edec65e49784ab1b1a11fd9115da80811ed55a9af4e8c"
+    },
+    {
+      "key": [
+        "LINE",
+        "a1b2d036c5e5d447"
+      ],
+      "bodySha256": "3cfd0912e248427a146d0b91a9487618fe1b746503891ef5f3048308923ccf6b"
+    },
+    {
+      "key": [
+        "LINE",
+        "a1c81323badcd632"
+      ],
+      "bodySha256": "427675cc1bb82a3d116bd64dd1faf30ff9aee262eb1f1334b98929747e9be847"
+    },
+    {
+      "key": [
+        "LINE",
+        "a2ab4bdd4dd1656e"
+      ],
+      "bodySha256": "3e0c6c3aa029087dc06350810d04a8c0d16359d398bb4ff140f26f84ae440e8b"
+    },
+    {
+      "key": [
+        "LINE",
+        "a308477d1a1b44fe"
+      ],
+      "bodySha256": "ccf5d4e204ecfc156d4eaa86c1e11c4875b9c40b54a5c5bd218245d0b3a1f07d"
+    },
+    {
+      "key": [
+        "LINE",
+        "a3325242bf804bbe"
+      ],
+      "bodySha256": "0165fc003cf01fd098efffe72a06aed40557679320ea86e049761d4a810aebfc"
+    },
+    {
+      "key": [
+        "LINE",
+        "a43fcb8006314ddf"
+      ],
+      "bodySha256": "d8b83049b760657106520a77ff970e1048819851909f770701630c55b184113f"
+    },
+    {
+      "key": [
+        "LINE",
+        "a454e9fca8a4da61"
+      ],
+      "bodySha256": "b461a9508fd2596ee7daf69e1cf67234eaa56cb60de6f61794a9c1e9fe35fd14"
+    },
+    {
+      "key": [
+        "LINE",
+        "a459f1b1291d2635"
+      ],
+      "bodySha256": "4c4fabec3fd34e10456db3d7a69572b48db9ae035e3d80a553cbe73691944b3b"
+    },
+    {
+      "key": [
+        "LINE",
+        "a4d99e5cae33d8f4"
+      ],
+      "bodySha256": "1ba64759b64733ec31bd504945a323756977ec34c9f63b89292cb77926f681a4"
+    },
+    {
+      "key": [
+        "LINE",
+        "a85d78af301b1902"
+      ],
+      "bodySha256": "b03a44e074ecac17a0f2dd3f5be2c112fce31b43c0c592aaa4d6a1edfa2d9ea7"
+    },
+    {
+      "key": [
+        "LINE",
+        "a8a4544dcff604f6"
+      ],
+      "bodySha256": "aabf6140156dab6fdc64dc1b8ce11463af4c21fd93b513592dca3041055f8700"
+    },
+    {
+      "key": [
+        "LINE",
+        "aa38c94456174ecf"
+      ],
+      "bodySha256": "6a0dd0d9b7fc28724e6eabf9188df872a20dfa96459b7f4ee5b53f747ac7c619"
+    },
+    {
+      "key": [
+        "LINE",
+        "ac9f320f17063c97"
+      ],
+      "bodySha256": "4cde3f0f4645fc305646524d4369ce7115d3d4c32801620232e6550fa67035b0"
+    },
+    {
+      "key": [
+        "LINE",
+        "ae54b4a31e204c65"
+      ],
+      "bodySha256": "34cb21b65f5af5145f8d7a298b9c255d0cb79a1ea13f946feec1e39269a234a5"
+    },
+    {
+      "key": [
+        "LINE",
+        "aeea2a8a97a17af5"
+      ],
+      "bodySha256": "5f1729f5c369802ba0193463bae131406f008a7da9aaef49130780c7bfef6bd8"
+    },
+    {
+      "key": [
+        "LINE",
+        "b0c935a580b571f9"
+      ],
+      "bodySha256": "b7547ac6797ef47b3e263241a75d41dd8c1452f6702a9625cee05f5be3212ad9"
+    },
+    {
+      "key": [
+        "LINE",
+        "b7e8be2d3c652993"
+      ],
+      "bodySha256": "0c9e8ccada593151ca5c44655d1fa550be2c0e691fe9651e26baea3272c0f8e1"
+    },
+    {
+      "key": [
+        "LINE",
+        "b930d2e8b97280c2"
+      ],
+      "bodySha256": "fee9021ef3674721b87721c7f2189bda6f2f3d63dd1bde8198b11cb69e7ac9ce"
+    },
+    {
+      "key": [
+        "LINE",
+        "bba52bee3ce149e6"
+      ],
+      "bodySha256": "fce23388fd92f62555d44c500e993f3c84208a323e95195b7d08a8aa5db3865a"
+    },
+    {
+      "key": [
+        "LINE",
+        "c00efe539befd7bc"
+      ],
+      "bodySha256": "0d850d20bf2cd8c20846e96fc6616c3b75f0027a1cbb233caacb729fc67b4283"
+    },
+    {
+      "key": [
+        "LINE",
+        "c171a275feabe2ea"
+      ],
+      "bodySha256": "8318383e1f3b9eab273d70672157eeb676185b7292d8ec6ed3f77b2251ee5f5b"
+    },
+    {
+      "key": [
+        "LINE",
+        "c18383182d3854ef"
+      ],
+      "bodySha256": "8036ea920ae18a382caeea68a0a6df79c99cd5979d8cff9e9da1198cd7f2dc06"
+    },
+    {
+      "key": [
+        "LINE",
+        "c1e9a29fb594bf8e"
+      ],
+      "bodySha256": "25040b8c34f62fe6e2bc33f30f82612c6ca26576b13f2bb71e1aafa257cd861c"
+    },
+    {
+      "key": [
+        "LINE",
+        "c230a39178591e74"
+      ],
+      "bodySha256": "131538f9e341a926928fb938922d670b39478606345b5ec0b734d5b3e382e993"
+    },
+    {
+      "key": [
+        "LINE",
+        "c2574c60039bc748"
+      ],
+      "bodySha256": "9050484fa6c8c7198c8ed648f7d918469fa376b762226eaca8ca476828edf002"
+    },
+    {
+      "key": [
+        "LINE",
+        "c402946a58a87af8"
+      ],
+      "bodySha256": "4e62379ffaf2284591c6284e811e90be27825c7dbe7aa70f2e81c3e50bee9b76"
+    },
+    {
+      "key": [
+        "LINE",
+        "c55fe59790f36c87"
+      ],
+      "bodySha256": "0fa09a0887eeba70b7c459648faa8a5100c6ca519955894d0336796b52895acd"
+    },
+    {
+      "key": [
+        "LINE",
+        "c6013586c3ddb651"
+      ],
+      "bodySha256": "9d2837f75f1cd2af01193ca8288f6e9d75f781ddcf7440f518dab8529ed7b641"
+    },
+    {
+      "key": [
+        "LINE",
+        "cfc39e4b5c2e04dd"
+      ],
+      "bodySha256": "9f3675d991984fc56bb464c454003c2087071a88d47b6ff27527be49b9b28fd3"
+    },
+    {
+      "key": [
+        "LINE",
+        "d15dd33540bc1354"
+      ],
+      "bodySha256": "20554b18364d6d469b6a579f03b0d779c30196f3f7ea965cdfafc956318d3d82"
+    },
+    {
+      "key": [
+        "LINE",
+        "d30b9dc8fd58a818"
+      ],
+      "bodySha256": "d0d95525ab49bd7e305705d725fe78d77a4921266eea54854c82cd5ec298a649"
+    },
+    {
+      "key": [
+        "LINE",
+        "d552238f64249223"
+      ],
+      "bodySha256": "06679993ea50577b5a17c9314ff41866837f10e2cc62f0b22276f5f649359d30"
+    },
+    {
+      "key": [
+        "LINE",
+        "d583922ca3b5f2f0"
+      ],
+      "bodySha256": "a9aea6d27752464d1686a8d189f4c3d719a6b3e55145e5eb9221d106d4503a4f"
+    },
+    {
+      "key": [
+        "LINE",
+        "d690da1c10a9d872"
+      ],
+      "bodySha256": "dd5b6cd73c00fc3ed89ee3ee6cf86c4106b3966a2876455ee56cc9716a8cda68"
+    },
+    {
+      "key": [
+        "LINE",
+        "d94ace20c01a3635"
+      ],
+      "bodySha256": "bb7a1fe46983a0f922dd8232282010e2887243bc7c06e61b557a61b3262529dc"
+    },
+    {
+      "key": [
+        "LINE",
+        "da4baba0348b54e4"
+      ],
+      "bodySha256": "859a9d0f7abd17cfe98e83f26cb907a5d90434e89273155d34a08dcf4150927c"
+    },
+    {
+      "key": [
+        "LINE",
+        "de028c5159260010"
+      ],
+      "bodySha256": "6fb31c4e6566c3058b72c3cf9c2cc3074ce145131758421a439d5147a0098e3f"
+    },
+    {
+      "key": [
+        "LINE",
+        "df6bed6f8cb2b714"
+      ],
+      "bodySha256": "e4fa58d18b8910799d4eb56ce9e701d31cf6d3178bfe76c44aa36df3e5ae5188"
+    },
+    {
+      "key": [
+        "LINE",
+        "e1edd60b042a2584"
+      ],
+      "bodySha256": "e4bfda11bc9ae248bd7b597975a8df0dd8d961fad5e20e406181b0228b01171d"
+    },
+    {
+      "key": [
+        "LINE",
+        "e30e4ca16d14351f"
+      ],
+      "bodySha256": "1aeaba73e446105fed42607ee9831462412fa1399965503ef74bd2fc7d280772"
+    },
+    {
+      "key": [
+        "LINE",
+        "e537d08f6bfe38dc"
+      ],
+      "bodySha256": "6d697993f70b8f0ca2d94665e2e01eedc70aeeaab59f3e52d215bfadb05e5645"
+    },
+    {
+      "key": [
+        "LINE",
+        "e6fda9c42e8dc78c"
+      ],
+      "bodySha256": "ace43ef072ad37e6030c399d74a4aff9bf3cb167a66f8ea4ef74718326ef8fb6"
+    },
+    {
+      "key": [
+        "LINE",
+        "eba5b812f0512579"
+      ],
+      "bodySha256": "3ab3a8b225c04704cbff6e4498024928c301b2a23677c0995d9fc6073fc6aff9"
+    },
+    {
+      "key": [
+        "LINE",
+        "f028c3f901e5cdbb"
+      ],
+      "bodySha256": "af59cfa0199804d03643882ae47be79dd55960bfb878099601181887b4dda9bb"
+    },
+    {
+      "key": [
+        "LINE",
+        "f0de5667edf8fcbc"
+      ],
+      "bodySha256": "3930c14788d0cc9afcac1a39c9f6b2956ab92ac1eeff55681dd7dc3ea80f4c11"
+    },
+    {
+      "key": [
+        "LINE",
+        "f12314854d4fc7a1"
+      ],
+      "bodySha256": "46bb98c8b653c4323ddd6547a4e5805060e0a430c54940caf20e7312e61ca851"
+    },
+    {
+      "key": [
+        "LINE",
+        "f8943b41154ca0f5"
+      ],
+      "bodySha256": "a5aeebe639e8ffbe99e84a3eeccbfe8fccfc1bfbc56355c90a87e9d0544993df"
+    },
+    {
+      "key": [
+        "LINE",
+        "fa6a775693c547c7"
+      ],
+      "bodySha256": "4d29198db1013378c428ace80107491036f0d2aac1fa10c5a906d61dd568e272"
+    },
+    {
+      "key": [
+        "LINE",
+        "fa8a5d0f113c3ada"
+      ],
+      "bodySha256": "5938b4b44d1b9c395f8587c400c5a2bae05fa259ce6f287eba99baf7447dfb00"
+    },
+    {
+      "key": [
+        "VIA",
+        "02e9897c90f63a0e"
+      ],
+      "bodySha256": "de8bbeac62595134cc4c9de95ce758ae4bf9884079d0de0a300f9092fb820475"
+    },
+    {
+      "key": [
+        "VIA",
+        "048e9017af77d3cb"
+      ],
+      "bodySha256": "bd57d308916fb58ff6ad64a42ca0c9136934c966f84e3454ecd3681ee1314764"
+    },
+    {
+      "key": [
+        "VIA",
+        "0dc2c28a346797a6"
+      ],
+      "bodySha256": "49e0e2f74817d725d6410f18bf688d811d7a171f25a867f536db9395baf8ab7c"
+    },
+    {
+      "key": [
+        "VIA",
+        "104c2268e223ee88"
+      ],
+      "bodySha256": "47ce7c76c0198dca4eb06e51835d694ca051eeed721ea9bfcfda212bc66f999d"
+    },
+    {
+      "key": [
+        "VIA",
+        "1343bc6dd107e6a6"
+      ],
+      "bodySha256": "cd4c22c47fe49361375a4f8710787387f7715728d885f1ffa97cd64bf1d34bc9"
+    },
+    {
+      "key": [
+        "VIA",
+        "14241fa00c86d7a3"
+      ],
+      "bodySha256": "e2f7dc7d000b211e37bce1fdf81db2660285e30c3b7d6928da0a4e5ea2e25011"
+    },
+    {
+      "key": [
+        "VIA",
+        "162be45139e08026"
+      ],
+      "bodySha256": "3b0c4760fb0f98169f5bc31cdf9a260e696f7bb072e663dee8ecb3e5e8ef680e"
+    },
+    {
+      "key": [
+        "VIA",
+        "1a5c3f7598ea0914"
+      ],
+      "bodySha256": "d8897210bf86f779914fb8e8d22ab39606c5651c1bf0c332fe74313c05422b8d"
+    },
+    {
+      "key": [
+        "VIA",
+        "2118a6991c941c7d"
+      ],
+      "bodySha256": "5af12763e7e745d37fbbab50a150327177d69f3ba19ab4fc9fc875bc41b99f7d"
+    },
+    {
+      "key": [
+        "VIA",
+        "213e82cc256458d4"
+      ],
+      "bodySha256": "e36ef91b1c0227ac3db906f6d93f9663c8ea417643e63a0e5dea9b8ee28b7723"
+    },
+    {
+      "key": [
+        "VIA",
+        "22f2a834fada428f"
+      ],
+      "bodySha256": "c9875f30bf5375c3845016c83d5985db8504f760d69bef1da168fc4350a155ae"
+    },
+    {
+      "key": [
+        "VIA",
+        "238da22024d130e5"
+      ],
+      "bodySha256": "5ad24118961ae19db4fa3473bc3eeea3bce490b4047f52a36a8ec9325215f8f2"
+    },
+    {
+      "key": [
+        "VIA",
+        "2d55509a209802f9"
+      ],
+      "bodySha256": "198036f1bec3368a77cdfb0780a5e4b20efeddcb3916bc172c50a4d263fa59e4"
+    },
+    {
+      "key": [
+        "VIA",
+        "2dacdc30f596e6e6"
+      ],
+      "bodySha256": "512b037f2cb58eec63382e54ec9fe8adef7ee21070dd47e6177c2e00735d8e6c"
+    },
+    {
+      "key": [
+        "VIA",
+        "2ef20276e4f850b9"
+      ],
+      "bodySha256": "3b9a4183fb807d2db5d4a043017958ebc83e8e882580c5205ddfb6f1cd1e0b6f"
+    },
+    {
+      "key": [
+        "VIA",
+        "32b07d272fafa2d2"
+      ],
+      "bodySha256": "5cd5fd72b6d53539860ef0555b4b6703419ace693b81bda064a0f93cc3ef3a98"
+    },
+    {
+      "key": [
+        "VIA",
+        "3a687d9fd853d79e"
+      ],
+      "bodySha256": "ddd9cf6178951dd3d799e8318de3f5878898acfdeea99bc2a86315552a4fa9f0"
+    },
+    {
+      "key": [
+        "VIA",
+        "4051c7a9855e8c24"
+      ],
+      "bodySha256": "69e4841424d6845615272dc60d7491e5d406dd87c7e7cac842e42a17ca83a1d1"
+    },
+    {
+      "key": [
+        "VIA",
+        "45f5baa249e2ad1d"
+      ],
+      "bodySha256": "f6ea306a97f10cb453daf70a498c10ffb971ad5282d991f58b5f5b5b7612e3e1"
+    },
+    {
+      "key": [
+        "VIA",
+        "48f19ecb28123ad9"
+      ],
+      "bodySha256": "25512864be961d2c16ce6eb9c26d8147a2533ba79abba9e56b04bb5692b6ec3f"
+    },
+    {
+      "key": [
+        "VIA",
+        "507547bb1c01fe73"
+      ],
+      "bodySha256": "60e9fb9e6bc0246e55bcd0a896512d98e021ed0d08978a2f9678628cf267f734"
+    },
+    {
+      "key": [
+        "VIA",
+        "54ccc2941af4ba97"
+      ],
+      "bodySha256": "21c6fb052f58927adb98eea0206956597b2574a9b63877d8f702b63db55b1f00"
+    },
+    {
+      "key": [
+        "VIA",
+        "5698d3c72aa6f817"
+      ],
+      "bodySha256": "9d8a57a14ea0c83233adac6c59b197c8df8cc2b0b370a4e42c756af46c97498e"
+    },
+    {
+      "key": [
+        "VIA",
+        "58e66da7980556f9"
+      ],
+      "bodySha256": "b27c7131f094d92efdfafe5ecf9b28770ccab8481cfb5ec711ab963eb69ff3e5"
+    },
+    {
+      "key": [
+        "VIA",
+        "5a0785713fb4f660"
+      ],
+      "bodySha256": "64b02c291f40b7976956c2f6b2a754e13cadae458fcd77f34dd183d59fb1eeb6"
+    },
+    {
+      "key": [
+        "VIA",
+        "5abd7dac3339c291"
+      ],
+      "bodySha256": "dde7e541bd1e00f90628a12cbc9a606560cbabe1fe22dd175b619c7ab0b790dd"
+    },
+    {
+      "key": [
+        "VIA",
+        "64e6f546a080e74a"
+      ],
+      "bodySha256": "5b9bf8f995a42616c04dcbbf88d80d3e600b99eb3d9abdc9fdfb60e50e71ab09"
+    },
+    {
+      "key": [
+        "VIA",
+        "680205f1b1d20cfb"
+      ],
+      "bodySha256": "0c12258ab9bdfa14b341fe20fbfdb6309e86185323df051951388814bc6bed64"
+    },
+    {
+      "key": [
+        "VIA",
+        "689655bf2164420b"
+      ],
+      "bodySha256": "ba9f986f76af4c147a7192d60b9d183c263df395ee1ee4cc773be34e1aff866e"
+    },
+    {
+      "key": [
+        "VIA",
+        "6ba50f61ecf04034"
+      ],
+      "bodySha256": "b9d413529b37d5df9a671c54b791b84243ffd03cc3459c883cc34291febf5f7a"
+    },
+    {
+      "key": [
+        "VIA",
+        "6d495ca90b5a7139"
+      ],
+      "bodySha256": "8b9fe5a0b2452e15597abdc1fe2734b618a94d48338902e2a5f1ee8dfa7f808d"
+    },
+    {
+      "key": [
+        "VIA",
+        "6de8789d41c7cec4"
+      ],
+      "bodySha256": "a943d0d8c2e90c115a5b1304c283bfde1c89ceadbadc236a61bf4b001af3c5a8"
+    },
+    {
+      "key": [
+        "VIA",
+        "712a554f2be6aa88"
+      ],
+      "bodySha256": "832eee5e6d523a09eff45aad5ca95d8c2dfa4865a719020c16b6df5848ed6e17"
+    },
+    {
+      "key": [
+        "VIA",
+        "73a006ac849478e2"
+      ],
+      "bodySha256": "166a7f77880c9cbc067afebaf6b1d998be86512dc0b20e5c24548b87105a1823"
+    },
+    {
+      "key": [
+        "VIA",
+        "758299d2e9231bf5"
+      ],
+      "bodySha256": "8bc28657b95662bae0343d174e23f07809c380530bdbbafcbf2bc1f3e6dd2d54"
+    },
+    {
+      "key": [
+        "VIA",
+        "79371f0cd10dd4aa"
+      ],
+      "bodySha256": "b2293854093912be5404097b9f6035d3ef2f5358fb7bd060176fe5452b9bfadc"
+    },
+    {
+      "key": [
+        "VIA",
+        "80c1c219a504d62a"
+      ],
+      "bodySha256": "99e4088219c165e2e9782a050566456c8bbfba4f34c3b97d2e577be02ca6bf19"
+    },
+    {
+      "key": [
+        "VIA",
+        "844e3b3f0bdf3b43"
+      ],
+      "bodySha256": "7e6fb6c949ace21e3970cc51e2a8541e6d992ac2a32917ce74da4bde9d8da859"
+    },
+    {
+      "key": [
+        "VIA",
+        "894ff04e58b69b1e"
+      ],
+      "bodySha256": "7b7c0fcc544f46a99293f61e633484a5e3e28e883e177917c1b6e58b33a656c0"
+    },
+    {
+      "key": [
+        "VIA",
+        "8fc22727a491f3fa"
+      ],
+      "bodySha256": "0aca22d8b7cd2edf08d5cec9e8c7ba3cb940bee51c32b7a63941ccc6c57e52e8"
+    },
+    {
+      "key": [
+        "VIA",
+        "91cd2d64585084cb"
+      ],
+      "bodySha256": "29018a5d6da9d3e31ae922884f4d098ec39394a4cc6d27cfae5a2558c5bc3aa9"
+    },
+    {
+      "key": [
+        "VIA",
+        "92dc9f6bda5835a5"
+      ],
+      "bodySha256": "02b62b58e1089b713f3ee84df05cf368aa3833ac64c76e976c0b3ae1aa599395"
+    },
+    {
+      "key": [
+        "VIA",
+        "94420939c44a3798"
+      ],
+      "bodySha256": "710757ad5f398cd35a40c7ad9ab843648e9e8f619210fef6d6ba476300c50818"
+    },
+    {
+      "key": [
+        "VIA",
+        "94ccf180c71a63e0"
+      ],
+      "bodySha256": "b67d2ff335ec58b43a890f697abe70287da0714a85fcec161501bc27620af027"
+    },
+    {
+      "key": [
+        "VIA",
+        "9a8c794b92100357"
+      ],
+      "bodySha256": "ffa6e57dc42d164c1af4877b86a12d5131d4dde61ad9a4ba0180883fe5b2de3d"
+    },
+    {
+      "key": [
+        "VIA",
+        "9ba2244707ccb89d"
+      ],
+      "bodySha256": "a05e6b461a3ae58e90f50d60de907555b2c911dc7fe593d17682b40567fd6ddd"
+    },
+    {
+      "key": [
+        "VIA",
+        "9d5a51911d3cbf20"
+      ],
+      "bodySha256": "ccb4a4dca9d1b6d7ab36f3e57bf8c9f72ce19ead6aab1b0f87523ebe56fbca42"
+    },
+    {
+      "key": [
+        "VIA",
+        "9e4555707672f41a"
+      ],
+      "bodySha256": "3d1c9b2c9fa26bb2eb080bc9661a12f7a377f436f383c146e29a27063f233df2"
+    },
+    {
+      "key": [
+        "VIA",
+        "9f8ab3785d7311f8"
+      ],
+      "bodySha256": "6c7e2b561dd53db924f362e685c04557ae81cb5840ed941aea69326a54999f5b"
+    },
+    {
+      "key": [
+        "VIA",
+        "9fe559176eb8f76a"
+      ],
+      "bodySha256": "1c7c6152d823168f5909c3006b7cd30cad3ad5142b04c9854731447e45a842c5"
+    },
+    {
+      "key": [
+        "VIA",
+        "a3557893e2576857"
+      ],
+      "bodySha256": "ce50c5796b16554dc99388acf38eee0d11cee170a843d786a5dcec705e9e83a2"
+    },
+    {
+      "key": [
+        "VIA",
+        "ac18c5b7897b5e0d"
+      ],
+      "bodySha256": "ff81440f82f839d0594afa9243e9bb6c09ba209eacbbce1efacf3006197d12fc"
+    },
+    {
+      "key": [
+        "VIA",
+        "ad24a9ff33b484f5"
+      ],
+      "bodySha256": "cef8b28ea1b79e8ee5d0974d2405b51dd15678820e070941a94f9b1483a0e73f"
+    },
+    {
+      "key": [
+        "VIA",
+        "aeea5c39125cfd9b"
+      ],
+      "bodySha256": "ab5eb88d131083f7bcc921e96ea577291ebd0583b0ae82cae3c45388dd7d6edd"
+    },
+    {
+      "key": [
+        "VIA",
+        "af74ae24681d8a35"
+      ],
+      "bodySha256": "b45e609b1bdd34140542159107f6107c814081a3d4250b394b37f578c71026f8"
+    },
+    {
+      "key": [
+        "VIA",
+        "b207477536ed85bf"
+      ],
+      "bodySha256": "894dd7d7267e16fe82cbad4881c0a8f4ef7e30a8425b7a2fdc74c88f74696c44"
+    },
+    {
+      "key": [
+        "VIA",
+        "b47d47474314d484"
+      ],
+      "bodySha256": "ec9ae8be7c99607b6f4c0884ef2fa9f56ceea05ff074b65f4b5bfe5ce4aa7c0f"
+    },
+    {
+      "key": [
+        "VIA",
+        "b5384e98397cc531"
+      ],
+      "bodySha256": "ffec01d28319c007103a1b48fc87a3c16812a48e301c736a00d3ce755fabb1b9"
+    },
+    {
+      "key": [
+        "VIA",
+        "b6b70ca4c9b47ee8"
+      ],
+      "bodySha256": "de04f58a75fb945009def0f4bb384800e37899d410b584521baa3303cb946a35"
+    },
+    {
+      "key": [
+        "VIA",
+        "c17ad2a516a2c038"
+      ],
+      "bodySha256": "e905ccd02368fd0d41984303497e2aee55f2b871967d460973b698424672f336"
+    },
+    {
+      "key": [
+        "VIA",
+        "c5201d1c02c5c398"
+      ],
+      "bodySha256": "e4c091934c95a7af797bba9f22cfee7e74743399fe07b97fa8983051a9e1e3e9"
+    },
+    {
+      "key": [
+        "VIA",
+        "c6e938d5a86ccd32"
+      ],
+      "bodySha256": "ea3d566843c15847cd737e1fdcb4de9b37f2e5a0b62c00d1b03aafc2799e5148"
+    },
+    {
+      "key": [
+        "VIA",
+        "cb1b3a32116bcd3e"
+      ],
+      "bodySha256": "03b46ddc85aa7f19c00a4ae75e3b7a4f69dcae3d47988ea29efbe56428b48c17"
+    },
+    {
+      "key": [
+        "VIA",
+        "d07f3b92d6182b2c"
+      ],
+      "bodySha256": "81bd68850ec5975b2d12dbcf910f4d9363e7df1c9122e029e972d8686f02b35a"
+    },
+    {
+      "key": [
+        "VIA",
+        "d0802efa9bb7ec9a"
+      ],
+      "bodySha256": "d7c1aa8b941bb9c9489162c7c5952826e564c26aa6f3329e60d2071bffbda54c"
+    },
+    {
+      "key": [
+        "VIA",
+        "d0e40b70c4bd64d1"
+      ],
+      "bodySha256": "9546abc1a870f708ed15c07596311fc7dfab7157624247c0deddee26a0a398e4"
+    },
+    {
+      "key": [
+        "VIA",
+        "d3748eb889a45102"
+      ],
+      "bodySha256": "1c994e3a8a44da1eea825eada93d9d5dd21089dabf650d98b4d338fd163947b0"
+    },
+    {
+      "key": [
+        "VIA",
+        "db712c485151c309"
+      ],
+      "bodySha256": "ffc1bd133f1a351de3b6cb61bdd4a5e60a1fb3c2927ea89adb0a88e72ccebbbb"
+    },
+    {
+      "key": [
+        "VIA",
+        "db932b87f9448dff"
+      ],
+      "bodySha256": "07a1f353842c1ead793b395db0243ca359e4b6fb58aae9e2e708d90c2cbda41a"
+    },
+    {
+      "key": [
+        "VIA",
+        "e311d4f65937fa31"
+      ],
+      "bodySha256": "f59eaf5bf3f4a2e0dccb900cc6b34dbf486cbe1a2205da230fe4893fe12ecf52"
+    },
+    {
+      "key": [
+        "VIA",
+        "e7aea29851b29249"
+      ],
+      "bodySha256": "de0747f35ac36403c61f15e8f3f87dde329eb771e32c1045f6322d1841c96ef4"
+    },
+    {
+      "key": [
+        "VIA",
+        "edf384412eb957d7"
+      ],
+      "bodySha256": "45a17f344b5c8372faa107271f3788ff0a615f92a04a68d16fb3ed2638bdf6c1"
+    },
+    {
+      "key": [
+        "VIA",
+        "f0d5acfca2f95473"
+      ],
+      "bodySha256": "00c9f6b35eb951672eb9b3c8923b0203794dd7612a468c06210ad9be91ef3f3d"
+    },
+    {
+      "key": [
+        "VIA",
+        "f61535390b556e2d"
+      ],
+      "bodySha256": "fecf20943c86b39b3db2cf57506d853d380ad9ab518df700bf2dbb256cb3cfa9"
+    },
+    {
+      "key": [
+        "VIA",
+        "f81446f170fa160f"
+      ],
+      "bodySha256": "c5731db17dbd10cc34bccd92f0614e2d3dc3b51968f9bf622d6c9edaa7d0f576"
+    },
+    {
+      "key": [
+        "VIA",
+        "fb478939afe83acc"
+      ],
+      "bodySha256": "7a60c9dacef2ab6c93b2677577bf78b66e8a7e31c5105bc2eaa274af68ae615a"
+    },
+    {
+      "key": [
+        "VIA",
+        "fc11d37bcedb9e63"
+      ],
+      "bodySha256": "2ce17dd16beba41df422054124dcb806b5c52a5fbfc41fa19e9f42b4e82d277d"
+    }
+  ],
+  "allNonTargetRecordBodiesProtectedCount": 12960,
+  "inMemoryOnlyPlanNativeFilesWritten": 0,
+  "liveApiCalls": 0,
+  "pcbMutated": false,
+  "geometryMethod": "Actual runtime footprint RECT/ELLIPSE/POLYGON pads transformed to top-copper Y-up; native LINE/ARC route width buffer, all-layer VIA disks, actual +3V3 In2 FILL contour containment. ARC stroking0.5deg segments; rounded buffers finite mesh. Local contact comparisons tolerance0.00001mil; exact line/via and resistor straight-edge gaps analytical to numericalprecision.",
+  "planeDiagnostic": {
+    "fillId": "41fd0322eb2cc785",
+    "contours": 362,
+    "rawPolygonValid": true,
+    "invalidPolygonRepairUsedForContainmentOnly": false
+  },
+  "limitations": [
+    "No actual deletion, rename, component move, library mutation or native API operation performed.",
+    "A10-LINE deletion isolates bias pads electrically but is not clearance-clean at R164 until its dedicated power VIA is removed/relocated or geometry adjusted.",
+    "Do not simply rename any feed or its VIA: these VIAs contact existing global+3V3 In2 plane and require real physical rework/plane clearance.",
+    "Global power planes, MCU fanout and all non-target records are protected; no need to edit them for these ten feed cuts.",
+    "This bounded plan does not reroute bias supply, validate PRE bypass removal, place new ICs, refill planes, replace native DRC, or approve fabrication."
+  ]
+}

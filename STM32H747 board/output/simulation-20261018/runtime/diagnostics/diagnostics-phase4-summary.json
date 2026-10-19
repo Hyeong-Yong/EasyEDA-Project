@@ -1,0 +1,111 @@
+{
+  "originals_unchanged": true,
+  "internal_voltage_nodes": 245,
+  "results": [
+    {
+      "case": "warm_internal_nodes",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\warm_internal_nodes\\warm_internal_nodes.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(raw_j2)": -3.258641669217475e-09,
+          "v(filt_j2)": -2.197406354086758e-07,
+          "v(buf_j2)": -1.876777704856725e-06,
+          "v(drv_j2)": 1.647336078674939,
+          "v(adc_j2)": 1.647336078674939,
+          "v(off)": 0.968992248062,
+          "v(v5afe)": 4.938899999860722,
+          "i(v5)": -0.01300000002963353,
+          "i(v3)": -0.001692255592037902,
+          "i(vn)": 0.01324225568003352,
+          "i(@c97_j2[i])": 0.0,
+          "i(@c122_j2[i])": 0.0,
+          "i(@c80_j2[i])": 0.0,
+          "i(@c156[i])": 0.0,
+          "i(@c157[i])": 0.0
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 0.094,
+      "transient_op_used": false
+    },
+    {
+      "case": "warm_internal_plus2",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\warm_internal_plus2\\warm_internal_plus2.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(raw_j2)": 1.999000495996665,
+          "v(filt_j2)": 1.999000246642319,
+          "v(buf_j2)": 1.998999191726728,
+          "v(drv_j2)": 0.2480359509144451,
+          "v(adc_j2)": 0.2480359509144451,
+          "v(off)": 0.968992248062,
+          "v(v5afe)": 4.937689775620542,
+          "i(v5)": -0.01325749454882086,
+          "i(v3)": -0.001450000015427902,
+          "i(vn)": 0.01300000003006864,
+          "i(@c97_j2[i])": 0.0,
+          "i(@c122_j2[i])": 0.0,
+          "i(@c80_j2[i])": 0.0,
+          "i(@c156[i])": 0.0,
+          "i(@c157[i])": 0.0
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 0.094,
+      "transient_op_used": false
+    },
+    {
+      "case": "warm_internal_minus2",
+      "mode": "ps",
+      "deck": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\diagnostics\\warm_internal_minus2\\warm_internal_minus2.cir",
+      "returncode": 0,
+      "raw": {
+        "exists": true,
+        "has_values": true,
+        "all_finite": true,
+        "point0": {
+          "v(raw_j2)": -1.9990005025141,
+          "v(filt_j2)": -1.999000686133827,
+          "v(buf_j2)": -1.99900294652158,
+          "v(drv_j2)": 3.04663620729179,
+          "v(adc_j2)": 3.04663620729179,
+          "v(off)": 0.968992248062,
+          "v(v5afe)": 4.938899999804351,
+          "i(v5)": -0.01300000004162749,
+          "i(v3)": -0.002192005771066014,
+          "i(vn)": 0.01374200586149442,
+          "i(@c97_j2[i])": 0.0,
+          "i(@c122_j2[i])": 0.0,
+          "i(@c80_j2[i])": 0.0,
+          "i(@c156[i])": 0.0,
+          "i(@c157[i])": 0.0
+        }
+      },
+      "issues": [
+        "Note: Compatibility modes selected: ps",
+        "Using SPARSE 1.3 as Direct Linear Solver",
+        "No. of Data Rows : 1"
+      ],
+      "seconds": 0.11,
+      "transient_op_used": false
+    }
+  ]
+}

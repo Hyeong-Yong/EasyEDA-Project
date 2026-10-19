@@ -1,0 +1,183 @@
+{
+  "schema": "stm32h747-adc10-copper-cut-native-receipt-20261018-v1",
+  "stage": "rename_1",
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/adc10-copper-cut-execution-manifest-fresh-20261018.json",
+  "manifestSha256": "389a1ddba84f1344f9cf76dd89ba1d1e203ad9bae2ac4f0eeff9f82be91eafe1",
+  "baselinePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-baseline-20261018.epru",
+  "baselineSha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b",
+  "sourcePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-copper_rename_1-20261018.epru",
+  "sourceSha256": "5c0ed903c5fe0431a16168f2a57b1e5bf73ea9bdc6b8d382c83302e12a3cb923",
+  "passed": false,
+  "error": "Post-stage exact source audit failed; STOP before further edits: [{\"key\":\"NET:[\\\"NET\\\",\\\"NET-(R137-PAD2)\\\"]\",\"issue\":\"missing\"},{\"key\":\"NET:[\\\"NET\\\",\\\"NET-(R138-PAD2)\\\"]\",\"issue\":\"missing\"},{\"key\":\"NET:[\\\"NET\\\",\\\"NET-(R139-PAD2)\\\"]\",\"issue\":\"missing\"},{\"key\":\"NET:[\\\"NET\\\",\\\"NET-(R149-PAD2)\\\"]\",\"issue\":\"missing\"},{\"key\":\"NET:[\\\"NET\\\",\\\"NET-(R150-PAD2)\\\"]\",\"issue\":\"missing\"},{\"key\":\"RULE_SELECTOR:[\\\"RULE_SELECTOR\\\",[\\\"NET\\\",\\\"NET-(R137-PAD2)\\\"]]\",\"issue\":\"missing\"},{\"key\":\"RULE_SELECTOR:[\\\"RULE_SELECTOR\\\",[\\\"NET\\\",\\\"NET-(R138-PAD2)\\\"]]\",\"issue\":\"missing\"},{\"key\":\"RULE_SELECTOR:[\\\"RULE_SELECTOR\\\",[\\\"NET\\\",\\\"NET-(R139-PAD2)\\\"]]\",\"issue\":\"missing\"},{\"key\":\"RULE_SELECTOR:[\\\"RULE_SELECTOR\\\",[\\\"NET\\\",\\\"NET-(R149-PAD2)\\\"]]\",\"issue\":\"missing\"},{\"key\":\"RULE_SELECTOR:[\\\"RULE_SELECTOR\\\",[\\\"NET\\\",\\\"NET-(R150-PAD2)\\\"]]\",\"issue\":\"missing\"},{\"key\":\"LINE:25ef3cb7904d4783\",\"issue\":\"missing\"},{\"key\":\"LINE:b18871066aee2f5d\",\"issue\":\"missing\"},{\"key\":\"LINE:ccc806d44ffdad43\",\"issue\":\"missing\"},{\"key\":\"LINE:423bd76acd917f60\",\"issue\":\"missing\"},{\"key\":\"LINE:ea09a4e1cd613a0a\",\"issue\":\"missing\"},{\"key\":\"LINE:3396a575612c90fb\",\"issue\":\"missing\"},{\"key\":\"LINE:144f87088e924b1b\",\"issue\":\"missing\"},{\"key\":\"LINE:82ea56962d65a4c4\",\"issue\":\"missing\"},{\"key\":\"LINE:e71b2865d111736f\",\"issue\":\"missing\"},{\"key\":\"LINE:9d0d8fb696158432\",\"issue\":\"missing\"}]",
+  "touched": [
+    {
+      "type": "LINE",
+      "id": "25ef3cb7904d4783",
+      "action": "net-only",
+      "net": "ADC1_PRE1"
+    },
+    {
+      "type": "LINE",
+      "id": "3396a575612c90fb",
+      "action": "net-only",
+      "net": "ADC1_PRE1"
+    },
+    {
+      "type": "LINE",
+      "id": "144f87088e924b1b",
+      "action": "net-only",
+      "net": "ADC1_PRE2"
+    },
+    {
+      "type": "LINE",
+      "id": "b18871066aee2f5d",
+      "action": "net-only",
+      "net": "ADC1_PRE2"
+    },
+    {
+      "type": "LINE",
+      "id": "82ea56962d65a4c4",
+      "action": "net-only",
+      "net": "ADC1_PRE3"
+    },
+    {
+      "type": "LINE",
+      "id": "ccc806d44ffdad43",
+      "action": "net-only",
+      "net": "ADC1_PRE3"
+    },
+    {
+      "type": "LINE",
+      "id": "423bd76acd917f60",
+      "action": "net-only",
+      "net": "ADC2_PRE1"
+    },
+    {
+      "type": "LINE",
+      "id": "e71b2865d111736f",
+      "action": "net-only",
+      "net": "ADC2_PRE1"
+    },
+    {
+      "type": "LINE",
+      "id": "9d0d8fb696158432",
+      "action": "net-only",
+      "net": "ADC2_PRE2"
+    },
+    {
+      "type": "LINE",
+      "id": "ea09a4e1cd613a0a",
+      "action": "net-only",
+      "net": "ADC2_PRE2"
+    }
+  ],
+  "afterIssues": [
+    {
+      "key": "NET:[\"NET\",\"NET-(R137-PAD2)\"]",
+      "issue": "missing"
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(R138-PAD2)\"]",
+      "issue": "missing"
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(R139-PAD2)\"]",
+      "issue": "missing"
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(R149-PAD2)\"]",
+      "issue": "missing"
+    },
+    {
+      "key": "NET:[\"NET\",\"NET-(R150-PAD2)\"]",
+      "issue": "missing"
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R137-PAD2)\"]]",
+      "issue": "missing"
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R138-PAD2)\"]]",
+      "issue": "missing"
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R139-PAD2)\"]]",
+      "issue": "missing"
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R149-PAD2)\"]]",
+      "issue": "missing"
+    },
+    {
+      "key": "RULE_SELECTOR:[\"RULE_SELECTOR\",[\"NET\",\"NET-(R150-PAD2)\"]]",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:25ef3cb7904d4783",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:b18871066aee2f5d",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:ccc806d44ffdad43",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:423bd76acd917f60",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:ea09a4e1cd613a0a",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:3396a575612c90fb",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:144f87088e924b1b",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:82ea56962d65a4c4",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:e71b2865d111736f",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:9d0d8fb696158432",
+      "issue": "missing"
+    },
+    {
+      "key": "LINE:6aa0cc5deb9a2d11",
+      "issue": "unexpected"
+    },
+    {
+      "key": "LINE:64c11829ed0eeee0",
+      "issue": "unexpected"
+    },
+    {
+      "key": "LINE:9a4752adef0ff5f5",
+      "issue": "unexpected"
+    },
+    {
+      "key": "LINE:e73fa5b8cf82414b",
+      "issue": "unexpected"
+    },
+    {
+      "key": "LINE:dfcc25b4255e0e63",
+      "issue": "unexpected"
+    }
+  ],
+  "afterRecordCount": 12935,
+  "physicalParts": 354,
+  "saved": false,
+  "newRoutesApplied": false,
+  "manufacturingReady": false,
+  "recoveryCheckpoint": "STM32H747_before_pcb_route_20261018.epro2",
+  "recoveryWarning": "No native transaction/automatic rollback promised. On timeout or partial failure inspect captured actual source and receipt before another operation. Do not blindly rerun a stage."
+}

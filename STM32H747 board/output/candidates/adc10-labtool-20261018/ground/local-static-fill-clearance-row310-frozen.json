@@ -1,0 +1,1581 @@
+{
+  "schema": "adc10-labtool-offline-bounded-static-fill-clearance-plan-v1",
+  "passed": false,
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_eco_applied-20261018.epru",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "placement": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-rebased-eco-proposal.json",
+  "placementSha256": "40ef99b3dbb429a848bbe9235a335d98718fa482fb8643aa4b9b22cd26735e93",
+  "routes": [
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\frozen-row310-initial-placement-route-draft.json",
+      "sha256": "bea05171d807ea639e982fca1fb284b38c5daf3e70f0138deb7efd38ed853083"
+    }
+  ],
+  "projectNameRequired": "STM32H747_MCU_BOARD_v19",
+  "pcbUuidRequired": "0ac2a19168000d8e",
+  "actorCounts": {
+    "PAD": 259,
+    "LINE": 310
+  },
+  "clearanceMm": 0.17,
+  "layers": [
+    1
+  ],
+  "fillNets": [
+    "GND"
+  ],
+  "fillModifyOperations": [],
+  "fillAudits": [
+    {
+      "id": "df8b96ef8c197120",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c44509e0a425b038df1321615c2effa65980609ef9dd7d689c3821e91197e168"
+    },
+    {
+      "id": "f6091682cd0f1d9f",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c475a7a2702b25fd09b9c92f82ef32833bc6386e4e86498cd26c325ede8d6b27"
+    },
+    {
+      "id": "49c5a7ee7c728caa",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c91a10121fe22172214a44f0cae822b59aacbcc955a715f53b7bdea72da7a282"
+    },
+    {
+      "id": "b6390a6cabe01150",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9e2f4d158ae257f8a78eae11a5fcbea82f6fd5828628fda8a90d40384f48d353"
+    },
+    {
+      "id": "bed0cd278807af22",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "a8add21687ba7c5eb245ce1f7a86edc68a9ebe5e0a65013652b4bba45702f686"
+    },
+    {
+      "id": "a561ae94fe89ac25",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "8b8bf26e58e26a352ea00e77046498459e4adca9201e4b5103313e43022ba633"
+    },
+    {
+      "id": "72a3572efdb0f858",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "8cebe464a00f861aee2ba26f78fecdaee8410197ceb55f4f03b79cbe737a02d9"
+    },
+    {
+      "id": "5872560e3d03e2f4",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ff9ee778961ea838363d7244a64be34593e91a818016e340497dc90fe0a568d1"
+    },
+    {
+      "id": "5d8fde275801b816",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "e8b36a22f0f0bf4b9b8a871601a4139c3b4aa0ad11e26f27cf10a18ba14b8b68"
+    },
+    {
+      "id": "0738f61bc609c749",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "053cbdd58193990a1caaa054016e5b04d4b2c520e6b7213e9c3d6e26118c54a8"
+    },
+    {
+      "id": "eced2cdfc1e1f2e6",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9eba4be361140c6c4c5bc5ce1bf808da86f13744e743874b606c67a4cf5d613e"
+    },
+    {
+      "id": "365de7b113f807fa",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "fd448923ac1566b8e6e799e9213d179dcb731ba56cf8ec10e97b1fe9fe0107f9"
+    },
+    {
+      "id": "9a405bd52ff5d175",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Hole lies outside shell[51.8223119 116.72493292]",
+      "beforeBodySha256": "89f81d6cd6dbafde0237e875de14dddc0f02ec126b590a4b0ae32904f6298d0a"
+    },
+    {
+      "id": "81ce770ea50096f2",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ba496f39f32c19e69f40980f91aa18ef44a9d2bad286ed3bd52dd76f6522ee8a"
+    },
+    {
+      "id": "a189d75595856670",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c0382884ae16ed60338057bb5146d3a42543f9cea9bb92d3a050f5b66bffe733"
+    },
+    {
+      "id": "fd00ff7d0fd67437",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "42d017cc94f56be1fab067fbde6b3a7629bec2f4c886b124955bbcd817f59f76"
+    },
+    {
+      "id": "fc5a71a640eed2a6",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9f63f94d50aa2a47c11993d714f60949c691a07fd53d3de2c7f33e13ae8b3164"
+    },
+    {
+      "id": "d9b20cbcd6912827",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[52.39999934 37.52983604]",
+      "beforeBodySha256": "3daa6094fce4515bfe47ad14f3e8ed47eefa85d685662ba3cefa2724485fe45e"
+    },
+    {
+      "id": "c667926ae983cbc8",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "d365ea7fec70747a2c2e960358416037850b5fad71d516680b1366797eda3f5d"
+    },
+    {
+      "id": "36925e3b018c170d",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "68a15f38b46d4b0ddb75417bf38892dba165fdcb09c7f0247e2ddfb963f356cf"
+    },
+    {
+      "id": "8ef3da0e4a3f1318",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "3c812c3a3c3c7d8e4a78cb3a420242565a1d427fb360ee6bde57926c7cfbcedc"
+    },
+    {
+      "id": "2949d013aa09f2f1",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "26dd2fe008a4b9de614f87c7ecee94e8c88cb803c642f0eb37ccdb522f1fa2ff"
+    },
+    {
+      "id": "432166bead84a320",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "e6f53325c4d7f40bf82eaaa951fe16d1a0af8c255173e911fc9566eb2517980b"
+    },
+    {
+      "id": "e6229c29463d5d07",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7ff8c7669a532525e51e0f623c95146379ce2ae8af89af52e55fb002ef804dff"
+    },
+    {
+      "id": "4c9ed9badbea0c09",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c29c4ef771c1b756dbdb3818b63e314a261aa004c400c7e78f047073a87d88fb"
+    },
+    {
+      "id": "70d49360e5e3892f",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ae42294466cd6bb38780b5a259003de702819c0dccb1285ee12c8b518b7c54a9"
+    },
+    {
+      "id": "e17453a5e0291c05",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "20c6269ff1ee9e0a4e579f28228edc587694a63596543af1704cb46571df0903"
+    },
+    {
+      "id": "933317dd38e2d8f5",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "b5633da09c7062e552f0ada21d1eaefc91799df9ad0d47a59a319bbb3ed3d767"
+    },
+    {
+      "id": "24ca3284aa7e94e7",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9df1407ac0907f0baf68eae177252efd864219581fc99fa583e285fa61f40702"
+    },
+    {
+      "id": "8e56a14144c76f68",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "897dba29056ffcfd57730242fd000c787269f85f2e8743ec38e7c45fdbd28507"
+    },
+    {
+      "id": "cbf547853a678101",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[55.60499928 114.8197602]",
+      "beforeBodySha256": "a1c5ed4ccc4849fbf1e6d032e0dbc82693ceadf8eeb4acc563d062a8febe99cc"
+    },
+    {
+      "id": "410ffe1fe7d3d61d",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "665e5f1c8ab97d1a26d990637b603fc07f290b8790b6547949d3fa00e741a8cd"
+    },
+    {
+      "id": "33a654ae79b708f5",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "b08c790d5978e5a8825df42cb666960765126663d9109e00f8cc0c377f4bb004"
+    },
+    {
+      "id": "113dd1f00dd5b5b8",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "3ef2dca09a3ef722ac23ad888108298baa315856e9a0e78971d7038f4dc7fc5a"
+    },
+    {
+      "id": "c18edd359ca3c0bd",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": false,
+      "invalidReason": "Ring Self-intersection[77.54999984 67.75483782]",
+      "beforeBodySha256": "2158a9d60cc056883c70e45cd0cbbe3ef6039ad3f9abc8d68c6e81037977a1b4"
+    },
+    {
+      "id": "e680230ef8d2c5dd",
+      "status": "BLOCKED_INVALID_OUTPUT",
+      "invalidReason": "Holes are nested[18.67834212 84.9960835]",
+      "beforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "unionPositiveContours": 40,
+      "unionNegativeContours": 41,
+      "nestedPairs": [
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 81,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 1.775209750644363,
+          "innerBoundsMm": [
+            18.64949788,
+            84.46450214,
+            20.15050072,
+            85.9654999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 82,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.31037414806658997,
+          "innerBoundsMm": [
+            15.050000379999998,
+            86.30000011999999,
+            15.875,
+            86.75499794
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 83,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.16328307510416395,
+          "innerBoundsMm": [
+            16.124999499999998,
+            86.30000011999999,
+            16.559999899999998,
+            86.70500057999999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 210,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.001107055657500089,
+          "innerBoundsMm": [
+            11.055425,
+            140.473943,
+            11.14757,
+            140.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 211,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.839669795537462,
+          "innerBoundsMm": [
+            9.355248,
+            137.299243,
+            13.38089,
+            139.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 212,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546479577890009,
+          "innerBoundsMm": [
+            19.07161,
+            137.32161,
+            20.25281,
+            138.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 213,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745455219079934,
+          "innerBoundsMm": [
+            20.543645,
+            135.127575,
+            22.156964,
+            137.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 214,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.001107055657500137,
+          "innerBoundsMm": [
+            11.055425,
+            126.473943,
+            11.14757,
+            126.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 215,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.778398416290014,
+          "innerBoundsMm": [
+            9.355248,
+            123.299242,
+            13.38089,
+            125.52654099999998
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 216,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464795192499515,
+          "innerBoundsMm": [
+            19.07161,
+            123.32161,
+            20.25281,
+            124.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 217,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745455382509921,
+          "innerBoundsMm": [
+            20.543645,
+            121.12757500000001,
+            22.156964,
+            123.14952599999998
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 218,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011070556575011948,
+          "innerBoundsMm": [
+            11.055425,
+            112.47394299999999,
+            11.14757,
+            112.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 219,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.784969830473022,
+          "innerBoundsMm": [
+            9.355248,
+            109.29924300000002,
+            13.38089,
+            111.52654100000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 220,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546479332594959,
+          "innerBoundsMm": [
+            19.07161,
+            109.32161,
+            20.25281,
+            110.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 221,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747888995375048,
+          "innerBoundsMm": [
+            20.543645,
+            107.127575,
+            22.159143,
+            109.14952600000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 222,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011070556575001325,
+          "innerBoundsMm": [
+            11.055425,
+            98.473943,
+            11.14757,
+            98.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 223,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.840966921887001,
+          "innerBoundsMm": [
+            9.355248,
+            95.299243,
+            13.38089,
+            97.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 224,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464767455949464,
+          "innerBoundsMm": [
+            19.07161,
+            95.32161,
+            20.25281,
+            96.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 225,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745456274179999,
+          "innerBoundsMm": [
+            20.543645,
+            93.127575,
+            22.156964,
+            95.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 226,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 26.367912986930556,
+          "innerBoundsMm": [
+            13.02241,
+            76.620009,
+            26.029989,
+            88.027589
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 227,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 31.89679081073849,
+          "innerBoundsMm": [
+            14.17241,
+            79.322409,
+            23.177589,
+            87.227588
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 228,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011071274130000286,
+          "innerBoundsMm": [
+            11.055425,
+            84.473943,
+            11.147573,
+            84.558973
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 230,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.850337118013499,
+          "innerBoundsMm": [
+            9.355248,
+            81.299243,
+            13.38089,
+            83.526544
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 231,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 17.318538341933998,
+          "innerBoundsMm": [
+            10.62255,
+            78.5982,
+            21.50745,
+            83.24449
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 233,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464707185249533,
+          "innerBoundsMm": [
+            19.07161,
+            81.32161,
+            20.252808,
+            82.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 234,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.2758305454425063,
+          "innerBoundsMm": [
+            20.820009,
+            80.119953,
+            21.50745,
+            81.227056
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 235,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 1.765465469192,
+          "innerBoundsMm": [
+            24.99245,
+            78.65245,
+            25.93755,
+            80.54755
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 238,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.022049816400001594,
+          "innerBoundsMm": [
+            21.97255,
+            77.055127,
+            22.02745,
+            77.47999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 242,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011070556575001325,
+          "innerBoundsMm": [
+            11.055425,
+            70.473943,
+            11.14757,
+            70.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 244,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.845384012399997,
+          "innerBoundsMm": [
+            9.355248,
+            67.299243,
+            13.38089,
+            69.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 248,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546470826304954,
+          "innerBoundsMm": [
+            19.07161,
+            67.32161,
+            20.252808,
+            68.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 250,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747889756394997,
+          "innerBoundsMm": [
+            20.543645,
+            65.127575,
+            22.159143,
+            67.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 251,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.00110690669749934,
+          "innerBoundsMm": [
+            11.055425,
+            56.473943000000006,
+            11.147569,
+            56.55896899999999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 252,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.8490326480074835,
+          "innerBoundsMm": [
+            9.355248,
+            53.299243,
+            13.38089,
+            55.52653900000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 253,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464709606050593,
+          "innerBoundsMm": [
+            19.07161,
+            53.32161,
+            20.252808,
+            54.00638500000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 254,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747889832694995,
+          "innerBoundsMm": [
+            20.543645,
+            51.127575,
+            22.159143,
+            53.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 255,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.789038409834001,
+          "innerBoundsMm": [
+            9.355248,
+            39.299243,
+            13.38089,
+            41.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 256,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464708896250163,
+          "innerBoundsMm": [
+            19.07161,
+            39.32161,
+            20.252808,
+            40.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 257,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747889832694995,
+          "innerBoundsMm": [
+            20.543645,
+            37.127575,
+            22.159143,
+            39.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 272,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.85006835556749,
+          "innerBoundsMm": [
+            9.355248,
+            25.299242,
+            13.38089,
+            27.526542
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 276,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464709370300174,
+          "innerBoundsMm": [
+            19.07161,
+            25.32161,
+            20.252808,
+            26.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 280,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747890010400003,
+          "innerBoundsMm": [
+            20.543645,
+            23.127575,
+            22.159143,
+            25.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 287,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.856053132273505,
+          "innerBoundsMm": [
+            9.355248,
+            11.299242,
+            13.38089,
+            13.526541999999997
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 288,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546470987270006,
+          "innerBoundsMm": [
+            19.07161,
+            11.32161,
+            20.252808,
+            12.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 289,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745456466889993,
+          "innerBoundsMm": [
+            20.543645,
+            9.127575,
+            22.156964,
+            11.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 226,
+          "innerHoleIndex": 235,
+          "outerAreaMm2": 26.367912986930556,
+          "innerAreaMm2": 1.765465469192,
+          "innerBoundsMm": [
+            24.99245,
+            78.65245,
+            25.93755,
+            80.54755
+          ]
+        },
+        {
+          "outerHoleIndex": 227,
+          "innerHoleIndex": 81,
+          "outerAreaMm2": 31.89679081073849,
+          "innerAreaMm2": 1.775209750644363,
+          "innerBoundsMm": [
+            18.64949788,
+            84.46450214,
+            20.15050072,
+            85.9654999
+          ]
+        },
+        {
+          "outerHoleIndex": 227,
+          "innerHoleIndex": 82,
+          "outerAreaMm2": 31.89679081073849,
+          "innerAreaMm2": 0.31037414806658997,
+          "innerBoundsMm": [
+            15.050000379999998,
+            86.30000011999999,
+            15.875,
+            86.75499794
+          ]
+        },
+        {
+          "outerHoleIndex": 227,
+          "innerHoleIndex": 83,
+          "outerAreaMm2": 31.89679081073849,
+          "innerAreaMm2": 0.16328307510416395,
+          "innerBoundsMm": [
+            16.124999499999998,
+            86.30000011999999,
+            16.559999899999998,
+            86.70500057999999
+          ]
+        }
+      ],
+      "affectedOriginalHoles": [
+        17,
+        52,
+        63,
+        72,
+        77,
+        79,
+        87,
+        96,
+        171,
+        184,
+        193,
+        220
+      ]
+    },
+    {
+      "id": "7d9be32581335ce0",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7d1727950aecbdcc952a1bf54ab7aeaa77d4778f8f61dbeb4c66e27ba0671146"
+    },
+    {
+      "id": "fd1c85170f225f8e",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "28c1a9152cd3836c49a825cb83867cb11fa56591ba1d6165c8a454cf6e523423"
+    },
+    {
+      "id": "b3c32fb4ee9a7fdb",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "e51a5c3720c02f189cfe5d6a6801778068a51f2eb47a32d4a104793701dfea8b"
+    },
+    {
+      "id": "469c19ed5bfb68ad",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "c5fe263331e18716ad20c7a623cb5ade7984f5023fb2623d486151be82105d0b"
+    },
+    {
+      "id": "e20803fc251b0706",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "02ec483e8113f220fa4564681e56514194ecd07ecac403f6dfa4918087135de4"
+    },
+    {
+      "id": "19bdb7e810133ecb",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7a38c6b953461a838ba84037d115236a018bb1252b9f33d6072b02a9b93164bd"
+    },
+    {
+      "id": "923eed6eafd47910",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "ef131726a0bc7b2e07cbefd0fe02cc0dea8e05b785ecb34a7cf627ed4fafb05d"
+    },
+    {
+      "id": "824128fd13c75535",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "7ea2fc157c6d5682bfdfa7db0e653bc8db1496eefe5652dc14fcd7a858ca2ac0"
+    },
+    {
+      "id": "c46b37cc112ac765",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "4553f8bbca6002105b41eca354e2c720b114da699ec6307c6856c39cdf5ab547"
+    },
+    {
+      "id": "6047d2db3c95bf69",
+      "status": "UNCHANGED_NO_NEARBY_ACTOR",
+      "validBefore": true,
+      "invalidReason": null,
+      "beforeBodySha256": "9ca4749ca7fc22fc0cb983b80bc5e9835a264d3865882847ca4db74781d0d98e"
+    }
+  ],
+  "blocked": [
+    {
+      "id": "e680230ef8d2c5dd",
+      "status": "BLOCKED_INVALID_OUTPUT",
+      "invalidReason": "Holes are nested[18.67834212 84.9960835]",
+      "beforeBodySha256": "44b92abec09569010f4dafd3a8e4d798792c2988bc7723253b55c39f16242e65",
+      "unionPositiveContours": 40,
+      "unionNegativeContours": 41,
+      "nestedPairs": [
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 81,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 1.775209750644363,
+          "innerBoundsMm": [
+            18.64949788,
+            84.46450214,
+            20.15050072,
+            85.9654999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 82,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.31037414806658997,
+          "innerBoundsMm": [
+            15.050000379999998,
+            86.30000011999999,
+            15.875,
+            86.75499794
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 83,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.16328307510416395,
+          "innerBoundsMm": [
+            16.124999499999998,
+            86.30000011999999,
+            16.559999899999998,
+            86.70500057999999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 210,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.001107055657500089,
+          "innerBoundsMm": [
+            11.055425,
+            140.473943,
+            11.14757,
+            140.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 211,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.839669795537462,
+          "innerBoundsMm": [
+            9.355248,
+            137.299243,
+            13.38089,
+            139.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 212,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546479577890009,
+          "innerBoundsMm": [
+            19.07161,
+            137.32161,
+            20.25281,
+            138.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 213,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745455219079934,
+          "innerBoundsMm": [
+            20.543645,
+            135.127575,
+            22.156964,
+            137.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 214,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.001107055657500137,
+          "innerBoundsMm": [
+            11.055425,
+            126.473943,
+            11.14757,
+            126.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 215,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.778398416290014,
+          "innerBoundsMm": [
+            9.355248,
+            123.299242,
+            13.38089,
+            125.52654099999998
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 216,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464795192499515,
+          "innerBoundsMm": [
+            19.07161,
+            123.32161,
+            20.25281,
+            124.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 217,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745455382509921,
+          "innerBoundsMm": [
+            20.543645,
+            121.12757500000001,
+            22.156964,
+            123.14952599999998
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 218,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011070556575011948,
+          "innerBoundsMm": [
+            11.055425,
+            112.47394299999999,
+            11.14757,
+            112.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 219,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.784969830473022,
+          "innerBoundsMm": [
+            9.355248,
+            109.29924300000002,
+            13.38089,
+            111.52654100000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 220,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546479332594959,
+          "innerBoundsMm": [
+            19.07161,
+            109.32161,
+            20.25281,
+            110.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 221,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747888995375048,
+          "innerBoundsMm": [
+            20.543645,
+            107.127575,
+            22.159143,
+            109.14952600000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 222,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011070556575001325,
+          "innerBoundsMm": [
+            11.055425,
+            98.473943,
+            11.14757,
+            98.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 223,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.840966921887001,
+          "innerBoundsMm": [
+            9.355248,
+            95.299243,
+            13.38089,
+            97.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 224,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464767455949464,
+          "innerBoundsMm": [
+            19.07161,
+            95.32161,
+            20.25281,
+            96.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 225,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745456274179999,
+          "innerBoundsMm": [
+            20.543645,
+            93.127575,
+            22.156964,
+            95.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 226,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 26.367912986930556,
+          "innerBoundsMm": [
+            13.02241,
+            76.620009,
+            26.029989,
+            88.027589
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 227,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 31.89679081073849,
+          "innerBoundsMm": [
+            14.17241,
+            79.322409,
+            23.177589,
+            87.227588
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 228,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011071274130000286,
+          "innerBoundsMm": [
+            11.055425,
+            84.473943,
+            11.147573,
+            84.558973
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 230,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.850337118013499,
+          "innerBoundsMm": [
+            9.355248,
+            81.299243,
+            13.38089,
+            83.526544
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 231,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 17.318538341933998,
+          "innerBoundsMm": [
+            10.62255,
+            78.5982,
+            21.50745,
+            83.24449
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 233,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464707185249533,
+          "innerBoundsMm": [
+            19.07161,
+            81.32161,
+            20.252808,
+            82.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 234,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.2758305454425063,
+          "innerBoundsMm": [
+            20.820009,
+            80.119953,
+            21.50745,
+            81.227056
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 235,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 1.765465469192,
+          "innerBoundsMm": [
+            24.99245,
+            78.65245,
+            25.93755,
+            80.54755
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 238,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.022049816400001594,
+          "innerBoundsMm": [
+            21.97255,
+            77.055127,
+            22.02745,
+            77.47999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 242,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.0011070556575001325,
+          "innerBoundsMm": [
+            11.055425,
+            70.473943,
+            11.14757,
+            70.55897
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 244,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.845384012399997,
+          "innerBoundsMm": [
+            9.355248,
+            67.299243,
+            13.38089,
+            69.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 248,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546470826304954,
+          "innerBoundsMm": [
+            19.07161,
+            67.32161,
+            20.252808,
+            68.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 250,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747889756394997,
+          "innerBoundsMm": [
+            20.543645,
+            65.127575,
+            22.159143,
+            67.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 251,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.00110690669749934,
+          "innerBoundsMm": [
+            11.055425,
+            56.473943000000006,
+            11.147569,
+            56.55896899999999
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 252,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.8490326480074835,
+          "innerBoundsMm": [
+            9.355248,
+            53.299243,
+            13.38089,
+            55.52653900000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 253,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464709606050593,
+          "innerBoundsMm": [
+            19.07161,
+            53.32161,
+            20.252808,
+            54.00638500000001
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 254,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747889832694995,
+          "innerBoundsMm": [
+            20.543645,
+            51.127575,
+            22.159143,
+            53.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 255,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.789038409834001,
+          "innerBoundsMm": [
+            9.355248,
+            39.299243,
+            13.38089,
+            41.526541
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 256,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464708896250163,
+          "innerBoundsMm": [
+            19.07161,
+            39.32161,
+            20.252808,
+            40.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 257,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747889832694995,
+          "innerBoundsMm": [
+            20.543645,
+            37.127575,
+            22.159143,
+            39.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 272,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.85006835556749,
+          "innerBoundsMm": [
+            9.355248,
+            25.299242,
+            13.38089,
+            27.526542
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 276,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.35464709370300174,
+          "innerBoundsMm": [
+            19.07161,
+            25.32161,
+            20.252808,
+            26.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 280,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9747890010400003,
+          "innerBoundsMm": [
+            20.543645,
+            23.127575,
+            22.159143,
+            25.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 287,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 4.856053132273505,
+          "innerBoundsMm": [
+            9.355248,
+            11.299242,
+            13.38089,
+            13.526541999999997
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 288,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.3546470987270006,
+          "innerBoundsMm": [
+            19.07161,
+            11.32161,
+            20.252808,
+            12.006385
+          ]
+        },
+        {
+          "outerHoleIndex": 209,
+          "innerHoleIndex": 289,
+          "outerAreaMm2": 1275.3306165294975,
+          "innerAreaMm2": 0.9745456466889993,
+          "innerBoundsMm": [
+            20.543645,
+            9.127575,
+            22.156964,
+            11.149526
+          ]
+        },
+        {
+          "outerHoleIndex": 226,
+          "innerHoleIndex": 235,
+          "outerAreaMm2": 26.367912986930556,
+          "innerAreaMm2": 1.765465469192,
+          "innerBoundsMm": [
+            24.99245,
+            78.65245,
+            25.93755,
+            80.54755
+          ]
+        },
+        {
+          "outerHoleIndex": 227,
+          "innerHoleIndex": 81,
+          "outerAreaMm2": 31.89679081073849,
+          "innerAreaMm2": 1.775209750644363,
+          "innerBoundsMm": [
+            18.64949788,
+            84.46450214,
+            20.15050072,
+            85.9654999
+          ]
+        },
+        {
+          "outerHoleIndex": 227,
+          "innerHoleIndex": 82,
+          "outerAreaMm2": 31.89679081073849,
+          "innerAreaMm2": 0.31037414806658997,
+          "innerBoundsMm": [
+            15.050000379999998,
+            86.30000011999999,
+            15.875,
+            86.75499794
+          ]
+        },
+        {
+          "outerHoleIndex": 227,
+          "innerHoleIndex": 83,
+          "outerAreaMm2": 31.89679081073849,
+          "innerAreaMm2": 0.16328307510416395,
+          "innerBoundsMm": [
+            16.124999499999998,
+            86.30000011999999,
+            16.559999899999998,
+            86.70500057999999
+          ]
+        }
+      ],
+      "affectedOriginalHoles": [
+        17,
+        52,
+        63,
+        72,
+        77,
+        79,
+        87,
+        96,
+        171,
+        184,
+        193,
+        220
+      ]
+    }
+  ],
+  "nativeCalls": 0,
+  "wholePcbSetSource": false,
+  "nativeDesignModified": false,
+  "manufacturingApproved": false,
+  "preservationContract": "Only listed FILL.path may change, after exact beforeBody guards. Other fields, all old outer boundaries and unaffected holes/arcs remain exact. Invalid geometry is never repaired. Stop each primitive if an outer boundary is touched.",
+  "limitations": [
+    "Offline local copper subtraction only; parent must rebase exact source body guards after placement/cutback and check native readback geometry.",
+    "Does not prove every surviving ground region is MCU-VSS anchored; physical ground graph and strict unchanged-rule native DRC are separate mandatory gates.",
+    "Placement bounding rectangles are conservative copper supersets; no non-GND FILLs are changed by default."
+  ]
+}

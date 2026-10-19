@@ -1,0 +1,366 @@
+{
+  "schema": "adc10-c95-top-exterior-independent-20261018-v1",
+  "sourceSha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b",
+  "topEnvelopeInventory": [
+    {
+      "ref": "C26",
+      "bboxMm": [
+        47.124999603,
+        74.4124984188,
+        48.524999597,
+        77.66249842119998
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "C27",
+      "bboxMm": [
+        45.97499976940001,
+        75.46000211500001,
+        46.9749997506,
+        77.360002125
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "C29",
+      "bboxMm": [
+        44.074998819600005,
+        72.35000002919999,
+        47.27499882039999,
+        73.95000201079999
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "FB1",
+      "bboxMm": [
+        48.6000006662,
+        74.77499888759999,
+        49.8000006538,
+        77.4749988724
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "L1",
+      "bboxMm": [
+        43.290000211800006,
+        74.8250011244,
+        45.390000228199995,
+        77.7250011156
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "R1",
+      "bboxMm": [
+        60.0399999096,
+        85.91999988939999,
+        61.979999890399995,
+        86.9199998706
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "R2",
+      "bboxMm": [
+        60.0399999096,
+        86.9957152894,
+        61.979999890399995,
+        87.9957152706
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "R7",
+      "bboxMm": [
+        60.0399999096,
+        89.1471435494,
+        61.979999890399995,
+        90.1471435306
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "R8",
+      "bboxMm": [
+        60.0399999096,
+        90.2228564094,
+        61.979999890399995,
+        91.2228563906
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "R18",
+      "bboxMm": [
+        60.0399999096,
+        91.2985718094,
+        61.979999890399995,
+        92.29857179060001
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "R45",
+      "bboxMm": [
+        60.0399999096,
+        88.07142814939999,
+        61.979999890399995,
+        89.0714281306
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "R52",
+      "bboxMm": [
+        51.3124998894,
+        71.1649992496,
+        52.31249987059999,
+        73.1049992304
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "U1",
+      "bboxMm": [
+        42.79909895840001,
+        79.4741005384,
+        57.3008989616,
+        93.9759005416
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    },
+    {
+      "ref": "X1",
+      "bboxMm": [
+        52.59999993059999,
+        70.8000011988,
+        56.69999990939999,
+        74.05000120119999
+      ],
+      "basis": "Actual TOP silk/assembly/courtyard footprint outline; MCU package is prohibited"
+    }
+  ],
+  "result": {
+    "ref": "C95",
+    "net": "ADC3_INP7",
+    "componentId": "32cf88e1aaf87f50",
+    "escapeViaId": "2acc80d225513e93",
+    "escapeXYmm": [
+      51.2750003,
+      82.3000005
+    ],
+    "selectedRoutingSource": {
+      "kind": "NEW_ADC_TAP_VIA",
+      "xyMm": [
+        52.8,
+        78.32
+      ],
+      "net": "ADC3_INP7",
+      "diameterMm": 0.31,
+      "holeMm": 0.2,
+      "layers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "touchExistingLineId": null,
+      "touchExistingViaId": "2acc80d225513e93",
+      "touchExistingLineLayer": 18,
+      "branchStartXYmm": [
+        51.2750003,
+        82.3000005
+      ],
+      "electricalDistanceFromEscapeMm": 4.480662331793779,
+      "branchLengthMm": 4.480662331793779,
+      "innerBranchRoute": {
+        "layerId": 18,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            51.2750003,
+            82.3000005
+          ],
+          [
+            51.6,
+            80.78
+          ],
+          [
+            51.68,
+            79.44
+          ],
+          [
+            52.8,
+            78.32
+          ]
+        ],
+        "lengthMm": 4.480662331793779
+      },
+      "penaltyMm": 0.4480662331793779
+    },
+    "requiredWorldPads": {
+      "1": {
+        "net": "ADC3_INP7",
+        "xyMm": [
+          53.52,
+          77.3
+        ]
+      },
+      "2": {
+        "net": "GND",
+        "xyMm": [
+          54.48,
+          77.3
+        ]
+      }
+    },
+    "centerXYmm": [
+      54.0,
+      77.3
+    ],
+    "axisOfPositiveLocalX": [
+      -1,
+      0
+    ],
+    "targetLayer": "TOP",
+    "signalRoute": {
+      "layerId": 1,
+      "widthMm": 0.12,
+      "pointsMm": [
+        [
+          52.8,
+          78.32
+        ],
+        [
+          53.52,
+          77.3
+        ]
+      ],
+      "lengthMm": 1.2485191228010888
+    },
+    "assemblyBoundingBoxMm": [
+      53.05,
+      76.8,
+      54.95,
+      77.8
+    ],
+    "nativeRotationDegrees": 180,
+    "offlineExactProof": {
+      "allSixLayerViaClearOfUnmodifiedSignalCopperAndOriginalDrills": true,
+      "powerAndGndPlaneLocalAntipadsStillRequired": true,
+      "bothCapPadsClearOfOtherNetCopper": true,
+      "straightSignalRouteClearOfOtherNetCopper": true,
+      "signalRouteClearOfOwnGroundLand": true,
+      "actualTopEnvelopeScreenPassed": true,
+      "groundPadSourceGroundContactAreaMm2": 0.3472,
+      "literalSameTopGroundIslandViaIds": [
+        "d7aadede784b6d3e"
+      ],
+      "sourceGroundRegionLocallyOutsideAllPriorStripEdits": true
+    },
+    "groundRoute": {
+      "layerId": 1,
+      "net": "GND",
+      "widthMm": 0.3,
+      "pointsMm": [
+        [
+          54.48,
+          77.3
+        ],
+        [
+          54.50000022,
+          79.2750002
+        ]
+      ],
+      "lengthMm": 1.975101465444263,
+      "existingGroundViaId": "d7aadede784b6d3e"
+    },
+    "additionalSignalRoutes": [
+      {
+        "layerId": 18,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            51.2750003,
+            82.3000005
+          ],
+          [
+            51.6,
+            80.78
+          ],
+          [
+            51.68,
+            79.44
+          ],
+          [
+            52.8,
+            78.32
+          ]
+        ],
+        "lengthMm": 4.480662331793779
+      }
+    ],
+    "newSignalVias": [
+      {
+        "kind": "NEW_ADC_TAP_VIA",
+        "xyMm": [
+          52.8,
+          78.32
+        ],
+        "net": "ADC3_INP7",
+        "diameterMm": 0.31,
+        "holeMm": 0.2,
+        "layers": [
+          1,
+          2,
+          15,
+          16,
+          17,
+          18
+        ],
+        "touchExistingLineId": null,
+        "touchExistingViaId": "2acc80d225513e93",
+        "touchExistingLineLayer": 18,
+        "branchStartXYmm": [
+          51.2750003,
+          82.3000005
+        ],
+        "electricalDistanceFromEscapeMm": 4.480662331793779,
+        "branchLengthMm": 4.480662331793779,
+        "innerBranchRoute": {
+          "layerId": 18,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              51.2750003,
+              82.3000005
+            ],
+            [
+              51.6,
+              80.78
+            ],
+            [
+              51.68,
+              79.44
+            ],
+            [
+              52.8,
+              78.32
+            ]
+          ],
+          "lengthMm": 4.480662331793779
+        },
+        "penaltyMm": 0.4480662331793779
+      }
+    ],
+    "electricalEscapeToCapPathMm": 5.729181454594867,
+    "needsFinalCutAndGroundProof": true
+  },
+  "nativeCalls": 0,
+  "manufacturingReady": false
+}

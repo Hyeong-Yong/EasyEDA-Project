@@ -1,0 +1,710 @@
+{
+  "status": "PASS_OFFLINE_CANDIDATE_REQUIRES_NATIVE_DRC",
+  "source_sha256": "0b3a4a798f61a094af51a79a75e8561c75dce8f44bd279d3afee910a01bae2c8",
+  "checkpoint_sha256": "4ec5d37528c985430fe67b0230bc50eae9ef5ed62ecfd32dc0384c8122dd38af",
+  "pad_changes": 4,
+  "fill_changes": 6,
+  "new_corner_voids": 23,
+  "all_other_records_exact_count": 12722,
+  "all_other_records_canonical_sha256": "d07ed85732d8cf25e8fe4e26ee04e5070ea28d82d5ed7bea74632866ad919426",
+  "all_other_fill_records_exact_count": 724,
+  "physical_drills_before": 793,
+  "physical_drills_after": 793,
+  "drill_diameters_and_other_789_drills_unchanged": true,
+  "native_drc_run": false,
+  "native_project_modified": false,
+  "refinement": "Restore exact native connected rounded old notch including missing corner triangle inside an 8x8 mm corner box; not an ideal old circle",
+  "fills": [
+    {
+      "id": "e680230ef8d2c5dd",
+      "layer_id": 1,
+      "net": "GND",
+      "corners": [
+        {
+          "old_center_mm": [
+            4.0,
+            4.0
+          ],
+          "new_center_mm": [
+            5.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335696331155,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            0.5004993799999999,
+            7.60050042,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600499054427527,
+          "old_notch_to_local_window_mm": 0.39949957999999997,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            4.0,
+            150.0
+          ],
+          "new_center_mm": [
+            5.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82334907365317,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            146.39949891999998,
+            7.60050042,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497799186921,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            4.0
+          ],
+          "new_center_mm": [
+            95.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335628800965,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            0.5004993799999999,
+            99.49950127999999,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600498635727737,
+          "old_notch_to_local_window_mm": 0.3994995799999999,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            150.0
+          ],
+          "new_center_mm": [
+            95.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335019702187,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            146.39949891999998,
+            99.49950127999999,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497585533801,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        }
+      ],
+      "before_contours": 227,
+      "after_contours": 231,
+      "new_corner_holes": 4,
+      "other_old_contours_exact": true,
+      "noncorner_vertices_exact": 3269,
+      "missing_noncorner_vertices": 0,
+      "only_path_changed": true,
+      "added_area_mm2": 48.80410625894471,
+      "removed_area_mm2": 40.41201140897441,
+      "delta_outside_allowed_region_mil2": 0.0,
+      "serialization_error_mil2": 0.07184614848141911,
+      "all_other_net_objects_compared": 4919,
+      "minimum_added_copper_other_net_clearance": {
+        "clearance_mm": 6.972191708251671,
+        "id": "fd77caf2157b0c36e1",
+        "kind": "PAD",
+        "net": "Net-(J11-In)"
+      },
+      "new_void_board_edge_gap_nominal_mm": 1.3995000000000002
+    },
+    {
+      "id": "f9e70adc3ac35fbd",
+      "layer_id": 15,
+      "net": "GND",
+      "corners": [
+        {
+          "old_center_mm": [
+            4.0,
+            4.0
+          ],
+          "new_center_mm": [
+            5.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335696331155,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            0.5004993799999999,
+            7.60050042,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600499054427527,
+          "old_notch_to_local_window_mm": 0.39949957999999997,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            4.0,
+            150.0
+          ],
+          "new_center_mm": [
+            5.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.8233491627046,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            146.39949891999998,
+            7.60050042,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497799186921,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            4.0
+          ],
+          "new_center_mm": [
+            95.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335628800965,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            0.5004993799999999,
+            99.49950127999999,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600498635727737,
+          "old_notch_to_local_window_mm": 0.3994995799999999,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            150.0
+          ],
+          "new_center_mm": [
+            95.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335019369284,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            146.39949891999998,
+            99.49950127999999,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497585533801,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        }
+      ],
+      "before_contours": 309,
+      "after_contours": 313,
+      "new_corner_holes": 4,
+      "other_old_contours_exact": true,
+      "noncorner_vertices_exact": 2518,
+      "missing_noncorner_vertices": 0,
+      "only_path_changed": true,
+      "added_area_mm2": 48.80410625894471,
+      "removed_area_mm2": 40.412011323252,
+      "delta_outside_allowed_region_mil2": 0.0,
+      "serialization_error_mil2": 0.07184614848141911,
+      "all_other_net_objects_compared": 512,
+      "minimum_added_copper_other_net_clearance": {
+        "clearance_mm": 10.375979474328101,
+        "id": "e4e588439afd13b0e1",
+        "kind": "PAD",
+        "net": "TIM1_CH1"
+      },
+      "new_void_board_edge_gap_nominal_mm": 1.3995000000000002
+    },
+    {
+      "id": "41fd0322eb2cc785",
+      "layer_id": 16,
+      "net": "+3V3",
+      "corners": [
+        {
+          "old_center_mm": [
+            4.0,
+            4.0
+          ],
+          "new_center_mm": [
+            5.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335666077991,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            0.5004993799999999,
+            7.60050042,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600499054427527,
+          "old_notch_to_local_window_mm": 0.39949957999999997,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            4.0,
+            150.0
+          ],
+          "new_center_mm": [
+            5.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82334907307252,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            146.39949891999998,
+            7.60050042,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497799186921,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            4.0
+          ],
+          "skipped": true,
+          "reason": "This plane is already absent near this corner",
+          "distance_to_plane_mm": 18.76283418000001
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            150.0
+          ],
+          "new_center_mm": [
+            95.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335010223496,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            146.39949891999998,
+            99.49950127999999,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497585533801,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        }
+      ],
+      "before_contours": 359,
+      "after_contours": 362,
+      "new_corner_holes": 3,
+      "other_old_contours_exact": true,
+      "noncorner_vertices_exact": 273,
+      "missing_noncorner_vertices": 0,
+      "only_path_changed": true,
+      "added_area_mm2": 36.603077962692005,
+      "removed_area_mm2": 30.309010247165457,
+      "delta_outside_allowed_region_mil2": 0.0,
+      "serialization_error_mil2": 0.05360910663150834,
+      "all_other_net_objects_compared": 868,
+      "minimum_added_copper_other_net_clearance": {
+        "clearance_mm": 4.887168275132207,
+        "id": "626195ed013f03f4",
+        "kind": "VIA",
+        "net": "GND"
+      },
+      "new_void_board_edge_gap_nominal_mm": 1.3995000000000002
+    },
+    {
+      "id": "b99d5f8f2cae6046",
+      "layer_id": 17,
+      "net": "GND",
+      "corners": [
+        {
+          "old_center_mm": [
+            4.0,
+            4.0
+          ],
+          "new_center_mm": [
+            5.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335696331155,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            0.5004993799999999,
+            7.60050042,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600499054427527,
+          "old_notch_to_local_window_mm": 0.39949957999999997,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            4.0,
+            150.0
+          ],
+          "new_center_mm": [
+            5.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82334900473395,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            146.39949891999998,
+            7.60050042,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497799186921,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            4.0
+          ],
+          "new_center_mm": [
+            95.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335628800965,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            0.5004993799999999,
+            99.49950127999999,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600498635727737,
+          "old_notch_to_local_window_mm": 0.3994995799999999,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            150.0
+          ],
+          "new_center_mm": [
+            95.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335030400875,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            146.39949891999998,
+            99.49950127999999,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497585533801,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        }
+      ],
+      "before_contours": 191,
+      "after_contours": 195,
+      "new_corner_holes": 4,
+      "other_old_contours_exact": true,
+      "noncorner_vertices_exact": 2486,
+      "missing_noncorner_vertices": 0,
+      "only_path_changed": true,
+      "added_area_mm2": 48.80410625894471,
+      "removed_area_mm2": 40.41201137090674,
+      "delta_outside_allowed_region_mil2": 0.0,
+      "serialization_error_mil2": 0.07184614848141911,
+      "all_other_net_objects_compared": 2032,
+      "minimum_added_copper_other_net_clearance": {
+        "clearance_mm": 6.048288982202649,
+        "id": "b3e9eebc5bcc6042",
+        "kind": "FILL",
+        "net": "TIM1_CH1"
+      },
+      "new_void_board_edge_gap_nominal_mm": 1.3995000000000002
+    },
+    {
+      "id": "ef12098577a13cc7",
+      "layer_id": 18,
+      "net": "GND",
+      "corners": [
+        {
+          "old_center_mm": [
+            4.0,
+            4.0
+          ],
+          "new_center_mm": [
+            5.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335696331155,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            0.5004993799999999,
+            7.60050042,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600499054427527,
+          "old_notch_to_local_window_mm": 0.39949957999999997,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            4.0,
+            150.0
+          ],
+          "new_center_mm": [
+            5.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.8233491627046,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            146.39949891999998,
+            7.60050042,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497799186921,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            4.0
+          ],
+          "new_center_mm": [
+            95.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335628800965,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            0.5004993799999999,
+            99.49950127999999,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600498635727737,
+          "old_notch_to_local_window_mm": 0.3994995799999999,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            150.0
+          ],
+          "new_center_mm": [
+            95.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335019369284,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            146.39949891999998,
+            99.49950127999999,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497585533801,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        }
+      ],
+      "before_contours": 309,
+      "after_contours": 313,
+      "new_corner_holes": 4,
+      "other_old_contours_exact": true,
+      "noncorner_vertices_exact": 2518,
+      "missing_noncorner_vertices": 0,
+      "only_path_changed": true,
+      "added_area_mm2": 48.80410625894471,
+      "removed_area_mm2": 40.412011323252,
+      "delta_outside_allowed_region_mil2": 0.0,
+      "serialization_error_mil2": 0.07184614848141911,
+      "all_other_net_objects_compared": 512,
+      "minimum_added_copper_other_net_clearance": {
+        "clearance_mm": 10.375979474328101,
+        "id": "e4e588439afd13b0e1",
+        "kind": "PAD",
+        "net": "TIM1_CH1"
+      },
+      "new_void_board_edge_gap_nominal_mm": 1.3995000000000002
+    },
+    {
+      "id": "2fb535085249015d",
+      "layer_id": 2,
+      "net": "GND",
+      "corners": [
+        {
+          "old_center_mm": [
+            4.0,
+            4.0
+          ],
+          "new_center_mm": [
+            5.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.823356981953445,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            0.5004993799999999,
+            7.60050042,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600499054427527,
+          "old_notch_to_local_window_mm": 0.39949957999999997,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            4.0,
+            150.0
+          ],
+          "new_center_mm": [
+            5.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.823348826066564,
+          "old_exact_notch_bounds_mm": [
+            0.5004993799999999,
+            146.39949891999998,
+            7.60050042,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497799186921,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            4.0
+          ],
+          "new_center_mm": [
+            95.0,
+            5.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335635700951,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            0.5004993799999999,
+            99.49950127999999,
+            7.60050042
+          ],
+          "old_minimum_circle_radius_mm": 3.600498635727737,
+          "old_notch_to_local_window_mm": 0.3994995799999999,
+          "new_circle_radius_mm": 3.6005
+        },
+        {
+          "old_center_mm": [
+            96.0,
+            150.0
+          ],
+          "new_center_mm": [
+            95.0,
+            149.0
+          ],
+          "old_exact_notch_area_mm2": 42.82335052311476,
+          "old_exact_notch_bounds_mm": [
+            92.39950024,
+            146.39949891999998,
+            99.49950127999999,
+            153.49949996
+          ],
+          "old_minimum_circle_radius_mm": 3.600497585533801,
+          "old_notch_to_local_window_mm": 0.3994989199999954,
+          "new_circle_radius_mm": 3.6005
+        }
+      ],
+      "before_contours": 203,
+      "after_contours": 207,
+      "new_corner_holes": 4,
+      "other_old_contours_exact": true,
+      "noncorner_vertices_exact": 2739,
+      "missing_noncorner_vertices": 0,
+      "only_path_changed": true,
+      "added_area_mm2": 48.80410585784866,
+      "removed_area_mm2": 40.41201084173031,
+      "delta_outside_allowed_region_mil2": 0.0,
+      "serialization_error_mil2": 0.07184614848141911,
+      "all_other_net_objects_compared": 2678,
+      "minimum_added_copper_other_net_clearance": {
+        "clearance_mm": 6.972191708251671,
+        "id": "fd77caf2157b0c36e1",
+        "kind": "PAD",
+        "net": "Net-(J11-In)"
+      },
+      "new_void_board_edge_gap_nominal_mm": 1.3995000000000002
+    }
+  ],
+  "holes": [
+    {
+      "id": "3169127ef956834e",
+      "center_mm": [
+        5.00000016,
+        5.00000016
+      ],
+      "diameter_mm": 3.20000122,
+      "hole_edge_to_board_mm": 3.39999955,
+      "minimum_hole_edge_to_copper": {
+        "clearance_mm": 2.0004302804686453,
+        "layer": 1,
+        "net": "GND",
+        "id": "e680230ef8d2c5dd",
+        "kind": "FILL"
+      }
+    },
+    {
+      "id": "a5552d25aa4796c7",
+      "center_mm": [
+        5.00000016,
+        148.99999918
+      ],
+      "diameter_mm": 3.20000122,
+      "hole_edge_to_board_mm": 3.39999955,
+      "minimum_hole_edge_to_copper": {
+        "clearance_mm": 2.000429630944785,
+        "layer": 1,
+        "net": "GND",
+        "id": "e680230ef8d2c5dd",
+        "kind": "FILL"
+      }
+    },
+    {
+      "id": "e02b2dd3db20ee49",
+      "center_mm": [
+        95.00000049999998,
+        5.00000016
+      ],
+      "diameter_mm": 3.20000122,
+      "hole_edge_to_board_mm": 3.3999988900000155,
+      "minimum_hole_edge_to_copper": {
+        "clearance_mm": 2.000429729609069,
+        "layer": 1,
+        "net": "GND",
+        "id": "e680230ef8d2c5dd",
+        "kind": "FILL"
+      }
+    },
+    {
+      "id": "26b28bb992d2c564",
+      "center_mm": [
+        95.00000049999998,
+        148.99999918
+      ],
+      "diameter_mm": 3.20000122,
+      "hole_edge_to_board_mm": 3.3999988900000155,
+      "minimum_hole_edge_to_copper": {
+        "clearance_mm": 2.0004295532483805,
+        "layer": 1,
+        "net": "GND",
+        "id": "e680230ef8d2c5dd",
+        "kind": "FILL"
+      }
+    }
+  ]
+}

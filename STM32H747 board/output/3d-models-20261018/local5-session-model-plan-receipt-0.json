@@ -1,0 +1,60 @@
+{
+  "plan": "local5-session-model-plan",
+  "start": 0,
+  "count": 1,
+  "refs": [
+    "CN1"
+  ],
+  "before": [
+    {
+      "ref": "CN1",
+      "id": "8dfdc04036ba85c3",
+      "other": {
+        "Footprint": "CN1_2_CustomLibrary:PJ-051BH",
+        "Value": "PJ-051BH",
+        "Description": "CONN PWR JACK 2.5X5.5MM SOLDER",
+        "Part Number": "PJ-051BH",
+        "Package": "DIP-6",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:PJ-051BH",
+        "Device": "CN1_PJ-051BH",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I84"
+      }
+    }
+  ],
+  "saved": true,
+  "afterModels": [
+    {
+      "ref": "CN1",
+      "id": "8dfdc04036ba85c3",
+      "footprintUuid": "83fb62ef25d3eef1",
+      "model": "99c3113c8bc68d72596ab2f393ca46cb|extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "uuid": "99c3113c8bc68d72596ab2f393ca46cb",
+      "libraryUuid": "extend_lib_STM32H747_3D_LOCAL5_20261018",
+      "title": "STM32H747_3D_CN1_PJ051BH_PINREG_ZUP_20261018",
+      "transform": "462.5984291339,397.6377952756,385.8267716535,0,0,0,59.2519311024,-12.9920944882,-98.4251968504",
+      "sourceSha256": "99c3113c8bc68d72596ab2f393ca46cb2fa718164f50df20fed13b543b2516ef",
+      "expectedBboxMm": {
+        "min_mm": [
+          -4.370001,
+          -5.379999199999999,
+          -2.500000000000001
+        ],
+        "max_mm": [
+          7.379999100000001,
+          4.720000800000002,
+          7.300000000000002
+        ],
+        "span_mm": [
+          11.750000100000001,
+          10.100000000000001,
+          9.800000000000002
+        ]
+      },
+      "relation": "Historical exact model label; rigidly registered to current per-reference frozen footprint. Not a manufacturing certification.",
+      "limitations": []
+    }
+  ]
+}

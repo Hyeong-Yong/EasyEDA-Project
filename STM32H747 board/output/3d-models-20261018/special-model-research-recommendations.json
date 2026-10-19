@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-18",
+  "scope": "Read-only system 3D-model search and metadata queries for nine special-component families. No component binding, import, geometry/UI/settings mutation, or model download.",
+  "project_guard": {
+    "client": "scripts/easyeda-safe-client.mjs",
+    "name": "STM32H747_MCU_BOARD_v19",
+    "uuid": "761c4fdb8e3e1a273a7eb212bd6961ba8b6efdb0e27d1b0c207735a7e696c24c",
+    "window_id": "c020406e-b1fa-42b2-83be-6df87769a738"
+  },
+  "search_method": "eda.lib_3DModel.search(key, undefined, undefined, 30, 1); explicit library UUID was never passed to search.",
+  "metadata_method": "eda.lib_3DModel.get(uuid); selected candidates all returned matching UUID/name, libraryType=5 and system libraryUuid below.",
+  "system_library_uuid_from_results": "0819f05c4eef4c71ace90d822a990e87",
+  "metadata_limit": "Returned properties contain no geometry, bounding dimensions, STEP/OBJ format, height verification, or mounting transform. All candidate descriptions were empty. Model-name dimensions are search evidence, not independent measurement.",
+  "search_evidence_files": [
+    "models-special-exact-research-20261018.json",
+    "models-special-family-research-20261018.json",
+    "models-special-family2-research-20261018.json",
+    "models-special-family3-research-20261018.json",
+    "models-special-family4-research-20261018.json"
+  ],
+  "inventory_evidence": "inventory/components-437.json",
+  "candidates": [
+    {
+      "refs": ["J1"],
+      "part": "FTSH-107-01-L-DV-K-A",
+      "status": "exact_mpn_name_match",
+      "recommended_uuid": "0bfd3f5a5a0d440ab496ecbbdf06de18",
+      "model_name": "HDR-SMD_14P-P1.27_FTSH-107-01-L-DV-K-A",
+      "metadata_get_confirmed": true,
+      "evidence": "Exact full MPN search returned this single model; metadata repeats 14P/P1.27 and full MPN. Native inventory identifies the same Samtec MPN and 14-position 1.27-mm header.",
+      "remaining_check": "Verify physical model loading, origin, pin-1 direction, mounting plane, and board transform. The stale DIP_14 component Package attribute is not proof that the full-MPN SMD model is incorrect."
+    },
+    {
+      "refs": ["J18"],
+      "part": "PPTC052LFBN-RC",
+      "status": "generic_package_class_candidate",
+      "candidate_uuid": "c92ed4b8e8c6446a8ab365472f37d920",
+      "model_name": "HDR-F-2.54_2x5",
+      "metadata_get_confirmed": true,
+      "evidence": "Exact MPN queries returned no match. HDR-F search returned this 2x5 female 2.54-mm header class, matching the native CON_HeaderSocket [2x5_P2.54mm_Vertical] class.",
+      "remaining_check": "Verify socket body dimensions, height, lead geometry, orientation, and exact Sullins MPN equivalence before binding."
+    },
+    {
+      "refs": ["C41"],
+      "part": "TPSB476M006R0250",
+      "status": "generic_3528_tantalum_package_candidate",
+      "candidate_uuid": "3374b87e848e42cdbf68b58df1ef103d",
+      "model_name": "CAP-SMD_L3.5-W2.8-H1.9",
+      "metadata_get_confirmed": true,
+      "evidence": "Exact MPN/TPSB searches returned no match. Native inventory identifies C_TANT_1411_3528_HandSolder; the system model name supplies 3.5x2.8-mm body and H1.9 candidate dimensions.",
+      "remaining_check": "Confirm actual AVX/KYOCERA case-B body height, polarity mark and lead shape from the intended part drawing. H1.9 in a model name is not an independently verified maximum component height."
+    },
+    {
+      "refs": ["L1"],
+      "part": "LQM2MPN2R2NG0L",
+      "status": "similar_size_inductor_candidate_not_mpn_equivalent",
+      "candidate_uuid": "a21f101ae1674d3fbf1ab699fe6ac9b0",
+      "model_name": "IND-SMD_L2.0-W1.6-H0.9_MPH201610",
+      "metadata_get_confirmed": true,
+      "evidence": "Exact Murata LQM2 searches returned no match. Native inventory identifies L_Murata_LQM2 / 0806. A 2.0x1.6-mm/H0.9 model exists for a different part family.",
+      "remaining_check": "Verify Murata body size, height and terminal shape against this other-family model. Do not call it a Murata-specific or exact-equivalent model without that comparison."
+    },
+    {
+      "refs": ["CN1"],
+      "part": "PJ-051BH",
+      "status": "different_suffix_family_candidate_only",
+      "candidate_uuid": "6a7179261f6f4bf38180a0496d3cf318",
+      "model_name": "DC-IN-TH_PJ-051AH",
+      "metadata_get_confirmed": true,
+      "evidence": "PJ-051BH/PJ051BH searches returned no match. PJ-051/PJ051 searches returned the AH model only.",
+      "remaining_check": "BH and AH must not be assumed identical. Verify barrel and center-contact diameters, complete housing geometry, six mechanical/electrical pads and mating-plane location before considering this model."
+    },
+    {
+      "refs": ["CN2"],
+      "part": "LPJE101-0AHN",
+      "status": "different_suffix_family_candidate_only",
+      "candidate_uuid": "1511a46814e44e7790ff5b93cae8b82e",
+      "model_name": "RJ45-TH_LPJE101DNL",
+      "metadata_get_confirmed": true,
+      "evidence": "Exact LPJE101-0AHN/0AHNL queries returned no match. LPJE101 search returned the DNL model.",
+      "remaining_check": "Verify shielding, housing size, mating-plane location, latch/LED configuration and pin/mounting geometry. Family-name similarity does not prove physical equivalence."
+    },
+    {
+      "refs": ["CN3", "CN4"],
+      "part": "USB4105-GF-A",
+      "status": "generic_type_c_candidate_only_no_mpn_match",
+      "candidate_uuid": "b6f6b357402c451f931f43e4eedfc1d1",
+      "model_name": "USB-C-16P-S",
+      "metadata_get_confirmed": true,
+      "evidence": "USB4105-GF-A/USB4105/USB410 queries returned no match. USB-C-16 searches return multiple different connectors, including this generic 16-pin candidate.",
+      "remaining_check": "This candidate is not recommended for binding until GCT USB4105 shell dimensions, top/bottom mounting, 16 signal-pad and shell-anchor positions, insertion axis and body height are verified. No arbitrary USB-C model should substitute solely on pin count."
+    },
+    {
+      "refs": ["SW1"],
+      "part": "GT-TC089B-H075-L1",
+      "status": "similar_tact_switch_candidate_only",
+      "candidate_uuid": "73b3a84ae74e462f8f90e36cc5fd3e32",
+      "model_name": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.6_TS014-TBW1FH7.5",
+      "metadata_get_confirmed": true,
+      "evidence": "Exact GT-TC089B/TC089 queries returned no match. Native inventory identifies SW_PUSH_SMD_6mm; H7.5 search returned this 6x6-mm surface-mount switch model for a different manufacturer family.",
+      "remaining_check": "Verify the actual switch actuator height, four physical terminals versus two electrical nets, terminal pitch/span, top shape and mounting plane. H075 must not be interpreted as a dimension without the manufacturer drawing."
+    },
+    {
+      "refs": ["TR1"],
+      "part": "KMS-1102NL",
+      "status": "related_transformer_family_candidate_only",
+      "candidate_uuid": "d691814482f84b87ab195e8d38090ed5",
+      "model_name": "XFMR-SMD_H1102N",
+      "metadata_get_confirmed": true,
+      "evidence": "KMS-1102NL/KMS1102NL/1102NL queries returned no match. H1102 search returned this differently named transformer.",
+      "remaining_check": "Verify actual 16-pin KMS body dimensions, pin pitch/span, body height and pin-1 marking. Similar LAN-transformer naming alone does not establish geometry equivalence."
+    }
+  ],
+  "interpretation": "Only J1 has an exact MPN-name model match in these searches. J18 has a matching generic connector class. Other UUIDs are evidence-backed search candidates, not approved substitutions. The 30-result first-page searches are not an exhaustive statement that an exact model cannot exist anywhere in the library."
+}

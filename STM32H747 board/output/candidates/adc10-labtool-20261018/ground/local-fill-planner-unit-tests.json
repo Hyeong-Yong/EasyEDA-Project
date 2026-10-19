@@ -1,0 +1,29 @@
+{
+  "schema": "local-static-fill-planner-synthetic-tests-v1",
+  "passed": true,
+  "tests": [
+    {
+      "name": "Enclosed copper island retained as separate FILL with exact original inner hole",
+      "passed": true
+    },
+    {
+      "name": "Multiple PolyTree depths preserve both nested copper islands",
+      "passed": true
+    },
+    {
+      "name": "Unapproved outer contact is blocked without a candidate mutation",
+      "passed": true
+    },
+    {
+      "name": "Approved notch restores native vertices and outside-mask edges exactly",
+      "passed": true
+    },
+    {
+      "name": "Invalid original input is blocked rather than buffer-zero repaired",
+      "passed": true
+    }
+  ],
+  "generatorSha256": "c8c0ae6835f589be347a8ec54c8e7f1010a48abbc7184765f1c7e6094905d628",
+  "nativeCalls": 0,
+  "nativeModified": false
+}

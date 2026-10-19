@@ -1,0 +1,153 @@
+{
+  "engine": "ngspice 47",
+  "not_cadence_pspice": true,
+  "original_models_unchanged": true,
+  "schematic_export_sha256": "dd848d6113c5ec2a0835c128ed664aff57e1df0f7967b9571fbd861d7ab4c12d",
+  "pcb_saved_source_sha256": "b7c6b99df160aaed2bb1f91717c2bde25e379bfdba88ec23dea5b4fdb7548d0f",
+  "cad_changed": false,
+  "analysis_scope": "Representative J2 signal chain plus shared-reference AC/noise, separate REF and LDO tests; no MCU transistor or PCB field model",
+  "ac": {
+    "generator_dc_gain_abs": 0.6996500772495945,
+    "minus3db_hz": 3313.611862813349,
+    "cutoff_definition_db": -3.010299956639812,
+    "samples": {
+      "60": {
+        "relative_db": -0.001185362944608712,
+        "extra_phase_deg": -1.343312247420556
+      },
+      "1000": {
+        "relative_db": -0.32299555789400797,
+        "extra_phase_deg": -22.110205031766952
+      },
+      "7800": {
+        "relative_db": -10.31700356095147,
+        "extra_phase_deg": -114.08404587353488
+      },
+      "1000000.0": {
+        "relative_db": -98.70889747357411,
+        "extra_phase_deg": -265.01889327833504
+      }
+    }
+  },
+  "noise": {
+    "lower_frequency_hz": 0.1,
+    "band_rms_v": {
+      "10": 8.837284152088341e-07,
+      "3300": 1.4573651439278718e-06,
+      "7800": 1.6906042867441937e-06,
+      "100000000.0": 5.383683651563444e-06
+    },
+    "ngspice_full_band_rms_v": 5.383679633782624e-06,
+    "scope_limit": "Model nominal analog output noise only; ideal supplies; excludes ADC/VREF+ noise, PCB coupling, pump ripple, alias/noise folding validation"
+  },
+  "generic_tina_comparison": {
+    "noise_density_max_relative_difference": 1.9118040484045196e-12,
+    "ac_max_complex_difference": 7.775812437590199e-16
+  },
+  "dc": {
+    "summary_file": "runtime\\dcpoint-accepted-summary.json",
+    "acceptance": {
+      "all_requested_cases_validated_true_dc": true,
+      "adc_min_v": 0.248149663796613,
+      "adc_max_v": 3.048151794290606,
+      "minimum_rail_headroom_v": 0.08685077040959488,
+      "nominal_gain_linearity": {
+        "valid_points": 17,
+        "requested_points": 17,
+        "complete_coverage": true,
+        "acceptance_tolerance_specified": false,
+        "gain_v_per_v": -0.6999998892524704,
+        "offset_v": 1.6481507280487095,
+        "gain_error_percent": -1.582107566067137e-05,
+        "max_abs_residual_v": 3.415796534511628e-09
+      }
+    },
+    "requested": 44,
+    "validated": 44,
+    "failed": []
+  },
+  "review_findings": [
+    {
+      "priority": "hardware-review-before-fabrication",
+      "topic": "OPA320 low-supply output headroom",
+      "observed_model_headroom_v": 0.08685077040959488,
+      "datasheet_AOL_test_headroom_v": {
+        "RL_10k_to_midsupply": 0.1,
+        "RL_2k_to_midsupply": 0.2
+      },
+      "source": "https://www.ti.com/lit/ds/symlink/opa320.pdf",
+      "assessment": "Rail-range pass in nominal macro-models does not establish guaranteed precision/linearity at the -5% 3.3V corner. Check actual minimum supply and component/loading tolerance; consider reducing gain if that corner is required. No CAD change made."
+    }
+  ],
+  "sine_60hz": {
+    "adc_offset_v": 1.6473360797888599,
+    "adc_peak_amplitude_v": 1.3998087415580354,
+    "scope": "TI opamp models with fixed ideal 0.968992248 V offset; separate from full REF AC/noise"
+  },
+  "step": {
+    "final_adc_v": 0.24733628334834992,
+    "settling_to_half_16bit_lsb_s": 0.0004501819718633561,
+    "input_step_v": 4,
+    "scope": "fixed ideal bias; entire analog filter step, NOT acquisition-switch settling"
+  },
+  "sampling_surrogate": [
+    {
+      "case": "kick_ideal_q1_clean_32p_3000ohm",
+      "reference_adc_v": 0.24733630132118983,
+      "error_at_8us_v": -4.2782163200971723e-08,
+      "half_lsb_settling_s": 2.911345152416479e-06,
+      "assumptions": "Cs/Ron from filename; 2.8V previous-channel step, repeated21.3675us; excludes switch charge injection and MCU transfer accuracy"
+    },
+    {
+      "case": "kick_ideal_q1_clean_32p_3000ohm_reverse",
+      "reference_adc_v": 3.047335855881925,
+      "error_at_8us_v": 4.3790455706016473e-08,
+      "half_lsb_settling_s": 2.911156026459559e-06,
+      "assumptions": "Cs/Ron from filename; 2.8V previous-channel step, repeated21.3675us; excludes switch charge injection and MCU transfer accuracy"
+    },
+    {
+      "case": "kick_ideal_q1_clean_4p_1000ohm",
+      "reference_adc_v": 0.24733630132118983,
+      "error_at_8us_v": -5.297509292345737e-09,
+      "half_lsb_settling_s": 1.7511101591679397e-06,
+      "assumptions": "Cs/Ron from filename; 2.8V previous-channel step, repeated21.3675us; excludes switch charge injection and MCU transfer accuracy"
+    }
+  ],
+  "reference": {
+    "ref_dc_v": 2.501242518697858,
+    "offset_filter_dc_v": 0.9694738444565342,
+    "offset_filter_startup_to_point1percent_s_from_ramp_start": 0.2083160778659907,
+    "nr_cap_f": 1e-06,
+    "scope": "Standalone REF+divider; excludes U32/R204/C159; constant 14.3mA supply load has nonphysical off-state behavior"
+  },
+  "negative_ldo": {
+    "raw_input_v": -4.5,
+    "nominal_dc_load_a": 0.013,
+    "final_output_v": -3.012946480540133,
+    "scope": "2013 TPS72301 transient model, ideal prescribed raw supply; excludes TPS60403, D20 powerdown and full worst-case load"
+  },
+  "debug_header": {
+    "ref": "J1",
+    "part": "FTSH-107-01-L-DV-K-A",
+    "pitch_mm": 1.27,
+    "pins": 14,
+    "connected": {
+      "3": "+3V3/VTref",
+      "4": "SWDIO/PA13",
+      "5": "GND",
+      "6": "SWCLK/PA14",
+      "7": "GND",
+      "12": "RESET# via R59 0R to NRST"
+    },
+    "no_swo": true,
+    "uart": "CN4 USB-C -> CH340C(U8) -> PA10 RX / PA9 TX"
+  },
+  "limits": [
+    "No Cadence PSpice engine; ngspice syntax/compatibility and model nominal results only",
+    "TPS60403 encrypted model not run or decrypted; charge-pump ripple, real rail sequence and worst-case current budget unverified",
+    "OPA320 official PSpice ZIP contains Q1 model; generic official TINA model was cross-checked, not falsely relabeled PSpice",
+    "No transistor-accurate STM32 ADC, MCU conversion/VREF noise, switch charge injection, PCB parasitics or hardware measurements",
+    "Startup full-chain cases with convergence failures are not accepted; standalone REF/LDO only",
+    "Passive tolerance and device limits are not covered by nominal macro-model sweeps; 16-bit resolution is not 16-bit absolute accuracy"
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "schema": "adc10-labtool-reverse-protection-new-libraries-20261018-v1",
+  "newOnly": true,
+  "counts": {
+    "SYMBOL": 1,
+    "FOOTPRINT": 1,
+    "DEVICE": 1
+  },
+  "symbols": {
+    "SCHOTTKY": {
+      "uuid": "d798c1936d059699",
+      "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_SCHOTTKY_K1_A2",
+      "partId": "A",
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "primitiveId": "e242e8e5d5172f04",
+          "x": -25,
+          "y": 0,
+          "length": 15,
+          "rotation": 0,
+          "electric": "Passive",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "primitiveId": "161f8531673c246a",
+          "x": 25,
+          "y": 0,
+          "length": 15,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A"
+        }
+      ],
+      "coordinateUnit": "0.01inch, symbol Y-down"
+    }
+  },
+  "footprints": {
+    "SOD323": {
+      "uuid": "03ecb818f4f0a255",
+      "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+      "pads": [
+        {
+          "number": "1",
+          "name": "K",
+          "centerMm": [
+            -1.2,
+            0
+          ],
+          "copperSizeMm": [
+            0.8,
+            0.6
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "1",
+            "centerX": -47.244094,
+            "centerY": 0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 31.496063,
+              "height": 23.622047,
+              "radius": 0
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 1,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "centerMm": [
+            1.2,
+            0
+          ],
+          "copperSizeMm": [
+            0.8,
+            0.6
+          ],
+          "nativeBody": {
+            "groupId": 0,
+            "netName": "",
+            "layerId": 1,
+            "num": "2",
+            "centerX": 47.244094,
+            "centerY": 0,
+            "padAngle": 0,
+            "hole": null,
+            "defaultPad": {
+              "padType": "RECT",
+              "width": 31.496063,
+              "height": 23.622047,
+              "radius": 0
+            },
+            "specialPad": [],
+            "padOffsetX": 0,
+            "padOffsetY": 0,
+            "relativeAngle": 0,
+            "plated": false,
+            "padType": "NORMAL",
+            "topSolderExpansion": 2.755906,
+            "bottomSolderExpansion": null,
+            "topPasteExpansion": 0,
+            "bottomPasteExpansion": null,
+            "locked": false,
+            "zIndex": 2,
+            "connectMode": null,
+            "spokeSpace": null,
+            "spokeWidth": null,
+            "spokeAngle": null,
+            "unusedInnerLayers": [],
+            "padLen": 0,
+            "propagationDelay": 0
+          }
+        }
+      ],
+      "bodyMaximumSizeMm": [
+        1.95,
+        1.5
+      ],
+      "courtyardMm": [
+        3.7,
+        2.0
+      ],
+      "coordinateUnit": "mil, positive Y-up, top view; cathode band left",
+      "drawing": "Vishay S8-V-3910.02-001(4) Rev6 2016-09-23, BAT54WS86465 PDF p4",
+      "landPatternInnerGapMm": 1.6,
+      "landPatternOuterSpanMm": 3.2,
+      "manufacturingApproved": false
+    }
+  },
+  "devices": {
+    "BAT54WS": {
+      "uuid": "99e585cc5ec3db13",
+      "title": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_BAT54WS_E3_08",
+      "symbolUuid": "d798c1936d059699",
+      "footprintUuid": "03ecb818f4f0a255",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "D?",
+        "Symbol": "d798c1936d059699",
+        "Footprint": "03ecb818f4f0a255",
+        "Value": "BAT54WS",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_LABTOOL_DIODE_20261018_VISHAY_SOD323_K1_A2",
+        "DNP": "no",
+        "Manufacturer": "Vishay Semiconductors",
+        "Part Number": "BAT54WS-E3-08",
+        "Datasheet": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+        "Description": "30V single Schottky; TPS723 negative-LDO reverse-current bypass; A2=raw IN, K1=regulated OUT",
+        "Voltage Rating": "30 V",
+        "Forward Continuous Current": "200 mA",
+        "Datasheet Revision": "86465 Rev1.1 2025-05-12"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    }
+  },
+  "packagePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\libraries\\reverse-protection\\STM32H747_labtool_reverse_protection_new_libraries_20261018.epro2",
+  "packageSha256": "ebf18f61170a0ca837994cdf43f2c769fca2e497f85f784c259c970cd6662ea2",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\libraries\\reverse-protection\\reverse-protection-new-libraries-20261018.epru",
+  "sourceSha256": "c6be541f3c6c8b5cea9694e115dcdce7c62dfbb9308fae2e73a48415a0964f13",
+  "checkpointPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_labtool_libraries_20261018.epro2",
+  "checkpointSha256": "51632b1711f81a2a0f6fc0c6efce134e2f09622111fb4abd02a92d5b6c0d7f7a",
+  "sourcePdfPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\libraries\\reverse-protection\\Vishay-BAT54WS-86465.pdf",
+  "sourcePdfSha256": "9fb89b12a4971e505c3315224028c4be534b4a6702428f554a8eac4127363e7c",
+  "sourceUrl": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+  "datasheetPinPage": 1,
+  "datasheetLandPage": 4,
+  "pinAndLandPagesVisuallyInspected": true,
+  "polarityContract": {
+    "1": "K: -3V_AFE / TPS723 OUT",
+    "2": "A: AFE_VNEG_RAW / TPS723 IN"
+  },
+  "validation": {
+    "allDocumentAndHexPrimitiveUuidsNewNoCollision": true,
+    "allSymbolPinPadNumbersMatch": true,
+    "nativeImportPending": true
+  },
+  "nativeApiCalled": false,
+  "existingLibrariesModified": false,
+  "manufacturingApproved": false,
+  "notes": [
+    "Manufacturer is explicitly Vishay BAT54WS-E3-08, not an unverified onsemi variant; onsemi and Nexperia PDF requests returned403.",
+    "SOD323 land pads0.8x0.6mm, inner gap1.6mm, centres+-1.2mm; arbitrary footprint orientation puts cathode/band at left.",
+    "Solder-mask expansion0.07mm is inherited project practice, not an independent assembly approval.",
+    "Protection path magnitude/power-down waveforms still require hardware validation."
+  ]
+}

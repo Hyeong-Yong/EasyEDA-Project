@@ -1,0 +1,96 @@
+{
+  "schema": "independent-prospective-one-bottom-lobe-stitch-20261018",
+  "status": "PASS_SCOPED_ROOT_REVIEW_REQUIRED_FINAL_SHARED_ROUTE_PENDING",
+  "nativeCalls": 0,
+  "sourceActualV4Sha256": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "placementV4Sha256": "7070ccc735fa7ae1181ea3c1a0c27ee1145f99b938d7bdad831ceefbcad01022",
+  "maskPlanSha256": "17558601e2024fe89cc6a1a91005bd66fcc52e8fdb3ae25b5df8cc45a635becd",
+  "groundPumpApproved3Sha256": "cd16b7dc9f49f1e32df989b67438b10f0132e1590496a685e28dc72354638264",
+  "lobeKey": "LOCAL_STATIC_LOBE_a1d7888349e74585_1",
+  "lobeAreaMm2": 70.30000384023006,
+  "lobeBoundsMm": [
+    28.751499519999996,
+    73.210201,
+    38.29588734,
+    87.54949977999999
+  ],
+  "newViaCreates": [
+    {
+      "key": "BOTTOM70_GND_STITCH_1",
+      "net": "GND",
+      "xyMm": [
+        33.0,
+        82.0
+      ],
+      "viaDiameterMm": 0.45,
+      "holeDiameterMm": 0.2,
+      "allLayers": [
+        1,
+        2,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimumOriginal799DrillEdgeGapMm": 2.1311597712363226,
+      "minimumReserved48DrillEdgeGapMm": 2.8016728242086186,
+      "minimumAnyPadCuGapMm": 2.7250000045999982,
+      "fullViaAnnulusInsidePreservedBottomLobe": true,
+      "requiresLocalFillAntipads": [
+        {
+          "id": "41fd0322eb2cc785",
+          "layerId": 16,
+          "net": "+3V3",
+          "valid": true
+        }
+      ]
+    }
+  ],
+  "newLineCreates": [],
+  "innerLayerNominalAnchorEvidence": [
+    {
+      "layerId": 15,
+      "fillId": "f9e70adc3ac35fbd",
+      "candidateAnnulusContactAreaMm2": 0.15902716082847212,
+      "oldGroundViaKey": "VIA:0301b55c74123544",
+      "oldViaCenterMm": [
+        38.1,
+        88.42499968000001
+      ],
+      "qualification": "SamevalidsourceFILLpolygonpositiveareacontact; finalantipadandMCUVSSglobalgraphmustberechecked."
+    },
+    {
+      "layerId": 17,
+      "fillId": "5277e1b9c83312a9",
+      "candidateAnnulusContactAreaMm2": 0.15902716082847212,
+      "oldGroundViaKey": "VIA:0301b55c74123544",
+      "oldViaCenterMm": [
+        38.1,
+        88.42499968000001
+      ],
+      "qualification": "SamevalidsourceFILLpolygonpositiveareacontact; finalantipadandMCUVSSglobalgraphmustberechecked."
+    },
+    {
+      "layerId": 18,
+      "fillId": "ef12098577a13cc7",
+      "candidateAnnulusContactAreaMm2": 0.15902716082847212,
+      "oldGroundViaKey": "VIA:0301b55c74123544",
+      "oldViaCenterMm": [
+        38.1,
+        88.42499968000001
+      ],
+      "qualification": "SamevalidsourceFILLpolygonpositiveareacontact; finalantipadandMCUVSSglobalgraphmustberechecked."
+    }
+  ],
+  "candidateCountRejected": 0,
+  "existing640Vias799DrillsChanged": 0,
+  "bottomLobeDeletedCopperAreaMm2": 0,
+  "finalSharedRouteMutualCheckPending": true,
+  "remaining": [
+    "Rootapproval/exactsitebeforecreation",
+    "Finalallnewshared+RAWroutes/moreVIAsmutualCu/drillcheck",
+    "Finalall6FILLantipadsandglobal345GNDpadMCUVSSgraph",
+    "NativeDRC/source/readback/reopen"
+  ],
+  "manufacturingApproved": false
+}

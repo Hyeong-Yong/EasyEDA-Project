@@ -1,0 +1,261 @@
+{
+  "schema": "stm32h747-u1-r17-clearance-plan-v1",
+  "status": "review-only-not-applied",
+  "pcbUuid": "0ac2a19168000d8e",
+  "source": {
+    "path": "output\\validation\\native-multilayer-via031_track013-reopened.epru",
+    "sha256": "bcdbe98988dab85c2ab10e01458858bd645718c0cd171d5c562aca92a74a18c6"
+  },
+  "nativeDrcEvidence": {
+    "path": "output\\validation\\native-pcb-drc-0ac2a19168000d8e-via031_track013.json",
+    "sha256": "09180336fb2a174ec958ff119d7847db5fe3e0ab33441a3820d1d3c06ec93fd5",
+    "matchingRows": [
+      {
+        "category": "SMD Pad to Track",
+        "globalIndex": "err26",
+        "objects": [
+          "b220b0b57fba3006",
+          "a2d6b5393a9714c7e231"
+        ]
+      }
+    ]
+  },
+  "changes": [
+    {
+      "type": "LINE",
+      "id": "b220b0b57fba3006",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1A-PD14)",
+        "layerId": 1,
+        "startX": 2175.1968,
+        "startY": 3665.9233,
+        "endX": 2158.8798,
+        "endY": 3649.6063,
+        "width": 5.1181,
+        "locked": false,
+        "zIndex": 3507
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1A-PD14)",
+        "layerId": 1,
+        "startX": 2175.1968,
+        "startY": 3665.9233,
+        "endX": 2175.1968,
+        "endY": 3649.6063,
+        "width": 5.1181,
+        "locked": false,
+        "zIndex": 3507
+      },
+      "changedFields": [
+        "endX"
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "4928e024eebdd442",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1A-PD14)",
+        "layerId": 1,
+        "startX": 2158.8798,
+        "startY": 3649.6063,
+        "endX": 2142.7165,
+        "endY": 3649.6063,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 3509
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "NET-(U1A-PD14)",
+        "layerId": 1,
+        "startX": 2175.1968,
+        "startY": 3649.6063,
+        "endX": 2142.7165,
+        "endY": 3649.6063,
+        "width": 5.9055,
+        "locked": false,
+        "zIndex": 3509
+      },
+      "changedFields": [
+        "startX"
+      ]
+    }
+  ],
+  "changeCounts": {
+    "LINE": 2,
+    "total": 2
+  },
+  "topologyProof": {
+    "net": "NET-(U1A-PD14)",
+    "layerId": 1,
+    "externalStart": [
+      2175.1968,
+      3665.9233
+    ],
+    "externalEnd": [
+      2142.7165,
+      3649.6063
+    ],
+    "oldSharedCorner": [
+      2158.8798,
+      3649.6063
+    ],
+    "newSharedCorner": [
+      2175.1968,
+      3649.6063
+    ],
+    "externalEndpointsImmutable": true,
+    "objectIdsWidthsNetsLayersImmutable": true,
+    "beforeLengthMm": 0.9966711765099459,
+    "afterLengthMm": 1.2394514200000044,
+    "lengthDeltaMm": 0.24278024349005856
+  },
+  "staticGeometryProof": {
+    "selectedRuleMm": 0.15200122,
+    "minimumDifferentNetClearanceMm": 0.18570066999999482,
+    "conflictingU1R17PadClearanceMm": 0.21070189000000822,
+    "passesSelectedRule": true,
+    "nearestDifferentNetObjects": [
+      {
+        "id": "a2d6b5393a9714c7e230",
+        "label": "U1_R16",
+        "net": "",
+        "clearanceMm": 0.18570066999999482
+      },
+      {
+        "id": "a2d6b5393a9714c7e248",
+        "label": "U1_T17",
+        "net": "Net-(U1A-PD9)",
+        "clearanceMm": 0.21069935000000314
+      },
+      {
+        "id": "a2d6b5393a9714c7e231",
+        "label": "U1_R17",
+        "net": "",
+        "clearanceMm": 0.21070189000000822
+      },
+      {
+        "id": "8142c92b158847b9",
+        "label": "LINE:8142c92b158847b9",
+        "net": "NET-(U1A-PD9)",
+        "clearanceMm": 0.24999950000000506
+      },
+      {
+        "id": "f55a7a298b6b0837",
+        "label": "LINE:f55a7a298b6b0837",
+        "net": "NET-(U1A-PD9)",
+        "clearanceMm": 0.24999950000007437
+      },
+      {
+        "id": "ac9f320f17063c97",
+        "label": "LINE:ac9f320f17063c97",
+        "net": "+3V3",
+        "clearanceMm": 0.2917909657248983
+      },
+      {
+        "id": "2a66b8c03dd934d8",
+        "label": "VIA:2a66b8c03dd934d8",
+        "net": "NET-(U1B-PH11)",
+        "clearanceMm": 0.3086362317059937
+      },
+      {
+        "id": "a2d6b5393a9714c7e247",
+        "label": "U1_T16",
+        "net": "Net-(U1A-PD10)",
+        "clearanceMm": 0.3589971181740172
+      },
+      {
+        "id": "036904ed8edf3ccf",
+        "label": "VIA:036904ed8edf3ccf",
+        "net": "NET-(U1A-PD15)",
+        "clearanceMm": 0.37104181797825886
+      },
+      {
+        "id": "a2d6b5393a9714c7e214",
+        "label": "U1_P17",
+        "net": "+3V3",
+        "clearanceMm": 0.3774989274324857
+      },
+      {
+        "id": "c29cec9c93d9223c",
+        "label": "LINE:c29cec9c93d9223c",
+        "net": "NET-(U1A-PD10)",
+        "clearanceMm": 0.3982929006203615
+      },
+      {
+        "id": "9ea5071a24a076d8",
+        "label": "LINE:9ea5071a24a076d8",
+        "net": "NET-(U1B-PH11)",
+        "clearanceMm": 0.39829475347943744
+      },
+      {
+        "id": "300d8a08aa146e58",
+        "label": "LINE:300d8a08aa146e58",
+        "net": "NET-(U1A-PD15)",
+        "clearanceMm": 0.41568638962961074
+      },
+      {
+        "id": "cd63874239d4d411",
+        "label": "LINE:cd63874239d4d411",
+        "net": "NET-(U1A-PD15)",
+        "clearanceMm": 0.41568638962961074
+      },
+      {
+        "id": "81d593f1b31a4724",
+        "label": "LINE:81d593f1b31a4724",
+        "net": "+3V3",
+        "clearanceMm": 0.503651065016286
+      },
+      {
+        "id": "94576ca964cc6222",
+        "label": "LINE:94576ca964cc6222",
+        "net": "GND",
+        "clearanceMm": 0.524998949999998
+      },
+      {
+        "id": "111356ba87795e81",
+        "label": "VIA:111356ba87795e81",
+        "net": "NET-(U1A-PD15)",
+        "clearanceMm": 0.5450001800000045
+      },
+      {
+        "id": "3f449ef3757b539c",
+        "label": "VIA:3f449ef3757b539c",
+        "net": "NET-(U1B-PH12)",
+        "clearanceMm": 0.5703962793942196
+      },
+      {
+        "id": "a2d6b5393a9714c7e196",
+        "label": "U1_N16",
+        "net": "GND",
+        "clearanceMm": 0.6106985499999927
+      },
+      {
+        "id": "a2d6b5393a9714c7e212",
+        "label": "U1_P15",
+        "net": "Net-(U1A-PD15)",
+        "clearanceMm": 0.6107010900000095
+      }
+    ],
+    "scope": "Top-layer straight LINE, VIA, and component-pad copper. ARC/FILL remain native-DRC and refill gates."
+  },
+  "candidate": {
+    "path": "output\\candidates\\multilayer-route-clearance\\u1-r17-dogleg-candidate.epru",
+    "sha256": "a19e72687b9459ffd8a258184668ce37f2efc847a8a8859ca2449262da06c1ad",
+    "bytes": 6395823
+  },
+  "applicationGate": {
+    "nativeProjectWriteAuthorized": false,
+    "requiresNativeDrc": true,
+    "requiresFillReclip": true,
+    "requiresElectricalConnectivityCheck": true,
+    "manufacturingApproved": false
+  }
+}

@@ -1,0 +1,1381 @@
+{
+  "schema": "adc10-passive-orientation-plan-20261017-v1",
+  "readOnly": true,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-eco_applied-20261017.epru",
+  "sourceSha256": "76085b4b46c479160619f53f3f471c0127c3dc907e217f08859362e19416921a",
+  "componentCountToRotate": 20,
+  "placementOnly": true,
+  "preserveFullPrecisionCenters": true,
+  "noNetOrCopperChanges": true,
+  "edits": [
+    {
+      "ref": "C80",
+      "componentId": "518aa576dd1f4a0e",
+      "uniqueId": "75ec64e834085d51",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 5577.9528,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I51",
+          "Unique ID": "75ec64e834085d51"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 5577.9528,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            5559.055162
+          ],
+          "xyMm": [
+            16.00000102,
+            141.2000011148
+          ],
+          "net": "ADC1_INP0"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            5596.850438
+          ],
+          "xyMm": [
+            16.00000102,
+            142.1600011252
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 3.217205469832177e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C81",
+      "componentId": "1fc19d9011b0d2c7",
+      "uniqueId": "eaf4271342fd54a8",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 5026.378,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I52",
+          "Unique ID": "eaf4271342fd54a8"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 5026.378,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            5007.480361999999
+          ],
+          "xyMm": [
+            16.00000102,
+            127.19000119479998
+          ],
+          "net": "ADC1_INP1"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            5045.275638
+          ],
+          "xyMm": [
+            16.00000102,
+            128.1500012052
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 2.066494980028161e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C82",
+      "componentId": "f2c0f427d4d6b785",
+      "uniqueId": "36505e4cf6a15058",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 4476.5748,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I53",
+          "Unique ID": "36505e4cf6a15058"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 4476.5748,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            4457.677162
+          ],
+          "xyMm": [
+            16.00000102,
+            113.2249999148
+          ],
+          "net": "ADC1_INP16"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            4495.472438000001
+          ],
+          "xyMm": [
+            16.00000102,
+            114.18499992520002
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 3.217205469832177e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C86",
+      "componentId": "521960cee1879019",
+      "uniqueId": "c915b0419ae05033",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 3925,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3fe36865277405783",
+          "Unique ID": "c915b0419ae05033"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 3925,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            3906.102362
+          ],
+          "xyMm": [
+            16.00000102,
+            99.2149999948
+          ],
+          "net": "ADC2_INP3"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            3943.897638
+          ],
+          "xyMm": [
+            16.00000102,
+            100.17500000519999
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 2.0664946224339753e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C87",
+      "componentId": "3fd1d2dd2ba483fc",
+      "uniqueId": "5e8c2e6a192f56fc",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 3373.8189,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I55",
+          "Unique ID": "5e8c2e6a192f56fc"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 3373.8189,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            3354.9212620000003
+          ],
+          "xyMm": [
+            16.00000102,
+            85.2150000548
+          ],
+          "net": "ADC2_INP12"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            3392.716538
+          ],
+          "xyMm": [
+            16.00000102,
+            86.1750000652
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 4.942711421716735e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C88",
+      "componentId": "c4522a5d4858d2e5",
+      "uniqueId": "7503f596a6845ea8",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 2822.6378,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I56",
+          "Unique ID": "7503f596a6845ea8"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 2822.6378,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            2803.740162
+          ],
+          "xyMm": [
+            16.00000102,
+            71.21500011479999
+          ],
+          "net": "ADC2_INP13"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            2841.535438
+          ],
+          "xyMm": [
+            16.00000102,
+            72.1750001252
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 3.217203243590821e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C93",
+      "componentId": "d73bedd5072ec1a9",
+      "uniqueId": "72678adef72d5ddc",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 2271.8504,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I57",
+          "Unique ID": "72678adef72d5ddc"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 2271.8504,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            2252.952762
+          ],
+          "xyMm": [
+            16.00000102,
+            57.22500015479999
+          ],
+          "net": "ADC3_INP2"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            2290.7480379999997
+          ],
+          "xyMm": [
+            16.00000102,
+            58.18500016519999
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 4.9427120714922716e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C94",
+      "componentId": "8b84e0ff9041f44b",
+      "uniqueId": "09d9181a8ced5c16",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 1720.2756,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I58",
+          "Unique ID": "09d9181a8ced5c16"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 1720.2756,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            1701.377962
+          ],
+          "xyMm": [
+            16.00000102,
+            43.2150002348
+          ],
+          "net": "ADC3_INP6"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            1739.1732379999999
+          ],
+          "xyMm": [
+            16.00000102,
+            44.175000245199996
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 4.942711421716735e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C95",
+      "componentId": "32cf88e1aaf87f50",
+      "uniqueId": "086b10aa9eea5342",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 1170.6693,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I59",
+          "Unique ID": "086b10aa9eea5342"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 1170.6693,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            1151.771662
+          ],
+          "xyMm": [
+            16.00000102,
+            29.255000214800003
+          ],
+          "net": "ADC3_INP7"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            1189.566938
+          ],
+          "xyMm": [
+            16.00000102,
+            30.215000225199997
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 3.217203521870937e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "C96",
+      "componentId": "3852588fa8b5215f",
+      "uniqueId": "4446908c02d75f0c",
+      "footprintUuid": "33204de9fd4fd5be",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 629.9213,
+        "y": 618.3071,
+        "angle": 0,
+        "attrs": {
+          "Name": "2.2nF",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I60",
+          "Unique ID": "4446908c02d75f0c"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 629.9213,
+        "y": 618.3071,
+        "rotation": 270,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            629.9213,
+            599.409462
+          ],
+          "xyMm": [
+            16.00000102,
+            15.225000334799999
+          ],
+          "net": "ADC3_INP8"
+        },
+        "2": {
+          "xyMil": [
+            629.9213,
+            637.204738
+          ],
+          "xyMm": [
+            16.00000102,
+            16.1850003452
+          ],
+          "net": "GND"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "1",
+        "2": "2"
+      },
+      "maxPadCenterDifferenceMm": 4.942711746604501e-08,
+      "temporaryAtOldSite": true
+    },
+    {
+      "ref": "R137",
+      "componentId": "8a92a6903fad3d44",
+      "uniqueId": "ae1fdfc9ea5e5837",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 5579.1338,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I78",
+          "Unique ID": "ae1fdfc9ea5e5837"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 5579.1338,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            5559.055098999999
+          ],
+          "xyMm": [
+            13.85000024,
+            141.19999951459997
+          ],
+          "net": "ADC1_PRE1"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            5599.212501
+          ],
+          "xyMm": [
+            13.85000024,
+            142.2199975254
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 4.738311837390819e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R138",
+      "componentId": "056457acff55658f",
+      "uniqueId": "b11170a3dac35218",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 5027.5591,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I79",
+          "Unique ID": "b11170a3dac35218"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 5027.5591,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            5007.480399
+          ],
+          "xyMm": [
+            13.85000024,
+            127.1900021346
+          ],
+          "net": "ADC1_PRE2"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            5047.637801000001
+          ],
+          "xyMm": [
+            13.85000024,
+            128.21000014540002
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 6.050753084859597e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R139",
+      "componentId": "f1f0a171beb96e49",
+      "uniqueId": "de7ffa0032cf56a9",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 4477.7559,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I80",
+          "Unique ID": "de7ffa0032cf56a9"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 4477.7559,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            4457.677199
+          ],
+          "xyMm": [
+            13.85000024,
+            113.22500085459998
+          ],
+          "net": "ADC1_PRE3"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            4497.8346010000005
+          ],
+          "xyMm": [
+            13.85000024,
+            114.2449988654
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 6.050753084859597e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R149",
+      "componentId": "94c9c42258f439eb",
+      "uniqueId": "512b8c94e517575b",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 3926.1811,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I90",
+          "Unique ID": "512b8c94e517575b"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 3926.1811,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            3906.102399
+          ],
+          "xyMm": [
+            13.85000024,
+            99.2150009346
+          ],
+          "net": "ADC2_PRE1"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            3946.2598009999997
+          ],
+          "xyMm": [
+            13.85000024,
+            100.2349989454
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 6.050752018590728e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R150",
+      "componentId": "ffdedb1654ccafa3",
+      "uniqueId": "8c5758f1ab4959cf",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 3375,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I91",
+          "Unique ID": "8c5758f1ab4959cf"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 3375,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            3354.921299
+          ],
+          "xyMm": [
+            13.85000024,
+            85.2150009946
+          ],
+          "net": "ADC2_PRE2"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            3395.078701
+          ],
+          "xyMm": [
+            13.85000024,
+            86.2349990054
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 4.036285355383354e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R151",
+      "componentId": "311f8fa91efe7cea",
+      "uniqueId": "c7220f6577db54a8",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 2823.8189,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I92",
+          "Unique ID": "c7220f6577db54a8"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 2823.8189,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            2803.7401990000003
+          ],
+          "xyMm": [
+            13.85000024,
+            71.21500105460001
+          ],
+          "net": "ADC2_PRE3"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            2843.897601
+          ],
+          "xyMm": [
+            13.85000024,
+            72.2349990654
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 6.050750952322005e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R161",
+      "componentId": "b8fb6fc7d8f12dec",
+      "uniqueId": "a00b0fba75b756e6",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 2273.0315,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I102",
+          "Unique ID": "a00b0fba75b756e6"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 2273.0315,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            2252.952799
+          ],
+          "xyMm": [
+            13.85000024,
+            57.2250010946
+          ],
+          "net": "ADC3_PRE1"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            2293.110201
+          ],
+          "xyMm": [
+            13.85000024,
+            58.2449991054
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 4.036285355383354e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R162",
+      "componentId": "41739d5247754b09",
+      "uniqueId": "d98a8a274f21576f",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 1721.4567,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I103",
+          "Unique ID": "d98a8a274f21576f"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 1721.4567,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            1701.377999
+          ],
+          "xyMm": [
+            13.85000024,
+            43.2150011746
+          ],
+          "net": "ADC3_PRE2"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            1741.5354009999999
+          ],
+          "xyMm": [
+            13.85000024,
+            44.23499918539999
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 4.738312218281458e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R163",
+      "componentId": "2941b0f97fcf9813",
+      "uniqueId": "7b30d83ed0c453b0",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 1170.6693,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I104",
+          "Unique ID": "7b30d83ed0c453b0"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 1170.6693,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            1150.590599
+          ],
+          "xyMm": [
+            13.85000024,
+            29.225001214600002
+          ],
+          "net": "ADC3_PRE3"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            1190.748001
+          ],
+          "xyMm": [
+            13.85000024,
+            30.244999225399997
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 4.738311837390819e-08,
+      "temporaryAtOldSite": false
+    },
+    {
+      "ref": "R164",
+      "componentId": "32d1b9056f08dfce",
+      "uniqueId": "4f5b6422c30d54b6",
+      "footprintUuid": "c177c8c7ab4f7483",
+      "sourceBodyBefore": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 545.2756,
+        "y": 619.4882,
+        "angle": 0,
+        "attrs": {
+          "Name": "6.8k",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$3I105",
+          "Unique ID": "4f5b6422c30d54b6"
+        },
+        "locked": false,
+        "zIndex": -1
+      },
+      "set": {
+        "x": 545.2756,
+        "y": 619.4882,
+        "rotation": 90,
+        "layer": 1
+      },
+      "expectedPadWorld": {
+        "1": {
+          "xyMil": [
+            545.2756,
+            599.409499
+          ],
+          "xyMm": [
+            13.85000024,
+            15.225001274599999
+          ],
+          "net": "ADC3_PRE4"
+        },
+        "2": {
+          "xyMil": [
+            545.2756,
+            639.566901
+          ],
+          "xyMm": [
+            13.85000024,
+            16.2449992854
+          ],
+          "net": "ADC_BIAS_2V5"
+        }
+      },
+      "oldPadNumberAtNewSite": {
+        "1": "2",
+        "2": "1"
+      },
+      "maxPadCenterDifferenceMm": 4.738312027836129e-08,
+      "temporaryAtOldSite": false
+    }
+  ],
+  "alreadyCorrectHorizontalResistors": [
+    {
+      "ref": "R140",
+      "componentId": "20a99bbc9bb90724",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        5511.811
+      ]
+    },
+    {
+      "ref": "R141",
+      "componentId": "047c16e9ef60374e",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        5511.811
+      ]
+    },
+    {
+      "ref": "R142",
+      "componentId": "79fa2038c0b2e94d",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        4960.6299
+      ]
+    },
+    {
+      "ref": "R143",
+      "componentId": "743ca6117153a8c1",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        4960.6299
+      ]
+    },
+    {
+      "ref": "R144",
+      "componentId": "d38facf9b00933e0",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        4409.4488
+      ]
+    },
+    {
+      "ref": "R145",
+      "componentId": "c0ed52da64856bf2",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        4409.4488
+      ]
+    },
+    {
+      "ref": "R152",
+      "componentId": "0cfcccb21ad194d1",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        3858.2677
+      ]
+    },
+    {
+      "ref": "R153",
+      "componentId": "49e342f159db65a5",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        3858.2677
+      ]
+    },
+    {
+      "ref": "R154",
+      "componentId": "10623a5221c701cb",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        3307.0866
+      ]
+    },
+    {
+      "ref": "R155",
+      "componentId": "3dc54e75e0dc9fd2",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        3307.0866
+      ]
+    },
+    {
+      "ref": "R156",
+      "componentId": "c8843ac1a0a2212f",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        2755.9055
+      ]
+    },
+    {
+      "ref": "R157",
+      "componentId": "105b1c33cd069109",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        2755.9055
+      ]
+    },
+    {
+      "ref": "R165",
+      "componentId": "92a99cca9f2372ea",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        2204.7244
+      ]
+    },
+    {
+      "ref": "R166",
+      "componentId": "1e00d9d7c6577d11",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        2204.7244
+      ]
+    },
+    {
+      "ref": "R167",
+      "componentId": "aae6cbc06e6cc184",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        1653.5433
+      ]
+    },
+    {
+      "ref": "R168",
+      "componentId": "56bd79a9b0feb168",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        1653.5433
+      ]
+    },
+    {
+      "ref": "R169",
+      "componentId": "50b7feb148227762",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        1102.3622
+      ]
+    },
+    {
+      "ref": "R170",
+      "componentId": "b9b66083d3921084",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        1102.3622
+      ]
+    },
+    {
+      "ref": "R171",
+      "componentId": "823d3701ffc07621",
+      "rotation": 0,
+      "xyMil": [
+        393.3071,
+        551.1811
+      ]
+    },
+    {
+      "ref": "R172",
+      "componentId": "a8c4a972655e9521",
+      "rotation": 0,
+      "xyMil": [
+        609.8425,
+        551.1811
+      ]
+    }
+  ],
+  "warnings": [
+    "This only restores pad contact orientation; it does not repair old bias +3V3 branches or mixer-to-series bypass copper.",
+    "Ten capacitors remain temporarily at old strip sites. Final 2.2nF buckets must still move to bottom MCU ADC escape locations.",
+    "After async component done, re-read source and require only the 20 allowed component angle changes plus any separately reviewed owned display transformations; reject unrelated rounding/default changes.",
+    "All temporary sites are TOP; bottom-side mirroring must be checked afresh when buckets move."
+  ],
+  "manufacturingReady": false
+}

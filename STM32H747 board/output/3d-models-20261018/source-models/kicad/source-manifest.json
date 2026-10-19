@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-18",
+  "repository": "https://gitlab.com/kicad/libraries/kicad-packages3D",
+  "commit": "8975715167d1a76f9b44be155ac02326f704cdbb",
+  "commit_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/commit/8975715167d1a76f9b44be155ac02326f704cdbb",
+  "preservation": "Each file is an unmodified direct download from the pinned official KiCad repository. No archive bulk download, geometry generation, conversion, scaling, renaming, or project/library import was performed.",
+  "license": {
+    "identifier": "CC-BY-SA-4.0 with KiCad electronic-design exception",
+    "original_license_file": "LICENSE.md",
+    "explanation_url": "https://www.kicad.org/libraries/license/index.html",
+    "attribution": "Original in-file copyright notices and folder CREDITS.md files are preserved.",
+    "redistribution_note": "The original LICENSE.md explains the exception for electronic designs and the attribution/share-alike conditions for redistributed library collections."
+  },
+  "inspection": {
+    "step_file_count": 6,
+    "supporting_license_credit_file_count": 5,
+    "format": "ISO-10303-21 STEP, AP214 AUTOMOTIVE_DESIGN",
+    "declared_length_unit": "mm (SI_UNIT(.MILLI.,.METRE.))",
+    "headers_and_declared_units_checked": true,
+    "geometry_or_footprint_fit_validated": false,
+    "pcb_or_native_library_modified": false,
+    "scope_note": "These are generic package models. Any later binding must compare actual footprint origin, pin-1 orientation, package dimensions, and mounted height; no vendor-specific equivalence is asserted here."
+  },
+  "files": [
+    {
+      "kind": "step_model",
+      "path": "Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507E5AF4251CB4EF38E04889C9B98DA29904432BD83786BBA13AE9B605EACB",
+      "credits_file": "Resistor_SMD.3dshapes/CREDITS.md"
+    },
+    {
+      "kind": "step_model",
+      "path": "Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571C326D0D9E96F36B4EFEB8094068EF7619F0A449C781CAF0B49C2E5861",
+      "credits_file": "Resistor_SMD.3dshapes/CREDITS.md"
+    },
+    {
+      "kind": "step_model",
+      "path": "Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+      "bytes": 43502,
+      "sha256": "03E44C4B2B727B8D4B6B1FD598CBD12DD5E614F1DFEEFA96A92A07E3A3B312A2",
+      "credits_file": "Capacitor_SMD.3dshapes/CREDITS.md"
+    },
+    {
+      "kind": "step_model",
+      "path": "Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "bytes": 43450,
+      "sha256": "4857B3DC717675BF1FB22EDDA622AC3B3AE03CF44D81EEFAF3FA3BA3A86D84C1",
+      "credits_file": "Capacitor_SMD.3dshapes/CREDITS.md"
+    },
+    {
+      "kind": "step_model",
+      "path": "Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "bytes": 87532,
+      "sha256": "720A6EAB0024069BBEE68E7CB4C3FF1149468A34611225CDC852662C5D0EC2B7",
+      "credits_file": "Package_TO_SOT_SMD.3dshapes/CREDITS.md"
+    },
+    {
+      "kind": "step_model",
+      "path": "Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "bytes": 125320,
+      "sha256": "07F46CFF378D30E6C27DFD5A03092C795323F86D91C71FC7E743F4F418DC553A",
+      "credits_file": "Package_SO.3dshapes/CREDITS.md"
+    },
+    {
+      "kind": "license",
+      "path": "LICENSE.md",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/LICENSE.md",
+      "bytes": 2101,
+      "sha256": "45D2BCE75E5A4208F5AFB01B8FB2C406E700371C4FE2B5F5CD5C443D46DB4D8F"
+    },
+    {
+      "kind": "credits",
+      "path": "Resistor_SMD.3dshapes/CREDITS.md",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Resistor_SMD.3dshapes/CREDITS.md",
+      "bytes": 1833,
+      "sha256": "AFB9FCF30227B3D9E94470954F48EF0CEAA29057A37D9240E3D94EDBBB2C672C"
+    },
+    {
+      "kind": "credits",
+      "path": "Capacitor_SMD.3dshapes/CREDITS.md",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Capacitor_SMD.3dshapes/CREDITS.md",
+      "bytes": 1459,
+      "sha256": "5A2A836CFA0AEEF640EE9A6962B98BD33D2626B78C87B49263E7834D1AE594CA"
+    },
+    {
+      "kind": "credits",
+      "path": "Package_TO_SOT_SMD.3dshapes/CREDITS.md",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Package_TO_SOT_SMD.3dshapes/CREDITS.md",
+      "bytes": 2057,
+      "sha256": "F69A3456A4D9D2E66427829C447BD87A83D6BB2DDD5BF90091C7C39F084E3D87"
+    },
+    {
+      "kind": "credits",
+      "path": "Package_SO.3dshapes/CREDITS.md",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8975715167d1a76f9b44be155ac02326f704cdbb/Package_SO.3dshapes/CREDITS.md",
+      "bytes": 3137,
+      "sha256": "E37FEAFC46EED79945DDB2FECD39A610089DE4FB9A3FEF632893DF5FCBF82739"
+    }
+  ]
+}

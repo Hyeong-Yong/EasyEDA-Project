@@ -1,0 +1,87 @@
+{
+  "scope": "Read-only GBO export-option comparison; native STRINGs unchanged. No EasyEDA/API calls.",
+  "input_default_zip": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_corners_j18_20261016_DIAGNOSTIC_NOT_FOR_FAB.zip",
+    "sha256": "d7e02a789490a2f274ccea8a214f1c7915dee4cfc22ead5aa0c03095d1957475"
+  },
+  "variants": [
+    {
+      "variant": "nomirror",
+      "export_layer4_isMirror": false,
+      "zip": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_j18_silk_nomirror_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "sha256": "036648aa1d7af8c6f7baf77f5c9ca1cc9858f7dde801de387c0f82a11f26c71d",
+      "member": "Gerber_BottomSilkscreenLayer.GBO",
+      "gbo_sha256": "38164bb8151275e57ff9d18ef918ad7389b59fbe434f4a69483f0445ddd0aa96",
+      "object_count": 697,
+      "default_GBO_geometry_object_sequence_exact": false,
+      "max_same_sequence_endpoint_difference_vs_default_after_unreflecting_export_x_mm": 0.002539999999996212,
+      "original_positive_x_pad_drill_registration_retained": true,
+      "physical_backside_text_readable_from_visual_qa": false,
+      "interpretation": "isMirror=false retains film registration but native mirror=true text is mirrored from physical backside",
+      "stroke_centreline_bounds_mm": [
+        36.49423,
+        1.00026,
+        48.85514,
+        10.79168
+      ],
+      "previews": [
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-nomirror-export-top.svg",
+          "sha256": "0f96316c2ee306885187c081b13f83247ccec811336b5ce7ee4d048ccaa7acbc"
+        },
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-nomirror-export-top.png",
+          "sha256": "5e8bdc49cac8a582be76b5369e7ced96b39682db3cc5aa676a2049ac9fcc91e7"
+        },
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-nomirror-export-backside.svg",
+          "sha256": "9d8b7021732cfb6848c1914fbb58605631b94c97fc3802384f5947553f88ba1d"
+        },
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-nomirror-export-backside.png",
+          "sha256": "c88507a5122fd7f2f72e2d06e525217c727a70dfcc4ce831fd5cd0f81695cd16"
+        }
+      ]
+    },
+    {
+      "variant": "mirror",
+      "export_layer4_isMirror": true,
+      "zip": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_j18_silk_mirror_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "sha256": "3f9553d96c99e9a12dd4b6ff3468b0bc7532441efa925451cdd29ae4378ed412",
+      "member": "Gerber_BottomSilkscreenLayer.GBO",
+      "gbo_sha256": "a1cc0cffdf907c55f5811f63dbc55ef75506bba1cf76e040ae0af789ed358ebc",
+      "object_count": 697,
+      "default_GBO_geometry_object_sequence_exact": false,
+      "max_same_sequence_endpoint_difference_vs_default_after_unreflecting_export_x_mm": 0.002539999999996212,
+      "original_positive_x_pad_drill_registration_retained": false,
+      "physical_backside_text_readable_from_visual_qa": true,
+      "interpretation": "isMirror=true reflects whole output film into negative X, not just glyphs; it is not a registration-preserving fix",
+      "stroke_centreline_bounds_mm": [
+        -48.85514,
+        1.00026,
+        -36.49423,
+        10.79168
+      ],
+      "previews": [
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-mirror-export-top-negative-x-film.svg",
+          "sha256": "15f725714ab442186efc40dad7345bfca10ef6d330ca11f4b52db1ea59c0b87b"
+        },
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-mirror-export-top-negative-x-film.png",
+          "sha256": "0f9c46baf3688b190a1d575972f70d748b6017288a20171a52bd182e3f23d52a"
+        },
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-mirror-export-backside-negative-x-film.svg",
+          "sha256": "454603ba5ef791f8928fdfb9780bbffc41716b9978a9ebdf4c947ef2482df6eb"
+        },
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-mirror-export-backside-negative-x-film.png",
+          "sha256": "d9f35edd6490dccbedab4731e9dc5f2bd55150df004e314eae9c1521f991b12c"
+        }
+      ]
+    }
+  ],
+  "coordinate_convention": "Gerber positive Y is upward; top view inverts Y to image coordinates. Physical backside additionally reflects X. y=0 board edge is at image bottom. Native pin1 x=47.765 is right in top view and left in backside view.",
+  "manufacturing_approved": false
+}

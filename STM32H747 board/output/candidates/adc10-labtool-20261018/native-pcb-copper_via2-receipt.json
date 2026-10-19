@@ -1,0 +1,188 @@
+{
+  "stage": "copper_via2",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-final-copper-v5-execution.json",
+  "manifestHash": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_copper_via1-20261018.epru",
+  "priorHash": "0c6adc347d555d387bb3efa793725395e1d81079cbf43863c359f902a44a97bb",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_copper_via2-20261018.epru",
+  "sourceSha256": "368e1d96891ea298a81aab6682e4a3b7421057b1d820f37b3baee293fbc122b5",
+  "touched": [
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "REFERENCE_C160_GND_V6",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "C103_POWER_LEFT_V6",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "C103_GND_V6",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "C103_POWER_VIN_V6",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C120",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C123",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C126",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C129",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C138",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C141",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C144",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "POSITIVE_BYPASS_GND_C147",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "FINAL_FLOATING_TOP20_GND_STITCH",
+      "action": "via"
+    },
+    {
+      "type": "VIA",
+      "id": null,
+      "ref": null,
+      "key": "FINAL_FLOATING_BOTTOM7_GND_STITCH",
+      "action": "via"
+    }
+  ],
+  "created": [
+    {
+      "key": "REFERENCE_C160_GND_V6",
+      "type": "VIA",
+      "id": "444e5d19dc30bbae"
+    },
+    {
+      "key": "C103_POWER_LEFT_V6",
+      "type": "VIA",
+      "id": "bbb7dd4f9f472f23"
+    },
+    {
+      "key": "C103_GND_V6",
+      "type": "VIA",
+      "id": "dc801ecd2005c5d7"
+    },
+    {
+      "key": "C103_POWER_VIN_V6",
+      "type": "VIA",
+      "id": "a4828069f8f35cb1"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C120",
+      "type": "VIA",
+      "id": "7fdb96c7f5d8a33a"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C123",
+      "type": "VIA",
+      "id": "fdcbf9d7846f80f4"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C126",
+      "type": "VIA",
+      "id": "399fb023067c3721"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C129",
+      "type": "VIA",
+      "id": "c3dd5e9aaf8d525d"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C138",
+      "type": "VIA",
+      "id": "daa5fe4fc4b53b61"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C141",
+      "type": "VIA",
+      "id": "55affb497f0d22e0"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C144",
+      "type": "VIA",
+      "id": "9b35fa975a48232c"
+    },
+    {
+      "key": "POSITIVE_BYPASS_GND_C147",
+      "type": "VIA",
+      "id": "e39202aa900f1956"
+    },
+    {
+      "key": "FINAL_FLOATING_TOP20_GND_STITCH",
+      "type": "VIA",
+      "id": "0d7120d68014f660"
+    },
+    {
+      "key": "FINAL_FLOATING_BOTTOM7_GND_STITCH",
+      "type": "VIA",
+      "id": "77d8d28e28f0ad4d"
+    }
+  ],
+  "changes": [],
+  "issues": [],
+  "failure": null,
+  "containmentPassed": true,
+  "requiresIndependentGeometryAudit": true,
+  "saved": false,
+  "manufacturingReady": false
+}

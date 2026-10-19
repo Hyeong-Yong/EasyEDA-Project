@@ -1,0 +1,63 @@
+{
+  "stage": "adjust_c1030",
+  "manifestRelative": "output/candidates/adc10-labtool-20261018/pcb-c103-local-bypass-v6-execution.json",
+  "manifestHash": "0b49a050bac41ce9eea41fa01a8663efad7f222572c97da1a71e7fd91663d8e2",
+  "priorRelative": "output/validation/native-adc10-pcb-labtool_107_placed_v5b_saved-20261018.epru",
+  "priorHash": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_adjust_c1030-20261018.epru",
+  "sourceSha256": "87fb0a850f250a7c3fa64be7e661fe85a96d1c7f684f5c16fc22f7be4a70990a",
+  "touched": [
+    {
+      "type": "COMPONENT",
+      "id": "22492dfdcfa7b019",
+      "ref": "C103",
+      "key": null,
+      "action": "place"
+    }
+  ],
+  "created": [],
+  "changes": [
+    {
+      "key": "COMPONENT:22492dfdcfa7b019",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:22492dfdcfa7b019ee0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:22492dfdcfa7b019ee11",
+      "fields": [
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    },
+    {
+      "key": "ATTR:22492dfdcfa7b019e0",
+      "fields": [
+        "angle"
+      ],
+      "allowed": true,
+      "requiresGeometryAudit": false
+    }
+  ],
+  "issues": [],
+  "failure": null,
+  "containmentPassed": true,
+  "requiresIndependentGeometryAudit": false,
+  "saved": false,
+  "manufacturingReady": false
+}

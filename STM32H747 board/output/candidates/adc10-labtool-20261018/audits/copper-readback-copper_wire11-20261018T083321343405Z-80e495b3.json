@@ -1,0 +1,1921 @@
+{
+  "schema": "stm32h747-independent-copper-readback-v1",
+  "nativeApiCalls": 0,
+  "nativeDesignModified": false,
+  "manufacturingReady": false,
+  "errors": [],
+  "qualifiedNormalizations": [
+    {
+      "key": "FILL:e680230ef8d2c5dd",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:e680230ef8d2c5dd",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:f9e70adc3ac35fbd",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:f9e70adc3ac35fbd",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:41fd0322eb2cc785",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:41fd0322eb2cc785",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:5277e1b9c83312a9",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:5277e1b9c83312a9",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:b99d5f8f2cae6046",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:b99d5f8f2cae6046",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:ef12098577a13cc7",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:ef12098577a13cc7",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:a1d7888349e74585",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:a1d7888349e74585",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:2fb535085249015d",
+      "kind": "refs-null-to-single-null-array"
+    },
+    {
+      "key": "FILL:2fb535085249015d",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:5f1a08e50674b992",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:81c125c408255142",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:cd7340fc7969b3f7",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:41ce01050cc616ca",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:b2781b03571cff32",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:533c2404fb3254b0",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:feddd92acb19dd87",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:1c1fc14a9bdc5f3a",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:5e6885464c593aa2",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:89b5522aec4acd51",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:cb9a4d1834a16058",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:5194e6bd254fb603",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:74bc8adda65821ee",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:95a64cc9c7db9366",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:dd950b97b9313f81",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:3350746c2023c38f",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:57ee3f1a649977fc",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:679ec041a982ee4e",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:70811802e024a968",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:bfd0f02bf1d27b31",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:4739a5d4d4714cec",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:422b06be9561c5d1",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:982e7a2aed0043ec",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:2ecc80dca20a0354",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:f684621e8579476e",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:fab0b10bd7cc63ba",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:03a93765ec96f3d5",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "key": "FILL:55419d37610e6422",
+      "kind": "native-4dp-mil-path-serialization",
+      "maxPerAxisBoundMil": 5e-05,
+      "maxPerAxisBoundMm": 1.27e-06
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "requestedWidthMil": 9.84251969,
+      "serializedWidthMil": 9.8425,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "requestedWidthMil": 9.84251969,
+      "serializedWidthMil": 9.8425,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 2,
+      "requestedWidthMil": 9.84251969,
+      "serializedWidthMil": 9.8425,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "-3V_AFE",
+      "layerId": 15,
+      "requestedWidthMil": 9.84251969,
+      "serializedWidthMil": 9.8425,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "AFE_FLY_N",
+      "layerId": 1,
+      "requestedWidthMil": 15.7480315,
+      "serializedWidthMil": 15.748,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "AFE_FLY_P",
+      "layerId": 1,
+      "requestedWidthMil": 15.7480315,
+      "serializedWidthMil": 15.748,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "AFE_PUMP_IN",
+      "layerId": 1,
+      "requestedWidthMil": 15.7480315,
+      "serializedWidthMil": 15.748,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "requestedWidthMil": 15.7480315,
+      "serializedWidthMil": 15.748,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "requestedWidthMil": 13.77952756,
+      "serializedWidthMil": 13.7795,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "kind": "native-4dp-mil-line-width-serialization",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "requestedWidthMil": 13.77952756,
+      "serializedWidthMil": 13.7795,
+      "maxBoundMil": 5e-05
+    },
+    {
+      "plannedKey": "LABTOOL_LOCAL_0412",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "widthMil": 8,
+      "originalACmil": [
+        1157.4803,
+        3289.37,
+        1011.811,
+        3478.3465
+      ],
+      "exactIntersectionMil": [
+        "9718138309799/9448825000",
+        "34566929/10000"
+      ],
+      "serializedJunctionMil": [
+        1028.5023,
+        3456.6929
+      ],
+      "perAxisSerializationDeltaMil": [
+        -6.879320973771871e-06,
+        0.0
+      ],
+      "perAxisKnownGridBoundMil": 5e-05,
+      "actualSplitIds": [
+        "06e4e9cdd77323ba",
+        "e037cb9f75a626cf"
+      ],
+      "normalizedSegmentsMil": [
+        [
+          1157.4803,
+          3289.37,
+          1028.5023,
+          3456.6929
+        ],
+        [
+          1028.5023,
+          3456.6929,
+          1011.811,
+          3478.3465
+        ]
+      ],
+      "normalizedNativeGeometryExact": true,
+      "originalVsActualCenterlineUnionExact": false,
+      "physicalCopperUnionEqualVsUnserializedPlan": false,
+      "kind": "root-approved-one-native-intersection-q4mil-serialization",
+      "reviewPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\root-wire10-junction-serialization-review.json",
+      "reviewSha256": "90aab429165937b7b16143fc041defbb12ffe92b176bdb65ffd184dd806d6918",
+      "diagnosticSha256": "b4b1d61af107bc6d3f804237e76d433f2999fec79c76f876792848207c43c466"
+    }
+  ],
+  "reviewedInputsIndependentlyRecompiledExact": true,
+  "specificJunctionReview": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\root-wire10-junction-serialization-review.json",
+    "sha256": "90aab429165937b7b16143fc041defbb12ffe92b176bdb65ffd184dd806d6918",
+    "diagnosticPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\wire10-offset-junction-diagnostic-v1.json",
+    "diagnosticSha256": "b4b1d61af107bc6d3f804237e76d433f2999fec79c76f876792848207c43c466",
+    "failedOriginalAuditPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\audits\\copper-readback-copper_wire10-20261018T082006405892Z-0f0e4fc7.json",
+    "failedOriginalAuditSha256": "4388b17cd27fcbcc47132b7d06e623f0e54dbc9ad7ede34c1b8349d3b36d0022",
+    "nativeGeometryChangeAuthorized": false,
+    "globalToleranceAuthorized": false,
+    "originalPhysicalExactEqualityClaimed": false
+  },
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\pcb-final-copper-v5-execution.json",
+  "manifestSha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "stage": "copper_wire11",
+  "baselinePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+  "baselineSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "actualPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire11-20261018.epru",
+  "actualSha256": "be9e7846c8e7209d67525027aacdcc853f925bb79728c71ac34af84a7c0123f6",
+  "receiptEvidence": [
+    {
+      "stage": "copper_fill0",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill0-receipt.json",
+      "receiptSha256": "357b1039aca26d70e93735ad048e9aa6fa53539b64d9551f90caba9f1aeea349",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill0-20261018.epru",
+      "captureSha256": "76dee40fe5f2f8f06482aa2f88b940c572464d8a349aabc164dc4316c42abdb1",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_fill1",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill1-receipt.json",
+      "receiptSha256": "ea2924b4a0c339334e0aa5aa86bb09a57838f5c0aa9a4fa4b6fe920b5abccdf3",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill1-20261018.epru",
+      "captureSha256": "300a163f16d722bd16050ff296f22fd5f4be57eca4c482b31bfdc8b960a69cc3",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_fill2",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill2-receipt.json",
+      "receiptSha256": "873c53c2e79af328f10cfc7b8ce18cb8731769d300db0d2142256e40fb1361cd",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill2-20261018.epru",
+      "captureSha256": "575eaa9fa86851aedc7c64a2e3b5427f1ecaabe900eef37ffb225201f7ec8c4c",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_fill3",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill3-receipt.json",
+      "receiptSha256": "43a87be1de486e1ba3cacd4a68b9f1658e4fbdb3d569ee568ccaedadf0190b00",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill3-20261018.epru",
+      "captureSha256": "fa42cc79860fe935d0d6986172f8c282f170d35c7f9aa7c896a881d65b9a0aff",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_fill4",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_fill4-receipt.json",
+      "receiptSha256": "f8fb8af838a07dec17a3a1739a87b2373607aafc8ba7f7d985b2773c1ac35040",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_fill4-20261018.epru",
+      "captureSha256": "2d347870f4c85826c348ba5692b4e5946506d3a57eca01446c119bfc9c0e2c31",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_via0",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_via0-receipt.json",
+      "receiptSha256": "7e2791abd226c90b1daf00778d86727968e007559696c168672d76247bbfb9af",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_via0-20261018.epru",
+      "captureSha256": "0aef8a42bede89a4b8fc30a9ae8237975f61f3ad224a3546d4333e457025d23f",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_via1",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_via1-receipt.json",
+      "receiptSha256": "2580a5ed73e23105c57841f2a97b06d32f21758d45abfc2bec311aa2cdf66cfd",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_via1-20261018.epru",
+      "captureSha256": "0c6adc347d555d387bb3efa793725395e1d81079cbf43863c359f902a44a97bb",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_via2",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_via2-receipt.json",
+      "receiptSha256": "b2f13d5f6b13f7056b19d79029f5cd44d5911cc3212760ae66a4ac12f4e761f4",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_via2-20261018.epru",
+      "captureSha256": "368e1d96891ea298a81aab6682e4a3b7421057b1d820f37b3baee293fbc122b5",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire0",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire0-receipt.json",
+      "receiptSha256": "e3985f519c119864135e1175a96e0680cdf1780bd3f9bc28c3a50e4156307235",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire0-20261018.epru",
+      "captureSha256": "fabb9b79a483229b48be1c3c44067b1ea9348f68d28ad98a2ae51997844b9688",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire1",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire1-receipt.json",
+      "receiptSha256": "ca41bea18e722e4f7485ce73757496d996a8d84285ca031d490e025353c61ccf",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire1-20261018.epru",
+      "captureSha256": "05d85a561a2444a8e0674cfa2e1a0c4d2ed92c0ba72b32dae8e3228462145dce",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire2",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire2-receipt.json",
+      "receiptSha256": "5fb8c89a6dcf4f4ea9e7254f294449f5e32c135f9c46b03c8132a878ed6dc08d",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire2-20261018.epru",
+      "captureSha256": "ae8cf4d7b30fe5cab2b4e015bef12b696bcdd01b08c8c9788f1bcf2598e0145f",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire3",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire3-receipt.json",
+      "receiptSha256": "9d60499da282d46305e6f57e4523dbae5818687e61e7d9435669c064f1f2b927",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire3-20261018.epru",
+      "captureSha256": "78a047d311cf172ed00c57e955a858578f78a3ba9570e6708a40f6a76016bce4",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire4",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire4-receipt.json",
+      "receiptSha256": "f313f6acd9f33944d56dab62305f4a356e333dd6954658e177dcb9229bda31ea",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire4-20261018.epru",
+      "captureSha256": "ac9e33ea8c1be6ad88bcbc0e81c02f2979d9f29e07ac931849f06524df4be1ac",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire5",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire5-receipt.json",
+      "receiptSha256": "a38fafec995d855fc2192914c3f5cf8cacc9979da471a089663d8b101fca2be9",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire5-20261018.epru",
+      "captureSha256": "fa1eacf00996843f71a4bc26c17502f3433de86f2ac6b9db962bd30632581373",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire6",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire6-receipt.json",
+      "receiptSha256": "809942f61daee22134ce7936c7f8554dcc8d41eda1780da89c52331d510ba9bf",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire6-20261018.epru",
+      "captureSha256": "db240f6da11b2f010bb657add99fbc91a42469dc275499a916d346a9973c7098",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire7",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire7-receipt.json",
+      "receiptSha256": "3bf0cd73ed92ce779f5f5472de97729a69a0e4db77866fbf6391b52491c7046b",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire7-20261018.epru",
+      "captureSha256": "2bf162f0c736acd0c209a44205e7f3149d450975bd979a6872927415bcd66eac",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire8",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire8-receipt.json",
+      "receiptSha256": "9ee40594eabfecb260c315fd9936893db6f79a7c5470c4b597c1aca29c267535",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire8-20261018.epru",
+      "captureSha256": "7023d353658f622dfb8c5a838298f6151474eb4eb1c007045076266de33e49b7",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire9",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire9-receipt.json",
+      "receiptSha256": "a8babc4afbe1d0df07f166196499fde52b971e6834add218f08572bf7231d3ef",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire9-20261018.epru",
+      "captureSha256": "4eea0243a2fb438b2c0fdc9d572663cf047e6aca4eaa1eff2353b191f6bdaed0",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire10",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire10-receipt.json",
+      "receiptSha256": "82f46ee9f1f15e055dff87f258491ec746244ab87276c2395cdb836357aa4ce4",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire10-20261018.epru",
+      "captureSha256": "6786a3df2a3795793219d85858560e421afb8ac9515b52ef4012c9360c24736e",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    },
+    {
+      "stage": "copper_wire11",
+      "receiptPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\native-pcb-copper_wire11-receipt.json",
+      "receiptSha256": "3c6d39f50cb539897270dd3c354020a118ad92244ec6f3e5dd961704e28767d8",
+      "capturePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire11-20261018.epru",
+      "captureSha256": "be9e7846c8e7209d67525027aacdcc853f925bb79728c71ac34af84a7c0123f6",
+      "executorContainmentPassed": true,
+      "executorIssues": []
+    }
+  ],
+  "completedOperationCounts": {
+    "fill": 8,
+    "fill_create": 28,
+    "via": 64,
+    "line": 480
+  },
+  "geometryHelper": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\plan-local-static-fill-clearance.py",
+    "sha256": "d42603119ada33cbe629e7549ab03c563a212c210b8c2b5f2c2a32dc37becf40",
+    "integerScalePerMm": 1000000
+  },
+  "protectedExactBodyCounts": {
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "NET": 323,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 323,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 640,
+    "PAD": 4,
+    "LINE": 5314,
+    "ARC": 2184,
+    "FILL": 714,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 437,
+    "ATTR": 1311,
+    "PAD_NET": 1523
+  },
+  "baselineCounts": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 323,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 323,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 640,
+    "PAD": 4,
+    "LINE": 5515,
+    "ARC": 2184,
+    "FILL": 722,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 437,
+    "ATTR": 1311,
+    "PAD_NET": 1523
+  },
+  "actualCounts": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 64,
+    "LAYER_PHYS": 17,
+    "ACTIVE_LAYER": 1,
+    "NET": 323,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "RULE_SELECTOR": 323,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 704,
+    "PAD": 4,
+    "LINE": 6003,
+    "ARC": 2184,
+    "FILL": 750,
+    "POLY": 500,
+    "STRING": 21,
+    "COMPONENT": 437,
+    "ATTR": 1311,
+    "PAD_NET": 1523
+  },
+  "geometryEligibleOldRecordCount": 209,
+  "originalPhysicalDrillPreservationQualification": "All original 640 VIA, 437 COMPONENT, all ATTR, PAD_NET, free PAD and library-binding bodies exact; library documents are outside this PCB capture and require checkpoint audit.",
+  "lineGeometryProofs": [
+    {
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 37,
+      "actualSegments": 37,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMil": 9.8425,
+      "expectedSegments": 9,
+      "actualSegments": 9,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "widthMil": 13.7795,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 30,
+      "actualSegments": 30,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "-3V_AFE",
+      "layerId": 15,
+      "widthMil": 9.8425,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMil": 9.8425,
+      "expectedSegments": 9,
+      "actualSegments": 9,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J10_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J10_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J10_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J10_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J10_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J10_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J11_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J11_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J11_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J11_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J11_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J11_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J2_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J2_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J2_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J2_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J2_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J2_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J3_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J3_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J3_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J3_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J3_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J3_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J4_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J4_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J4_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J4_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J4_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J4_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J5_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J5_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J5_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J5_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J5_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J5_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J6_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J6_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J6_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J6_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J6_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J6_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J7_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J7_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J7_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J7_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J7_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J7_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J8_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J8_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J8_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J8_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J8_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J8_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J9_BUF",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J9_DRV",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J9_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J9_RAW",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J9_RAW",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_J9_SUM",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "widthMil": 23.622,
+      "expectedSegments": 5,
+      "actualSegments": 12,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 64,
+      "actualSegments": 64,
+      "exactRationalCenterlineUnionEqual": false,
+      "physicalCopperUnionEqual": false,
+      "physicalCopperUnionEqualVsUnserializedPlan": false,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": true,
+      "physicalUnionProof": "Original unserialized AC and actual ABC are NOT equal. Only this fixed root-approved q4mil intersection split is compared to the exact normalized expected ABC; area is not an acceptance criterion."
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 2,
+      "widthMil": 9.8425,
+      "expectedSegments": 4,
+      "actualSegments": 4,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_FLY_N",
+      "layerId": 1,
+      "widthMil": 15.748,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_FLY_P",
+      "layerId": 1,
+      "widthMil": 15.748,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_OFFSET_BUFFER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 5,
+      "actualSegments": 5,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_OFFSET_FILTER",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 7,
+      "actualSegments": 7,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_PUMP_IN",
+      "layerId": 1,
+      "widthMil": 15.748,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_REF_2V5",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 8,
+      "actualSegments": 8,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_REF_ESR",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 3,
+      "actualSegments": 3,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_REF_NR",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 4,
+      "actualSegments": 4,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "widthMil": 13.7795,
+      "expectedSegments": 4,
+      "actualSegments": 4,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "widthMil": 15.748,
+      "expectedSegments": 2,
+      "actualSegments": 2,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 11.811,
+      "expectedSegments": 4,
+      "actualSegments": 4,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 5.9055,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 14.6063,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 14.9213,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 15.3543,
+      "expectedSegments": 1,
+      "actualSegments": 1,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 31.4961,
+      "expectedSegments": 10,
+      "actualSegments": 10,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 14.1732,
+      "expectedSegments": 6,
+      "actualSegments": 6,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 19.685,
+      "expectedSegments": 9,
+      "actualSegments": 9,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 15.748,
+      "expectedSegments": 102,
+      "actualSegments": 102,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 9.8425,
+      "expectedSegments": 20,
+      "actualSegments": 20,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 7.874,
+      "expectedSegments": 2,
+      "actualSegments": 2,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    },
+    {
+      "net": "GND",
+      "layerId": 1,
+      "widthMil": 8.0,
+      "expectedSegments": 12,
+      "actualSegments": 12,
+      "exactRationalCenterlineUnionEqual": true,
+      "physicalCopperUnionEqual": true,
+      "physicalCopperUnionEqualVsUnserializedPlan": true,
+      "normalizedNativeGeometryExact": true,
+      "rootSpecificJunctionNormalizationApplied": false,
+      "physicalUnionProof": "Equal exact rational centerline sets at the same serialized width imply identical Minkowski sums with the same round-cap disk; no buffer tessellation tolerance is used."
+    }
+  ],
+  "parentAndLobeCopperAdditionProofs": [
+    {
+      "parent": "e680230ef8d2c5dd",
+      "createdLobes": 26,
+      "finalLobeCount": 26,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    },
+    {
+      "parent": "f9e70adc3ac35fbd",
+      "createdLobes": 0,
+      "finalLobeCount": 0,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    },
+    {
+      "parent": "41fd0322eb2cc785",
+      "createdLobes": 0,
+      "finalLobeCount": 0,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    },
+    {
+      "parent": "5277e1b9c83312a9",
+      "createdLobes": 0,
+      "finalLobeCount": 0,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    },
+    {
+      "parent": "b99d5f8f2cae6046",
+      "createdLobes": 0,
+      "finalLobeCount": 0,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    },
+    {
+      "parent": "ef12098577a13cc7",
+      "createdLobes": 0,
+      "finalLobeCount": 0,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    },
+    {
+      "parent": "a1d7888349e74585",
+      "createdLobes": 2,
+      "finalLobeCount": 2,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    },
+    {
+      "parent": "2fb535085249015d",
+      "createdLobes": 0,
+      "finalLobeCount": 0,
+      "allParentLobesPresent": true,
+      "addedCopperIntegerAreaMm2": 0.0
+    }
+  ],
+  "scopeQualification": "This independently proves cumulative completed native PCB records and copper geometry only. It does not establish strict DRC, netlist/MCU-VSS graph reachability, CAM output, analog stability, or manufacturing approval.",
+  "passed": true,
+  "auditedUtc": "2026-10-18T08:33:21.341344+00:00",
+  "auditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-copper-readback-20261018.py",
+  "auditorSha256": "110e20bdf70b890e6ab7f9a899ea3766a1ea017551a70dbd7b42261aa5eb4111"
+}

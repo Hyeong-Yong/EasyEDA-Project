@@ -1,0 +1,89 @@
+{
+  "schema": "adc10-labtool-bottom-bus-draft-20261018-v1",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "portsPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\six-layer-via-port-candidates-commonpower-v4.json",
+  "portsSha256": "7442307c0c676c975f2855e516b1e5422b991071f5c838c21a8cb802190b58d4",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "newLineCreates": [
+    {
+      "key": "LABTOOL_BOTTOM_0001",
+      "net": "-3V_AFE",
+      "layerId": 15,
+      "widthMm": 0.25,
+      "startXYmm": [
+        40.3,
+        31.7
+      ],
+      "endXYmm": [
+        12.9,
+        36.400000000000006
+      ],
+      "role": "FilterednegativeDCfeedonexistinginnerSIGNALlayer"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0002",
+      "net": "-3V_AFE",
+      "layerId": 15,
+      "widthMm": 0.25,
+      "startXYmm": [
+        12.9,
+        36.400000000000006
+      ],
+      "endXYmm": [
+        12.100000000000001,
+        36.900000000000006
+      ],
+      "role": "FilterednegativeDCfeedonexistinginnerSIGNALlayer"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0003",
+      "net": "-3V_AFE",
+      "layerId": 15,
+      "widthMm": 0.25,
+      "startXYmm": [
+        12.100000000000001,
+        36.900000000000006
+      ],
+      "endXYmm": [
+        8.9,
+        37.5
+      ],
+      "role": "FilterednegativeDCfeedonexistinginnerSIGNALlayer"
+    }
+  ],
+  "connections": [
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeDCfeedonexistinginnerSIGNALlayer",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0001",
+        "LABTOOL_BOTTOM_0002",
+        "LABTOOL_BOTTOM_0003"
+      ],
+      "lengthMm": 31.999342087958908
+    }
+  ],
+  "failedConnections": [],
+  "literalCopperConflicts": [],
+  "existingRawSource": {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "+5V",
+    "xyMm": [
+      89.34000166,
+      19.85999838
+    ]
+  },
+  "existingInvalidBottomFillsNotSilentlyRepaired": [],
+  "requiresLocalGroundFillVoids": true,
+  "clearanceMm": 0.17,
+  "existingViaChanges": 0,
+  "existingDrillChanges": 0,
+  "manufacturingReady": false,
+  "limitations": [
+    "NoGND FILLpathwrites;authoritativepreserving-splithelpermustsubtracteachtracewith.17mmclearance.",
+    "AllnewVIAantipadsandTOPstubconnectivityareseparaterequiredphases.",
+    "FullnativeDRC/sourceauditmustfollow,includingpreservingall799existingdrills/6layers/18rules."
+  ]
+}

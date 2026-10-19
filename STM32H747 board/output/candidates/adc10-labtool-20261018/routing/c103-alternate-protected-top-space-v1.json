@@ -1,0 +1,100 @@
+{
+  "schema": "c103-alternate-two-part-protected-top-space-exploration-v1",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "sourceSha256": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+  "frozenV2Sha256": "fef1c7280edc8412c5f154f9663580f4ef49695746fb35250433ad02e4f59ed3",
+  "placementSha256": "7121af6778ac0a04d674d8ac355122fb613cd4028201dd7ad18e6dae606387fe",
+  "U9VinXYmm": [
+    25.465001139999977,
+    74.20000112979997
+  ],
+  "directLeftCandidateBlockers": [
+    {
+      "key": "LINE:2a9ff003fb8cd12f",
+      "net": "+3v3",
+      "layers": [
+        1
+      ],
+      "boundsMm": [
+        13.69760024,
+        73.42260144,
+        23.65240126,
+        73.72740144
+      ],
+      "sourceOriginal": true
+    },
+    {
+      "key": "LINE:72e22141ff47aa7c",
+      "net": "+3v3",
+      "layers": [
+        1
+      ],
+      "boundsMm": [
+        23.34760126,
+        68.04760076,
+        23.65240126,
+        73.72740144
+      ],
+      "sourceOriginal": true
+    },
+    {
+      "key": "PAD:U9:1:6c8c3c1d2057a508",
+      "net": "",
+      "layers": [
+        1
+      ],
+      "boundsMm": [
+        23.895001143099996,
+        73.4250011304,
+        24.495001136899997,
+        74.9750011292
+      ],
+      "sourceOriginal": true
+    },
+    {
+      "key": "LABTOOL_LOCAL_0431",
+      "net": "afe_ref_2v5",
+      "layers": [
+        1
+      ],
+      "boundsMm": [
+        24.748417942049763,
+        73.14841794204976,
+        25.00158205795024,
+        75.00158205795024
+      ],
+      "sourceOriginal": false
+    }
+  ],
+  "acceptedPlacements": {
+    "C103": 0,
+    "C160": 2
+  },
+  "searchRejections": {
+    "C103": {
+      "court": 4960
+    },
+    "C160": {
+      "court": 4954,
+      "padCu": 4
+    }
+  },
+  "testedCenterRegionMm": [
+    24,
+    69,
+    31.8,
+    75
+  ],
+  "gridMm": 0.2,
+  "topOnlyC103VinUnder5mmRouteCount": 0,
+  "pairOptions": [],
+  "conclusion": "NO_TWO_PART_TOP_OPTION_FOUND_WITHIN_REVIEWED_BOUNDED_REGION",
+  "limitations": [
+    "This is an alternative-space search, not an executable placement or final route module.",
+    "Only C103/C160 positions were variable; original copper deletion and unrelated placement changes are not proposed.",
+    "No GND return/site is approved by this search; all6/drill screens and actual MCU-VSS connectivity remain required.",
+    "The left candidate is blocked by original +3V3 copper as recorded; moving only a new low-impedance AFE_REF_2V5 branch cannot remove that original obstruction.",
+    "A no-option result is bounded to the stated grid, region, conservative native courts and direct/one-bend TOP paths, not a proof that all possible layouts are impossible."
+  ]
+}

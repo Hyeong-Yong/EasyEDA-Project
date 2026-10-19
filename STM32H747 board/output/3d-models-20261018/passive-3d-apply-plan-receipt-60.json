@@ -1,0 +1,1670 @@
+{
+  "plan": "passive-3d-apply-plan",
+  "start": 60,
+  "count": 60,
+  "refs": [
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C80",
+    "C81",
+    "C82",
+    "C86",
+    "C87",
+    "C88",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "C98",
+    "C99",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132"
+  ],
+  "before": [
+    {
+      "ref": "C63",
+      "id": "30899d424a52f377",
+      "other": {
+        "Footprint": "C63_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C63_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I48"
+      }
+    },
+    {
+      "ref": "C64",
+      "id": "5ba1b29a459ea37a",
+      "other": {
+        "Footprint": "C64_2_CustomLibrary:C_0603_1608M_HandSolder",
+        "Value": "10u",
+        "Description": "CAP CER 10UF 10V X5R 0603",
+        "Part Number": "CL10A106KP8NNNC",
+        "Package": "0603",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0603_1608M_HandSolder",
+        "Device": "C64_10u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I49"
+      }
+    },
+    {
+      "ref": "C65",
+      "id": "353840f44e7d07e3",
+      "other": {
+        "Footprint": "C65_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C65_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I50"
+      }
+    },
+    {
+      "ref": "C66",
+      "id": "3b004901838dfa23",
+      "other": {
+        "Footprint": "C66_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C66_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I51"
+      }
+    },
+    {
+      "ref": "C67",
+      "id": "712d5383adbe13fa",
+      "other": {
+        "Footprint": "C67_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C67_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I52"
+      }
+    },
+    {
+      "ref": "C68",
+      "id": "f8b9f62dc7632a14",
+      "other": {
+        "Footprint": "C68_2_CustomLibrary:C_0603_1608M",
+        "Value": "1u",
+        "Description": "CAP CER 1UF 16V X7R 0603",
+        "Part Number": "CL10B105KO8NNNC",
+        "Package": "0603",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0603_1608M",
+        "Device": "C68_1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I53"
+      }
+    },
+    {
+      "ref": "C69",
+      "id": "91d96c086bf3c74d",
+      "other": {
+        "Footprint": "C69_2_CustomLibrary:C_0402_1005M",
+        "Value": "470p",
+        "Description": "CAP CER 470PF 50V X7R 0402",
+        "Part Number": "CL05B471KB5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C69_470p",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I54"
+      }
+    },
+    {
+      "ref": "C70",
+      "id": "746fccd235171824",
+      "other": {
+        "Footprint": "C70_2_CustomLibrary:C_1206_3216M",
+        "Value": "1n",
+        "Description": "CAP CER 1000PF 2KV X7R 1206",
+        "Part Number": "CL31B102KJHNNNE",
+        "Package": "1206",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_1206_3216M",
+        "Device": "C70_1n",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I55"
+      }
+    },
+    {
+      "ref": "C71",
+      "id": "8018eafea0a3cbd7",
+      "other": {
+        "Footprint": "C71_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C71_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I56"
+      }
+    },
+    {
+      "ref": "C72",
+      "id": "5ee777f36ee5ce9e",
+      "other": {
+        "Footprint": "C72_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C72_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I57"
+      }
+    },
+    {
+      "ref": "C73",
+      "id": "8b560cf1158da42a",
+      "other": {
+        "Footprint": "C73_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C73_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I58"
+      }
+    },
+    {
+      "ref": "C74",
+      "id": "5d143aac401029e7",
+      "other": {
+        "Footprint": "C74_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C74_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I59"
+      }
+    },
+    {
+      "ref": "C75",
+      "id": "249376bed7460d25",
+      "other": {
+        "Footprint": "C75_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C75_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I60"
+      }
+    },
+    {
+      "ref": "C76",
+      "id": "fceb88369110c8e5",
+      "other": {
+        "Footprint": "C76_2_CustomLibrary:C_0402_1005M",
+        "Value": "0.1u",
+        "Description": "CAP CER 0.1UF 16V X7R 0402",
+        "Part Number": "CL05B104KO5NNNC",
+        "Package": "0402",
+        "DNP": "no",
+        "Supplier Footprint": "2_CustomLibrary:C_0402_1005M",
+        "Device": "C76_0.1u",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I61"
+      }
+    },
+    {
+      "ref": "C80",
+      "id": "2205c1d5b75f10be",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I51"
+      }
+    },
+    {
+      "ref": "C81",
+      "id": "653f35ee257159b1",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I52"
+      }
+    },
+    {
+      "ref": "C82",
+      "id": "c798560ccd8d6fdc",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I53"
+      }
+    },
+    {
+      "ref": "C86",
+      "id": "adf693152f92bfee",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3fe36865277405783"
+      }
+    },
+    {
+      "ref": "C87",
+      "id": "c6e18f6b93b30e73",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I55"
+      }
+    },
+    {
+      "ref": "C88",
+      "id": "ff09acb80f2b6f5d",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I56"
+      }
+    },
+    {
+      "ref": "C93",
+      "id": "7302dfc7469ffe1e",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I57"
+      }
+    },
+    {
+      "ref": "C94",
+      "id": "91e52e82be11b4d5",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I58"
+      }
+    },
+    {
+      "ref": "C95",
+      "id": "e791b87d774a58b4",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I59"
+      }
+    },
+    {
+      "ref": "C96",
+      "id": "c55bf03af9cc1274",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I60"
+      }
+    },
+    {
+      "ref": "C97",
+      "id": "eea530b12b3d6f40",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I138"
+      }
+    },
+    {
+      "ref": "C98",
+      "id": "a98e8e75624cbb46",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I139"
+      }
+    },
+    {
+      "ref": "C99",
+      "id": "999e9dd81bd08253",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I141"
+      }
+    },
+    {
+      "ref": "C100",
+      "id": "b34bdc3c5fee4f8b",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I137"
+      }
+    },
+    {
+      "ref": "C101",
+      "id": "f604eebb81922842",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I140"
+      }
+    },
+    {
+      "ref": "C102",
+      "id": "2bbbedecdf317c38",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I142"
+      }
+    },
+    {
+      "ref": "C103",
+      "id": "22492dfdcfa7b019",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+        "Value": "1uF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C1U_X7R_0603",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I115"
+      }
+    },
+    {
+      "ref": "C104",
+      "id": "a4b01fa7718db686",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0805",
+        "Value": "4.7uF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0805",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C4U7_X7R_0805",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I116"
+      }
+    },
+    {
+      "ref": "C105",
+      "id": "46ce8a9598af4769",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+        "Value": "1uF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C1U_X7R_0603",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I117"
+      }
+    },
+    {
+      "ref": "C106",
+      "id": "0255eedec1ab23fe",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I154"
+      }
+    },
+    {
+      "ref": "C107",
+      "id": "f468151047bb41d3",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I156"
+      }
+    },
+    {
+      "ref": "C108",
+      "id": "6e3576eff4f908ef",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I158"
+      }
+    },
+    {
+      "ref": "C109",
+      "id": "bfd16e6dbe4388a0",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I160"
+      }
+    },
+    {
+      "ref": "C110",
+      "id": "18ed44c7a7f0e082",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I162"
+      }
+    },
+    {
+      "ref": "C111",
+      "id": "877d2677cfaf6259",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I164"
+      }
+    },
+    {
+      "ref": "C112",
+      "id": "86aa8424dbcbfcee",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I166"
+      }
+    },
+    {
+      "ref": "C113",
+      "id": "e2f3db272f27b23e",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I155"
+      }
+    },
+    {
+      "ref": "C114",
+      "id": "0033437ab8137387",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I157"
+      }
+    },
+    {
+      "ref": "C115",
+      "id": "401f0e8d6a22c3b0",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I159"
+      }
+    },
+    {
+      "ref": "C116",
+      "id": "b6a2f30d98601684",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I161"
+      }
+    },
+    {
+      "ref": "C117",
+      "id": "35ca952e41414ea7",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I163"
+      }
+    },
+    {
+      "ref": "C118",
+      "id": "4499ce70d762c342",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I165"
+      }
+    },
+    {
+      "ref": "C119",
+      "id": "c4e75a995045150a",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I167"
+      }
+    },
+    {
+      "ref": "C120",
+      "id": "475b53fd5de91d46",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I188"
+      }
+    },
+    {
+      "ref": "C121",
+      "id": "2198d8e771d96c97",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I189"
+      }
+    },
+    {
+      "ref": "C122",
+      "id": "7517ec6faceca2df",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I190"
+      }
+    },
+    {
+      "ref": "C123",
+      "id": "051b428479cf1c1a",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I191"
+      }
+    },
+    {
+      "ref": "C124",
+      "id": "4074fd279f58920f",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I192"
+      }
+    },
+    {
+      "ref": "C125",
+      "id": "78c258cd803a71ec",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I193"
+      }
+    },
+    {
+      "ref": "C126",
+      "id": "970a053aba29013a",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I194"
+      }
+    },
+    {
+      "ref": "C127",
+      "id": "9ff73e946beaf59c",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I195"
+      }
+    },
+    {
+      "ref": "C128",
+      "id": "9bf717abdf5192ed",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I196"
+      }
+    },
+    {
+      "ref": "C129",
+      "id": "829f85a73740f5af",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I197"
+      }
+    },
+    {
+      "ref": "C130",
+      "id": "8177eb8e5289b8e4",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I198"
+      }
+    },
+    {
+      "ref": "C131",
+      "id": "a2d024490b024035",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "10nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I199"
+      }
+    },
+    {
+      "ref": "C132",
+      "id": "34f38e4fa2786449",
+      "other": {
+        "Footprint": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "Value": "100nF",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater",
+        "Device": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I200"
+      }
+    }
+  ],
+  "saved": true,
+  "afterModels": [
+    {
+      "ref": "C63",
+      "id": "30899d424a52f377",
+      "footprintUuid": "471747e3bee4dd5f",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C64",
+      "id": "5ba1b29a459ea37a",
+      "footprintUuid": "8411e6a5f92616ef",
+      "family": "0603C",
+      "model": "624118aa3cc7497086c383c2d72e0852|0819f05c4eef4c71ace90d822a990e87",
+      "title": "C0603_L1.6-W0.8-H0.8",
+      "transform": "62.99212598,31.49606299,31.49606299,270,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C65",
+      "id": "353840f44e7d07e3",
+      "footprintUuid": "0d1f053286042996",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,270,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C66",
+      "id": "3b004901838dfa23",
+      "footprintUuid": "b35ef43baa3b5762",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,270,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C67",
+      "id": "712d5383adbe13fa",
+      "footprintUuid": "514e18e5b94f0938",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C68",
+      "id": "f8b9f62dc7632a14",
+      "footprintUuid": "246c88e783ae0e49",
+      "family": "0603C",
+      "model": "624118aa3cc7497086c383c2d72e0852|0819f05c4eef4c71ace90d822a990e87",
+      "title": "C0603_L1.6-W0.8-H0.8",
+      "transform": "62.99212598,31.49606299,31.49606299,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C69",
+      "id": "91d96c086bf3c74d",
+      "footprintUuid": "6ec74eac1a87e9f5",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C70",
+      "id": "746fccd235171824",
+      "footprintUuid": "26b8101ee64d1049",
+      "family": "1206C",
+      "model": "02d7240ddd1f4fa09203e2ae369f23c6|0819f05c4eef4c71ace90d822a990e87",
+      "title": "C1206_L3.2-W1.6-H1.3",
+      "transform": "125.98425197,62.99212598,51.18110236,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C71",
+      "id": "8018eafea0a3cbd7",
+      "footprintUuid": "181f68ac2608ae56",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C72",
+      "id": "5ee777f36ee5ce9e",
+      "footprintUuid": "6b28b81f337d16c2",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C73",
+      "id": "8b560cf1158da42a",
+      "footprintUuid": "f34b6f88ebfe9009",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,0,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C74",
+      "id": "5d143aac401029e7",
+      "footprintUuid": "706894d3af5aa46f",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C75",
+      "id": "249376bed7460d25",
+      "footprintUuid": "cca07ef2b8b00b03",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C76",
+      "id": "fceb88369110c8e5",
+      "footprintUuid": "479eb53348ab9ab5",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C80",
+      "id": "2205c1d5b75f10be",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C81",
+      "id": "653f35ee257159b1",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C82",
+      "id": "c798560ccd8d6fdc",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C86",
+      "id": "adf693152f92bfee",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C87",
+      "id": "c6e18f6b93b30e73",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C88",
+      "id": "ff09acb80f2b6f5d",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C93",
+      "id": "7302dfc7469ffe1e",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C94",
+      "id": "91e52e82be11b4d5",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C95",
+      "id": "e791b87d774a58b4",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C96",
+      "id": "c55bf03af9cc1274",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C97",
+      "id": "eea530b12b3d6f40",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C98",
+      "id": "a98e8e75624cbb46",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C99",
+      "id": "999e9dd81bd08253",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C100",
+      "id": "b34bdc3c5fee4f8b",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C101",
+      "id": "f604eebb81922842",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C102",
+      "id": "2bbbedecdf317c38",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C103",
+      "id": "22492dfdcfa7b019",
+      "footprintUuid": "4265bf1593bd2ff7",
+      "family": "0603C",
+      "model": "624118aa3cc7497086c383c2d72e0852|0819f05c4eef4c71ace90d822a990e87",
+      "title": "C0603_L1.6-W0.8-H0.8",
+      "transform": "62.99212598,31.49606299,31.49606299,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C104",
+      "id": "a4b01fa7718db686",
+      "footprintUuid": "7cd78de7fa8ab56e",
+      "family": "0805C",
+      "model": "8c88e81f49c6409b980720ec8953afb6|0819f05c4eef4c71ace90d822a990e87",
+      "title": "C0805_L2.0-W1.3-H1.3",
+      "transform": "78.74015748,51.18110236,51.18110236,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C105",
+      "id": "46ce8a9598af4769",
+      "footprintUuid": "4265bf1593bd2ff7",
+      "family": "0603C",
+      "model": "624118aa3cc7497086c383c2d72e0852|0819f05c4eef4c71ace90d822a990e87",
+      "title": "C0603_L1.6-W0.8-H0.8",
+      "transform": "62.99212598,31.49606299,31.49606299,90,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C106",
+      "id": "0255eedec1ab23fe",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C107",
+      "id": "f468151047bb41d3",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C108",
+      "id": "6e3576eff4f908ef",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C109",
+      "id": "bfd16e6dbe4388a0",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C110",
+      "id": "18ed44c7a7f0e082",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C111",
+      "id": "877d2677cfaf6259",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C112",
+      "id": "86aa8424dbcbfcee",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C113",
+      "id": "e2f3db272f27b23e",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C114",
+      "id": "0033437ab8137387",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C115",
+      "id": "401f0e8d6a22c3b0",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C116",
+      "id": "b6a2f30d98601684",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C117",
+      "id": "35ca952e41414ea7",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C118",
+      "id": "4499ce70d762c342",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C119",
+      "id": "c4e75a995045150a",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C120",
+      "id": "475b53fd5de91d46",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C121",
+      "id": "2198d8e771d96c97",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C122",
+      "id": "7517ec6faceca2df",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C123",
+      "id": "051b428479cf1c1a",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C124",
+      "id": "4074fd279f58920f",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C125",
+      "id": "78c258cd803a71ec",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C126",
+      "id": "970a053aba29013a",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C127",
+      "id": "9ff73e946beaf59c",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C128",
+      "id": "9bf717abdf5192ed",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C129",
+      "id": "829f85a73740f5af",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C130",
+      "id": "8177eb8e5289b8e4",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C131",
+      "id": "a2d024490b024035",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    },
+    {
+      "ref": "C132",
+      "id": "34f38e4fa2786449",
+      "footprintUuid": "33204de9fd4fd5be",
+      "family": "0402C",
+      "model": "6034de4795654a0c8c74309dab7cb0b9|0819f05c4eef4c71ace90d822a990e87",
+      "title": "0402C",
+      "transform": "39.37007874,19.68503937,19.68503937,180,0,0,0,0,0",
+      "relation": "package-equivalent visualization; not manufacturer-specific mechanical certification"
+    }
+  ]
+}

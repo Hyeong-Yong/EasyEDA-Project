@@ -1,0 +1,627 @@
+{
+  "schema": "adc10-labtool-bottom-bus-draft-20261018-v1",
+  "sourceSha256": "325e66e5e52bbf0f03f0dd7008a622e996b1ab1a59b22cb2c544ea2354dfdd87",
+  "portsPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\six-layer-via-port-candidates-commonpower-v3b.json",
+  "portsSha256": "abd798680464df5150daa41d78eaa8e58808b8796ac4fe1235cd22f84ea8d34b",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "newLineCreates": [
+    {
+      "key": "LABTOOL_BOTTOM_0001",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        12.4
+      ],
+      "endXYmm": [
+        15.5,
+        26.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0002",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        26.4
+      ],
+      "endXYmm": [
+        15.5,
+        40.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0003",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        40.4
+      ],
+      "endXYmm": [
+        15.5,
+        54.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0004",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        54.4
+      ],
+      "endXYmm": [
+        15.5,
+        68.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0005",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        68.4
+      ],
+      "endXYmm": [
+        15.5,
+        82.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0006",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        82.4
+      ],
+      "endXYmm": [
+        15.5,
+        96.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0007",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        96.4
+      ],
+      "endXYmm": [
+        15.5,
+        110.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0008",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        110.4
+      ],
+      "endXYmm": [
+        15.5,
+        124.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0009",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        15.5,
+        124.4
+      ],
+      "endXYmm": [
+        15.5,
+        138.4
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0010",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        9.5
+      ],
+      "endXYmm": [
+        8.9,
+        23.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0011",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        23.5
+      ],
+      "endXYmm": [
+        8.9,
+        37.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0012",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        37.5
+      ],
+      "endXYmm": [
+        8.9,
+        51.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0013",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        51.5
+      ],
+      "endXYmm": [
+        8.9,
+        65.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0014",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        65.5
+      ],
+      "endXYmm": [
+        8.9,
+        79.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0015",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        79.5
+      ],
+      "endXYmm": [
+        8.9,
+        93.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0016",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        93.5
+      ],
+      "endXYmm": [
+        8.9,
+        107.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0017",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        107.5
+      ],
+      "endXYmm": [
+        8.9,
+        121.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0018",
+      "net": "-3V_AFE",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        8.9,
+        121.5
+      ],
+      "endXYmm": [
+        8.9,
+        135.5
+      ],
+      "role": "FilterednegativeBottomtrunk"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0019",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        24.6,
+        67.9
+      ],
+      "endXYmm": [
+        26.3,
+        61.2
+      ],
+      "role": "QuietoffsetcentralBottombridge"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0020",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        24.6,
+        67.9
+      ],
+      "endXYmm": [
+        17.0,
+        66.4
+      ],
+      "role": "QuietoffsetcentralBottombridge"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0021",
+      "net": "ADC_OFFSET_0V97",
+      "layerId": 2,
+      "widthMm": 0.25,
+      "startXYmm": [
+        24.6,
+        67.9
+      ],
+      "endXYmm": [
+        25.4,
+        87.0
+      ],
+      "role": "QuietoffsetcentralBottombridge"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0022",
+      "net": "+5V",
+      "layerId": 2,
+      "widthMm": 0.4,
+      "startXYmm": [
+        89.34000166,
+        19.85999838
+      ],
+      "endXYmm": [
+        29.8,
+        21.3
+      ],
+      "role": "ExistingCN1PTHraw5VfeedtopumpandquietAFEfilter"
+    },
+    {
+      "key": "LABTOOL_BOTTOM_0023",
+      "net": "+5V",
+      "layerId": 2,
+      "widthMm": 0.4,
+      "startXYmm": [
+        29.8,
+        21.3
+      ],
+      "endXYmm": [
+        28.3,
+        22.0
+      ],
+      "role": "ExistingCN1PTHraw5VfeedtopumpandquietAFEfilter"
+    }
+  ],
+  "connections": [
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0001"
+      ],
+      "lengthMm": 13.999999999999998
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0002"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0003"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0004"
+      ],
+      "lengthMm": 14.000000000000007
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0005"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0006"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0007"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0008"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0009"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0010"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0011"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0012"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0013"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0014"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0015"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0016"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0017"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FilterednegativeBottomtrunk",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0018"
+      ],
+      "lengthMm": 14.0
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "QuietoffsetcentralBottombridge",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0019"
+      ],
+      "lengthMm": 6.912307863514185
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "QuietoffsetcentralBottombridge",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0020"
+      ],
+      "lengthMm": 7.746612162745726
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "role": "QuietoffsetcentralBottombridge",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0021"
+      ],
+      "lengthMm": 19.116746585127913
+    },
+    {
+      "net": "+5V",
+      "role": "ExistingCN1PTHraw5VfeedtopumpandquietAFEfilter",
+      "lineKeys": [
+        "LABTOOL_BOTTOM_0022",
+        "LABTOOL_BOTTOM_0023"
+      ],
+      "lengthMm": 61.21270719223962
+    }
+  ],
+  "failedConnections": [
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        68.4
+      ],
+      "toXYmm": [
+        29.0,
+        72.9
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 337954
+    },
+    {
+      "net": "+5V_AFE",
+      "fromXYmm": [
+        15.5,
+        26.4
+      ],
+      "toXYmm": [
+        31.0,
+        24.5
+      ],
+      "role": "FilteredpositiveBottomtrunkandreferencefeed",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 353912
+    },
+    {
+      "net": "-3V_AFE",
+      "fromXYmm": [
+        8.9,
+        37.5
+      ],
+      "toXYmm": [
+        40.3,
+        31.7
+      ],
+      "role": "FilterednegativeBottomtrunk",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 329499
+    },
+    {
+      "net": "ADC_OFFSET_0V97",
+      "fromXYmm": [
+        24.6,
+        67.9
+      ],
+      "toXYmm": [
+        30.4,
+        83.5
+      ],
+      "role": "QuietoffsetcentralBottombridge",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 31526
+    },
+    {
+      "net": "+5V",
+      "fromXYmm": [
+        28.3,
+        22.0
+      ],
+      "toXYmm": [
+        28.9,
+        34.2
+      ],
+      "role": "ExistingCN1PTHraw5VfeedtopumpandquietAFEfilter",
+      "reason": "NO_BOTTOM_PATH",
+      "visited": 119889
+    }
+  ],
+  "literalCopperConflicts": [],
+  "existingRawSource": {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "+5V",
+    "xyMm": [
+      89.34000166,
+      19.85999838
+    ]
+  },
+  "existingInvalidBottomFillsNotSilentlyRepaired": [],
+  "requiresLocalGroundFillVoids": true,
+  "clearanceMm": 0.17,
+  "existingViaChanges": 0,
+  "existingDrillChanges": 0,
+  "manufacturingReady": false,
+  "limitations": [
+    "NoGND FILLpathwrites;authoritativepreserving-splithelpermustsubtracteachtracewith.17mmclearance.",
+    "AllnewVIAantipadsandTOPstubconnectivityareseparaterequiredphases.",
+    "FullnativeDRC/sourceauditmustfollow,includingpreservingall799existingdrills/6layers/18rules."
+  ]
+}

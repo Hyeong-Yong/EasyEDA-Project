@@ -1,0 +1,108 @@
+{
+  "schema": "stm32h747-ten-channel-ref-opa-read-only-power-audit-v1",
+  "status": "dc-load-and-nominal-capacitance-compatible-dynamic-validation-required",
+  "implementation_performed": false,
+  "manufacturing_approved": false,
+  "scope": "Official-document research and calculations only. No live EasyEDA/API/UI, native source, PCB, schematic, library, or TEST_DAC8562 changes.",
+  "assumptions": {
+    "channels": 10,
+    "input_range_v": [-2, 2],
+    "input_source_resistance_for_numeric_results_ohm": 0,
+    "input_series_and_bias_resistance_ohm_each": 6800,
+    "resistor_tolerance_fraction": 0.001,
+    "reference_v": 2.5,
+    "reference_supply_v": 3.3,
+    "reference_direct_output_capacitance_uF": 4.8,
+    "per_channel_pre_capacitance_nF": 10,
+    "adc_driver": "OPA320AIDBVR, +3.3V/GND, unity-gain feedback before 47ohm output isolation",
+    "adc_output_rc": "47ohm series, 2.2nF C0G to GND",
+    "source_impedance_known": false,
+    "open_input_raw_adc_zero_detector_implemented": false
+  },
+  "official_documents": {
+    "REF3325": {
+      "url": "https://www.ti.com/lit/ds/symlink/ref33.pdf",
+      "revision": "SBOS392I, April 2026",
+      "sections": ["6.3", "6.5", "8.1", "8.3.1", "8.4", "9.4.1"],
+      "recommended_input_v": "VOUT+0.2 to 5.5",
+      "recommended_output_current_mA": [-5, 5],
+      "output_capacitance_uF": [0.1, 10],
+      "input_bypass_recommended_uF": [1, 10],
+      "ceramic_output_capacitor_allowed": true,
+      "numeric_output_esr_window_found": false,
+      "initial_accuracy_percent_max": 0.15,
+      "load_regulation_ppm_per_mA": {"typical": 6, "max_at_25C_stated_test": 50, "test": "VIN=VOUT+200mV; do not treat as a 60Hz/transient impedance guarantee"},
+      "output_noise_0p1_to_10Hz_uVpp_typical": 70,
+      "turn_on_settling_ms_typical": 2,
+      "settling_condition": "To 0.1%, CL=1uF; actual loaded ten-channel startup not guaranteed by this typical value"
+    },
+    "OPA320": {
+      "url": "https://www.ti.com/lit/ds/symlink/opa320.pdf",
+      "revision": "SBOS513F, December 2016",
+      "sections": ["6.3", "6.7", "7.3.8", "9"],
+      "supply_v": [1.8, 5.5],
+      "pure_capacitive_load_unity_gain_stable_approximately_nF": 1,
+      "isolation_resistor_technique_documented": true,
+      "quiescent_current_mA": {"typical": 1.5, "max_25C": 1.75, "max_minus40_to125C": 1.85, "table_test_supply_v": 5.5},
+      "short_circuit_current_mA_typical": 65,
+      "short_circuit_value_condition": "VS=5.5V; not a guaranteed minimum at 3.3V or an allowed continuous operating load"
+    }
+  },
+  "dc_reference_load_calculation": {
+    "per_channel_formula_A": "(VREF-VIN)/(Rb+Rin+Rs)",
+    "all_minus2V_nominal_mA": 3.3088235294117645,
+    "all_plus2V_nominal_mA": 0.3676470588235294,
+    "all_open_steady_nominal_mA": 0,
+    "all_zero_input_nominal_mA": 1.838235294117647,
+    "all_minus2V_with_0p1_percent_resistors_and_0p15_percent_initial_ref_high_mA": 3.3148957781310724,
+    "remaining_to_5mA_after_that_initial_tolerance_case_mA": 1.6851042218689276,
+    "tolerance_case_limit": "Initial tolerance example only, not a full temperature/fault/startup bound. Future comparator/reference-divider loads are not included.",
+    "nominal_reference_chip_dissipation_mW_excluding_IQ": 2.6470588235294112,
+    "current_limit_conclusion": "Ten inputs do not require a reference buffer merely to satisfy the stated DC current range."
+  },
+  "capacitance_and_startup": {
+    "direct_ref_output_uF": 4.8,
+    "conservative_direct_sum_if_all_ten_pre_caps_also_counted_uF": 4.9,
+    "nominal_capacitance_inside_recommended_range": true,
+    "network_note": "Pre capacitors are behind individual 6.8k bias resistors, not ten capacitors directly on REF OUT. With grounded low-Z inputs their small-signal low-frequency extra capacitance is about Cpre/4 per channel; with open inputs it approaches Cpre behind the resistor.",
+    "nominal_initial_branch_charge_current_with_pre_nodes_at_0V_and_ideal_2p5V_step_mA": 3.676470588235294,
+    "startup_qualification": "This excludes charging the direct 4.8uF and does not bound every power-sequencing case. REF33 has startup boost; test the real +3.3V ramp, all ten loads, capacitor bias derating, active negative inputs during power-off, and output settling. Do not promise 2ms maximum startup.",
+    "output_esr_conclusion": "Latest REF33 documentation explicitly permits ceramic output capacitors; no invented minimum ESR or series resistor is justified from the reviewed text. Check effective capacitance and layout."
+  },
+  "shared_reference_crosstalk": {
+    "mechanism": "Changing one input changes its current drawn from the shared reference, moving VREF through finite output impedance. Per-channel followers do not isolate this bias-current path.",
+    "low_frequency_model": "For equal R, zero source resistance, N branches: deltaVREF = Zref*sum(deltaVIN)/(2R+N*Zref); a stationary driven victim sees about 0.5*deltaVREF.",
+    "dc_coefficient_equivalent_output_resistance_ohm": {"from_6ppm_per_mA_typical": 0.015, "from_50ppm_per_mA_at25C": 0.125},
+    "one_aggressor_minus2_to_plus2_load_change_mA": 0.2941176470588235,
+    "all_ten_minus2_to_plus2_load_change_mA": 2.941176470588235,
+    "illustrative_using_50ppm_per_mA_and_half_reference_transfer": {
+      "one_aggressor_stationary_victim_adc_change_uV": 18.38235294117647,
+      "nine_coherent_aggressors_stationary_victim_adc_change_uV": 165.44117647058823,
+      "all_ten_total_bias_offset_change_adc_uV": 183.8235294117647
+    },
+    "guaranteed_60Hz_or_transient_bound_available": false,
+    "qualification": "These are DC load-regulation-coefficient estimates, not a guaranteed 60Hz crosstalk bound. The datasheet output-impedance graph is typical at 1uF and 0/1mA, not the present 4.8uF/3.3mA/+3.3V case. Unknown source impedance changes loading and the victim reference-transfer factor, reaching 1 for an open victim.",
+    "common_reference_noise_estimate_adc_uVpp_typical": 35,
+    "noise_condition": "Half of REF3325 70uVpp typical 0.1-10Hz noise; common offset noise, not the complete ADC noise budget.",
+    "buffer_decision": "No unconditional need from DC current alone. A low-output-impedance reference driver or separated bias domains may be justified by the specified crosstalk/error budget. Do not add one without scope/design review, stability analysis, and actual load-step/60Hz measurements."
+  },
+  "opa320_channel_driver_checks": {
+    "valid_output_range_v": [0.25, 2.25],
+    "open_output_v": 2.5,
+    "input_and_output_headroom_nominally_compatible_with_3p3V": true,
+    "ten_channel_quiescent_budget_mA_at_datasheet_5p5V_test": {"typical": 15, "max_full_temperature": 18.5},
+    "seven_added_channel_quiescent_budget_mA_at_datasheet_5p5V_test": {"typical": 10.5, "max_full_temperature": 12.95},
+    "actual_3p3V_budget_note": "Reserve supply margin plus output/ADC-transient current. Listed limits are from the stated 5.5V test; do not substitute typical graphs for a complete regulator/thermal audit.",
+    "output_rc_time_constant_ns": 103.4,
+    "output_capacitor_current_at60Hz_1V_peak_uA": 0.8293804605477053,
+    "stability": "2.2nF exceeds the approximately 1nF pure-capacitance follower example. Existing 47ohm isolation and feedback before the resistor are essential; verify ringing, acquisition settling and actual PCB parasitics rather than claiming guaranteed stability from capacitor value alone.",
+    "warning_against_naive_ref_buffer": "Do not place an uncompensated OPA320 unity follower directly onto the existing 4.8uF reference load. Keep reference decoupling on the appropriate side and design output isolation/feedback explicitly."
+  },
+  "unresolved_before_performance_claim": [
+    "Source type/output impedance and input loading/error allowance",
+    "Required DC and 60Hz absolute accuracy, noise and interchannel crosstalk limits",
+    "Actual ADC resolution, per-channel sample rate and acquisition-time configuration",
+    "Real reference/output-driver startup, load-step, 60Hz aggressor-victim and ADC-kickback measurements",
+    "Any future open-input detector/divider loading and its separately reviewed pin contract"
+  ]
+}

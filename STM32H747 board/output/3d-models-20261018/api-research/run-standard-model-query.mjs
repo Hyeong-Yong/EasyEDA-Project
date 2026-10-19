@@ -1,0 +1,22 @@
+import { spawn } from 'node:child_process';
+import { readFile, writeFile } from 'node:fs/promises';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const here = dirname(fileURLToPath(import.meta.url));
+const board = resolve(here, '../../..');
+const [mode, jsonArg, outputName] = process.argv.slice(2);
+if (!['search', 'get'].includes(mode) || !jsonArg || !/^[a-z0-9_-]+\.json$/.test(outputName || '')) throw new Error('Expected mode, JSON values, safe output name');
+const values = jsonArg.startsWith('@') ? JSON.parse(await readFile(resolve(here, jsonArg.slice(1)), 'utf8')) : JSON.parse(jsonArg);
+const child = spawn(process.execPath, ['scripts/easyeda-safe-client.mjs', 'execute-file', 'scripts/eda/query-standard-model-registry-readonly-20261018.mjs', mode, JSON.stringify(values)], { cwd: board, windowsHide: true });
+let stdout = '';
+let stderr = '';
+child.stdout.on('data', data => { stdout += data; });
+child.stderr.on('data', data => { stderr += data; });
+const code = await new Promise((done, reject) => { child.on('error', reject); child.on('close', done); });
+let value;
+try { value = JSON.parse(stdout); } catch { value = { ok: false, stdout }; }
+value.runner = { exitCode: code, stderr, mode, values, timestamp: new Date().toISOString() };
+const output = resolve(here, outputName);
+await writeFile(output, JSON.stringify(value, null, 2));
+console.log(JSON.stringify({ output, ok: value.ok, results: value.result?.results?.map(r => mode === 'search' ? { key: r.key, error: r.error, models: r.models?.map(m => ({ uuid: m.uuid, name: m.name })) } : r), runner: value.runner }, null, 2));
+process.exitCode = code;

@@ -1,0 +1,50 @@
+{
+  "schema": "root-specific-native-junction-serialization-pair-qualification-v1",
+  "approvedForAuditorNormalization": true,
+  "globalGeometricToleranceAuthorized": false,
+  "nativePcbChangesAuthorizedByThisReview": false,
+  "diagnosticPath": "audits/wire12-power-junction-diagnostic-v1.json",
+  "diagnosticSha256": "29d9e407d6a41dee907389d1723d3e21332a03cc709f0bc0a854695831a46b85",
+  "manifestSha256": "84bd0fea5a837d85510430d358ab0076e264f5ad8e65abd5997afc169ee57aa3",
+  "firstObservedActualSourceSha256": "00f0707624248ec16b99ee47a638e63608764652c3ddeb12a1f4af890104910d",
+  "stageFirstObserved": "copper_wire12",
+  "net": "+5V_AFE",
+  "layerId": 1,
+  "priorCrossingId": "ca3d603b687e06c4",
+  "priorCrossingBodySha256": "a11e125bbdfde6d29e0e0a2347328482272ca18754f53a925f3b65657527cd0c",
+  "exactIntersectionMil": ["539939494549978479/453908596365625", "1329030065147860669/1452507508370000"],
+  "onlyApprovedSerializedJunctionMil": [1189.5335, 914.9902],
+  "knownNativePerAxisSerializationBoundMil": 0.00005,
+  "segments": [
+    {
+      "plannedKey": "LABTOOL_PWR_0029",
+      "plannedOperationSha256": "af8e304c6889210e0fc196badb870fab2587dcdbc72183bc899429261982d2c5",
+      "originalACmil": [1153.937, 905.5118, 1220.4724, 923.2283],
+      "widthMilRequested": 15.7480315,
+      "widthMilSerialized": 15.748,
+      "actualSplitIds": ["67638d82c151ff5c", "69b01f23e1e41d14"],
+      "actualSplitBodySha256": ["c362ca40572ca913624efe0bf15a5996ad808ed96dd8579838ef85f039b2e36d", "ffd1c2d191968f5380e3e8f7256a4ff51a9e5a81f7d1ca733517369ec0b08984"]
+    },
+    {
+      "plannedKey": "LABTOOL_LOCAL_0333",
+      "plannedOperationSha256": "2e294f579240b74362cdbb39533e85621d47d49f69d497151846da60bec3c32b",
+      "originalACmil": [1220.4724, 964.5669, 1057.0866, 702.7559],
+      "widthMilRequested": 8,
+      "widthMilSerialized": 8,
+      "actualSplitIds": ["0fafc554d4913fb3", "1d1d25791ed7a65e"],
+      "actualSplitBodySha256": ["b28d2a7e0e0c8b8f0cf8fa1f55cffc834901ece3bcd06f586adc2943ba2ce388", "58cc91bdd219f90dde7acf761e02126eac0f1230ed0a350f4a5a32bc5e37eeb6"]
+    }
+  ],
+  "originalVsActualCenterlineUnionExact": false,
+  "originalVsActualPhysicalCopperUnionExact": false,
+  "normalizationScope": "Only these two frozen planned segments may be split at the independently computed exact rational intersection, rounded to 4dp mil. Their endpoints, widths and all four actual bodies are fixed. Every other net/layer/width stays exact, including the separately frozen wire10 case. This is not a distance or area tolerance.",
+  "mandatoryAdditionalGates": [
+    "Independent exact rational intersection/q4mil and full-body checks for both segments",
+    "Adversarial changed junction/endpoints/width/net/layer/prior-body tests fail closed",
+    "Focused actual four-segment foreign-copper and all863-drill screen passes",
+    "Full final native strict unchanged-rule DRC, actual GND/power topology, 437part/1342pin, saved-delta and durable-checkpoint checks pass"
+  ],
+  "failedOriginalAuditMustRemain": "audits/copper-readback-copper_wire12-20261018T083414155154Z-117a5fef.json",
+  "failedOriginalAuditSha256": "ef36357a29e40d91f84790c0710657d350d52d6ba7827b34c7ca93349db98072",
+  "manufacturingApproved": false
+}

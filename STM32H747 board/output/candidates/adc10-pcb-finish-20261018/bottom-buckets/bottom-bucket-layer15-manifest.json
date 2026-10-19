@@ -1,0 +1,2051 @@
+{
+  "schema": "adc10-bottom-complete-layer15-branches-20261018-v1",
+  "sourceSha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b",
+  "channels": [
+    {
+      "ref": "C88",
+      "net": "ADC2_INP13",
+      "componentId": "c4522a5d4858d2e5",
+      "escapeViaId": "1b308d19b8b7e343",
+      "escapeXYmm": [
+        52.8249998,
+        82.3500004
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC2_INP13",
+          "xyMm": [
+            52.76,
+            83.0
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            53.72,
+            83.0
+          ]
+        }
+      },
+      "centerXYmm": [
+        53.239999999999995,
+        83.0
+      ],
+      "axisOfPositiveLocalX": [
+        -1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            52.8249998,
+            82.3500004
+          ],
+          [
+            52.76,
+            83.0
+          ]
+        ],
+        "lengthMm": 0.6532414974572587
+      },
+      "assemblyBoundingBoxMm": [
+        52.739999999999995,
+        82.75,
+        53.739999999999995,
+        83.25
+      ],
+      "searchStats": {
+        "visitedCells": 5841,
+        "rawCandidates": 13
+      }
+    },
+    {
+      "ref": "C81",
+      "net": "ADC1_INP1",
+      "componentId": "1fc19d9011b0d2c7",
+      "escapeViaId": "6a0bd823e67e58bd",
+      "escapeXYmm": [
+        56.0259992,
+        80.7490003
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC1_INP1",
+          "xyMm": [
+            56.72,
+            82.44
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            55.76,
+            82.44
+          ]
+        }
+      },
+      "centerXYmm": [
+        56.239999999999995,
+        82.44
+      ],
+      "axisOfPositiveLocalX": [
+        1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            56.0259992,
+            80.7490003
+          ],
+          [
+            56.4,
+            81.42
+          ],
+          [
+            56.72,
+            82.44
+          ]
+        ],
+        "lengthMm": 1.8372091001585904
+      },
+      "assemblyBoundingBoxMm": [
+        55.739999999999995,
+        82.19,
+        56.739999999999995,
+        82.69
+      ],
+      "searchStats": {
+        "visitedCells": 13170,
+        "rawCandidates": 93
+      }
+    },
+    {
+      "ref": "C86",
+      "net": "ADC2_INP3",
+      "componentId": "521960cee1879019",
+      "escapeViaId": "54089935a2a2c135",
+      "escapeXYmm": [
+        55.1874995,
+        81.5875
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC2_INP3",
+          "xyMm": [
+            56.12,
+            83.8
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            57.08,
+            83.8
+          ]
+        }
+      },
+      "centerXYmm": [
+        56.599999999999994,
+        83.8
+      ],
+      "axisOfPositiveLocalX": [
+        -1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            55.1874995,
+            81.5875
+          ],
+          [
+            54.8,
+            82.26
+          ],
+          [
+            54.8,
+            82.54
+          ],
+          [
+            56.12,
+            83.8
+          ]
+        ],
+        "lengthMm": 2.880980878522406
+      },
+      "assemblyBoundingBoxMm": [
+        56.099999999999994,
+        83.55,
+        57.099999999999994,
+        84.05
+      ],
+      "searchStats": {
+        "visitedCells": 8243,
+        "rawCandidates": 184
+      }
+    },
+    {
+      "ref": "C96",
+      "net": "ADC3_INP8",
+      "componentId": "3852588fa8b5215f",
+      "escapeViaId": "4ae5f2d39ccde8fc",
+      "escapeXYmm": [
+        51.2250004,
+        80.7500011
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC3_INP8",
+          "xyMm": [
+            51.24,
+            80.2
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            51.24,
+            79.24
+          ]
+        }
+      },
+      "centerXYmm": [
+        51.24,
+        79.72
+      ],
+      "axisOfPositiveLocalX": [
+        0,
+        1
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            51.2250004,
+            80.7500011
+          ],
+          [
+            51.24,
+            80.2
+          ]
+        ],
+        "lengthMm": 0.5502055961196445
+      },
+      "assemblyBoundingBoxMm": [
+        50.99,
+        79.22,
+        51.49,
+        80.22
+      ],
+      "searchStats": {
+        "visitedCells": 4584,
+        "rawCandidates": 483
+      }
+    },
+    {
+      "ref": "C87",
+      "net": "ADC2_INP12",
+      "componentId": "3fd1d2dd2ba483fc",
+      "escapeViaId": "fb94b82c7a1e2ecc",
+      "escapeXYmm": [
+        52.8249998,
+        81.5499995
+      ],
+      "selectedRoutingSource": {
+        "kind": "NEW_ADC_TAP_VIA",
+        "xyMm": [
+          57.52,
+          83.16
+        ],
+        "net": "ADC2_INP12",
+        "diameterMm": 0.31,
+        "holeMm": 0.2,
+        "layers": [
+          1,
+          2,
+          15,
+          16,
+          17,
+          18
+        ],
+        "touchExistingLineId": null,
+        "touchExistingViaId": "fb94b82c7a1e2ecc",
+        "touchExistingLineLayer": 15,
+        "branchStartXYmm": [
+          52.8249998,
+          81.5499995
+        ],
+        "electricalDistanceFromEscapeMm": 5.55717659401645,
+        "branchLengthMm": 5.55717659401645,
+        "innerBranchRoute": {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              52.8249998,
+              81.5499995
+            ],
+            [
+              53.2,
+              82.26
+            ],
+            [
+              53.38,
+              82.62
+            ],
+            [
+              53.58,
+              82.7
+            ],
+            [
+              54.92,
+              82.66
+            ],
+            [
+              55.14,
+              82.76
+            ],
+            [
+              57.1,
+              82.74
+            ],
+            [
+              57.52,
+              83.16
+            ]
+          ],
+          "lengthMm": 5.55717659401645
+        },
+        "penaltyMm": 0.5557176594016451
+      },
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC2_INP12",
+          "xyMm": [
+            57.52,
+            82.6
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            58.48,
+            82.6
+          ]
+        }
+      },
+      "centerXYmm": [
+        58.0,
+        82.6
+      ],
+      "axisOfPositiveLocalX": [
+        -1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            57.52,
+            83.16
+          ],
+          [
+            57.52,
+            82.6
+          ]
+        ],
+        "lengthMm": 0.5600000000000023
+      },
+      "groundConnection": {
+        "mode": "ROBUST_LAND_OVERLAP_EXISTING_GND_SOLID",
+        "contactAreaMm2": 0.3472,
+        "lengthMm": 0
+      },
+      "assemblyBoundingBoxMm": [
+        57.5,
+        82.35,
+        58.5,
+        82.85
+      ],
+      "searchStats": {
+        "visitedCells": 29644,
+        "rawCandidates": 4059
+      },
+      "additionalSignalRoutes": [
+        {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              52.8249998,
+              81.5499995
+            ],
+            [
+              53.2,
+              82.26
+            ],
+            [
+              53.38,
+              82.62
+            ],
+            [
+              53.58,
+              82.7
+            ],
+            [
+              54.92,
+              82.66
+            ],
+            [
+              55.14,
+              82.76
+            ],
+            [
+              57.1,
+              82.74
+            ],
+            [
+              57.52,
+              83.16
+            ]
+          ],
+          "lengthMm": 5.55717659401645
+        }
+      ],
+      "newSignalVias": [
+        {
+          "kind": "NEW_ADC_TAP_VIA",
+          "xyMm": [
+            57.52,
+            83.16
+          ],
+          "net": "ADC2_INP12",
+          "diameterMm": 0.31,
+          "holeMm": 0.2,
+          "layers": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18
+          ],
+          "touchExistingLineId": null,
+          "touchExistingViaId": "fb94b82c7a1e2ecc",
+          "touchExistingLineLayer": 15,
+          "branchStartXYmm": [
+            52.8249998,
+            81.5499995
+          ],
+          "electricalDistanceFromEscapeMm": 5.55717659401645,
+          "branchLengthMm": 5.55717659401645,
+          "innerBranchRoute": {
+            "layerId": 15,
+            "widthMm": 0.12,
+            "pointsMm": [
+              [
+                52.8249998,
+                81.5499995
+              ],
+              [
+                53.2,
+                82.26
+              ],
+              [
+                53.38,
+                82.62
+              ],
+              [
+                53.58,
+                82.7
+              ],
+              [
+                54.92,
+                82.66
+              ],
+              [
+                55.14,
+                82.76
+              ],
+              [
+                57.1,
+                82.74
+              ],
+              [
+                57.52,
+                83.16
+              ]
+            ],
+            "lengthMm": 5.55717659401645
+          },
+          "penaltyMm": 0.5557176594016451
+        }
+      ],
+      "electricalEscapeToCapPathMm": 6.117176594016453
+    },
+    {
+      "ref": "C95",
+      "net": "ADC3_INP7",
+      "status": "NO_PLACEMENT_FOUND",
+      "visitedCells": 17474,
+      "rawCandidates": 0
+    },
+    {
+      "ref": "C93",
+      "net": "ADC3_INP2",
+      "componentId": "d73bedd5072ec1a9",
+      "escapeViaId": "3c6e2aa60ead2e95",
+      "escapeXYmm": [
+        52.0249988,
+        82.3500004
+      ],
+      "selectedRoutingSource": {
+        "kind": "NEW_ADC_TAP_VIA",
+        "xyMm": [
+          52.24,
+          76.16
+        ],
+        "net": "ADC3_INP2",
+        "diameterMm": 0.31,
+        "holeMm": 0.2,
+        "layers": [
+          1,
+          2,
+          15,
+          16,
+          17,
+          18
+        ],
+        "touchExistingLineId": null,
+        "touchExistingViaId": "3c6e2aa60ead2e95",
+        "touchExistingLineLayer": 15,
+        "branchStartXYmm": [
+          52.0249988,
+          82.3500004
+        ],
+        "electricalDistanceFromEscapeMm": 6.349222778547891,
+        "branchLengthMm": 6.349222778547891,
+        "innerBranchRoute": {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              52.0249988,
+              82.3500004
+            ],
+            [
+              52.4,
+              81.64
+            ],
+            [
+              52.4,
+              76.32
+            ],
+            [
+              52.24,
+              76.16
+            ]
+          ],
+          "lengthMm": 6.349222778547891
+        },
+        "penaltyMm": 0.6349222778547892
+      },
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC3_INP2",
+          "xyMm": [
+            50.08,
+            75.52
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            49.12,
+            75.52
+          ]
+        }
+      },
+      "centerXYmm": [
+        49.599999999999994,
+        75.52
+      ],
+      "axisOfPositiveLocalX": [
+        1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            52.24,
+            76.16
+          ],
+          [
+            50.72,
+            76.16
+          ],
+          [
+            50.08,
+            75.52
+          ]
+        ],
+        "lengthMm": 2.4250966799187847
+      },
+      "groundConnection": {
+        "mode": "ROBUST_LAND_OVERLAP_EXISTING_GND_SOLID",
+        "contactAreaMm2": 0.3315424,
+        "lengthMm": 0
+      },
+      "assemblyBoundingBoxMm": [
+        49.099999999999994,
+        75.27,
+        50.099999999999994,
+        75.77
+      ],
+      "searchStats": {
+        "visitedCells": 25007,
+        "rawCandidates": 164
+      },
+      "additionalSignalRoutes": [
+        {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              52.0249988,
+              82.3500004
+            ],
+            [
+              52.4,
+              81.64
+            ],
+            [
+              52.4,
+              76.32
+            ],
+            [
+              52.24,
+              76.16
+            ]
+          ],
+          "lengthMm": 6.349222778547891
+        }
+      ],
+      "newSignalVias": [
+        {
+          "kind": "NEW_ADC_TAP_VIA",
+          "xyMm": [
+            52.24,
+            76.16
+          ],
+          "net": "ADC3_INP2",
+          "diameterMm": 0.31,
+          "holeMm": 0.2,
+          "layers": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18
+          ],
+          "touchExistingLineId": null,
+          "touchExistingViaId": "3c6e2aa60ead2e95",
+          "touchExistingLineLayer": 15,
+          "branchStartXYmm": [
+            52.0249988,
+            82.3500004
+          ],
+          "electricalDistanceFromEscapeMm": 6.349222778547891,
+          "branchLengthMm": 6.349222778547891,
+          "innerBranchRoute": {
+            "layerId": 15,
+            "widthMm": 0.12,
+            "pointsMm": [
+              [
+                52.0249988,
+                82.3500004
+              ],
+              [
+                52.4,
+                81.64
+              ],
+              [
+                52.4,
+                76.32
+              ],
+              [
+                52.24,
+                76.16
+              ]
+            ],
+            "lengthMm": 6.349222778547891
+          },
+          "penaltyMm": 0.6349222778547892
+        }
+      ],
+      "electricalEscapeToCapPathMm": 8.774319458466676
+    },
+    {
+      "ref": "C94",
+      "net": "ADC3_INP6",
+      "componentId": "8b84e0ff9041f44b",
+      "escapeViaId": "0b13092086c7b8f8",
+      "escapeXYmm": [
+        52.0249988,
+        81.5499995
+      ],
+      "selectedRoutingSource": {
+        "kind": "NEW_ADC_TAP_VIA",
+        "xyMm": [
+          51.64,
+          77.84
+        ],
+        "net": "ADC3_INP6",
+        "diameterMm": 0.31,
+        "holeMm": 0.2,
+        "layers": [
+          1,
+          2,
+          15,
+          16,
+          17,
+          18
+        ],
+        "touchExistingLineId": null,
+        "touchExistingViaId": "0b13092086c7b8f8",
+        "touchExistingLineLayer": 15,
+        "branchStartXYmm": [
+          52.0249988,
+          81.5499995
+        ],
+        "electricalDistanceFromEscapeMm": 3.810081392988831,
+        "branchLengthMm": 3.810081392988831,
+        "innerBranchRoute": {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              52.0249988,
+              81.5499995
+            ],
+            [
+              51.62,
+              80.78
+            ],
+            [
+              51.64,
+              77.84
+            ]
+          ],
+          "lengthMm": 3.810081392988831
+        },
+        "penaltyMm": 0.3810081392988831
+      },
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC3_INP6",
+          "xyMm": [
+            50.6,
+            78.24
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            50.6,
+            79.2
+          ]
+        }
+      },
+      "centerXYmm": [
+        50.6,
+        78.72
+      ],
+      "axisOfPositiveLocalX": [
+        0,
+        -1
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            51.64,
+            77.84
+          ],
+          [
+            50.6,
+            78.24
+          ]
+        ],
+        "lengthMm": 1.1142710621747256
+      },
+      "groundConnection": {
+        "mode": "ROBUST_LAND_OVERLAP_EXISTING_GND_SOLID",
+        "contactAreaMm2": 0.3472,
+        "lengthMm": 0
+      },
+      "assemblyBoundingBoxMm": [
+        50.35,
+        78.22,
+        50.85,
+        79.22
+      ],
+      "searchStats": {
+        "visitedCells": 15001,
+        "rawCandidates": 15
+      },
+      "additionalSignalRoutes": [
+        {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              52.0249988,
+              81.5499995
+            ],
+            [
+              51.62,
+              80.78
+            ],
+            [
+              51.64,
+              77.84
+            ]
+          ],
+          "lengthMm": 3.810081392988831
+        }
+      ],
+      "newSignalVias": [
+        {
+          "kind": "NEW_ADC_TAP_VIA",
+          "xyMm": [
+            51.64,
+            77.84
+          ],
+          "net": "ADC3_INP6",
+          "diameterMm": 0.31,
+          "holeMm": 0.2,
+          "layers": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18
+          ],
+          "touchExistingLineId": null,
+          "touchExistingViaId": "0b13092086c7b8f8",
+          "touchExistingLineLayer": 15,
+          "branchStartXYmm": [
+            52.0249988,
+            81.5499995
+          ],
+          "electricalDistanceFromEscapeMm": 3.810081392988831,
+          "branchLengthMm": 3.810081392988831,
+          "innerBranchRoute": {
+            "layerId": 15,
+            "widthMm": 0.12,
+            "pointsMm": [
+              [
+                52.0249988,
+                81.5499995
+              ],
+              [
+                51.62,
+                80.78
+              ],
+              [
+                51.64,
+                77.84
+              ]
+            ],
+            "lengthMm": 3.810081392988831
+          },
+          "penaltyMm": 0.3810081392988831
+        }
+      ],
+      "electricalEscapeToCapPathMm": 4.9243524551635565
+    },
+    {
+      "ref": "C82",
+      "net": "ADC1_INP16",
+      "componentId": "f2c0f427d4d6b785",
+      "escapeViaId": "ada06e0902546212",
+      "escapeXYmm": [
+        53.6999993,
+        83.975001
+      ],
+      "selectedRoutingSource": {
+        "kind": "NEW_ADC_TAP_VIA",
+        "xyMm": [
+          58.04,
+          83.2
+        ],
+        "net": "ADC1_INP16",
+        "diameterMm": 0.31,
+        "holeMm": 0.2,
+        "layers": [
+          1,
+          2,
+          15,
+          16,
+          17,
+          18
+        ],
+        "touchExistingLineId": null,
+        "touchExistingViaId": "ada06e0902546212",
+        "touchExistingLineLayer": 15,
+        "branchStartXYmm": [
+          53.6999993,
+          83.975001
+        ],
+        "electricalDistanceFromEscapeMm": 4.498216583649355,
+        "branchLengthMm": 4.498216583649355,
+        "innerBranchRoute": {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              53.6999993,
+              83.975001
+            ],
+            [
+              57.72,
+              83.52
+            ],
+            [
+              58.04,
+              83.2
+            ]
+          ],
+          "lengthMm": 4.498216583649355
+        },
+        "penaltyMm": 0.4498216583649355
+      },
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC1_INP16",
+          "xyMm": [
+            58.04,
+            83.72
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            58.04,
+            84.68
+          ]
+        }
+      },
+      "centerXYmm": [
+        58.04,
+        84.2
+      ],
+      "axisOfPositiveLocalX": [
+        0,
+        -1
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            58.04,
+            83.2
+          ],
+          [
+            58.04,
+            83.72
+          ]
+        ],
+        "lengthMm": 0.519999999999996
+      },
+      "groundConnection": {
+        "mode": "ROBUST_LAND_OVERLAP_EXISTING_GND_SOLID",
+        "contactAreaMm2": 0.3472,
+        "lengthMm": 0
+      },
+      "assemblyBoundingBoxMm": [
+        57.79,
+        83.7,
+        58.29,
+        84.7
+      ],
+      "searchStats": {
+        "visitedCells": 22926,
+        "rawCandidates": 4763
+      },
+      "additionalSignalRoutes": [
+        {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              53.6999993,
+              83.975001
+            ],
+            [
+              57.72,
+              83.52
+            ],
+            [
+              58.04,
+              83.2
+            ]
+          ],
+          "lengthMm": 4.498216583649355
+        }
+      ],
+      "newSignalVias": [
+        {
+          "kind": "NEW_ADC_TAP_VIA",
+          "xyMm": [
+            58.04,
+            83.2
+          ],
+          "net": "ADC1_INP16",
+          "diameterMm": 0.31,
+          "holeMm": 0.2,
+          "layers": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18
+          ],
+          "touchExistingLineId": null,
+          "touchExistingViaId": "ada06e0902546212",
+          "touchExistingLineLayer": 15,
+          "branchStartXYmm": [
+            53.6999993,
+            83.975001
+          ],
+          "electricalDistanceFromEscapeMm": 4.498216583649355,
+          "branchLengthMm": 4.498216583649355,
+          "innerBranchRoute": {
+            "layerId": 15,
+            "widthMm": 0.12,
+            "pointsMm": [
+              [
+                53.6999993,
+                83.975001
+              ],
+              [
+                57.72,
+                83.52
+              ],
+              [
+                58.04,
+                83.2
+              ]
+            ],
+            "lengthMm": 4.498216583649355
+          },
+          "penaltyMm": 0.4498216583649355
+        }
+      ],
+      "electricalEscapeToCapPathMm": 5.018216583649351
+    },
+    {
+      "ref": "C80",
+      "net": "ADC1_INP0",
+      "componentId": "518aa576dd1f4a0e",
+      "escapeViaId": "d2baf19ac3a89b2d",
+      "escapeXYmm": [
+        56.0999996,
+        79.874999
+      ],
+      "selectedRoutingSource": {
+        "kind": "NEW_ADC_TAP_VIA",
+        "xyMm": [
+          58.96,
+          83.16
+        ],
+        "net": "ADC1_INP0",
+        "diameterMm": 0.31,
+        "holeMm": 0.2,
+        "layers": [
+          1,
+          2,
+          15,
+          16,
+          17,
+          18
+        ],
+        "touchExistingLineId": null,
+        "touchExistingViaId": "d2baf19ac3a89b2d",
+        "touchExistingLineLayer": 15,
+        "branchStartXYmm": [
+          56.0999996,
+          79.874999
+        ],
+        "electricalDistanceFromEscapeMm": 4.3618165640085955,
+        "branchLengthMm": 4.3618165640085955,
+        "innerBranchRoute": {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              56.0999996,
+              79.874999
+            ],
+            [
+              57.8,
+              82.0
+            ],
+            [
+              58.96,
+              83.16
+            ]
+          ],
+          "lengthMm": 4.3618165640085955
+        },
+        "penaltyMm": 0.4361816564008596
+      },
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC1_INP0",
+          "xyMm": [
+            58.96,
+            83.68
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            58.96,
+            84.64
+          ]
+        }
+      },
+      "centerXYmm": [
+        58.96,
+        84.16
+      ],
+      "axisOfPositiveLocalX": [
+        0,
+        -1
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            58.96,
+            83.16
+          ],
+          [
+            58.96,
+            83.68
+          ]
+        ],
+        "lengthMm": 0.5200000000000102
+      },
+      "groundConnection": {
+        "mode": "ROBUST_LAND_OVERLAP_EXISTING_GND_SOLID",
+        "contactAreaMm2": 0.3472,
+        "lengthMm": 0
+      },
+      "assemblyBoundingBoxMm": [
+        58.71,
+        83.66,
+        59.21,
+        84.66
+      ],
+      "searchStats": {
+        "visitedCells": 45467,
+        "rawCandidates": 6433
+      },
+      "additionalSignalRoutes": [
+        {
+          "layerId": 15,
+          "widthMm": 0.12,
+          "pointsMm": [
+            [
+              56.0999996,
+              79.874999
+            ],
+            [
+              57.8,
+              82.0
+            ],
+            [
+              58.96,
+              83.16
+            ]
+          ],
+          "lengthMm": 4.3618165640085955
+        }
+      ],
+      "newSignalVias": [
+        {
+          "kind": "NEW_ADC_TAP_VIA",
+          "xyMm": [
+            58.96,
+            83.16
+          ],
+          "net": "ADC1_INP0",
+          "diameterMm": 0.31,
+          "holeMm": 0.2,
+          "layers": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18
+          ],
+          "touchExistingLineId": null,
+          "touchExistingViaId": "d2baf19ac3a89b2d",
+          "touchExistingLineLayer": 15,
+          "branchStartXYmm": [
+            56.0999996,
+            79.874999
+          ],
+          "electricalDistanceFromEscapeMm": 4.3618165640085955,
+          "branchLengthMm": 4.3618165640085955,
+          "innerBranchRoute": {
+            "layerId": 15,
+            "widthMm": 0.12,
+            "pointsMm": [
+              [
+                56.0999996,
+                79.874999
+              ],
+              [
+                57.8,
+                82.0
+              ],
+              [
+                58.96,
+                83.16
+              ]
+            ],
+            "lengthMm": 4.3618165640085955
+          },
+          "penaltyMm": 0.4361816564008596
+        }
+      ],
+      "electricalEscapeToCapPathMm": 4.881816564008606
+    }
+  ],
+  "legacyBottomAssemblyEnvelopes": [
+    {
+      "ref": "C7",
+      "componentId": "dfa555db1540f143",
+      "bboxMm": [
+        47.474999309400005,
+        87.90000009500001,
+        48.474999290599996,
+        89.800000105
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C8",
+      "componentId": "d25bf84feebd8b3a",
+      "bboxMm": [
+        48.50000106940001,
+        87.90499881500001,
+        49.5000010506,
+        89.804998825
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C9",
+      "componentId": "d8f80413fe2c0f33",
+      "bboxMm": [
+        49.525000289400005,
+        87.90499881500001,
+        50.525000270599996,
+        89.804998825
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C10",
+      "componentId": "9cf9751a8eb77de3",
+      "bboxMm": [
+        50.5499995094,
+        87.90499881500001,
+        51.549999490599994,
+        89.804998825
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C11",
+      "componentId": "dc39de7ec4afc2fc",
+      "bboxMm": [
+        51.605000295,
+        88.7999992094,
+        53.505000305,
+        89.7999991906
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C12",
+      "componentId": "51573368c3a11753",
+      "bboxMm": [
+        51.605000295,
+        87.7499987694,
+        53.505000305,
+        88.7499987506
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C13",
+      "componentId": "1af29ca6b177612d",
+      "bboxMm": [
+        51.605000295,
+        85.67499910939999,
+        53.505000305,
+        86.6749990906
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C14",
+      "componentId": "ca286425608b28f2",
+      "bboxMm": [
+        51.605000295,
+        86.7000008694,
+        53.505000305,
+        87.7000008506
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C15",
+      "componentId": "f1c8eea56e638eaa",
+      "bboxMm": [
+        52.500000689400004,
+        83.720000835,
+        53.500000670599995,
+        85.62000084499998
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C16",
+      "componentId": "efa5dfcaaa7b0274",
+      "bboxMm": [
+        47.449999715,
+        85.82499880939999,
+        49.349999724999996,
+        86.82499879059999
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C17",
+      "componentId": "bcf85aad8767105c",
+      "bboxMm": [
+        50.4250010294,
+        84.05000017500001,
+        51.42500101059999,
+        85.950000185
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C18",
+      "componentId": "a2c8a92a4aa2656e",
+      "bboxMm": [
+        49.399999269400006,
+        84.05000017500001,
+        50.3999992506,
+        85.950000185
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C19",
+      "componentId": "b02498ed92b11fad",
+      "bboxMm": [
+        47.449999715,
+        83.77500036939999,
+        49.349999724999996,
+        84.7750003506
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C20",
+      "componentId": "243484119aad70e1",
+      "bboxMm": [
+        47.449999715,
+        84.79999958939999,
+        49.349999724999996,
+        85.7999995706
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C21",
+      "componentId": "c99513c97ff060f8",
+      "bboxMm": [
+        47.449999715,
+        86.8500005694,
+        49.349999724999996,
+        87.8500005506
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C22",
+      "componentId": "1bcc42dffb338ad2",
+      "bboxMm": [
+        49.9249994894,
+        81.250000695,
+        50.92499947059999,
+        83.15000070499998
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C23",
+      "componentId": "2530295bf058947d",
+      "bboxMm": [
+        50.250000109400005,
+        89.904999895,
+        51.2500000906,
+        91.80499990499999
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C24",
+      "componentId": "71096e3623484b72",
+      "bboxMm": [
+        51.2749993294,
+        89.904999895,
+        52.274999310599995,
+        91.80499990499999
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C25",
+      "componentId": "34820400e51579b1",
+      "bboxMm": [
+        51.4500002494,
+        83.720000835,
+        52.45000023059999,
+        85.62000084499998
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C34",
+      "componentId": "6fbc96ce8169f3cb",
+      "bboxMm": [
+        51.8250005662,
+        74.8000001076,
+        53.0250005538,
+        77.5000000924
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C35",
+      "componentId": "2e693b555348ab5f",
+      "bboxMm": [
+        53.0750008094,
+        75.349999795,
+        54.075000790599994,
+        77.24999980499999
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C36",
+      "componentId": "933a1cfeb7a67508",
+      "bboxMm": [
+        54.1250010462,
+        74.8000001076,
+        55.32500103379999,
+        77.5000000924
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "C37",
+      "componentId": "1f6a1c09bb884b39",
+      "bboxMm": [
+        55.3750012894,
+        75.349999795,
+        56.37500127059999,
+        77.24999980499999
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "FB2",
+      "componentId": "275858446251063a",
+      "bboxMm": [
+        50.5750005262,
+        74.8000001076,
+        51.775000513799995,
+        77.5000000924
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R10",
+      "componentId": "7dc43ae08c02ee8e",
+      "bboxMm": [
+        60.0399999096,
+        91.89285814939998,
+        61.979999890399995,
+        92.89285813059999
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R11",
+      "componentId": "edfd90b7a65da18c",
+      "bboxMm": [
+        60.0399999096,
+        89.7785697694,
+        61.979999890399995,
+        90.7785697506
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R31",
+      "componentId": "7a5e68cabcd9f650",
+      "bboxMm": [
+        60.0399999096,
+        86.54571364939999,
+        61.979999890399995,
+        87.54571363059999
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R37",
+      "componentId": "029414f82d4844e7",
+      "bboxMm": [
+        60.0399999096,
+        85.4957132094,
+        61.979999890399995,
+        86.4957131906
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R40",
+      "componentId": "7fe3df115b72501e",
+      "bboxMm": [
+        60.0399999096,
+        87.6499989694,
+        61.979999890399995,
+        88.64999895060001
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R43",
+      "componentId": "03aca3c16f8bd8cd",
+      "bboxMm": [
+        60.0399999096,
+        88.7214293894,
+        61.979999890399995,
+        89.7214293706
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R47",
+      "componentId": "37331b82737bab37",
+      "bboxMm": [
+        60.0399999096,
+        90.8357152294,
+        61.979999890399995,
+        91.8357152106
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    },
+    {
+      "ref": "R71",
+      "componentId": "65c662297d2e28f9",
+      "bboxMm": [
+        53.104999809599995,
+        77.5499988494,
+        55.04499979039999,
+        78.5499988306
+      ],
+      "basis": "Actual footprint BOTTOM_SILK line/arc envelope including stroke; conservative assembly/courtyard proxy"
+    }
+  ],
+  "legacyBottomActualPassiveBodies": [
+    {
+      "ref": "C7",
+      "componentId": "dfa555db1540f143",
+      "bboxMm": [
+        47.7249993,
+        88.3500001,
+        48.2249993,
+        89.3500001
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C8",
+      "componentId": "d25bf84feebd8b3a",
+      "bboxMm": [
+        48.75000106,
+        88.35499882,
+        49.25000106,
+        89.35499882
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C9",
+      "componentId": "d8f80413fe2c0f33",
+      "bboxMm": [
+        49.77500028,
+        88.35499882,
+        50.27500028,
+        89.35499882
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C10",
+      "componentId": "9cf9751a8eb77de3",
+      "bboxMm": [
+        50.7999995,
+        88.35499882,
+        51.2999995,
+        89.35499882
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C11",
+      "componentId": "dc39de7ec4afc2fc",
+      "bboxMm": [
+        52.0550003,
+        89.0499992,
+        53.0550003,
+        89.5499992
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C12",
+      "componentId": "51573368c3a11753",
+      "bboxMm": [
+        52.0550003,
+        87.99999876,
+        53.0550003,
+        88.49999876
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C13",
+      "componentId": "1af29ca6b177612d",
+      "bboxMm": [
+        52.0550003,
+        85.9249991,
+        53.0550003,
+        86.4249991
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C14",
+      "componentId": "ca286425608b28f2",
+      "bboxMm": [
+        52.0550003,
+        86.95000086,
+        53.0550003,
+        87.45000086
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C15",
+      "componentId": "f1c8eea56e638eaa",
+      "bboxMm": [
+        52.75000068,
+        84.17000083999999,
+        53.25000068,
+        85.17000083999999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C16",
+      "componentId": "efa5dfcaaa7b0274",
+      "bboxMm": [
+        47.89999972,
+        86.07499879999999,
+        48.89999972,
+        86.57499879999999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C17",
+      "componentId": "bcf85aad8767105c",
+      "bboxMm": [
+        50.675001019999996,
+        84.50000018,
+        51.175001019999996,
+        85.50000018
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C18",
+      "componentId": "a2c8a92a4aa2656e",
+      "bboxMm": [
+        49.64999926,
+        84.50000018,
+        50.14999926,
+        85.50000018
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C19",
+      "componentId": "b02498ed92b11fad",
+      "bboxMm": [
+        47.89999972,
+        84.02500035999999,
+        48.89999972,
+        84.52500035999999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C20",
+      "componentId": "243484119aad70e1",
+      "bboxMm": [
+        47.89999972,
+        85.04999957999999,
+        48.89999972,
+        85.54999957999999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C21",
+      "componentId": "c99513c97ff060f8",
+      "bboxMm": [
+        47.89999972,
+        87.10000056,
+        48.89999972,
+        87.60000056
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C22",
+      "componentId": "1bcc42dffb338ad2",
+      "bboxMm": [
+        50.17499948,
+        81.70000069999999,
+        50.67499948,
+        82.70000069999999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C23",
+      "componentId": "2530295bf058947d",
+      "bboxMm": [
+        50.5000001,
+        90.3549999,
+        51.0000001,
+        91.3549999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C24",
+      "componentId": "71096e3623484b72",
+      "bboxMm": [
+        51.52499932,
+        90.3549999,
+        52.02499932,
+        91.3549999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C25",
+      "componentId": "34820400e51579b1",
+      "bboxMm": [
+        51.700000239999994,
+        84.17000083999999,
+        52.200000239999994,
+        85.17000083999999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C34",
+      "componentId": "6fbc96ce8169f3cb",
+      "bboxMm": [
+        52.02500056,
+        75.3500001,
+        52.82500056,
+        76.9500001
+      ],
+      "bodyLengthMm": 1.6,
+      "bodyWidthMm": 0.8,
+      "landPitchMm": 1.54999999879999,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C35",
+      "componentId": "2e693b555348ab5f",
+      "bboxMm": [
+        53.3250008,
+        75.7999998,
+        53.8250008,
+        76.7999998
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C36",
+      "componentId": "933a1cfeb7a67508",
+      "bboxMm": [
+        54.32500104,
+        75.3500001,
+        55.125001039999994,
+        76.9500001
+      ],
+      "bodyLengthMm": 1.6,
+      "bodyWidthMm": 0.8,
+      "landPitchMm": 1.54999999879999,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "C37",
+      "componentId": "1f6a1c09bb884b39",
+      "bboxMm": [
+        55.62500127999999,
+        75.7999998,
+        56.12500127999999,
+        76.7999998
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 0.9600000103999946,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "FB2",
+      "componentId": "275858446251063a",
+      "bboxMm": [
+        50.77500052,
+        75.3500001,
+        51.575000519999996,
+        76.9500001
+      ],
+      "bodyLengthMm": 1.6,
+      "bodyWidthMm": 0.8,
+      "landPitchMm": 1.54999999879999,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "R11",
+      "componentId": "edfd90b7a65da18c",
+      "bboxMm": [
+        60.5099999,
+        90.02856976,
+        61.5099999,
+        90.52856976
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 1.0199980107999949,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "R31",
+      "componentId": "7a5e68cabcd9f650",
+      "bboxMm": [
+        60.5099999,
+        86.79571363999999,
+        61.5099999,
+        87.29571363999999
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 1.0199980107999949,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "R37",
+      "componentId": "029414f82d4844e7",
+      "bboxMm": [
+        60.5099999,
+        85.7457132,
+        61.5099999,
+        86.2457132
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 1.0199980107999949,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "R40",
+      "componentId": "7fe3df115b72501e",
+      "bboxMm": [
+        60.5099999,
+        87.89999896,
+        61.5099999,
+        88.39999896
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 1.0199980107999949,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "R43",
+      "componentId": "03aca3c16f8bd8cd",
+      "bboxMm": [
+        60.5099999,
+        88.97142938,
+        61.5099999,
+        89.47142938
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 1.0199980107999949,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "R47",
+      "componentId": "37331b82737bab37",
+      "bboxMm": [
+        60.5099999,
+        91.08571522,
+        61.5099999,
+        91.58571522
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 1.0199980107999949,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    },
+    {
+      "ref": "R71",
+      "componentId": "65c662297d2e28f9",
+      "bboxMm": [
+        53.57499979999999,
+        77.79999884,
+        54.57499979999999,
+        78.29999884
+      ],
+      "bodyLengthMm": 1.0,
+      "bodyWidthMm": 0.5,
+      "landPitchMm": 1.0199980107999949,
+      "basis": "1005(0402) body1.0x0.5 mm for native~0.96/1.02 mm land pitch; 1608(0603) body1.6x0.8 mm for native1.55 mm pitch. Copper lands checked independently; imported Silk is not a factory courtyard."
+    }
+  ],
+  "allOriginalCopperAndDrillsUnchanged": true,
+  "additionalDrills": 5,
+  "chosenInnerBranchLayer": 15,
+  "status": "OFFLINE_ONLY_PENDING_LOCAL_FILL_REPAIR_AND_NATIVE_DRC",
+  "manufacturingReady": false
+}

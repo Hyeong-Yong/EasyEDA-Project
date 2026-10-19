@@ -1,0 +1,1082 @@
+{
+  "status": "caveat-noncorner-plane-export-delta-and-backside-text-orientation-needs-review",
+  "manufacturing_approved": false,
+  "inputs": {
+    "old_zip": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_multilayer_drc_pass_20261016_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "sha256": "9a9205244fcbcc592fbcb566f768f1ac6bbf494bb8f3c78c778452ffd018a2c1"
+    },
+    "new_zip": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_corners_j18_20261016_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "sha256": "d7e02a789490a2f274ccea8a214f1c7915dee4cfc22ead5aa0c03095d1957475"
+    },
+    "native_title_source": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-j18-bottom-title-20261016.epru",
+      "sha256": "c3ae821e40532e87bec1373b6691535069cafcb7dfd3ddf0bbf61f0e4d45ed19"
+    },
+    "reviewed_plan": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\plan.json",
+      "sha256": "a598937b8be3dc5132fb338377308fa85c6f7d468a55fe5fed902fabad431ab4"
+    },
+    "audit_script": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\audit-final-gerber.py",
+      "sha256": "d015711099d9f5a08a2ffc7ecc1ea4c43512f9100af330cbb364c65dac069982"
+    }
+  },
+  "checks": {
+    "all_793_drills_only_four_approved_npth_moves": true,
+    "six_copper_layers_only_local_plane_voids_and_four_npth_flashes_changed": false,
+    "all_23_new_closed_voids_match_reviewed_plan": true,
+    "all_other_copper_objects_exact_sequence": true,
+    "outline_exact_unchanged": true,
+    "actual_bottom_silk_includes_title_83_strokes": true,
+    "all_21_native_labels_mirrored": true,
+    "j18_ten_actual_bottom_pads_and_drills_overlaid": true,
+    "actual_bottom_text_physically_backside_readable": false
+  },
+  "drills": {
+    "status": "pass",
+    "old_count": 793,
+    "new_count": 793,
+    "unchanged_geometry_count": 789,
+    "moved_npth_diameter_mm": 3.2,
+    "old_centres_mm": [
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        150
+      ],
+      [
+        96,
+        4
+      ],
+      [
+        96,
+        150
+      ]
+    ],
+    "new_centres_mm": [
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        149
+      ],
+      [
+        95,
+        5
+      ],
+      [
+        95,
+        149
+      ]
+    ],
+    "inventory_before": {
+      "pth_round": 767,
+      "pth_slot": 13,
+      "npth_round": 13,
+      "npth_slot": 0
+    },
+    "inventory_after": {
+      "pth_round": 767,
+      "pth_slot": 13,
+      "npth_round": 13,
+      "npth_slot": 0
+    },
+    "supplemental_members": [
+      {
+        "member": "Drill_PTH_Through_Via.DRL",
+        "sha256": "755796181c410e4c28c7414c47c7001ff80bec69f30dc9d35c13dc8ec6ec29f1",
+        "bytes": 9169,
+        "unit": "metric",
+        "format": [
+          4,
+          5
+        ],
+        "zeroSuppression": "LZ",
+        "fileFunction": null,
+        "legacyType": "PLATED",
+        "declaredClass": "pth",
+        "toolCount": 5,
+        "itemCounts": {
+          "pth_round": 634
+        },
+        "tools": [
+          {
+            "name": "T1",
+            "diameterMm": 0.2,
+            "function": null
+          },
+          {
+            "name": "T2",
+            "diameterMm": 0.25,
+            "function": null
+          },
+          {
+            "name": "T3",
+            "diameterMm": 0.3,
+            "function": null
+          },
+          {
+            "name": "T4",
+            "diameterMm": 0.4,
+            "function": null
+          },
+          {
+            "name": "T5",
+            "diameterMm": 0.5,
+            "function": null
+          }
+        ],
+        "includedInCanonicalInventory": false,
+        "redundantExactSubsetOf": "Drill_PTH_Through.DRL",
+        "redundantItemCount": 634
+      }
+    ]
+  },
+  "copper_layers": [
+    {
+      "member": "Gerber_TopLayer.GTL",
+      "status": "pass",
+      "objects_before": 5698,
+      "objects_after": 5698,
+      "unchanged_object_sequence_exact": true,
+      "unchanged_objects": 5693,
+      "changed_region_before_index": 11,
+      "changed_region_after_index": 11,
+      "changed_drill_flash_count": 4,
+      "plane_delta_outside_corner_regions_mm2": 5.281499998121806e-07,
+      "outside_corner_delta_outside_0_00002mm_boundary_tube_mm2": 0.0,
+      "outside_corner_delta_remaining_after_other_unchanged_copper_mm2": 5.281499998121806e-07,
+      "unchanged_copper_covering_export_region_deltas_indices": [],
+      "outside_corner_region_delta_parts": [
+        {
+          "bounds_mm": [
+            19.98295,
+            42.73658,
+            20.06508,
+            42.85951
+          ],
+          "area_mm2": 4.805999999238451e-07
+        },
+        {
+          "bounds_mm": [
+            48.71274,
+            4.9656,
+            48.7956,
+            5.02097
+          ],
+          "area_mm2": 3.179999988778704e-08
+        },
+        {
+          "bounds_mm": [
+            82.70541,
+            148.99426,
+            82.70648,
+            149.00673
+          ],
+          "area_mm2": 1.5750000000548472e-08
+        }
+      ],
+      "new_closed_voids": [
+        {
+          "centre_mm": [
+            4.999999902087821,
+            4.999999902087815
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            1.3995,
+            8.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.5371529183701446e-05,
+          "minimum_vertex_radius_mm": 3.600434137924067,
+          "npth_edge_to_void_boundary_mm": 2.000427697045997,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            4.9999999020891535,
+            149.0000000377917
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            145.3995,
+            8.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.2723990163401857e-05,
+          "minimum_vertex_radius_mm": 3.600468887298157,
+          "npth_edge_to_void_boundary_mm": 2.000427028628663,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424493,
+            4.99999990208831
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            1.3995,
+            98.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.240575494545531e-05,
+          "minimum_vertex_radius_mm": 3.6004934511776687,
+          "npth_edge_to_void_boundary_mm": 2.00042770875777,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424682,
+            149.00000003779138
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            145.3995,
+            98.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.044239285979614e-05,
+          "minimum_vertex_radius_mm": 3.6004928849655853,
+          "npth_edge_to_void_boundary_mm": 2.000426125125951,
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "member": "Gerber_InnerLayer1.G1",
+      "status": "pass",
+      "objects_before": 911,
+      "objects_after": 911,
+      "unchanged_object_sequence_exact": true,
+      "unchanged_objects": 906,
+      "changed_region_before_index": 1,
+      "changed_region_after_index": 1,
+      "changed_drill_flash_count": 4,
+      "plane_delta_outside_corner_regions_mm2": 0.0011043408500005067,
+      "outside_corner_delta_outside_0_00002mm_boundary_tube_mm2": 0.0010550379452385437,
+      "outside_corner_delta_remaining_after_other_unchanged_copper_mm2": 0.0004438887041172992,
+      "unchanged_copper_covering_export_region_deltas_indices": [
+        131,
+        132
+      ],
+      "outside_corner_region_delta_parts": [
+        {
+          "bounds_mm": [
+            77.87678,
+            67.725,
+            78.16733,
+            68.01556
+          ],
+          "area_mm2": 0.00036899850000152726
+        },
+        {
+          "bounds_mm": [
+            77.87678,
+            67.43444,
+            78.16733,
+            67.725
+          ],
+          "area_mm2": 0.0003689984999994628
+        },
+        {
+          "bounds_mm": [
+            75.77678,
+            65.33444,
+            76.06479,
+            65.625
+          ],
+          "area_mm2": 0.00036577269999945434
+        },
+        {
+          "bounds_mm": [
+            69.16049,
+            67.57389,
+            69.2198,
+            67.67661
+          ],
+          "area_mm2": 3.4664999996360246e-07
+        },
+        {
+          "bounds_mm": [
+            69.16049,
+            65.46833,
+            69.2198,
+            65.57106
+          ],
+          "area_mm2": 1.7695000021023194e-07
+        },
+        {
+          "bounds_mm": [
+            48.71274,
+            4.9656,
+            48.7956,
+            5.02097
+          ],
+          "area_mm2": 3.179999988778704e-08
+        },
+        {
+          "bounds_mm": [
+            82.70541,
+            148.99426,
+            82.70648,
+            149.00673
+          ],
+          "area_mm2": 1.5750000000548472e-08
+        }
+      ],
+      "new_closed_voids": [
+        {
+          "centre_mm": [
+            4.999999902087821,
+            4.999999902087815
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            1.3995,
+            8.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.5371529183701446e-05,
+          "minimum_vertex_radius_mm": 3.600434137924067,
+          "npth_edge_to_void_boundary_mm": 2.000427697045997,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            4.9999999020891535,
+            149.0000000377917
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            145.3995,
+            8.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.276937463910694e-05,
+          "minimum_vertex_radius_mm": 3.6004559873027233,
+          "npth_edge_to_void_boundary_mm": 2.000427028628663,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424493,
+            4.99999990208831
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            1.3995,
+            98.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.240575494545531e-05,
+          "minimum_vertex_radius_mm": 3.6004934511776687,
+          "npth_edge_to_void_boundary_mm": 2.00042770875777,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424682,
+            149.00000003779138
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            145.3995,
+            98.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.044239285979614e-05,
+          "minimum_vertex_radius_mm": 3.6004928849655853,
+          "npth_edge_to_void_boundary_mm": 2.000426125125951,
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "member": "Gerber_InnerLayer2.G2",
+      "status": "pass",
+      "objects_before": 965,
+      "objects_after": 965,
+      "unchanged_object_sequence_exact": true,
+      "unchanged_objects": 960,
+      "changed_region_before_index": 1,
+      "changed_region_after_index": 1,
+      "changed_drill_flash_count": 4,
+      "plane_delta_outside_corner_regions_mm2": 1.5750000000548472e-08,
+      "outside_corner_delta_outside_0_00002mm_boundary_tube_mm2": 0.0,
+      "outside_corner_delta_remaining_after_other_unchanged_copper_mm2": 1.5750000000548472e-08,
+      "unchanged_copper_covering_export_region_deltas_indices": [],
+      "outside_corner_region_delta_parts": [
+        {
+          "bounds_mm": [
+            82.70541,
+            148.99426,
+            82.70648,
+            149.00673
+          ],
+          "area_mm2": 1.5750000000548472e-08
+        }
+      ],
+      "new_closed_voids": [
+        {
+          "centre_mm": [
+            4.999999902087821,
+            4.999999902087815
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            1.3995,
+            8.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.539811237157747e-05,
+          "minimum_vertex_radius_mm": 3.60043552305619,
+          "npth_edge_to_void_boundary_mm": 2.000427697045997,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            4.9999999020891535,
+            149.0000000377917
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            145.3995,
+            8.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.2646730463406414e-05,
+          "minimum_vertex_radius_mm": 3.600434088803726,
+          "npth_edge_to_void_boundary_mm": 2.000427028628663,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424682,
+            149.00000003779138
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            145.3995,
+            98.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.044239285979614e-05,
+          "minimum_vertex_radius_mm": 3.6004928849655853,
+          "npth_edge_to_void_boundary_mm": 2.000426125125951,
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "member": "Gerber_InnerLayer3.G3",
+      "status": "pass",
+      "objects_before": 2460,
+      "objects_after": 2460,
+      "unchanged_object_sequence_exact": true,
+      "unchanged_objects": 2455,
+      "changed_region_before_index": 4,
+      "changed_region_after_index": 4,
+      "changed_drill_flash_count": 4,
+      "plane_delta_outside_corner_regions_mm2": 0.06156083390200825,
+      "outside_corner_delta_outside_0_00002mm_boundary_tube_mm2": 0.058026017106031,
+      "outside_corner_delta_remaining_after_other_unchanged_copper_mm2": 0.059449262911846816,
+      "unchanged_copper_covering_export_region_deltas_indices": [
+        0,
+        66,
+        80,
+        92,
+        133,
+        135,
+        141,
+        149,
+        175,
+        176
+      ],
+      "outside_corner_region_delta_parts": [
+        {
+          "bounds_mm": [
+            75.77678,
+            65.33444,
+            76.06728,
+            65.62495
+          ],
+          "area_mm2": 0.0007202573999984187
+        },
+        {
+          "bounds_mm": [
+            77.87678,
+            67.43444,
+            78.16733,
+            67.725
+          ],
+          "area_mm2": 0.0003689984999994628
+        },
+        {
+          "bounds_mm": [
+            76.80178,
+            66.35944,
+            77.09228,
+            66.65
+          ],
+          "area_mm2": 0.00036174720000127215
+        },
+        {
+          "bounds_mm": [
+            77.7,
+            65.15772,
+            77.99056,
+            65.44822
+          ],
+          "area_mm2": 0.00036174720000127215
+        },
+        {
+          "bounds_mm": [
+            52.07678,
+            36.50944,
+            52.36728,
+            36.8
+          ],
+          "area_mm2": 0.0003617472000002399
+        },
+        {
+          "bounds_mm": [
+            53.37678,
+            37.90944,
+            53.66728,
+            38.2
+          ],
+          "area_mm2": 0.00036174719999921645
+        },
+        {
+          "bounds_mm": [
+            53.37678,
+            36.50944,
+            53.66728,
+            36.8
+          ],
+          "area_mm2": 0.0003617471999992076
+        },
+        {
+          "bounds_mm": [
+            77.70005,
+            65.80178,
+            77.99056,
+            66.09233
+          ],
+          "area_mm2": 0.00036173474999922137
+        },
+        {
+          "bounds_mm": [
+            77.87678,
+            65.62505,
+            78.16733,
+            65.91556
+          ],
+          "area_mm2": 0.00036173474999922137
+        },
+        {
+          "bounds_mm": [
+            77.40944,
+            67.90178,
+            77.69995,
+            68.19233
+          ],
+          "area_mm2": 0.0003617347499992037
+        },
+        {
+          "bounds_mm": [
+            77.70005,
+            67.25767,
+            77.99056,
+            67.54822
+          ],
+          "area_mm2": 0.0003617347499992037
+        },
+        {
+          "bounds_mm": [
+            75.13267,
+            65.33444,
+            75.42322,
+            65.62495
+          ],
+          "area_mm2": 0.0003617347499992037
+        }
+      ],
+      "new_closed_voids": [
+        {
+          "centre_mm": [
+            4.999999902087821,
+            4.999999902087815
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            1.3995,
+            8.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.5371529183701446e-05,
+          "minimum_vertex_radius_mm": 3.600434137924067,
+          "npth_edge_to_void_boundary_mm": 2.000427697045997,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            4.9999999020891535,
+            149.0000000377917
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            145.3995,
+            8.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.272412132975062e-05,
+          "minimum_vertex_radius_mm": 3.6004887379260198,
+          "npth_edge_to_void_boundary_mm": 2.000427028628663,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424493,
+            4.99999990208831
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            1.3995,
+            98.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.240575494545531e-05,
+          "minimum_vertex_radius_mm": 3.6004934511776687,
+          "npth_edge_to_void_boundary_mm": 2.00042770875777,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424682,
+            149.00000003779138
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            145.3995,
+            98.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.044239285979614e-05,
+          "minimum_vertex_radius_mm": 3.6004928849655853,
+          "npth_edge_to_void_boundary_mm": 2.000426125125951,
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "member": "Gerber_InnerLayer4.G4",
+      "status": "pass",
+      "objects_before": 911,
+      "objects_after": 911,
+      "unchanged_object_sequence_exact": true,
+      "unchanged_objects": 906,
+      "changed_region_before_index": 1,
+      "changed_region_after_index": 1,
+      "changed_drill_flash_count": 4,
+      "plane_delta_outside_corner_regions_mm2": 0.0011043408500005067,
+      "outside_corner_delta_outside_0_00002mm_boundary_tube_mm2": 0.0010550379452385437,
+      "outside_corner_delta_remaining_after_other_unchanged_copper_mm2": 0.0004438887041172992,
+      "unchanged_copper_covering_export_region_deltas_indices": [
+        131,
+        132
+      ],
+      "outside_corner_region_delta_parts": [
+        {
+          "bounds_mm": [
+            77.87678,
+            67.725,
+            78.16733,
+            68.01556
+          ],
+          "area_mm2": 0.00036899850000152726
+        },
+        {
+          "bounds_mm": [
+            77.87678,
+            67.43444,
+            78.16733,
+            67.725
+          ],
+          "area_mm2": 0.0003689984999994628
+        },
+        {
+          "bounds_mm": [
+            75.77678,
+            65.33444,
+            76.06479,
+            65.625
+          ],
+          "area_mm2": 0.00036577269999945434
+        },
+        {
+          "bounds_mm": [
+            69.16049,
+            67.57389,
+            69.2198,
+            67.67661
+          ],
+          "area_mm2": 3.4664999996360246e-07
+        },
+        {
+          "bounds_mm": [
+            69.16049,
+            65.46833,
+            69.2198,
+            65.57106
+          ],
+          "area_mm2": 1.7695000021023194e-07
+        },
+        {
+          "bounds_mm": [
+            48.71274,
+            4.9656,
+            48.7956,
+            5.02097
+          ],
+          "area_mm2": 3.179999988778704e-08
+        },
+        {
+          "bounds_mm": [
+            82.70541,
+            148.99426,
+            82.70648,
+            149.00673
+          ],
+          "area_mm2": 1.5750000000548472e-08
+        }
+      ],
+      "new_closed_voids": [
+        {
+          "centre_mm": [
+            4.999999902087821,
+            4.999999902087815
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            1.3995,
+            8.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.5371529183701446e-05,
+          "minimum_vertex_radius_mm": 3.600434137924067,
+          "npth_edge_to_void_boundary_mm": 2.000427697045997,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            4.9999999020891535,
+            149.0000000377917
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            145.3995,
+            8.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.276937463910694e-05,
+          "minimum_vertex_radius_mm": 3.6004559873027233,
+          "npth_edge_to_void_boundary_mm": 2.000427028628663,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424493,
+            4.99999990208831
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            1.3995,
+            98.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.240575494545531e-05,
+          "minimum_vertex_radius_mm": 3.6004934511776687,
+          "npth_edge_to_void_boundary_mm": 2.00042770875777,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424682,
+            149.00000003779138
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            145.3995,
+            98.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.044239285979614e-05,
+          "minimum_vertex_radius_mm": 3.6004928849655853,
+          "npth_edge_to_void_boundary_mm": 2.000426125125951,
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "member": "Gerber_BottomLayer.GBL",
+      "status": "pass",
+      "objects_before": 3096,
+      "objects_after": 3096,
+      "unchanged_object_sequence_exact": true,
+      "unchanged_objects": 3091,
+      "changed_region_before_index": 2,
+      "changed_region_after_index": 2,
+      "changed_drill_flash_count": 4,
+      "plane_delta_outside_corner_regions_mm2": 1.4540749998588324e-05,
+      "outside_corner_delta_outside_0_00002mm_boundary_tube_mm2": 0.0,
+      "outside_corner_delta_remaining_after_other_unchanged_copper_mm2": 5.97529950480008e-06,
+      "unchanged_copper_covering_export_region_deltas_indices": [
+        371,
+        372
+      ],
+      "outside_corner_region_delta_parts": [
+        {
+          "bounds_mm": [
+            75.77678,
+            65.33444,
+            76.06728,
+            65.625
+          ],
+          "area_mm2": 7.262500000240951e-06
+        },
+        {
+          "bounds_mm": [
+            75.77678,
+            67.43444,
+            76.06728,
+            67.725
+          ],
+          "area_mm2": 7.262499998176824e-06
+        },
+        {
+          "bounds_mm": [
+            82.70541,
+            148.99426,
+            82.70648,
+            149.00673
+          ],
+          "area_mm2": 1.5750000000548472e-08
+        },
+        {
+          "bounds_mm": [
+            49.13536,
+            4.80968,
+            49.44547,
+            5.11979
+          ],
+          "area_mm2": 1.700029006457271e-16
+        }
+      ],
+      "new_closed_voids": [
+        {
+          "centre_mm": [
+            4.999999902087821,
+            4.999999902087815
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            1.3995,
+            8.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.5371529183701446e-05,
+          "minimum_vertex_radius_mm": 3.600434137924067,
+          "npth_edge_to_void_boundary_mm": 2.000427697045997,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            4.9999999020891535,
+            149.0000000377917
+          ],
+          "actual_bounds_mm": [
+            1.3995,
+            145.3995,
+            8.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 9.599999994946984e-07,
+          "symmetric_difference_area_mm2": 4.2723990163401857e-05,
+          "minimum_vertex_radius_mm": 3.600468887298157,
+          "npth_edge_to_void_boundary_mm": 2.000427028628663,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424493,
+            4.99999990208831
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            1.3995,
+            98.6005,
+            8.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.240575494545531e-05,
+          "minimum_vertex_radius_mm": 3.6004934511776687,
+          "npth_edge_to_void_boundary_mm": 2.00042770875777,
+          "status": "pass"
+        },
+        {
+          "centre_mm": [
+            94.99999992424682,
+            149.00000003779138
+          ],
+          "actual_bounds_mm": [
+            91.3995,
+            145.3995,
+            98.6005,
+            152.6005
+          ],
+          "bounds_max_error_mm": 1.240000003122077e-06,
+          "symmetric_difference_area_mm2": 4.044239285979614e-05,
+          "minimum_vertex_radius_mm": 3.6004928849655853,
+          "npth_edge_to_void_boundary_mm": 2.000426125125951,
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "bottom_silk": {
+    "actual_stroke_count": 697,
+    "actual_title_strokes": 83,
+    "native_texts": [
+      "1 PD3",
+      "SCK",
+      "2 PB15",
+      "MOSI",
+      "3",
+      "GND",
+      "4 PC7",
+      "CSn",
+      "5",
+      "GND",
+      "6",
+      "GND",
+      "7",
+      "GND",
+      "8",
+      "GND",
+      "9",
+      "+3V3",
+      "10",
+      "+3V3",
+      "J18 SPI2"
+    ],
+    "backside_render": "Standard Gerber Y-up displayed with screen Y inversion; bottom side adds X reflection",
+    "actual_ink_height_measurements": [
+      {
+        "text": "1 PD3",
+        "actual_stroke_count": 39,
+        "ink_y_min_mm": 0.9402599999999999,
+        "ink_y_max_mm": 1.4082400000000002,
+        "ink_height_mm": 0.4679800000000003
+      },
+      {
+        "text": "SCK",
+        "actual_stroke_count": 39,
+        "ink_y_min_mm": 1.87114,
+        "ink_y_max_mm": 2.50168,
+        "ink_height_mm": 0.6305399999999999
+      }
+    ],
+    "visual_qa": {
+      "backside_text_readable": false,
+      "observed": "Standard Gerber Y-up view plus bottom-side X reflection produces horizontally mirrored lettering. Without X reflection, lettering is readable in TOP PROJECTION. Native STRING mirror=true is confirmed, but it does not establish physical backside legibility in this actual export.",
+      "physical_edge_orientation": "For both conventional Y-up previews, the physical board y=0 edge is at the bottom of the image, y increases upward. The backside preview additionally reflects X; native x=47.765 pin1 appears in the left column. The readable top projection has pin1 in the right column and is not labeled backside.",
+      "no_native_change": true
+    }
+  },
+  "previews": [
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-actual-gerber-backside.svg",
+      "sha256": "f4cf82fc961676ca1232196d9e550e5b06d8019a1ac911d7f4c2277e6c61af4a"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-actual-gerber-backside.png",
+      "sha256": "f315abdaa453cbd8954e73035d2433d4c8f94121d46b978739d637d19c22c97d"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-1-actual-gerber.svg",
+      "sha256": "8b7cf27fc47ff203760bdba0166aa33495b4d85aa4baea7cea589c94dd09757d"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-1-actual-gerber.png",
+      "sha256": "63582eaf60a7c6e264c069fd9425a66f448c4fe4ee81b417f5c2eed222f1f229"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-2-actual-gerber.svg",
+      "sha256": "fa727151b58da24bd08fd8301a05db62fd43633ccabf207812757cb676f26192"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-2-actual-gerber.png",
+      "sha256": "0fc23197849c162add9a095fe5ca7b8fbcfcd216c9f9e46f4a133c2fd66083ac"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-3-actual-gerber.svg",
+      "sha256": "1426b008e6098ec61b80a80f13fed23b3ebe71e5caf277154495e8d057935b41"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-3-actual-gerber.png",
+      "sha256": "45cb51c2e19f2e0819805d7b6b1ba2bfc9cddf021b3a0086efc55a69b91c3fc9"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-4-actual-gerber.svg",
+      "sha256": "4fc22304bebef9b4dd04be054efea8911acf8b73f383d5a4a7e015d0c772242e"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\corner-4-actual-gerber.png",
+      "sha256": "6f7678bb32fa391e97b7752bc6af7d2fddfa3d6806112fbca51613e0ff34ffe0"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-actual-gerber-top-projection-NOT-backside.svg",
+      "sha256": "58293c0dc6fdcfda653fae763eb391a79061d9270906d1a08094b37525689060"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-actual-gerber-top-projection-NOT-backside.png",
+      "sha256": "967fe68aaef488af598aa8b74d787b05af78d3e90ee163b52bfb0349b3556cea"
+    }
+  ],
+  "limitations": [
+    "No live EasyEDA calls or native project writes. No TEST_DAC8562 access.",
+    "Actual Gerber native NPTH pads export as dark diameter-3.2mm flashes; physical NPTH drilling removes them. Plane void geometry is checked independently, and render overlays actual drills.",
+    "Region self-touch bridge paths are interpreted with the existing Shapely polygon repair; circle native coordinates quantize at 0.0001mil and Gerber at 0.00001mm.",
+    "This bounded export comparison is not full CAM, DRC, netlist/ECO, impedance or manufacturing approval.",
+    "Cause of noncorner changed-plane REGION deltas is unconfirmed. Native preserved L-only polygon thermal contours do not prove exact exported region equivalence. No blanket manufacturing/CAM pass is claimed."
+  ]
+}

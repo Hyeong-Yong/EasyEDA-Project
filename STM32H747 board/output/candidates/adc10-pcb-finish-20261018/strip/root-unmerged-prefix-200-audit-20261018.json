@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "prefixCount": 200,
+  "basePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-strip_routes_fill-20261018.epru",
+  "baselineSha256": "0ffaee75d7d2fac6e6f70ee4c06296583564c4bd25b3be173e53540297415ede",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-strip_routes_lines_4-20261018.epru",
+  "sourceSha256": "99364331013366619e42147dbe3128c94afeb4b3cea352f652a81e28dcca60c4",
+  "manifestPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-pcb-finish-20261018\\strip\\adc10-strip-phase2-rebased-closed-operations-20261018.json",
+  "manifestSha256": "717e616c61c0c9ce6220ff8a6f4221496b1b0189c034cf8ce7717b57aaf3ba24",
+  "protectedDesignBodiesExact": 12919,
+  "addedLineRecords": 209,
+  "normalization": "Only new requested endpoint/width values round to4decimalmil; endpoints may reverse without changing copper",
+  "requiresUnionAuditorIfMerged": true,
+  "errors": [
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",12,[[500,3478.3464],[1043.3071,3478.3464]]]",
+      "expected": 1,
+      "actual": 0
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,722.4409],[1043.3071,3456.6929]]]",
+      "expected": 1,
+      "actual": 0
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1011.811,3456.6929],[1011.811,3673.2283]]]",
+      "expected": 1,
+      "actual": 0
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,3673.2283],[1043.3071,5683.0708]]]",
+      "expected": 1,
+      "actual": 0
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,722.4409],[1043.3071,1273.622]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,1273.622],[1043.3071,1824.8031]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,1824.8031],[1043.3071,2375.9842]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,2375.9842],[1043.3071,2992.126]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,2992.126],[1043.3071,3456.6929]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1011.811,3456.6929],[1011.811,3478.3464]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1011.811,3478.3464],[1011.811,3673.2283]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",12,[[500,3478.3464],[1011.811,3478.3464]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",12,[[1011.811,3478.3464],[1043.3071,3478.3464]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,3673.2283],[1043.3071,4029.5275]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,4029.5275],[1043.3071,4580.7086]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,4580.7086],[1043.3071,5131.8897]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    },
+    {
+      "geometry": "[1,\"ADC_BIAS_2V5\",23.622,[[1043.3071,5131.8897],[1043.3071,5683.0708]]]",
+      "issue": "unexpected-geometry",
+      "count": 1
+    }
+  ]
+}

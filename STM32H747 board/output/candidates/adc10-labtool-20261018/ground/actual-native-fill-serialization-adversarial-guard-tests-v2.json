@@ -1,0 +1,37 @@
+{
+  "schema": "native-fill-serialization-adversarial-guard-tests-v1",
+  "passed": true,
+  "tests": [
+    {
+      "name": "Exact native4dp serialization is accepted",
+      "passed": true
+    },
+    {
+      "name": "Whole-shape shift is rejected",
+      "passed": true
+    },
+    {
+      "name": "Unqualified subgrid single-vertex drift is rejected",
+      "passed": true
+    },
+    {
+      "name": "A one-native-grid shape shift is rejected",
+      "passed": true
+    },
+    {
+      "name": "Curved native commands can remain byte-value exact",
+      "passed": true
+    },
+    {
+      "name": "Curve command numeric modification is rejected without rounding waiver",
+      "passed": true
+    },
+    {
+      "name": "Removing a hole is rejected",
+      "passed": true
+    }
+  ],
+  "auditorSha256": "d11102ef2a0b349b3c31594f30e83118a317adb005b320ac13269c0189c73eeb",
+  "nativeCalls": 0,
+  "nativeModified": false
+}

@@ -1,0 +1,64 @@
+{
+  "status": "PASS_READ_ONLY_CODE_AUDIT",
+  "scope": "Installed public EasyEDA API and native PCB implementation only; no live EDA calls or changes",
+  "conclusion": {
+    "layer4IsBottom": true,
+    "effectiveTextReflection": "isBottomLayer XOR text.mirror",
+    "layer4MirrorFalse": "Native model reflects glyph contours in top projection; readable when physically viewed from backside",
+    "layer4MirrorTrue": "Cancels native bottom-layer reflection; glyph contours readable from top projection and mirrored from physical backside",
+    "defaultGerberLayerMirror": false,
+    "recommendedRepairAfterActualGerberConfirmation": "Change only the 21 new J18 STRING mirror flags true to false; keep default Gerber isMirror=false"
+  },
+  "evidence": [
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-pcb/3.2.193.682ed44e/js/pcb.js",
+      "characterOffset": 3168664,
+      "code": "function bs(o){return o==2||o==4||o==6||o==8||o==10||o==59}",
+      "meaning": "Layer 4 is in the native bottom-layer predicate"
+    },
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-pcb/3.2.193.682ed44e/js/pcb.js",
+      "characterOffset": 3854485,
+      "code": "function Fc(o,t){return bs(o)!==t}",
+      "meaning": "Effective reflection is bottom-layer predicate XOR stored text mirror"
+    },
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-pcb/3.2.193.682ed44e/js/pcb.js",
+      "characterOffset": 3981575,
+      "code": "get matrix(){let e=Fc(this.layerId,this.mirror),r=h3(this.origin),i=new S(r.x*this.width,r.y*this.height),n=this.rotation;return Ae.getMatrix4(i,n,e?-1:1,this.position)}",
+      "meaning": "Native text model applies the effective reflection directly to glyph transform"
+    },
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-ui/3.2.196.26ed3d6c/js/ui.js",
+      "characterOffset": 10896676,
+      "code": "Gvt=t=>t.filter(e=>e.status!==0&&e.layerId!=56).map(e=>({layerId:e.layerId,isMirror:!1})).concat([{layerId:56,isMirror:!1}]),IVe=async()=>{let t=await Vvt();return Gvt(t)}",
+      "meaning": "The API default/one-key Gerber layer configuration explicitly sets isMirror=false for every layer, including bottom silkscreen"
+    },
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-ui/3.2.196.26ed3d6c/js/ui.js",
+      "characterOffset": 13764081,
+      "code": "e.useDefaultLayerConfigs&&(e.layerConfigs=await IVe(),e.type=\"oneKeyExport\",e.format||(e.format={...kMe.format}))",
+      "meaning": "PCB_ManufactureData.getGerberFile uses the all-unmirrored default configuration when no explicit layer configs were supplied"
+    },
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-pcb/3.2.193.682ed44e/js/pcb.js",
+      "characterOffset": 6510906,
+      "code": "getText(t=bo.getInstance().getAllItem()){...E=i.getRealOutline();...e.push({layerId:n,...outlinesData:m,...})}",
+      "meaning": "Gerber collector consumes native transformed glyph outlines, so native bottom-layer text reflection is baked into exported contours before optional export layer mirroring"
+    },
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-api/0.3.50.ab46409c/api.js",
+      "characterOffset": 1502811,
+      "code": "get returns new Yl(s.layerId,s.position.x*10,s.position.y*10,s.value,s.fontFamily,s.fontSize*10,s.strokeWidth*10,s.origin,s.rotation*180/Math.PI,s.reverse,s.reverseExpansion*10,s.mirror,s.locked,s.globalIndex)",
+      "meaning": "String getter carries native mirror unchanged, with direct coordinate/size unit conversions and no explicit rounding"
+    },
+    {
+      "file": "C:/Program Files/easyeda-pro/resources/app/assets/pro-pcb/3.2.193.682ed44e/js/pcb.js",
+      "characterOffset": 10395269,
+      "code": "I.mirror!==b&&(I.mirror=b)",
+      "meaning": "Public String modify passes the mirror flag to native model unchanged. The handler journals the command, executes it, and marks PCB unsaved"
+    }
+  ],
+  "precisionCaution": "Public String getter/constructor/setters contain no PAD-style explicit rounding or mask defaults. They still round-trip fields through unit and angle conversions; compare complete saved/reopened source against frozen source and allow only 21 mirror changes. Preserve explicit source x/y/fontSize/lineWidth/rotation values if necessary.",
+  "actualGerberDiagnostics": "Performed by parent agent separately; this read-only code audit does not claim a corrected live Gerber has already been generated."
+}

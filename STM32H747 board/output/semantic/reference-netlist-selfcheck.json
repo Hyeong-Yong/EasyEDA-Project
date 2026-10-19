@@ -1,0 +1,31 @@
+{
+  "schema": "stm32h747-native-netlist-verification-v1",
+  "status": "match",
+  "comparison": {
+    "identity": [
+      "ref",
+      "number"
+    ],
+    "fields": [
+      "net",
+      "no_connect",
+      "page"
+    ],
+    "ignore_page": false
+  },
+  "counts": {
+    "expected_pins": 1167,
+    "candidate_pins": 1167,
+    "matched_pins": 1167,
+    "missing_pins": 0,
+    "unexpected_pins": 0,
+    "mismatched_pins": 0,
+    "expected_duplicate_identities": 0,
+    "candidate_duplicate_identities": 0
+  },
+  "expected_duplicates": [],
+  "candidate_duplicates": [],
+  "missing": [],
+  "unexpected": [],
+  "mismatches": []
+}

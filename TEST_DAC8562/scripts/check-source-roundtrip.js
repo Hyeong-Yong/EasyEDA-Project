@@ -1,0 +1,1 @@
+const d=await eda.dmt_SelectControl.getCurrentDocumentInfo();if(d?.uuid!=='e58bcc16379b10f4')throw new Error('Wrong page');const source=await eda.sys_FileManager.getDocumentSource();return {sameSourceAccepted:await eda.sys_FileManager.setDocumentSource(source),sourceLength:source.length};

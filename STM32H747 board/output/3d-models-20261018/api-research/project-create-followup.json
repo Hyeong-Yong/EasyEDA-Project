@@ -1,0 +1,91 @@
+{
+  "scope": "Read-only local reference and official documentation research. No native/bridge/UI calls, model imports, library registration, configured-path changes, or TEST_DAC8562 access.",
+  "new_runtime_evidence_from_main": {
+    "getProjectLibraryUuid": "project",
+    "create_project_file_result": "undefined",
+    "interpretation": "An unsuccessful/unknown result. No reference explicitly says project alias is read-only for 3D creation, so the cause must not be asserted from this result alone. Readback/error evidence must precede any retry."
+  },
+  "public_api_inventory": {
+    "importLibrary": {
+      "found": false,
+      "local_reference": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/.tools/easyeda-api/references/classes/SYS_FileManager.md",
+      "official_reference": "https://prodocs.lceda.cn/cn/api/reference/pro-api.sys_filemanager.html",
+      "fact": "The complete documented method list includes importProjectByProjectFile and extractLibInfo, but no importLibrary method."
+    },
+    "create_or_register_local_folder_library": {
+      "documented_public_method_found": false,
+      "local_reference": "references/classes/LIB_LibrariesList.md:111",
+      "fact": "LIB_LibrariesList exposes getAllLibrariesList, getFavoriteLibraryUuid, getPersonalLibraryUuid, getProjectLibraryUuid, getSystemLibraryUuid, and registerExtendLibrary. No create/add local library or configured-path setter appears."
+    },
+    "getLibrariesPaths": {
+      "signature": "eda.sys_FileSystem.getLibrariesPaths(): Promise<Array<string>>",
+      "reference": "references/classes/SYS_FileSystem.md:627",
+      "fact": "Read configured library directory roots. Reference notes fully offline client use and extension external interaction permission. This does not add a path or register a library."
+    },
+    "createDirectoryInFileSystem": {
+      "signature": "eda.sys_FileSystem.createDirectoryInFileSystem(folderPath: string): Promise<boolean>",
+      "reference": "references/classes/SYS_FileSystem.md:265",
+      "limit": "Creates a directory only. It is not documented to create an .elib library, register it, create model indices, or make it discoverable."
+    },
+    "getAllLibrariesList": {
+      "signature": "eda.lib_LibrariesList.getAllLibrariesList(): Promise<Array<ILIB_LibraryInfo>>",
+      "reference": "references/classes/LIB_LibrariesList.md:111",
+      "fact": "Returns ordinary available libraries as name/uuid; excludes system, personal, project, and favorite special libraries. After an explicit UI-created new STM-only library this is the documented way to read its actual UUID."
+    },
+    "registerExtendLibrary": {
+      "signature": "eda.lib_LibrariesList.registerExtendLibrary(title, {model3d?: ILIB_ExtendLibrary3DModelFunctions, ...}): Promise<string | undefined>",
+      "reference": "references/classes/LIB_LibrariesList.md:232",
+      "remarks_reference": "references/classes/LIB_LibrariesList.md:293",
+      "limit": "External callback library registration, extension-only. Not a documented disk-folder library creation or durable project binary embedding API. Do not use it as an implicit shared-configuration workaround."
+    },
+    "extractLibInfo": {
+      "signature": "eda.sys_FileManager.extractLibInfo(data: File | Array<File>): Promise<any>",
+      "reference": "references/classes/SYS_FileManager.md:219",
+      "limit": "Reads library configuration information; does not import/register it. Example fields devices/symbols/footprints/panelLibs do not specify 3D binary structure."
+    },
+    "importProjectByProjectFile": {
+      "reference": "references/classes/SYS_FileManager.md:1330",
+      "documented_properties": ["associate3DModel?: boolean", "saveTo.operation='Existing Project' plus existingProjectUuid", "librariesImportSetting.ownerTeamUuid", "librariesImportSetting.updateExistingLibrariesWithTheSameName?: boolean"],
+      "import_option_reference": "references/enums/ESYS_ImportProjectImportOption.md:32",
+      "import_option_values": ["ExtractLibraries", "ImportDocument", "ImportDocumentExtractLibraries"],
+      "limit": "This imports a supported EDA project package, not a raw STEP model or arbitrary model row. Library-extraction configuration is explicitly not fully supported (SYS_FileManager.md:1463). Do not pass a raw STEP, invent a minimal package with unverified doctype16 binary structure, or use ExtractLibraries defaults against shared libraries."
+    }
+  },
+  "official_supported_workflows": [
+    {
+      "url": "https://prodocs.easyeda.com/en/faq/client/index.html",
+      "section": "Create a Library",
+      "fact": "Create a Library on the start page or File > New > Library. The new library appears in the bottom library panel; its context menu opens its path.",
+      "scope_implication": "UI creation of a uniquely named STM32-only local library is the documented creation route. Main must inspect the chosen save path and confirm it does not change existing shared library roots or records. Creating under an already configured root may avoid changing root-list settings, but that side effect is not guaranteed by the API references."
+    },
+    {
+      "url": "https://prodocs.easyeda.com/en/faq/library/#how-to-import-3d-files-in-offline-mode",
+      "section": "How to import 3D files in offline mode?",
+      "fact": "Offline workflow supports STEP/STP: open the 3D model tool, obtain the displayed directory path, place files there, then refresh the library panel.",
+      "scope_implication": "Only use a newly selected STM32-owned directory/model namespace if the UI supports it. Do not place files into an existing TEST/global library directory or alter its current files. Binding still needs semantic UUID/readback and checkpoint payload validation."
+    },
+    {
+      "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.lib_3dmodel.create.html",
+      "section": "Remarks",
+      "fact": "In offline client mode a 3D model library is a local directory; create organizes and imports data into the specified library directory.",
+      "scope_implication": "Once an actual new STM-only local library/directory UUID has been created and read back, create with that explicit UUID/path descriptor is the documented import path. The documentation does not state that special alias project is a writable model directory. Do not infer that an arbitrary filesystem path is accepted as libraryUuid."
+    }
+  ],
+  "native_format_and_embedding": {
+    "local_source": "format/pcb/component.md:36",
+    "official_full_source": "https://image.lceda.cn/files/lceda-pro-file-format-v3_2025.10.21.md",
+    "official_full_source_verified_lines": [2913, 2978],
+    "fact": "3D Model UUID identifies a components-table record with doctype=16. The public format section gives the PCB attribute and transform, not the model record's binary payload/index schema.",
+    "important_distinction": "ELIB_LibraryType.MODEL='5' is an API library-category enum, not a replacement for internal components.doctype=16.",
+    "binary_embedding_schema_found": false,
+    "explicit_project_binary_embedding_api_found": false,
+    "safe_conclusion": "A bound UUID alone does not establish project portability. Export the saved project via getProjectFileByProjectUuid and verify the new model's record plus STEP/converted payload. No supported direct model-blob injection path can be claimed from these references."
+  },
+  "next_safe_main_actions": [
+    "Read back the first undefined import's target/model inventory and error/log evidence; do not blindly rerun create.",
+    "Inspect the 3D/model library UI for a new STM-specific local library/path using the existing configured root list, without changing existing TEST/global libraries or settings.",
+    "If a new isolated library is created, read getAllLibrariesList and its exact UUID; confirm ownership/path before one STEP import pilot.",
+    "If only a shared/global destination is offered, stop the write path and report that restriction rather than using it implicitly.",
+    "After a successful isolated import, bind a scoped component instance, save, and prove checkpoint payload persistence before broader binding."
+  ]
+}

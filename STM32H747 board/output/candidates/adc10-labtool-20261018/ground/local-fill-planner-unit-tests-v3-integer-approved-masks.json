@@ -1,0 +1,49 @@
+{
+  "schema": "local-static-fill-planner-synthetic-tests-v1",
+  "passed": true,
+  "tests": [
+    {
+      "name": "Enclosed copper island retained as separate FILL with exact original inner hole",
+      "passed": true
+    },
+    {
+      "name": "Multiple PolyTree depths preserve both nested copper islands",
+      "passed": true
+    },
+    {
+      "name": "Unapproved outer contact is blocked without a candidate mutation",
+      "passed": true
+    },
+    {
+      "name": "Approved notch restores native vertices and outside-mask edges exactly",
+      "passed": true
+    },
+    {
+      "name": "Exact reviewed port center/diameter/clearance passes",
+      "passed": true
+    },
+    {
+      "name": "Changed approved actor center is blocked",
+      "passed": true
+    },
+    {
+      "name": "Changed approved actor diameter is blocked",
+      "passed": true
+    },
+    {
+      "name": "Changed approved actor kind is blocked",
+      "passed": true
+    },
+    {
+      "name": "Changed reviewed clearance is blocked",
+      "passed": true
+    },
+    {
+      "name": "Invalid original input is blocked rather than buffer-zero repaired",
+      "passed": true
+    }
+  ],
+  "generatorSha256": "4834f030eb44db74b0a9e774f34fa78e907535a81357d625bfa222d577932f51",
+  "nativeCalls": 0,
+  "nativeModified": false
+}

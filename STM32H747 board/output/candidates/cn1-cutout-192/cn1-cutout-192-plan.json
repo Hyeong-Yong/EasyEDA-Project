@@ -1,0 +1,304 @@
+{
+  "schema": "stm32h747-cn1-cutout-192-plan-v1",
+  "status": "static-reviewed-candidate-not-applied",
+  "pcbUuid": "0ac2a19168000d8e",
+  "manufacturingApproved": false,
+  "authorization": {
+    "date": "2026-10-16",
+    "scope": "User explicitly approved enlarging the CN1 square machined cutout to 1.92 x 1.92 mm."
+  },
+  "inputs": {
+    "nativeBefore": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-cn1-cutout-192-before-20261016.epru",
+      "sha256": "3281799454ec209367c91e5db0f0b64b7074e1e2ffea6cc6abb43d3c42dd4d99",
+      "recordCount": 12732
+    },
+    "prechangeCheckpoint": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_before_cn1_cutout_192_20261016.epro2",
+      "sha256": "a90f0150deaa2a009fd2a53fc500b7788ef5dce54e1e0a8e7d570d8ce52d81e0"
+    },
+    "nativeDrc": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-pcb-drc-0ac2a19168000d8e-copper_clearances.json",
+      "sha256": "5435d918e65d9e2f1da18dbf0e639a5ebef5fd9f809774272d3f4c5971847709"
+    },
+    "priorStaticOutlinePlan": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\multilayer-route-clearance\\plan.json",
+      "sha256": "7b64d42575a1ff550f962591c9eb42c73f3cbac04fcca3eafe315944eb1a4e0b"
+    }
+  },
+  "scope": {
+    "primitiveType": "POLY",
+    "changedIds": [
+      "5b55024cb3a23233",
+      "6e8dd66b3e3db1b0",
+      "e94386c2e1a58187",
+      "f614cce4900c7115"
+    ],
+    "changeCount": 4,
+    "changedFields": [
+      "path"
+    ],
+    "layerId": 11,
+    "lineWidthMil": 3.937,
+    "nonPathFieldsImmutable": true,
+    "cn1NpthImmutable": true
+  },
+  "geometry": {
+    "requestedSizeMm": [
+      1.92,
+      1.92
+    ],
+    "native4DecimalMilBounds": {
+      "minX": 3727.5591,
+      "maxX": 3803.1496,
+      "minY": 614.1732,
+      "maxY": 689.7638
+    },
+    "nativeRepresentedSizeMm": [
+      1.9199987000000063,
+      1.9200012399999997
+    ],
+    "nativeRepresentationErrorMm": [
+      -1.2999999936536e-06,
+      1.239999999791408e-06
+    ],
+    "currentBoundsMil": {
+      "minX": 3729.9213,
+      "maxX": 3800.7874,
+      "minY": 616.5354,
+      "maxY": 687.4016
+    },
+    "currentSizeMm": [
+      1.7999989400000047,
+      1.8000014800000013
+    ],
+    "preservedCutoutCenterMil": [
+      3765.35435,
+      651.9685
+    ],
+    "resultCutoutCenterMil": [
+      3765.35435,
+      651.9685
+    ],
+    "cutoutCenterShiftMil": [
+      0.0,
+      0.0
+    ],
+    "outwardChangePerEdgeMm": [
+      0.059999880000000755,
+      0.059999880000000755,
+      0.059999880000000755,
+      0.05999987999999787
+    ],
+    "orderedCycleIds": [
+      "f614cce4900c7115",
+      "e94386c2e1a58187",
+      "5b55024cb3a23233",
+      "6e8dd66b3e3db1b0"
+    ],
+    "orderedCycleOrientation": "CW",
+    "signedAreaMil2": -5713.931249300484,
+    "orthogonalClosed": true
+  },
+  "protectedCn1Npth": {
+    "objectId": "8dfdc04036ba85c3e6",
+    "componentId": "8dfdc04036ba85c3",
+    "reference": "CN1",
+    "localPadId": "e6",
+    "number": "",
+    "plated": false,
+    "holeType": "ROUND",
+    "diameterMm": 1.29999994,
+    "sourceCenterMil": [
+      3765.354399999998,
+      651.9685000000005
+    ],
+    "cutoutCenterMil": [
+      3765.35435,
+      651.9685
+    ],
+    "sourceMinusCutoutCenterMil": [
+      4.9999997827399056e-05,
+      5.684341886080801e-13
+    ],
+    "sourceMinusCutoutCenterMm": [
+      1.269999944815936e-06,
+      1.4438228390645236e-14
+    ],
+    "interpretation": "The approximately 1.27 nm X offset is retained because the user prioritized preserving the existing square cutout center; the 1.30 mm NPTH is unchanged."
+  },
+  "changes": [
+    {
+      "type": "POLY",
+      "id": "5b55024cb3a23233",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3800.7874,
+          616.5354,
+          "L",
+          3729.9213,
+          616.5354
+        ],
+        "locked": false,
+        "zIndex": 8968,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3803.1496,
+          614.1732,
+          "L",
+          3727.5591,
+          614.1732
+        ],
+        "locked": false,
+        "zIndex": 8968,
+        "polyType": "NORMAL"
+      },
+      "changedFields": [
+        "path"
+      ]
+    },
+    {
+      "type": "POLY",
+      "id": "6e8dd66b3e3db1b0",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3729.9213,
+          616.5354,
+          "L",
+          3729.9213,
+          687.4016
+        ],
+        "locked": false,
+        "zIndex": 8966,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3727.5591,
+          614.1732,
+          "L",
+          3727.5591,
+          689.7638
+        ],
+        "locked": false,
+        "zIndex": 8966,
+        "polyType": "NORMAL"
+      },
+      "changedFields": [
+        "path"
+      ]
+    },
+    {
+      "type": "POLY",
+      "id": "e94386c2e1a58187",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3800.7874,
+          687.4016,
+          "L",
+          3800.7874,
+          616.5354
+        ],
+        "locked": false,
+        "zIndex": 8967,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3803.1496,
+          689.7638,
+          "L",
+          3803.1496,
+          614.1732
+        ],
+        "locked": false,
+        "zIndex": 8967,
+        "polyType": "NORMAL"
+      },
+      "changedFields": [
+        "path"
+      ]
+    },
+    {
+      "type": "POLY",
+      "id": "f614cce4900c7115",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3729.9213,
+          687.4016,
+          "L",
+          3800.7874,
+          687.4016
+        ],
+        "locked": false,
+        "zIndex": 8965,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 11,
+        "width": 3.937,
+        "path": [
+          3727.5591,
+          689.7638,
+          "L",
+          3803.1496,
+          689.7638
+        ],
+        "locked": false,
+        "zIndex": 8965,
+        "polyType": "NORMAL"
+      },
+      "changedFields": [
+        "path"
+      ]
+    }
+  ],
+  "applicationGate": [
+    "current source hash and all four full before bodies must match exactly",
+    "modify only the path field for these four POLY IDs through the public primitive API",
+    "allow only a documented same-ID recreate zIndex normalization if independently proven; reject every other body or record change",
+    "save/reopen and prove four IDs, one closed orthogonal CW cycle, center, dimensions, layer11 and width",
+    "native DRC must report zero errors and zero connection errors before any manufacturing use",
+    "repeat full PCB/checkpoint/netlist/stack/drill/export audits after application"
+  ]
+}

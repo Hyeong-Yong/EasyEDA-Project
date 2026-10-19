@@ -1,0 +1,179 @@
+{
+  "schema": "stm32-u3-native-default-mesh-pilot-v1",
+  "default_model_renders_when_transform_omitted": true,
+  "model_uuid_from_root_binding": "2351360292744dbc91885e7d69b823ec",
+  "source_U3_position_mm": [
+    70.86249988,
+    15.53500068
+  ],
+  "isolated_spatial_window_mm": [
+    69.01249988000001,
+    13.68500068,
+    72.71249988,
+    17.38500068
+  ],
+  "before": {
+    "export": "STM32H747_passives_337_STM32H747_passives_337",
+    "sha256": "5823ce54ce989db57899edec3497e8d5b8eb26f8728f98440ae46dc267eb09b6",
+    "nonboard_faces_in_U3_region": 0
+  },
+  "after": {
+    "export": "STM32H747_u3_default_pilot_361_STM32H747_u3_default_pilot_361",
+    "sha256": "c18b4e1de5e7d4955e899908965e1a53f08a3f9cbcce09a32ad7905bdd030e3f",
+    "nonboard_faces_in_U3_region": 573,
+    "bbox_mm": [
+      69.06263792227584,
+      13.985028651257304,
+      0.0,
+      72.16264411988824,
+      17.0850348488697,
+      1.033335389580446
+    ],
+    "size_xyz_mm": [
+      3.1000061976124016,
+      3.1000061976123963,
+      1.033335389580446
+    ],
+    "center_xyz_mm": [
+      70.61264102108204,
+      15.535031750063503,
+      0.516667694790223
+    ],
+    "center_offset_from_U3_xy_mm": [
+      -0.24985885891796045,
+      3.107006350333563e-05
+    ],
+    "material_bboxes_mm": {
+      "mtl7": [
+        69.06263792227584,
+        13.985028651257304,
+        0.0,
+        72.16264411988824,
+        17.0850348488697,
+        1.033335389580446
+      ],
+      "mtl8": [
+        70.46988057063594,
+        15.006563348298101,
+        1.023002045443059,
+        70.78744210924117,
+        16.04620002903512,
+        1.033335389580446
+      ],
+      "mtl3": [
+        69.06263792227584,
+        14.29502922174527,
+        0.0,
+        72.16264411988824,
+        16.77503427838173,
+        0.19633372915933298
+      ]
+    },
+    "metal_connected_pieces": [
+      {
+        "bbox_mm": [
+          69.06263792227584,
+          16.361700081745123,
+          0.0,
+          69.46563871318347,
+          16.67170071382468,
+          0.19633372915933298
+        ],
+        "center_xy_mm": [
+          69.26413831772965,
+          16.516700397784902
+        ]
+      },
+      {
+        "bbox_mm": [
+          69.06263792227584,
+          15.380031434023723,
+          0.0,
+          69.46563871318347,
+          15.69003206610328,
+          0.19633372915933298
+        ],
+        "center_xy_mm": [
+          69.26413831772965,
+          15.535031750063501
+        ]
+      },
+      {
+        "bbox_mm": [
+          69.06263792227584,
+          14.39836278630232,
+          0.0,
+          69.46563871318347,
+          14.708363418381877,
+          0.19633372915933298
+        ],
+        "center_xy_mm": [
+          69.26413831772965,
+          14.553363102342098
+        ]
+      },
+      {
+        "bbox_mm": [
+          71.75964332898062,
+          16.361700081745123,
+          0.0,
+          72.16264411988824,
+          16.67170071382468,
+          0.19633372915933298
+        ],
+        "center_xy_mm": [
+          71.96114372443444,
+          16.516700397784902
+        ]
+      },
+      {
+        "bbox_mm": [
+          71.75964332898062,
+          15.380031434023723,
+          0.0,
+          72.16264411988824,
+          15.69003206610328,
+          0.19633372915933298
+        ],
+        "center_xy_mm": [
+          71.96114372443444,
+          15.535031750063501
+        ]
+      },
+      {
+        "bbox_mm": [
+          71.75964332898062,
+          14.39836278630232,
+          0.0,
+          72.16264411988824,
+          14.708363418381877,
+          0.19633372915933298
+        ],
+        "center_xy_mm": [
+          71.96114372443444,
+          14.553363102342098
+        ]
+      },
+      {
+        "bbox_mm": [
+          69.78597268940042,
+          14.29502922174527,
+          0.0,
+          71.43930935276366,
+          16.77503427838173,
+          0.0
+        ],
+        "center_xy_mm": [
+          70.61264102108204,
+          15.535031750063501
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "OBJ omits source model UUID and reference labels; pilot binding metadata is supplied by the root's native call.",
+    "The default DFN mesh is rendered, but its center is shifted about -0.25mm in X and full mesh size is about3.1x3.1x1.033mm. Rendering is not final pad registration approval.",
+    "U3 region was chosen to exclude nearby passives; board faces were removed via the single board-wide material block.",
+    "Adjacent models sharing a material can be merged into one usemtl block. A block is not a component; per-face spatial extraction is required for this pilot."
+  ]
+}

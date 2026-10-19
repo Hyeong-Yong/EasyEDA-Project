@@ -1,0 +1,9 @@
+OPA320-Q1 isolated follower
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/OPA320/OPAx320-Q1.LIB"
+VP vp 0 3.3
+VI vi 0 1.65
+X1 vi vo vp 0 vo OPAx320-Q1
+RL vo 0 1meg
+.save v(vo) i(vp)
+.op
+.end

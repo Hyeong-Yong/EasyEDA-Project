@@ -1,0 +1,342 @@
+{
+  "schema": "stm32h747-multilayer-fill-clearance-rebase-report-v1",
+  "status": "offline-three-fill-reroute-rebase-ready-after-frozen-102",
+  "readOnlyAnalysis": true,
+  "manufacturingApproved": false,
+  "plan": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\multilayer-fill-clearance\\multilayer-fill-clearance-local-routes-rebase-3-plan.json",
+    "sha256": "f99c40c2de38875b257fc74e065c1debb3831d033f5ebb42d622df6962b49610",
+    "changeCount": 3
+  },
+  "inputs": {
+    "source": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-multilayer-local_routes-reopened.epru",
+      "sha256": "eb2ce42fba9a58297558d6a52daf48a813990de2921227557b8db3bc2c31f8c0"
+    },
+    "drc": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-pcb-drc-0ac2a19168000d8e-local_routes.json",
+      "sha256": "e850feb0d324d24ad397779413c2dfd0e485760fab22e29d2b842b86f48f076b"
+    },
+    "checkpoint": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_after_u4_land036_20261015.epro2",
+      "sha256": "f9c7d9803695055958147469781a76f8d274e2ba578c324a7279ff8cebc7eb1c"
+    }
+  },
+  "derivedPlans": {
+    "frozen_102_source_plan": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\multilayer-fill-clearance\\multilayer-fill-clearance-after-multicontour-plan.json",
+      "sha256": "653fb74d15a2c361e3d6c98675ed166731025e4937d63b3696ec397c2a3c12a6",
+      "selected_change_count": 102,
+      "excluded_fill_ids": [
+        "24ca3284aa7e94e7",
+        "72a3572efdb0f858",
+        "89b66ad2eafff7de"
+      ]
+    },
+    "reroute_aware_105_plan": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\multilayer-fill-clearance\\multilayer-fill-clearance-local-routes-plan.json",
+      "sha256": "cd59f0b205f735dfba5aef65a2ef6f30f554c7e6883035166202ef89ff28af91",
+      "selected_fill_ids": [
+        "24ca3284aa7e94e7",
+        "72a3572efdb0f858",
+        "89b66ad2eafff7de"
+      ]
+    },
+    "hybrid_final_state": "102 frozen candidate paths plus these 3 reroute-aware candidate paths; 1745 latest FILL DRC interactions checked sequentially and cross-plan contact dependencies checked explicitly"
+  },
+  "targetFillIds": [
+    "24ca3284aa7e94e7",
+    "72a3572efdb0f858",
+    "89b66ad2eafff7de"
+  ],
+  "beforeBodyChecks": {
+    "24ca3284aa7e94e7": {
+      "source_before_body_exact": true,
+      "layer_id": 1,
+      "net_name": "GND"
+    },
+    "72a3572efdb0f858": {
+      "source_before_body_exact": true,
+      "layer_id": 1,
+      "net_name": "GND"
+    },
+    "89b66ad2eafff7de": {
+      "source_before_body_exact": true,
+      "layer_id": 2,
+      "net_name": "GND"
+    }
+  },
+  "checks": {
+    "latest_fill_clearance_rows_total": 1745,
+    "hybrid_fill_clearance_rows_covered": 1745,
+    "hybrid_predicted_all_target_rows_clear": true,
+    "hybrid_predicted_minimum_rule_surplus_mil": 0.09054999999997015,
+    "frozen_102_latest_rows_clear": true,
+    "all_original_same_net_contacts_preserved": true,
+    "all_candidate_components_have_same_net_anchor": true,
+    "cross_plan_contact_dependencies_preserved": true,
+    "only_fill_path_changes": true,
+    "selected_three_before_bodies_exact_latest_source": true
+  },
+  "connectivityCompositionProof": {
+    "frozen_plan_checks": {
+      "all_original_same_net_contacts_preserved": true,
+      "all_candidate_components_have_same_net_anchor": true
+    },
+    "latest_plan_checks": {
+      "all_original_same_net_contacts_preserved": true,
+      "all_candidate_components_have_same_net_anchor": true
+    },
+    "frozen_candidates_with_target3_dependencies": {
+      "e2f4d4e8fcb3572c": [
+        "89b66ad2eafff7de"
+      ]
+    },
+    "hybrid_pair_audits": [
+      {
+        "fill_a": "24ca3284aa7e94e7",
+        "fill_b": "72a3572efdb0f858",
+        "distance_mil": 0.0,
+        "contact_tolerance_mil": 0.003,
+        "preserved": true
+      },
+      {
+        "fill_a": "89b66ad2eafff7de",
+        "fill_b": "e2f4d4e8fcb3572c",
+        "distance_mil": 0.0,
+        "contact_tolerance_mil": 0.003,
+        "preserved": true
+      }
+    ],
+    "selected_three_same_net_connectivity": {
+      "24ca3284aa7e94e7": {
+        "before_contact_ids": [
+          "72a3572efdb0f858"
+        ],
+        "after_contact_ids": [
+          "72a3572efdb0f858"
+        ],
+        "lost_contact_ids": [],
+        "candidate_components": [
+          {
+            "component_index": 0,
+            "same_net_contacts": [
+              "72a3572efdb0f858"
+            ]
+          }
+        ]
+      },
+      "72a3572efdb0f858": {
+        "before_contact_ids": [
+          "24ca3284aa7e94e7",
+          "309ebe5df5b3de60",
+          "950b2622ec5d71db"
+        ],
+        "after_contact_ids": [
+          "24ca3284aa7e94e7",
+          "309ebe5df5b3de60",
+          "950b2622ec5d71db"
+        ],
+        "lost_contact_ids": [],
+        "candidate_components": [
+          {
+            "component_index": 0,
+            "same_net_contacts": [
+              "24ca3284aa7e94e7",
+              "309ebe5df5b3de60",
+              "950b2622ec5d71db"
+            ]
+          }
+        ]
+      },
+      "89b66ad2eafff7de": {
+        "before_contact_ids": [
+          "e2f4d4e8fcb3572c",
+          "fc5c4b369547cff8"
+        ],
+        "after_contact_ids": [
+          "e2f4d4e8fcb3572c",
+          "fc5c4b369547cff8"
+        ],
+        "lost_contact_ids": [],
+        "candidate_components": [
+          {
+            "component_index": 0,
+            "same_net_contacts": [
+              "e2f4d4e8fcb3572c",
+              "fc5c4b369547cff8"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "informational": {
+    "frozen_vs_latest_path_diff_fill_count": 19,
+    "frozen_vs_latest_path_diff_fill_ids": [
+      "0738f61bc609c749",
+      "113dd1f00dd5b5b8",
+      "24ca3284aa7e94e7",
+      "365de7b113f807fa",
+      "5872560e3d03e2f4",
+      "5d8fde275801b816",
+      "647c91cbbc161db2",
+      "72a3572efdb0f858",
+      "81ce770ea50096f2",
+      "89b66ad2eafff7de",
+      "8e56a14144c76f68",
+      "933317dd38e2d8f5",
+      "9a405bd52ff5d175",
+      "a189d75595856670",
+      "a561ae94fe89ac25",
+      "e2f4d4e8fcb3572c",
+      "e680230ef8d2c5dd",
+      "eced2cdfc1e1f2e6",
+      "fd00ff7d0fd67437"
+    ],
+    "nonselected_path_diff_ids_retained_from_frozen_plan": [
+      "0738f61bc609c749",
+      "113dd1f00dd5b5b8",
+      "365de7b113f807fa",
+      "5872560e3d03e2f4",
+      "5d8fde275801b816",
+      "647c91cbbc161db2",
+      "81ce770ea50096f2",
+      "8e56a14144c76f68",
+      "933317dd38e2d8f5",
+      "9a405bd52ff5d175",
+      "a189d75595856670",
+      "a561ae94fe89ac25",
+      "e2f4d4e8fcb3572c",
+      "e680230ef8d2c5dd",
+      "eced2cdfc1e1f2e6",
+      "fd00ff7d0fd67437"
+    ],
+    "interpretation": "Nineteen candidates recompute to different paths after later pad/route changes, but latest-DRC geometry proves the frozen paths for the other 102 still clear all current FILL interactions; only these three had negative latest-route surplus and are rebased."
+  },
+  "selectedThreeClearanceRows": [
+    {
+      "error_id": "err83",
+      "fill_id": "24ca3284aa7e94e7",
+      "opponent_id": "9812f461c9a5af9a",
+      "opponent_type": "Track",
+      "layer_ids": [
+        1
+      ],
+      "native_actual_mil": 4.387449999999958,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281150000000026,
+      "surplus_mil": 0.2968500000000258
+    },
+    {
+      "error_id": "err98",
+      "fill_id": "24ca3284aa7e94e7",
+      "opponent_id": "69e32bfe502873f2",
+      "opponent_type": "Track",
+      "layer_ids": [
+        1
+      ],
+      "native_actual_mil": 4.0496577434127765,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281150273228215,
+      "surplus_mil": 0.2968502732282152
+    },
+    {
+      "error_id": "err84",
+      "fill_id": "72a3572efdb0f858",
+      "opponent_id": "9812f461c9a5af9a",
+      "opponent_type": "Track",
+      "layer_ids": [
+        1
+      ],
+      "native_actual_mil": 3.531449999999963,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281150000000026,
+      "surplus_mil": 0.2968500000000258
+    },
+    {
+      "error_id": "err97",
+      "fill_id": "72a3572efdb0f858",
+      "opponent_id": "d1556a27e4d8d8e5",
+      "opponent_type": "Track",
+      "layer_ids": [
+        1
+      ],
+      "native_actual_mil": 4.350350000000119,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281150000000024,
+      "surplus_mil": 0.29685000000002404
+    },
+    {
+      "error_id": "err99",
+      "fill_id": "72a3572efdb0f858",
+      "opponent_id": "69e32bfe502873f2",
+      "opponent_type": "Track",
+      "layer_ids": [
+        1
+      ],
+      "native_actual_mil": 3.95667320168617,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281150273227934,
+      "surplus_mil": 0.29685027322793367
+    },
+    {
+      "error_id": "err544",
+      "fill_id": "89b66ad2eafff7de",
+      "opponent_id": "7b19bc3334960821",
+      "opponent_type": "Track",
+      "layer_ids": [
+        2
+      ],
+      "native_actual_mil": 2.830191444594032,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281150400236983,
+      "surplus_mil": 0.29685040023698317
+    },
+    {
+      "error_id": "err546",
+      "fill_id": "89b66ad2eafff7de",
+      "opponent_id": "2dcca472846cea0c",
+      "opponent_type": "Track",
+      "layer_ids": [
+        2
+      ],
+      "native_actual_mil": 3.2668175800344894,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281150068247329,
+      "surplus_mil": 0.29685006824732874
+    },
+    {
+      "error_id": "err571",
+      "fill_id": "89b66ad2eafff7de",
+      "opponent_id": "a74c33db4e1bf03c",
+      "opponent_type": "Track",
+      "layer_ids": [
+        2
+      ],
+      "native_actual_mil": 3.976350000000118,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.281149999999798,
+      "surplus_mil": 0.29684999999979755
+    },
+    {
+      "error_id": "err1595",
+      "fill_id": "89b66ad2eafff7de",
+      "opponent_id": "613c85e0718056d9",
+      "opponent_type": "Via",
+      "layer_ids": [
+        2
+      ],
+      "native_actual_mil": 5.728323428242124,
+      "required_mil": 5.9843,
+      "hybrid_predicted_mil": 6.280676986987655,
+      "surplus_mil": 0.2963769869876547
+    }
+  ],
+  "requiredPostApply": [
+    "verify only the three target FILL paths changed, apart from documented zIndex=-1 and refs=[null] recreate normalizations",
+    "save/reopen and prove every contour survives",
+    "native DRC must add no Connection Error and the four moved-track rows must clear",
+    "rerun final full geometry/connectivity/export audits after all 105 FILL changes"
+  ]
+}

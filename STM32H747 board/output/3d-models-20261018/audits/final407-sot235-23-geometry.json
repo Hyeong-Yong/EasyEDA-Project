@@ -1,0 +1,1513 @@
+{
+  "schema": "stm32-final407-sot235-23-geometry-audit-v1",
+  "passed": true,
+  "native_calls": 0,
+  "source_export": "STM32H747_calibrated407_STM32H747_calibrated407",
+  "source_export_sha256": "8a294fa16ac55dedd16695ecad4b568e9c8fbadf919d66b0af5f61db4811faa5",
+  "model_count": 23,
+  "rows": [
+    {
+      "ref": "U10",
+      "passed": true,
+      "component_id_from_binding_plan": "90f01c582fa9048f",
+      "vertex_range": [
+        109104,
+        109821
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        136.55027427286495,
+        0.0,
+        20.304732425816695,
+        139.45027436823239,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.0002785499391397114,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.950475125204747
+        ],
+        [
+          -1.152686367852091,
+          0.0004199546041263602
+        ],
+        [
+          -1.1526864275128936,
+          0.9513149598369921
+        ],
+        [
+          1.1527616276653028,
+          -0.9509891924974738
+        ],
+        [
+          1.1527615680045002,
+          0.9508008925442653
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U11",
+      "passed": true,
+      "component_id_from_binding_plan": "2f5e13909cc52aa0",
+      "vertex_range": [
+        109822,
+        110539
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        122.55024633280905,
+        0.0,
+        20.304732425816695,
+        125.45024642817648,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.0002508346270894456,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9505031252606244
+        ],
+        [
+          -1.152686367852091,
+          0.00039195454823470754
+        ],
+        [
+          -1.1526864275128936,
+          0.9512869597811147
+        ],
+        [
+          1.1527616276653028,
+          -0.9510171925533513
+        ],
+        [
+          1.1527615680045002,
+          0.9507728924883878
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U12",
+      "passed": true,
+      "component_id_from_binding_plan": "5632682afac84b4f",
+      "vertex_range": [
+        110540,
+        111257
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        108.55021839275318,
+        0.0,
+        20.304732425816695,
+        111.45021848812061,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.0002231904074228767,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9505311253165019
+        ],
+        [
+          -1.152686367852091,
+          0.00036395449235726574
+        ],
+        [
+          -1.1526864275128936,
+          0.9512589597252372
+        ],
+        [
+          1.1527616276653028,
+          -0.9510451926092287
+        ],
+        [
+          1.1527615680045002,
+          0.9507448924325104
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U13",
+      "passed": true,
+      "component_id_from_binding_plan": "7171a481791815b3",
+      "vertex_range": [
+        111258,
+        111975
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        94.55019045269731,
+        0.0,
+        20.304732425816695,
+        97.45019054806474,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00019564741767362498,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9505591253723793
+        ],
+        [
+          -1.152686367852091,
+          0.0003359544364798239
+        ],
+        [
+          -1.1526864275128936,
+          0.9512309596693598
+        ],
+        [
+          1.1527616276653028,
+          -0.9510731926651061
+        ],
+        [
+          1.1527615680045002,
+          0.9507168923766329
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U14",
+      "passed": true,
+      "component_id_from_binding_plan": "deb64f5e0ed4bd2b",
+      "vertex_range": [
+        111976,
+        112693
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        80.5501625126414,
+        0.0,
+        20.304732425816695,
+        83.45016260800884,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00016825537843630613,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.950587125428271
+        ],
+        [
+          -1.152686367852091,
+          0.00030795438058817126
+        ],
+        [
+          -1.1526864275128936,
+          0.9512029596134681
+        ],
+        [
+          1.1527616276653028,
+          -0.9511011927209978
+        ],
+        [
+          1.1527615680045002,
+          0.9506888923207413
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U15",
+      "passed": true,
+      "component_id_from_binding_plan": "1e53cb97dd774e37",
+      "vertex_range": [
+        112694,
+        113411
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        66.55013457258555,
+        0.0,
+        20.304732425816695,
+        69.45013466795298,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00014110222879435105,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9506151254841342
+        ],
+        [
+          -1.152686367852091,
+          0.00027995432473915116
+        ],
+        [
+          -1.1526864275128936,
+          0.9511749595576049
+        ],
+        [
+          1.1527616276653028,
+          -0.951129192776861
+        ],
+        [
+          1.1527615680045002,
+          0.950660892264878
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U16",
+      "passed": true,
+      "component_id_from_binding_plan": "4666c1618fc027f1",
+      "vertex_range": [
+        113412,
+        114129
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        52.55010663252965,
+        0.0,
+        20.304732425816695,
+        55.45010672789708,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00011435826081983066,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9506431255400329
+        ],
+        [
+          -1.152686367852091,
+          0.00025195426884039307
+        ],
+        [
+          -1.1526864275128936,
+          0.9511469595017061
+        ],
+        [
+          1.1527616276653028,
+          -0.9511571928327598
+        ],
+        [
+          1.1527615680045002,
+          0.9506328922089793
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U17",
+      "passed": true,
+      "component_id_from_binding_plan": "aa8c486101280833",
+      "vertex_range": [
+        114130,
+        114847
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        38.550078692473775,
+        0.0,
+        20.304732425816695,
+        41.45007878784121,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 8.839564994284059e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9506711255959104
+        ],
+        [
+          -1.152686367852091,
+          0.00022395421296295126
+        ],
+        [
+          -1.1526864275128936,
+          0.9511189594458287
+        ],
+        [
+          1.1527616276653028,
+          -0.9511851928886372
+        ],
+        [
+          1.1527615680045002,
+          0.9506048921531018
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U18",
+      "passed": true,
+      "component_id_from_binding_plan": "414448f141bf24a6",
+      "vertex_range": [
+        114848,
+        115565
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        24.55005075241789,
+        0.0,
+        20.304732425816695,
+        27.45005084778532,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 6.416990180612912e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9506991256517949
+        ],
+        [
+          -1.152686367852091,
+          0.0001959541570748513
+        ],
+        [
+          -1.1526864275128936,
+          0.9510909593899441
+        ],
+        [
+          1.1527616276653028,
+          -0.9512131929445218
+        ],
+        [
+          1.1527615680045002,
+          0.9505768920972173
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U19",
+      "passed": true,
+      "component_id_from_binding_plan": "cc730f0914480653",
+      "vertex_range": [
+        115566,
+        116283
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        17.295343774335713,
+        10.550022812362005,
+        0.0,
+        20.304732425816695,
+        13.450022907729437,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 4.4606814784527384e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.152686367852091,
+          -0.9507271257076813
+        ],
+        [
+          -1.152686367852091,
+          0.00016795410118852772
+        ],
+        [
+          -1.1526864275128936,
+          0.9510629593340578
+        ],
+        [
+          1.1527616276653028,
+          -0.9512411930004081
+        ],
+        [
+          1.1527615680045002,
+          0.950548892041331
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U20",
+      "passed": true,
+      "component_id_from_binding_plan": "4da3d4f30777dc6a",
+      "vertex_range": [
+        141001,
+        141718
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304312,
+        135.05027295286231,
+        0.0,
+        12.704716725785294,
+        137.95027304822975,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.0002750968437335635,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834907,
+          -0.9504769052073812
+        ],
+        [
+          -1.1527020278834907,
+          0.0004181746014921828
+        ],
+        [
+          -1.1527020875442933,
+          0.9513131798343579
+        ],
+        [
+          1.1527459676338996,
+          -0.950990972500108
+        ],
+        [
+          1.152745907973097,
+          0.9507991125416311
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U21",
+      "passed": true,
+      "component_id_from_binding_plan": "5ebac22f2ef72405",
+      "vertex_range": [
+        141719,
+        142436
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304305,
+        121.05024495280631,
+        0.0,
+        12.704716725785287,
+        123.95024504817374,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00024713630330948616,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834978,
+          -0.9505049652633772
+        ],
+        [
+          -1.1527020278834978,
+          0.00039011454548187885
+        ],
+        [
+          -1.1527020875443004,
+          0.9512851197783618
+        ],
+        [
+          1.1527459676338925,
+          -0.9510190325561041
+        ],
+        [
+          1.15274590797309,
+          0.950771052485635
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U22",
+      "passed": true,
+      "component_id_from_binding_plan": "fd733966f3e0f89c",
+      "vertex_range": [
+        142437,
+        143154
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304305,
+        107.05021695275028,
+        0.0,
+        12.704716725785287,
+        109.95021704811771,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00021920119723510862,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834978,
+          -0.950533025319416
+        ],
+        [
+          -1.1527020278834978,
+          0.0003620544894431532
+        ],
+        [
+          -1.1527020875443004,
+          0.9512570597223231
+        ],
+        [
+          1.1527459676338925,
+          -0.9510470926121428
+        ],
+        [
+          1.15274590797309,
+          0.9507429924295963
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U23",
+      "passed": true,
+      "component_id_from_binding_plan": "ea0678a480cd502d",
+      "vertex_range": [
+        143155,
+        143872
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304312,
+        93.0501889526943,
+        0.0,
+        12.704716725785294,
+        95.95018904806173,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.0001913026681524402,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834907,
+          -0.9505610853753836
+        ],
+        [
+          -1.1527020278834907,
+          0.00033399443347548186
+        ],
+        [
+          -1.1527020875442933,
+          0.9512289996663554
+        ],
+        [
+          1.1527459676338996,
+          -0.9510751526681105
+        ],
+        [
+          1.152745907973097,
+          0.9507149323736286
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U24",
+      "passed": true,
+      "component_id_from_binding_plan": "fd37a62d8ab1f14c",
+      "vertex_range": [
+        143873,
+        144590
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304305,
+        79.0501609526383,
+        0.0,
+        12.704716725785287,
+        81.95016104800573,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00016345944538987927,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834978,
+          -0.9505891454313797
+        ],
+        [
+          -1.1527020278834978,
+          0.0003059343774793888
+        ],
+        [
+          -1.1527020875443004,
+          0.9512009396103593
+        ],
+        [
+          1.1527459676338925,
+          -0.9511032127241066
+        ],
+        [
+          1.15274590797309,
+          0.9506868723176325
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U25",
+      "passed": true,
+      "component_id_from_binding_plan": "a9bdf6d56f62ca52",
+      "vertex_range": [
+        144591,
+        145308
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304305,
+        65.05013295258229,
+        0.0,
+        12.704716725785287,
+        67.95013304794972,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00013570557546985494,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834978,
+          -0.95061720548739
+        ],
+        [
+          -1.1527020278834978,
+          0.00027787432146908486
+        ],
+        [
+          -1.1527020875443004,
+          0.951172879554349
+        ],
+        [
+          1.1527459676338925,
+          -0.9511312727801169
+        ],
+        [
+          1.15274590797309,
+          0.9506588122616222
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U26",
+      "passed": true,
+      "component_id_from_binding_plan": "2b6999a298ecfb92",
+      "vertex_range": [
+        145309,
+        146026
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304312,
+        51.05010495252628,
+        0.0,
+        12.704716725785294,
+        53.950105047893715,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00010810989607090094,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834907,
+          -0.9506452655433932
+        ],
+        [
+          -1.1527020278834907,
+          0.0002498142654800972
+        ],
+        [
+          -1.1527020875442933,
+          0.9511448194983458
+        ],
+        [
+          1.1527459676338996,
+          -0.9511593328361201
+        ],
+        [
+          1.152745907973097,
+          0.950630752205619
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U27",
+      "passed": true,
+      "component_id_from_binding_plan": "fc29578d7d454128",
+      "vertex_range": [
+        146027,
+        146744
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304305,
+        37.05007695247029,
+        0.0,
+        12.704716725785287,
+        39.95007704783772,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 8.083458127314582e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834978,
+          -0.9506733255993893
+        ],
+        [
+          -1.1527020278834978,
+          0.00022175420948400415
+        ],
+        [
+          -1.1527020875443004,
+          0.9511167594423497
+        ],
+        [
+          1.1527459676338925,
+          -0.9511873928921162
+        ],
+        [
+          1.15274590797309,
+          0.9506026921496229
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U28",
+      "passed": true,
+      "component_id_from_binding_plan": "5af17fb1feb4b2c1",
+      "vertex_range": [
+        146745,
+        147462
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304305,
+        23.050048952414283,
+        0.0,
+        12.704716725785287,
+        25.950049047781715,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 5.4363985455947545e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834978,
+          -0.9507013856554032
+        ],
+        [
+          -1.1527020278834978,
+          0.0001936941534665948
+        ],
+        [
+          -1.1527020875443004,
+          0.9510886993863359
+        ],
+        [
+          1.1527459676338925,
+          -0.95121545294813
+        ],
+        [
+          1.15274590797309,
+          0.950574632093609
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U29",
+      "passed": true,
+      "component_id_from_binding_plan": "52cc8004c687ffb1",
+      "vertex_range": [
+        147463,
+        148180
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        9.695328074304305,
+        9.050020952358288,
+        0.0,
+        12.704716725785287,
+        11.95002104772572,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 3.0844607096267346e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1527020278834978,
+          -0.9507294457113993
+        ],
+        [
+          -1.1527020278834978,
+          0.00016563409747050173
+        ],
+        [
+          -1.1527020875443004,
+          0.9510606393303398
+        ],
+        [
+          1.1527459676338925,
+          -0.9512435130041261
+        ],
+        [
+          1.15274590797309,
+          0.950546572037613
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U30",
+      "passed": true,
+      "component_id_from_binding_plan": "91e8dd4f81971fa2",
+      "vertex_range": [
+        148181,
+        148898
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        29.495367674383516,
+        28.350059552435493,
+        0.0,
+        32.5047563258645,
+        31.250059647802924,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 8.756871659238448e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1526609278042912,
+          -0.9506903456341931
+        ],
+        [
+          -1.1526609278042912,
+          0.00020473417467670174
+        ],
+        [
+          -1.1526609874650937,
+          0.951099739407546
+        ],
+        [
+          1.1527870677131027,
+          -0.9512044129269199
+        ],
+        [
+          1.1527870080522966,
+          0.9505856721148191
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U31",
+      "passed": true,
+      "component_id_from_binding_plan": "a16a7a0ad432b180",
+      "vertex_range": [
+        148899,
+        149616
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        36.49538187441191,
+        28.35005837243313,
+        0.0,
+        39.5047705258929,
+        31.25005846780056,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809896,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.0031613994566623838,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 9.658259208290989e-05,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1526479677758914,
+          -0.9506915256365573
+        ],
+        [
+          -1.1526479677758914,
+          0.00020355417231243678
+        ],
+        [
+          -1.1526480274366975,
+          0.9510985594051817
+        ],
+        [
+          1.152800027741506,
+          -0.9512055929292842
+        ],
+        [
+          1.1527999680807,
+          0.9505844921124549
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    },
+    {
+      "ref": "U32",
+      "passed": true,
+      "component_id_from_binding_plan": "23a446af46f5164d",
+      "vertex_range": [
+        149617,
+        150334
+      ],
+      "faces": 1412,
+      "actual_bbox_mm": [
+        24.195356474361112,
+        69.45014219260078,
+        0.0,
+        27.204745125842095,
+        72.35014228796821,
+        1.2484237223793708
+      ],
+      "actual_full_xyz_mm": [
+        3.0093886514809824,
+        2.9000000953674316,
+        1.2484237223793708
+      ],
+      "native_transform_envelope_xyz_mm": [
+        3.012550050937652,
+        2.899994295367241,
+        1.249080547703974
+      ],
+      "size_error_vs_native_envelope_mm": [
+        -0.003161399456669489,
+        5.800000190792076e-06,
+        -0.0006568253246030942
+      ],
+      "center_error_xy_mm": 0.00015082868138389298,
+      "minimum_z_mm": 0.0,
+      "physical_lead_count": 5,
+      "lead_centers_in_selected_native_axes_mm": [
+        [
+          -1.1526725678266914,
+          -0.9506093254689034
+        ],
+        [
+          -1.1526725678266914,
+          0.0002857543399699125
+        ],
+        [
+          -1.1526726274874939,
+          0.9511807595728357
+        ],
+        [
+          1.1527754276907025,
+          -0.9511233927616303
+        ],
+        [
+          1.1527753680299,
+          0.9506666922801088
+        ]
+      ],
+      "three_leads_on_left_two_on_right": true,
+      "left_row_pitch_mm": 0.9508950425208695,
+      "right_two_lead_span_divided_by_two_mm": 0.9508950425208695,
+      "nominal_pitch_mm": 0.95,
+      "maximum_pitch_error_mm": 0.0008950425208695822,
+      "orientation_basis": "Native U10 model manager default extents + preview alignment; 3 leads left with pin1 upper-left; full mesh XYZ preserved",
+      "model_relation": "SOT23-5 package-equivalent, not exact MPN markings"
+    }
+  ],
+  "maximum_size_error_mm": 0.003161399456669489,
+  "maximum_center_error_xy_mm": 0.0002785499391397114,
+  "maximum_pitch_error_mm": 0.0008950425208695822,
+  "limits": [
+    "Native model envelope dimensions are not always exact triangle bounds. Here the maximum0.00315mm difference is measured and reported, not hidden.",
+    "Pin1 marking direction comes from the root native U10 model-manager pilot; all23 instances use the same model/transform and verified3-left/2-right terminal topology.",
+    "The model is SOT23-5 package-equivalent, not exact MPN markings or manufacturer mechanical clearance approval."
+  ]
+}

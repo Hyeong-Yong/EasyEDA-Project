@@ -1,0 +1,677 @@
+{
+  "schema": "adc-dc-new-libraries-20261016-v1",
+  "project": "STM32H747_MCU_BOARD_v19",
+  "sourceCheckpoint": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_before_adc_dc_buffer_20261016.epro2",
+  "sourceCheckpointSha256": "99cc48e3ab6f78021a87d7944010b43eabc4121d0879b57a7a42e2afa9b61358",
+  "newOnly": true,
+  "mutatesExistingLibraries": false,
+  "containsSchematicOrPcb": false,
+  "counts": {
+    "SYMBOL": 4,
+    "FOOTPRINT": 6,
+    "DEVICE": 9
+  },
+  "symbols": {
+    "OPA320": {
+      "uuid": "409afa6024d46802",
+      "title": "STM_H747_ADC_DC_20261016_OPA320AIDBVR",
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT",
+          "primitiveId": "25e3774d81a6efca",
+          "x": 45,
+          "y": 0,
+          "length": 20,
+          "rotation": 180,
+          "electric": "OUT",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "V-",
+          "primitiveId": "20e6608ec991b327",
+          "x": 0,
+          "y": 35,
+          "length": 20,
+          "rotation": 270,
+          "electric": "Ground",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "+",
+          "primitiveId": "4062f2117b965ee4",
+          "x": -40,
+          "y": -10,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "4",
+          "name": "-",
+          "primitiveId": "3a57677acee80b41",
+          "x": -40,
+          "y": 10,
+          "length": 20,
+          "rotation": 0,
+          "electric": "IN",
+          "partId": "A"
+        },
+        {
+          "number": "5",
+          "name": "V+",
+          "primitiveId": "741530a3ffb0b6fe",
+          "x": 0,
+          "y": -35,
+          "length": 20,
+          "rotation": 90,
+          "electric": "Power",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive y down in symbol-local source"
+    },
+    "REF3325": {
+      "uuid": "24b464f21d23584b",
+      "title": "STM_H747_ADC_DC_20261016_REF3325AIDBZR",
+      "pins": [
+        {
+          "number": "1",
+          "name": "IN",
+          "primitiveId": "f28f2ab654309d8f",
+          "x": -45,
+          "y": -10,
+          "length": 20,
+          "rotation": 0,
+          "electric": "Power",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "OUT",
+          "primitiveId": "73772ff46ebc74c0",
+          "x": 45,
+          "y": -10,
+          "length": 20,
+          "rotation": 180,
+          "electric": "OUT",
+          "partId": "A"
+        },
+        {
+          "number": "3",
+          "name": "GND",
+          "primitiveId": "6a0c6cb979484902",
+          "x": 0,
+          "y": 40,
+          "length": 20,
+          "rotation": 270,
+          "electric": "Ground",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive y down in symbol-local source"
+    },
+    "R": {
+      "uuid": "7c9371fa79ed495d",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_R",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "primitiveId": "fe35ec223c6a2350",
+          "x": -15,
+          "y": 0,
+          "length": 5,
+          "rotation": 0,
+          "electric": "Passive",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "primitiveId": "59a89c21abff7f92",
+          "x": 15,
+          "y": 0,
+          "length": 5,
+          "rotation": 180,
+          "electric": "Passive",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive y down in symbol-local source"
+    },
+    "C": {
+      "uuid": "ef4e3f89768f5f2e",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "primitiveId": "96c80aa4e6141296",
+          "x": 0,
+          "y": -10,
+          "length": 8,
+          "rotation": 90,
+          "electric": "Passive",
+          "partId": "A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "primitiveId": "2ea7725f60fec288",
+          "x": 0,
+          "y": 10,
+          "length": 8,
+          "rotation": 270,
+          "electric": "Passive",
+          "partId": "A"
+        }
+      ],
+      "partId": "A",
+      "coordinateUnit": "0.01 inch, positive y down in symbol-local source"
+    }
+  },
+  "footprints": {
+    "R0402": {
+      "uuid": "ff57786ba5550624",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+      "pads": [
+        {
+          "number": "1",
+          "xMil": -20.078701,
+          "yMil": 0,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 21.259843,
+            "height": 25.19685,
+            "radius": 0
+          }
+        },
+        {
+          "number": "2",
+          "xMil": 20.078701,
+          "yMil": 0,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 21.259843,
+            "height": 25.19685,
+            "radius": 0
+          }
+        }
+      ],
+      "cloneSourceUuid": "b17e290d92d53f77",
+      "geometryOrigin": "existing checkpoint footprint; exact bodies except new META identity",
+      "manufacturingApproval": false
+    },
+    "C0402": {
+      "uuid": "7de6e514f0e8ed2c",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+      "pads": [
+        {
+          "number": "1",
+          "xMil": 18.897638,
+          "yMil": 0,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 22.047244,
+            "height": 24.409449,
+            "radius": 0
+          }
+        },
+        {
+          "number": "2",
+          "xMil": -18.897638,
+          "yMil": 0,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 22.047244,
+            "height": 24.409449,
+            "radius": 0
+          }
+        }
+      ],
+      "cloneSourceUuid": "9e353eb6a704affd",
+      "geometryOrigin": "existing checkpoint footprint; exact bodies except new META identity",
+      "manufacturingApproval": false
+    },
+    "C0603": {
+      "uuid": "2960af6acc07a4f6",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+      "pads": [
+        {
+          "number": "1",
+          "xMil": 0,
+          "yMil": -30.511811,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 35.433071,
+            "height": 33.464567,
+            "radius": 0
+          }
+        },
+        {
+          "number": "2",
+          "xMil": 0,
+          "yMil": 30.511811,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 35.433071,
+            "height": 33.464567,
+            "radius": 0
+          }
+        }
+      ],
+      "cloneSourceUuid": "69c2a659d6e0428f",
+      "geometryOrigin": "existing checkpoint footprint; exact bodies except new META identity",
+      "manufacturingApproval": false
+    },
+    "C0805": {
+      "uuid": "c0f5449c7872e003",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C0805",
+      "pads": [
+        {
+          "number": "1",
+          "xMil": 37.401535,
+          "yMil": 0,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 39.370079,
+            "height": 51.181102,
+            "radius": 0
+          }
+        },
+        {
+          "number": "2",
+          "xMil": -37.401535,
+          "yMil": 0,
+          "defaultPad": {
+            "padType": "RECT",
+            "width": 39.370079,
+            "height": 51.181102,
+            "radius": 0
+          }
+        }
+      ],
+      "cloneSourceUuid": "9d8961c7ff5f9eca",
+      "geometryOrigin": "existing checkpoint footprint; exact bodies except new META identity",
+      "manufacturingApproval": false
+    },
+    "DBV5": {
+      "uuid": "803f20b0a0956a00",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_TI_DBV0005A_SOT23_5",
+      "pads": [
+        {
+          "number": "1",
+          "centerMm": [
+            -1.3,
+            0.95
+          ],
+          "copperSizeMm": [
+            1.1,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        },
+        {
+          "number": "2",
+          "centerMm": [
+            -1.3,
+            0
+          ],
+          "copperSizeMm": [
+            1.1,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        },
+        {
+          "number": "3",
+          "centerMm": [
+            -1.3,
+            -0.95
+          ],
+          "copperSizeMm": [
+            1.1,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        },
+        {
+          "number": "4",
+          "centerMm": [
+            1.3,
+            -0.95
+          ],
+          "copperSizeMm": [
+            1.1,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        },
+        {
+          "number": "5",
+          "centerMm": [
+            1.3,
+            0.95
+          ],
+          "copperSizeMm": [
+            1.1,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        }
+      ],
+      "drawing": "DBV0005A 4214839/K 08/2024",
+      "geometryOrigin": "TI official example land pattern, top view, native footprint Y-up",
+      "manufacturingApproval": false,
+      "notes": "Verify chosen package/assembly land pattern and pin-1 orientation before PCB update."
+    },
+    "DBZ3": {
+      "uuid": "ef55fea923934355",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_TI_DBZ0003A_SOT23_3",
+      "pads": [
+        {
+          "number": "1",
+          "centerMm": [
+            -1.05,
+            0.95
+          ],
+          "copperSizeMm": [
+            1.3,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        },
+        {
+          "number": "2",
+          "centerMm": [
+            -1.05,
+            -0.95
+          ],
+          "copperSizeMm": [
+            1.3,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        },
+        {
+          "number": "3",
+          "centerMm": [
+            1.05,
+            0
+          ],
+          "copperSizeMm": [
+            1.3,
+            0.6
+          ],
+          "cornerRadiusMm": 0.05,
+          "solderMaskExpansionMm": 0.07,
+          "pasteExpansionMm": 0
+        }
+      ],
+      "drawing": "DBZ0003A 4214838/F 08/2024",
+      "geometryOrigin": "TI official example land pattern, top view, native footprint Y-up",
+      "manufacturingApproval": false,
+      "notes": "Verify chosen package/assembly land pattern and pin-1 orientation before PCB update."
+    }
+  },
+  "devices": {
+    "OPA320": {
+      "uuid": "642f2b3cba4947cb",
+      "title": "STM_H747_ADC_DC_20261016_OPA320AIDBVR",
+      "symbolUuid": "409afa6024d46802",
+      "footprintUuid": "803f20b0a0956a00",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "409afa6024d46802",
+        "Footprint": "803f20b0a0956a00",
+        "Value": "OPA320AIDBVR",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_TI_DBV0005A_SOT23_5",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "OPA320AIDBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/opa320.pdf"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    "REF3325": {
+      "uuid": "19f5bffc9b0b35c0",
+      "title": "STM_H747_ADC_DC_20261016_REF3325AIDBZR",
+      "symbolUuid": "24b464f21d23584b",
+      "footprintUuid": "ef55fea923934355",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "U?",
+        "Symbol": "24b464f21d23584b",
+        "Footprint": "ef55fea923934355",
+        "Value": "REF3325AIDBZR",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_TI_DBZ0003A_SOT23_3",
+        "DNP": "no",
+        "Manufacturer": "Texas Instruments",
+        "Part Number": "REF3325AIDBZR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/ref33.pdf",
+        "Output Voltage": "2.5 V"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2",
+        "3": "3"
+      }
+    },
+    "R47": {
+      "uuid": "6cfe0944c75a54df",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_R47_0402",
+      "symbolUuid": "7c9371fa79ed495d",
+      "footprintUuid": "ff57786ba5550624",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "R?",
+        "Symbol": "7c9371fa79ed495d",
+        "Footprint": "ff57786ba5550624",
+        "Value": "47",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "1%"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    },
+    "R6K8": {
+      "uuid": "070055aecdd82344",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_R6K8_0P1_0402",
+      "symbolUuid": "7c9371fa79ed495d",
+      "footprintUuid": "ff57786ba5550624",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "R?",
+        "Symbol": "7c9371fa79ed495d",
+        "Footprint": "ff57786ba5550624",
+        "Value": "6.8k",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_R0402",
+        "DNP": "no",
+        "Tolerance": "0.1%",
+        "Temperature Coefficient": "25 ppm/K or better",
+        "Description": "DC gain/offset matched 6.8k 0.1% resistor; procurement MPN selection pending"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    },
+    "C2N2": {
+      "uuid": "693207fa8abf1eb0",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C2N2_C0G_0402",
+      "symbolUuid": "ef4e3f89768f5f2e",
+      "footprintUuid": "7de6e514f0e8ed2c",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "C?",
+        "Symbol": "ef4e3f89768f5f2e",
+        "Footprint": "7de6e514f0e8ed2c",
+        "Value": "2.2nF",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    },
+    "C10N": {
+      "uuid": "1ed58e97c3223741",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C10N_C0G_0402",
+      "symbolUuid": "ef4e3f89768f5f2e",
+      "footprintUuid": "7de6e514f0e8ed2c",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "C?",
+        "Symbol": "ef4e3f89768f5f2e",
+        "Footprint": "7de6e514f0e8ed2c",
+        "Value": "10nF",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "C0G/NP0",
+        "Tolerance": "5%",
+        "Voltage Rating": "25 V or greater"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    },
+    "C100N": {
+      "uuid": "e52090184ad57945",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C100N_X7R_0402",
+      "symbolUuid": "ef4e3f89768f5f2e",
+      "footprintUuid": "7de6e514f0e8ed2c",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "C?",
+        "Symbol": "ef4e3f89768f5f2e",
+        "Footprint": "7de6e514f0e8ed2c",
+        "Value": "100nF",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0402",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    },
+    "C1U": {
+      "uuid": "4adaf88840aaae3c",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C1U_X7R_0603",
+      "symbolUuid": "ef4e3f89768f5f2e",
+      "footprintUuid": "2960af6acc07a4f6",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "C?",
+        "Symbol": "ef4e3f89768f5f2e",
+        "Footprint": "2960af6acc07a4f6",
+        "Value": "1uF",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0603",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    },
+    "C4U7": {
+      "uuid": "61612637d3ce6612",
+      "title": "STM_H747_ADC_DC_20261016_ADC_DC_C4U7_X7R_0805",
+      "symbolUuid": "ef4e3f89768f5f2e",
+      "footprintUuid": "c0f5449c7872e003",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "C?",
+        "Symbol": "ef4e3f89768f5f2e",
+        "Footprint": "c0f5449c7872e003",
+        "Value": "4.7uF",
+        "Name": "={Value}",
+        "Package": "STM_H747_ADC_DC_20261016_ADC_DC_C0805",
+        "DNP": "no",
+        "Dielectric": "X7R",
+        "Voltage Rating": "10 V or greater"
+      },
+      "pinToPad": {
+        "1": "1",
+        "2": "2"
+      }
+    }
+  },
+  "officialSources": {
+    "OPA320": "https://www.ti.com/lit/ds/symlink/opa320.pdf",
+    "REF3325": "https://www.ti.com/lit/ds/symlink/ref33.pdf"
+  },
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc-dc-buffer\\adc-dc-new-libraries.epru",
+  "sourceSha256": "8d2cbbdf48bc9f7cea17f235c1ae8b2ec91f3887f60dfff95c5e625e8e8135f8",
+  "packagePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc-dc-buffer\\STM32H747_adc_dc_new_libraries_20261016.epro2",
+  "packageSha256": "addd1c758302cee56b5087afc241065d4575496cf9e4cf085ea69a59628e2960",
+  "validation": {
+    "uniqueNewUuidNoCollision": true,
+    "allSymbolPinsMatchFootprintPads": true,
+    "nativeLibraryImportPending": true,
+    "manufacturingApproved": false
+  },
+  "importantNotes": [
+    "Native 3.2.206 uses Pin Name/Pin Number/Pin Type ATTR keys, not legacy NAME/NUMBER keys.",
+    "All symbol pins are real numbered electrical primitives; component Designator/Value remain editable visible ATTR records, not PDF glyphs.",
+    "Imported devices need runtime project-local name/source metadata rebind as in prior native library workflow.",
+    "All generated documents are new UUIDs; cloned passive footprint IDs only occur within new document scope.",
+    "No test equipment, simulation, native ERC, or PCB DRC has been performed by this offline library generator."
+  ]
+}

@@ -1,0 +1,4 @@
+import {readFile,writeFile} from 'node:fs/promises';import {resolve,dirname} from 'node:path';import {fileURLToPath} from 'node:url';
+const base=resolve(dirname(fileURLToPath(import.meta.url)),'..','output/3d-models-20261018');const p=JSON.parse(await readFile(resolve(base,'component-3d-transform-candidates.json'),'utf8'));const t=p.targets.find(t=>t.ref==='J12');
+const entries=[{ref:t.ref,id:t.component_id,model:'96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87',title:'SMA-TH_SMA-KWE901',transform:[7/.0254,15.1/.0254,12.8980158/.0254,90,0,0,4.05/.0254,0,-3.05/.0254].join(','),evidence:'NativeJ16pilot verifiednormalizedtransform; groundlegshoulder seating3.05mmpin-tipabove; rot90mustverifyneck+X'}];
+await writeFile(resolve(base,'j12-registered-pilot-plan.json'),JSON.stringify({entries,status:'PILOT_REQUIRES_NATIVE_OBJ_VERIFICATION'},null,2));

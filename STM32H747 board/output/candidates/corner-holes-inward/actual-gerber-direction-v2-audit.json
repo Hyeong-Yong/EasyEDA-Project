@@ -1,0 +1,1364 @@
+{
+  "status": "pass-silk-direction-correction-identity-prior-cam-caveat-carried-forward",
+  "manufacturing_approved": false,
+  "inputs": {
+    "prior_corners_zip": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_corners_j18_20261016_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "sha256": "d7e02a789490a2f274ccea8a214f1c7915dee4cfc22ead5aa0c03095d1957475"
+    },
+    "corrected_v2_zip": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_corners_j18_direction_v2_20261016_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "sha256": "607a7d818614af8e467392ae7fad2d90d405138735b85e6ccea2b9b764f7b1ee"
+    },
+    "corrected_v2_native_source": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-multilayer-corners_j18_direction_v2_20261016-reopened.epru",
+      "sha256": "106a37094bd8b2a383af5c7fb76101a64ade8cb55e3d55dda590abebfbc1f7a9"
+    },
+    "prior_corner_audit": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\actual-gerber-final-audit.json",
+      "sha256": "61e81e6d5cce491be20951d054e610772f2374943c365fb5ae735827e9884049"
+    },
+    "corrected_backside_preview_report": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-direction-v2-actual-gerber-backside-report.json",
+      "sha256": "ee23c3bcbffa912c72ead13bbc43b080dad17bfc0a193d2d2c9f05162fd55f05"
+    },
+    "audit_script": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\audit-direction-v2-identity.py",
+      "sha256": "c487c81283161419562a751b42a65bc6764924c449f29e90ff332762b4fa64f7"
+    }
+  },
+  "checks": {
+    "archive_member_set_unchanged": true,
+    "six_copper_geometry_object_sequences_exact": true,
+    "outline_geometry_object_sequence_exact": true,
+    "all_three_drill_payloads_exact_except_one_timestamp": true,
+    "native_21_bottom_strings_mirror_false": true,
+    "actual_gbo_stroke_count_697_retained": true,
+    "actual_backside_all_21_labels_readable_visual_QA": true,
+    "original_ten_copper_pad_and_drill_registration_preserved": true
+  },
+  "copper_and_outline_identity": [
+    {
+      "member": "Gerber_TopLayer.GTL",
+      "status": "pass",
+      "raw_sha256_before": "8e8d6240b2d150db9c4d012f6be5ca5c53432de5181e896e73ce126adf9677a1",
+      "raw_sha256_after": "877f18a9637dcdd8c8d38888c5250adecd5298bf377fb5695fad53ad8a207d78",
+      "timestamp_only_normalized_bytes_exact": false,
+      "generator_timestamp_before": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:29:47*",
+      "generator_timestamp_after": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:47:11*",
+      "object_count_before": 5698,
+      "object_count_after": 5698,
+      "resolved_geometry_object_sequence_exact": true,
+      "resolved_geometry_sha256_before": "a42132da9bc90a2300d5f1e9bd96672f1c98db016150753b8d3422aaae23ba9c",
+      "resolved_geometry_sha256_after": "a42132da9bc90a2300d5f1e9bd96672f1c98db016150753b8d3422aaae23ba9c",
+      "coordinate_format_exact": true,
+      "aperture_macro_definitions_exact": true,
+      "aperture_summary_before": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D17",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40",
+          "D41",
+          "D42",
+          "D43",
+          "D44",
+          "D45",
+          "D46",
+          "D47",
+          "D48",
+          "D49",
+          "D50",
+          "D51",
+          "D52",
+          "D53",
+          "D54",
+          "D55",
+          "D56",
+          "D57",
+          "D58",
+          "D59",
+          "D60",
+          "D61",
+          "D62",
+          "D63",
+          "D64",
+          "D65",
+          "D66",
+          "D67",
+          "D68",
+          "D69",
+          "D70",
+          "D71",
+          "D72",
+          "D73",
+          "D74",
+          "D75",
+          "D76",
+          "D77",
+          "D78",
+          "D79",
+          "D80",
+          "D81",
+          "D82",
+          "D83",
+          "D84",
+          "D85",
+          "D86",
+          "D87",
+          "D88",
+          "D89",
+          "D90",
+          "D91",
+          "D92",
+          "D93",
+          "D94",
+          "D95",
+          "D96",
+          "D97",
+          "D98",
+          "D99"
+        ],
+        "used_distinct_shape_count": 89,
+        "unused_definitions": {
+          "D16": {
+            "template": "R",
+            "paramsMm": [
+              0.902,
+              0.85
+            ],
+            "function": null
+          }
+        }
+      },
+      "aperture_summary_after": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D17",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40",
+          "D41",
+          "D42",
+          "D43",
+          "D44",
+          "D45",
+          "D46",
+          "D47",
+          "D48",
+          "D49",
+          "D50",
+          "D51",
+          "D52",
+          "D53",
+          "D54",
+          "D55",
+          "D56",
+          "D57",
+          "D58",
+          "D59",
+          "D60",
+          "D61",
+          "D62",
+          "D63",
+          "D64",
+          "D65",
+          "D66",
+          "D67",
+          "D68",
+          "D69",
+          "D70",
+          "D71",
+          "D72",
+          "D73",
+          "D74",
+          "D75",
+          "D76",
+          "D77",
+          "D78",
+          "D79",
+          "D80",
+          "D81",
+          "D82",
+          "D83",
+          "D84",
+          "D85",
+          "D86",
+          "D87",
+          "D88",
+          "D89",
+          "D90",
+          "D91",
+          "D92",
+          "D93",
+          "D94",
+          "D95",
+          "D96",
+          "D97",
+          "D98",
+          "D99"
+        ],
+        "used_distinct_shape_count": 89,
+        "unused_definitions": {
+          "D16": {
+            "template": "R",
+            "paramsMm": [
+              0.9038,
+              0.85
+            ],
+            "function": null
+          }
+        }
+      },
+      "object_counts": {
+        "region": 126,
+        "flash": 1732,
+        "line": 2772,
+        "arc": 1068
+      }
+    },
+    {
+      "member": "Gerber_InnerLayer1.G1",
+      "status": "pass",
+      "raw_sha256_before": "2b7af583d43cd5b4ecb506ad7e1115279382bf376d064ddbcc8d1cf84fa9ad7e",
+      "raw_sha256_after": "e0a94871370ae48fe91ab2792b9d3bcddb0cc20b0d5f93742b89a2a833105156",
+      "timestamp_only_normalized_bytes_exact": false,
+      "generator_timestamp_before": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:29:47*",
+      "generator_timestamp_after": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:47:11*",
+      "object_count_before": 911,
+      "object_count_after": 911,
+      "resolved_geometry_object_sequence_exact": true,
+      "resolved_geometry_sha256_before": "266507ac77945e46b8bd35ef4d2d9c2552c4d069603f750854b5fefb9a181708",
+      "resolved_geometry_sha256_after": "266507ac77945e46b8bd35ef4d2d9c2552c4d069603f750854b5fefb9a181708",
+      "coordinate_format_exact": true,
+      "aperture_macro_definitions_exact": true,
+      "aperture_summary_before": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D17",
+          "D18",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37"
+        ],
+        "used_distinct_shape_count": 27,
+        "unused_definitions": {
+          "D19": {
+            "template": "C",
+            "paramsMm": [
+              1.4088
+            ],
+            "function": null
+          }
+        }
+      },
+      "aperture_summary_after": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37"
+        ],
+        "used_distinct_shape_count": 27,
+        "unused_definitions": {
+          "D17": {
+            "template": "O",
+            "paramsMm": [
+              2.6294,
+              1.308
+            ],
+            "function": null
+          }
+        }
+      },
+      "object_counts": {
+        "region": 18,
+        "flash": 893
+      }
+    },
+    {
+      "member": "Gerber_InnerLayer2.G2",
+      "status": "pass",
+      "raw_sha256_before": "aad5b4aef78bde7a815780215b1b7315a397c6c3bafe76c383584b4bc9f5faa1",
+      "raw_sha256_after": "a063405e3a24e94e0bdcfad7eb377e3b08d8f368994f76c62e8993f1321d09c5",
+      "timestamp_only_normalized_bytes_exact": false,
+      "generator_timestamp_before": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:29:47*",
+      "generator_timestamp_after": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:47:11*",
+      "object_count_before": 965,
+      "object_count_after": 965,
+      "resolved_geometry_object_sequence_exact": true,
+      "resolved_geometry_sha256_before": "be9f1a947bfdd91e2bfabf8ee704750109f9ada07afa8db748a4611357af49ff",
+      "resolved_geometry_sha256_after": "be9f1a947bfdd91e2bfabf8ee704750109f9ada07afa8db748a4611357af49ff",
+      "coordinate_format_exact": true,
+      "aperture_macro_definitions_exact": true,
+      "aperture_summary_before": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40"
+        ],
+        "used_distinct_shape_count": 30,
+        "unused_definitions": {
+          "D17": {
+            "template": "C",
+            "paramsMm": [
+              1.3001
+            ],
+            "function": null
+          }
+        }
+      },
+      "aperture_summary_after": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D17",
+          "D18",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40"
+        ],
+        "used_distinct_shape_count": 30,
+        "unused_definitions": {
+          "D19": {
+            "template": "C",
+            "paramsMm": [
+              2.1315
+            ],
+            "function": null
+          }
+        }
+      },
+      "object_counts": {
+        "region": 20,
+        "flash": 765,
+        "line": 128,
+        "arc": 52
+      }
+    },
+    {
+      "member": "Gerber_InnerLayer3.G3",
+      "status": "pass",
+      "raw_sha256_before": "14b400b47bf7f48eaaca735d8028ee1c02463f18e14fcb8ff36f401d9f815bcc",
+      "raw_sha256_after": "0ed0bbf2a1195ab7c21ad1fd95159da8826dbc1db6b3303d0ae246d2cc4fbf76",
+      "timestamp_only_normalized_bytes_exact": false,
+      "generator_timestamp_before": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:29:47*",
+      "generator_timestamp_after": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:47:11*",
+      "object_count_before": 2460,
+      "object_count_after": 2460,
+      "resolved_geometry_object_sequence_exact": true,
+      "resolved_geometry_sha256_before": "efa8b0f05b50224d89621cf11e70c6555988d267bd04ad442e34e0aa3d2533dc",
+      "resolved_geometry_sha256_after": "efa8b0f05b50224d89621cf11e70c6555988d267bd04ad442e34e0aa3d2533dc",
+      "coordinate_format_exact": true,
+      "aperture_macro_definitions_exact": true,
+      "aperture_summary_before": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D17",
+          "D18",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40",
+          "D41",
+          "D42",
+          "D43",
+          "D44",
+          "D45",
+          "D46",
+          "D47",
+          "D48",
+          "D49"
+        ],
+        "used_distinct_shape_count": 39,
+        "unused_definitions": {
+          "D19": {
+            "template": "C",
+            "paramsMm": [
+              1.408
+            ],
+            "function": null
+          }
+        }
+      },
+      "aperture_summary_after": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D17",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40",
+          "D41",
+          "D42",
+          "D43",
+          "D44",
+          "D45",
+          "D46",
+          "D47",
+          "D48",
+          "D49"
+        ],
+        "used_distinct_shape_count": 39,
+        "unused_definitions": {
+          "D16": {
+            "template": "C",
+            "paramsMm": [
+              3.2093
+            ],
+            "function": null
+          }
+        }
+      },
+      "object_counts": {
+        "region": 62,
+        "flash": 899,
+        "line": 1039,
+        "arc": 460
+      }
+    },
+    {
+      "member": "Gerber_InnerLayer4.G4",
+      "status": "pass",
+      "raw_sha256_before": "3c7d313fda9c9820924d84cc0ced2ed15e52324db62c33ccdced4190f1d304e4",
+      "raw_sha256_after": "a35453144f9412b3e474d89eecb35c05dfea02d6eae36ab4265edda939fa9354",
+      "timestamp_only_normalized_bytes_exact": false,
+      "generator_timestamp_before": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:29:47*",
+      "generator_timestamp_after": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:47:11*",
+      "object_count_before": 911,
+      "object_count_after": 911,
+      "resolved_geometry_object_sequence_exact": true,
+      "resolved_geometry_sha256_before": "266507ac77945e46b8bd35ef4d2d9c2552c4d069603f750854b5fefb9a181708",
+      "resolved_geometry_sha256_after": "266507ac77945e46b8bd35ef4d2d9c2552c4d069603f750854b5fefb9a181708",
+      "coordinate_format_exact": true,
+      "aperture_macro_definitions_exact": true,
+      "aperture_summary_before": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D16",
+          "D17",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37"
+        ],
+        "used_distinct_shape_count": 27,
+        "unused_definitions": {
+          "D15": {
+            "template": "C",
+            "paramsMm": [
+              1.7189
+            ],
+            "function": null
+          }
+        }
+      },
+      "aperture_summary_after": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D17",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37"
+        ],
+        "used_distinct_shape_count": 27,
+        "unused_definitions": {
+          "D16": {
+            "template": "C",
+            "paramsMm": [
+              3.2002
+            ],
+            "function": null
+          }
+        }
+      },
+      "object_counts": {
+        "region": 18,
+        "flash": 893
+      }
+    },
+    {
+      "member": "Gerber_BottomLayer.GBL",
+      "status": "pass",
+      "raw_sha256_before": "75bc1f6ec4850c91bda82eb8ab935fd67e8ce731c08d655d628fc4459f323e4b",
+      "raw_sha256_after": "04772c6672c6f4794d8e3bf84f0fb7f5cafb10136b053c820a72b9178eca1ee8",
+      "timestamp_only_normalized_bytes_exact": false,
+      "generator_timestamp_before": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:29:47*",
+      "generator_timestamp_after": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:47:11*",
+      "object_count_before": 3096,
+      "object_count_after": 3096,
+      "resolved_geometry_object_sequence_exact": true,
+      "resolved_geometry_sha256_before": "2a00431874c5489f4bc15e3307e28318f01f50f23f0a6e4b10df308ed9bad5d4",
+      "resolved_geometry_sha256_after": "2a00431874c5489f4bc15e3307e28318f01f50f23f0a6e4b10df308ed9bad5d4",
+      "coordinate_format_exact": true,
+      "aperture_macro_definitions_exact": true,
+      "aperture_summary_before": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D17",
+          "D18",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40",
+          "D41",
+          "D42",
+          "D43",
+          "D44",
+          "D45",
+          "D46",
+          "D47",
+          "D48",
+          "D49",
+          "D50",
+          "D51",
+          "D52",
+          "D53",
+          "D54",
+          "D55"
+        ],
+        "used_distinct_shape_count": 45,
+        "unused_definitions": {
+          "D19": {
+            "template": "C",
+            "paramsMm": [
+              3.2571
+            ],
+            "function": null
+          }
+        }
+      },
+      "aperture_summary_after": {
+        "used_aperture_ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D16",
+          "D17",
+          "D18",
+          "D19",
+          "D20",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D25",
+          "D26",
+          "D27",
+          "D28",
+          "D29",
+          "D30",
+          "D31",
+          "D32",
+          "D33",
+          "D34",
+          "D35",
+          "D36",
+          "D37",
+          "D38",
+          "D39",
+          "D40",
+          "D41",
+          "D42",
+          "D43",
+          "D44",
+          "D45",
+          "D46",
+          "D47",
+          "D48",
+          "D49",
+          "D50",
+          "D51",
+          "D52",
+          "D53",
+          "D54",
+          "D55"
+        ],
+        "used_distinct_shape_count": 45,
+        "unused_definitions": {
+          "D15": {
+            "template": "O",
+            "paramsMm": [
+              2.6233,
+              1.308
+            ],
+            "function": null
+          }
+        }
+      },
+      "object_counts": {
+        "region": 76,
+        "flash": 933,
+        "line": 1483,
+        "arc": 604
+      }
+    },
+    {
+      "member": "Gerber_BoardOutlineLayer.GKO",
+      "status": "pass",
+      "raw_sha256_before": "57723630d496f6d5aa5902d1433c7c5aebc89bfe32b574fbeef289b093d74dd0",
+      "raw_sha256_after": "01f71dbf48f9c92ed505624bb07627c7d62fb1362e8b18c45a14abb956a33bc7",
+      "timestamp_only_normalized_bytes_exact": false,
+      "generator_timestamp_before": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:29:47*",
+      "generator_timestamp_after": "G04 EasyEDA Pro v3.2.206, 2026-10-16 17:47:11*",
+      "object_count_before": 8,
+      "object_count_after": 8,
+      "resolved_geometry_object_sequence_exact": true,
+      "resolved_geometry_sha256_before": "d576c41a28ab5383e87d315fc49c74ebb9f41f1b72af554e8b6382573f6f1ea1",
+      "resolved_geometry_sha256_after": "d576c41a28ab5383e87d315fc49c74ebb9f41f1b72af554e8b6382573f6f1ea1",
+      "coordinate_format_exact": true,
+      "aperture_macro_definitions_exact": true,
+      "aperture_summary_before": {
+        "used_aperture_ids": [
+          "D10",
+          "D11"
+        ],
+        "used_distinct_shape_count": 2,
+        "unused_definitions": {
+          "D12": {
+            "template": "C",
+            "paramsMm": [
+              0.9126
+            ],
+            "function": null
+          }
+        }
+      },
+      "aperture_summary_after": {
+        "used_aperture_ids": [
+          "D10",
+          "D11"
+        ],
+        "used_distinct_shape_count": 2,
+        "unused_definitions": {
+          "D12": {
+            "template": "C",
+            "paramsMm": [
+              0.1001
+            ],
+            "function": null
+          }
+        }
+      },
+      "object_counts": {
+        "line": 8
+      }
+    }
+  ],
+  "drill_identity": [
+    {
+      "member": "Drill_PTH_Through.DRL",
+      "timestamp_only_normalized_bytes_exact": true,
+      "before_sha256": "0f2af8e09270b5e528de472637195ad6c7bab0a2e019b7b22175c8b6514281a7",
+      "after_sha256": "874856b876c3cf2a772a1a1dd83c9c00f714b84bf4ab6341c5662820e35d275b",
+      "normalized_before_sha256": "f69f2bc38f11315d0db6f3c84ea0f10f23de940118e4900684ab2138cb3edd0b",
+      "normalized_after_sha256": "f69f2bc38f11315d0db6f3c84ea0f10f23de940118e4900684ab2138cb3edd0b"
+    },
+    {
+      "member": "Drill_NPTH_Through.DRL",
+      "timestamp_only_normalized_bytes_exact": true,
+      "before_sha256": "88d50c3b2bf67ec4f92486e08417465bfe038b700f75d8fd7d408e50ad85397c",
+      "after_sha256": "feb57997711a749e444c979cbfa63d021b66a55e80235e072a5e88e54f2cf942",
+      "normalized_before_sha256": "78597d6978026a6b6bf6dad84b4bd5b96340aab06893e9d27e6881d7de1f6630",
+      "normalized_after_sha256": "78597d6978026a6b6bf6dad84b4bd5b96340aab06893e9d27e6881d7de1f6630"
+    },
+    {
+      "member": "Drill_PTH_Through_Via.DRL",
+      "timestamp_only_normalized_bytes_exact": true,
+      "before_sha256": "755796181c410e4c28c7414c47c7001ff80bec69f30dc9d35c13dc8ec6ec29f1",
+      "after_sha256": "21d8993a7d1bd20012fe7c4c742f606db6c68d64e1f2a5e733117006260efc47",
+      "normalized_before_sha256": "0c81536e706e8194e9aeb9d5c420c5b93e6bb5b506f303d6d41ee9e7858ba5ec",
+      "normalized_after_sha256": "0c81536e706e8194e9aeb9d5c420c5b93e6bb5b506f303d6d41ee9e7858ba5ec"
+    }
+  ],
+  "other_gerber_timestamp_normalized_byte_checks": [
+    {
+      "member": "Gerber_TopSolderMaskLayer.GTS",
+      "timestamp_only_normalized_bytes_exact": false
+    },
+    {
+      "member": "Gerber_BottomSolderMaskLayer.GBS",
+      "timestamp_only_normalized_bytes_exact": false
+    },
+    {
+      "member": "Gerber_TopPasteMaskLayer.GTP",
+      "timestamp_only_normalized_bytes_exact": false
+    },
+    {
+      "member": "Gerber_BottomPasteMaskLayer.GBP",
+      "timestamp_only_normalized_bytes_exact": false
+    },
+    {
+      "member": "Gerber_TopSilkscreenLayer.GTO",
+      "timestamp_only_normalized_bytes_exact": false
+    }
+  ],
+  "bottom_silk": {
+    "actual_stroke_count": 697,
+    "native_texts": [
+      "1 PD3",
+      "SCK",
+      "2 PB15",
+      "MOSI",
+      "3",
+      "GND",
+      "4 PC7",
+      "CSn",
+      "5",
+      "GND",
+      "6",
+      "GND",
+      "7",
+      "GND",
+      "8",
+      "GND",
+      "9",
+      "+3V3",
+      "10",
+      "+3V3",
+      "J18 SPI2"
+    ],
+    "native_mirror_false_count": 21,
+    "coordinate_proof": "Standard Gerber Y-up with screen Y inversion; physical backside adds X reflection. Physical y=0 board edge at image bottom. Pin1 square pad bottom-left; pin2 above it; all text normal readable.",
+    "preview_report": {
+      "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\STM32H747_corners_j18_direction_v2_20261016_DIAGNOSTIC_NOT_FOR_FAB.zip",
+      "source_sha256": "607a7d818614af8e467392ae7fad2d90d405138735b85e6ccea2b9b764f7b1ee",
+      "actual_gbo_sha256": "7826d34e5b536662040374f3bd3f7ac998546b0c4f589944e55d82ba1c5b5384",
+      "stroke_count": 697,
+      "previews": [
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-direction-v2-actual-gerber-backside.svg",
+          "sha256": "6150b8119ce73bdaf0fe30a94591db2972ba841cbfe53e0776862b5a121c95b3"
+        },
+        {
+          "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\corner-holes-inward\\j18-direction-v2-actual-gerber-backside.png",
+          "sha256": "615060bd46f23843ee87e0ca96360c1c4858b7b801cfe88bdc1c4ddaff824e07"
+        }
+      ],
+      "scope": "Only actual bottom-silk parse/render; original frozen ten J18 Cu pads/drills are overlaid. No live API or native write, no copper/CAM rerun.",
+      "view": "Standard Gerber Y-up plus backside X reflection; board y=0 edge at image bottom; pin1 left bottom row."
+    }
+  },
+  "prior_cam_caveat": {
+    "status": "unresolved-carried-forward-not-introduced-by-silk-correction",
+    "scope": "Original corner-void export versus pre-corner baseline changed-region differences outside corners, despite native original contours being preserved by separate native audit.",
+    "cause": "Unconfirmed; encoding, contour-bridge or tessellation variation is only an inference, not established cause.",
+    "region_differences": [
+      {
+        "member": "Gerber_TopLayer.GTL",
+        "region_symmetric_difference_outside_corner_regions_mm2": 5.281499998121806e-07,
+        "residual_after_supported_unchanged_copper_only_upper_bound_mm2": 5.281499998121806e-07,
+        "largest_parts": [
+          {
+            "bounds_mm": [
+              19.98295,
+              42.73658,
+              20.06508,
+              42.85951
+            ],
+            "area_mm2": 4.805999999238451e-07
+          },
+          {
+            "bounds_mm": [
+              48.71274,
+              4.9656,
+              48.7956,
+              5.02097
+            ],
+            "area_mm2": 3.179999988778704e-08
+          },
+          {
+            "bounds_mm": [
+              82.70541,
+              148.99426,
+              82.70648,
+              149.00673
+            ],
+            "area_mm2": 1.5750000000548472e-08
+          }
+        ]
+      },
+      {
+        "member": "Gerber_InnerLayer1.G1",
+        "region_symmetric_difference_outside_corner_regions_mm2": 0.0011043408500005067,
+        "residual_after_supported_unchanged_copper_only_upper_bound_mm2": 0.0004438887041172992,
+        "largest_parts": [
+          {
+            "bounds_mm": [
+              77.87678,
+              67.725,
+              78.16733,
+              68.01556
+            ],
+            "area_mm2": 0.00036899850000152726
+          },
+          {
+            "bounds_mm": [
+              77.87678,
+              67.43444,
+              78.16733,
+              67.725
+            ],
+            "area_mm2": 0.0003689984999994628
+          },
+          {
+            "bounds_mm": [
+              75.77678,
+              65.33444,
+              76.06479,
+              65.625
+            ],
+            "area_mm2": 0.00036577269999945434
+          },
+          {
+            "bounds_mm": [
+              69.16049,
+              67.57389,
+              69.2198,
+              67.67661
+            ],
+            "area_mm2": 3.4664999996360246e-07
+          },
+          {
+            "bounds_mm": [
+              69.16049,
+              65.46833,
+              69.2198,
+              65.57106
+            ],
+            "area_mm2": 1.7695000021023194e-07
+          },
+          {
+            "bounds_mm": [
+              48.71274,
+              4.9656,
+              48.7956,
+              5.02097
+            ],
+            "area_mm2": 3.179999988778704e-08
+          },
+          {
+            "bounds_mm": [
+              82.70541,
+              148.99426,
+              82.70648,
+              149.00673
+            ],
+            "area_mm2": 1.5750000000548472e-08
+          }
+        ]
+      },
+      {
+        "member": "Gerber_InnerLayer2.G2",
+        "region_symmetric_difference_outside_corner_regions_mm2": 1.5750000000548472e-08,
+        "residual_after_supported_unchanged_copper_only_upper_bound_mm2": 1.5750000000548472e-08,
+        "largest_parts": [
+          {
+            "bounds_mm": [
+              82.70541,
+              148.99426,
+              82.70648,
+              149.00673
+            ],
+            "area_mm2": 1.5750000000548472e-08
+          }
+        ]
+      },
+      {
+        "member": "Gerber_InnerLayer3.G3",
+        "region_symmetric_difference_outside_corner_regions_mm2": 0.06156083390200825,
+        "residual_after_supported_unchanged_copper_only_upper_bound_mm2": 0.059449262911846816,
+        "largest_parts": [
+          {
+            "bounds_mm": [
+              75.77678,
+              65.33444,
+              76.06728,
+              65.62495
+            ],
+            "area_mm2": 0.0007202573999984187
+          },
+          {
+            "bounds_mm": [
+              77.87678,
+              67.43444,
+              78.16733,
+              67.725
+            ],
+            "area_mm2": 0.0003689984999994628
+          },
+          {
+            "bounds_mm": [
+              76.80178,
+              66.35944,
+              77.09228,
+              66.65
+            ],
+            "area_mm2": 0.00036174720000127215
+          },
+          {
+            "bounds_mm": [
+              77.7,
+              65.15772,
+              77.99056,
+              65.44822
+            ],
+            "area_mm2": 0.00036174720000127215
+          },
+          {
+            "bounds_mm": [
+              52.07678,
+              36.50944,
+              52.36728,
+              36.8
+            ],
+            "area_mm2": 0.0003617472000002399
+          },
+          {
+            "bounds_mm": [
+              53.37678,
+              37.90944,
+              53.66728,
+              38.2
+            ],
+            "area_mm2": 0.00036174719999921645
+          },
+          {
+            "bounds_mm": [
+              53.37678,
+              36.50944,
+              53.66728,
+              36.8
+            ],
+            "area_mm2": 0.0003617471999992076
+          },
+          {
+            "bounds_mm": [
+              77.70005,
+              65.80178,
+              77.99056,
+              66.09233
+            ],
+            "area_mm2": 0.00036173474999922137
+          },
+          {
+            "bounds_mm": [
+              77.87678,
+              65.62505,
+              78.16733,
+              65.91556
+            ],
+            "area_mm2": 0.00036173474999922137
+          },
+          {
+            "bounds_mm": [
+              77.40944,
+              67.90178,
+              77.69995,
+              68.19233
+            ],
+            "area_mm2": 0.0003617347499992037
+          },
+          {
+            "bounds_mm": [
+              77.70005,
+              67.25767,
+              77.99056,
+              67.54822
+            ],
+            "area_mm2": 0.0003617347499992037
+          },
+          {
+            "bounds_mm": [
+              75.13267,
+              65.33444,
+              75.42322,
+              65.62495
+            ],
+            "area_mm2": 0.0003617347499992037
+          }
+        ]
+      },
+      {
+        "member": "Gerber_InnerLayer4.G4",
+        "region_symmetric_difference_outside_corner_regions_mm2": 0.0011043408500005067,
+        "residual_after_supported_unchanged_copper_only_upper_bound_mm2": 0.0004438887041172992,
+        "largest_parts": [
+          {
+            "bounds_mm": [
+              77.87678,
+              67.725,
+              78.16733,
+              68.01556
+            ],
+            "area_mm2": 0.00036899850000152726
+          },
+          {
+            "bounds_mm": [
+              77.87678,
+              67.43444,
+              78.16733,
+              67.725
+            ],
+            "area_mm2": 0.0003689984999994628
+          },
+          {
+            "bounds_mm": [
+              75.77678,
+              65.33444,
+              76.06479,
+              65.625
+            ],
+            "area_mm2": 0.00036577269999945434
+          },
+          {
+            "bounds_mm": [
+              69.16049,
+              67.57389,
+              69.2198,
+              67.67661
+            ],
+            "area_mm2": 3.4664999996360246e-07
+          },
+          {
+            "bounds_mm": [
+              69.16049,
+              65.46833,
+              69.2198,
+              65.57106
+            ],
+            "area_mm2": 1.7695000021023194e-07
+          },
+          {
+            "bounds_mm": [
+              48.71274,
+              4.9656,
+              48.7956,
+              5.02097
+            ],
+            "area_mm2": 3.179999988778704e-08
+          },
+          {
+            "bounds_mm": [
+              82.70541,
+              148.99426,
+              82.70648,
+              149.00673
+            ],
+            "area_mm2": 1.5750000000548472e-08
+          }
+        ]
+      },
+      {
+        "member": "Gerber_BottomLayer.GBL",
+        "region_symmetric_difference_outside_corner_regions_mm2": 1.4540749998588324e-05,
+        "residual_after_supported_unchanged_copper_only_upper_bound_mm2": 5.97529950480008e-06,
+        "largest_parts": [
+          {
+            "bounds_mm": [
+              75.77678,
+              65.33444,
+              76.06728,
+              65.625
+            ],
+            "area_mm2": 7.262500000240951e-06
+          },
+          {
+            "bounds_mm": [
+              75.77678,
+              67.43444,
+              76.06728,
+              67.725
+            ],
+            "area_mm2": 7.262499998176824e-06
+          },
+          {
+            "bounds_mm": [
+              82.70541,
+              148.99426,
+              82.70648,
+              149.00673
+            ],
+            "area_mm2": 1.5750000000548472e-08
+          },
+          {
+            "bounds_mm": [
+              49.13536,
+              4.80968,
+              49.44547,
+              5.11979
+            ],
+            "area_mm2": 1.700029006457271e-16
+          }
+        ]
+      }
+    ],
+    "copper_union_limitation": "The subtraction residuals were computed only against supported unchanged copper shapes. RoundRect aperture macros were skipped, so residuals are conservative upper bounds, NOT proven complete physical copper-union differences.",
+    "fabrication_authorization": false
+  },
+  "limitations": [
+    "No live EasyEDA/API or native writes. No TEST_DAC8562 access.",
+    "This checks identity relative to already-audited corner export, not a repeat full CAM audit. Prior corner/Gerber caveat remains.",
+    "No DRC, netlist/ECO, impedance, fabrication order or manufacturing approval is implied.",
+    "Aperture IDs resolve to physical template/parameters/function; generation timestamp is the only removed raw comment. Unsupported transforms cause the shared parser to reject."
+  ]
+}

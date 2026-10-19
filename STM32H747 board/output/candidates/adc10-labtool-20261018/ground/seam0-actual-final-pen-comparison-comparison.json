@@ -1,0 +1,178 @@
+{
+  "schema": "actual-final-fill-pen-comparison-and-seam-evidence-v1",
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_ground_seam0-20261018.epru",
+  "sourceSha256": "49d21b37803cd04e82c401f8c3b05d1e702e17519a1b12de9db6c68d623e72d7",
+  "checkpointSha256": "fb6a90e8b62b797783ae69b8b2ebc48b7d1114862881bcde946429abb820761d",
+  "seams": [
+    {
+      "id": "70d49360e5e3892f",
+      "layerId": 1,
+      "bodyExactVsBaseline": true,
+      "closestNominalGroundFills": [
+        {
+          "id": "5872560e3d03e2f4",
+          "distanceMm": 0.0,
+          "nearestPointsMm": [
+            [
+              44.55954258,
+              109.70780192000001
+            ],
+            [
+              44.55954258,
+              109.70780192000001
+            ]
+          ],
+          "baselineDistanceMm": 0.0
+        },
+        {
+          "id": "72a3572efdb0f858",
+          "distanceMm": 0.9890869126577815,
+          "nearestPointsMm": [
+            [
+              44.55954258,
+              109.70780192000001
+            ],
+            [
+              43.57545767999999,
+              109.80714894
+            ]
+          ],
+          "baselineDistanceMm": 0.9890869126577815
+        }
+      ]
+    },
+    {
+      "id": "1d12bb8046962a4c",
+      "layerId": 17,
+      "bodyExactVsBaseline": true,
+      "closestNominalGroundFills": [
+        {
+          "id": "b99d5f8f2cae6046",
+          "distanceMm": 1.0160000016412596e-05,
+          "nearestPointsMm": [
+            [
+              46.024551079999995,
+              109.70780192000001
+            ],
+            [
+              46.024551079999995,
+              109.70779175999999
+            ]
+          ],
+          "baselineDistanceMm": 0.0
+        },
+        {
+          "id": "8ad2530000be270f",
+          "distanceMm": 0.4490821599999961,
+          "nearestPointsMm": [
+            [
+              46.02454092,
+              109.70780192000001
+            ],
+            [
+              45.575458760000004,
+              109.70780192000001
+            ]
+          ],
+          "baselineDistanceMm": 0.4490821599999961
+        }
+      ]
+    },
+    {
+      "id": "1e87af6d1a83be6a",
+      "layerId": 17,
+      "bodyExactVsBaseline": true,
+      "closestNominalGroundFills": [
+        {
+          "id": "b99d5f8f2cae6046",
+          "distanceMm": 1.0160000016412596e-05,
+          "nearestPointsMm": [
+            [
+              52.626552100000005,
+              79.07749488
+            ],
+            [
+              52.626552100000005,
+              79.07748471999999
+            ]
+          ],
+          "baselineDistanceMm": 0.0
+        },
+        {
+          "id": "b5586ca901b78f63",
+          "distanceMm": 0.4980812999999954,
+          "nearestPointsMm": [
+            [
+              53.0009608,
+              79.68929198
+            ],
+            [
+              53.4990421,
+              79.68929198
+            ]
+          ],
+          "baselineDistanceMm": 0.4980812999999954
+        }
+      ]
+    }
+  ],
+  "graphs": [
+    {
+      "net": "GND",
+      "ignoreFillPen": false,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\seam0-actual-final-pen-comparison-gnd-with-pen.json",
+      "sha256": "5ded4759d2a52732f403612d162d282000b84440ff96ff8557d85a78ac112ebb",
+      "loadConnectivityPassed": true,
+      "physicalPads": 345,
+      "nativeVias": 228,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [],
+      "queriedFillCount": 31
+    },
+    {
+      "net": "GND",
+      "ignoreFillPen": true,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\seam0-actual-final-pen-comparison-gnd-without-pen.json",
+      "sha256": "244c966b58c330571bffe86c510322711a6af29245d7522f9e5c82ba5b0524ed",
+      "loadConnectivityPassed": true,
+      "physicalPads": 345,
+      "nativeVias": 228,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [],
+      "queriedFillCount": 31
+    },
+    {
+      "net": "+3V3",
+      "ignoreFillPen": false,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\seam0-actual-final-pen-comparison-3v3-with-pen.json",
+      "sha256": "74232a08536e131a88f24e88326b636ebbe3eb40d08cc177feee214448d5be36",
+      "loadConnectivityPassed": true,
+      "physicalPads": 138,
+      "nativeVias": 77,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [],
+      "queriedFillCount": 0
+    },
+    {
+      "net": "+3V3",
+      "ignoreFillPen": true,
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\ground\\seam0-actual-final-pen-comparison-3v3-without-pen.json",
+      "sha256": "7842408e12148de040bb451952fdcafd40cb141e65da58439a548421942cd42b",
+      "loadConnectivityPassed": true,
+      "physicalPads": 138,
+      "nativeVias": 77,
+      "unanchoredNativeVias": [],
+      "unanchoredPads": [],
+      "unanchoredQueriedFills": [],
+      "queriedFillCount": 0
+    }
+  ],
+  "optionalProspectiveAddendum": null,
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "strictNativeDrcRemainsSeparateGate": true,
+  "allGraphsLoadConnected": true
+}

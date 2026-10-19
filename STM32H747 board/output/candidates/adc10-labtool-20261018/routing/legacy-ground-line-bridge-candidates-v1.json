@@ -1,0 +1,564 @@
+{
+  "schema": "legacy-ground-native-seam-line-only-candidates-v1",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_copper_wire12-20261018.epru",
+  "sourceSha256": "00f0707624248ec16b99ee47a638e63608764652c3ddeb12a1f4af890104910d",
+  "status": "CANDIDATES_ONLY_REQUIRE_ANCHOR_PROOF_AND_ROOT_APPROVAL",
+  "nativeCalls": 0,
+  "frozenV5Changes": 0,
+  "fillChanges": 0,
+  "viaChanges": 0,
+  "ruleChanges": 0,
+  "selectedCandidateLines": [
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_1",
+      "targetKind": "FILL",
+      "targetId": "70d49360e5e3892f",
+      "targetLayer": 1,
+      "anchoredCandidateKind": "VIA",
+      "anchoredCandidateId": "d1aef3bb47b3962e",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        45.16000112,
+        109.63280080000001
+      ],
+      "endXYmm": [
+        45.16000112,
+        109.69999904000001
+      ],
+      "startXYMil": [
+        1777.9528,
+        4316.252
+      ],
+      "endXYMil": [
+        1777.9528,
+        4318.8976
+      ],
+      "lengthMm": 0.06719823999999619,
+      "rawTargetCopperOverlapMm2": 0.031425841492164826,
+      "rawAnchorCopperOverlapMm2": 0.04603189235456798,
+      "foreignCopperMinimumConservativeGapMm": 0.6584010199999952,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "4c508528fe578662",
+        "net": "+3V3",
+        "layerId": 1
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true
+    },
+    {
+      "key": "LEGACY_GND_SEAM_BRIDGE_2",
+      "targetKind": "VIA",
+      "targetId": "e0f0dcd1975e7708",
+      "targetLayer": 1,
+      "anchoredCandidateKind": "FILL",
+      "anchoredCandidateId": "c667926ae983cbc8",
+      "net": "GND",
+      "layerId": 1,
+      "widthMm": 0.2032,
+      "widthMil": 8,
+      "startXYmm": [
+        53.64999937999999,
+        79.2750002
+      ],
+      "endXYmm": [
+        53.64999937999999,
+        79.00249376000001
+      ],
+      "startXYMil": [
+        2112.2047,
+        3121.063
+      ],
+      "endXYMil": [
+        2112.2047,
+        3110.3344
+      ],
+      "lengthMm": 0.2725064399999866,
+      "rawTargetCopperOverlapMm2": 0.04522793716248904,
+      "rawAnchorCopperOverlapMm2": 0.031428832577283385,
+      "foreignCopperMinimumConservativeGapMm": 0.7643503355036075,
+      "nearestForeignActor": {
+        "kind": "LINE",
+        "id": "c946743470ba97f8",
+        "net": "NET-(U1D-VREF+)",
+        "layerId": 1
+      },
+      "invalidFillNear": [],
+      "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+      "passed": true
+    }
+  ],
+  "unresolvedTargets": [
+    {
+      "targetId": "1d12bb8046962a4c",
+      "attempts": [
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1d12bb8046962a4c",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "b99d5f8f2cae6046",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            46.0995522,
+            109.78280303999999
+          ],
+          "endXYmm": [
+            46.0995522,
+            109.63279063999998
+          ],
+          "startXYMil": [
+            1814.943,
+            4322.1576
+          ],
+          "endXYMil": [
+            1814.943,
+            4316.2516
+          ],
+          "lengthMm": 0.15001240000000848,
+          "rawTargetCopperOverlapMm2": 0.028190280663435,
+          "rawAnchorCopperOverlapMm2": 0.028188824206447242,
+          "foreignCopperMinimumConservativeGapMm": 0.1329524899999998,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "946121146c1f9f53",
+            "net": "A15",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1d12bb8046962a4c",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "8ad2530000be270f",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            46.09954204,
+            109.78280303999999
+          ],
+          "endXYmm": [
+            45.5004424,
+            109.78280303999999
+          ],
+          "startXYMil": [
+            1814.9426,
+            4322.1576
+          ],
+          "endXYMil": [
+            1791.356,
+            4322.1576
+          ],
+          "lengthMm": 0.5990996400000057,
+          "rawTargetCopperOverlapMm2": 0.028188824206443516,
+          "rawAnchorCopperOverlapMm2": 0.02819151560751289,
+          "foreignCopperMinimumConservativeGapMm": -0.16659986999999998,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "946121146c1f9f53",
+            "net": "A15",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1d12bb8046962a4c",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "VIA",
+          "anchoredCandidateId": "d1aef3bb47b3962e",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            46.09954204,
+            109.78280303999999
+          ],
+          "endXYmm": [
+            45.16000112,
+            109.69999904000001
+          ],
+          "startXYMil": [
+            1814.9426,
+            4322.1576
+          ],
+          "endXYMil": [
+            1777.9528,
+            4318.8976
+          ],
+          "lengthMm": 0.9431827197157795,
+          "rawTargetCopperOverlapMm2": 0.027968619075050178,
+          "rawAnchorCopperOverlapMm2": 0.0549716868777232,
+          "foreignCopperMinimumConservativeGapMm": -0.16659986999999998,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "946121146c1f9f53",
+            "net": "A15",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1d12bb8046962a4c",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "e5b3b2a088b93ade",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            46.286699399999996,
+            110.16057215999999
+          ],
+          "endXYmm": [
+            47.70904098,
+            110.16057215999999
+          ],
+          "startXYMil": [
+            1822.311,
+            4337.0304
+          ],
+          "endXYMil": [
+            1878.3087,
+            4337.0304
+          ],
+          "lengthMm": 1.4223415800000012,
+          "rawTargetCopperOverlapMm2": 0.02896000649321522,
+          "rawAnchorCopperOverlapMm2": 0.031335290103079186,
+          "foreignCopperMinimumConservativeGapMm": -0.17659985,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "31cde2c48366a711",
+            "net": "A8",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1d12bb8046962a4c",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "12699f5a9f5faaf1",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            46.286699399999996,
+            109.78280303999999
+          ],
+          "endXYmm": [
+            48.40649704,
+            109.66058586
+          ],
+          "startXYMil": [
+            1822.311,
+            4322.1576
+          ],
+          "endXYMil": [
+            1905.7676,
+            4317.3459
+          ],
+          "lengthMm": 2.1233179398377264,
+          "rawTargetCopperOverlapMm2": 0.02803853543573296,
+          "rawAnchorCopperOverlapMm2": 0.057266736359542714,
+          "foreignCopperMinimumConservativeGapMm": -0.17659985,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "31cde2c48366a711",
+            "net": "A8",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "targetId": "1e87af6d1a83be6a",
+      "attempts": [
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1e87af6d1a83be6a",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "b99d5f8f2cae6046",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            52.70155322,
+            79.15249599999999
+          ],
+          "endXYmm": [
+            52.70155322,
+            79.00248359999999
+          ],
+          "startXYMil": [
+            2074.8643,
+            3116.24
+          ],
+          "endXYMil": [
+            2074.8643,
+            3110.334
+          ],
+          "lengthMm": 0.15001239999999427,
+          "rawTargetCopperOverlapMm2": 0.02819028066343603,
+          "rawAnchorCopperOverlapMm2": 0.028188824206443724,
+          "foreignCopperMinimumConservativeGapMm": 0.13295249000000361,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "a36491817685b0a8",
+            "net": "ADC3_INP2",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1e87af6d1a83be6a",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "b5586ca901b78f63",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            52.92595968,
+            79.15249599999999
+          ],
+          "endXYmm": [
+            53.57404322,
+            79.15249599999999
+          ],
+          "startXYMil": [
+            2083.6992,
+            3116.24
+          ],
+          "endXYMil": [
+            2109.2143,
+            3116.24
+          ],
+          "lengthMm": 0.6480835400000018,
+          "rawTargetCopperOverlapMm2": 0.028188824206443513,
+          "rawAnchorCopperOverlapMm2": 0.028188824206443516,
+          "foreignCopperMinimumConservativeGapMm": -0.19109944,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "11a8fee22101fbea",
+            "net": "ETH_MDC",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1e87af6d1a83be6a",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "5e69a5150dabf175",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            52.92595968,
+            79.15249599999999
+          ],
+          "endXYmm": [
+            53.57404322,
+            79.00249376000001
+          ],
+          "startXYMil": [
+            2083.6992,
+            3116.24
+          ],
+          "endXYMil": [
+            2109.2143,
+            3110.3344
+          ],
+          "lengthMm": 0.6652164661401165,
+          "rawTargetCopperOverlapMm2": 0.027716637696789056,
+          "rawAnchorCopperOverlapMm2": 0.027716637696791096,
+          "foreignCopperMinimumConservativeGapMm": -0.19109944,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "11a8fee22101fbea",
+            "net": "ETH_MDC",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1e87af6d1a83be6a",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "19d29a26fca5b4f3",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            52.92595968,
+            79.15249599999999
+          ],
+          "endXYmm": [
+            54.37604314,
+            79.00249376000001
+          ],
+          "startXYMil": [
+            2083.6992,
+            3116.24
+          ],
+          "endXYMil": [
+            2140.7891,
+            3110.3344
+          ],
+          "lengthMm": 1.4578212211964088,
+          "rawTargetCopperOverlapMm2": 0.027935774505934576,
+          "rawAnchorCopperOverlapMm2": 0.027935774505936616,
+          "foreignCopperMinimumConservativeGapMm": -0.1921002,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "33519ea695c9a65b",
+            "net": "ETH_MDIO",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1e87af6d1a83be6a",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "FILL",
+          "anchoredCandidateId": "c33ca60388ee2151",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            52.92595968,
+            79.57377785999999
+          ],
+          "endXYmm": [
+            54.37604314,
+            79.57377785999999
+          ],
+          "startXYMil": [
+            2083.6992,
+            3132.8259
+          ],
+          "endXYMil": [
+            2140.7891,
+            3132.8259
+          ],
+          "lengthMm": 1.4500834600000019,
+          "rawTargetCopperOverlapMm2": 0.029077129333690707,
+          "rawAnchorCopperOverlapMm2": 0.031428832577285896,
+          "foreignCopperMinimumConservativeGapMm": -0.1921002,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "33519ea695c9a65b",
+            "net": "ETH_MDIO",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        },
+        {
+          "key": "LEGACY_GND_SEAM_BRIDGE_2",
+          "targetKind": "FILL",
+          "targetId": "1e87af6d1a83be6a",
+          "targetLayer": 17,
+          "anchoredCandidateKind": "VIA",
+          "anchoredCandidateId": "d7aadede784b6d3e",
+          "net": "GND",
+          "layerId": 17,
+          "widthMm": 0.2032,
+          "widthMil": 8,
+          "startXYmm": [
+            52.92595968,
+            79.2750002
+          ],
+          "endXYmm": [
+            54.50000022,
+            79.2750002
+          ],
+          "startXYMil": [
+            2083.6992,
+            3121.063
+          ],
+          "endXYMil": [
+            2145.6693,
+            3121.063
+          ],
+          "lengthMm": 1.5740405399999986,
+          "rawTargetCopperOverlapMm2": 0.031428832577285896,
+          "rawAnchorCopperOverlapMm2": 0.0452279371624905,
+          "foreignCopperMinimumConservativeGapMm": -0.1921002,
+          "nearestForeignActor": {
+            "kind": "LINE",
+            "id": "33519ea695c9a65b",
+            "net": "ETH_MDIO",
+            "layerId": 17
+          },
+          "invalidFillNear": [],
+          "anchorNativeUnflaggedNotYetIndependentGraphProven": true,
+          "passed": false
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Nearest unflagged existing GND actor must be independently proven anchored, not merely inferred from native silence.",
+    "Detailed drill/unsupported-shape and final actual-source rebase audit required before native approval.",
+    "No additional Inner17 routing authorized by this offline proposal.",
+    "No broad tolerance or width-pen graph equivalence is used for endpoints; both ends have positive raw copper overlap."
+  ]
+}

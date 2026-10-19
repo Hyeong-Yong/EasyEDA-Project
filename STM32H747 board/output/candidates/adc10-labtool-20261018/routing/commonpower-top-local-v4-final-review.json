@@ -1,0 +1,1059 @@
+{
+  "schema": "independent-commonpower-top-local-route-v4-draft-20261018",
+  "status": "PASS_SCOPED_LOCAL_ROUTING_GND_AND_FEEDS_PENDING",
+  "placementPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\independent-pcb-placement-short-negative-commonpower-v4-proposal.json",
+  "placementSha256": "7070ccc735fa7ae1181ea3c1a0c27ee1145f99b938d7bdad831ceefbcad01022",
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v4_saved-20261018.epru",
+  "sourceSha256": "71ff1bacd0436c7eb0bdb7612ffe9203c67c81bd6d82254528755f3609bfcf51",
+  "rowRouteSha256": "cdd3fa342f17753e0b41b3709da76d2a8f538a48fec9cc0f3c436cf987c601c1",
+  "isolationSha256": "069dc23eae4dd1ba9cf835e42f736ac1312a84f74d6e8b3399a03a8fbd4ca232",
+  "nativeCalls": 0,
+  "newLineCreates": [
+    {
+      "key": "LABTOOL_PWR_0001",
+      "net": "AFE_FLY_N",
+      "layerId": 1,
+      "startXYmm": [
+        29.700000009199996,
+        28.849999994999997
+      ],
+      "endXYmm": [
+        30.050001011000003,
+        26.800000000000004
+      ],
+      "widthMm": 0.4,
+      "role": "FlyingcapacitorN shortestdirectlead"
+    },
+    {
+      "key": "LABTOOL_PWR_0002",
+      "net": "AFE_FLY_P",
+      "layerId": 1,
+      "startXYmm": [
+        32.2999999908,
+        30.750000005
+      ],
+      "endXYmm": [
+        33.35,
+        30.75
+      ],
+      "widthMm": 0.4,
+      "role": "FlyingcapacitorP aroundGNDpad; no signalunderpump"
+    },
+    {
+      "key": "LABTOOL_PWR_0003",
+      "net": "AFE_FLY_P",
+      "layerId": 1,
+      "startXYmm": [
+        33.35,
+        30.75
+      ],
+      "endXYmm": [
+        33.35,
+        28.15
+      ],
+      "widthMm": 0.4,
+      "role": "FlyingcapacitorP aroundGNDpad; no signalunderpump"
+    },
+    {
+      "key": "LABTOOL_PWR_0004",
+      "net": "AFE_FLY_P",
+      "layerId": 1,
+      "startXYmm": [
+        33.35,
+        28.15
+      ],
+      "endXYmm": [
+        32.7,
+        27.75
+      ],
+      "widthMm": 0.4,
+      "role": "FlyingcapacitorP aroundGNDpad; no signalunderpump"
+    },
+    {
+      "key": "LABTOOL_PWR_0005",
+      "net": "AFE_FLY_P",
+      "layerId": 1,
+      "startXYmm": [
+        32.7,
+        27.75
+      ],
+      "endXYmm": [
+        31.949998989,
+        26.8
+      ],
+      "widthMm": 0.4,
+      "role": "FlyingcapacitorP aroundGNDpad; no signalunderpump"
+    },
+    {
+      "key": "LABTOOL_PWR_0006",
+      "net": "AFE_PUMP_IN",
+      "layerId": 1,
+      "startXYmm": [
+        29.700000009199996,
+        29.800000000000004
+      ],
+      "endXYmm": [
+        28.8,
+        29.8
+      ],
+      "widthMm": 0.4,
+      "role": "PumpIN fromlocalinputcapacitor"
+    },
+    {
+      "key": "LABTOOL_PWR_0007",
+      "net": "AFE_PUMP_IN",
+      "layerId": 1,
+      "startXYmm": [
+        28.8,
+        29.8
+      ],
+      "endXYmm": [
+        27.7,
+        30.749998988999998
+      ],
+      "widthMm": 0.4,
+      "role": "PumpIN fromlocalinputcapacitor"
+    },
+    {
+      "key": "LABTOOL_PWR_0008",
+      "net": "AFE_PUMP_IN",
+      "layerId": 1,
+      "startXYmm": [
+        27.699999999999996,
+        33.090000994600004
+      ],
+      "endXYmm": [
+        27.7,
+        30.749998988999998
+      ],
+      "widthMm": 0.4,
+      "role": "Inputisolator tolocalinputcapacitor"
+    },
+    {
+      "key": "LABTOOL_PWR_0009",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        29.700000009199996,
+        30.750000005
+      ],
+      "endXYmm": [
+        31.000000000000004,
+        32.65000101099999
+      ],
+      "widthMm": 0.4,
+      "role": "PumpRAW tolocaloutputcapshortpulsedlead"
+    },
+    {
+      "key": "LABTOOL_PWR_0010",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        31.000000000000004,
+        32.65000101099999
+      ],
+      "endXYmm": [
+        33.000000012399994,
+        33.2
+      ],
+      "widthMm": 0.35,
+      "role": "Outputcapacitor toprotectiondiodeAnode"
+    },
+    {
+      "key": "LABTOOL_PWR_0011",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        31.000000000000004,
+        32.65000101099999
+      ],
+      "endXYmm": [
+        35.5,
+        30.75
+      ],
+      "widthMm": 0.35,
+      "role": "LDOinputfeedfrompumpoutputcap; lowDCload"
+    },
+    {
+      "key": "LABTOOL_PWR_0012",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        35.5,
+        30.75
+      ],
+      "endXYmm": [
+        35.5,
+        29.8
+      ],
+      "widthMm": 0.35,
+      "role": "LDOinputfeedfrompumpoutputcap; lowDCload"
+    },
+    {
+      "key": "LABTOOL_PWR_0013",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        35.5,
+        29.8
+      ],
+      "endXYmm": [
+        36.7000000092,
+        29.800000000000004
+      ],
+      "widthMm": 0.35,
+      "role": "LDOinputfeedfrompumpoutputcap; lowDCload"
+    },
+    {
+      "key": "LABTOOL_PWR_0014",
+      "net": "AFE_VNEG_RAW",
+      "layerId": 1,
+      "startXYmm": [
+        36.7000000092,
+        29.800000000000004
+      ],
+      "endXYmm": [
+        36.7000000092,
+        28.849999994999997
+      ],
+      "widthMm": 0.4,
+      "role": "LDOEN tiedlocallytoIN"
+    },
+    {
+      "key": "LABTOOL_PWR_0015",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        39.299999990799996,
+        30.750000005
+      ],
+      "endXYmm": [
+        41.5,
+        30.949998989
+      ],
+      "widthMm": 0.35,
+      "role": "LDOOUT nearestoutputcapacitor"
+    },
+    {
+      "key": "LABTOOL_PWR_0016",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        39.299999990799996,
+        30.750000005
+      ],
+      "endXYmm": [
+        40.35,
+        30.75
+      ],
+      "widthMm": 0.35,
+      "role": "LDOOUT bulkcapacitor viaquietrightchannel"
+    },
+    {
+      "key": "LABTOOL_PWR_0017",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        40.35,
+        30.75
+      ],
+      "endXYmm": [
+        40.35,
+        26.6
+      ],
+      "widthMm": 0.35,
+      "role": "LDOOUT bulkcapacitor viaquietrightchannel"
+    },
+    {
+      "key": "LABTOOL_PWR_0018",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        40.35,
+        26.6
+      ],
+      "endXYmm": [
+        40.249998989,
+        26.6
+      ],
+      "widthMm": 0.35,
+      "role": "LDOOUT bulkcapacitor viaquietrightchannel"
+    },
+    {
+      "key": "LABTOOL_PWR_0019",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        40.249998989,
+        26.6
+      ],
+      "endXYmm": [
+        40.8,
+        25.6
+      ],
+      "widthMm": 0.35,
+      "role": "Outputbulk toCFF lowimpedanceleaf"
+    },
+    {
+      "key": "LABTOOL_PWR_0020",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        40.8,
+        25.6
+      ],
+      "endXYmm": [
+        40.8,
+        21.0
+      ],
+      "widthMm": 0.35,
+      "role": "Outputbulk toCFF lowimpedanceleaf"
+    },
+    {
+      "key": "LABTOOL_PWR_0021",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        40.8,
+        21.0
+      ],
+      "endXYmm": [
+        35.82,
+        21.0
+      ],
+      "widthMm": 0.35,
+      "role": "Outputbulk toCFF lowimpedanceleaf"
+    },
+    {
+      "key": "LABTOOL_PWR_0022",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        35.82,
+        21.0
+      ],
+      "endXYmm": [
+        35.8199999948,
+        23.4
+      ],
+      "widthMm": 0.35,
+      "role": "Outputbulk toCFF lowimpedanceleaf"
+    },
+    {
+      "key": "LABTOOL_PWR_0023",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        34.79000099459999,
+        25.000000000000004
+      ],
+      "endXYmm": [
+        35.8199999948,
+        23.4
+      ],
+      "widthMm": 0.2032,
+      "role": "FeedbackdivideroutputKelvinleaf"
+    },
+    {
+      "key": "LABTOOL_PWR_0024",
+      "net": "AFE_NEG_FB",
+      "layerId": 1,
+      "startXYmm": [
+        39.299999990799996,
+        28.849999994999997
+      ],
+      "endXYmm": [
+        39.3,
+        25.6
+      ],
+      "widthMm": 0.2032,
+      "role": "LDOFB todivider"
+    },
+    {
+      "key": "LABTOOL_PWR_0025",
+      "net": "AFE_NEG_FB",
+      "layerId": 1,
+      "startXYmm": [
+        39.3,
+        25.6
+      ],
+      "endXYmm": [
+        38.2099990054,
+        24.800000000000004
+      ],
+      "widthMm": 0.2032,
+      "role": "LDOFB todivider"
+    },
+    {
+      "key": "LABTOOL_PWR_0026",
+      "net": "AFE_NEG_FB",
+      "layerId": 1,
+      "startXYmm": [
+        38.2099990054,
+        24.800000000000004
+      ],
+      "endXYmm": [
+        36.780000005199994,
+        23.4
+      ],
+      "widthMm": 0.2032,
+      "role": "DividerGNDside toCFFFBpin"
+    },
+    {
+      "key": "LABTOOL_PWR_0027",
+      "net": "AFE_NEG_FB",
+      "layerId": 1,
+      "startXYmm": [
+        36.780000005199994,
+        23.4
+      ],
+      "endXYmm": [
+        35.8099990054,
+        25.000000000000004
+      ],
+      "widthMm": 0.2032,
+      "role": "Divideroutputside FBjoin"
+    },
+    {
+      "key": "LABTOOL_PWR_0028",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        35.399999987600005,
+        33.2
+      ],
+      "endXYmm": [
+        39.3,
+        33.2
+      ],
+      "widthMm": 0.35,
+      "role": "ReverseprotectionCathode toLDOOUT"
+    },
+    {
+      "key": "LABTOOL_PWR_0029",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        39.3,
+        33.2
+      ],
+      "endXYmm": [
+        39.299999990799996,
+        30.750000005
+      ],
+      "widthMm": 0.35,
+      "role": "ReverseprotectionCathode toLDOOUT"
+    },
+    {
+      "key": "LABTOOL_PWR_0030",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        29.3099990054,
+        23.0
+      ],
+      "endXYmm": [
+        31.000000000000004,
+        23.449998988999997
+      ],
+      "widthMm": 0.4,
+      "role": "Positiveisolator tofirstreservoir"
+    },
+    {
+      "key": "LABTOOL_PWR_0031",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        31.000000000000004,
+        23.449998988999997
+      ],
+      "endXYmm": [
+        33.300000000000004,
+        23.449998988999997
+      ],
+      "widthMm": 0.4,
+      "role": "Parallelpositivebulkreservoirs"
+    },
+    {
+      "key": "LABTOOL_PWR_0032",
+      "net": "+5V",
+      "layerId": 1,
+      "startXYmm": [
+        27.699999999999996,
+        34.1099990054
+      ],
+      "endXYmm": [
+        28.9,
+        34.2
+      ],
+      "widthMm": 0.4,
+      "role": "R197raw5Vpowerportstub"
+    },
+    {
+      "key": "LABTOOL_PWR_0033",
+      "net": "+5V",
+      "layerId": 1,
+      "startXYmm": [
+        28.2900009946,
+        23.0
+      ],
+      "endXYmm": [
+        28.3,
+        22.0
+      ],
+      "widthMm": 0.4,
+      "role": "R200raw5Vpowerportstub"
+    },
+    {
+      "key": "LABTOOL_PWR_0034",
+      "net": "+5V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        31.000000000000004,
+        23.449998988999997
+      ],
+      "endXYmm": [
+        31.0,
+        24.5
+      ],
+      "widthMm": 0.4,
+      "role": "PositiveoutputBOTTOMrailportstub"
+    },
+    {
+      "key": "LABTOOL_PWR_0035",
+      "net": "-3V_AFE",
+      "layerId": 1,
+      "startXYmm": [
+        39.299999990799996,
+        30.750000005
+      ],
+      "endXYmm": [
+        40.3,
+        31.7
+      ],
+      "widthMm": 0.35,
+      "role": "NegativeoutputBOTTOMrailportstub"
+    }
+  ],
+  "routedConnections": [
+    {
+      "net": "AFE_FLY_N",
+      "role": "FlyingcapacitorN shortestdirectlead",
+      "lengthMm": 2.079663597979486,
+      "lineKeys": [
+        "LABTOOL_PWR_0001"
+      ]
+    },
+    {
+      "net": "AFE_FLY_P",
+      "role": "FlyingcapacitorP aroundGNDpad; no signalunderpump",
+      "lengthMm": 5.6235893554753416,
+      "lineKeys": [
+        "LABTOOL_PWR_0002",
+        "LABTOOL_PWR_0003",
+        "LABTOOL_PWR_0004",
+        "LABTOOL_PWR_0005"
+      ]
+    },
+    {
+      "net": "AFE_PUMP_IN",
+      "role": "PumpIN fromlocalinputcapacitor",
+      "lengthMm": 2.353443533765371,
+      "lineKeys": [
+        "LABTOOL_PWR_0006",
+        "LABTOOL_PWR_0007"
+      ]
+    },
+    {
+      "net": "AFE_PUMP_IN",
+      "role": "Inputisolator tolocalinputcapacitor",
+      "lengthMm": 2.340002005600006,
+      "lineKeys": [
+        "LABTOOL_PWR_0008"
+      ]
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "role": "PumpRAW tolocaloutputcapshortpulsedlead",
+      "lengthMm": 2.3021737117083507,
+      "lineKeys": [
+        "LABTOOL_PWR_0009"
+      ]
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "role": "Outputcapacitor toprotectiondiodeAnode",
+      "lengthMm": 2.0742465951523203,
+      "lineKeys": [
+        "LABTOOL_PWR_0010"
+      ]
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "role": "LDOinputfeedfrompumpoutputcap; lowDCload",
+      "lengthMm": 7.0346702991787335,
+      "lineKeys": [
+        "LABTOOL_PWR_0011",
+        "LABTOOL_PWR_0012",
+        "LABTOOL_PWR_0013"
+      ]
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "role": "LDOEN tiedlocallytoIN",
+      "lengthMm": 0.9500000050000068,
+      "lineKeys": [
+        "LABTOOL_PWR_0014"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "LDOOUT nearestoutputcapacitor",
+      "lengthMm": 2.209072120615587,
+      "lineKeys": [
+        "LABTOOL_PWR_0015"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "LDOOUT bulkcapacitor viaquietrightchannel",
+      "lengthMm": 5.300001020200007,
+      "lineKeys": [
+        "LABTOOL_PWR_0016",
+        "LABTOOL_PWR_0017",
+        "LABTOOL_PWR_0018"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "Outputbulk toCFF lowimpedanceleaf",
+      "lengthMm": 13.121271708271529,
+      "lineKeys": [
+        "LABTOOL_PWR_0019",
+        "LABTOOL_PWR_0020",
+        "LABTOOL_PWR_0021",
+        "LABTOOL_PWR_0022"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "FeedbackdivideroutputKelvinleaf",
+      "lengthMm": 1.9028657179141755,
+      "lineKeys": [
+        "LABTOOL_PWR_0023"
+      ]
+    },
+    {
+      "net": "AFE_NEG_FB",
+      "role": "LDOFB todivider",
+      "lengthMm": 4.6020732800807185,
+      "lineKeys": [
+        "LABTOOL_PWR_0024",
+        "LABTOOL_PWR_0025"
+      ]
+    },
+    {
+      "net": "AFE_NEG_FB",
+      "role": "DividerGNDside toCFFFBpin",
+      "lengthMm": 2.001223910653936,
+      "lineKeys": [
+        "LABTOOL_PWR_0026"
+      ]
+    },
+    {
+      "net": "AFE_NEG_FB",
+      "role": "Divideroutputside FBjoin",
+      "lengthMm": 1.8710697313603792,
+      "lineKeys": [
+        "LABTOOL_PWR_0027"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "ReverseprotectionCathode toLDOOUT",
+      "lengthMm": 6.350000007399995,
+      "lineKeys": [
+        "LABTOOL_PWR_0028",
+        "LABTOOL_PWR_0029"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Positiveisolator tofirstreservoir",
+      "lengthMm": 1.7488860602823775,
+      "lineKeys": [
+        "LABTOOL_PWR_0030"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "Parallelpositivebulkreservoirs",
+      "lengthMm": 2.3000000000000007,
+      "lineKeys": [
+        "LABTOOL_PWR_0031"
+      ]
+    },
+    {
+      "net": "+5V",
+      "role": "R197raw5Vpowerportstub",
+      "lengthMm": 1.203370341594389,
+      "lineKeys": [
+        "LABTOOL_PWR_0032"
+      ]
+    },
+    {
+      "net": "+5V",
+      "role": "R200raw5Vpowerportstub",
+      "lengthMm": 1.0000499888050542,
+      "lineKeys": [
+        "LABTOOL_PWR_0033"
+      ]
+    },
+    {
+      "net": "+5V_AFE",
+      "role": "PositiveoutputBOTTOMrailportstub",
+      "lengthMm": 1.0500010110000026,
+      "lineKeys": [
+        "LABTOOL_PWR_0034"
+      ]
+    },
+    {
+      "net": "-3V_AFE",
+      "role": "NegativeoutputBOTTOMrailportstub",
+      "lengthMm": 1.3793114256396193,
+      "lineKeys": [
+        "LABTOOL_PWR_0035"
+      ]
+    }
+  ],
+  "literalCopperConflicts": [],
+  "localNetGraphChecks": [
+    {
+      "net": "+5V",
+      "externalBOTTOMfeedJoinPending": true,
+      "pads": [
+        {
+          "ref": "R197",
+          "pin": "1"
+        },
+        {
+          "ref": "R200",
+          "pin": "1"
+        }
+      ],
+      "allRelevantPadsConnected": false
+    },
+    {
+      "net": "+5V_AFE",
+      "externalBOTTOMfeedJoinPending": false,
+      "pads": [
+        {
+          "ref": "C156",
+          "pin": "1"
+        },
+        {
+          "ref": "C157",
+          "pin": "1"
+        },
+        {
+          "ref": "R200",
+          "pin": "2"
+        }
+      ],
+      "allRelevantPadsConnected": true
+    },
+    {
+      "net": "-3V_AFE",
+      "externalBOTTOMfeedJoinPending": false,
+      "pads": [
+        {
+          "ref": "C153",
+          "pin": "1"
+        },
+        {
+          "ref": "C154",
+          "pin": "1"
+        },
+        {
+          "ref": "C155",
+          "pin": "2"
+        },
+        {
+          "ref": "D20",
+          "pin": "1"
+        },
+        {
+          "ref": "R198",
+          "pin": "1"
+        },
+        {
+          "ref": "U31",
+          "pin": "5"
+        }
+      ],
+      "allRelevantPadsConnected": true
+    },
+    {
+      "net": "AFE_FLY_N",
+      "externalBOTTOMfeedJoinPending": false,
+      "pads": [
+        {
+          "ref": "C151",
+          "pin": "1"
+        },
+        {
+          "ref": "U30",
+          "pin": "3"
+        }
+      ],
+      "allRelevantPadsConnected": true
+    },
+    {
+      "net": "AFE_FLY_P",
+      "externalBOTTOMfeedJoinPending": false,
+      "pads": [
+        {
+          "ref": "C151",
+          "pin": "2"
+        },
+        {
+          "ref": "U30",
+          "pin": "5"
+        }
+      ],
+      "allRelevantPadsConnected": true
+    },
+    {
+      "net": "AFE_NEG_FB",
+      "externalBOTTOMfeedJoinPending": false,
+      "pads": [
+        {
+          "ref": "C155",
+          "pin": "1"
+        },
+        {
+          "ref": "R198",
+          "pin": "2"
+        },
+        {
+          "ref": "R199",
+          "pin": "2"
+        },
+        {
+          "ref": "U31",
+          "pin": "4"
+        }
+      ],
+      "allRelevantPadsConnected": true
+    },
+    {
+      "net": "AFE_PUMP_IN",
+      "externalBOTTOMfeedJoinPending": false,
+      "pads": [
+        {
+          "ref": "C150",
+          "pin": "1"
+        },
+        {
+          "ref": "R197",
+          "pin": "2"
+        },
+        {
+          "ref": "U30",
+          "pin": "2"
+        }
+      ],
+      "allRelevantPadsConnected": true
+    },
+    {
+      "net": "AFE_VNEG_RAW",
+      "externalBOTTOMfeedJoinPending": false,
+      "pads": [
+        {
+          "ref": "C152",
+          "pin": "1"
+        },
+        {
+          "ref": "D20",
+          "pin": "2"
+        },
+        {
+          "ref": "U30",
+          "pin": "1"
+        },
+        {
+          "ref": "U31",
+          "pin": "2"
+        },
+        {
+          "ref": "U31",
+          "pin": "3"
+        }
+      ],
+      "allRelevantPadsConnected": true
+    }
+  ],
+  "requiresLocalGroundClearanceVoids": [
+    {
+      "line": "LABTOOL_PWR_0001",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0002",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0003",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0004",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0005",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0006",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0007",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0008",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0009",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0010",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0011",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0012",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0013",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0014",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0015",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0016",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0017",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0018",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0019",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0020",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0021",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0022",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0023",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0024",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0025",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0026",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0027",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0028",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0029",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0030",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0031",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0032",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0033",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0034",
+      "groundFillId": "e680230ef8d2c5dd"
+    },
+    {
+      "line": "LABTOOL_PWR_0035",
+      "groundFillId": "e680230ef8d2c5dd"
+    }
+  ],
+  "preserved640Vias799Drills": true,
+  "newViasProposedHere": 0,
+  "reservedViaPortPlanPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\six-layer-via-port-candidates-commonpower-v3b.json",
+  "reservedViaPortPlanSha256": "abd798680464df5150daa41d78eaa8e58808b8796ac4fe1235cd22f84ea8d34b",
+  "reservedViaCuClearanceMm": 0.17,
+  "raw5VTwoPortBottomJoinPending": true,
+  "remaining": [
+    "Raw+5 source toR197pin1/R200pin1 viaexplicitBOTTOMports",
+    "+5AFE/-3AFE outputTOPstubs toreviewednewVIAports andBOTTOMtrunks",
+    "GlobalGNDplane/thermalreturnloop andallnewgroundpads anchoredproof",
+    "AllnewlocalstaticFILLvoids validated byseparateplanner",
+    "NativefullDRC/sourceguards/netlist/reopen"
+  ],
+  "sourceIsActualSavedV4AfterIsolation": true,
+  "knownLoopMetricsNotBenchValidated": [
+    "C151FLYN2.0797mm/FLYP5.6236mm,combined7.7033mm",
+    "PumpOUTtoC1522.3022mm; LDOINfeed7.0347mm",
+    "LDOFB4.6021mm,outputtoCFFleaf13.1213mm",
+    "GNDplaneactualreturnandFILLvalidityownedbyseparateplanner"
+  ],
+  "manufacturingApproved": false
+}

@@ -1,0 +1,386 @@
+{
+  "schema": "adc10-bottom-bucket-tap-routing-20261018-v1",
+  "readOnly": true,
+  "nativeCallsPerformed": false,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-baseline-20261018.epru",
+  "sourceSha256": "5a1fe43c0ce8e36ee89bcac512321e55610b83c3e890b429373878efb6825b9b",
+  "clearanceMm": 0.1524,
+  "traceWidthMm": 0.12,
+  "viaDiameterMm": 0.31,
+  "viaHoleMm": 0.2,
+  "minimumHoleEdgeClearanceMm": 0.3,
+  "additionalDrills": 1,
+  "original634ViasAnd793DrillsUntouched": true,
+  "channels": [
+    {
+      "ref": "C88",
+      "net": "ADC2_INP13",
+      "componentId": "c4522a5d4858d2e5",
+      "escapeViaId": "1b308d19b8b7e343",
+      "escapeXYmm": [
+        52.8249998,
+        82.3500004
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC2_INP13",
+          "xyMm": [
+            52.76,
+            83.0
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            53.72,
+            83.0
+          ]
+        }
+      },
+      "centerXYmm": [
+        53.239999999999995,
+        83.0
+      ],
+      "axisOfPositiveLocalX": [
+        -1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            52.8249998,
+            82.3500004
+          ],
+          [
+            52.76,
+            83.0
+          ]
+        ],
+        "lengthMm": 0.6532414974572587
+      },
+      "assemblyBoundingBoxMm": [
+        52.38999999999999,
+        82.5,
+        54.089999999999996,
+        83.5
+      ],
+      "searchStats": {
+        "visitedCells": 5841,
+        "rawCandidates": 13
+      }
+    },
+    {
+      "ref": "C81",
+      "net": "ADC1_INP1",
+      "componentId": "1fc19d9011b0d2c7",
+      "escapeViaId": "6a0bd823e67e58bd",
+      "escapeXYmm": [
+        56.0259992,
+        80.7490003
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC1_INP1",
+          "xyMm": [
+            56.72,
+            82.44
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            55.76,
+            82.44
+          ]
+        }
+      },
+      "centerXYmm": [
+        56.239999999999995,
+        82.44
+      ],
+      "axisOfPositiveLocalX": [
+        1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            56.0259992,
+            80.7490003
+          ],
+          [
+            56.4,
+            81.42
+          ],
+          [
+            56.72,
+            82.44
+          ]
+        ],
+        "lengthMm": 1.8372091001585904
+      },
+      "assemblyBoundingBoxMm": [
+        55.38999999999999,
+        81.94,
+        57.089999999999996,
+        82.94
+      ],
+      "searchStats": {
+        "visitedCells": 13170,
+        "rawCandidates": 93
+      }
+    },
+    {
+      "ref": "C86",
+      "net": "ADC2_INP3",
+      "componentId": "521960cee1879019",
+      "escapeViaId": "54089935a2a2c135",
+      "escapeXYmm": [
+        55.1874995,
+        81.5875
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC2_INP3",
+          "xyMm": [
+            56.12,
+            83.8
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            57.08,
+            83.8
+          ]
+        }
+      },
+      "centerXYmm": [
+        56.599999999999994,
+        83.8
+      ],
+      "axisOfPositiveLocalX": [
+        -1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            55.1874995,
+            81.5875
+          ],
+          [
+            54.8,
+            82.26
+          ],
+          [
+            54.8,
+            82.54
+          ],
+          [
+            56.12,
+            83.8
+          ]
+        ],
+        "lengthMm": 2.880980878522406
+      },
+      "assemblyBoundingBoxMm": [
+        55.74999999999999,
+        83.3,
+        57.449999999999996,
+        84.3
+      ],
+      "searchStats": {
+        "visitedCells": 8243,
+        "rawCandidates": 184
+      }
+    },
+    {
+      "ref": "C96",
+      "net": "ADC3_INP8",
+      "componentId": "3852588fa8b5215f",
+      "escapeViaId": "4ae5f2d39ccde8fc",
+      "escapeXYmm": [
+        51.2250004,
+        80.7500011
+      ],
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC3_INP8",
+          "xyMm": [
+            51.24,
+            80.2
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            51.24,
+            79.24
+          ]
+        }
+      },
+      "centerXYmm": [
+        51.24,
+        79.72
+      ],
+      "axisOfPositiveLocalX": [
+        0,
+        1
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            51.2250004,
+            80.7500011
+          ],
+          [
+            51.24,
+            80.2
+          ]
+        ],
+        "lengthMm": 0.5502055961196445
+      },
+      "assemblyBoundingBoxMm": [
+        50.74,
+        78.87,
+        51.74,
+        80.57
+      ],
+      "searchStats": {
+        "visitedCells": 4584,
+        "rawCandidates": 483
+      }
+    },
+    {
+      "ref": "C87",
+      "net": "ADC2_INP12",
+      "status": "NO_SIX_LAYER_TAP_FOUND"
+    },
+    {
+      "ref": "C94",
+      "net": "ADC3_INP6",
+      "componentId": "8b84e0ff9041f44b",
+      "escapeViaId": "0b13092086c7b8f8",
+      "escapeXYmm": [
+        52.0249988,
+        81.5499995
+      ],
+      "selectedRoutingSource": {
+        "xyMm": [
+          51.62499962,
+          77.88271135029851
+        ],
+        "kind": "NEW_ADC_TAP_VIA",
+        "net": "ADC3_INP6",
+        "diameterMm": 0.31,
+        "holeMm": 0.2,
+        "layers": [
+          1,
+          2,
+          15,
+          16,
+          17,
+          18
+        ],
+        "touchExistingLineId": "9e08861d85f9cc46",
+        "touchExistingLineLayer": 17,
+        "electricalDistanceFromEscapeMm": 3.8329756346507247,
+        "euclideanDistanceFromEscapeMm": 3.689038047640829,
+        "penaltyMm": 0.5749463451976087
+      },
+      "requiredWorldPads": {
+        "1": {
+          "net": "ADC3_INP6",
+          "xyMm": [
+            49.76,
+            80.16
+          ]
+        },
+        "2": {
+          "net": "GND",
+          "xyMm": [
+            48.8,
+            80.16
+          ]
+        }
+      },
+      "centerXYmm": [
+        49.28,
+        80.16
+      ],
+      "axisOfPositiveLocalX": [
+        1,
+        0
+      ],
+      "targetLayer": "BOTTOM",
+      "signalRoute": {
+        "layerId": 2,
+        "widthMm": 0.12,
+        "pointsMm": [
+          [
+            51.62499962,
+            77.88271135029851
+          ],
+          [
+            50.68,
+            78.88
+          ],
+          [
+            49.76,
+            80.16
+          ]
+        ],
+        "lengthMm": 2.950227650091298
+      },
+      "assemblyBoundingBoxMm": [
+        48.43,
+        79.66,
+        50.13,
+        80.66
+      ],
+      "searchStats": {
+        "visitedCells": 15589,
+        "rawCandidates": 160
+      }
+    },
+    {
+      "ref": "C95",
+      "net": "ADC3_INP7",
+      "status": "NO_SIX_LAYER_TAP_FOUND"
+    },
+    {
+      "ref": "C93",
+      "net": "ADC3_INP2",
+      "status": "NO_PLACEMENT_FOUND",
+      "visitedCells": 32838,
+      "rawCandidates": 0
+    },
+    {
+      "ref": "C82",
+      "net": "ADC1_INP16",
+      "status": "NO_SIX_LAYER_TAP_FOUND"
+    },
+    {
+      "ref": "C80",
+      "net": "ADC1_INP0",
+      "status": "NO_PLACEMENT_FOUND",
+      "visitedCells": 6660,
+      "rawCandidates": 0
+    }
+  ],
+  "status": "OFFLINE_DATA_MANIFEST_REQUIRES_GND_CUT_UNION_AND_NATIVE_DRC",
+  "manufacturingReady": false
+}

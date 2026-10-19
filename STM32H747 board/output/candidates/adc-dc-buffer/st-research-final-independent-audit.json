@@ -1,0 +1,232 @@
+{
+  "schema": "st-research-final-independent-adc-audit-20261016-v1",
+  "passed": true,
+  "finalSource": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc-dc-final-reopened-20261016.epru",
+  "finalSourceSha256": "c5a558d7d4d392145bb2471ddf8ee7848dd47c4189e6a30f8f805b739a73e281",
+  "finalSourceRecords": 2884,
+  "legitimateRevisionAnnotationExact": {
+    "x": 1045,
+    "y": 735,
+    "rotation": 0,
+    "color": "#006666",
+    "fontFamily": "Arial",
+    "fontSize": 6,
+    "fontWeight": false,
+    "italic": false,
+    "underline": false,
+    "align": "LEFT_BOTTOM",
+    "value": "ADC1 DC revision 2026-10-16",
+    "fillColor": "#006666",
+    "zIndex": 4249
+  },
+  "otherReopenChangesOnly": {
+    "documentSessionBookkeeping": 3,
+    "explicitFalseStrikeout": 150,
+    "attributeDisplayOrder": 99
+  },
+  "finalSourceComponentsReviewed": 25,
+  "finalSourcePinsGeometricallyReviewed": 60,
+  "freshNetlistExactExpectedDelta": true,
+  "baselineConnectedPins": 1057,
+  "finalConnectedPins": 1093,
+  "addedPins": 36,
+  "approvedExistingPinNetChanges": 15,
+  "unaffectedOriginalConnectedPinsExact": 1042,
+  "changedOriginalComponentBlocksExactly": [
+    "C80",
+    "C81",
+    "C82",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145"
+  ],
+  "allOther318ComponentBlocksExact": true,
+  "new13ComponentRefsExactly": [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C97",
+    "C98",
+    "C99",
+    "U10",
+    "U11",
+    "U12",
+    "U9"
+  ],
+  "sourceGraph": {
+    "R137": {
+      "1": "ADC1_PRE1",
+      "2": "ADC_BIAS_2V5"
+    },
+    "R140": {
+      "1": "Net-(J2-In)",
+      "2": "ADC1_PRE1"
+    },
+    "R141": {
+      "1": "ADC1_DRV1",
+      "2": "ADC1_INP0"
+    },
+    "C80": {
+      "1": "ADC1_INP0",
+      "2": "GND"
+    },
+    "U10": {
+      "1": "ADC1_DRV1",
+      "2": "GND",
+      "3": "ADC1_PRE1",
+      "4": "ADC1_DRV1",
+      "5": "+3V3"
+    },
+    "C97": {
+      "1": "ADC1_PRE1",
+      "2": "GND"
+    },
+    "C100": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "R138": {
+      "1": "ADC1_PRE2",
+      "2": "ADC_BIAS_2V5"
+    },
+    "R142": {
+      "1": "Net-(J3-In)",
+      "2": "ADC1_PRE2"
+    },
+    "R143": {
+      "1": "ADC1_DRV2",
+      "2": "ADC1_INP1"
+    },
+    "C81": {
+      "1": "ADC1_INP1",
+      "2": "GND"
+    },
+    "U11": {
+      "1": "ADC1_DRV2",
+      "2": "GND",
+      "3": "ADC1_PRE2",
+      "4": "ADC1_DRV2",
+      "5": "+3V3"
+    },
+    "C98": {
+      "1": "ADC1_PRE2",
+      "2": "GND"
+    },
+    "C101": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "R139": {
+      "1": "ADC1_PRE3",
+      "2": "ADC_BIAS_2V5"
+    },
+    "R144": {
+      "1": "Net-(J4-In)",
+      "2": "ADC1_PRE3"
+    },
+    "R145": {
+      "1": "ADC1_DRV3",
+      "2": "ADC1_INP16"
+    },
+    "C82": {
+      "1": "ADC1_INP16",
+      "2": "GND"
+    },
+    "U12": {
+      "1": "ADC1_DRV3",
+      "2": "GND",
+      "3": "ADC1_PRE3",
+      "4": "ADC1_DRV3",
+      "5": "+3V3"
+    },
+    "C99": {
+      "1": "ADC1_PRE3",
+      "2": "GND"
+    },
+    "C102": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "U9": {
+      "1": "+3V3",
+      "2": "ADC_BIAS_2V5",
+      "3": "GND"
+    },
+    "C103": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "C104": {
+      "1": "ADC_BIAS_2V5",
+      "2": "GND"
+    },
+    "C105": {
+      "1": "ADC_BIAS_2V5",
+      "2": "GND"
+    }
+  },
+  "sourceValues": {
+    "R137": "6.8k",
+    "R140": "6.8k",
+    "R141": "47",
+    "C80": "2.2nF",
+    "U10": "OPA320AIDBVR",
+    "C97": "10nF",
+    "C100": "100nF",
+    "R138": "6.8k",
+    "R142": "6.8k",
+    "R143": "47",
+    "C81": "2.2nF",
+    "U11": "OPA320AIDBVR",
+    "C98": "10nF",
+    "C101": "100nF",
+    "R139": "6.8k",
+    "R144": "6.8k",
+    "R145": "47",
+    "C82": "2.2nF",
+    "U12": "OPA320AIDBVR",
+    "C99": "10nF",
+    "C102": "100nF",
+    "U9": "REF3325AIDBZR",
+    "C103": "1uF",
+    "C104": "4.7uF",
+    "C105": "100nF"
+  },
+  "vddaVrefSupplyPathUnchangedComponents": [
+    "FB2",
+    "C34",
+    "R71",
+    "C36"
+  ],
+  "dcContract": {
+    "noSeriesCouplingCapacitors": true,
+    "gain": 0.5,
+    "offsetV": 1.25,
+    "inputRangeV": [
+      -2,
+      2
+    ],
+    "adcInputRangeV": [
+      0.25,
+      2.25
+    ],
+    "preBufferLowPassHz": 4681.027737996922,
+    "postBufferKickbackLowPassHz": 1539216.0840608834
+  },
+  "limitations": [
+    "Input source impedance and resistor/reference tolerances affect the nominal transfer.",
+    "VDDA/VREF+ noise remains an independent measurement error path.",
+    "Firmware was not audited; channel pin selection and acquisition time still need verification.",
+    "PCB ADC ECO not applied: schematic has343 physical components while PCB has330.",
+    "Not a manufacturing approval or measured analog performance guarantee."
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "schema": "stm32-header-native-final-apply-plan-v1",
+  "status": "READY_FOR_ROOT_METADATA_APPLICATION_AND_FINAL_EXPORT_QA",
+  "supersedes": [
+    "headers-native-calibration-candidates.json (SMA wrongseatingZ)",
+    "headers-native-calibration-candidates-v2.json (pre90pilot)"
+  ],
+  "entries": [
+    {
+      "ref": "J1",
+      "id": "494c9d883ad9da29",
+      "footprintUuid": "44621f0fae033d38",
+      "family": "SAMTEC_FTSH107_14_SMD",
+      "model": "0bfd3f5a5a0d440ab496ecbbdf06de18|0819f05c4eef4c71ace90d822a990e87",
+      "title": "HDR-SMD_14P-P1.27_FTSH-107-01-L-DV-K-A",
+      "desired_neck_vector_current_pcb_xy": null,
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "350,230,275,0,0,0,0,0,-34",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          8.89,
+          5.842,
+          6.985
+        ],
+        "rotZXY_deg": [
+          0,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          0,
+          0,
+          -0.8636
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native default mesh pitch1.27mm restored; all14contactbottom sections inside actual14SMT padrectangles with minimum0.1668004mm margin. Locator section radial margins inactualNPTH:0.0509054/0.0522612mm. Independent historicalkernel confirms contact0,bodyfloor+.4064,locator-.8636,top6.1214mm.",
+      "remaining_visualization_limits": [
+        "Modelpin1mark not independently established; rotation0 aligns fullsymmetric contact/locatorarray.",
+        "Not a tolerance/manufacturing certification. Finalexplicit nativeOBJ proof remains."
+      ]
+    },
+    {
+      "ref": "J2",
+      "id": "b921a22d4b7579ed",
+      "footprintUuid": "1a275103229cd0ed",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J3",
+      "id": "afef66d437b67df9",
+      "footprintUuid": "afd1e7eaea1c6d0b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J4",
+      "id": "0b5fac9098dce533",
+      "footprintUuid": "3efe64435dd88760",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J5",
+      "id": "a720c263d59d27d0",
+      "footprintUuid": "420752e0b7dd516b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J6",
+      "id": "c8db40735c04cd92",
+      "footprintUuid": "6cc742d2e9f6287b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J7",
+      "id": "1772c366e461a031",
+      "footprintUuid": "456e5ebcec73f244",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J8",
+      "id": "8b88019d0dcca1ab",
+      "footprintUuid": "af0f2c62672d4563",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J9",
+      "id": "f26bff9701d0729d",
+      "footprintUuid": "99bc905658c65075",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J10",
+      "id": "f09a8f99f71c453e",
+      "footprintUuid": "819dad664d54a2aa",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J11",
+      "id": "fd77caf2157b0c36",
+      "footprintUuid": "247603e988790c9b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,270,0,0,-159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J12",
+      "id": "fc09065fd9dbbdfb",
+      "footprintUuid": "4767d4db118c9e30",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,90,0,0,159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J13",
+      "id": "8a697cb3ec6de186",
+      "footprintUuid": "728a108305576e94",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,90,0,0,159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J14",
+      "id": "7843bf8271627f69",
+      "footprintUuid": "133a56f0204e267d",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,90,0,0,159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J15",
+      "id": "c9e806fb8153837f",
+      "footprintUuid": "93edcf417121fbf5",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,90,0,0,159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J16",
+      "id": "f884fcf9bad6e3a5",
+      "footprintUuid": "ca34008aa681bcb9",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        0,
+        1
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,180,0,0,0,159.4488188976,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          180,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          0,
+          4.05,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J17",
+      "id": "60ef92fca4c18be8",
+      "footprintUuid": "d6f78b7294940c71",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "transform": "275.5905511811,594.4881889764,507.7958976378,90,0,0,159.4488188976,0,-120.0787401575",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          7.0,
+          15.1,
+          12.8980158
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.05,
+          0,
+          -3.05
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Native J12 pilot verified positive90neck+X, normalizedfullbboxframe, shoulder seatingZ0 with1mm posts belowPCB. Native J16 pilot independently verified180neck+Y but its supersededZ-3.4 caused buried shoulders; this plan corrects it to-3.05.",
+      "remaining_visualization_limits": [
+        "Exact manufacturer body/mechanical fit is not certified, despite matchingnative modelname.",
+        "Final18modelnativeOBJ inspection still required after application."
+      ]
+    },
+    {
+      "ref": "J18",
+      "id": "75c4f143536274ab",
+      "footprintUuid": "53511abdbd343897",
+      "family": "SOCKET_2X5_P254",
+      "model": "c92ed4b8e8c6446a8ab365472f37d920|0819f05c4eef4c71ace90d822a990e87",
+      "title": "HDR-F-2.54_2x5",
+      "desired_neck_vector_current_pcb_xy": null,
+      "relation": "2x5/P2.54 female socket package equivalent, not exact height certification; not a mechanical/manufacturing certification",
+      "transform": "500,200,452.1418436627,0,0,0,0,0,-118.6772716991",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          12.7,
+          5.08,
+          11.4844028290336
+        ],
+        "rotZXY_deg": [
+          0,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          0,
+          0,
+          -3.01440270115641
+        ]
+      },
+      "executable": true,
+      "scope": "3D metadata only; no footprints or electricalgeometry edits",
+      "registration_verification": "Ten native metalpinsections register to2.54mm5x2footprint. Bodyunderside seats at0; complete mesh andnegativepinends retained. Genericpins have slightlyasymmetric formed/tessellated contours.",
+      "remaining_visualization_limits": [
+        "Generic2x5P2.54socket not exactPPTC052LFBN-RC bodyheight.",
+        "Modelpin1mark not independently established; symmetricarray aligns at0or180.",
+        "Finalexplicit nativeOBJ proof remains."
+      ]
+    }
+  ],
+  "target_count": 18,
+  "dnp_or_testpoint_targets": 0,
+  "noCADwrite_by_this_script": true,
+  "full_mesh_sizes_not_body_only": true,
+  "rounding_note": "SMA7/15.1, J1 8.89/5.842/6.985 are geometry-restored canonical dimensions with submicron tessellation residual rounded to their nominal metric/inch multiples; no envelope/body shrink applied. SMAZ12.8980158 retains the actual rounded-vertex complete mesh extent, not assumed12.9.",
+  "evidence": [
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\3d-models-20261018\\audits\\header-default-379-all18.json",
+      "sha256": "06f80ef7c379e1967fdad6ee52569f281ba71d80f892cd78249076f7730731fd"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\3d-models-20261018\\audits\\header-registered-j16-shoulder.json",
+      "sha256": "798a121d0499bd0655e86c494ae7da34c50d7bd4832666ef1533d47db35b8c9a"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\3d-models-20261018\\audits\\header-registered-j12-right-shoulder.json",
+      "sha256": "585538aa272b26b762195e2ee565d6aa8bfb8c63e599dc5eeb46674c97f63a31"
+    },
+    {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\3d-models-20261018\\audits\\j1-contact-registration-canonical-locators.json",
+      "sha256": "2a03e2dc9c9e1a5cd7ead334b6eb6dc3d126c2d908bacf2270f1ceb5485b8b15"
+    }
+  ],
+  "limits": [
+    "Geometric model registration is not manufacturer mechanical-fit or fabrication approval.",
+    "J1/J18pin1visualmarksremainuncertified; electricalpinmapsarenotmodified.",
+    "OnlytheSMAfamilyhasexplicitnativepilotregistrationproofatthispoint;J1/J18needfinalexportQA."
+  ]
+}

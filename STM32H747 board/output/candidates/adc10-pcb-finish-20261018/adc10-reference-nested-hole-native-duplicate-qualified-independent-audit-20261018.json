@@ -1,0 +1,84 @@
+{
+  "schema": "stm32h747-reference-nested-hole-independent-20261018-v1",
+  "passed": true,
+  "sourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-ref_nested_reconciled-20261018.epru",
+  "sourceSha256": "a51d905974dc802b3a5a62d5d69e5d0de017941c4d67f382d972d36165ead230",
+  "baselinePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-ref_courtyard-20261018.epru",
+  "baselineSha256": "5a7aa8d85268aac8c31347c53b1f236ea521b1d94dc2899157037839bf832668",
+  "protectedNativeBodies": 13137,
+  "removedPathIndex": 221,
+  "removedContourAreaMm2": 0.022394901268174255,
+  "qualifiedDuplicateCollapse": {
+    "pathIndex": 220,
+    "removedTokenIndices": [
+      36109,
+      36110
+    ],
+    "pointMil": [
+      864.1732,
+      3022.5354
+    ],
+    "reason": "Exact consecutive duplicate point; no coordinate or nonduplicate vertex changed"
+  },
+  "removedContourBoundsMm": [
+    20.417698559999998,
+    78.18399146,
+    20.679999279999997,
+    78.27760062
+  ],
+  "mainGNDTopologyValid": true,
+  "intendedCopperXORmm2": 0.0,
+  "checks": [
+    {
+      "test": "Exact primitive membership",
+      "passed": true
+    },
+    {
+      "test": "Every non-target native body exact, including all LINEs/components/attrs/vias/drills/pins/rules/stack",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "Target FILL all non-path fields exact",
+      "passed": true
+    },
+    {
+      "test": "Exactly one of222 contours removed",
+      "passed": true
+    },
+    {
+      "test": "Only observed exact consecutive duplicate point qualifies at retained path220 tokens36109..36110",
+      "passed": true
+    },
+    {
+      "test": "Only path221 removed and optional exact observed duplicate collapsed; all remaining arrays exact",
+      "passed": true
+    },
+    {
+      "test": "Removed keepout fully nested inside retained clearance hole220",
+      "passed": true
+    },
+    {
+      "test": "After polygon valid without buffer(0) or any repair",
+      "passed": true,
+      "detail": "Valid Geometry"
+    },
+    {
+      "test": "Exactly preserves intended outer-minus-UNION keepouts, no intended copper added or removed",
+      "passed": true,
+      "detail": {
+        "XORmm2": 0.0,
+        "copperAddedMm2": 0.0,
+        "copperRemovedMm2": 0.0
+      }
+    }
+  ],
+  "errors": [],
+  "liveAPICalls": 0,
+  "nativeFilesWritten": 0,
+  "limitations": [
+    "Copper equivalence is explicitly against intended outer-minus-UNION keepout semantics, not an unproven generic compound-path fill rule.",
+    "Native strict DRC and final Gerber/CAM must separately confirm actual physical encoding. No fabrication approval.",
+    "Full actual34-ground-pad and10-channel literal connectivity proof is a separate report rerun on this source."
+  ]
+}

@@ -1,0 +1,2866 @@
+{
+  "engine": "ngspice47; original TI PSpice-format libraries, not Cadence PSpice",
+  "source_factor": 0.9995002498750625,
+  "source_formula": "Vsource = requested actual SMA voltage / (100000 / 100050)",
+  "run_method": "Independent fresh-process .op at every input; method=gear; original shared REF5025 + OPA189 U32 + J2 OPA189/OPA320-Q1; warm-start-full.inc initial guesses; optran=False; 20s timeout; max four workers",
+  "runner_script": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\simulate-adc-representative.py",
+  "runner_script_sha256_loaded": "e24cf77379d2998519e749c03eca15586b4b66f6f53f2d63f087bc6a31ff8550",
+  "nodeset": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runtime\\warm-start-full.inc",
+  "nodeset_sha256": "6ef6002438a73c431c942cbb7249420f2c0d3478f1f5831843f37b66318e6d0b",
+  "original_model_hashes_before": {
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\models\\OPA189\\OPAx189.LIB": "e7ca1f9b0da954be5dc92d28b902e2fa6b46ca1026214c8a6334357712c935e5",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\models\\OPA320\\OPAx320-Q1.LIB": "a272838427e8988bdc662887238d2698d23feb0d39400a2c4c4a929f10c29460",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\models\\REF5025\\REF5025.LIB": "a51454c42c98cbf3c5a37d21dfb4c8259edc7c0770189fabd3cf5f995360f785"
+  },
+  "original_model_hashes_after": {
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\models\\OPA189\\OPAx189.LIB": "e7ca1f9b0da954be5dc92d28b902e2fa6b46ca1026214c8a6334357712c935e5",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\models\\OPA320\\OPAx320-Q1.LIB": "a272838427e8988bdc662887238d2698d23feb0d39400a2c4c4a929f10c29460",
+    "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\models\\REF5025\\REF5025.LIB": "a51454c42c98cbf3c5a37d21dfb4c8259edc7c0770189fabd3cf5f995360f785"
+  },
+  "original_models_unchanged": true,
+  "requested_cases": 44,
+  "nominal_cases": 17,
+  "corner_cases": 27,
+  "validated_true_dc_cases": 38,
+  "failed_or_unvalidated_cases": [
+    "dcpoint_nominal_v5p5_v3p3p3_sman2",
+    "dcpoint_nominal_v5p5_v3p3p3_sman1p25",
+    "dcpoint_nominal_v5p5_v3p3p3_sman0p75",
+    "dcpoint_nominal_v5p5_v3p3p3_smap0p5",
+    "dcpoint_corner_v5p5_v3p3p3_sman2",
+    "dcpoint_corner_v5p5_v3p3p465_smap2"
+  ],
+  "acceptance": {
+    "all_requested_cases_validated_true_dc": false,
+    "all_validated_adc_points_inside_0_to_v3": true,
+    "all_requested_adc_points_inside_0_to_v3": false,
+    "adc_min_v": 0.248149663796613,
+    "adc_max_v": 3.048151794290606,
+    "minimum_rail_headroom_v": 0.08685077040959488,
+    "nominal_gain_linearity": {
+      "expected_nominal_gain_v_per_v": -0.7,
+      "gain_linearity_acceptance_tolerance_specified": false,
+      "valid_points": 13,
+      "requested_points": 17,
+      "complete_coverage": false,
+      "interpretation": "Fit only the successfully validated DC points. Missing points remain failures; this fit does not validate the complete requested sweep.",
+      "fitted_gain_v_per_v": -0.6999998895625494,
+      "fitted_offset_v": 1.6481507282137244,
+      "gain_error_percent": -1.5776778650167245e-05,
+      "max_abs_residual_from_fit_v": 2.744797278353417e-09,
+      "max_abs_error_from_case_bias_and_ideal_gain_v": 4.947719607553691e-05,
+      "sma_coverage_min_v": -1.750000002818169,
+      "sma_coverage_max_v": 1.999999996235047
+    },
+    "group_validation_counts": {
+      "nominal": {
+        "valid": 13,
+        "requested": 17
+      },
+      "corner": {
+        "valid": 25,
+        "requested": 27
+      }
+    },
+    "minimum_headroom_case": {
+      "case": "dcpoint_corner_v5p5p25_v3p3p135_sman2",
+      "v5_source_v": 5.25,
+      "v3_v": 3.135,
+      "requested_sma_v": -2.0,
+      "adc_rail_headroom_v": 0.08685077040959488
+    }
+  },
+  "results": [
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman2",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman2",
+        "timeout_s": 20,
+        "seconds": 20.047,
+        "warnings": [
+          "Warning: Dynamic gmin stepping failed",
+          "Warning: True gmin stepping failed",
+          "Warning: source stepping failed",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp"
+        ],
+        "raw_exists": true,
+        "deck_sha256": "032e57c34668d4d0c90bdb46bc52b102c631c5843954a358a6e2911aae69b9ff",
+        "optran_used": false,
+        "numeric_valid": false,
+        "parse_error": "not enough values to unpack (expected 2, got 1)",
+        "run_ok": false
+      },
+      "transient_op_fallback_used": true,
+      "adc_within_rails": null,
+      "validated_true_dc": false
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman1p75",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -1.75,
+      "source_dc_v": -1.750875,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman1p75",
+        "returncode": 0,
+        "seconds": 0.25,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "818705c90b7e614532865bc50251dd1d78bceb9f3a1236730ece56002680a245",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -1.750000002818169,
+        "v(filt_j2)": -1.750000190038159,
+        "v(buf_j2)": -1.750002373600216,
+        "v(drv_j2)": 2.873150539629047,
+        "v(adc_j2)": 2.873150539629047,
+        "v(off)": 0.9694714571388994,
+        "v(ref25)": 2.501242518696635,
+        "v(v5afe)": 4.928577157525624,
+        "i(v5)": -0.01519634946263304,
+        "i(v3)": -0.002129875441246843,
+        "i(vn)": 0.01367987553128848
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.4268494603709527,
+      "sma_actual_error_v": -2.8181690314710295e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman1p5",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -1.5,
+      "source_dc_v": -1.50075,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman1p5",
+        "returncode": 0,
+        "seconds": 0.266,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "fd5a307e6e07e2adef88493e8a5172892d369eaaa53d69154b8311a37ae00f5b",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -1.500000002881279,
+        "v(filt_j2)": -1.500000194293812,
+        "v(buf_j2)": -1.500002303151192,
+        "v(drv_j2)": 2.698150561829646,
+        "v(adc_j2)": 2.698150561829646,
+        "v(off)": 0.9694714538241577,
+        "v(ref25)": 2.50124251869663,
+        "v(v5afe)": 4.928577157532674,
+        "i(v5)": -0.01519634946113313,
+        "i(v3)": -0.002067375433712425,
+        "i(vn)": 0.01361737552360015
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.6018494381703539,
+      "sma_actual_error_v": -2.8812789931720317e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman1p25",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -1.25,
+      "source_dc_v": -1.250625,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman1p25",
+        "timeout_s": 20,
+        "seconds": 20.047,
+        "warnings": [
+          "Warning: Dynamic gmin stepping failed",
+          "Warning: True gmin stepping failed",
+          "Warning: source stepping failed",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check node xu20_j2.n2991579",
+          "Warning: singular matrix:  check node xu20_j2.n2991579",
+          "Warning: singular matrix:  check node xu20_j2.n2991579"
+        ],
+        "raw_exists": true,
+        "deck_sha256": "e9ef7271dc1b348fccf40191c74d47655865c5c6b8ad46505a42e2e14ce4ffa8",
+        "optran_used": false,
+        "numeric_valid": false,
+        "parse_error": "not enough values to unpack (expected 2, got 1)",
+        "run_ok": false
+      },
+      "transient_op_fallback_used": true,
+      "adc_within_rails": null,
+      "validated_true_dc": false
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman1",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -1.0,
+      "source_dc_v": -1.0005,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman1",
+        "returncode": 0,
+        "seconds": 0.281,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman1.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "008211f906b282f4e01ad07a5f54b247a59313062a81b4bef0ed0645d25ffd9d",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -1.000000003007496,
+        "v(filt_j2)": -1.000000202805048,
+        "v(buf_j2)": -1.00000216022802,
+        "v(drv_j2)": 2.348150620302099,
+        "v(adc_j2)": 2.348150620302099,
+        "v(off)": 0.9694714554824988,
+        "v(ref25)": 2.501242518696661,
+        "v(v5afe)": 4.928577157546775,
+        "i(v5)": -0.01519634945813308,
+        "i(v3)": -0.001942375420714481,
+        "i(vn)": 0.01349237550978537
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.9518493796979008,
+      "sma_actual_error_v": -3.007496029994172e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman0p75",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -0.75,
+      "source_dc_v": -0.750375,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman0p75",
+        "timeout_s": 20,
+        "seconds": 20.031,
+        "warnings": [
+          "Warning: Dynamic gmin stepping failed",
+          "Warning: True gmin stepping failed",
+          "Warning: source stepping failed",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check node xu32.n2991579",
+          "Warning: singular matrix:  check node xu32.n2991579",
+          "Warning: singular matrix:  check node xu32.n2991579"
+        ],
+        "raw_exists": true,
+        "deck_sha256": "f67bcfe37b838f4f90a795ba8c7a87065ad8c51fc33750e1c6f71dba4ce873db",
+        "optran_used": false,
+        "numeric_valid": false,
+        "parse_error": "not enough values to unpack (expected 2, got 1)",
+        "run_ok": false
+      },
+      "transient_op_fallback_used": true,
+      "adc_within_rails": null,
+      "validated_true_dc": false
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman0p5",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -0.5,
+      "source_dc_v": -0.50025,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman0p5",
+        "returncode": 0,
+        "seconds": 0.234,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "bbc513fadb565f7425e30c03f877defa4f527ff6ce8849a16ae663a10117ed22",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -0.5000000031337136,
+        "v(filt_j2)": -0.5000002113163274,
+        "v(buf_j2)": -0.500002018594204,
+        "v(drv_j2)": 1.998150675946696,
+        "v(adc_j2)": 1.998150675946696,
+        "v(off)": 0.9694714554832751,
+        "v(ref25)": 2.501242518696618,
+        "v(v5afe)": 4.928577157560875,
+        "i(v5)": -0.01519634945513282,
+        "i(v3)": -0.001817375407299058,
+        "i(vn)": 0.01336737549587822
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.3018493240533038,
+      "sma_actual_error_v": -3.133713621927825e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_sman0p25",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -0.25,
+      "source_dc_v": -0.250125,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_sman0p25",
+        "returncode": 0,
+        "seconds": 0.219,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "4b38ec0ecb0349afa0eec936a534d28b27ad786304447ba2129f65460725ce26",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -0.2500000031968222,
+        "v(filt_j2)": -0.2500002155719486,
+        "v(buf_j2)": -0.2500019472249032,
+        "v(drv_j2)": 1.823150700961399,
+        "v(adc_j2)": 1.823150700961399,
+        "v(off)": 0.9694714538260982,
+        "v(ref25)": 2.501242518696615,
+        "v(v5afe)": 4.928577157567924,
+        "i(v5)": -0.01519634945363313,
+        "i(v3)": -0.001754875400179805,
+        "i(vn)": 0.01330487548837271
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.4768492990386008,
+      "sma_actual_error_v": -3.1968221958500465e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap0",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap0",
+        "returncode": 0,
+        "seconds": 0.25,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "3f6231aac84ab3ced3150572407fcad178fdde2df5514f03f1c2aaac502b4b8c",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.25993104540651e-09,
+        "v(filt_j2)": -2.198275821711062e-07,
+        "v(buf_j2)": -1.876223040729192e-06,
+        "v(drv_j2)": 1.648150731605046,
+        "v(adc_j2)": 1.648150731605046,
+        "v(off)": 0.9694714554840511,
+        "v(ref25)": 2.501242518696646,
+        "v(v5afe)": 4.928577157574974,
+        "i(v5)": -0.01519634945213322,
+        "i(v3)": -0.001692375393885948,
+        "i(vn)": 0.01324237548178854
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.648150731605046,
+      "sma_actual_error_v": -3.25993104540651e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap0p25",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 0.25,
+      "source_dc_v": 0.250125,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap0p25",
+        "returncode": 0,
+        "seconds": 0.265,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "b87f8fdae3f57c7c7ed01d8266cf8a65980dfb2840e31f3634f9fa3b229266c6",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 0.2499999966769603,
+        "v(filt_j2)": 0.2499997759167966,
+        "v(buf_j2)": 0.2499981951470696,
+        "v(drv_j2)": 1.473150756620116,
+        "v(adc_j2)": 1.473150756620116,
+        "v(off)": 0.9694714538268745,
+        "v(ref25)": 2.501242518696644,
+        "v(v5afe)": 4.928577157582025,
+        "i(v5)": -0.01519634945063286,
+        "i(v3)": -0.001629875386764229,
+        "i(vn)": 0.01317987547428465
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.473150756620116,
+      "sma_actual_error_v": -3.3230397045169724e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap0p5",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 0.5,
+      "source_dc_v": 0.50025,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap0p5",
+        "returncode": 1,
+        "seconds": 19.235,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0p5.cir"
+        ],
+        "warnings": [
+          "Warning: Dynamic gmin stepping failed",
+          "Warning: True gmin stepping failed",
+          "Warning: source stepping failed",
+          "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+          "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+          "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+          "Warning: singular matrix:  check nodes xu32.n3294630 and xu32.cl_clamp",
+          "Warning: singular matrix:  check node xu20_j2.n2991579",
+          "Warning: singular matrix:  check node xu20_j2.n2991579",
+          "Error: Transient op failed, timestep too small",
+          "Error: The operating point could not be simulated successfully.",
+          "DC solution failed -",
+          "a.xu20_j2.x_u19.ag1#branch_1_0            -nan(ind)            -doAnalyses: OP:  Timestep too small; trouble with xu9:q-instance q.xu9.q26"
+        ],
+        "raw_exists": true,
+        "deck_sha256": "7b2b173c583887ca8fa6e46b72450e0ffd1f7f29df166c60115de126be0211d1",
+        "optran_used": false,
+        "numeric_valid": false,
+        "parse_error": "not enough values to unpack (expected 2, got 1)",
+        "run_ok": false
+      },
+      "transient_op_fallback_used": true,
+      "adc_within_rails": null,
+      "validated_true_dc": false
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap0p75",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 0.75,
+      "source_dc_v": 0.750375,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap0p75",
+        "returncode": 0,
+        "seconds": 0.266,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "0d706bf51875656fee3ef4be62cdf5dcd562604c8f9eae65938be56bae04b357",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 0.7499999965507422,
+        "v(filt_j2)": 0.7499997674055044,
+        "v(buf_j2)": 0.7499983364118074,
+        "v(drv_j2)": 1.123150812277731,
+        "v(adc_j2)": 1.123150812277731,
+        "v(off)": 0.9694714538276507,
+        "v(ref25)": 2.50124251869663,
+        "v(v5afe)": 4.928577157596124,
+        "i(v5)": -0.01519634944763304,
+        "i(v3)": -0.001504875373356053,
+        "i(vn)": 0.01305487546046795
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.123150812277731,
+      "sma_actual_error_v": -3.4492577682954106e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap1",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 1.0,
+      "source_dc_v": 1.0005,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap1",
+        "returncode": 0,
+        "seconds": 0.281,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "a7b3bfce04a3d6cf7aaed27de28e7bf497ff7e278f701936087922880590a7ed",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 0.999999996487629,
+        "v(filt_j2)": 0.9999997631495797,
+        "v(buf_j2)": 0.9999984077314734,
+        "v(drv_j2)": 0.9481508426047474,
+        "v(adc_j2)": 0.9481508426047474,
+        "v(off)": 0.9694714553057479,
+        "v(ref25)": 2.501242518691938,
+        "v(v5afe)": 4.928541322124836,
+        "i(v5)": -0.01520397401599216,
+        "i(v3)": -0.001450000014025756,
+        "i(vn)": 0.01300000002407464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.9481508426047474,
+      "sma_actual_error_v": -3.5123709496431843e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap1p25",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 1.25,
+      "source_dc_v": 1.250625,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap1p25",
+        "returncode": 0,
+        "seconds": 0.234,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "68ddf7b706bca19a6d64d37680f99bb7eec83acd2d37c99d63cbe4c0372f27c8",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.249999996424483,
+        "v(filt_j2)": 1.249999758891488,
+        "v(buf_j2)": 1.249998479229001,
+        "v(drv_j2)": 0.7731508689030395,
+        "v(adc_j2)": 0.7731508689030395,
+        "v(off)": 0.9694714544129054,
+        "v(ref25)": 2.501242518653565,
+        "v(v5afe)": 4.928247572106303,
+        "i(v5)": -0.01526647401993531,
+        "i(v3)": -0.001450000014375756,
+        "i(vn)": 0.01300000002557464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.7731508689030395,
+      "sma_actual_error_v": -3.575516993592487e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap1p5",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 1.5,
+      "source_dc_v": 1.50075,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap1p5",
+        "returncode": 0,
+        "seconds": 0.344,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "9b14891b4c27dcf3847a9dc15d0748f90d2e5b1d54d8b996db5c4c1f49b8e9de",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.499999996361338,
+        "v(filt_j2)": 1.499999754633353,
+        "v(buf_j2)": 1.499998549437314,
+        "v(drv_j2)": 0.5981508980154361,
+        "v(adc_j2)": 0.5981508980154361,
+        "v(off)": 0.9694714551777799,
+        "v(ref25)": 2.501242518615239,
+        "v(v5afe)": 4.927953822090224,
+        "i(v5)": -0.01532897402335665,
+        "i(v3)": -0.001450000014725755,
+        "i(vn)": 0.01300000002707464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.5981508980154361,
+      "sma_actual_error_v": -3.6386620383410673e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap1p75",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 1.75,
+      "source_dc_v": 1.750875,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap1p75",
+        "returncode": 0,
+        "seconds": 0.36,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "353eab013657efa24a5cb8e4d3efc30d44b9cec34b4ddd93462a63d8bbd97615",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.749999996298192,
+        "v(filt_j2)": 1.749999750375261,
+        "v(buf_j2)": 1.749998620934841,
+        "v(drv_j2)": 0.4231509243003424,
+        "v(adc_j2)": 0.4231509243003424,
+        "v(off)": 0.969471454285,
+        "v(ref25)": 2.501242518576853,
+        "v(v5afe)": 4.927660072071692,
+        "i(v5)": -0.01539147402729957,
+        "i(v3)": -0.001450000015075755,
+        "i(vn)": 0.01300000002857464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.4231509243003424,
+      "sma_actual_error_v": -3.7018079712680674e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_nominal_v5p5_v3p3p3_smap2",
+      "group": "nominal",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_nominal_v5p5_v3p3p3_smap2",
+        "returncode": 0,
+        "seconds": 0.234,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "b6aaeea1bd5d39ea2c8c3627fd7d76b3f5a94da1d6d73cef12e2ec63ff12cd8c",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996235047,
+        "v(filt_j2)": 1.999999746117158,
+        "v(buf_j2)": 1.999998692063266,
+        "v(drv_j2)": 0.2481509505982671,
+        "v(adc_j2)": 0.2481509505982671,
+        "v(off)": 0.9694714533921908,
+        "v(ref25)": 2.50124251853851,
+        "v(v5afe)": 4.927366322052644,
+        "i(v5)": -0.01545397403135218,
+        "i(v3)": -0.001450000015425755,
+        "i(vn)": 0.01300000003007464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481509505982671,
+      "sma_actual_error_v": -3.764953016016648e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p135_sman2",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.135,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p135_sman2",
+        "returncode": 0,
+        "seconds": 0.391,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p135_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "681dd835c96d6650e89e7ab0d1493752fc4f6beb5a817d790e3f4cccbb6e66d7",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002786284,
+        "v(filt_j2)": -2.000000187888017,
+        "v(buf_j2)": -2.000002424679117,
+        "v(drv_j2)": 3.048149220873517,
+        "v(adc_j2)": 3.048149220873517,
+        "v(off)": 0.9694714596383402,
+        "v(ref25)": 2.501242486051961,
+        "v(v5afe)": 4.678577170713957,
+        "i(v5)": -0.01519634665660508,
+        "i(v3)": -0.00219237525477527,
+        "i(vn)": 0.01374237534421253
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.08685077912648298,
+      "sma_actual_error_v": -2.7862840923376098e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p135_smap0",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.135,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p135_smap0",
+        "returncode": 0,
+        "seconds": 0.407,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p135_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "c3f1ee8eb1c74266e9007e50fb442b223909e2126fe56f457a0c9f66accd5d94",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.291154461077438e-09,
+        "v(filt_j2)": -2.21933077004727e-07,
+        "v(buf_j2)": -1.85639320045756e-06,
+        "v(drv_j2)": 1.648149442353259,
+        "v(adc_j2)": 1.648149442353259,
+        "v(off)": 0.9694714588126621,
+        "v(ref25)": 2.501242486051946,
+        "v(v5afe)": 4.678577170770358,
+        "i(v5)": -0.01519634664460479,
+        "i(v3)": -0.001692375201012362,
+        "i(vn)": 0.01324237528794242
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.4868505576467408,
+      "sma_actual_error_v": -3.291154461077438e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p135_smap2",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.135,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p135_smap2",
+        "returncode": 0,
+        "seconds": 0.422,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p135_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "44b97efc7fc101b75265316fba3b919c2f9da656ae3fa24b1153390c6ed3f088",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996203824,
+        "v(filt_j2)": 1.999999744011667,
+        "v(buf_j2)": 1.99999871202671,
+        "v(drv_j2)": 0.248149663796613,
+        "v(adc_j2)": 0.248149663796613,
+        "v(off)": 0.9694714583283242,
+        "v(ref25)": 2.501242485893837,
+        "v(v5afe)": 4.677366334338775,
+        "i(v5)": -0.01545397141728189,
+        "i(v3)": -0.001450000014435759,
+        "i(vn)": 0.01300000003007464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.248149663796613,
+      "sma_actual_error_v": -3.796176040182786e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p3_sman2",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.3,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p3_sman2",
+        "returncode": 0,
+        "seconds": 0.422,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p3_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "52157440fd1aaa7c0dc41f373c986d09caef4ad9eb8d4f4d726d020dd54cb18f",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002786284,
+        "v(filt_j2)": -2.000000187888016,
+        "v(buf_j2)": -2.000002424653245,
+        "v(drv_j2)": 3.048150503229943,
+        "v(adc_j2)": 3.048150503229943,
+        "v(off)": 0.9694714602573742,
+        "v(ref25)": 2.501242486051929,
+        "v(v5afe)": 4.678577170713957,
+        "i(v5)": -0.01519634665660508,
+        "i(v3)": -0.002192375443777917,
+        "i(vn)": 0.01374237553295531
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.25184949677005664,
+      "sma_actual_error_v": -2.7862840923376098e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p3_smap0",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.3,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p3_smap0",
+        "returncode": 0,
+        "seconds": 0.453,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p3_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "ab5813423e9d11c349f72f52cbf12f68aee0b25066f0dd148d28120f5ce05dd2",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.291154401612977e-09,
+        "v(filt_j2)": -2.219330729948482e-07,
+        "v(buf_j2)": -1.85627420805493e-06,
+        "v(drv_j2)": 1.648150725849589,
+        "v(adc_j2)": 1.648150725849589,
+        "v(off)": 0.9694714602604781,
+        "v(ref25)": 2.50124248605193,
+        "v(v5afe)": 4.678577170770357,
+        "i(v5)": -0.01519634664460501,
+        "i(v3)": -0.001692375390123166,
+        "i(vn)": 0.01324237547687119
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.648150725849589,
+      "sma_actual_error_v": -3.291154401612977e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p3_smap2",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.3,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p3_smap2",
+        "returncode": 0,
+        "seconds": 0.563,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p3_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "19f09e5c1cb7f02664e0500ad7ee4ec8de9f58a7b494c38ea56526552deeadde",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996203824,
+        "v(filt_j2)": 1.999999744011661,
+        "v(buf_j2)": 1.99999871182656,
+        "v(drv_j2)": 0.2481509476435291,
+        "v(adc_j2)": 0.2481509476435291,
+        "v(off)": 0.9694714598249873,
+        "v(ref25)": 2.501242485893838,
+        "v(v5afe)": 4.677366335227391,
+        "i(v5)": -0.01545397122821479,
+        "i(v3)": -0.001450000015425755,
+        "i(vn)": 0.01300000003007464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481509476435291,
+      "sma_actual_error_v": -3.796176040182786e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p465_sman2",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.465,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p465_sman2",
+        "returncode": 0,
+        "seconds": 0.453,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p465_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "fc963385b7b02c8209daaf3211c7083ff2a8bf40a20d2d4a4982f171feeb69e7",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002786284,
+        "v(filt_j2)": -2.00000018788804,
+        "v(buf_j2)": -2.000002425363102,
+        "v(drv_j2)": 3.048151785580044,
+        "v(adc_j2)": 3.048151785580044,
+        "v(off)": 0.9694714608764083,
+        "v(ref25)": 2.50124248605194,
+        "v(v5afe)": 4.678577170713957,
+        "i(v5)": -0.01519634665660508,
+        "i(v3)": -0.002192375632775707,
+        "i(vn)": 0.01374237572188386
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.4168482144199559,
+      "sma_actual_error_v": -2.7862840923376098e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p465_smap0",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.465,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p465_smap0",
+        "returncode": 0,
+        "seconds": 0.437,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p465_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "b0d70d331fddeef420c3cf09d227cea4dfa8e1a8b0f52e1e5976b05448d83ab2",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.291154388702295e-09,
+        "v(filt_j2)": -2.219330721242396e-07,
+        "v(buf_j2)": -1.856248372908196e-06,
+        "v(drv_j2)": 1.648152008453636,
+        "v(adc_j2)": 1.648152008453636,
+        "v(off)": 0.969471460879512,
+        "v(ref25)": 2.50124248605194,
+        "v(v5afe)": 4.678577170770357,
+        "i(v5)": -0.01519634664460501,
+        "i(v3)": -0.001692375579214367,
+        "i(vn)": 0.0132423756656139
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.648152008453636,
+      "sma_actual_error_v": -3.291154388702295e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p4p75_v3p3p465_smap2",
+      "group": "corner",
+      "v5_source_v": 4.75,
+      "v3_v": 3.465,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p4p75_v3p3p465_smap2",
+        "returncode": 0,
+        "seconds": 0.438,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p465_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "dc6af661fd81b7313c6e06f26fe5f63cefd2b112fc245d89193a7c6e518664c6",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996203824,
+        "v(filt_j2)": 1.999999744011676,
+        "v(buf_j2)": 1.999998712270581,
+        "v(drv_j2)": 0.2481522300765162,
+        "v(adc_j2)": 0.2481522300765162,
+        "v(off)": 0.9694714604928174,
+        "v(ref25)": 2.501242485893837,
+        "v(v5afe)": 4.677366336114131,
+        "i(v5)": -0.0154539710395466,
+        "i(v3)": -0.001450000016415751,
+        "i(vn)": 0.01300000003007464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481522300765162,
+      "sma_actual_error_v": -3.796176040182786e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p135_sman2",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.135,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p135_sman2",
+        "returncode": 0,
+        "seconds": 0.282,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p135_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "1896dbfef775a16070a558a8928bfbb48bf88d03146b43c99a7b4b192ce68487",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002755061,
+        "v(filt_j2)": -2.000000185782551,
+        "v(buf_j2)": -2.000002445363677,
+        "v(drv_j2)": 3.048149226642727,
+        "v(adc_j2)": 3.048149226642727,
+        "v(off)": 0.9694714548619132,
+        "v(ref25)": 2.501242518696635,
+        "v(v5afe)": 4.928577157518575,
+        "i(v5)": -0.01519634946413295,
+        "i(v3)": -0.002192375258540366,
+        "i(vn)": 0.01374237534931563
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.08685077335727298,
+      "sma_actual_error_v": -2.7550610681714716e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p135_smap0",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.135,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p135_smap0",
+        "returncode": 0,
+        "seconds": 0.282,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p135_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "e47a83e1c709b2da9255713a88d102b195c8d8f1508fb3e49f2bda54a36e2804",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.259930966109797e-09,
+        "v(filt_j2)": -2.198275768238751e-07,
+        "v(buf_j2)": -1.876064362658509e-06,
+        "v(drv_j2)": 1.64814945208317,
+        "v(adc_j2)": 1.64814945208317,
+        "v(off)": 0.9694714565225819,
+        "v(ref25)": 2.501242518696652,
+        "v(v5afe)": 4.928577157574973,
+        "i(v5)": -0.01519634945213322,
+        "i(v3)": -0.00169237520530317,
+        "i(vn)": 0.01324237529341434
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.4868505479168297,
+      "sma_actual_error_v": -3.259930966109797e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p135_smap2",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.135,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p135_smap2",
+        "returncode": 0,
+        "seconds": 0.266,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p135_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "d9388c24dd6ba2aa7973505ef6766d3cb2e1d1cefb8169c4f1f52021b387378c",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996235047,
+        "v(filt_j2)": 1.99999974611718,
+        "v(buf_j2)": 1.999998692725582,
+        "v(drv_j2)": 0.2481496741023381,
+        "v(adc_j2)": 0.2481496741023381,
+        "v(off)": 0.9694714560394648,
+        "v(ref25)": 2.50124251853853,
+        "v(v5afe)": 4.927366321169338,
+        "i(v5)": -0.01545397421928962,
+        "i(v3)": -0.001450000014435759,
+        "i(vn)": 0.01300000003007464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481496741023381,
+      "sma_actual_error_v": -3.764953016016648e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p3_sman2",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p3_sman2",
+        "timeout_s": 20,
+        "seconds": 20.031,
+        "warnings": [
+          "Warning: Dynamic gmin stepping failed",
+          "Warning: True gmin stepping failed",
+          "Warning: source stepping failed",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp",
+          "Warning: singular matrix:  check nodes xu10_j2.n37029 and xu10_j2.cl_clamp"
+        ],
+        "raw_exists": true,
+        "deck_sha256": "698c6560e6ae93169911dc2c63a0392c3c7a1e1dda51cb0d9c020d147349d1a9",
+        "optran_used": false,
+        "numeric_valid": false,
+        "parse_error": "not enough values to unpack (expected 2, got 1)",
+        "run_ok": false
+      },
+      "transient_op_fallback_used": true,
+      "adc_within_rails": null,
+      "validated_true_dc": false
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p3_smap0",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p3_smap0",
+        "returncode": 0,
+        "seconds": 0.25,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p3_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "5c25f572b83cb03bf9e6485e653a04f9d3046e68d960ad642d7e8c8eee32b926",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.25993104540651e-09,
+        "v(filt_j2)": -2.198275821711062e-07,
+        "v(buf_j2)": -1.876223040729192e-06,
+        "v(drv_j2)": 1.648150731605046,
+        "v(adc_j2)": 1.648150731605046,
+        "v(off)": 0.9694714554840511,
+        "v(ref25)": 2.501242518696646,
+        "v(v5afe)": 4.928577157574974,
+        "i(v5)": -0.01519634945213322,
+        "i(v3)": -0.001692375393885948,
+        "i(vn)": 0.01324237548178854
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.648150731605046,
+      "sma_actual_error_v": -3.25993104540651e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p3_smap2",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.3,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p3_smap2",
+        "returncode": 0,
+        "seconds": 0.266,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p3_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "d8952c3fddaf799bbb2beafcb2c4118d1794573996af83486fe2e96c3c150199",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996235047,
+        "v(filt_j2)": 1.999999746117158,
+        "v(buf_j2)": 1.999998692063266,
+        "v(drv_j2)": 0.2481509505982671,
+        "v(adc_j2)": 0.2481509505982671,
+        "v(off)": 0.9694714533921908,
+        "v(ref25)": 2.50124251853851,
+        "v(v5afe)": 4.927366322052644,
+        "i(v5)": -0.01545397403135218,
+        "i(v3)": -0.001450000015425755,
+        "i(vn)": 0.01300000003007464
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481509505982671,
+      "sma_actual_error_v": -3.764953016016648e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p465_sman2",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.465,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p465_sman2",
+        "returncode": 0,
+        "seconds": 0.359,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p465_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "5235b5629b04683f30294a90805f03067fe2542f5d513e3421c3162a862ab999",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002755061,
+        "v(filt_j2)": -2.000000185782556,
+        "v(buf_j2)": -2.000002445494844,
+        "v(drv_j2)": 3.048151794163725,
+        "v(adc_j2)": 3.048151794163725,
+        "v(off)": 0.9694714577575456,
+        "v(ref25)": 2.501242518696646,
+        "v(v5afe)": 4.928577157518575,
+        "i(v5)": -0.01519634946413295,
+        "i(v3)": -0.002192375636953499,
+        "i(vn)": 0.01374237572726348
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.416848205836275,
+      "sma_actual_error_v": -2.7550610681714716e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p465_smap0",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.465,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p465_smap0",
+        "returncode": 0,
+        "seconds": 0.281,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p465_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "021e2015f3461a5626161711e698a7e6d5593409614b457a63a382e1797d9c2b",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.259930848036714e-09,
+        "v(filt_j2)": -2.198275688618293e-07,
+        "v(buf_j2)": -1.875828090462257e-06,
+        "v(drv_j2)": 1.648152013955146,
+        "v(adc_j2)": 1.648152013955146,
+        "v(off)": 0.9694714561030847,
+        "v(ref25)": 2.501242518696643,
+        "v(v5afe)": 4.928577157574974,
+        "i(v5)": -0.01519634945213322,
+        "i(v3)": -0.001692375582883738,
+        "i(vn)": 0.01324237567044087
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.648152013955146,
+      "sma_actual_error_v": -3.259930848036714e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5_v3p3p465_smap2",
+      "group": "corner",
+      "v5_source_v": 5.0,
+      "v3_v": 3.465,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5_v3p3p465_smap2",
+        "timeout_s": 20,
+        "seconds": 20.031,
+        "warnings": [
+          "Warning: Dynamic gmin stepping failed",
+          "Warning: True gmin stepping failed",
+          "Warning: source stepping failed"
+        ],
+        "raw_exists": true,
+        "deck_sha256": "5d3c828f069831c4f013a12ababc0a75b4cec5d24fa2957a1406f64f42e28811",
+        "optran_used": false,
+        "numeric_valid": false,
+        "parse_error": "not enough values to unpack (expected 2, got 1)",
+        "run_ok": false
+      },
+      "transient_op_fallback_used": true,
+      "adc_within_rails": null,
+      "validated_true_dc": false
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p135_sman2",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.135,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p135_sman2",
+        "returncode": 0,
+        "seconds": 0.328,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p135_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "99a468115565e32847c89555947986786dcd1b8e880efaeffc60d8482b498246",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002723837,
+        "v(filt_j2)": -2.000000183677042,
+        "v(buf_j2)": -2.000002464760523,
+        "v(drv_j2)": 3.048149229590405,
+        "v(adc_j2)": 3.048149229590405,
+        "v(off)": 0.9694714484279204,
+        "v(ref25)": 2.501242551341349,
+        "v(v5afe)": 5.178577144323189,
+        "i(v5)": -0.01519635227166205,
+        "i(v3)": -0.002192375261892841,
+        "i(vn)": 0.01374237535368025
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.08685077040959488,
+      "sma_actual_error_v": -2.7238371558269137e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p135_smap0",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.135,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p135_smap0",
+        "returncode": 0,
+        "seconds": 0.328,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p135_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "84cafea926ef3f8ae8f7d14487e59fde06a4c7e9a0bb0a2f9d291a2155ff7534",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.228707702129047e-09,
+        "v(filt_j2)": -2.177220922192084e-07,
+        "v(buf_j2)": -1.896197745211581e-06,
+        "v(drv_j2)": 1.648149455030848,
+        "v(adc_j2)": 1.648149455030848,
+        "v(off)": 0.9694714500885895,
+        "v(ref25)": 2.501242551341352,
+        "v(v5afe)": 5.178577144379588,
+        "i(v5)": -0.01519635225966232,
+        "i(v3)": -0.001692375208655645,
+        "i(vn)": 0.01324237529796309
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.4868505449691518,
+      "sma_actual_error_v": -3.228707702129047e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p135_smap2",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.135,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p135_smap2",
+        "returncode": 0,
+        "seconds": 0.297,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p135_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "5132a2f3ea42eb2d0baf4baff94ce77af6798c125a5fb201fe30234243ec0b59",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996266271,
+        "v(filt_j2)": 1.999999748222677,
+        "v(buf_j2)": 1.999998672961807,
+        "v(drv_j2)": 0.2481496767422689,
+        "v(adc_j2)": 0.2481496767422689,
+        "v(off)": 0.9694714496067256,
+        "v(ref25)": 2.50124255118323,
+        "v(v5afe)": 5.177366307995614,
+        "i(v5)": -0.01545397702220996,
+        "i(v3)": -0.001450000014435759,
+        "i(vn)": 0.01300000003007463
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481496767422689,
+      "sma_actual_error_v": -3.73372910367209e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p3_sman2",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.3,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p3_sman2",
+        "returncode": 0,
+        "seconds": 0.313,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p3_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "438f03770e354215cb9e12419271d6840d4a1241918169f0dc288abf54902af4",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002723837,
+        "v(filt_j2)": -2.000000183677028,
+        "v(buf_j2)": -2.000002464366382,
+        "v(drv_j2)": 3.048150511926753,
+        "v(adc_j2)": 3.048150511926753,
+        "v(off)": 0.9694714490469538,
+        "v(ref25)": 2.501242551341361,
+        "v(v5afe)": 5.178577144323189,
+        "i(v5)": -0.01519635227166205,
+        "i(v3)": -0.002192375450888317,
+        "i(vn)": 0.01374237554233096
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2518494880732467,
+      "sma_actual_error_v": -2.7238371558269137e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p3_smap0",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.3,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p3_smap0",
+        "returncode": 0,
+        "seconds": 0.312,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p3_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "b74909f9b8f29ae8bd538b0e6c57bbc50a050abb229587e3131b2d6e225a5adb",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.22870750475946e-09,
+        "v(filt_j2)": -2.177220789099456e-07,
+        "v(buf_j2)": -1.895802795347101e-06,
+        "v(drv_j2)": 1.648150737374255,
+        "v(adc_j2)": 1.648150737374255,
+        "v(off)": 0.9694714507076233,
+        "v(ref25)": 2.501242551341363,
+        "v(v5afe)": 5.178577144379588,
+        "i(v5)": -0.01519635225966232,
+        "i(v3)": -0.001692375397651044,
+        "i(vn)": 0.01324237548661543
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.648150737374255,
+      "sma_actual_error_v": -3.22870750475946e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p3_smap2",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.3,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p3_smap2",
+        "returncode": 0,
+        "seconds": 0.328,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p3_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "d8566630c7d88332b3dc31ca82c1eff6147d29f47a4dfff8381a8fe77460a4b7",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.99999999626627,
+        "v(filt_j2)": 1.999999748222649,
+        "v(buf_j2)": 1.99999867211637,
+        "v(drv_j2)": 0.2481509563808629,
+        "v(adc_j2)": 0.2481509563808629,
+        "v(off)": 0.9694714486169851,
+        "v(ref25)": 2.501242551183226,
+        "v(v5afe)": 5.177366308880289,
+        "i(v5)": -0.0154539768339812,
+        "i(v3)": -0.001450000015425755,
+        "i(vn)": 0.01300000003007463
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481509563808629,
+      "sma_actual_error_v": -3.7337299918505096e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p465_sman2",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.465,
+      "requested_sma_v": -2.0,
+      "source_dc_v": -2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p465_sman2",
+        "returncode": 0,
+        "seconds": 0.344,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_sman2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_sman2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_sman2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_sman2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p465_sman2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "5edb57fe486fbc3ff76c40b0f504bd3e84cfeb891c17f35768bb581cddf57a59",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -2.000000002723837,
+        "v(filt_j2)": -2.000000183677027,
+        "v(buf_j2)": -2.000002464338892,
+        "v(drv_j2)": 3.048151794290606,
+        "v(adc_j2)": 3.048151794290606,
+        "v(off)": 0.9694714496659881,
+        "v(ref25)": 2.501242551341329,
+        "v(v5afe)": 5.178577144323189,
+        "i(v5)": -0.01519635227166205,
+        "i(v3)": -0.002192375639888419,
+        "i(vn)": 0.01374237573107698
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.41684820570939385,
+      "sma_actual_error_v": -2.7238371558269137e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p465_smap0",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.465,
+      "requested_sma_v": 0.0,
+      "source_dc_v": 0.0,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p465_smap0",
+        "returncode": 0,
+        "seconds": 0.297,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap0.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap0.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap0.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap0.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p465_smap0.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "a0e36f4b7f4bf5b74fec79a12cc9e739277dbab29077a729042bcc0c449c8701",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": -3.228707859902897e-09,
+        "v(filt_j2)": -2.17722102858404e-07,
+        "v(buf_j2)": -1.896513461345373e-06,
+        "v(drv_j2)": 1.648152019723989,
+        "v(adc_j2)": 1.648152019723989,
+        "v(off)": 0.9694714513266572,
+        "v(ref25)": 2.50124255134136,
+        "v(v5afe)": 5.178577144379588,
+        "i(v5)": -0.01519635225966232,
+        "i(v3)": -0.001692375586651301,
+        "i(vn)": 0.01324237567554236
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 1.648152019723989,
+      "sma_actual_error_v": -3.228707859902897e-09,
+      "validated_true_dc": true
+    },
+    {
+      "case": "dcpoint_corner_v5p5p25_v3p3p465_smap2",
+      "group": "corner",
+      "v5_source_v": 5.25,
+      "v3_v": 3.465,
+      "requested_sma_v": 2.0,
+      "source_dc_v": 2.001,
+      "run": {
+        "case": "dcpoint_corner_v5p5p25_v3p3p465_smap2",
+        "returncode": 0,
+        "seconds": 0.329,
+        "stdout": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n\nBatch mode\n\nSimulation output goes to rawfile: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap2.raw\nComments and warnings go to log-file: C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap2.log\n\n",
+        "stderr": "",
+        "command": [
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\.tools\\ngspice-47\\Spice64\\bin\\ngspice_con.exe",
+          "-b",
+          "-r",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap2.raw",
+          "-o",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap2.log",
+          "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p465_smap2.cir"
+        ],
+        "warnings": [],
+        "raw_exists": true,
+        "deck_sha256": "d87e6639935d4301cbc28e0081aff70a1609d2bce79e8f2334ecfc7469d25f64",
+        "optran_used": false,
+        "plots": [
+          {
+            "vectors": [
+              "v(raw_j2)",
+              "v(filt_j2)",
+              "v(buf_j2)",
+              "v(drv_j2)",
+              "v(adc_j2)",
+              "v(off)",
+              "v(ref25)",
+              "v(v5afe)",
+              "i(v5)",
+              "i(v3)",
+              "i(vn)"
+            ],
+            "points": 1,
+            "all_finite": true
+          }
+        ],
+        "numeric_valid": true,
+        "analysis_complete": true,
+        "run_ok": true
+      },
+      "transient_op_fallback_used": false,
+      "voltages_currents": {
+        "v(raw_j2)": 1.999999996266271,
+        "v(filt_j2)": 1.999999748222663,
+        "v(buf_j2)": 1.999998672559602,
+        "v(drv_j2)": 0.2481522388000968,
+        "v(adc_j2)": 0.2481522388000968,
+        "v(off)": 0.9694714492848406,
+        "v(ref25)": 2.501242551183211,
+        "v(v5afe)": 5.177366309767468,
+        "i(v5)": -0.01545397664521975,
+        "i(v3)": -0.001450000016415751,
+        "i(vn)": 0.01300000003007463
+      },
+      "adc_within_rails": true,
+      "adc_rail_headroom_v": 0.2481522388000968,
+      "sma_actual_error_v": -3.73372910367209e-09,
+      "validated_true_dc": true
+    }
+  ]
+}

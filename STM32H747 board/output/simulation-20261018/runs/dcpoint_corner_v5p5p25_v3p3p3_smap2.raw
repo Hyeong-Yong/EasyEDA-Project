@@ -1,0 +1,31 @@
+Title: stm32h747 representative adc review: dcpoint_corner_v5p5p25_v3p3p3_smap2
+Date: Sun Oct 18 20:16:15  2026
+Command: ngspice-47, Build Aug 11 2026   13:55:25
+Plotname: Operating Point
+Flags: real
+No. Variables: 11
+No. Points: 1       
+Variables:
+	0	v(raw_j2)	voltage
+	1	v(filt_j2)	voltage
+	2	v(buf_j2)	voltage
+	3	v(drv_j2)	voltage
+	4	v(adc_j2)	voltage
+	5	v(off)	voltage
+	6	v(ref25)	voltage
+	7	v(v5afe)	voltage
+	8	i(v5)	current
+	9	i(v3)	current
+	10	i(vn)	current
+Values:
+0		1.999999996266270e+00
+	1.999999748222649e+00
+	1.999998672116370e+00
+	2.481509563808629e-01
+	2.481509563808629e-01
+	9.694714486169851e-01
+	2.501242551183226e+00
+	5.177366308880289e+00
+	-1.545397683398120e-02
+	-1.450000015425755e-03
+	1.300000003007463e-02

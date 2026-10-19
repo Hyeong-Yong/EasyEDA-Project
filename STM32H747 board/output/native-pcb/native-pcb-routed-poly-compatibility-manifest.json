@@ -1,0 +1,121 @@
+{
+  "schema": "stm32h747-pcb-arc-compatibility-plan-v1",
+  "status": "PASS",
+  "purpose": "Optional installed-3.2 compatibility candidate: replace every routed top-level ARC with a same-ID NORMAL POLY open ARC without deleting or changing other rows.",
+  "notAppliedToEasyEda": true,
+  "fallbackOnly": true,
+  "semanticCaveat": "Installed 3.2 parses NORMAL POLY as a Polygon model whose type is Line. Net, layer, and stroke geometry fields are retained, but the runtime model class is Polygon rather than ArcTrack. Track-only connectivity, ratline completion, length/equal-length rules, shove routing, and IPC-2581 net export can exclude it.",
+  "requiredBeforeUse": [
+    "Try the canonical routed ARC source first.",
+    "Use this fallback only if the canonical source fails specifically on routed ARC records.",
+    "After import, require zero rejected records, 2184 loaded Polygon replacements, exact endpoint checks, live connectivity/net-length validation, full native DRC, and manufacturing-export verification.",
+    "Do not treat static geometric equivalence or retained netName fields as electrical/manufacturing approval."
+  ],
+  "input": {
+    "path": "output/native-pcb/native-pcb-routed.epru",
+    "sha256": "d7e9354a4e9e4cee37b9e7f63f13a1ade07fa4689abc6e94c01e633dffefbc08",
+    "bytes": 7288900,
+    "mergeManifest": "output/native-pcb/native-pcb-routing-merge-manifest.json",
+    "mergeManifestSha256": "b0c0d0848c47c560655037ce08981c15f4fc6e9231992007ef64dcef4ce47189"
+  },
+  "output": {
+    "path": "output/native-pcb/native-pcb-routed-poly-compatible.epru",
+    "sha256": "ac05236443bdd5362f06070325dbe64a0a76092f448054d4421933d39f81833c",
+    "bytes": 7245221
+  },
+  "identity": {
+    "docType": "PCB",
+    "uuid": "3ca9811d1a42d086",
+    "client": "b038449082eb04e3"
+  },
+  "invariants": {
+    "sameRecordCount": true,
+    "sameIdSet": true,
+    "sameArcIdToPolyId": true,
+    "nonArcLinesByteIdentical": true,
+    "recordsDeleted": 0,
+    "unitConversion": false,
+    "sourceCoordinatesPreserved": true,
+    "sourceAnglesPreserved": true,
+    "sourceWidthsPreserved": true,
+    "sourceLayersPreserved": true,
+    "sourceNetsPreserved": true
+  },
+  "counts": {
+    "inputRecords": 12670,
+    "outputRecords": 12670,
+    "inputTypes": {
+      "ACTIVE_LAYER": 1,
+      "ARC": 2184,
+      "ATTR": 990,
+      "CANVAS": 1,
+      "COMPONENT": 330,
+      "DOCHEAD": 1,
+      "FILL": 627,
+      "LAYER": 64,
+      "LAYER_PHYS": 13,
+      "LINE": 6027,
+      "NET": 280,
+      "PAD": 4,
+      "PAD_NET": 1176,
+      "PANELIZE": 1,
+      "PREFERENCE": 1,
+      "PRIMITIVE": 37,
+      "RULE": 16,
+      "RULE_SELECTOR": 280,
+      "RULE_TEMPLATE": 1,
+      "SILK_OPTS": 2,
+      "VIA": 634
+    },
+    "outputTypes": {
+      "ACTIVE_LAYER": 1,
+      "ATTR": 990,
+      "CANVAS": 1,
+      "COMPONENT": 330,
+      "DOCHEAD": 1,
+      "FILL": 627,
+      "LAYER": 64,
+      "LAYER_PHYS": 13,
+      "LINE": 6027,
+      "NET": 280,
+      "PAD": 4,
+      "PAD_NET": 1176,
+      "PANELIZE": 1,
+      "POLY": 2184,
+      "PREFERENCE": 1,
+      "PRIMITIVE": 37,
+      "RULE": 16,
+      "RULE_SELECTOR": 280,
+      "RULE_TEMPLATE": 1,
+      "SILK_OPTS": 2,
+      "VIA": 634
+    },
+    "convertedArcs": 2184,
+    "outputArcs": 0,
+    "outputPolys": 2184,
+    "layers": {
+      "1": 1068,
+      "2": 604,
+      "16": 52,
+      "17": 460
+    },
+    "uniqueNets": 70
+  },
+  "geometry": {
+    "polyType": "NORMAL",
+    "path": [
+      "startX",
+      "startY",
+      "ARC",
+      "angle",
+      "endX",
+      "endY"
+    ],
+    "angleMin": -90.033781,
+    "angleMax": 90.033104,
+    "widthMin": 5.905512,
+    "widthMax": 7.874016,
+    "convertedIdDigest": "c73436feac33e901ee4b919c65677db9ec95dfe1e66cf7320bc20119daec27fe"
+  },
+  "nonArcLineDigest": "e8e4645ea4f6bb27ef95450c21a7d04afef08ac961f6422bd7ab71fcc1f28a50"
+}

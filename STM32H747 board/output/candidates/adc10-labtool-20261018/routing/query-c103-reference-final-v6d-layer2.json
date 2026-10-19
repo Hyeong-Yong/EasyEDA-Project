@@ -1,0 +1,57 @@
+{
+  "schema": "adc10-labtool-bottom-bus-draft-20261018-v1",
+  "sourceSha256": "568ca754e9ff92d9df6cf5f96e3384811f9ad6038404410ce7ca4c843d80296b",
+  "portsPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\candidates\\adc10-labtool-20261018\\routing\\six-layer-via-port-candidates-commonpower-v4.json",
+  "portsSha256": "7442307c0c676c975f2855e516b1e5422b991071f5c838c21a8cb802190b58d4",
+  "readOnly": true,
+  "nativeCalls": 0,
+  "newLineCreates": [
+    {
+      "key": "LABTOOL_C103-REFERENCE-FINAL-V6D_0001",
+      "net": "+5V_AFE",
+      "layerId": 2,
+      "widthMm": 0.2032,
+      "startXYmm": [
+        21.4,
+        72.775
+      ],
+      "endXYmm": [
+        25.6,
+        72.9
+      ],
+      "role": "C103localbypassshortBottompowerbridge"
+    }
+  ],
+  "connections": [
+    {
+      "net": "+5V_AFE",
+      "role": "C103localbypassshortBottompowerbridge",
+      "lineKeys": [
+        "LABTOOL_C103-REFERENCE-FINAL-V6D_0001"
+      ],
+      "lengthMm": 4.201859707320084
+    }
+  ],
+  "failedConnections": [],
+  "literalCopperConflicts": [],
+  "existingRawSource": {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "+5V",
+    "xyMm": [
+      89.34000166,
+      19.85999838
+    ]
+  },
+  "existingInvalidBottomFillsNotSilentlyRepaired": [],
+  "requiresLocalGroundFillVoids": true,
+  "clearanceMm": 0.1535,
+  "existingViaChanges": 0,
+  "existingDrillChanges": 0,
+  "manufacturingReady": false,
+  "limitations": [
+    "NoGND FILLpathwrites;authoritativepreserving-splithelpermustsubtracteachtracewith.17mmclearance.",
+    "AllnewVIAantipadsandTOPstubconnectivityareseparaterequiredphases.",
+    "FullnativeDRC/sourceauditmustfollow,includingpreservingall799existingdrills/6layers/18rules."
+  ]
+}

@@ -1,0 +1,10 @@
+OPA189 isolated follower
+.include "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/simulation-20261018/models/OPA189/OPAx189.LIB"
+VP vp 0 5
+VN vn 0 -3.01244
+VI vi 0 0
+X1 vi vo vp vn vo OPAx189
+RL vo 0 1meg
+.save v(vo) i(vp) i(vn)
+.op
+.end

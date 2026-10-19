@@ -1,0 +1,37 @@
+{
+  "schema": "stm32h747-adc10-copper-cut-continuation-receipt-20261018-v1",
+  "stage": "r164",
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/adc10-copper-cut-execution-manifest-fresh-20261018.json",
+  "manifestSha256": "389a1ddba84f1344f9cf76dd89ba1d1e203ad9bae2ac4f0eeff9f82be91eafe1",
+  "actualBeforePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-copper_continue_rename_2-20261018.epru",
+  "actualBeforeSha256": "dbd9170b37167fb26f12c5371d613990a55de4291ad61dc7c5495f63f73e5a04",
+  "sourcePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-copper_continue_r164-20261018.epru",
+  "sourceSha256": "8da561d713741da9d84514c117c1498f9e37311238ca6ea19350c62546549bc9",
+  "passed": false,
+  "error": "Continuation exact protected-body audit failed [{\"key\":\"COMPONENT:32d1b9056f08dfce\",\"issue\":\"body-different\"},{\"key\":\"ATTR:32d1b9056f08dfceee7\",\"issue\":\"body-different\"}]",
+  "touched": [
+    {
+      "id": "32d1b9056f08dfce",
+      "ref": "R164",
+      "action": "Y-minus0.05mm"
+    }
+  ],
+  "normalizations": [],
+  "afterIssues": [
+    {
+      "key": "COMPONENT:32d1b9056f08dfce",
+      "issue": "body-different"
+    },
+    {
+      "key": "ATTR:32d1b9056f08dfceee7",
+      "issue": "body-different"
+    }
+  ],
+  "records": 12920,
+  "physicalParts": 354,
+  "saved": false,
+  "newRoutesApplied": false,
+  "manufacturingReady": false,
+  "recoveryCheckpoint": "STM32H747_before_pcb_route_20261018.epro2",
+  "warning": "Do not rerun any completed continuation or prior rename_1. Native merges change IDs. Stop and inspect captured source after failure or timeout."
+}

@@ -1,0 +1,1540 @@
+{
+  "schema": "stm32h747-sma-owned-post-inner-layer-candidates-v1",
+  "status": "static-candidates-not-applied",
+  "inputs": {
+    "checkpoint": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\checkpoints\\STM32H747_after_missing_pad_children_created_20261014.epro2",
+      "sha256": "7fa0250c44277336b9caa888ba9e08775e4e2275474b45962c5ad9e92e6dddcf"
+    },
+    "frozen_sma_audit": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-missing-sma-ground-pth-audit.json",
+      "sha256": "7025ab3611c319c513a770dd557df1861d3e15724a11f37678c38ceeddfdfaf2"
+    }
+  },
+  "scope": {
+    "references": [
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "J7",
+      "J8",
+      "J9",
+      "J10",
+      "J11",
+      "J12",
+      "J13",
+      "J14",
+      "J15",
+      "J16",
+      "J17"
+    ],
+    "footprints": 16,
+    "existing_pad_bodies_changed": 0,
+    "new_pad_bodies_changed": 48,
+    "only_field_changed": "PAD.body.unusedInnerLayers",
+    "before": [],
+    "after": [
+      16
+    ]
+  },
+  "candidates": [
+    {
+      "reference": "J2",
+      "footprint_uuid": "1a275103229cd0ed",
+      "component_id": "b921a22d4b7579ed",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "32d1ff5307a2f11cdf0dcff44a259ed1cd9c7601a3201ff0bf56543f0c45296a",
+      "receipt": "output\\validation\\native-J2-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "d5f4d24f355ea119428c25d25b236a448479036858f156f083b3a559c71d6bf5",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J2_1a275103229cd0ed.epru",
+      "candidate_sha256": "63a000bbf27e83e0c63ec4c113ab4db85b2d8a1495b893558d4e5301c7222341",
+      "modifications": [
+        {
+          "record_id": "023c697978906a59",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "8e4385afc62a0e24",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "9139b2d37efe0f17",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J3",
+      "footprint_uuid": "afd1e7eaea1c6d0b",
+      "component_id": "afef66d437b67df9",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "54759f5d95946adf276611ff59dff1e59e18a35b6c44132c779bf455fc454ccd",
+      "receipt": "output\\validation\\native-J3-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "8a02e790681b88d0b59cfab59f9d5191c576f732c381d81bc4e4b1e4bd612064",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J3_afd1e7eaea1c6d0b.epru",
+      "candidate_sha256": "973c44983232914ab3646eb81b91f60a3f434067af53b58ce8face127a0f116e",
+      "modifications": [
+        {
+          "record_id": "9845233023933841",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "aa50842806f50950",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "f4cfdb456c5f5505",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J4",
+      "footprint_uuid": "3efe64435dd88760",
+      "component_id": "0b5fac9098dce533",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "640146b198f43d0e4bde2ec253e5a5a893cacaedeb7b8d8e5347603adb72da95",
+      "receipt": "output\\validation\\native-J4-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "9fa906f8806ff4a42e9fd5aaf2ecf56a7fca8b00c64000654297c9c374e3bc28",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J4_3efe64435dd88760.epru",
+      "candidate_sha256": "5b99ca73ae4e1d07bb29b0a6f4c7ec00b72a82f841ffbfd8b833665ba7164fc8",
+      "modifications": [
+        {
+          "record_id": "4ae93746325ae32a",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "c870e6feb96d11ef",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "eafe83a0786e616b",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J5",
+      "footprint_uuid": "420752e0b7dd516b",
+      "component_id": "a720c263d59d27d0",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "7409c7d23e5358dc5cc15a7ce4cc82fa0ef3e9b829c0224e1f9585f743c7984b",
+      "receipt": "output\\validation\\native-J5-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "7e45f4673bebfd5d8bfdc3a029f2b54e871cc53670a8890ebcd3d17570a36f95",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J5_420752e0b7dd516b.epru",
+      "candidate_sha256": "260a40cb2432433e9220f706b42445da9c3a0e34310f617bb77e6a3c716e138b",
+      "modifications": [
+        {
+          "record_id": "1e1b5cc2b3e2e060",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "f9c31d8f89232908",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "fab4256284c7a9fc",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J6",
+      "footprint_uuid": "6cc742d2e9f6287b",
+      "component_id": "c8db40735c04cd92",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "3e371d517e95eb203d97ca56d9813d13b8a8ef50cd32843c25401b3a365274a9",
+      "receipt": "output\\validation\\native-J6-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "0dbda61b8ba901ef3837b5e55b0a2b32f0dcb12f3db7450e4f2e87fa0d5d82aa",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J6_6cc742d2e9f6287b.epru",
+      "candidate_sha256": "feb36f75514e44673bf3552d5ed27e3437bd39846cb525b4177eae612f3122de",
+      "modifications": [
+        {
+          "record_id": "61efe23dda6fd4aa",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "8b4f0cce87f210cf",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "c26aba7ea3864f3a",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J7",
+      "footprint_uuid": "456e5ebcec73f244",
+      "component_id": "1772c366e461a031",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "c340ef4a23326250472a55c93a4b8fdc3e3bb929d6d169608aff170ee33d9358",
+      "receipt": "output\\validation\\native-J7-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "91921c80232aeead17c9755f1c6b2c7ece27e35c37f06c1af41fdfe759ae5e54",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J7_456e5ebcec73f244.epru",
+      "candidate_sha256": "ff77865d7c38032460caa17d09ccbd3c35f637a8b30bfe8fa2ae5beb59d243bf",
+      "modifications": [
+        {
+          "record_id": "061682303acaef4a",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "5d051dc32f108c5e",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "8d1aa607cd61faa6",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J8",
+      "footprint_uuid": "af0f2c62672d4563",
+      "component_id": "8b88019d0dcca1ab",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "13d47dbc5e08a3337eaad857ac96b5f7a8f7ce9fa584983424254d9f077b0a09",
+      "receipt": "output\\validation\\native-J8-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "0640fbb7a4b38b3ffa43fc5974dcc0aa74bff33b7d22189171d791a3e42c2a9b",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J8_af0f2c62672d4563.epru",
+      "candidate_sha256": "cdc698342380f9a74bd6839c77847a99f7b057c7c45aea20ca4072c0cc8c2538",
+      "modifications": [
+        {
+          "record_id": "2ffcb1fb0226eba0",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "d2ae288111d80ff9",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "f10b9b16136c6c11",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J9",
+      "footprint_uuid": "99bc905658c65075",
+      "component_id": "f26bff9701d0729d",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "15b6923138b9bb57b9661019c9dc8e167645de37764ae8c269f5b88c25760d6e",
+      "receipt": "output\\validation\\native-J9-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "dc586de8f11fc44df013948772dc2bbfd0f5e2f45b59554392bc95ae411a814e",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J9_99bc905658c65075.epru",
+      "candidate_sha256": "979d10ff113ee0ddfe132505a33fc135d90941e64ce6b2e437951688c06244e5",
+      "modifications": [
+        {
+          "record_id": "64033bfa97a4280e",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "d45cc93c6d98ed8e",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "fe58a57106863425",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J10",
+      "footprint_uuid": "819dad664d54a2aa",
+      "component_id": "f09a8f99f71c453e",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "ab4aaf0fdec63e0dc2dbedc3ccadc1f1f0aa085e62b9b63623d2546d1ee5905d",
+      "receipt": "output\\validation\\native-J10-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "815f4f92913e4012fa720dbd400fb8e9ad5e78fb9014e393938bd610dfeceecb",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J10_819dad664d54a2aa.epru",
+      "candidate_sha256": "f314e36027060d216227b303bebff4fa979e3be547de40cabf386ec411f80b1d",
+      "modifications": [
+        {
+          "record_id": "86a973e929dc106c",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "c6f388a890d7f1ee",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "d16ab591f60fbefc",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J11",
+      "footprint_uuid": "247603e988790c9b",
+      "component_id": "fd77caf2157b0c36",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "1bad32140d7b1df47949ca7c192c730c6247beca062edc511492503fcfe15a74",
+      "receipt": "output\\validation\\native-J11-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "70c5d6c14129ffa9fd9f88a2f117c540330a215021747fa9f97e7ffa8f345ea9",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J11_247603e988790c9b.epru",
+      "candidate_sha256": "ffecf3cffa51f63d81f06836fbd7ecdd71b3822386a06ee03f3e60d419630e64",
+      "modifications": [
+        {
+          "record_id": "445e5d932c0f77c8",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "6625b3c06a486f50",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "cd25ce744d9871ff",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J12",
+      "footprint_uuid": "4767d4db118c9e30",
+      "component_id": "fc09065fd9dbbdfb",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "7051a2e34fa94fbb67f8f05d82d7aa9c38b6dccdc22409d92186cba63b5f6eb2",
+      "receipt": "output\\validation\\native-J12-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "ecec5be60541ebf0c4f7c8b3a3a2d316c40adb969ef8f9d20f27a1b012afd76e",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J12_4767d4db118c9e30.epru",
+      "candidate_sha256": "9e839b9dc51983444e20a319cbd4fb87f29f0a6f9685f3078e9b6e285eaf0fc8",
+      "modifications": [
+        {
+          "record_id": "1c0df779c00d91c0",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "2e7649342111a791",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "93bbee5a44fe49c0",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J13",
+      "footprint_uuid": "728a108305576e94",
+      "component_id": "8a697cb3ec6de186",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "4fcaa5aa44328d2ea37eb9d8eaa19f5ceea6d0859d7ed161c3d4aa4979119047",
+      "receipt": "output\\validation\\native-J13-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "68e2fb564006f4fc7e63803c5b6efcae6335db22f5bd07623619b16883ece790",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J13_728a108305576e94.epru",
+      "candidate_sha256": "fcf5a9c1d67eeeaf79f2312e7d825bb586c654acb50c8ce97feef98c2f97cd7f",
+      "modifications": [
+        {
+          "record_id": "02525b0e4b2383ed",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "71de367988a87fcc",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "7528078141fdd572",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J14",
+      "footprint_uuid": "133a56f0204e267d",
+      "component_id": "7843bf8271627f69",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "a46e2f9a98804417aa0cd333850775488d235d3fcb174673fd9dfaabb54fb902",
+      "receipt": "output\\validation\\native-J14-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "c7e39827d597d57d8a1afc21ad79a9c94121732dc1c9f122abc24df7e2ccc88e",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J14_133a56f0204e267d.epru",
+      "candidate_sha256": "e9a2d9f310d059bd3b86af76e4b6a41045fb98665a5339b4829d9b3f51b817e2",
+      "modifications": [
+        {
+          "record_id": "47d9537b38fdafd9",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "b496f5abfa711571",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "c4acf41bef9d24f2",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J15",
+      "footprint_uuid": "93edcf417121fbf5",
+      "component_id": "c9e806fb8153837f",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "874b1d929640866396ad10a2c41fe3c0bc8b772593ad9712cd8c669d2937f9db",
+      "receipt": "output\\validation\\native-J15-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "a0f03ddf7a7bce694d5a83eae490d5c66af6fcb88fb60ef35798973674c818b2",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J15_93edcf417121fbf5.epru",
+      "candidate_sha256": "346d0a68de733f4224be8b7e4fb0715442777d78673b6b7b60a610aa97e0d94a",
+      "modifications": [
+        {
+          "record_id": "9f3b372adfb0e990",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "a28d6253410d629f",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "feffd952ffa78c23",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J16",
+      "footprint_uuid": "ca34008aa681bcb9",
+      "component_id": "f884fcf9bad6e3a5",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "d5c7dbb4cf0f00bb07d94dd88702fec1983752f43e8c1ae0360160866a5d7cbe",
+      "receipt": "output\\validation\\native-J16-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "5a45078aced7f3542ec0d0cf95ad843536e1ad2bdb9a0f69e368f1d5af020394",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J16_ca34008aa681bcb9.epru",
+      "candidate_sha256": "d521a42c296a5de7ace3d94e3ebad5584f427b43f0f2d76a8a7d24b32a12a9da",
+      "modifications": [
+        {
+          "record_id": "64b44594cb1513ac",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "773e810c636c4ed0",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "cc31cbc6a49af827",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    },
+    {
+      "reference": "J17",
+      "footprint_uuid": "d6f78b7294940c71",
+      "component_id": "60ef92fca4c18be8",
+      "record_count": 34,
+      "record_type_counts": {
+        "ACTIVE_LAYER": 1,
+        "ATTR": 1,
+        "CANVAS": 1,
+        "DOCHEAD": 1,
+        "LAYER": 19,
+        "LINE": 4,
+        "META": 1,
+        "NET": 1,
+        "PAD": 5
+      },
+      "original_block_sha256": "8ee35eb8c121cc714f8167adebd42073073cf20c30bdf200c744556978511d3a",
+      "receipt": "output\\validation\\native-J17-missing-owned-pad-create-receipt.json",
+      "receipt_sha256": "f183cf2e7e41727e38562f8e30b8f8b0271ab5d966380b70a113b4f8674dde95",
+      "candidate": "output\\native-libraries\\sma-owned-post-inner-layer-candidates\\J17_d6f78b7294940c71.epru",
+      "candidate_sha256": "cda4f4a45d6b63a83536e56e91bfb17e6684a3fd265572f7b1cdf64cfa40dff1",
+      "modifications": [
+        {
+          "record_id": "987ce42846b66722",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "b14b37aad363f4c4",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        },
+        {
+          "record_id": "b7b2e472f3239bb1",
+          "pad_number": "2",
+          "local_center_mil_y_up": [
+            -100,
+            -100
+          ],
+          "before_unused_inner_layers": [],
+          "after_unused_inner_layers": [
+            16
+          ],
+          "hole": {
+            "holeType": "ROUND",
+            "width": 59.0551,
+            "height": 59.0551
+          },
+          "default_pad": {
+            "padType": "ELLIPSE",
+            "width": 98.4252,
+            "height": 98.4252
+          },
+          "plated": true
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "all_receipts_successful": true,
+    "all_new_child_ids_are_native_16hex": true,
+    "all_centers_match_frozen_gerber_evidence": true,
+    "all_copper_and_drill_geometry_preserved": true,
+    "all_record_identity_and_type_sets_preserved": true,
+    "only_48_new_pad_unused_inner_layers_changed": true
+  }
+}

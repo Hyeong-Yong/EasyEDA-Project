@@ -1,0 +1,17 @@
+{
+  "schema": "labtool-independent-proposed-physical-power-signal-graph-v1",
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "manufacturingApproved": false,
+  "passed": false,
+  "errors": [
+    {
+      "code": "FAIL_CLOSED_EXCEPTION",
+      "message": "('UNSUPPORTED_TARGET_PAD_HOLE', {'holeType': 'SLOT', 'width': 78.7402, 'height': 31.4961})",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-proposed-power-graph-20261018.py\", line 354, in main\n    audit.run(scoped(args.routes), scoped(args.checkpoint, ROOT / 'output/checkpoints'), scoped(args.fills) if args.fills else None)\n  File \"C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-proposed-power-graph-20261018.py\", line 170, in run\n    shape = pad_shape(pad)\n            ^^^^^^^^^^^^^^\n  File \"C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-proposed-power-graph-20261018.py\", line 107, in pad_shape\n    raise ValueError(('UNSUPPORTED_TARGET_PAD_HOLE', hole))\nValueError: ('UNSUPPORTED_TARGET_PAD_HOLE', {'holeType': 'SLOT', 'width': 78.7402, 'height': 31.4961})\n"
+    }
+  ],
+  "auditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-proposed-power-graph-20261018.py",
+  "auditorSha256": "d344d718fb228260d60b72555d9c271a818987acb6dabc29de6f8f104ce0aa22",
+  "auditedUtc": "2026-10-18T07:17:30.402283+00:00"
+}

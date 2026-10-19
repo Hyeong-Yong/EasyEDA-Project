@@ -1,0 +1,19 @@
+{
+  "routingPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-labtool-20261018/routing/frozen-combined-routing-v5.json",
+  "routingSha256": "d7fd2b7683da5e25e8591c88bba0a7711ecb700681f30cf4b8938f88380d6c07",
+  "sourcePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+  "sourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "placementSha256": "2cbb87c1ace266d67fdbc90a15807a8d8316773e719cd31108b2cd33fa6ddd43",
+  "counts": {"lines":526,"newVias":64,"totalVias":704,"totalPhysicalDrills":863},
+  "copperClearanceConflicts":0,
+  "drillClearanceConflicts":0,
+  "viaInPadConflicts":0,
+  "unconnectedNonGround3V3TargetNets":0,
+  "targetNetsChecked":74,
+  "viaCentreTerminationAudit": {"path":"via-center-termination-v5-audit.json","sha256":"57f8c71d58877cf9d7f5c8d4588ff026959aeac348a1eb6370e0217aed532571","centered":61,"explicitPlaneOnly":3,"failed":0},
+  "referenceBypassDistanceAudit":{"path":"reference-bypass-weighted-distance-v5.json","sha256":"371e1d5074b966a59b60ca91b3d65dc003f729db47d3189d67e3f8cef0297970","C103VinLeadMm":6.30357663,"C103GroundStubMm":0.9,"C160VinLeadMm":4.65755518},
+  "doNotApplyHistory":["frozen-combined-routing-v1.json","frozen-combined-routing-v2.json","frozen-combined-routing-v3.json","frozen-combined-routing-v4.json","all6-local-fill-voids-local332-channelpads-v2.json"],
+  "noNativeCopperWritesByThisAgent":true,
+  "remainingMandatoryGates":["Authoritative preserving-split all6 FILL mask and actual345GND/138+3V3 anchors","Native source-union/UID/799oldDrill/640oldVia/18rule/6layer preservation audit","Native full strict DRC and saved project netlist/checkpoint verification"],
+  "manufacturingReady":false
+}

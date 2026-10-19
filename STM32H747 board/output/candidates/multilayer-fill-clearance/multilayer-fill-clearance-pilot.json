@@ -1,0 +1,123 @@
+{
+  "schema": "stm32h747-multilayer-fill-clearance-plan-v1",
+  "pcbUuid": "0ac2a19168000d8e",
+  "manufacturingApproved": false,
+  "scope": "one existing FILL path only; rules/components/nets/routes/pads/vias/holes immutable",
+  "inputs": {
+    "source": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-final-pcb-final_reconstruction-reopened.epru",
+      "sha256": "941ae88e8eba3ed22b25b1fcd9317a619b6082e7b44898d7f369f4f35f79b797"
+    },
+    "drc": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-pcb-final-reconstruction-20261015-drc.json",
+      "sha256": "4df42cb01840de72cb0c5e23d564026c6f0da062b84d621c254e256de3bd4055"
+    }
+  },
+  "rules": {
+    "action": "preserve selected JLCPCB Capability (Multiple Layers Board) rules unchanged",
+    "safety_margin_mm": 0.005,
+    "fill_half_line_width_included": true
+  },
+  "changes": [
+    {
+      "id": "378b6a6933052c9a",
+      "type": "FILL",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 17,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            1659.257,
+            3620.2683,
+            "L",
+            1660.0696,
+            3619.6134,
+            1660.4332,
+            3619.2499,
+            1660.4332,
+            3605.943,
+            1522.6182,
+            3605.943,
+            1519.9788,
+            3606.718,
+            1518.1774,
+            3608.7969,
+            1517.7363,
+            3610.8248,
+            1517.7363,
+            3612.2346,
+            1517.0226,
+            3614.8979,
+            1517.0881,
+            3617.6479,
+            1518.63,
+            3619.9259,
+            1521.1586,
+            3621.0088,
+            1521.7382,
+            3621.0433,
+            1656.6176,
+            3621.0433,
+            1659.257,
+            3620.2683
+          ]
+        ],
+        "locked": false,
+        "zIndex": 5861,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 17,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            1660.4332,
+            3605.943,
+            "L",
+            1522.6182,
+            3605.943,
+            1519.9788,
+            3606.718,
+            1518.1774,
+            3608.7969,
+            1517.7363,
+            3610.8248,
+            1517.7363,
+            3612.2346,
+            1517.0226,
+            3614.8979,
+            1517.0881,
+            3617.6479,
+            1518.63,
+            3619.9259,
+            1521.1586,
+            3621.0088,
+            1521.7382,
+            3621.0433,
+            1655.3525,
+            3621.0433,
+            1660.4332,
+            3615.9626,
+            1660.4332,
+            3605.943
+          ]
+        ],
+        "locked": false,
+        "zIndex": 5861,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": null
+      }
+    }
+  ]
+}

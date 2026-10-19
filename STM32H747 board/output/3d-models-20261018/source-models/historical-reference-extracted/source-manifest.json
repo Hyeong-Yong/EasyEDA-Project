@@ -1,0 +1,3677 @@
+{
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\보드 자료\\MCU_BOARD.step",
+  "source_sha256": "db0b1ddb40318053e4bee5212ebc6c44201b839d464ca432b66323c3b91891f9",
+  "source_bytes": 8162670,
+  "serializer": "cadquery-ocp7.9.3.1.1 / OpenCASCADE7.9.3 / STEPCAFControl reader+writer selected label",
+  "dependency_install_report": "output/3d-models-20261018/ocp-dependency-install-report.json",
+  "source_provenance": "User-supplied historical KiCad electronic assembly, exported2026-10-02. Per-model upstream licences were not embedded/verified; no public redistribution right assumed.",
+  "geometry_policy": "Preserve imported child BRep and nested transforms in original local millimetre frame. No scaling, rotations, dimension edits, simplification, booleans, or explicit healing. STEP file bytes/entities are reserialized, not byte-identical originals.",
+  "interpretation": "Historical model labels are evidence only. They do not certify current BOM equivalence. Current-board binding must use separately validated footprint/placement transforms.",
+  "validation_policy": "Round-trip analytic bbox maxdelta<=1e-5mm, same solid/face counts, relative volume/area<=1e-7, and BRep validity status. Complete OCCT face triangulation required. Any failed condition stays explicit.",
+  "excluded": "Historical PCB, TR1H1102NL, SW1TS1150S, and C41Kemet1.2mm are not exported by this script.",
+  "models": [
+    {
+      "product": "PJ-051BH",
+      "source_product_definition_entity": 12670,
+      "historical_ref_placements": [
+        {
+          "id": 18057,
+          "ref": "CN1",
+          "parent_pd": 5,
+          "child_pd": 12670,
+          "product": "PJ-051BH",
+          "transform": [
+            [
+              1.110223024625e-16,
+              -1.110223024625e-16,
+              1.0,
+              247.15
+            ],
+            [
+              1.0,
+              1.2325951644074834e-32,
+              -1.110223024625e-16,
+              -203.65
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 18055,
+          "source_frame_entity": 11,
+          "target_frame_entity": 87,
+          "solid_occurrences": 5,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              235.4,
+              -208.70000000000002,
+              -0.9450000000000005
+            ],
+            "max_mm": [
+              247.15,
+              -198.6,
+              8.855
+            ],
+            "span_mm": [
+              11.75,
+              10.100000000000023,
+              9.8
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PJ-051BH\\PJ-051BH.step",
+      "bytes": 668243,
+      "sha256": "2e0ec0e8278cc98aef1dff397c46b91a252aa7a54f1097e218352b0377330762",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 5,
+        "faces": 173,
+        "edge_occurrences": 930,
+        "analytic_bounds_mm": {
+          "min": [
+            -5.050000000000001,
+            -2.5000000000000004,
+            -11.7500001
+          ],
+          "max": [
+            5.050000000000001,
+            7.300000000000002,
+            0.0
+          ],
+          "span": [
+            10.100000000000001,
+            9.800000000000002,
+            11.7500001
+          ]
+        },
+        "closed_volume_mm3": 531.4733937046644,
+        "surface_area_mm2": 1360.8938941314755
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 5,
+        "faces": 173,
+        "edge_occurrences": 930,
+        "analytic_bounds_mm": {
+          "min": [
+            -5.050000000000001,
+            -2.5000000000000004,
+            -11.7500001
+          ],
+          "max": [
+            5.050000000000001,
+            7.300000000000002,
+            0.0
+          ],
+          "span": [
+            10.100000000000001,
+            9.800000000000002,
+            11.7500001
+          ]
+        },
+        "closed_volume_mm3": 531.4733937046443,
+        "surface_area_mm2": 1360.8938941314923
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 3.7861858213560906e-14,
+        "area_relative_delta": 1.2363676591801692e-14,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 2,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 5152,
+        "triangles": 6654,
+        "faces": 173,
+        "faces_meshed": 173,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 147,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 26,
+        "material_colors_rgb": [
+          [
+            0.05126945674419403,
+            0.05126945674419403,
+            0.05126945674419403
+          ],
+          [
+            0.65,
+            0.65,
+            0.65
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PJ-051BH\\triangulated.obj",
+          "bytes": 283644,
+          "sha256": "4a9ad5736784056b83c65eaf6133cb65524a5b997ef9191e52ba4777f4b532d0"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PJ-051BH\\triangulated.mtl",
+          "bytes": 153,
+          "sha256": "512ff66215d8d4400a3354d532df3624e377e3c9d03cc72ad9c582939bd3a82e"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PJ-051BH\\preview.png",
+          "bytes": 17280,
+          "sha256": "f1b2fc3746778d57a0ea7a6fad6165ba307a71583da8c2c68c3f211670d895d9"
+        }
+      ]
+    },
+    {
+      "product": "USB_C_USB4105-GF-A",
+      "source_product_definition_entity": 23811,
+      "historical_ref_placements": [
+        {
+          "id": 23830,
+          "ref": "CN4",
+          "parent_pd": 5,
+          "child_pd": 23811,
+          "product": "USB_C_USB4105-GF-A",
+          "transform": [
+            [
+              -1.0,
+              -1.3596310734463073e-32,
+              1.224646799147e-16,
+              207.04
+            ],
+            [
+              1.224646799147e-16,
+              -1.110223024625e-16,
+              1.0,
+              -68.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 23828,
+          "source_frame_entity": 11,
+          "target_frame_entity": 179,
+          "solid_occurrences": 44,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              202.25,
+              -73.10999999999099,
+              0.7049999999880009
+            ],
+            "max_mm": [
+              211.82999999999998,
+              -65.39999999999199,
+              4.865000000000002
+            ],
+            "span_mm": [
+              9.579999999999984,
+              7.709999999998999,
+              4.160000000012001
+            ]
+          }
+        },
+        {
+          "id": 72135,
+          "ref": "CN3",
+          "parent_pd": 5,
+          "child_pd": 23811,
+          "product": "USB_C_USB4105-GF-A",
+          "transform": [
+            [
+              1.110223024625e-16,
+              -1.110223024625e-16,
+              1.0,
+              244.5
+            ],
+            [
+              1.0,
+              1.2325951644074834e-32,
+              -1.110223024625e-16,
+              -154.195
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 72133,
+          "source_frame_entity": 11,
+          "target_frame_entity": 371,
+          "solid_occurrences": 44,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              239.390000000009,
+              -158.98499999999999,
+              0.7049999999880009
+            ],
+            "max_mm": [
+              247.10000000000798,
+              -149.405,
+              4.865000000000002
+            ],
+            "span_mm": [
+              7.709999999998985,
+              9.579999999999984,
+              4.160000000012001
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\USB_C_USB4105-GF-A\\USB_C_USB4105-GF-A.step",
+      "bytes": 3883878,
+      "sha256": "c2656603e009e34e921073ed44d0b729979f43df1926948e747f312d0204fbef",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 44,
+        "faces": 1023,
+        "edge_occurrences": 5340,
+        "analytic_bounds_mm": {
+          "min": [
+            -4.790000099999999,
+            -0.8500000000119986,
+            -5.109999999991
+          ],
+          "max": [
+            4.790000100000003,
+            3.3100000000000014,
+            2.6000000000080004
+          ],
+          "span": [
+            9.580000200000002,
+            4.160000000012,
+            7.709999999999001
+          ]
+        },
+        "closed_volume_mm3": 116.55702410408485,
+        "surface_area_mm2": 563.8848965662514
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 44,
+        "faces": 1023,
+        "edge_occurrences": 5340,
+        "analytic_bounds_mm": {
+          "min": [
+            -4.790000099999999,
+            -0.8500000000119986,
+            -5.109999999991
+          ],
+          "max": [
+            4.790000100000003,
+            3.3100000000000014,
+            2.6000000000080004
+          ],
+          "span": [
+            9.580000200000002,
+            4.160000000012,
+            7.709999999999001
+          ]
+        },
+        "closed_volume_mm3": 116.55702410408685,
+        "surface_area_mm2": 563.8848965662571
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 1.7190988962228146e-14,
+        "area_relative_delta": 1.0080677671445563e-14,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 16878,
+        "triangles": 15098,
+        "faces": 1023,
+        "faces_meshed": 1023,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 0,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 1023,
+        "material_colors_rgb": [
+          [
+            0.65,
+            0.65,
+            0.65
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\USB_C_USB4105-GF-A\\triangulated.obj",
+          "bytes": 806638,
+          "sha256": "8c36dba44f45487193ec4a7f3264af783edfca26d047f1fa7891fc5518d8875e"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\USB_C_USB4105-GF-A\\triangulated.mtl",
+          "bytes": 48,
+          "sha256": "cf62b684bf31f98d588a5f0ea51f4cedc1c61cd3bbaab3cfb8a05baf547c6239"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\USB_C_USB4105-GF-A\\preview.png",
+          "bytes": 24610,
+          "sha256": "4cc6ec23f386725948aeb4bf3d20325de65adbf91715aa29ea1234ce2580b9af"
+        }
+      ]
+    },
+    {
+      "product": "FTSH-107-01-L-DV-K-A",
+      "source_product_definition_entity": 101317,
+      "historical_ref_placements": [
+        {
+          "id": 101344,
+          "ref": "J1",
+          "parent_pd": 5,
+          "child_pd": 101317,
+          "product": "FTSH-107-01-L-DV-K-A",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              226.3
+            ],
+            [
+              0.0,
+              1.110223024625e-16,
+              -1.0,
+              -69.9
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 101342,
+          "source_frame_entity": 11,
+          "target_frame_entity": 819,
+          "solid_occurrences": 3,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              221.85500000000002,
+              -72.82100000000001,
+              0.2849999999999999
+            ],
+            "max_mm": [
+              230.745,
+              -66.979,
+              7.27
+            ],
+            "span_mm": [
+              8.889999999999986,
+              5.842000000000013,
+              6.984999999999999
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\FTSH-107-01-L-DV-K-A\\FTSH-107-01-L-DV-K-A.step",
+      "bytes": 1166615,
+      "sha256": "2dfee6355b5ffa772c5a50fdb4902f71a71d2133a870cde759cbbd125242b1a3",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 3,
+        "faces": 338,
+        "edge_occurrences": 1832,
+        "analytic_bounds_mm": {
+          "min": [
+            -4.445,
+            -1.2700001,
+            -2.921
+          ],
+          "max": [
+            4.445,
+            5.715000000000002,
+            2.921
+          ],
+          "span": [
+            8.89,
+            6.9850001000000015,
+            5.842
+          ]
+        },
+        "closed_volume_mm3": 143.84286740642048,
+        "surface_area_mm2": 527.1180582708208
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 3,
+        "faces": 338,
+        "edge_occurrences": 1832,
+        "analytic_bounds_mm": {
+          "min": [
+            -4.445,
+            -1.2700001,
+            -2.921
+          ],
+          "max": [
+            4.445,
+            5.715000000000002,
+            2.921
+          ],
+          "span": [
+            8.89,
+            6.9850001000000015,
+            5.842
+          ]
+        },
+        "closed_volume_mm3": 143.84286740642054,
+        "surface_area_mm2": 527.1180582708206
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 3.9517718108468957e-16,
+        "area_relative_delta": 4.313524681531833e-16,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 2,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 2990,
+        "triangles": 2412,
+        "faces": 338,
+        "faces_meshed": 338,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 0,
+        "inherited_color_faces": 338,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.21404114365577698,
+            0.21404114365577698,
+            0.21404114365577698
+          ],
+          [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.5225215554237366
+          ],
+          [
+            1.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\FTSH-107-01-L-DV-K-A\\triangulated.obj",
+          "bytes": 129642,
+          "sha256": "b292a512841fc2d50ffb66c2c515eae392facf9ebe87086bd409e7304a437156"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\FTSH-107-01-L-DV-K-A\\triangulated.mtl",
+          "bytes": 165,
+          "sha256": "7ca97a1624c0fcc094c313946873d83a4d02c4df6e9447514acd49110144f772"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\FTSH-107-01-L-DV-K-A\\preview.png",
+          "bytes": 18731,
+          "sha256": "fb5dd2404a3a4fe3d1ee2373da0fd60df887fbee95cc97f0bf48832c2da52ff6"
+        }
+      ]
+    },
+    {
+      "product": "LQM2MPN2R2NG0L",
+      "source_product_definition_entity": 122310,
+      "historical_ref_placements": [
+        {
+          "id": 123523,
+          "ref": "L1",
+          "parent_pd": 5,
+          "child_pd": 122310,
+          "product": "LQM2MPN2R2NG0L",
+          "transform": [
+            [
+              1.110223024625e-16,
+              1.110223024625e-16,
+              -1.0,
+              191.800001
+            ],
+            [
+              -1.0,
+              1.2325951644074834e-32,
+              -1.110223024625e-16,
+              -142.685
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 123521,
+          "source_frame_entity": 11,
+          "target_frame_entity": 899,
+          "solid_occurrences": 3,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              191.000001,
+              -143.685,
+              1.555
+            ],
+            "max_mm": [
+              192.60000100000002,
+              -141.685,
+              2.5549999999999997
+            ],
+            "span_mm": [
+              1.6000000000000227,
+              2.0,
+              0.9999999999999998
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LQM2MPN2R2NG0L\\LQM2MPN2R2NG0L.step",
+      "bytes": 159878,
+      "sha256": "ff022674fbedd531822e3a02e53036e00c35a400efb60913c837201aedc772aa",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 3,
+        "faces": 46,
+        "edge_occurrences": 200,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.0,
+            0.0,
+            -0.8
+          ],
+          "max": [
+            1.0,
+            1.0,
+            0.8
+          ],
+          "span": [
+            2.0,
+            1.0,
+            1.6
+          ]
+        },
+        "closed_volume_mm3": 3.105932396671425,
+        "surface_area_mm2": 19.32027029273453
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 3,
+        "faces": 46,
+        "edge_occurrences": 200,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.0,
+            0.0,
+            -0.8
+          ],
+          "max": [
+            1.0,
+            1.0,
+            0.8
+          ],
+          "span": [
+            2.0,
+            1.0,
+            1.6
+          ]
+        },
+        "closed_volume_mm3": 3.1059323966714394,
+        "surface_area_mm2": 19.320270292734605
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 4.575390865052805e-15,
+        "area_relative_delta": 3.8615912781958746e-15,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 2,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 1704,
+        "triangles": 2156,
+        "faces": 46,
+        "faces_meshed": 46,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 0,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 46,
+        "material_colors_rgb": [
+          [
+            0.65,
+            0.65,
+            0.65
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LQM2MPN2R2NG0L\\triangulated.obj",
+          "bytes": 95194,
+          "sha256": "77b70d1cf3bfb44e439cb1f2fcaf5c89b7413ae84df38254ae86885e81bcde00"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LQM2MPN2R2NG0L\\triangulated.mtl",
+          "bytes": 48,
+          "sha256": "cf62b684bf31f98d588a5f0ea51f4cedc1c61cd3bbaab3cfb8a05baf547c6239"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LQM2MPN2R2NG0L\\preview.png",
+          "bytes": 13685,
+          "sha256": "1ea24fee73a893bc64918f50b8e9ccce50ce237e6ddda8c3e0a0535811dfc939"
+        }
+      ]
+    },
+    {
+      "product": "SMA_RighAngle_1",
+      "source_product_definition_entity": 1307,
+      "historical_ref_placements": [
+        {
+          "id": 5875,
+          "ref": "J16",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              -1.0,
+              1.3596310734463073e-32,
+              -1.224646799147e-16,
+              188.0
+            ],
+            [
+              -1.224646799147e-16,
+              -1.110223024625e-16,
+              1.0,
+              -57.84
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 5873,
+          "source_frame_entity": 11,
+          "target_frame_entity": 15,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              184.825,
+              -72.699,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              191.175,
+              -57.84,
+              11.229999999999999
+            ],
+            "span_mm": [
+              6.350000000000023,
+              14.858999999999995,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 8481,
+          "ref": "J13",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              -2.334869823773e-16,
+              -1.110223024625e-16,
+              1.0,
+              254.66
+            ],
+            [
+              1.0,
+              -2.5922262378549007e-32,
+              2.334869823773e-16,
+              -92.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 8479,
+          "source_frame_entity": 11,
+          "target_frame_entity": 67,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              239.801,
+              -96.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              254.66,
+              -89.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 23778,
+          "ref": "J12",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              -2.334869823773e-16,
+              -1.110223024625e-16,
+              1.0,
+              254.66
+            ],
+            [
+              1.0,
+              -2.5922262378549007e-32,
+              2.334869823773e-16,
+              -78.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 23776,
+          "source_frame_entity": 11,
+          "target_frame_entity": 151,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              239.801,
+              -82.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              254.66,
+              -75.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 62525,
+          "ref": "J4",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -106.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 62523,
+          "source_frame_entity": 11,
+          "target_frame_entity": 239,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -110.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -103.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 62555,
+          "ref": "J17",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              -2.334869823773e-16,
+              -1.110223024625e-16,
+              1.0,
+              254.66
+            ],
+            [
+              1.0,
+              -2.5922262378549007e-32,
+              2.334869823773e-16,
+              -134.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 62553,
+          "source_frame_entity": 11,
+          "target_frame_entity": 263,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              239.801,
+              -138.13500000000002,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              254.66,
+              -131.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.350000000000023,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 62630,
+          "ref": "J8",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -162.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 62628,
+          "source_frame_entity": 11,
+          "target_frame_entity": 323,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -166.13500000000002,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -159.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.350000000000023,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 90589,
+          "ref": "J14",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              -2.334869823773e-16,
+              -1.110223024625e-16,
+              1.0,
+              254.66
+            ],
+            [
+              1.0,
+              -2.5922262378549007e-32,
+              2.334869823773e-16,
+              -120.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 90587,
+          "source_frame_entity": 11,
+          "target_frame_entity": 447,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              239.801,
+              -124.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              254.66,
+              -117.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 91467,
+          "ref": "J15",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              -2.334869823773e-16,
+              -1.110223024625e-16,
+              1.0,
+              254.66
+            ],
+            [
+              1.0,
+              -2.5922262378549007e-32,
+              2.334869823773e-16,
+              -106.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 91465,
+          "source_frame_entity": 11,
+          "target_frame_entity": 455,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              239.801,
+              -110.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              254.66,
+              -103.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 93548,
+          "ref": "J2",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -78.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 93546,
+          "source_frame_entity": 11,
+          "target_frame_entity": 523,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -82.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -75.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 93568,
+          "ref": "J10",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -190.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 93566,
+          "source_frame_entity": 11,
+          "target_frame_entity": 539,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -194.13500000000002,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -187.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.350000000000023,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 95767,
+          "ref": "J6",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -134.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 95765,
+          "source_frame_entity": 11,
+          "target_frame_entity": 595,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -138.13500000000002,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -131.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.350000000000023,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 96627,
+          "ref": "J11",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -204.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 96625,
+          "source_frame_entity": 11,
+          "target_frame_entity": 651,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -208.13500000000002,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -201.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.350000000000023,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 96637,
+          "ref": "J5",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -120.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 96635,
+          "source_frame_entity": 11,
+          "target_frame_entity": 659,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -124.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -117.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 101224,
+          "ref": "J9",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -176.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 101222,
+          "source_frame_entity": 11,
+          "target_frame_entity": 743,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -180.13500000000002,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -173.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.350000000000023,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 101314,
+          "ref": "J7",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -148.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 101312,
+          "source_frame_entity": 11,
+          "target_frame_entity": 815,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -152.13500000000002,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -145.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.350000000000023,
+              13.462000000000002
+            ]
+          }
+        },
+        {
+          "id": 122272,
+          "ref": "J3",
+          "parent_pd": 5,
+          "child_pd": 1307,
+          "product": "SMA_RighAngle_1",
+          "transform": [
+            [
+              1.144237745222e-17,
+              1.110223024625e-16,
+              -1.0,
+              140.26
+            ],
+            [
+              -1.0,
+              1.270359090390459e-33,
+              -1.144237745222e-17,
+              -92.96
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              8.055
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 122270,
+          "source_frame_entity": 11,
+          "target_frame_entity": 867,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              140.26,
+              -96.13499999999999,
+              -2.232000000000003
+            ],
+            "max_mm": [
+              155.119,
+              -89.785,
+              11.229999999999999
+            ],
+            "span_mm": [
+              14.859000000000009,
+              6.349999999999994,
+              13.462000000000002
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SMA_RighAngle_1\\SMA_RighAngle_1.step",
+      "bytes": 1075274,
+      "sha256": "91efe7e73b2d8885a004769f83644a4bf80a066aa4857a3f5bc7a942babc0775",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 78,
+        "edge_occurrences": 402,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.1750001,
+            -10.2870001,
+            -14.859
+          ],
+          "max": [
+            3.1750000999999997,
+            3.1750000999999997,
+            1.000000002220446e-07
+          ],
+          "span": [
+            6.3500002,
+            13.4620002,
+            14.8590001
+          ]
+        },
+        "closed_volume_mm3": 557.1908674165255,
+        "surface_area_mm2": 617.8289016281482
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 78,
+        "edge_occurrences": 402,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.1750001,
+            -10.2870001,
+            -14.859
+          ],
+          "max": [
+            3.1750000999999997,
+            3.1750000999999997,
+            1.000000002220446e-07
+          ],
+          "span": [
+            6.3500002,
+            13.4620002,
+            14.8590001
+          ]
+        },
+        "closed_volume_mm3": 557.1908674157595,
+        "surface_area_mm2": 617.828901628655
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 1.3747926560964479e-12,
+        "area_relative_delta": 8.203176012442372e-13,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 0,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 5979,
+        "triangles": 6846,
+        "faces": 78,
+        "faces_meshed": 78,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 0,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 78,
+        "material_colors_rgb": [
+          [
+            0.65,
+            0.65,
+            0.65
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SMA_RighAngle_1\\triangulated.obj",
+          "bytes": 351749,
+          "sha256": "0da72fe5889266470a02c594acbe25e54b4cb2357fbe9b3ac77a55c23d683909"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SMA_RighAngle_1\\triangulated.mtl",
+          "bytes": 48,
+          "sha256": "cf62b684bf31f98d588a5f0ea51f4cedc1c61cd3bbaab3cfb8a05baf547c6239"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SMA_RighAngle_1\\preview.png",
+          "bytes": 25459,
+          "sha256": "386ae353dae5be2befb5b4eed5cdd0a578a2d1e161f7677a91d115410264d29f"
+        }
+      ]
+    },
+    {
+      "product": "PinSocket_2x05_P2.54mm_Vertical",
+      "source_product_definition_entity": 111783,
+      "historical_ref_placements": [
+        {
+          "id": 119840,
+          "ref": "J18",
+          "parent_pd": 5,
+          "child_pd": 111783,
+          "product": "PinSocket_2x05_P2.54mm_Vertical",
+          "transform": [
+            [
+              1.110223024625e-16,
+              1.0,
+              0.0,
+              195.225
+            ],
+            [
+              -1.0,
+              1.110223024625e-16,
+              0.0,
+              -215.025
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 119838,
+          "source_frame_entity": 11,
+          "target_frame_entity": 823,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              183.795,
+              -216.29500000000002,
+              -1.5450000000000002
+            ],
+            "max_mm": [
+              196.495,
+              -211.215,
+              10.055
+            ],
+            "span_mm": [
+              12.700000000000017,
+              5.0800000000000125,
+              11.6
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PinSocket_2x05_P2.54mm_Vertical\\PinSocket_2x05_P2.54mm_Vertical.step",
+      "bytes": 1062142,
+      "sha256": "5bdb5b3ef86b9a7806cebeb172d7218e7fcdda97e3f0d27cd71c94a55982707a",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 270,
+        "edge_occurrences": 1408,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.8100000000000014,
+            -11.43,
+            -3.100000000000037
+          ],
+          "max": [
+            1.2700000000000014,
+            1.2700000000000007,
+            8.5
+          ],
+          "span": [
+            5.080000000000003,
+            12.700000000000001,
+            11.600000000000037
+          ]
+        },
+        "closed_volume_mm3": 516.4088666666668,
+        "surface_area_mm2": 680.0975458948102
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 270,
+        "edge_occurrences": 1408,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.8100000000000014,
+            -11.43,
+            -3.100000000000037
+          ],
+          "max": [
+            1.2700000000000014,
+            1.2700000000000007,
+            8.5
+          ],
+          "span": [
+            5.080000000000003,
+            12.700000000000001,
+            11.600000000000037
+          ]
+        },
+        "closed_volume_mm3": 516.4088666666668,
+        "surface_area_mm2": 680.0975458948102
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 0.0,
+        "area_relative_delta": 0.0,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 2,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 1408,
+        "triangles": 908,
+        "faces": 270,
+        "faces_meshed": 270,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 270,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.7087041735649109,
+            0.5040222406387329,
+            0.2103574573993683
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PinSocket_2x05_P2.54mm_Vertical\\triangulated.obj",
+          "bytes": 40475,
+          "sha256": "c0d918b1548813aa603894451d840d23af9b8a5138f5655666ac3c40176a2378"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PinSocket_2x05_P2.54mm_Vertical\\triangulated.mtl",
+          "bytes": 128,
+          "sha256": "1e993174af0a80e0a4d9a7e289d8fee01e1cb0e0a5cbb65ae31a123181a62d65"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\PinSocket_2x05_P2.54mm_Vertical\\preview.png",
+          "bytes": 10221,
+          "sha256": "7696ee303e1814a0422508c325e5d58d22edade9f509d33202ab73b5fab7ff92"
+        }
+      ]
+    },
+    {
+      "product": "SOIC-8_3.9x4.9mm_P1.27mm",
+      "source_product_definition_entity": 96730,
+      "historical_ref_placements": [
+        {
+          "id": 101213,
+          "ref": "U6",
+          "parent_pd": 5,
+          "child_pd": 96730,
+          "product": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "transform": [
+            [
+              -1.0,
+              -1.224646799147e-16,
+              0.0,
+              211.76
+            ],
+            [
+              1.224646799147e-16,
+              -1.0,
+              0.0,
+              -160.975
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 101211,
+          "source_frame_entity": 11,
+          "target_frame_entity": 735,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              208.76,
+              -163.42499999999998,
+              1.5549999999999997
+            ],
+            "max_mm": [
+              214.76,
+              -158.525,
+              3.3049999999999997
+            ],
+            "span_mm": [
+              6.0,
+              4.899999999999977,
+              1.75
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-8_3.9x4.9mm_P1.27mm\\SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "bytes": 604003,
+      "sha256": "ef0bf6feb44c7b9a5b6d0066ffcbbbcf658f94ccf5ab4a2ff595329f0aea054a",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 147,
+        "edge_occurrences": 786,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.0,
+            -2.4500001000000005,
+            -1.665334536938e-16
+          ],
+          "max": [
+            3.0,
+            2.4500001000000005,
+            1.7500001
+          ],
+          "span": [
+            6.0,
+            4.900000200000001,
+            1.7500001000000003
+          ]
+        },
+        "closed_volume_mm3": 30.187110332571724,
+        "surface_area_mm2": 77.96650735890996
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 147,
+        "edge_occurrences": 786,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.0,
+            -2.4500001000000005,
+            -1.665334536938e-16
+          ],
+          "max": [
+            3.0,
+            2.4500001000000005,
+            1.7500001
+          ],
+          "span": [
+            6.0,
+            4.900000200000001,
+            1.7500001000000003
+          ]
+        },
+        "closed_volume_mm3": 30.187110332571827,
+        "surface_area_mm2": 77.96650735891131
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 3.4130029522583067e-15,
+        "area_relative_delta": 1.7315527444745923e-14,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 2294,
+        "triangles": 2002,
+        "faces": 147,
+        "faces_meshed": 147,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 147,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-8_3.9x4.9mm_P1.27mm\\triangulated.obj",
+          "bytes": 103919,
+          "sha256": "82ea65333af094568d0d4c8bdf96e77cf12d3a875aeb3200d924bedd617207f4"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-8_3.9x4.9mm_P1.27mm\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-8_3.9x4.9mm_P1.27mm\\preview.png",
+          "bytes": 15143,
+          "sha256": "66fce7c02ba4365ac858350b5073a007c58072bf8751f7c167b098e2554aa6f8"
+        }
+      ]
+    },
+    {
+      "product": "SOIC-16_3.9x9.9mm_P1.27mm",
+      "source_product_definition_entity": 125853,
+      "historical_ref_placements": [
+        {
+          "id": 134074,
+          "ref": "U8",
+          "parent_pd": 5,
+          "child_pd": 125853,
+          "product": "SOIC-16_3.9x9.9mm_P1.27mm",
+          "transform": [
+            [
+              -1.0,
+              -1.224646799147e-16,
+              0.0,
+              207.09
+            ],
+            [
+              1.224646799147e-16,
+              -1.0,
+              0.0,
+              -87.625
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 134072,
+          "source_frame_entity": 11,
+          "target_frame_entity": 951,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              204.09,
+              -92.575,
+              1.555
+            ],
+            "max_mm": [
+              210.09,
+              -82.675,
+              3.3049999999999997
+            ],
+            "span_mm": [
+              6.0,
+              9.900000000000006,
+              1.7499999999999998
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-16_3.9x9.9mm_P1.27mm\\SOIC-16_3.9x9.9mm_P1.27mm.step",
+      "bytes": 1119384,
+      "sha256": "a78a736a58cc8651e73d4aec5f2d72e287f46896fbbf7890f330b81bffe33bb0",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 267,
+        "edge_occurrences": 1442,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.0,
+            -4.9500001000000005,
+            -5.551115123125783e-17
+          ],
+          "max": [
+            3.0,
+            4.9500001000000005,
+            1.7500001
+          ],
+          "span": [
+            6.0,
+            9.900000200000001,
+            1.7500001
+          ]
+        },
+        "closed_volume_mm3": 62.05813789368894,
+        "surface_area_mm2": 147.3044391260161
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 267,
+        "edge_occurrences": 1442,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.0,
+            -4.9500001000000005,
+            -5.551115123125783e-17
+          ],
+          "max": [
+            3.0,
+            4.9500001000000005,
+            1.7500001
+          ],
+          "span": [
+            6.0,
+            9.900000200000001,
+            1.7500001
+          ]
+        },
+        "closed_volume_mm3": 62.05813789368911,
+        "surface_area_mm2": 147.30443912601882
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 2.747911271114151e-15,
+        "area_relative_delta": 1.8522755468249124e-14,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 4358,
+        "triangles": 3826,
+        "faces": 267,
+        "faces_meshed": 267,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 267,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-16_3.9x9.9mm_P1.27mm\\triangulated.obj",
+          "bytes": 198155,
+          "sha256": "49c2719b3ed445c811cbd402206064481ff9c500ca8e76c4be08540147dcde93"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-16_3.9x9.9mm_P1.27mm\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOIC-16_3.9x9.9mm_P1.27mm\\preview.png",
+          "bytes": 16738,
+          "sha256": "4f5bdb2cf895826149307891ab3a261f4512164d148197afb15df1a54cfa6d15"
+        }
+      ]
+    },
+    {
+      "product": "SOT-23",
+      "source_product_definition_entity": 91530,
+      "historical_ref_placements": [
+        {
+          "id": 93527,
+          "ref": "Q1",
+          "parent_pd": 5,
+          "child_pd": 91530,
+          "product": "SOT-23",
+          "transform": [
+            [
+              -1.0,
+              -1.224646799147e-16,
+              0.0,
+              218.81
+            ],
+            [
+              1.224646799147e-16,
+              -1.0,
+              0.0,
+              -162.205
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 93525,
+          "source_frame_entity": 11,
+          "target_frame_entity": 507,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              217.56,
+              -163.705,
+              1.555
+            ],
+            "max_mm": [
+              220.06,
+              -160.705,
+              2.755
+            ],
+            "span_mm": [
+              2.5,
+              3.0,
+              1.2
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-23\\SOT-23.step",
+      "bytes": 270994,
+      "sha256": "1250f1b68002828fab4dfcc7e3696a6b2cb682c755cc00fd454c84575ea41620",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 69,
+        "edge_occurrences": 346,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.25,
+            -1.5000001000000003,
+            0.0
+          ],
+          "max": [
+            1.25,
+            1.5000001000000003,
+            1.2000001
+          ],
+          "span": [
+            2.5,
+            3.0000002000000006,
+            1.2000001
+          ]
+        },
+        "closed_volume_mm3": 4.40252311208218,
+        "surface_area_mm2": 19.56877681219912
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 69,
+        "edge_occurrences": 346,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.25,
+            -1.5000001000000003,
+            0.0
+          ],
+          "max": [
+            1.25,
+            1.5000001000000003,
+            1.2000001
+          ],
+          "span": [
+            2.5,
+            3.0000002000000006,
+            1.2000001
+          ]
+        },
+        "closed_volume_mm3": 4.402523112082204,
+        "surface_area_mm2": 19.5687768121995
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 5.447062223498837e-15,
+        "area_relative_delta": 1.9425862294810128e-14,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 974,
+        "triangles": 838,
+        "faces": 69,
+        "faces_meshed": 69,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 69,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-23\\triangulated.obj",
+          "bytes": 43032,
+          "sha256": "f70d16c828782769c4eb1c1105c84aa89a909c06148b8b8d8eff3e11b5915754"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-23\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-23\\preview.png",
+          "bytes": 10852,
+          "sha256": "753fe76ee9f87e9dc0e8ce7dac28d5acf42040bff1f1588ce84ddb29aae349fa"
+        }
+      ]
+    },
+    {
+      "product": "SOT-223",
+      "source_product_definition_entity": 123557,
+      "historical_ref_placements": [
+        {
+          "id": 125824,
+          "ref": "U2",
+          "parent_pd": 5,
+          "child_pd": 123557,
+          "product": "SOT-223",
+          "transform": [
+            [
+              -1.0,
+              -1.224646799147e-16,
+              0.0,
+              211.66
+            ],
+            [
+              1.224646799147e-16,
+              -1.0,
+              0.0,
+              -168.485
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 125822,
+          "source_frame_entity": 11,
+          "target_frame_entity": 927,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              208.16,
+              -171.735,
+              1.5549999999999997
+            ],
+            "max_mm": [
+              215.16,
+              -165.235,
+              3.255
+            ],
+            "span_mm": [
+              7.0,
+              6.5,
+              1.7000000000000002
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-223\\SOT-223.step",
+      "bytes": 302840,
+      "sha256": "e83b9b6b5ec02efc0621e3a3471f3ac14de65ac152df1e468517d214434514a7",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 75,
+        "edge_occurrences": 394,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.5,
+            -3.2500001,
+            -1.665334536938e-16
+          ],
+          "max": [
+            3.5000000000000004,
+            3.2500001,
+            1.7000001
+          ],
+          "span": [
+            7.0,
+            6.5000002,
+            1.7000001000000002
+          ]
+        },
+        "closed_volume_mm3": 37.72417468605075,
+        "surface_area_mm2": 98.64783443364874
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 75,
+        "edge_occurrences": 394,
+        "analytic_bounds_mm": {
+          "min": [
+            -3.5,
+            -3.2500001,
+            -1.665334536938e-16
+          ],
+          "max": [
+            3.5000000000000004,
+            3.2500001,
+            1.7000001
+          ],
+          "span": [
+            7.0,
+            6.5000002,
+            1.7000001000000002
+          ]
+        },
+        "closed_volume_mm3": 37.72417468605102,
+        "surface_area_mm2": 98.64783443365155
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 7.15737963350801e-15,
+        "area_relative_delta": 2.852317285791555e-14,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 1198,
+        "triangles": 1050,
+        "faces": 75,
+        "faces_meshed": 75,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 75,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-223\\triangulated.obj",
+          "bytes": 56626,
+          "sha256": "e495e5c72ba2c66b3b76784e4444e984ec9dda8d707c2ae445a0cfdacaabc1f0"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-223\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\SOT-223\\preview.png",
+          "bytes": 11972,
+          "sha256": "efe5ea1c8878696ec0d57b4bcbe3e1bd0ec8e9c2410cd4cb0d7e4afc5582358e"
+        }
+      ]
+    },
+    {
+      "product": "TSOT-23-6",
+      "source_product_definition_entity": 20216,
+      "historical_ref_placements": [
+        {
+          "id": 23767,
+          "ref": "TVS1",
+          "parent_pd": 5,
+          "child_pd": 20216,
+          "product": "TSOT-23-6",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              210.41
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -181.46
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 23765,
+          "source_frame_entity": 11,
+          "target_frame_entity": 143,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              209.01,
+              -182.91,
+              1.555
+            ],
+            "max_mm": [
+              211.81,
+              -180.01000000000002,
+              2.505
+            ],
+            "span_mm": [
+              2.8000000000000114,
+              2.8999999999999773,
+              0.95
+            ]
+          }
+        },
+        {
+          "id": 72130,
+          "ref": "TVS3",
+          "parent_pd": 5,
+          "child_pd": 20216,
+          "product": "TSOT-23-6",
+          "transform": [
+            [
+              1.110223024625e-16,
+              -1.0,
+              0.0,
+              207.04
+            ],
+            [
+              1.0,
+              1.110223024625e-16,
+              0.0,
+              -77.15
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 72128,
+          "source_frame_entity": 11,
+          "target_frame_entity": 367,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              205.59,
+              -78.55000000000001,
+              1.555
+            ],
+            "max_mm": [
+              208.48999999999998,
+              -75.75,
+              2.505
+            ],
+            "span_mm": [
+              2.8999999999999773,
+              2.8000000000000114,
+              0.95
+            ]
+          }
+        },
+        {
+          "id": 101219,
+          "ref": "TVS2",
+          "parent_pd": 5,
+          "child_pd": 20216,
+          "product": "TSOT-23-6",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              234.775
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -154.195
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 101217,
+          "source_frame_entity": 11,
+          "target_frame_entity": 739,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              233.375,
+              -155.64499999999998,
+              1.555
+            ],
+            "max_mm": [
+              236.175,
+              -152.745,
+              2.505
+            ],
+            "span_mm": [
+              2.8000000000000114,
+              2.8999999999999773,
+              0.95
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TSOT-23-6\\TSOT-23-6.step",
+      "bytes": 476670,
+      "sha256": "2905c29c1efabb6e13c5cb7da4d71e3496dd910a205f851caf5c70e37bf0dc18",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 117,
+        "edge_occurrences": 622,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.4,
+            -1.4500001000000002,
+            0.0
+          ],
+          "max": [
+            1.4,
+            1.4500001000000002,
+            0.9500000999999999
+          ],
+          "span": [
+            2.8,
+            2.9000002000000005,
+            0.9500000999999999
+          ]
+        },
+        "closed_volume_mm3": 3.982407250346082,
+        "surface_area_mm2": 21.04586173936845
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 117,
+        "edge_occurrences": 622,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.4,
+            -1.4500001000000002,
+            0.0
+          ],
+          "max": [
+            1.4,
+            1.4500001000000002,
+            0.9500000999999999
+          ],
+          "span": [
+            2.8,
+            2.9000002000000005,
+            0.9500000999999999
+          ]
+        },
+        "closed_volume_mm3": 3.982407250346112,
+        "surface_area_mm2": 21.045861739369073
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 7.582867439581917e-15,
+        "area_relative_delta": 2.954143201592393e-14,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 1778,
+        "triangles": 1546,
+        "faces": 117,
+        "faces_meshed": 117,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 117,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TSOT-23-6\\triangulated.obj",
+          "bytes": 81721,
+          "sha256": "2b2dbcd75a1fed066839dc84468415a404051fc4e1f697a12b1cee918e2905e0"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TSOT-23-6\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TSOT-23-6\\preview.png",
+          "bytes": 13837,
+          "sha256": "86355dd762bd0932e06ff100755ffe6e39c048b1780338310b8ae35bfc7d9e08"
+        }
+      ]
+    },
+    {
+      "product": "QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm",
+      "source_product_definition_entity": 55704,
+      "historical_ref_placements": [
+        {
+          "id": 62489,
+          "ref": "U7",
+          "parent_pd": 5,
+          "child_pd": 55704,
+          "product": "QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              224.085
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -152.31
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 62487,
+          "source_frame_entity": 11,
+          "target_frame_entity": 211,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              221.585,
+              -154.81,
+              1.555
+            ],
+            "max_mm": [
+              226.585,
+              -149.81,
+              2.325
+            ],
+            "span_mm": [
+              5.0,
+              5.0,
+              0.7700000000000002
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm\\QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step",
+      "bytes": 856513,
+      "sha256": "577c88b47f33c70914e2a491d3baaa255f361b2be8023a595b19123a0131c107",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 206,
+        "edge_occurrences": 1212,
+        "analytic_bounds_mm": {
+          "min": [
+            -2.5,
+            -2.5,
+            0.0
+          ],
+          "max": [
+            2.5,
+            2.5,
+            0.77
+          ],
+          "span": [
+            5.0,
+            5.0,
+            0.77
+          ]
+        },
+        "closed_volume_mm3": 18.910094467859327,
+        "surface_area_mm2": 65.86869222980445
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 206,
+        "edge_occurrences": 1212,
+        "analytic_bounds_mm": {
+          "min": [
+            -2.5,
+            -2.5,
+            0.0
+          ],
+          "max": [
+            2.5,
+            2.5,
+            0.77
+          ],
+          "span": [
+            5.0,
+            5.0,
+            0.77
+          ]
+        },
+        "closed_volume_mm3": 18.910094467859338,
+        "surface_area_mm2": 65.86869222980445
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 5.63621776428282e-16,
+        "area_relative_delta": 0.0,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 4612,
+        "triangles": 4204,
+        "faces": 206,
+        "faces_meshed": 206,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 206,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm\\triangulated.obj",
+          "bytes": 201734,
+          "sha256": "9d93c33042d122a57833b9e0ca5599b1ae4ef10afc75ddf38691edb33c34f66f"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm\\preview.png",
+          "bytes": 10287,
+          "sha256": "30cc3144f137fd31e63550c8774a769723473a0b34b88c48fb0aa5fed45c957a"
+        }
+      ]
+    },
+    {
+      "product": "DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm",
+      "source_product_definition_entity": 72148,
+      "historical_ref_placements": [
+        {
+          "id": 73721,
+          "ref": "U3",
+          "parent_pd": 5,
+          "child_pd": 72148,
+          "product": "DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              218.3225
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -203.425
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 73719,
+          "source_frame_entity": 11,
+          "target_frame_entity": 383,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              216.8225,
+              -204.91500000000002,
+              1.555
+            ],
+            "max_mm": [
+              219.8225,
+              -201.935,
+              2.425
+            ],
+            "span_mm": [
+              3.0,
+              2.980000000000018,
+              0.8699999999999999
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm\\DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm.step",
+      "bytes": 183351,
+      "sha256": "8718629293cda753dcf916f9091902fce3cf9461090dd120b25cb9b0e46083fa",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 50,
+        "edge_occurrences": 276,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.5000000000000002,
+            -1.4900000000000007,
+            0.0
+          ],
+          "max": [
+            1.5000000000000002,
+            1.49,
+            0.87
+          ],
+          "span": [
+            3.0000000000000004,
+            2.9800000000000004,
+            0.87
+          ]
+        },
+        "closed_volume_mm3": 7.618756504591504,
+        "surface_area_mm2": 28.30176481751743
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 50,
+        "edge_occurrences": 276,
+        "analytic_bounds_mm": {
+          "min": [
+            -1.5000000000000002,
+            -1.4900000000000007,
+            0.0
+          ],
+          "max": [
+            1.5000000000000002,
+            1.49,
+            0.87
+          ],
+          "span": [
+            3.0000000000000004,
+            2.9800000000000004,
+            0.87
+          ]
+        },
+        "closed_volume_mm3": 7.618756504591504,
+        "surface_area_mm2": 28.301764817517427
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 0.0,
+        "area_relative_delta": 1.255297576567219e-16,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 476,
+        "triangles": 380,
+        "faces": 50,
+        "faces_meshed": 50,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 50,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm\\triangulated.obj",
+          "bytes": 17114,
+          "sha256": "bfdfb32e84829c2b12dc40f1a5bbd0c3015ae02f87a43eca15e8794e91310ff4"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm\\preview.png",
+          "bytes": 10301,
+          "sha256": "72dd58b83996a7ed214eed505dd73937ddcd44bb3ab3d0122be51d03850a59f6"
+        }
+      ]
+    },
+    {
+      "product": "TFBGA-265_14x14mm_Layout17x17_P0.8mm",
+      "source_product_definition_entity": 93626,
+      "historical_ref_placements": [
+        {
+          "id": 95756,
+          "ref": "U1",
+          "parent_pd": 5,
+          "child_pd": 93626,
+          "product": "TFBGA-265_14x14mm_Layout17x17_P0.8mm",
+          "transform": [
+            [
+              1.110223024625e-16,
+              -1.0,
+              0.0,
+              197.51
+            ],
+            [
+              1.0,
+              1.110223024625e-16,
+              0.0,
+              -132.235
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 95754,
+          "source_frame_entity": 11,
+          "target_frame_entity": 587,
+          "solid_occurrences": 1,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              190.51,
+              -139.235,
+              1.545
+            ],
+            "max_mm": [
+              204.51,
+              -125.23500000000001,
+              2.6550000000000002
+            ],
+            "span_mm": [
+              14.0,
+              14.0,
+              1.1100000000000003
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-265_14x14mm_Layout17x17_P0.8mm\\TFBGA-265_14x14mm_Layout17x17_P0.8mm.step",
+      "bytes": 351857,
+      "sha256": "1bfd9b262a5f858ac4c4012867210d0a102be59558b9c1124be48b5569c4868c",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 72,
+        "edge_occurrences": 350,
+        "analytic_bounds_mm": {
+          "min": [
+            -7.000000000000003,
+            -7.000000000000003,
+            -0.009999999999999981
+          ],
+          "max": [
+            7.0,
+            7.0,
+            1.1
+          ],
+          "span": [
+            14.000000000000004,
+            14.000000000000004,
+            1.11
+          ]
+        },
+        "closed_volume_mm3": 187.00568552155679,
+        "surface_area_mm2": 450.35661018158277
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 1,
+        "faces": 72,
+        "edge_occurrences": 350,
+        "analytic_bounds_mm": {
+          "min": [
+            -7.000000000000003,
+            -7.000000000000003,
+            -0.009999999999999981
+          ],
+          "max": [
+            7.0,
+            7.0,
+            1.1
+          ],
+          "span": [
+            14.000000000000004,
+            14.000000000000004,
+            1.11
+          ]
+        },
+        "closed_volume_mm3": 187.00568552155679,
+        "surface_area_mm2": 450.35661018158265
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 0.0,
+        "area_relative_delta": 2.5243736885704364e-16,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 24166,
+        "triangles": 40088,
+        "faces": 72,
+        "faces_meshed": 72,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 72,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768
+          ],
+          [
+            0.4352785348892212,
+            0.39842209219932556,
+            0.3162173628807068
+          ],
+          [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-265_14x14mm_Layout17x17_P0.8mm\\triangulated.obj",
+          "bytes": 1729857,
+          "sha256": "72d101a999da79557c2395a1980bb45973786037aaa07b87e0ac19c42d1ee90c"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-265_14x14mm_Layout17x17_P0.8mm\\triangulated.mtl",
+          "bytes": 191,
+          "sha256": "e85c0611b5d3cba43a7083f0899f0d4c1ede2349d8250d352d140c36e99199b9"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-265_14x14mm_Layout17x17_P0.8mm\\preview.png",
+          "bytes": 10326,
+          "sha256": "c7853ea892c5cba437ac82bfffdbcaca765294a776445aacb4d75fba5c62ac3d"
+        }
+      ]
+    },
+    {
+      "product": "TFBGA-90_8X13_ISI",
+      "source_product_definition_entity": 119879,
+      "historical_ref_placements": [
+        {
+          "id": 122256,
+          "ref": "U4",
+          "parent_pd": 5,
+          "child_pd": 119879,
+          "product": "TFBGA-90_8X13_ISI",
+          "transform": [
+            [
+              1.110223024625e-16,
+              -1.0,
+              0.0,
+              194.06
+            ],
+            [
+              1.0,
+              1.110223024625e-16,
+              0.0,
+              -104.81
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 122254,
+          "source_frame_entity": 11,
+          "target_frame_entity": 855,
+          "solid_occurrences": 182,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              187.507,
+              -108.861,
+              1.96
+            ],
+            "max_mm": [
+              200.613,
+              -100.759,
+              2.751
+            ],
+            "span_mm": [
+              13.105999999999995,
+              8.102000000000004,
+              0.7909999999999999
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-90_8X13_ISI\\TFBGA-90_8X13_ISI.step",
+      "bytes": 187020,
+      "sha256": "172de104690d13762ca98dc0d82c65f61dd69d0cdd76db304df60944cef68186",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 182,
+        "faces": 189,
+        "edge_occurrences": 750,
+        "analytic_bounds_mm": {
+          "min": [
+            -4.051,
+            -6.553,
+            -0.00019999999999997797
+          ],
+          "max": [
+            4.051,
+            6.553,
+            1.1960001
+          ],
+          "span": [
+            8.102,
+            13.106,
+            1.1962001
+          ]
+        },
+        "closed_volume_mm3": 90.10611873049935,
+        "surface_area_mm2": 339.4925313530164
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 182,
+        "faces": 189,
+        "edge_occurrences": 750,
+        "analytic_bounds_mm": {
+          "min": [
+            -4.051,
+            -6.553,
+            -0.00019999999999997797
+          ],
+          "max": [
+            4.051,
+            6.553,
+            1.1960001
+          ],
+          "span": [
+            8.102,
+            13.106,
+            1.1962001
+          ]
+        },
+        "closed_volume_mm3": 90.10611873049935,
+        "surface_area_mm2": 339.4925313530164
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 0.0,
+        "area_relative_delta": 0.0,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 3,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 118670,
+        "triangles": 227012,
+        "faces": 189,
+        "faces_meshed": 189,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 189,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 0,
+        "material_colors_rgb": [
+          [
+            0.03187212720513344,
+            0.03187212720513344,
+            0.03187212720513344
+          ],
+          [
+            0.30471962690353394,
+            0.30471962690353394,
+            0.30471962690353394
+          ],
+          [
+            0.48441895842552185,
+            0.48441895842552185,
+            0.48441895842552185
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-90_8X13_ISI\\triangulated.obj",
+          "bytes": 9436196,
+          "sha256": "57f6e917b40585d99f887a6196811971519f7e648d0cd4fd7d2b02aed2aa11bd"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-90_8X13_ISI\\triangulated.mtl",
+          "bytes": 189,
+          "sha256": "163cf4093feea0a17a44188d1a95f37d1c8115992c525d6353c5e604431b2b42"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\TFBGA-90_8X13_ISI\\preview.png",
+          "bytes": 9474,
+          "sha256": "9dbebfaffb9fb6569301628f65452d66f295d2efb0c7f7e3263d7c4cd5dae39d"
+        }
+      ]
+    },
+    {
+      "product": "LAN8742A-CZ-TR",
+      "source_product_definition_entity": 64200,
+      "historical_ref_placements": [
+        {
+          "id": 72109,
+          "ref": "U5",
+          "parent_pd": 5,
+          "child_pd": 64200,
+          "product": "LAN8742A-CZ-TR",
+          "transform": [
+            [
+              1.110223024625e-16,
+              1.110223024625e-16,
+              -1.0,
+              200.01
+            ],
+            [
+              -1.0,
+              1.2325951644074834e-32,
+              -1.110223024625e-16,
+              -181.46
+            ],
+            [
+              0.0,
+              1.0,
+              1.110223024625e-16,
+              1.555
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform_entity": 72107,
+          "source_frame_entity": 11,
+          "target_frame_entity": 351,
+          "solid_occurrences": 27,
+          "world_vertex_sample_bounds": {
+            "min_mm": [
+              198.01,
+              -183.46,
+              1.5549999999999997
+            ],
+            "max_mm": [
+              202.01,
+              -179.46,
+              2.555
+            ],
+            "span_mm": [
+              4.0,
+              4.0,
+              1.0000000000000004
+            ]
+          }
+        }
+      ],
+      "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LAN8742A-CZ-TR\\LAN8742A-CZ-TR.step",
+      "bytes": 874241,
+      "sha256": "0dc9c97b3bca58d10e6377382a8c37dc78870010bceafa61cd4f0c20f0f1d311",
+      "input_geometry": {
+        "brep_valid": true,
+        "solids": 27,
+        "faces": 276,
+        "edge_occurrences": 1320,
+        "analytic_bounds_mm": {
+          "min": [
+            -2.0,
+            0.0,
+            -2.0
+          ],
+          "max": [
+            2.0,
+            1.0,
+            2.0000000000000004
+          ],
+          "span": [
+            4.0,
+            1.0,
+            4.0
+          ]
+        },
+        "closed_volume_mm3": 15.624452431127395,
+        "surface_area_mm2": 76.28074196680545
+      },
+      "roundtrip_geometry": {
+        "brep_valid": true,
+        "solids": 27,
+        "faces": 276,
+        "edge_occurrences": 1320,
+        "analytic_bounds_mm": {
+          "min": [
+            -2.0,
+            0.0,
+            -2.0
+          ],
+          "max": [
+            2.0,
+            1.0,
+            2.0000000000000004
+          ],
+          "span": [
+            4.0,
+            1.0,
+            4.0
+          ]
+        },
+        "closed_volume_mm3": 15.624452431127422,
+        "surface_area_mm2": 76.28074196680569
+      },
+      "checks": {
+        "single_product_root": true,
+        "no_historical_PCB": true,
+        "bbox_max_delta_mm": 0.0,
+        "same_solids": true,
+        "same_faces": true,
+        "volume_relative_delta": 1.7053623292372326e-15,
+        "area_relative_delta": 3.1670448389655503e-15,
+        "pass": true
+      },
+      "output_colour_rgb_entities": 2,
+      "explicit_output_mm_unit": true,
+      "mesh": {
+        "vertices": 6472,
+        "triangles": 5924,
+        "faces": 276,
+        "faces_meshed": 276,
+        "meshing_linear_deflection_mm": 0.025,
+        "meshing_angular_deflection_rad": 0.25,
+        "direct_color_faces": 0,
+        "inherited_color_faces": 0,
+        "default_preview_gray_faces": 276,
+        "material_colors_rgb": [
+          [
+            0.65,
+            0.65,
+            0.65
+          ]
+        ],
+        "preview_note": "Software orthographic render with per-pixel depth buffer from OCCT triangles; STEP retains source style metadata independently. No guessed geometry."
+      },
+      "generated_files": [
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LAN8742A-CZ-TR\\triangulated.obj",
+          "bytes": 290480,
+          "sha256": "0d1cb4f83dc5de8b45e81e7c4053ce1b4d07381d6a881be8599935042290a67b"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LAN8742A-CZ-TR\\triangulated.mtl",
+          "bytes": 48,
+          "sha256": "cf62b684bf31f98d588a5f0ea51f4cedc1c61cd3bbaab3cfb8a05baf547c6239"
+        },
+        {
+          "path": "output\\3d-models-20261018\\source-models\\historical-reference-extracted\\LAN8742A-CZ-TR\\preview.png",
+          "bytes": 12285,
+          "sha256": "a4a62f4ec9a0068a24448c472d935809f88c4d6d036d8d81e84de85d91a72f5f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "policy": "Analysis only. This file does not approve mechanical equivalence, change any model, or supply a certified manufacturer mounting point.",
+  "source_step_sha256": "bca3ecd027c93f41e0ee177881ad7def828396ab9d0ab2c493c8c2acabae9c1e",
+  "local_axis_evidence": {
+    "width": "localX",
+    "up": "localY",
+    "outward_port_direction": "+localZ",
+    "proof": "Eight circular signal pins, four rectangular LED pins, split retaining posts and shield legs extend toward negativeY. Flat rear face liesZ0; open receptacle face liesZ15.75. Actual horizontal pin cross-sections therefore require planes of constantY, not constantZ."
+  },
+  "raw_full_bounds_mm": {
+    "min": [-9.946931409029666, -10.1, 0.0],
+    "max": [9.946931409031496, 8.225881492582813, 15.9500001]
+  },
+  "candidate_current_CN2_board_Zup_transform": {
+    "R": [[0, 0, 1], [1, 0, 0], [0, 1, 0]],
+    "translation_mm": [-5.2281420008, 0.0, 6.55],
+    "XY_datum": "Plastic retaining-post centerplane localZ10.29 maps current footprint locatorX5.0618579992; postpair localX+/-6.35 maps current boardY+/-6.35. Current native component rotation is0 because its footprint geometry is already baked.",
+    "Z_datum_candidate": "LocalY=-6.55, lower shield/front body plane. Combined with upper bodyY+6.55 it reproduces drawing nominal13.1mm enclosure height; pinendsY-9.05 becomeZ-2.50 and longest retaining geometryY-10.1 becomesZ-3.55. This is geometry/drawing-supported inference, not an explicit vendor Mpoint field.",
+    "result_full_bounds_mm": {
+      "min": [-5.2281420008, -9.946931409029666, -3.55],
+      "max": [10.7218580992, 9.946931409031496, 14.775881492582814]
+    },
+    "port_front_plane_X_mm": 10.5218579992
+  },
+  "mechanical_qualifications": [
+    "Official product page labels ZIP LPJE101-0AHNL, and archive member has that exact name; this proves manufacturer provenance, not dimensional perfection.",
+    "CAD signal pins use1.02mm stagger pitch vs frozen current footprint1.016mm; cumulativeY residual up to0.014mm.",
+    "CAD shield leg centers localX+/-8.225 vs frozen footprintY+/-8.128; about0.097mm residual each side.",
+    "CAD main outer sidewall span16.55mm differs from official drawing width16.26mm. Extended EMI fingers also increase full model width/height beyond nominal enclosure dimensions.",
+    "Signal rows and LED row/retainer datum use rounded metric distances, producing up to0.005mm additionalX residual under a single rigid registration.",
+    "Do not rescale, bend pins, or edit geometry to force a perfect footprint match. Manufacturer STEP is unchanged; no canonicalized STEP was generated for this qualified candidate."
+  ]
+}

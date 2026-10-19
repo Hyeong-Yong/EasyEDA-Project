@@ -1,0 +1,297 @@
+{
+  "schema": "stm32-frozen-baseline-coincident-resistor-refs-v1",
+  "baseline": {
+    "path": "output\\validation\\native-adc10-pcb-labtool_adc10_routed_final_saved-20261018.epru",
+    "sha256": "b7c6b99df160aaed2bb1f91717c2bde25e379bfdba88ec23dea5b4fdb7548d0f"
+  },
+  "coincident_group_count": 5,
+  "groups": [
+    {
+      "refs": [
+        "R78",
+        "R93"
+      ],
+      "identical_component_origin_xy_mm": [
+        51.1999992,
+        32.57750152
+      ],
+      "side": "top",
+      "both_dnp_false": true,
+      "parts": [
+        {
+          "ref": "R78",
+          "component_id": "b5465c7a15177b24",
+          "value": "10k",
+          "footprint_uuid": "3abf01c21d0b36e0",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              0.0,
+              -0.5099990054
+            ],
+            "2": [
+              0.0,
+              0.5099990054
+            ]
+          },
+          "pad_nets": {
+            "1": "+3V3",
+            "2": "Net-(U5-~{INT}{slash}REFCLKO)"
+          }
+        },
+        {
+          "ref": "R93",
+          "component_id": "ea44ed1ce68d0371",
+          "value": "33",
+          "footprint_uuid": "1ec79a6ec81b67c7",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              0.0,
+              0.5099990054
+            ],
+            "2": [
+              0.0,
+              -0.5099990054
+            ]
+          },
+          "pad_nets": {
+            "1": "Net-(U5-~{INT}{slash}REFCLKO)",
+            "2": "RMII_REF_CLK"
+          }
+        }
+      ]
+    },
+    {
+      "refs": [
+        "R79",
+        "R92"
+      ],
+      "identical_component_origin_xy_mm": [
+        47.9249994,
+        34.6250006
+      ],
+      "side": "top",
+      "both_dnp_false": true,
+      "parts": [
+        {
+          "ref": "R79",
+          "component_id": "1db26960f7156446",
+          "value": "1.5k",
+          "footprint_uuid": "b2bdb8c44777644c",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              -0.509999996,
+              0.0
+            ],
+            "2": [
+              0.509999996,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "+3V3",
+            "2": "Net-(U5-MDIO)"
+          }
+        },
+        {
+          "ref": "R92",
+          "component_id": "61d951a5ddb113f1",
+          "value": "0",
+          "footprint_uuid": "fe87f995a791293b",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              0.5099990054,
+              0.0
+            ],
+            "2": [
+              -0.5099990054,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "Net-(U5-MDIO)",
+            "2": "ETH_MDIO"
+          }
+        }
+      ]
+    },
+    {
+      "refs": [
+        "R80",
+        "R87"
+      ],
+      "identical_component_origin_xy_mm": [
+        47.9249994,
+        35.67500104
+      ],
+      "side": "top",
+      "both_dnp_false": true,
+      "parts": [
+        {
+          "ref": "R80",
+          "component_id": "aa6bd27406c3ffcf",
+          "value": "10k",
+          "footprint_uuid": "a7fe78b085c1cd8a",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              -0.509999996,
+              0.0
+            ],
+            "2": [
+              0.509999996,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "+3V3",
+            "2": "Net-(U5-CRS_DV{slash}MODE2)"
+          }
+        },
+        {
+          "ref": "R87",
+          "component_id": "49b09e58caad9d3c",
+          "value": "33",
+          "footprint_uuid": "7e88961707ec722d",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              0.5099990054,
+              0.0
+            ],
+            "2": [
+              -0.5099990054,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "Net-(U5-CRS_DV{slash}MODE2)",
+            "2": "RMII_CRS_DV"
+          }
+        }
+      ]
+    },
+    {
+      "refs": [
+        "R81",
+        "R84"
+      ],
+      "identical_component_origin_xy_mm": [
+        47.92000068,
+        39.79999914
+      ],
+      "side": "top",
+      "both_dnp_false": true,
+      "parts": [
+        {
+          "ref": "R81",
+          "component_id": "50c6be5688eadee9",
+          "value": "10k",
+          "footprint_uuid": "2a6066063d6e897d",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              -0.509999996,
+              0.0
+            ],
+            "2": [
+              0.509999996,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "+3V3",
+            "2": "Net-(U5-RXD1{slash}MODE1)"
+          }
+        },
+        {
+          "ref": "R84",
+          "component_id": "e9740b3fcf1ebe1e",
+          "value": "33",
+          "footprint_uuid": "b88be12820f98156",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              0.5099990054,
+              0.0
+            ],
+            "2": [
+              -0.5099990054,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "Net-(U5-RXD1{slash}MODE1)",
+            "2": "RMII_RXD1"
+          }
+        }
+      ]
+    },
+    {
+      "refs": [
+        "R82",
+        "R83"
+      ],
+      "identical_component_origin_xy_mm": [
+        47.92000068,
+        38.77499992
+      ],
+      "side": "top",
+      "both_dnp_false": true,
+      "parts": [
+        {
+          "ref": "R82",
+          "component_id": "1f2e510e91a16258",
+          "value": "10k",
+          "footprint_uuid": "e1752e3e12976b25",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              -0.509999996,
+              0.0
+            ],
+            "2": [
+              0.509999996,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "+3V3",
+            "2": "Net-(U5-RXD0{slash}MODE0)"
+          }
+        },
+        {
+          "ref": "R83",
+          "component_id": "7865bcfd2ec3f25e",
+          "value": "33",
+          "footprint_uuid": "883ce5d7fa90fad3",
+          "component_rotation_deg": 0,
+          "local_pin_centers_mm": {
+            "1": [
+              0.5099990054,
+              0.0
+            ],
+            "2": [
+              -0.5099990054,
+              0.0
+            ]
+          },
+          "pad_nets": {
+            "1": "Net-(U5-RXD0{slash}MODE0)",
+            "2": "RMII_RXD0"
+          }
+        }
+      ]
+    }
+  ],
+  "introduced_by_3d_assignment": false,
+  "interpretation": "Five pairs of different fitted resistor refs have the same frozen PCB component origin and opposite terminal numbering. Their terminal nets differ. Their 3D meshes therefore coincide; source-level electrical/assembly intent needs a separate review before fabrication.",
+  "limits": [
+    "This diagnostic records frozen source facts; it does not change any placement, net, DNP or 3D model binding.",
+    "No new native DRC was run and the historical strict DRC0 result is not reclassified or invalidated by this read-only report.",
+    "The unlabelled OBJ contains two instances at each shared location; individual identical mesh refs cannot be distinguished from OBJ alone."
+  ]
+}

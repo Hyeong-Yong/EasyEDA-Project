@@ -1,0 +1,787 @@
+{
+  "schema": "stm32h747-native-pcb-routing-merge-v1",
+  "status": "merged-awaiting-native-netlist-and-drc",
+  "manufacturing_ready": false,
+  "inputs": {
+    "placed_native_pcb": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\native-pcb\\native-pcb-placed.epru",
+      "sha256": "f00d9f370fc89fc82c52abe93a75f3bb4a4611efdd3dada7a0152a4c50a29d40"
+    },
+    "placement_manifest": {
+      "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\native-pcb\\native-pcb-placement-manifest.json",
+      "sha256": "181e0385d88dead21166e1a536c003cd845391ee145d11c6b4f34ee0e9744056"
+    },
+    "route": {
+      "path": "output\\native-pcb\\gerber-routing-reference.epru",
+      "sha256": "b5f4f9ba2db36c4dd9f598f7a12bc7da78c5873ad39cd9cfd5440877cc1c46f5",
+      "strict_schema": {
+        "path": "output\\validation\\native-pcb-routing-schema-report.json",
+        "sha256": "4b68d7c53f79510ac3154a4201c17f1b6ae72a38bdb8397892ea888cbff44064",
+        "format_version": 6,
+        "valid": true,
+        "issue_count": 0,
+        "documented_runtime_exceptions": 8994
+      },
+      "primitive_count": 8968,
+      "primitive_counts": {
+        "ARC": 2184,
+        "FILL": 615,
+        "LINE": 5535,
+        "VIA": 634
+      },
+      "primitive_payload_sha256": "7243eb57d4465c6cdc30fbbb67bcb14d082b332e639c9a25e8936e8b714d9792",
+      "net_count": 279,
+      "layer_phys_count": 13,
+      "layer_phys_payload_sha256": "64ba78316dc25190bb734367016e8f72a3f61fc1ccffd9cd14134d710359c3e5",
+      "unknown_dielectric_properties_are_null": true
+    },
+    "global_silkscreen": {
+      "path": "output\\native-pcb\\global-silkscreen-reference.epru",
+      "sha256": "ed5eb4715c0be8ffef7dd9c3dc313130345c84d503d20db37fa69cf7e54d37bb",
+      "strict_schema": {
+        "path": "output\\validation\\native-pcb-global-silkscreen-schema-report.json",
+        "sha256": "8ce94a90a44eb0d2fbf8a00220e6d2b197acbbfdbed24a9753ff17f9c5b2a0f4",
+        "format_version": 6,
+        "valid": true,
+        "issue_count": 0,
+        "documented_runtime_exceptions": 504
+      },
+      "primitive_count": 504,
+      "primitive_counts": {
+        "FILL": 12,
+        "LINE": 492
+      },
+      "primitive_payload_sha256": "0f2e1f452b111a5338be37a204b03b705e3e04cdfe6c07ab8ee029b2ce33379b"
+    },
+    "semantic_contract": {
+      "reference_netlist_path": "output\\semantic\\reference-netlist.json",
+      "reference_netlist_sha256": "285f593e2b90a93d17a3d47efbf84382f9f002aa699544340d778e9a389f7e78",
+      "exact_latest_net_count": 279,
+      "old_bias_net_count": 20,
+      "old_bias_nets_absent_from_route": true,
+      "physical_reference_count": 330,
+      "removed_capacitor_count": 10,
+      "removed_capacitors_absent_from_physical_refs": true
+    },
+    "layer_contract": {
+      "native_copper_id_to_gerber_name": {
+        "1": "F.Cu",
+        "15": "In1.Cu",
+        "16": "In2.Cu",
+        "17": "In3.Cu",
+        "18": "In4.Cu",
+        "2": "B.Cu"
+      },
+      "base_metadata_policy": "preserve existing LAYER writer fields; change only use/show to true for IDs 1,2,15,16,17,18",
+      "replace_default_two_layer_substrate_id": 361,
+      "route_source_substrate_ids": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "runtime_substrate_id_map": {
+        "101": 361,
+        "102": 362,
+        "103": 363,
+        "104": 364,
+        "105": 365
+      },
+      "append_runtime_substrate_ids": [
+        361,
+        362,
+        363,
+        364,
+        365
+      ],
+      "runtime_id_evidence": "EasyEDA Pro PCB 3.2 layerPhyFix.fix treats substrate IDs 101..360 as legacy/error data and remaps them by +260; fixInnerSubstrate allocates substrate IDs from 361 upward",
+      "replace_all_layer_phys_with_route_count": 13,
+      "route_layer_phys_payload_sha256": "64ba78316dc25190bb734367016e8f72a3f61fc1ccffd9cd14134d710359c3e5",
+      "coordinate_and_unit_assertions": {
+        "route_primitives": "board-local mil, Y-up",
+        "global_silkscreen": "board-local mil, Y-up",
+        "layer_phys_thickness_disk_unit": "mil",
+        "physical_stack_total_mm": 1.58
+      }
+    },
+    "gerber_job_design_rules": {
+      "path": "보드 자료\\MCU_BOARD_v19_260616_Gerber\\MCU_BOARD_v19_260616-job.gbrjob",
+      "sha256": "30f6b85c10508668feda47cdf1cfbc8be9f4a3ce0c20b41ca3c99e46b68c83e0",
+      "outer": {
+        "Layers": "Outer",
+        "PadToPad": 0.1,
+        "PadToTrack": 0.1,
+        "TrackToTrack": 0.1,
+        "MinLineWidth": 0.15,
+        "TrackToRegion": 0.1,
+        "RegionToRegion": 0.1
+      },
+      "inner": {
+        "Layers": "Inner",
+        "PadToPad": 0.0,
+        "PadToTrack": 0.0,
+        "TrackToTrack": 0.1,
+        "MinLineWidth": 0.15,
+        "TrackToRegion": 0.1,
+        "RegionToRegion": 0.1
+      },
+      "summary": {
+        "nominal_clearance_mm": 0.1,
+        "minimum_line_width_mm": 0.15
+      },
+      "native_rule_policy": "audit and preserve exactly; do not modify in this assembler"
+    }
+  },
+  "root_identity": {
+    "dochead_uuid": "3ca9811d1a42d086",
+    "meta_present": false,
+    "meta_board": null,
+    "dochead_meta_semantic_sha256_before": "9bec0804783f5a110903130d9fe487a899135c545741834b58fe0be9bfdf94f8",
+    "dochead_meta_semantic_sha256_after": "9bec0804783f5a110903130d9fe487a899135c545741834b58fe0be9bfdf94f8",
+    "preserved": true
+  },
+  "protected_native_records": {
+    "types": [
+      "ATTR",
+      "COMPONENT",
+      "DOCHEAD",
+      "META",
+      "NET",
+      "PAD",
+      "PAD_NET",
+      "RULE",
+      "RULE_TEMPLATE"
+    ],
+    "semantic_sha256_before": "43b32f85628d7f5fa3eb7bcfd581acc395731f4b29ac6ef89f591459d170b6aa",
+    "semantic_sha256_after": "43b32f85628d7f5fa3eb7bcfd581acc395731f4b29ac6ef89f591459d170b6aa",
+    "preserved": true
+  },
+  "native_rules": {
+    "record_count": 17,
+    "semantic_sha256": "adb9685346e4c56a54dede614a8248cc253f6bac0be7cb411dd021125b6caf7f",
+    "default_rules": [
+      {
+        "record_id": "[\"RULE\",\"SAFE\",\"copperThickness1oz\"]",
+        "category": "SAFE",
+        "name": "copperThickness1oz",
+        "context_unit_field": "mm",
+        "safe_spacing_raw_unique": [
+          4.0157,
+          5.9843,
+          6.0,
+          6.929,
+          10.0,
+          11.8,
+          11.811
+        ],
+        "safe_spacing_as_mm_if_internal_mil": [
+          0.101999,
+          0.152001,
+          0.1524,
+          0.175997,
+          0.254,
+          0.29972,
+          0.299999
+        ]
+      },
+      {
+        "record_id": "[\"RULE\",\"OTHER\",\"otherClearance\"]",
+        "category": "OTHER",
+        "name": "otherClearance",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"CREEPAGE\",\"creepage\"]",
+        "category": "CREEPAGE",
+        "name": "creepage",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"TRACK\",\"copperThickness1oz\"]",
+        "category": "TRACK",
+        "name": "copperThickness1oz",
+        "context_unit_field": "mm",
+        "track_rows_raw": [
+          {
+            "layerId": 1,
+            "stroMin": 5,
+            "stroDef": 10,
+            "stroMax": 100
+          }
+        ],
+        "track_rows_as_mm_if_internal_mil": [
+          {
+            "stroMin": 0.127,
+            "stroDef": 0.254,
+            "stroMax": 2.54
+          }
+        ]
+      },
+      {
+        "record_id": "[\"RULE\",\"NET_LENGTH\",\"netLength\"]",
+        "category": "NET_LENGTH",
+        "name": "netLength",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"NET_LENGTH_TOLERANCE\",\"netLengthTolerance\"]",
+        "category": "NET_LENGTH_TOLERANCE",
+        "name": "netLengthTolerance",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"DIFFER_ENTAIL\",\"differentialPair\"]",
+        "category": "DIFFER_ENTAIL",
+        "name": "differentialPair",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"BLIND\",\"blindVia\"]",
+        "category": "BLIND",
+        "name": "blindVia",
+        "context_unit_field": null
+      },
+      {
+        "record_id": "[\"RULE\",\"RADIUS\",\"viaSize\"]",
+        "category": "RADIUS",
+        "name": "viaSize",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"PLANE\",\"innerPlane\"]",
+        "category": "PLANE",
+        "name": "innerPlane",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"COPPER\",\"copperRegion\"]",
+        "category": "COPPER",
+        "name": "copperRegion",
+        "context_unit_field": "mm",
+        "track_rows_raw": [
+          {
+            "layerId": 1,
+            "connType": "DIRECT"
+          }
+        ],
+        "track_rows_as_mm_if_internal_mil": [
+          {}
+        ]
+      },
+      {
+        "record_id": "[\"RULE\",\"PASTE\",\"pasteMaskExpansion\"]",
+        "category": "PASTE",
+        "name": "pasteMaskExpansion",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"SOLDER\",\"solderMaskExpansion\"]",
+        "category": "SOLDER",
+        "name": "solderMaskExpansion",
+        "context_unit_field": "mm"
+      },
+      {
+        "record_id": "[\"RULE\",\"AUTO_ROUTER\",\"Common\"]",
+        "category": "AUTO_ROUTER",
+        "name": "Common",
+        "context_unit_field": null
+      }
+    ],
+    "gerber_job_rules": [
+      {
+        "Layers": "Outer",
+        "PadToPad": 0.1,
+        "PadToTrack": 0.1,
+        "TrackToTrack": 0.1,
+        "MinLineWidth": 0.15,
+        "TrackToRegion": 0.1,
+        "RegionToRegion": 0.1
+      },
+      {
+        "Layers": "Inner",
+        "PadToPad": 0.0,
+        "PadToTrack": 0.0,
+        "TrackToTrack": 0.1,
+        "MinLineWidth": 0.15,
+        "TrackToRegion": 0.1,
+        "RegionToRegion": 0.1
+      }
+    ],
+    "difference_report_only": true,
+    "mutation_performed": false,
+    "decision": "Gerber Job declares nominal 0.10 mm clearance and 0.15 mm minimum line width. Native DEFAULT rule values are reported above exactly and are intentionally preserved for later EasyEDA rule-configuration review.",
+    "semantic_sha256_after": "adb9685346e4c56a54dede614a8248cc253f6bac0be7cb411dd021125b6caf7f",
+    "preserved": true
+  },
+  "layers": {
+    "base_layer_count": 60,
+    "base_layer_phys_removed": 9,
+    "default_substrate_361_replaced": 1,
+    "copper_layer_toggles": [
+      {
+        "layer_id": 1,
+        "gerber_name": "F.Cu",
+        "native_layer_name_preserved": "Top Layer",
+        "before": {
+          "use": true,
+          "show": true
+        },
+        "after": {
+          "use": true,
+          "show": true
+        },
+        "only_fields_changed": []
+      },
+      {
+        "layer_id": 2,
+        "gerber_name": "B.Cu",
+        "native_layer_name_preserved": "Bottom Layer",
+        "before": {
+          "use": true,
+          "show": true
+        },
+        "after": {
+          "use": true,
+          "show": true
+        },
+        "only_fields_changed": []
+      },
+      {
+        "layer_id": 15,
+        "gerber_name": "In1.Cu",
+        "native_layer_name_preserved": "Inner1",
+        "before": {
+          "use": false,
+          "show": false
+        },
+        "after": {
+          "use": true,
+          "show": true
+        },
+        "only_fields_changed": [
+          "show",
+          "use"
+        ]
+      },
+      {
+        "layer_id": 16,
+        "gerber_name": "In2.Cu",
+        "native_layer_name_preserved": "Inner2",
+        "before": {
+          "use": false,
+          "show": false
+        },
+        "after": {
+          "use": true,
+          "show": true
+        },
+        "only_fields_changed": [
+          "show",
+          "use"
+        ]
+      },
+      {
+        "layer_id": 17,
+        "gerber_name": "In3.Cu",
+        "native_layer_name_preserved": "Inner3",
+        "before": {
+          "use": false,
+          "show": false
+        },
+        "after": {
+          "use": true,
+          "show": true
+        },
+        "only_fields_changed": [
+          "show",
+          "use"
+        ]
+      },
+      {
+        "layer_id": 18,
+        "gerber_name": "In4.Cu",
+        "native_layer_name_preserved": "Inner4",
+        "before": {
+          "use": false,
+          "show": false
+        },
+        "after": {
+          "use": true,
+          "show": true
+        },
+        "only_fields_changed": [
+          "show",
+          "use"
+        ]
+      }
+    ],
+    "route_substrate_layers_appended": 5,
+    "route_layer_phys_appended": 13,
+    "source_to_runtime_substrate_ids": {
+      "101": 361,
+      "102": 362,
+      "103": 363,
+      "104": 364,
+      "105": 365
+    },
+    "layer_count": 64,
+    "layer_phys_count": 13,
+    "copper_layers_enabled_and_shown": [
+      1,
+      2,
+      15,
+      16,
+      17,
+      18
+    ],
+    "source_substrate_layer_ids": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "runtime_substrate_layer_ids": [
+      361,
+      362,
+      363,
+      364,
+      365
+    ],
+    "default_two_layer_substrate_361_replaced": true,
+    "legacy_substrate_ids_absent": true,
+    "layer_phys_payload_sha256": "028028003f9885f6547baa253c79ce2e2a98c00b8eb3bd83018b08a09ea76f7a",
+    "unknown_dielectric_properties_are_null": true
+  },
+  "electrical_invariants": {
+    "base_nonempty_net_set_casefold_exact_latest": true,
+    "output_net_set_exact_generated_native_spelling": true,
+    "latest_net_count": 279,
+    "native_nonempty_net_count": 279,
+    "native_empty_net_scaffold_count": 1,
+    "native_net_spelling_changes_from_semantic": {
+      "/enet/VCP_RX": "/ENET/VCP_RX",
+      "/enet/VCP_TX": "/ENET/VCP_TX",
+      "/mcu/DBG_SWCLK": "/MCU/DBG_SWCLK",
+      "/mcu/DBG_SWDIO": "/MCU/DBG_SWDIO",
+      "/mcu/LED_01": "/MCU/LED_01",
+      "/mcu/LED_02": "/MCU/LED_02",
+      "/mcu/LED_03": "/MCU/LED_03",
+      "/mcu/OSC_25M_IN": "/MCU/OSC_25M_IN",
+      "/mcu_vcc/VDD_SDC": "/MCU_VCC/VDD_SDC",
+      "ETH_nINT": "ETH_NINT",
+      "Earth_P": "EARTH_P",
+      "Net-(C1-Pad1)": "NET-(C1-PAD1)",
+      "Net-(C2-Pad1)": "NET-(C2-PAD1)",
+      "Net-(C70-Pad1)": "NET-(C70-PAD1)",
+      "Net-(CN2-LED(Green)_K)": "NET-(CN2-LED(GREEN)_K)",
+      "Net-(CN2-LED(Yellow)_A)": "NET-(CN2-LED(YELLOW)_A)",
+      "Net-(CN2-LED(Yellow)_K)": "NET-(CN2-LED(YELLOW)_K)",
+      "Net-(CN2-NC-Pad4)": "NET-(CN2-NC-PAD4)",
+      "Net-(CN2-NC-Pad7)": "NET-(CN2-NC-PAD7)",
+      "Net-(CN2-RX+)": "NET-(CN2-RX+)",
+      "Net-(CN2-RX-)": "NET-(CN2-RX-)",
+      "Net-(CN2-TX+)": "NET-(CN2-TX+)",
+      "Net-(CN2-TX-)": "NET-(CN2-TX-)",
+      "Net-(CN3-CC1)": "NET-(CN3-CC1)",
+      "Net-(CN3-CC2)": "NET-(CN3-CC2)",
+      "Net-(CN3-D+-PadA6)": "NET-(CN3-D+-PADA6)",
+      "Net-(CN3-D--PadA7)": "NET-(CN3-D--PADA7)",
+      "Net-(CN4-CC1)": "NET-(CN4-CC1)",
+      "Net-(CN4-CC2)": "NET-(CN4-CC2)",
+      "Net-(CN4-D+-PadA6)": "NET-(CN4-D+-PADA6)",
+      "Net-(CN4-D--PadA7)": "NET-(CN4-D--PADA7)",
+      "Net-(D1-K)": "NET-(D1-K)",
+      "Net-(D2-A)": "NET-(D2-A)",
+      "Net-(D3-A)": "NET-(D3-A)",
+      "Net-(D4-A)": "NET-(D4-A)",
+      "Net-(D6-A)": "NET-(D6-A)",
+      "Net-(J10-In)": "NET-(J10-IN)",
+      "Net-(J11-In)": "NET-(J11-IN)",
+      "Net-(J2-In)": "NET-(J2-IN)",
+      "Net-(J3-In)": "NET-(J3-IN)",
+      "Net-(J4-In)": "NET-(J4-IN)",
+      "Net-(J5-In)": "NET-(J5-IN)",
+      "Net-(J6-In)": "NET-(J6-IN)",
+      "Net-(J7-In)": "NET-(J7-IN)",
+      "Net-(J8-In)": "NET-(J8-IN)",
+      "Net-(J9-In)": "NET-(J9-IN)",
+      "Net-(Q1-B)": "NET-(Q1-B)",
+      "Net-(Q1-C)": "NET-(Q1-C)",
+      "Net-(R105-Pad1)": "NET-(R105-PAD1)",
+      "Net-(R107-Pad1)": "NET-(R107-PAD1)",
+      "Net-(R128-Pad1)": "NET-(R128-PAD1)",
+      "Net-(R133-Pad1)": "NET-(R133-PAD1)",
+      "Net-(R134-Pad1)": "NET-(R134-PAD1)",
+      "Net-(R137-Pad2)": "NET-(R137-PAD2)",
+      "Net-(R138-Pad2)": "NET-(R138-PAD2)",
+      "Net-(R139-Pad2)": "NET-(R139-PAD2)",
+      "Net-(R149-Pad2)": "NET-(R149-PAD2)",
+      "Net-(R150-Pad2)": "NET-(R150-PAD2)",
+      "Net-(R151-Pad2)": "NET-(R151-PAD2)",
+      "Net-(R161-Pad2)": "NET-(R161-PAD2)",
+      "Net-(R162-Pad2)": "NET-(R162-PAD2)",
+      "Net-(R163-Pad2)": "NET-(R163-PAD2)",
+      "Net-(R164-Pad2)": "NET-(R164-PAD2)",
+      "Net-(TR1-C_RD)": "NET-(TR1-C_RD)",
+      "Net-(TR1-C_RX)": "NET-(TR1-C_RX)",
+      "Net-(TR1-C_TD)": "NET-(TR1-C_TD)",
+      "Net-(TR1-RX+)": "NET-(TR1-RX+)",
+      "Net-(TR1-RX-)": "NET-(TR1-RX-)",
+      "Net-(TR1-TX+)": "NET-(TR1-TX+)",
+      "Net-(TR1-TX-)": "NET-(TR1-TX-)",
+      "Net-(TVS2-VBUS)": "NET-(TVS2-VBUS)",
+      "Net-(U1A-PC14-OSC32_IN)": "NET-(U1A-PC14-OSC32_IN)",
+      "Net-(U1A-PC15-OSC32_OUT)": "NET-(U1A-PC15-OSC32_OUT)",
+      "Net-(U1A-PD0)": "NET-(U1A-PD0)",
+      "Net-(U1A-PD1)": "NET-(U1A-PD1)",
+      "Net-(U1A-PD10)": "NET-(U1A-PD10)",
+      "Net-(U1A-PD14)": "NET-(U1A-PD14)",
+      "Net-(U1A-PD15)": "NET-(U1A-PD15)",
+      "Net-(U1A-PD8)": "NET-(U1A-PD8)",
+      "Net-(U1A-PD9)": "NET-(U1A-PD9)",
+      "Net-(U1B-PE10)": "NET-(U1B-PE10)",
+      "Net-(U1B-PE11)": "NET-(U1B-PE11)",
+      "Net-(U1B-PE12)": "NET-(U1B-PE12)",
+      "Net-(U1B-PE13)": "NET-(U1B-PE13)",
+      "Net-(U1B-PE14)": "NET-(U1B-PE14)",
+      "Net-(U1B-PE15)": "NET-(U1B-PE15)",
+      "Net-(U1B-PE2)": "NET-(U1B-PE2)",
+      "Net-(U1B-PE7)": "NET-(U1B-PE7)",
+      "Net-(U1B-PE8)": "NET-(U1B-PE8)",
+      "Net-(U1B-PE9)": "NET-(U1B-PE9)",
+      "Net-(U1B-PF0)": "NET-(U1B-PF0)",
+      "Net-(U1B-PF1)": "NET-(U1B-PF1)",
+      "Net-(U1B-PF11)": "NET-(U1B-PF11)",
+      "Net-(U1B-PF12)": "NET-(U1B-PF12)",
+      "Net-(U1B-PF13)": "NET-(U1B-PF13)",
+      "Net-(U1B-PF14)": "NET-(U1B-PF14)",
+      "Net-(U1B-PF15)": "NET-(U1B-PF15)",
+      "Net-(U1B-PF2)": "NET-(U1B-PF2)",
+      "Net-(U1B-PF3)": "NET-(U1B-PF3)",
+      "Net-(U1B-PF4)": "NET-(U1B-PF4)",
+      "Net-(U1B-PF5)": "NET-(U1B-PF5)",
+      "Net-(U1B-PG0)": "NET-(U1B-PG0)",
+      "Net-(U1B-PG1)": "NET-(U1B-PG1)",
+      "Net-(U1B-PG11)": "NET-(U1B-PG11)",
+      "Net-(U1B-PG12)": "NET-(U1B-PG12)",
+      "Net-(U1B-PG13)": "NET-(U1B-PG13)",
+      "Net-(U1B-PG15)": "NET-(U1B-PG15)",
+      "Net-(U1B-PG2)": "NET-(U1B-PG2)",
+      "Net-(U1B-PG4)": "NET-(U1B-PG4)",
+      "Net-(U1B-PG5)": "NET-(U1B-PG5)",
+      "Net-(U1B-PG8)": "NET-(U1B-PG8)",
+      "Net-(U1B-PH10)": "NET-(U1B-PH10)",
+      "Net-(U1B-PH11)": "NET-(U1B-PH11)",
+      "Net-(U1B-PH12)": "NET-(U1B-PH12)",
+      "Net-(U1B-PH13)": "NET-(U1B-PH13)",
+      "Net-(U1B-PH14)": "NET-(U1B-PH14)",
+      "Net-(U1B-PH15)": "NET-(U1B-PH15)",
+      "Net-(U1B-PH5)": "NET-(U1B-PH5)",
+      "Net-(U1B-PH6)": "NET-(U1B-PH6)",
+      "Net-(U1B-PH8)": "NET-(U1B-PH8)",
+      "Net-(U1B-PH9)": "NET-(U1B-PH9)",
+      "Net-(U1C-BOOT0)": "NET-(U1C-BOOT0)",
+      "Net-(U1C-PDR_ON)": "NET-(U1C-PDR_ON)",
+      "Net-(U1C-PI0)": "NET-(U1C-PI0)",
+      "Net-(U1C-PI1)": "NET-(U1C-PI1)",
+      "Net-(U1C-PI10)": "NET-(U1C-PI10)",
+      "Net-(U1C-PI2)": "NET-(U1C-PI2)",
+      "Net-(U1C-PI3)": "NET-(U1C-PI3)",
+      "Net-(U1C-PI6)": "NET-(U1C-PI6)",
+      "Net-(U1C-PI7)": "NET-(U1C-PI7)",
+      "Net-(U1C-PI9)": "NET-(U1C-PI9)",
+      "Net-(U1D-VCAPDSI)": "NET-(U1D-VCAPDSI)",
+      "Net-(U1D-VDDA)": "NET-(U1D-VDDA)",
+      "Net-(U1D-VDDSMPS)": "NET-(U1D-VDDSMPS)",
+      "Net-(U1D-VLXSMPS)": "NET-(U1D-VLXSMPS)",
+      "Net-(U1D-VREF+)": "NET-(U1D-VREF+)",
+      "Net-(U3-EN)": "NET-(U3-EN)",
+      "Net-(U5-CRS_DV{slash}MODE2)": "NET-(U5-CRS_DV{SLASH}MODE2)",
+      "Net-(U5-MDIO)": "NET-(U5-MDIO)",
+      "Net-(U5-RBIAS)": "NET-(U5-RBIAS)",
+      "Net-(U5-RXD0{slash}MODE0)": "NET-(U5-RXD0{SLASH}MODE0)",
+      "Net-(U5-RXD1{slash}MODE1)": "NET-(U5-RXD1{SLASH}MODE1)",
+      "Net-(U5-RXER{slash}PHYAD0)": "NET-(U5-RXER{SLASH}PHYAD0)",
+      "Net-(U5-VDDCR)": "NET-(U5-VDDCR)",
+      "Net-(U5-~{INT}{slash}REFCLKO)": "NET-(U5-~{INT}{SLASH}REFCLKO)",
+      "Net-(U7-CLKOUT)": "NET-(U7-CLKOUT)",
+      "Net-(U7-D0)": "NET-(U7-D0)",
+      "Net-(U7-D1)": "NET-(U7-D1)",
+      "Net-(U7-D2)": "NET-(U7-D2)",
+      "Net-(U7-D3)": "NET-(U7-D3)",
+      "Net-(U7-D4)": "NET-(U7-D4)",
+      "Net-(U7-D5)": "NET-(U7-D5)",
+      "Net-(U7-D6)": "NET-(U7-D6)",
+      "Net-(U7-D7)": "NET-(U7-D7)",
+      "Net-(U7-DIR)": "NET-(U7-DIR)",
+      "Net-(U7-DM)": "NET-(U7-DM)",
+      "Net-(U7-DP)": "NET-(U7-DP)",
+      "Net-(U7-ID)": "NET-(U7-ID)",
+      "Net-(U7-NXT)": "NET-(U7-NXT)",
+      "Net-(U7-RBIAS)": "NET-(U7-RBIAS)",
+      "Net-(U7-REFCLK)": "NET-(U7-REFCLK)",
+      "Net-(U7-REFSEL0)": "NET-(U7-REFSEL0)",
+      "Net-(U7-REFSEL1)": "NET-(U7-REFSEL1)",
+      "Net-(U7-REFSEL2)": "NET-(U7-REFSEL2)",
+      "Net-(U7-RESETB)": "NET-(U7-RESETB)",
+      "Net-(U7-STP)": "NET-(U7-STP)",
+      "Net-(U8-UD+)": "NET-(U8-UD+)",
+      "Net-(U8-UD-)": "NET-(U8-UD-)",
+      "Net-(X1-EN)": "NET-(X1-EN)",
+      "Net-(X1-OUT)": "NET-(X1-OUT)",
+      "Net-(X2-EN)": "NET-(X2-EN)",
+      "Net-(X2-OUT)": "NET-(X2-OUT)",
+      "SPI2_SOFT_CSn": "SPI2_SOFT_CSN"
+    },
+    "native_net_spelling_change_count": 173,
+    "pad_net_before": {
+      "record_count": 1176,
+      "connected_count": 1057,
+      "unconnected_count": 119,
+      "semantic_sha256": "cd1e7de60eb37ad48b56f0a6cd97246481f93d5f1c2bd3d7e04837125b887ab4"
+    },
+    "pad_net_after": {
+      "record_count": 1176,
+      "connected_count": 1057,
+      "unconnected_count": 119,
+      "semantic_sha256": "cd1e7de60eb37ad48b56f0a6cd97246481f93d5f1c2bd3d7e04837125b887ab4"
+    },
+    "pad_net_records_preserved": true,
+    "stale_old_net_count_expected": 20,
+    "stale_old_net_occurrences_before": 0,
+    "stale_old_net_occurrences_after": 0,
+    "physical_reference_count": 330,
+    "component_instance_count": 330,
+    "removed_capacitors_absent": [
+      "C77",
+      "C78",
+      "C79",
+      "C83",
+      "C84",
+      "C85",
+      "C89",
+      "C90",
+      "C91",
+      "C92"
+    ],
+    "native_component_membership_preserved": true
+  },
+  "merge": {
+    "base_record_count": 3190,
+    "base_record_counts": {
+      "ACTIVE_LAYER": 1,
+      "ATTR": 990,
+      "CANVAS": 1,
+      "COMPONENT": 330,
+      "DOCHEAD": 1,
+      "LAYER": 60,
+      "LAYER_PHYS": 9,
+      "NET": 280,
+      "PAD": 4,
+      "PAD_NET": 1176,
+      "PANELIZE": 1,
+      "PREFERENCE": 1,
+      "PRIMITIVE": 37,
+      "RULE": 16,
+      "RULE_SELECTOR": 280,
+      "RULE_TEMPLATE": 1,
+      "SILK_OPTS": 2
+    },
+    "output_record_count": 12670,
+    "output_record_counts": {
+      "ACTIVE_LAYER": 1,
+      "ARC": 2184,
+      "ATTR": 990,
+      "CANVAS": 1,
+      "COMPONENT": 330,
+      "DOCHEAD": 1,
+      "FILL": 627,
+      "LAYER": 64,
+      "LAYER_PHYS": 13,
+      "LINE": 6027,
+      "NET": 280,
+      "PAD": 4,
+      "PAD_NET": 1176,
+      "PANELIZE": 1,
+      "PREFERENCE": 1,
+      "PRIMITIVE": 37,
+      "RULE": 16,
+      "RULE_SELECTOR": 280,
+      "RULE_TEMPLATE": 1,
+      "SILK_OPTS": 2,
+      "VIA": 634
+    },
+    "route_primitives_appended": 8968,
+    "global_silkscreen_primitives_appended": 504,
+    "primitive_id_collisions": 0,
+    "route_primitive_payload_sha256": "84d071338255f7847105fb78afe88270434b7c335824b4fc838d1409c5a008fc",
+    "global_silkscreen_payload_sha256": "0f2e1f452b111a5338be37a204b03b705e3e04cdfe6c07ab8ee029b2ce33379b",
+    "route_and_silkscreen_scaffolds_merged": false
+  },
+  "required_final_gates": {
+    "strict_installed_schema": "run automatically unless --skip-schema-validation",
+    "easyeda_native_netlist_compare": "pending",
+    "easyeda_drc": "pending",
+    "impedance_validation": "not performed; Gerber Job does not provide dielectric constant/loss tangent"
+  },
+  "output": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\native-pcb\\native-pcb-routed.epru",
+    "sha256": "d7e9354a4e9e4cee37b9e7f63f13a1ade07fa4689abc6e94c01e633dffefbc08",
+    "bytes": 7288900
+  },
+  "strict_schema_validation": {
+    "path": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-pcb-routed-schema-report.json",
+    "sha256": "1ebdd1d7a12aace0fe4249ea18b9388cdc2f8bd31265730d773c5a560943706d",
+    "valid": true,
+    "validation_mode": "installed-schema-against-exact-native-getter-baseline",
+    "validator_declared_valid": false,
+    "totals": {
+      "files": 1,
+      "validFiles": 0,
+      "invalidFiles": 1,
+      "records": 12670,
+      "parseErrors": 0,
+      "unmappedRecords": 0,
+      "addFields": 3486,
+      "removeFields": 2645,
+      "changeFields": 4146,
+      "documentedRuntimeExceptions": 9835
+    },
+    "baseline_totals": {
+      "files": 1,
+      "validFiles": 0,
+      "invalidFiles": 1,
+      "records": 3190,
+      "parseErrors": 0,
+      "unmappedRecords": 0,
+      "addFields": 3486,
+      "removeFields": 2645,
+      "changeFields": 4152,
+      "documentedRuntimeExceptions": 349
+    },
+    "new_schema_issue_fingerprints": 0,
+    "resolved_baseline_issue_counts": {
+      "changeFields|PCB|LAYER_PHYS|$body.material": 6
+    },
+    "protected_legacy_records_preserved_instead_of_rewritten": true,
+    "prepublication_candidate": {
+      "valid": true,
+      "totals": {
+        "files": 1,
+        "validFiles": 0,
+        "invalidFiles": 1,
+        "records": 12670,
+        "parseErrors": 0,
+        "unmappedRecords": 0,
+        "addFields": 3486,
+        "removeFields": 2645,
+        "changeFields": 4146,
+        "documentedRuntimeExceptions": 9835
+      },
+      "candidate_sha256": "d7e9354a4e9e4cee37b9e7f63f13a1ade07fa4689abc6e94c01e633dffefbc08",
+      "temporary_candidate_removed": true
+    }
+  }
+}

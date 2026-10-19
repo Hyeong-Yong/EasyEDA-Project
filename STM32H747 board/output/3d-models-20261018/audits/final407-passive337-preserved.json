@@ -1,0 +1,416 @@
+{
+  "schema": "stm32-final407-preserved-passive337-triangle-multiplicity-v1",
+  "passed": true,
+  "native_calls": 0,
+  "baseline": {
+    "path": "STM32H747_passives_337_STM32H747_passives_337",
+    "sha256": "5823ce54ce989db57899edec3497e8d5b8eb26f8728f98440ae46dc267eb09b6",
+    "face_count": 624707
+  },
+  "current": {
+    "path": "STM32H747_calibrated407_STM32H747_calibrated407",
+    "sha256": "8a294fa16ac55dedd16695ecad4b568e9c8fbadf919d66b0af5f61db4811faa5",
+    "face_count": 760928
+  },
+  "matched_baseline_faces_with_multiplicity": 624707,
+  "missing_baseline_faces": 0,
+  "coordinate_rounding_mm": 1e-06,
+  "disjoint_known70_model_face_count": 136221,
+  "remaining_current_faces_after_known70_excluded": 624707,
+  "unexpected_remaining_faces": 0,
+  "known_model_ranges": [
+    {
+      "refs": [
+        "FB1"
+      ],
+      "first": 28395,
+      "last": 28550
+    },
+    {
+      "refs": [
+        "FB2"
+      ],
+      "first": 28551,
+      "last": 28706
+    },
+    {
+      "refs": [
+        "FB3"
+      ],
+      "first": 28707,
+      "last": 28862
+    },
+    {
+      "refs": [
+        "D2"
+      ],
+      "first": 25904,
+      "last": 26313
+    },
+    {
+      "refs": [
+        "D3"
+      ],
+      "first": 26314,
+      "last": 26723
+    },
+    {
+      "refs": [
+        "D4"
+      ],
+      "first": 26724,
+      "last": 27133
+    },
+    {
+      "refs": [
+        "D6"
+      ],
+      "first": 27985,
+      "last": 28394
+    },
+    {
+      "refs": [
+        "Y1"
+      ],
+      "first": 100978,
+      "last": 102022
+    },
+    {
+      "refs": [
+        "X1"
+      ],
+      "first": 99194,
+      "last": 100085
+    },
+    {
+      "refs": [
+        "X2"
+      ],
+      "first": 100086,
+      "last": 100977
+    },
+    {
+      "refs": [
+        "U3"
+      ],
+      "first": 92538,
+      "last": 92826
+    },
+    {
+      "refs": [
+        "U5"
+      ],
+      "first": 97096,
+      "last": 97797
+    },
+    {
+      "refs": [
+        "U7"
+      ],
+      "first": 98071,
+      "last": 98778
+    },
+    {
+      "refs": [
+        "D5"
+      ],
+      "first": 27134,
+      "last": 27984
+    },
+    {
+      "refs": [
+        "D20"
+      ],
+      "first": 135388,
+      "last": 135540
+    },
+    {
+      "refs": [
+        "D1"
+      ],
+      "first": 25247,
+      "last": 25903
+    },
+    {
+      "refs": [
+        "U8"
+      ],
+      "first": 98779,
+      "last": 99193
+    },
+    {
+      "refs": [
+        "U6"
+      ],
+      "first": 97798,
+      "last": 98070
+    },
+    {
+      "refs": [
+        "U9"
+      ],
+      "first": 151032,
+      "last": 151304
+    },
+    {
+      "refs": [
+        "U2"
+      ],
+      "first": 91832,
+      "last": 92537
+    },
+    {
+      "refs": [
+        "Q1"
+      ],
+      "first": 50616,
+      "last": 50864
+    },
+    {
+      "refs": [
+        "TVS1"
+      ],
+      "first": 78177,
+      "last": 79233
+    },
+    {
+      "refs": [
+        "TVS2"
+      ],
+      "first": 79234,
+      "last": 80290
+    },
+    {
+      "refs": [
+        "TVS3"
+      ],
+      "first": 80291,
+      "last": 81347
+    },
+    {
+      "refs": [
+        "C41"
+      ],
+      "first": 12841,
+      "last": 13322
+    },
+    {
+      "refs": [
+        "U1"
+      ],
+      "first": 81348,
+      "last": 91831
+    },
+    {
+      "refs": [
+        "U4"
+      ],
+      "first": 92827,
+      "last": 97095
+    },
+    {
+      "refs": [
+        "TR1"
+      ],
+      "first": 77168,
+      "last": 78176
+    },
+    {
+      "refs": [
+        "SW1"
+      ],
+      "first": 76090,
+      "last": 77167
+    },
+    {
+      "refs": [
+        "J1",
+        "J18",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8",
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J13",
+        "J14",
+        "J15",
+        "J16",
+        "J17"
+      ],
+      "first": 28863,
+      "last": 50615
+    },
+    {
+      "refs": [
+        "U10"
+      ],
+      "first": 109104,
+      "last": 109821
+    },
+    {
+      "refs": [
+        "U11"
+      ],
+      "first": 109822,
+      "last": 110539
+    },
+    {
+      "refs": [
+        "U12"
+      ],
+      "first": 110540,
+      "last": 111257
+    },
+    {
+      "refs": [
+        "U13"
+      ],
+      "first": 111258,
+      "last": 111975
+    },
+    {
+      "refs": [
+        "U14"
+      ],
+      "first": 111976,
+      "last": 112693
+    },
+    {
+      "refs": [
+        "U15"
+      ],
+      "first": 112694,
+      "last": 113411
+    },
+    {
+      "refs": [
+        "U16"
+      ],
+      "first": 113412,
+      "last": 114129
+    },
+    {
+      "refs": [
+        "U17"
+      ],
+      "first": 114130,
+      "last": 114847
+    },
+    {
+      "refs": [
+        "U18"
+      ],
+      "first": 114848,
+      "last": 115565
+    },
+    {
+      "refs": [
+        "U19"
+      ],
+      "first": 115566,
+      "last": 116283
+    },
+    {
+      "refs": [
+        "U20"
+      ],
+      "first": 141001,
+      "last": 141718
+    },
+    {
+      "refs": [
+        "U21"
+      ],
+      "first": 141719,
+      "last": 142436
+    },
+    {
+      "refs": [
+        "U22"
+      ],
+      "first": 142437,
+      "last": 143154
+    },
+    {
+      "refs": [
+        "U23"
+      ],
+      "first": 143155,
+      "last": 143872
+    },
+    {
+      "refs": [
+        "U24"
+      ],
+      "first": 143873,
+      "last": 144590
+    },
+    {
+      "refs": [
+        "U25"
+      ],
+      "first": 144591,
+      "last": 145308
+    },
+    {
+      "refs": [
+        "U26"
+      ],
+      "first": 145309,
+      "last": 146026
+    },
+    {
+      "refs": [
+        "U27"
+      ],
+      "first": 146027,
+      "last": 146744
+    },
+    {
+      "refs": [
+        "U28"
+      ],
+      "first": 146745,
+      "last": 147462
+    },
+    {
+      "refs": [
+        "U29"
+      ],
+      "first": 147463,
+      "last": 148180
+    },
+    {
+      "refs": [
+        "U30"
+      ],
+      "first": 148181,
+      "last": 148898
+    },
+    {
+      "refs": [
+        "U31"
+      ],
+      "first": 148899,
+      "last": 149616
+    },
+    {
+      "refs": [
+        "U32"
+      ],
+      "first": 149617,
+      "last": 150334
+    }
+  ],
+  "prior_component_identity_and_side_coverage_audit": "audits/obj-passives337-spatial-reviewed.json",
+  "limits": [
+    "This proves retention of baseline337models plus board triangles with multiplicity; model identity/side placement remains grounded in the prior337-instance spatial audit and current native binding metadata.",
+    "Five coincident resistor pairs are inherited. Their identical overlapping meshes do not independently identify individual reference names in OBJ."
+  ]
+}

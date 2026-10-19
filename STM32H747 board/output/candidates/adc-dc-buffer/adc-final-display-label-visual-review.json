@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "Saved/reopened final ADC source, after the exact eighteen display-attribute edits",
+  "sourcePath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc-dc-display-final-reopened-20261016.epru",
+  "sourceSha256": "3df659d6dd24224e0f6946d9671c24c924cab0e18013a138a9ae61e956be1b8c",
+  "imagesInspected": [
+    "adc-final-three-buffers.png",
+    "adc-final-reference-context.png",
+    "adc-final-input-chains.png"
+  ],
+  "checks": {
+    "allOPAValuesAndReferencesReadableAndClearOfTriangles": true,
+    "capacitorLabelsClearOfPlateEnds": true,
+    "allModifiedLabelsInsideDrawingFrame": true,
+    "allThreeBufferBlocksInsideDrawingFrame": true,
+    "referenceBlockClearOfJ18Box": true,
+    "onPageRevisionNoteCorrect": true,
+    "nativeSaveReopenAnd18AttributePreservationVerified": true
+  },
+  "electricalQa": "independent-adc-final-qa.json: PASS, native ERC true, 1093/1093 expected connected pins",
+  "renderer": "Independent actual-source SVG renderer with saved native project symbols; not a native EasyEDA SVG export",
+  "missingSymbols": 0,
+  "unsupportedPrimitives": 0,
+  "manufacturingApproval": false
+}

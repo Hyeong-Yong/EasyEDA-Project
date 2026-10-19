@@ -1,0 +1,271 @@
+{
+  "stage": "move",
+  "manifestPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/candidates/adc10-pcb-finish-20261018/bottom-buckets/direct4-native-operations-ready-for-calibration.json",
+  "manifestHash": "4e4fc49361130701128842d65bf9fd9d6b9a5f5541b1f0348f6290bc71f5a766",
+  "priorPath": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-bottom_c88_probe_180-20261018.epru",
+  "priorHash": "f1c28dab5c6693d452e0dea966595cb791a963206fc4c2fb1f855fb521fd9ecf",
+  "path": "C:/Dev/EasyEDA/EasyEDA-Project/STM32H747 board/output/validation/native-adc10-pcb-direct4_move-20261018.epru",
+  "sourceSha256": "4325076c10e2d6e7c1b923952fd3e4e3efd0a1f6ecfc74727dd7b7911af34631",
+  "containmentPassed": true,
+  "padChecks": [
+    {
+      "ref": "C88",
+      "number": "1",
+      "net": "ADC2_INP13",
+      "layer": 2,
+      "xyMm": [
+        52.76087999999999,
+        82.99958
+      ],
+      "expected": {
+        "net": "ADC2_INP13",
+        "xyMm": [
+          52.76,
+          83
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C88",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        53.721,
+        82.99958
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          53.72,
+          83
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C81",
+      "number": "1",
+      "net": "ADC1_INP1",
+      "layer": 2,
+      "xyMm": [
+        56.72073999999999,
+        82.44077999999999
+      ],
+      "expected": {
+        "net": "ADC1_INP1",
+        "xyMm": [
+          56.72,
+          82.44
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C81",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        55.76062,
+        82.44077999999999
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          55.76,
+          82.44
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C86",
+      "number": "1",
+      "net": "ADC2_INP3",
+      "layer": 2,
+      "xyMm": [
+        56.11876,
+        83.79968
+      ],
+      "expected": {
+        "net": "ADC2_INP3",
+        "xyMm": [
+          56.12,
+          83.8
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C86",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        57.07887999999999,
+        83.79968
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          57.08,
+          83.8
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C96",
+      "number": "1",
+      "net": "ADC3_INP8",
+      "layer": 2,
+      "xyMm": [
+        51.239419999999996,
+        80.20049999999999
+      ],
+      "expected": {
+        "net": "ADC3_INP8",
+        "xyMm": [
+          51.24,
+          80.2
+        ]
+      },
+      "passed": true
+    },
+    {
+      "ref": "C96",
+      "number": "2",
+      "net": "GND",
+      "layer": 2,
+      "xyMm": [
+        51.239419999999996,
+        79.24037999999999
+      ],
+      "expected": {
+        "net": "GND",
+        "xyMm": [
+          51.24,
+          79.24
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "created": [],
+  "changes": [
+    {
+      "key": "COMPONENT:1fc19d9011b0d2c7",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:1fc19d9011b0d2c7ee0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:1fc19d9011b0d2c7ee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:1fc19d9011b0d2c7e0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:521960cee1879019",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:521960cee1879019ee0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:521960cee1879019ee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:521960cee1879019e0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "COMPONENT:3852588fa8b5215f",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:3852588fa8b5215fee0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:3852588fa8b5215fee7",
+      "fields": [
+        "layerId",
+        "x",
+        "y",
+        "angle"
+      ],
+      "allowed": true
+    },
+    {
+      "key": "ATTR:3852588fa8b5215fe0",
+      "fields": [
+        "layerId",
+        "angle"
+      ],
+      "allowed": true
+    }
+  ],
+  "issues": [],
+  "requiresIndependentGeometryGroundAndNativeDRC": true,
+  "saved": false,
+  "manufacturingReady": false
+}

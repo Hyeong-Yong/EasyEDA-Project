@@ -1,0 +1,284 @@
+{
+  "stage": "rename_r1",
+  "passed": true,
+  "source": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_rename_r1-20261018.epru",
+  "sourceSha256": "ec15c1ca50910b4a2c05c855bab3d79a7b949ecd0d21a38f0eede326a7ee3e14",
+  "manifestSha256": "8b69e22369e4f20b921e585ed323319bfb04ddf44198ea30ebdba2cd9beddc87",
+  "completedOperationCount": 35,
+  "removedLineCount": 0,
+  "renamedLineCount": 35,
+  "automaticUnusedDefaultNetCleanup": [
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J2-IN)\"]",
+      "net": "NET-(J2-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J3-IN)\"]",
+      "net": "NET-(J3-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J4-IN)\"]",
+      "net": "NET-(J4-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J5-IN)\"]",
+      "net": "NET-(J5-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J6-IN)\"]",
+      "net": "NET-(J6-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J7-IN)\"]",
+      "net": "NET-(J7-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J8-IN)\"]",
+      "net": "NET-(J8-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J9-IN)\"]",
+      "net": "NET-(J9-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J10-IN)\"]",
+      "net": "NET-(J10-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"NET-(J11-IN)\"]",
+      "net": "NET-(J11-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC_BIAS_2V5\"]",
+      "net": "ADC_BIAS_2V5",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC1_DRV1\"]",
+      "net": "ADC1_DRV1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC1_DRV2\"]",
+      "net": "ADC1_DRV2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC1_DRV3\"]",
+      "net": "ADC1_DRV3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC2_DRV1\"]",
+      "net": "ADC2_DRV1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC2_DRV2\"]",
+      "net": "ADC2_DRV2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC2_DRV3\"]",
+      "net": "ADC2_DRV3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC3_DRV1\"]",
+      "net": "ADC3_DRV1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC3_DRV2\"]",
+      "net": "ADC3_DRV2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC3_DRV3\"]",
+      "net": "ADC3_DRV3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "NET",
+      "id": "[\"NET\",\"ADC3_DRV4\"]",
+      "net": "ADC3_DRV4",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J2-IN)\"]]",
+      "net": "NET-(J2-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J3-IN)\"]]",
+      "net": "NET-(J3-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J4-IN)\"]]",
+      "net": "NET-(J4-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J5-IN)\"]]",
+      "net": "NET-(J5-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J6-IN)\"]]",
+      "net": "NET-(J6-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J7-IN)\"]]",
+      "net": "NET-(J7-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J8-IN)\"]]",
+      "net": "NET-(J8-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J9-IN)\"]]",
+      "net": "NET-(J9-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J10-IN)\"]]",
+      "net": "NET-(J10-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"NET-(J11-IN)\"]]",
+      "net": "NET-(J11-IN)",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC_BIAS_2V5\"]]",
+      "net": "ADC_BIAS_2V5",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC1_DRV1\"]]",
+      "net": "ADC1_DRV1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC1_DRV2\"]]",
+      "net": "ADC1_DRV2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC1_DRV3\"]]",
+      "net": "ADC1_DRV3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC2_DRV1\"]]",
+      "net": "ADC2_DRV1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC2_DRV2\"]]",
+      "net": "ADC2_DRV2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC2_DRV3\"]]",
+      "net": "ADC2_DRV3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV1\"]]",
+      "net": "ADC3_DRV1",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV2\"]]",
+      "net": "ADC3_DRV2",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV3\"]]",
+      "net": "ADC3_DRV3",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    },
+    {
+      "type": "RULE_SELECTOR",
+      "id": "[\"RULE_SELECTOR\",[\"NET\",\"ADC3_DRV4\"]]",
+      "net": "ADC3_DRV4",
+      "reason": "native removed unused default-only declaration, not a design rule"
+    }
+  ],
+  "issues": [],
+  "exactIntegerGridLineUnionWithMetadataPreserved": true,
+  "protectedPrimitiveTypesBodyExact": [
+    "VIA",
+    "PAD",
+    "FILL",
+    "ARC",
+    "POLY",
+    "STRING",
+    "RULE",
+    "LAYER",
+    "LAYER_PHYS",
+    "COMPONENT",
+    "PAD_NET"
+  ],
+  "oldVias640Preserved": true,
+  "rules18Preserved": true,
+  "physicalParts437Preserved": true,
+  "nativeApiCalls": 0,
+  "manufacturingReady": false
+}

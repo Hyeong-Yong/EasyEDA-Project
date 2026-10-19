@@ -1,0 +1,715 @@
+{
+  "schema": "stm32-native-header-calibration-candidates-v1",
+  "status": "PILOT_VALIDATION_REQUIRED_NOT_AUTORUN",
+  "CAD_modified": false,
+  "source_geometry": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\3d-models-20261018\\audits\\header-default-379-all18.json",
+  "source_geometry_sha256": "06f80ef7c379e1967fdad6ee52569f281ba71d80f892cd78249076f7730731fd",
+  "full_18_model_coverage_faces": {
+    "SMA": 35536,
+    "J1": 2618,
+    "J18": 5260,
+    "total": 43414,
+    "old_faces_missing": 0
+  },
+  "native_transform_assumption": "sizeXYZ_mil,rotZ_deg,rotX_deg,rotY_deg,offsetXYZ_mil; fullmesh centerXY/minZ normalization followed by R and offset. Pilot export must validate it.",
+  "registration_math": "If p is desired pin-array center in normalized complete-bbox frame and zseat is mounting plane above minimum, offsetXY=-R*p, offsetZ=-zseat. All full mesh extents retained; no body-only bounding box or shrink applied.",
+  "orientation_evidence": "Historical STEP rotation-columnZ outward vectors supplied by independent research agent: J2..J11 -X; J12,J13,J14,J15,J17 +X;J16 +Y. See source-models/canonical-reference-models/canonical-manifest.json historical_SMA_outward_vectors. Native KWE901 mesh differs from historical generic mesh, but its5.08 square terminal pattern and outward neck register equivalently.",
+  "global_export_note": "Default OBJ XY centers have a systematic approximately2ppm scale relative to PCB coordinates. Registration is relative to each complete mesh bbox, cancelling that placement conversion; absolute OBJ shifts are not copied into transforms.",
+  "families": {
+    "SMA_RA_KWE901": {
+      "observed_pin_pitch_xy_mm": [
+        2.792323356865495,
+        2.792323487917031
+      ],
+      "physical_footprint_pitch_mm": 5.08,
+      "inverse_default_scale": 1.8192734979279868,
+      "full_mesh_xyz_mm": [
+        6.999999940864686,
+        15.100000253906375,
+        12.898015509363082
+      ],
+      "normalized_bbox_to_pin_pattern_xy_mm": [
+        0.0,
+        4.050000037311577
+      ],
+      "seating_z_from_normalized_min_mm": 3.3999999474352687,
+      "default_neck_vector_xy": [
+        0,
+        -1
+      ],
+      "seated_mesh_min_z_mm": -3.3999999474352687,
+      "seated_mesh_max_z_mm": 9.498015561927813,
+      "proof": "Four distinct metal post sections form a square. Case underside 3.4mm above pin tips; upper central contact plane 3.7mm is not the seating plane. All16 meshes have2221 faces and identical complete bbox dimensions."
+    },
+    "SAMTEC_FTSH107_14_SMD": {
+      "observed_column_pitch_mm": 1.3542885844224106,
+      "physical_footprint_pitch_mm": 1.27,
+      "inverse_default_scale": 0.9377617256824484,
+      "full_mesh_xyz_mm": [
+        8.890000476837129,
+        5.842000095367418,
+        6.985000238418563
+      ],
+      "normalized_bbox_to_pin_pattern_xy_mm": [
+        0,
+        0
+      ],
+      "seating_z_from_normalized_min_mm": 0.8635999988079045,
+      "seated_mesh_min_z_mm": -0.8635999988079045,
+      "seated_mesh_max_z_mm": 6.121400239610659,
+      "body_underside_above_contacts_mm": 0.4064,
+      "proof": "14 SMT feet in7columns;1.27mm pitch restoration. Lowest metal faces are seated; lower black geometry comprises locator pegs. Independent historical STEP kernel gives locator-.8636, contact0, bodyfloor+.4064, top6.1214mm."
+    },
+    "SOCKET_2X5_P254": {
+      "observed_row_pitch_mm": 2.584005074430685,
+      "physical_footprint_pitch_mm": 2.54,
+      "inverse_default_scale": 0.9829702058768672,
+      "full_mesh_xyz_mm": [
+        12.70000047683716,
+        5.08,
+        11.4844028290336
+      ],
+      "normalized_bbox_to_pin_pattern_xy_mm": [
+        0,
+        0
+      ],
+      "seating_z_from_normalized_min_mm": 3.01440270115641,
+      "seated_mesh_min_z_mm": -3.01440270115641,
+      "seated_mesh_max_z_mm": 8.47000012787719,
+      "proof": "10 distinct metal pin sections,5columns and2rows. First dark plastic underside is used as generic seating plane; exactPPTC052LFBN-RC height is not established."
+    }
+  },
+  "entries": [
+    {
+      "ref": "J1",
+      "id": "494c9d883ad9da29",
+      "footprintUuid": "44621f0fae033d38",
+      "family": "SAMTEC_FTSH107_14_SMD",
+      "model": "0bfd3f5a5a0d440ab496ecbbdf06de18|0819f05c4eef4c71ace90d822a990e87",
+      "title": "HDR-SMD_14P-P1.27_FTSH-107-01-L-DV-K-A",
+      "transform": "350.0000187731,230.0000037546,275.0000093866,0,0,0,0,0,-33.9999999531",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          8.890000476837129,
+          5.842000095367418,
+          6.985000238418563
+        ],
+        "rotZXY_deg": [
+          0,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          0,
+          0,
+          -0.8635999988079045
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": null,
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Pin1 visual marking is not independently verified;0deg and180deg both align the symmetric contact array.",
+        "Native explicit transform normalization must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J2",
+      "id": "b921a22d4b7579ed",
+      "footprintUuid": "1a275103229cd0ed",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J3",
+      "id": "afef66d437b67df9",
+      "footprintUuid": "afd1e7eaea1c6d0b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J4",
+      "id": "0b5fac9098dce533",
+      "footprintUuid": "3efe64435dd88760",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J5",
+      "id": "a720c263d59d27d0",
+      "footprintUuid": "420752e0b7dd516b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J6",
+      "id": "c8db40735c04cd92",
+      "footprintUuid": "6cc742d2e9f6287b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J7",
+      "id": "1772c366e461a031",
+      "footprintUuid": "456e5ebcec73f244",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J8",
+      "id": "8b88019d0dcca1ab",
+      "footprintUuid": "af0f2c62672d4563",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J9",
+      "id": "f26bff9701d0729d",
+      "footprintUuid": "99bc905658c65075",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J10",
+      "id": "f09a8f99f71c453e",
+      "footprintUuid": "819dad664d54a2aa",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J11",
+      "id": "fd77caf2157b0c36",
+      "footprintUuid": "247603e988790c9b",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,270,0,0,-159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          270,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          -4.050000037311577,
+          7.439729373360425e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        -1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J12",
+      "id": "fc09065fd9dbbdfb",
+      "footprintUuid": "4767d4db118c9e30",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,90,0,0,159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.050000037311577,
+          -2.4799097911201417e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J13",
+      "id": "8a697cb3ec6de186",
+      "footprintUuid": "728a108305576e94",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,90,0,0,159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.050000037311577,
+          -2.4799097911201417e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J14",
+      "id": "7843bf8271627f69",
+      "footprintUuid": "133a56f0204e267d",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,90,0,0,159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.050000037311577,
+          -2.4799097911201417e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J15",
+      "id": "c9e806fb8153837f",
+      "footprintUuid": "93edcf417121fbf5",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,90,0,0,159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.050000037311577,
+          -2.4799097911201417e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J16",
+      "id": "f884fcf9bad6e3a5",
+      "footprintUuid": "ca34008aa681bcb9",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,180,0,0,0,159.4488203666,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          180,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.959819582240283e-16,
+          4.050000037311577,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        0,
+        1
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J17",
+      "id": "60ef92fca4c18be8",
+      "footprintUuid": "d6f78b7294940c71",
+      "family": "SMA_RA_KWE901",
+      "model": "96cf95a264794d81af2e5617ad1f8584|0819f05c4eef4c71ace90d822a990e87",
+      "title": "SMA-TH_SMA-KWE901",
+      "transform": "275.5905488529,594.4881989727,507.7958861954,90,0,0,159.4488203666,0,-133.8582656471",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          6.999999940864686,
+          15.100000253906375,
+          12.898015509363082
+        ],
+        "rotZXY_deg": [
+          90,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          4.050000037311577,
+          -2.4799097911201417e-16,
+          -3.3999999474352687
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": [
+        1,
+        0
+      ],
+      "relation": "exact MPN model name; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Native explicit transform normalization and positive rotZ sign must be confirmed by a pilot export."
+      ]
+    },
+    {
+      "ref": "J18",
+      "id": "75c4f143536274ab",
+      "footprintUuid": "53511abdbd343897",
+      "family": "SOCKET_2X5_P254",
+      "model": "c92ed4b8e8c6446a8ab365472f37d920|0819f05c4eef4c71ace90d822a990e87",
+      "title": "HDR-F-2.54_2x5",
+      "transform": "500.0000187731,200,452.1418436627,0,0,0,0,0,-118.6772716991",
+      "transform_mm": {
+        "full_mesh_xyz": [
+          12.70000047683716,
+          5.08,
+          11.4844028290336
+        ],
+        "rotZXY_deg": [
+          0,
+          0,
+          0
+        ],
+        "offset_xyz": [
+          0,
+          0,
+          -3.01440270115641
+        ]
+      },
+      "desired_neck_vector_current_pcb_xy": null,
+      "relation": "2x5/P2.54 female socket package equivalent, not exact height certification; not a mechanical/manufacturing certification",
+      "executable": false,
+      "awaiting_validation": [
+        "Pin1 visual marking is not independently verified;0deg and180deg both align the symmetric contact array.",
+        "Native explicit transform normalization must be confirmed by a pilot export."
+      ]
+    }
+  ],
+  "limits": [
+    "3D metadata only; circuit connectivity and footprints are not altered.",
+    "J1 exact-name mesh has not had its pin1 mark independently verified. J18 is generic pitch-equivalent, not exact MPN geometry.",
+    "The plan is not executable until pilot normalization/rotation checks pass. These flags are deliberate, not a claim of all18 final bindings being approved."
+  ]
+}

@@ -1,0 +1,22 @@
+import { spawn } from 'node:child_process';
+import { writeFile } from 'node:fs/promises';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const here = dirname(fileURLToPath(import.meta.url));
+const board = resolve(here, '../../..');
+const [mode, key, outputName, libraryUuid] = process.argv.slice(2);
+if (!['search', 'get', 'source', 'file'].includes(mode) || !key || !/^[a-z0-9_-]+\.json$/.test(outputName || '')) throw new Error('Expected mode, key, safe output name');
+const child = spawn(process.execPath, ['scripts/easyeda-safe-client.mjs', 'execute-file', 'scripts/eda/query-footprint-3d-readonly-20261018.mjs', mode, key, libraryUuid || ''], { cwd: board, windowsHide: true });
+let stdout = '';
+let stderr = '';
+child.stdout.on('data', data => { stdout += data; });
+child.stderr.on('data', data => { stderr += data; });
+const code = await new Promise((resolveResult, reject) => { child.on('error', reject); child.on('close', resolveResult); });
+let value;
+try { value = JSON.parse(stdout); } catch { value = { ok: false, stdout }; }
+value.runner = { exitCode: code, stderr, mode, key, timestamp: new Date().toISOString() };
+const output = resolve(here, outputName);
+await writeFile(output, JSON.stringify(value, null, 2));
+const compactResult = value.result?.mode === 'source' ? { ...value.result, source: value.result.source?.slice(0, 200), sourceLength: value.result.source?.length } : value.result?.mode === 'file' && value.result.file ? { ...value.result, file: { ...value.result.file, hex: value.result.file.hex.slice(0, 64) } } : value.result;
+console.log(JSON.stringify({ output, ok: value.ok, result: compactResult, runner: value.runner }, null, 2));
+process.exitCode = code;

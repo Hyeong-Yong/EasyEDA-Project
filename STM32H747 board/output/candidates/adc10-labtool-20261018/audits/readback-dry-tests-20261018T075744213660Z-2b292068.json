@@ -1,0 +1,67 @@
+{
+  "schema": "readback-auditor-dry-self-tests-v1",
+  "passed": true,
+  "nativeCalls": 0,
+  "nativeModified": false,
+  "auditorPath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\scripts\\audit-adc10-labtool-copper-readback-20261018.py",
+  "auditorSha256": "817daaafeb62d3ad349d2ce355f14a57e9334313456d0ffdbdb59deac4d379c8",
+  "actualV6SourcePath": "C:\\Dev\\EasyEDA\\EasyEDA-Project\\STM32H747 board\\output\\validation\\native-adc10-pcb-labtool_107_placed_v6_saved-20261018.epru",
+  "actualV6SourceSha256": "a5d126649aa3e03dd0b74baa5e412d03c2a6ae93466b0fc4e04010f37232e9f9",
+  "tests": [
+    {
+      "name": "All_actual_V6_protected_bodies_exact_no_tolerance",
+      "passed": true
+    },
+    {
+      "name": "Exact_diagonal_split_merge_reversal_and_duplicates",
+      "passed": true
+    },
+    {
+      "name": "Off_line_endpoint_0p0001mil_rejected",
+      "passed": true
+    },
+    {
+      "name": "Additional_branch_not_lost_by_union",
+      "passed": true
+    },
+    {
+      "name": "Fill_cyclic_closure_duplicate_collinear_and_hole_order_exact",
+      "passed": true
+    },
+    {
+      "name": "Fill_unplanned_vertex_0p0001mil_rejected",
+      "passed": true
+    },
+    {
+      "name": "Only_explicit_native_4dp_serialization_qualified",
+      "passed": true
+    },
+    {
+      "name": "New_045_020_all6_via_serialization_accepted",
+      "passed": true
+    },
+    {
+      "name": "New_via_inner_copper_omission_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_COMPONENT_mutation_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_VIA_mutation_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_RULE_mutation_rejected",
+      "passed": true
+    },
+    {
+      "name": "Protected_PAD_NET_mutation_rejected",
+      "passed": true
+    }
+  ],
+  "testCount": 13,
+  "realCopperReadbackAudited": false,
+  "limits": "Synthetic acceptance/rejection tests plus identity of all frozen actual V6 source bodies; not approval of native copper implementation."
+}

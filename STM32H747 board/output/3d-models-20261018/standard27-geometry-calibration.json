@@ -1,0 +1,1927 @@
+{
+  "schema": "stm32-standard27-native-mesh-calibration-v1",
+  "status": "VISUAL_PACKAGE_APPLY_CANDIDATE_NOT_APPLIED",
+  "native_calls": 0,
+  "target_count": 27,
+  "source_export": "STM32H747_standards_default_405_STM32H747_standards_default_405",
+  "source_export_sha256": "05483edb7deacc702b98245252ff49ce98dc1768199196e989b2a86164bbcee0",
+  "geometry_differential_evidence": "api-research/standard405-differential-pieces.json",
+  "material_feature_evidence": "api-research/standard405-material-features.json",
+  "evidence": [
+    {
+      "ref": "FB1",
+      "family": "0603_FERRITE",
+      "model_uuid": "44d717a022884e8a80ead7728bb0329d",
+      "source_auto_default_full_xyz_mm": [
+        1.2000023876047692,
+        0.6074086088620163,
+        0.5333343768610016
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.599902793604258,
+        -0.30355205412872976,
+        0.0,
+        0.6000995940005112,
+        0.30385655473328654,
+        0.5333343768610016
+      ],
+      "source_auto_center_offset_mm": [
+        9.84001981265692e-05,
+        0.00015225030227838943,
+        0.2666671884305008
+      ],
+      "auto_fit_scale": 0.7407422234284411,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl13",
+        "body_piece_faces": 122,
+        "axis": 0,
+        "measured_default_extent_mm": 1.1851875574855057,
+        "nominal_package_extent_mm": 1.6,
+        "basis": "Nominal1608 magnetic body; terminal full envelope is measured separately.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        1.6199999806284766,
+        0.8199999806284765,
+        0.7199999675899723
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Measured terminal pair lies along native X. Nonpolar two-terminal package.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "FB2",
+      "family": "0603_FERRITE",
+      "model_uuid": "44d717a022884e8a80ead7728bb0329d",
+      "source_auto_default_full_xyz_mm": [
+        1.2000023876047692,
+        0.6074086088620163,
+        0.5333343768610016
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.5998988435966339,
+        -0.3035520041262032,
+        0.0,
+        0.6001035440081353,
+        0.3038566047358131,
+        0.5333343768610016
+      ],
+      "source_auto_center_offset_mm": [
+        0.00010235020575066756,
+        0.00015230030480495316,
+        0.2666671884305008
+      ],
+      "auto_fit_scale": 0.7407422234284411,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl13",
+        "body_piece_faces": 122,
+        "axis": 0,
+        "measured_default_extent_mm": 1.1851875574855057,
+        "nominal_package_extent_mm": 1.6,
+        "basis": "Nominal1608 magnetic body; terminal full envelope is measured separately.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        1.6199999806284766,
+        0.8199999806284765,
+        0.7199999675899723
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Measured terminal pair lies along native X. Nonpolar two-terminal package.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "FB3",
+      "family": "0603_FERRITE",
+      "model_uuid": "44d717a022884e8a80ead7728bb0329d",
+      "source_auto_default_full_xyz_mm": [
+        1.2000023876047692,
+        0.6074086088620305,
+        0.5333343768610016
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.5998865935737712,
+        -0.3036173042582959,
+        0.0,
+        0.600115794030998,
+        0.3037913046037346,
+        0.5333343768610016
+      ],
+      "source_auto_center_offset_mm": [
+        0.00011460022861342622,
+        8.700017271934257e-05,
+        0.2666671884305008
+      ],
+      "auto_fit_scale": 0.7407422234284411,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl13",
+        "body_piece_faces": 122,
+        "axis": 0,
+        "measured_default_extent_mm": 1.1851875574855057,
+        "nominal_package_extent_mm": 1.6,
+        "basis": "Nominal1608 magnetic body; terminal full envelope is measured separately.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        1.6199999806284766,
+        0.8199999806284957,
+        0.7199999675899723
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Measured terminal pair lies along native X. Nonpolar two-terminal package.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "D2",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "source_auto_default_full_xyz_mm": [
+        1.8500037084074208,
+        1.144804285814189,
+        0.9245601324112425
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.9249402040792454,
+        -0.5722575926149744,
+        0.0,
+        0.9250635043281754,
+        0.5725466931992145,
+        0.9245601324112425
+      ],
+      "source_auto_center_offset_mm": [
+        6.165012446501805e-05,
+        0.0001445502921200159,
+        0.46228006620562123
+      ],
+      "auto_fit_scale": 0.9158434286513604,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl10",
+        "body_piece_faces": 188,
+        "axis": 0,
+        "measured_default_extent_mm": 1.8316868573027207,
+        "nominal_package_extent_mm": 2.0,
+        "basis": "Nominal0805/2012 LED body long axis; inferred short axis is reported, not forced.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.0199999809265137,
+        1.2499999999999873,
+        1.0095176789909581
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native X is terminal axis; negative-X end has asymmetric/chamfer marker geometry. Cathode-to-pin1 interpretation remains manual QA.",
+      "pin1_or_polarity_manual_QA_required": true,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "D3",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "source_auto_default_full_xyz_mm": [
+        1.8500037084074137,
+        1.144804285814189,
+        0.9245601324112425
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.9249363540665314,
+        -0.5722576118580633,
+        0.0,
+        0.9250673543408823,
+        0.5725466739561256,
+        0.9245601324112425
+      ],
+      "source_auto_center_offset_mm": [
+        6.550013717543379e-05,
+        0.0001445310490311158,
+        0.46228006620562123
+      ],
+      "auto_fit_scale": 0.9158434286513568,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl10",
+        "body_piece_faces": 188,
+        "axis": 0,
+        "measured_default_extent_mm": 1.8316868573027136,
+        "nominal_package_extent_mm": 2.0,
+        "basis": "Nominal0805/2012 LED body long axis; inferred short axis is reported, not forced.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.0199999809265137,
+        1.2499999999999922,
+        1.0095176789909621
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native X is terminal axis; negative-X end has asymmetric/chamfer marker geometry. Cathode-to-pin1 interpretation remains manual QA.",
+      "pin1_or_polarity_manual_QA_required": true,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "D4",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "source_auto_default_full_xyz_mm": [
+        1.8500037084074137,
+        1.144804285814189,
+        0.9245601324112425
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.924932504063996,
+        -0.5722575926149744,
+        0.0,
+        0.9250712043434177,
+        0.5725466931992145,
+        0.9245601324112425
+      ],
+      "source_auto_center_offset_mm": [
+        6.935013971087756e-05,
+        0.0001445502921200159,
+        0.46228006620562123
+      ],
+      "auto_fit_scale": 0.9158434286513568,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl10",
+        "body_piece_faces": 188,
+        "axis": 0,
+        "measured_default_extent_mm": 1.8316868573027136,
+        "nominal_package_extent_mm": 2.0,
+        "basis": "Nominal0805/2012 LED body long axis; inferred short axis is reported, not forced.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.0199999809265137,
+        1.2499999999999922,
+        1.0095176789909621
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native X is terminal axis; negative-X end has asymmetric/chamfer marker geometry. Cathode-to-pin1 interpretation remains manual QA.",
+      "pin1_or_polarity_manual_QA_required": true,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "D6",
+      "family": "0805_LED",
+      "model_uuid": "c29cff0e46ad4ec698b672e6ab540619",
+      "source_auto_default_full_xyz_mm": [
+        2.989605964557569,
+        1.8500037084074172,
+        1.4940891598689
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.4946438369600088,
+        -0.9249824041656076,
+        0.0,
+        1.4949621275975602,
+        0.9250213042418096,
+        1.4940891598689
+      ],
+      "source_auto_center_offset_mm": [
+        0.0001591453187756997,
+        1.9450038100998768e-05,
+        0.74704457993445
+      ],
+      "auto_fit_scale": 1.4800029667259338,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl10",
+        "body_piece_faces": 188,
+        "axis": 0,
+        "measured_default_extent_mm": 2.9600059334518676,
+        "nominal_package_extent_mm": 2.0,
+        "basis": "Nominal0805/2012 LED body long axis; inferred short axis is reported, not forced.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.0199999809265132,
+        1.25,
+        1.0095176789909601
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 180,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native X is terminal axis; negative-X end has asymmetric/chamfer marker geometry. Cathode-to-pin1 interpretation remains manual QA.",
+      "pin1_or_polarity_manual_QA_required": true,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "Y1",
+      "family": "CRYSTAL_3215_2PIN",
+      "model_uuid": "322660504eb3452fba8a1d5fb6a3cd9f",
+      "source_auto_default_full_xyz_mm": [
+        4.48000906176199,
+        2.100004216408422,
+        1.1214022502269565
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -2.239925279720204,
+        -1.0498577379171792,
+        0.0,
+        2.2400837820417863,
+        1.0501464784912429,
+        1.1214022502269565
+      ],
+      "source_auto_center_offset_mm": [
+        7.925116079121608e-05,
+        0.0001443702870318475,
+        0.5607011251134782
+      ],
+      "auto_fit_scale": 1.400002831800622,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl37",
+        "body_piece_faces": 173,
+        "axis": 0,
+        "measured_default_extent_mm": 4.48000906176199,
+        "nominal_package_extent_mm": 3.2,
+        "basis": "Nominal3215 crystal body long axis.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        3.2,
+        1.4999999776482518,
+        0.8009999871104964
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 0,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Measured terminal pair lies along native X. Passive two-pin crystal does not require polarity.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "X1",
+      "family": "OSCILLATOR_3225_4PIN",
+      "model_uuid": "963ffc640bca471d86f4230614807d79",
+      "source_auto_default_full_xyz_mm": [
+        4.157612284085644,
+        3.250006502413015,
+        0.9352536066604625
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.8286957115221085,
+        -1.6248584009143912,
+        -1.734723475976807e-18,
+        2.3289165725635357,
+        1.625148101498624,
+        0.9352536066604625
+      ],
+      "source_auto_center_offset_mm": [
+        0.2501104305207136,
+        0.0001448502921164163,
+        0.46762680333023127
+      ],
+      "auto_fit_scale": 1.2989634010554152,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl34",
+        "body_piece_faces": 139,
+        "axis": 0,
+        "measured_default_extent_mm": 4.156682883377329,
+        "nominal_package_extent_mm": 3.2,
+        "basis": "Nominal3225 oscillator body long axis; alternate TXO series model remains generic.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        3.200715494145224,
+        2.5020000561773843,
+        0.719999967589975
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 180,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native four corner terminals and top pin1 dot are at (-X,-Y); this matches the source-plan oscillator canonical marker.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "X2",
+      "family": "OSCILLATOR_3225_4PIN",
+      "model_uuid": "963ffc640bca471d86f4230614807d79",
+      "source_auto_default_full_xyz_mm": [
+        4.157612284085644,
+        3.250006502413015,
+        0.9352536066604625
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.8286403864115925,
+        -1.624849700899162,
+        -1.734723475976807e-18,
+        2.3289718976740517,
+        1.625156801513853,
+        0.9352536066604625
+      ],
+      "source_auto_center_offset_mm": [
+        0.25016575563122956,
+        0.0001535503073455402,
+        0.46762680333023127
+      ],
+      "auto_fit_scale": 1.2989634010554152,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl34",
+        "body_piece_faces": 139,
+        "axis": 0,
+        "measured_default_extent_mm": 4.156682883377329,
+        "nominal_package_extent_mm": 3.2,
+        "basis": "Nominal3225 oscillator body long axis; alternate TXO series model remains generic.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        3.200715494145224,
+        2.5020000561773843,
+        0.719999967589975
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 180,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native four corner terminals and top pin1 dot are at (-X,-Y); this matches the source-plan oscillator canonical marker.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U3",
+      "family": "DFN6_3X3_EP",
+      "model_uuid": "2351360292744dbc91885e7d69b823ec",
+      "source_auto_default_full_xyz_mm": [
+        3.1000061976124016,
+        3.1000061976123963,
+        1.033335389580446
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.7998619577241612,
+        -1.5499720287426957,
+        0.0,
+        1.3001442398882403,
+        1.5500341688697006,
+        1.033335389580446
+      ],
+      "source_auto_center_offset_mm": [
+        -0.24985885891796045,
+        3.1070063502447454e-05,
+        0.516667694790223
+      ],
+      "auto_fit_scale": 1.0333354186541073,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.95,
+        "default_measured_pitch_mm": 0.9816686477214018,
+        "default_row_coordinate_levels_mm": [
+          -0.9816686477214036,
+          -8.881784197001252e-16,
+          0.9816686477214001
+        ],
+        "max_row_fit_or_pitch_residual_mm": 5.921189464667502e-16,
+        "terminal_piece_count": 6
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.9999999435324494,
+        2.999999943532444,
+        0.9999999718642556
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 0,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Six terminal centers form left/right X rows, three Y pitches each. Five-vertex EP polygon is chamfered at (-X,+Y), corroborating the source canonical pin1 corner. No isolated top dot; exact-part interpretation remains conservative manual QA.",
+      "pin1_or_polarity_manual_QA_required": true,
+      "extra_orientation_evidence": "audits/u3-exposed-pad-chamfer.json",
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U5",
+      "family": "QFN24_4X4_EP",
+      "model_uuid": "29c69a3747974ad89ca8d7477a9f3747",
+      "source_auto_default_full_xyz_mm": [
+        4.710012700025402,
+        4.710012700025402,
+        1.195077854406634
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -2.3549012498044135,
+        -2.107431349860292,
+        3.469446951953614e-18,
+        2.3551114502209884,
+        2.60258135016511,
+        1.195077854406634
+      ],
+      "source_auto_center_offset_mm": [
+        0.00010510020828746747,
+        0.24757500015240907,
+        0.597538927203317
+      ],
+      "auto_fit_scale": 1.1716449470846797,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.5,
+        "default_measured_pitch_mm": 0.5858224735423398,
+        "default_row_coordinate_levels_mm": [
+          -1.4615668171510876,
+          -0.8787337168605873,
+          -0.29291124331824747,
+          0.29291124331824747,
+          0.8787337168605873,
+          1.4645561947676455
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.0029893732518395666,
+        "terminal_piece_count": 24
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        4.02000001087786,
+        4.02000001087786,
+        1.02000000715256
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native top circular marking at (-X,+Y), four rows of six terminals. Matches source canonical pin1 left-row +Y.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U7",
+      "family": "QFN32_5X5_EP",
+      "model_uuid": "bd31547231e8451b98b8304566565548",
+      "source_auto_default_full_xyz_mm": [
+        5.750012700025394,
+        5.750012700025394,
+        1.0537872005050373
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -3.092351829702821,
+        -2.8748730497485155,
+        -1.734723475976807e-18,
+        2.657660870322573,
+        2.8751396502768785,
+        1.0537872005050373
+      ],
+      "source_auto_center_offset_mm": [
+        -0.21734547969012397,
+        0.00013330026418145735,
+        0.5268936002525186
+      ],
+      "auto_fit_scale": 1.145420860930784,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.5,
+        "default_measured_pitch_mm": 0.572710430465392,
+        "default_row_coordinate_levels_mm": [
+          -2.0044865066288793,
+          -1.4317760761634872,
+          -0.8590656456980952,
+          -0.286355215232696,
+          0.286355215232696,
+          0.8590656456980952,
+          1.4317760761634872,
+          2.0044865066288793
+        ],
+        "max_row_fit_or_pitch_residual_mm": 7.105427357601002e-15,
+        "terminal_piece_count": 32
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        5.019999980926537,
+        5.019999980926537,
+        0.92000000737608
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 0,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native top circular marking at (-X,+Y), four rows of eight terminals. Matches source canonical pin1 left-row +Y.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "D5",
+      "family": "SMB_DO214AA",
+      "model_uuid": "1bbe644b2ecd467e97e82d069ce5a126",
+      "source_auto_default_full_xyz_mm": [
+        3.9000057912115835,
+        2.7255995226971486,
+        1.7180647511163172
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.9498365002742872,
+        -1.3627696912901524,
+        -1.1102230246251565e-16,
+        1.9501692909372963,
+        1.3628298314069962,
+        1.7180647511163172
+      ],
+      "source_auto_center_offset_mm": [
+        0.0001663953315045319,
+        3.0070058421927115e-05,
+        0.8590323755581586
+      ],
+      "auto_fit_scale": 0.753537175023977,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl15",
+        "body_piece_faces": 878,
+        "axis": 0,
+        "measured_default_extent_mm": 3.240209852603101,
+        "nominal_package_extent_mm": 4.3,
+        "basis": "NominalSMB molded body long axis; full lead envelope is not forced to body4.3.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        5.175598391794656,
+        3.617073733104703,
+        2.2799999894652174
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native terminal axis X; bidirectional package candidate, so no electrical polarity orientation is claimed.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "D20",
+      "family": "SOD323",
+      "model_uuid": "63730cd75e074609861c8d6cfe0f6507",
+      "source_auto_default_full_xyz_mm": [
+        1.2000023876047692,
+        0.6000011938023847,
+        0.45600090156775736
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.6000695939395513,
+        -0.3000669970332766,
+        0.0,
+        0.5999327936652179,
+        0.2999341967691081,
+        0.45600090156775736
+      ],
+      "source_auto_center_offset_mm": [
+        -6.840013716669091e-05,
+        -6.640013208425444e-05,
+        0.22800045078387868
+      ],
+      "auto_fit_scale": 0.48000096850557844,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl39",
+        "body_piece_faces": 112,
+        "axis": 0,
+        "measured_default_extent_mm": 0.8160016464594834,
+        "nominal_package_extent_mm": 1.7,
+        "basis": "NominalVishay SOD323 molded body long axis; derived full lead size is retained.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.4999999298768563,
+        1.2499999649384284,
+        0.9499999614322816
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 0,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native silver top band at negative X; source explicitly specifies K1 at negative X. Band-to-K1 direction matches after source registration.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "D1",
+      "family": "SOD523",
+      "model_uuid": "c9cd6b3de4464affa41bb10afbd29ee3",
+      "source_auto_default_full_xyz_mm": [
+        1.0000040132080272,
+        0.5012384305816795,
+        0.44441069208590345
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -0.49985600631443106,
+        -0.2503425147370706,
+        0.0,
+        0.5001480068935962,
+        0.2508959158446089,
+        0.44441069208590345
+      ],
+      "source_auto_center_offset_mm": [
+        0.00014600028958255962,
+        0.00027670055376916025,
+        0.22220534604295172
+      ],
+      "auto_fit_scale": 0.6265480226665925,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl8",
+        "body_piece_faces": 519,
+        "axis": 0,
+        "measured_default_extent_mm": 0.7518576271999109,
+        "nominal_package_extent_mm": 1.2,
+        "basis": "NominalSOD523 molded body long axis; derived full lead size is retained.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        1.5960532585387528,
+        0.8000000198682384,
+        0.7093002866635644
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native top band at positive X; geometry axis matches canonical terminal axis, but actual ESD device band/polarity is unverified. Manual QA required.",
+      "pin1_or_polarity_manual_QA_required": true,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U8",
+      "family": "SOIC16_150MIL",
+      "model_uuid": "3622ca242287487a9c2e38fcfcddad34",
+      "source_auto_default_full_xyz_mm": [
+        6.060619024948963,
+        10.000021005842015,
+        1.722225904450126
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -2.755189617234443,
+        -4.998450336896084,
+        0.0,
+        3.30542940771452,
+        5.001570668945931,
+        1.722225904450126
+      ],
+      "source_auto_center_offset_mm": [
+        0.27511989524003866,
+        0.0015601660249231486,
+        0.861112952225063
+      ],
+      "auto_fit_scale": 1.010103166941971,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 1.27,
+        "default_measured_pitch_mm": 1.2828310220163033,
+        "default_row_coordinate_levels_mm": [
+          -4.489908526884697,
+          -3.20707763961704,
+          -1.9242465115220213,
+          -0.6414155038406832,
+          0.641415503840669,
+          1.924246511522007,
+          3.207077639617033,
+          4.489908526884683
+        ],
+        "max_row_fit_or_pitch_residual_mm": 8.457628108970994e-08,
+        "terminal_piece_count": 16
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        6.000000023064116,
+        9.89999965658607,
+        1.7050000047659144
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 180,
+      "final_relative_offset_mm": [
+        0.0,
+        1.1102230246251565e-16,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native lead rows are X-left/right and TL circular pin1 mark is at (-X,+Y); no extra canonical correction.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U6",
+      "family": "SOIC8_150MIL",
+      "model_uuid": "97bd43a9d3eb4c6e8f9c2731ad707392",
+      "source_auto_default_full_xyz_mm": [
+        4.317647418639396,
+        5.300010083820169,
+        1.5016695658697432
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -2.158695109060602,
+        -2.7998891097790093,
+        0.0,
+        2.158952309578794,
+        2.5001209740411596,
+        1.5016695658697432
+      ],
+      "source_auto_center_offset_mm": [
+        0.00012860025909589012,
+        -0.14988406786892483,
+        0.7508347829348716
+      ],
+      "auto_fit_scale": 0.8833350007036677,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 1.27,
+        "default_measured_pitch_mm": 1.1218354508936579,
+        "default_row_coordinate_levels_mm": [
+          -1.6827176896542895,
+          -0.5608822387606338,
+          0.5609532121330219,
+          1.6827886630266846
+        ],
+        "max_row_fit_or_pitch_residual_mm": 2.886579864025407e-15,
+        "terminal_piece_count": 8
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        4.887893511748027,
+        6.000000090110958,
+        1.7000000732151541
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 270,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native lead rows are Y-bottom/top, four pins along X; circular BL marker is (-X,-Y). RotZ270 maps it to canonical left-row +Y.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U9",
+      "family": "SOIC8_150MIL",
+      "model_uuid": "97bd43a9d3eb4c6e8f9c2731ad707392",
+      "source_auto_default_full_xyz_mm": [
+        3.592608857346235,
+        4.410008813817626,
+        1.2495025322959292
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.7961517683655046,
+        -2.2050554670132243,
+        0.0,
+        1.7964570889807305,
+        2.204953346804402,
+        1.2495025322959292
+      ],
+      "source_auto_center_offset_mm": [
+        0.0001526603076129618,
+        -5.1060104411249085e-05,
+        0.6247512661479646
+      ],
+      "auto_fit_scale": 0.73500145793099,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 1.27,
+        "default_measured_pitch_mm": 0.9334518515723573,
+        "default_row_coordinate_levels_mm": [
+          -1.4001482497545439,
+          -0.46669639818218656,
+          0.46675545339017077,
+          1.400207304962528
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.0,
+        "terminal_piece_count": 8
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        4.887893511748039,
+        6.000000090110959,
+        1.7000000732151557
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 270,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native lead rows are Y-bottom/top, four pins along X; circular BL marker is (-X,-Y). RotZ270 maps it to canonical left-row +Y.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U2",
+      "family": "SOT223",
+      "model_uuid": "72b2852661134777881d1857feec3023",
+      "source_auto_default_full_xyz_mm": [
+        7.432728958860487,
+        6.800013614427229,
+        1.8283762467781788
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -5.291235583473913,
+        -3.3999058570129463,
+        -6.938893903907228e-18,
+        2.141493375386574,
+        3.4001077574142826,
+        1.8283762467781788
+      ],
+      "source_auto_center_offset_mm": [
+        -1.5748711040436696,
+        0.00010095020066813731,
+        0.9141881233890894
+      ],
+      "auto_fit_scale": 1.0469519205155071,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 2.3,
+        "default_measured_pitch_mm": 2.407989417185666,
+        "default_row_coordinate_levels_mm": [
+          -2.4086831281783034,
+          -0.0006056788991877227,
+          2.407295706193029
+        ],
+        "max_row_fit_or_pitch_residual_mm": 5.8688062299694366e-05,
+        "terminal_piece_count": 3
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        7.099398561875407,
+        6.495058159957317,
+        1.7463803360501093
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 180,
+      "final_relative_offset_mm": [
+        -1.5749996694000004,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native three small leads on left X row, tab on right, and top pin1 mark at (-X,+Y); matches canonical.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "Q1",
+      "family": "SOT23_3",
+      "model_uuid": "e225ba99af1f4d9384be1c241ef125ab",
+      "source_auto_default_full_xyz_mm": [
+        3.0000059944119926,
+        2.4865412006674035,
+        1.0619602993055444
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.8331932980187844,
+        -1.2431570901076299,
+        -5.551115123125783e-17,
+        1.1668126963932082,
+        1.2433841105597736,
+        1.0619602993055444
+      ],
+      "source_auto_center_offset_mm": [
+        -0.3331903008127881,
+        0.00011351022607186678,
+        0.5309801496527722
+      ],
+      "auto_fit_scale": 1.036058779441311,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 1.9,
+        "default_measured_pitch_mm": 1.9685116809384908,
+        "default_row_coordinate_levels_mm": [
+          -0.9842558404692454,
+          0.9842558404692454
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.0,
+        "terminal_piece_count": 2
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.8955943947791547,
+        2.400000125483476,
+        1.025000048624848
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 270,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        -0.33333300109999997,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native two small leads are on negative Y and single lead on positive Y. RotZ270 maps the pair to left row. Individual pin1/2 identity is not encoded unambiguously; manual QA.",
+      "pin1_or_polarity_manual_QA_required": true,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "TVS1",
+      "family": "SOT23_6",
+      "model_uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+      "source_auto_default_full_xyz_mm": [
+        3.006213326559447,
+        3.1000061976124016,
+        1.7032286931646705
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.502980763025711,
+        -1.549928098653794,
+        6.938893903907228e-18,
+        1.5032325635337358,
+        1.5500780989586076,
+        1.7032286931646705
+      ],
+      "source_auto_center_offset_mm": [
+        0.0001259002540123788,
+        7.500015240680113e-05,
+        0.8516143465823353
+      ],
+      "auto_fit_scale": 1.0341213996075058,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.95,
+        "default_measured_pitch_mm": 0.9824153296271305,
+        "default_row_coordinate_levels_mm": [
+          -0.9824153296271305,
+          0.0,
+          0.9824153296271305
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.0,
+        "terminal_piece_count": 6
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.907021678209576,
+        2.997719802325906,
+        1.6470297334637114
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 0,
+      "final_relative_offset_mm": [
+        4.233333333880651e-07,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native six terminal centers form X-left/right rows with top pin1 marking at (-X,+Y); matches canonical.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "TVS2",
+      "family": "SOT23_6",
+      "model_uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+      "source_auto_default_full_xyz_mm": [
+        3.006213326559461,
+        3.1000061976124016,
+        1.7032286931646705
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.7529320329317386,
+        -1.5498735685445695,
+        6.938893903907228e-18,
+        1.2532812936277224,
+        1.5501326290678321,
+        1.7032286931646705
+      ],
+      "source_auto_center_offset_mm": [
+        -0.24982536965200808,
+        0.00012953026163131653,
+        0.8516143465823353
+      ],
+      "auto_fit_scale": 1.0341213996075058,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.95,
+        "default_measured_pitch_mm": 0.9824153296271305,
+        "default_row_coordinate_levels_mm": [
+          -0.9824153296271305,
+          0.0,
+          0.9824153296271305
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.0,
+        "terminal_piece_count": 6
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.9070216782095897,
+        2.997719802325906,
+        1.6470297334637114
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 0,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native six terminal centers form X-left/right rows with top pin1 marking at (-X,+Y); matches canonical.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "TVS3",
+      "family": "SOT23_6",
+      "model_uuid": "4f0b8a3103a94d818231c78af7ee5d6d",
+      "source_auto_default_full_xyz_mm": [
+        3.1000061976123945,
+        3.196725375518781,
+        1.756368870470219
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.5498839385674188,
+        -1.8480790671903833,
+        6.938893903907228e-18,
+        1.5501222590449757,
+        1.348646308328398,
+        1.756368870470219
+      ],
+      "source_auto_center_offset_mm": [
+        0.0001191602387784485,
+        -0.24971637943099267,
+        0.8781844352351095
+      ],
+      "auto_fit_scale": 1.0663856485314078,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.95,
+        "default_measured_pitch_mm": 1.0130663661048374,
+        "default_row_coordinate_levels_mm": [
+          -1.0130663661048374,
+          0.0,
+          1.0130663661048374
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.0,
+        "terminal_piece_count": 6
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        2.9070216782095892,
+        2.9977198023259306,
+        1.6470297334637183
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native six terminal centers form X-left/right rows with top pin1 marking at (-X,+Y); matches canonical.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "C41",
+      "family": "TANTALUM_B_3528",
+      "model_uuid": "3374b87e848e42cdbf68b58df1ef103d",
+      "source_auto_default_full_xyz_mm": [
+        3.120006248412494,
+        2.361085738971937,
+        1.6856525390424908
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -1.5598441288900062,
+        -1.180512149425006,
+        1.1102230246251565e-16,
+        1.560162119522488,
+        1.1805735895469311,
+        1.6856525390424908
+      ],
+      "source_auto_center_offset_mm": [
+        0.00015899531624086194,
+        3.072006096260793e-05,
+        0.8428262695212454
+      ],
+      "auto_fit_scale": 0.8432449211360661,
+      "calibration_anchor": {
+        "method": "visual_package_body_material_extent",
+        "material": "mtl4",
+        "body_piece_faces": 412,
+        "axis": 0,
+        "measured_default_extent_mm": 2.951357223976231,
+        "nominal_package_extent_mm": 3.5,
+        "basis": "NominalcaseB3528 molded body long axis; metal extends beyond the body.",
+        "manufacturer_exact": false,
+        "clearance_certification": false
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        3.700000047683714,
+        2.799999952316288,
+        1.9990070462226879
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 0,
+      "final_relative_rotZ_deg": 270,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Measured molded salmon body, two end terminals, and contrasting positive-end stripe at native negative X; source capacitor pin1 is positive and canonical at -X.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": null,
+      "confidence": "nominal_body_calibrated_visual_package_uncertified",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U1",
+      "family": "TFBGA265_14X14",
+      "model_uuid": "e1878b6c003f47de9314929abaa1d61c",
+      "source_auto_default_full_xyz_mm": [
+        14.501829006858017,
+        14.501829006858003,
+        1.0979625957491748
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -7.250814403230883,
+        -7.525290786380467,
+        0.0,
+        7.251014603627134,
+        6.976538220477536,
+        1.0979625957491748
+      ],
+      "source_auto_center_offset_mm": [
+        0.00010010019812511928,
+        -0.2743762829514651,
+        0.5489812978745874
+      ],
+      "auto_fit_scale": 1.0360753358915225,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.8,
+        "default_measured_pitch_mm": 0.8288602687132179,
+        "default_row_coordinate_levels_mm": [
+          -6.630892890340511,
+          -5.803366893071267,
+          -4.970946578904628,
+          -4.14180477165963,
+          -3.320160194571048,
+          -2.485709591065394,
+          -1.6571731746262364,
+          -0.8299642097857329,
+          0.0005153946987486317,
+          0.8299642118437717,
+          1.6571731746262364,
+          2.485709591065394,
+          3.320160194571048,
+          4.14180477165963,
+          4.970946578904628,
+          5.803366893071267,
+          6.630892890340511
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.00474943717445786,
+        "terminal_piece_count": 265
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        13.996886620584862,
+        13.996886620584847,
+        1.0597323936916223
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 90,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native top circular A1 marker at (-X,+Y). RotZ90 maps it to source A1(-X,-Y), numbers+Y, letters+X. Ball-map comparison recorded.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": {
+        "ball_count": 265,
+        "source_pin_count": 265,
+        "nearest_ball_max_error_mm": 0.01586914806491707,
+        "nearest_ball_mean_error_mm": 0.007197806997323681,
+        "A1_error_mm": 0.003045429015489717,
+        "all_source_pin_errors_mm": {
+          "A1": 0.003045429015489717,
+          "A2": 0.0015857549898981083,
+          "A3": 0.009196682374409727,
+          "A4": 0.004912992518957121,
+          "A5": 0.004421534445834421,
+          "A6": 0.007391410716294716,
+          "A7": 0.0007521902600750836,
+          "A8": 0.0009110524723140886,
+          "A9": 0.003488023513124198,
+          "A10": 0.006805389940798921,
+          "A11": 0.0030557005799451207,
+          "A12": 0.0034008349094006665,
+          "A13": 0.008329701030094403,
+          "A14": 0.007611434068626481,
+          "A15": 0.010693567813729559,
+          "A16": 0.005436354317561017,
+          "A17": 0.003045429015489717,
+          "B1": 0.005436354317565595,
+          "B2": 0.003351954485475051,
+          "B3": 0.009352143221255278,
+          "B4": 0.004711636804934078,
+          "B5": 0.005352267665859087,
+          "B6": 0.013023819395408401,
+          "B7": 0.007770201584204164,
+          "B8": 0.004826395748235676,
+          "B9": 0.004777950757387026,
+          "B10": 0.011223086638262377,
+          "B11": 0.006837566127127446,
+          "B12": 0.009438406320498945,
+          "B13": 0.006231744676396771,
+          "B14": 0.005891490633746086,
+          "B15": 0.007090259079216161,
+          "B16": 0.003351954485467946,
+          "B17": 0.0015857549899013868,
+          "C1": 0.010695861129582904,
+          "C2": 0.007091752455354045,
+          "C3": 0.009592889108820194,
+          "C4": 0.009791039438055012,
+          "C5": 0.00897133204332794,
+          "C6": 0.001462453116688096,
+          "C7": 0.01050668066994612,
+          "C8": 0.010379030746173544,
+          "C9": 0.0045562756835156445,
+          "C10": 0.010124586215891311,
+          "C11": 0.0048322765757333064,
+          "C12": 0.003571524844246061,
+          "C13": 0.0036868485032724675,
+          "C14": 0.008522818358725013,
+          "C15": 0.009592588654561128,
+          "C16": 0.009352143221253557,
+          "C17": 0.009196682374411154,
+          "D1": 0.007611434068633444,
+          "D2": 0.005891490633748314,
+          "D3": 0.008523081271981306,
+          "D4": 0.004548122456340682,
+          "D5": 0.009419482301692482,
+          "D6": 0.005039510853160885,
+          "D7": 0.0054955926150256585,
+          "D8": 0.01259297557792979,
+          "D9": 0.004587881669597606,
+          "D10": 0.008364394615646743,
+          "D11": 0.004314915796963433,
+          "D12": 0.010086869547614856,
+          "D13": 0.007294277692950773,
+          "D14": 0.004548938618649557,
+          "D15": 0.009792680086335322,
+          "D16": 0.004711636804935516,
+          "D17": 0.0049129925189576144,
+          "E1": 0.008329701030096903,
+          "E2": 0.006231744676397999,
+          "E3": 0.0036868485032724675,
+          "E4": 0.0072942776929483194,
+          "E5": 0.006211048362424622,
+          "E6": 0.012303983335230471,
+          "E7": 0.015869148064912728,
+          "E8": 0.015508347326425365,
+          "E9": 0.00524736505629221,
+          "E10": 0.015674101544838007,
+          "E11": 0.007916987066458424,
+          "E12": 0.002941184161135278,
+          "E13": 0.006211048362429447,
+          "E14": 0.0094194823016911,
+          "E15": 0.008969096837297104,
+          "E16": 0.0053522676658561575,
+          "E17": 0.004421534445831167,
+          "F1": 0.0034008349094006665,
+          "F2": 0.009438406320506083,
+          "F3": 0.00357152484424355,
+          "F4": 0.010086869547609347,
+          "F5": 0.002941184161139579,
+          "F13": 0.012303983335234832,
+          "F14": 0.005039510853155872,
+          "F15": 0.0014613397068248448,
+          "F16": 0.013023819395410401,
+          "F17": 0.007391410716303522,
+          "G1": 0.003055700579948595,
+          "G2": 0.006837566127127446,
+          "G3": 0.004832276575728499,
+          "G4": 0.004314915796966709,
+          "G5": 0.007916987066455548,
+          "G7": 0.008634748951516369,
+          "G8": 0.011810865075649811,
+          "G9": 0.008279642704049437,
+          "G10": 0.008637832001979841,
+          "G11": 0.008634748951516343,
+          "G13": 0.01586914806491707,
+          "G14": 0.005495592615027545,
+          "G15": 0.010504939302390097,
+          "G16": 0.007770201584206832,
+          "G17": 0.0007521902600767758,
+          "H1": 0.00680538994079584,
+          "H2": 0.011223086638265933,
+          "H3": 0.010124586215896257,
+          "H4": 0.008364394615647747,
+          "H5": 0.015674101544839513,
+          "H7": 0.008637832001980032,
+          "H8": 0.010555498826895012,
+          "H9": 0.0001762954768738112,
+          "H10": 0.010555498826897504,
+          "H11": 0.011810865075649811,
+          "H13": 0.015508347326431656,
+          "H14": 0.012593254546508168,
+          "H15": 0.010377267958214921,
+          "H16": 0.004826395748237472,
+          "H17": 0.0009110524723186502,
+          "J1": 0.003488023513124198,
+          "J2": 0.0047779507573858255,
+          "J3": 0.004556275683515954,
+          "J4": 0.00458788166959497,
+          "J5": 0.0052473650562900225,
+          "J7": 0.008279642704045983,
+          "J8": 0.00790047138269736,
+          "J9": 0.01055248804352135,
+          "J10": 0.00790047138269736,
+          "J11": 0.008279642704045983,
+          "J13": 0.0052473650562900225,
+          "J14": 0.0045862571470748435,
+          "J15": 0.004557921744605856,
+          "J16": 0.0047779507573858255,
+          "J17": 0.003488023513124198,
+          "K1": 0.0009110524723186502,
+          "K2": 0.004826395748237472,
+          "K3": 0.010379030746173534,
+          "K4": 0.012592975577925979,
+          "K5": 0.015508347326431656,
+          "K7": 0.011810865075649811,
+          "K8": 0.010555498826897504,
+          "K9": 0.00790047138270071,
+          "K10": 0.010555498826895012,
+          "K11": 0.008637832001980032,
+          "K13": 0.015674101544839513,
+          "K14": 0.00836367645916627,
+          "K15": 0.010122779118883067,
+          "K16": 0.011223086638265933,
+          "K17": 0.00680538994079584,
+          "L1": 0.0007521902600767758,
+          "L2": 0.007770201584206832,
+          "L3": 0.010506680669950981,
+          "L4": 0.005495592615027545,
+          "L5": 0.01586914806491707,
+          "L7": 0.008634748951516343,
+          "L8": 0.008637832001979841,
+          "L9": 0.008279642704049437,
+          "L10": 0.011810865075649811,
+          "L11": 0.008634748951516369,
+          "L13": 0.007916987066455548,
+          "L14": 0.004314915796966709,
+          "L15": 0.004833828651295622,
+          "L16": 0.006837566127127446,
+          "L17": 0.003055700579948595,
+          "M1": 0.007391410716303522,
+          "M2": 0.013023819395410401,
+          "M3": 0.001462453116691288,
+          "M4": 0.005039510853155872,
+          "M5": 0.012303983335234832,
+          "M13": 0.002941184161139579,
+          "M14": 0.010086869547609347,
+          "M15": 0.003570027930627774,
+          "M16": 0.009438406320506083,
+          "M17": 0.0034008349094006665,
+          "N1": 0.004421534445831167,
+          "N2": 0.0053522676658561575,
+          "N3": 0.00897133204332794,
+          "N4": 0.0094194823016911,
+          "N5": 0.006211048362429447,
+          "N6": 0.002941184161135278,
+          "N7": 0.007916987066458424,
+          "N8": 0.015674101544838007,
+          "N9": 0.00524736505629221,
+          "N10": 0.015508347326425365,
+          "N11": 0.015869148064912728,
+          "N12": 0.012303983335230471,
+          "N13": 0.006211048362424622,
+          "N14": 0.0072942776929483194,
+          "N15": 0.0036858043525226955,
+          "N16": 0.006231744676397999,
+          "N17": 0.008329701030096903,
+          "P1": 0.0049129925189576144,
+          "P2": 0.004711636804935516,
+          "P3": 0.009790261896420965,
+          "P4": 0.0045505280474314805,
+          "P5": 0.007294277692950773,
+          "P6": 0.010086869547614856,
+          "P7": 0.004314915796963433,
+          "P8": 0.008363676459165267,
+          "P9": 0.00458625714707748,
+          "P10": 0.01259325454651198,
+          "P11": 0.0054955926150256585,
+          "P12": 0.005039510853160885,
+          "P13": 0.009419482301692482,
+          "P14": 0.004548122456340682,
+          "P15": 0.008520291967433598,
+          "P16": 0.005891490633748314,
+          "P17": 0.007611434068633444,
+          "R1": 0.00919435609512908,
+          "R2": 0.009353374061725876,
+          "R3": 0.009595411241182144,
+          "R4": 0.00852029196744015,
+          "R5": 0.0036858043525226955,
+          "R6": 0.003570027930630286,
+          "R7": 0.0048338286513004295,
+          "R8": 0.010122779118878121,
+          "R9": 0.004557921744605547,
+          "R10": 0.010377267958214934,
+          "R11": 0.010504939302385236,
+          "R12": 0.0014613397068216506,
+          "R13": 0.008969096837297104,
+          "R14": 0.009792680086334235,
+          "R15": 0.009595110865906335,
+          "R16": 0.007090259079208325,
+          "R17": 0.010693567813723144,
+          "T1": 0.0015857549899013868,
+          "T2": 0.003351954485467946,
+          "T3": 0.007091752455361882,
+          "T4": 0.005891490633746086,
+          "T5": 0.006231744676396771,
+          "T6": 0.009438406320498945,
+          "T7": 0.006837566127127446,
+          "T8": 0.011223086638262377,
+          "T9": 0.004777950757387026,
+          "T10": 0.004826395748235676,
+          "T11": 0.007770201584204164,
+          "T12": 0.013023819395408401,
+          "T13": 0.005352267665859087,
+          "T14": 0.004711636804934078,
+          "T15": 0.009353374061727596,
+          "T16": 0.003351954485475051,
+          "T17": 0.005436354317565595,
+          "U1": 0.003045429015489717,
+          "U2": 0.005436354317561017,
+          "U3": 0.010695861129589321,
+          "U4": 0.007611434068626481,
+          "U5": 0.008329701030094403,
+          "U6": 0.0034008349094006665,
+          "U7": 0.0030557005799451207,
+          "U8": 0.006805389940798921,
+          "U9": 0.003488023513124198,
+          "U10": 0.0009110524723140886,
+          "U11": 0.0007521902600750836,
+          "U12": 0.007391410716294716,
+          "U13": 0.004421534445834421,
+          "U14": 0.004912992518957121,
+          "U15": 0.009194356095127655,
+          "U16": 0.0015857549898981083,
+          "U17": 0.003045429015489717
+        }
+      },
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    },
+    {
+      "ref": "U4",
+      "family": "TFBGA90_13X8_SOURCE_AXES",
+      "model_uuid": "a776beb50b5a4f47b88257987385b603",
+      "source_auto_default_full_xyz_mm": [
+        5.525119149684457,
+        8.978318618237239,
+        0.8280904061281735
+      ],
+      "source_auto_default_bbox_component_local_mm": [
+        -2.7624663746542666,
+        -4.7497818595631,
+        -5.551115123125783e-17,
+        2.7626527750301904,
+        4.228536758674139,
+        0.8280904061281734
+      ],
+      "source_auto_center_offset_mm": [
+        9.320018796188378e-05,
+        -0.2606225504444808,
+        0.41404520306408665
+      ],
+      "auto_fit_scale": 0.6907273884165706,
+      "calibration_anchor": {
+        "method": "measured_terminal_or_ball_pitch",
+        "nominal_pitch_mm": 0.8,
+        "default_measured_pitch_mm": 0.5525819107332565,
+        "default_row_coordinate_levels_mm": [
+          -3.870276622811364,
+          -3.3154165322482143,
+          -2.760379279759672,
+          -2.2085042530624492,
+          -1.658987191079106,
+          -1.1060431826891015,
+          -0.5520705998233986,
+          -0.0008892006222846286,
+          0.5520705998233986,
+          1.1060431826891015,
+          1.658987191079106,
+          2.2085042530624492,
+          2.760379279759672,
+          3.3154165322482143,
+          3.870276622811364
+        ],
+        "max_row_fit_or_pitch_residual_mm": 0.002589553948096235,
+        "terminal_piece_count": 90
+      },
+      "intrinsic_full_mesh_xyz_mm": [
+        7.998986636899238,
+        12.998353284961256,
+        1.1988671942291085
+      ],
+      "model_native_to_source_canonical_rotZ_deg": 90,
+      "final_relative_rotZ_deg": 90,
+      "final_relative_offset_mm": [
+        0.0,
+        0.0,
+        0
+      ],
+      "mounting_plane": "Mesh minimum Z=0; top-side SMD, native explicit transform reanchors minZ to board surface.",
+      "orientation_evidence": "Native full body X8/Y13 and top A1 circular marker(-X,+Y). RotZ90 yields source body X13/Y8 and A1(-X,-Y). Ball-map comparison recorded.",
+      "pin1_or_polarity_manual_QA_required": false,
+      "extra_orientation_evidence": null,
+      "bga_source_ball_map_check": {
+        "ball_count": 90,
+        "source_pin_count": 90,
+        "nearest_ball_max_error_mm": 0.012236342046729477,
+        "nearest_ball_mean_error_mm": 0.006610364136274366,
+        "A1_error_mm": 0.0059590075233000965,
+        "all_source_pin_errors_mm": {
+          "A1": 0.0059590075233000965,
+          "A2": 0.00101328212963414,
+          "A3": 0.006623117457000401,
+          "A7": 0.009021272106003838,
+          "A8": 0.005407132314852784,
+          "A9": 0.0025821941021984107,
+          "B1": 0.007949765596057427,
+          "B2": 0.006652336837505503,
+          "B3": 0.005088781853836427,
+          "B7": 0.00796356448828427,
+          "B8": 0.003571693865391654,
+          "B9": 0.012143830434522202,
+          "C1": 0.002870282173991005,
+          "C2": 0.011448579263954147,
+          "C3": 0.002640334300719314,
+          "C7": 0.005360428376607576,
+          "C8": 0.007619927117110817,
+          "C9": 0.006619049761775275,
+          "D1": 0.0072708253213394835,
+          "D2": 0.010269819606529253,
+          "D3": 0.005716427442350535,
+          "D7": 0.004229844741557363,
+          "D8": 0.008711209578061731,
+          "D9": 0.0072708253213443685,
+          "E1": 0.008711209578068289,
+          "E2": 0.003154233861606669,
+          "E3": 0.008479978333842309,
+          "E7": 0.004816161596060914,
+          "E8": 0.003154233861595394,
+          "E9": 0.010269819606526587,
+          "F1": 0.0042298447415594015,
+          "F2": 0.004816161596060914,
+          "F3": 0.010337547093835301,
+          "F7": 0.01033754709383253,
+          "F8": 0.008479978333837698,
+          "F9": 0.005716427442351831,
+          "G1": 0.004038133315895675,
+          "G2": 0.004292520318871771,
+          "G3": 0.007915875875331593,
+          "G7": 0.0070894554873082456,
+          "G8": 0.012236342046729477,
+          "G9": 0.0068425558051598495,
+          "H1": 0.0016584913702728207,
+          "H2": 0.010711087540902954,
+          "H3": 0.007916183463654287,
+          "H7": 0.0056545001220452,
+          "H8": 0.00777576027444606,
+          "H9": 0.0033736340885666682,
+          "J1": 0.0068425558051598495,
+          "J2": 0.012236342046729477,
+          "J3": 0.0070894554873082456,
+          "J7": 0.007915875875331593,
+          "J8": 0.004292520318871771,
+          "J9": 0.004038133315895675,
+          "K1": 0.005716427442351831,
+          "K2": 0.008479978333837698,
+          "K3": 0.01033754709383253,
+          "K7": 0.010337547093835301,
+          "K8": 0.004816161596060914,
+          "K9": 0.0042298447415594015,
+          "L1": 0.010269819606526587,
+          "L2": 0.003154233861595394,
+          "L3": 0.004816161596060914,
+          "L7": 0.008479978333842309,
+          "L8": 0.003154233861606669,
+          "L9": 0.008711209578068289,
+          "M1": 0.0072708253213443685,
+          "M2": 0.008711209578061731,
+          "M3": 0.004229844741557363,
+          "M7": 0.005716427442350535,
+          "M8": 0.010269819606529253,
+          "M9": 0.0072708253213394835,
+          "N1": 0.006619049761775275,
+          "N2": 0.007619927117110817,
+          "N3": 0.005360428376607576,
+          "N7": 0.002640334300719314,
+          "N8": 0.011448579263954147,
+          "N9": 0.002870282173991005,
+          "P1": 0.012143830434522202,
+          "P2": 0.003571693865391654,
+          "P3": 0.00796356448828427,
+          "P7": 0.005088781853836427,
+          "P8": 0.006652336837505503,
+          "P9": 0.007949765596057427,
+          "R1": 0.0025821941021984107,
+          "R2": 0.005407132314852784,
+          "R3": 0.009021272106003838,
+          "R7": 0.006623117457000401,
+          "R8": 0.00101328212963414,
+          "R9": 0.0059590075233000965
+        }
+      },
+      "confidence": "pitch_calibrated_visual_package",
+      "manufacturer_exact": false,
+      "manufacturing_clearance_approved": false
+    }
+  ],
+  "limits": [
+    "Generic package-equivalent visualization only; not exact manufacturer geometry or mechanical/clearance certification.",
+    "Explicit XYZ are measured full mesh envelopes calibrated by known electrical pitch, or root-authorized nominal body-material axes for visual-only packages. Leaded full envelopes are never replaced by body dimensions.",
+    "Pin1/polarity unresolved cases are explicitly flagged for manual QA, not claimed verified.",
+    "An explicit-transform native re-export and per-reference spatial/pad-side audit must confirm the resulting renderer scaling, center, board-side and pin registration before final acceptance."
+  ]
+}

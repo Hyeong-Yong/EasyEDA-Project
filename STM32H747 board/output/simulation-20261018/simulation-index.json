@@ -1,0 +1,1018 @@
+{
+  "status": "representative simulation review complete; not a manufacturing or real-hardware qualification",
+  "not_cadence_pspice": true,
+  "cad_modified": false,
+  "accepted_cases": [
+    "dcpoint_nominal_v5p5_v3p3p3_sman2_attempt2",
+    "dcpoint_nominal_v5p5_v3p3p3_sman1p75",
+    "dcpoint_nominal_v5p5_v3p3p3_sman1p5",
+    "dcpoint_nominal_v5p5_v3p3p3_sman1p25_attempt2",
+    "dcpoint_nominal_v5p5_v3p3p3_sman1",
+    "dcpoint_nominal_v5p5_v3p3p3_sman0p75_attempt2",
+    "dcpoint_nominal_v5p5_v3p3p3_sman0p5",
+    "dcpoint_nominal_v5p5_v3p3p3_sman0p25",
+    "dcpoint_nominal_v5p5_v3p3p3_smap0",
+    "dcpoint_nominal_v5p5_v3p3p3_smap0p25",
+    "dcpoint_nominal_v5p5_v3p3p3_smap0p5_attempt2",
+    "dcpoint_nominal_v5p5_v3p3p3_smap0p75",
+    "dcpoint_nominal_v5p5_v3p3p3_smap1",
+    "dcpoint_nominal_v5p5_v3p3p3_smap1p25",
+    "dcpoint_nominal_v5p5_v3p3p3_smap1p5",
+    "dcpoint_nominal_v5p5_v3p3p3_smap1p75",
+    "dcpoint_nominal_v5p5_v3p3p3_smap2",
+    "dcpoint_corner_v5p4p75_v3p3p135_sman2",
+    "dcpoint_corner_v5p4p75_v3p3p135_smap0",
+    "dcpoint_corner_v5p4p75_v3p3p135_smap2",
+    "dcpoint_corner_v5p4p75_v3p3p3_sman2",
+    "dcpoint_corner_v5p4p75_v3p3p3_smap0",
+    "dcpoint_corner_v5p4p75_v3p3p3_smap2",
+    "dcpoint_corner_v5p4p75_v3p3p465_sman2",
+    "dcpoint_corner_v5p4p75_v3p3p465_smap0",
+    "dcpoint_corner_v5p4p75_v3p3p465_smap2",
+    "dcpoint_corner_v5p5_v3p3p135_sman2",
+    "dcpoint_corner_v5p5_v3p3p135_smap0",
+    "dcpoint_corner_v5p5_v3p3p135_smap2",
+    "dcpoint_corner_v5p5_v3p3p3_sman2_attempt2",
+    "dcpoint_corner_v5p5_v3p3p3_smap0",
+    "dcpoint_corner_v5p5_v3p3p3_smap2",
+    "dcpoint_corner_v5p5_v3p3p465_sman2",
+    "dcpoint_corner_v5p5_v3p3p465_smap0",
+    "dcpoint_corner_v5p5_v3p3p465_smap2_attempt2",
+    "dcpoint_corner_v5p5p25_v3p3p135_sman2",
+    "dcpoint_corner_v5p5p25_v3p3p135_smap0",
+    "dcpoint_corner_v5p5p25_v3p3p135_smap2",
+    "dcpoint_corner_v5p5p25_v3p3p3_sman2",
+    "dcpoint_corner_v5p5p25_v3p3p3_smap0",
+    "dcpoint_corner_v5p5p25_v3p3p3_smap2",
+    "dcpoint_corner_v5p5p25_v3p3p465_sman2",
+    "dcpoint_corner_v5p5p25_v3p3p465_smap0",
+    "dcpoint_corner_v5p5p25_v3p3p465_smap2",
+    "ac_ref_q1_trueDC",
+    "noise_ref_q1_trueDC",
+    "smoke_ref_q1_trueDC",
+    "ac_ref_generic_crosscheck",
+    "noise_ref_generic_crosscheck",
+    "sine_ideal_q1_clean",
+    "step_ideal_q1_clean",
+    "reference_ref_q1",
+    "reference-noise_ref_q1_allnoise",
+    "reference-startup_ref_q1_gear",
+    "ldo_ref_q1",
+    "kick_ideal_q1_clean_32p_3000ohm",
+    "kick_ideal_q1_clean_32p_3000ohm_reverse",
+    "kick_ideal_q1_clean_4p_1000ohm"
+  ],
+  "rejected_or_initial_diagnostic_runs": "Other diagnostic/failed logs are preserved but are not part of accepted simulation evidence.",
+  "artifacts": [
+    {
+      "path": "output\\simulation-20261018\\review.html",
+      "bytes": 8627,
+      "sha256": "7e485d62a373451efb8a97001ad5d3284abedc3038961285efaf535c6dc9160d"
+    },
+    {
+      "path": "output\\simulation-20261018\\results.json",
+      "bytes": 6509,
+      "sha256": "f5a080a2d4c6a9210d460b2b01f3d48b3bb27ac3ee69218f4b102db881a705a1"
+    },
+    {
+      "path": "output\\simulation-20261018\\source-audit.json",
+      "bytes": 5435,
+      "sha256": "e9592e4d58e6975bac1e09e48ea4faddc9a294f244780d1604e179f12b0ebdd7"
+    },
+    {
+      "path": "output\\simulation-20261018\\dc-points.csv",
+      "bytes": 5484,
+      "sha256": "17b465107050ed9f04c73fce7dc8583a3ed6da1eae3749161fc23d95d1b4589c"
+    },
+    {
+      "path": "output\\simulation-20261018\\runtime\\dcpoint-accepted-summary.json",
+      "bytes": 317170,
+      "sha256": "902fd46cd1b8319b57ff506537d399a73194b195b61a328a2143100d52e56be7"
+    },
+    {
+      "path": "output\\simulation-20261018\\models\\model-index.json",
+      "bytes": 17859,
+      "sha256": "91aca0f07801d9013bcffd8002e1d11a9c8affe76593df8dbfb2189e90f3e3d9"
+    },
+    {
+      "path": "output\\simulation-20261018\\runtime\\ngspice-runtime.json",
+      "bytes": 3348,
+      "sha256": "cb12bb425f8abeed28e344e4811e950afaa85d0896af26c57c197eec3fc5b539"
+    },
+    {
+      "path": "scripts\\report-adc-simulation.py",
+      "bytes": 27340,
+      "sha256": "97434e9838b1cc8693e639f70052b8d5439add5db5543f613c399f6b4998e590"
+    },
+    {
+      "path": "scripts\\simulate-adc-representative.py",
+      "bytes": 18888,
+      "sha256": "fc8c9a26ca56be74303a06da4711a5c6064515f16442bbba57c1d7cbb6e19a32"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman2_attempt2.raw",
+      "bytes": 1525,
+      "sha256": "b39a1d40c289367b6999a0e0e7237d4356966fad3c1bf895660ef7c77d7f85c4"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman2_attempt2.log",
+      "bytes": 795,
+      "sha256": "46a4adf791f85dd7dff00923426cf2990de3ae17eed90bfc7c581104a4d92627"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman2_attempt2.cir",
+      "bytes": 2234,
+      "sha256": "8c0f8000db6d8690a9c5878f080f912ca58940f09de26ef3d49d5b2d56f53dc9"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.raw",
+      "bytes": 766,
+      "sha256": "7b3c0c989cc135c9448e6e93e84851efcafc60fbdb810c6a3cb9bd114c958292"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.log",
+      "bytes": 783,
+      "sha256": "67a5680eb9bff0a2fffe42cab8a5f35f27f17fa7c0adca15143060d8b079c7a7"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman1p75.cir",
+      "bytes": 2034,
+      "sha256": "818705c90b7e614532865bc50251dd1d78bceb9f3a1236730ece56002680a245"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.raw",
+      "bytes": 765,
+      "sha256": "b59c8d6af005f679fc24b24dbce2031442ad7aff1a460f2d15fc383b8a54eb01"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.log",
+      "bytes": 781,
+      "sha256": "c3dcc0d450aa0947930c75780cff9442dec33e4555fa73a43f5b2b06a6930fcb"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman1p5.cir",
+      "bytes": 2032,
+      "sha256": "fd5a307e6e07e2adef88493e8a5172892d369eaaa53d69154b8311a37ae00f5b"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p25_attempt2.raw",
+      "bytes": 1528,
+      "sha256": "0ad0a9f7d7927c2bd74027656a3841125474141b38f67b0f230fa36f0bb04e4f"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1p25_attempt2.log",
+      "bytes": 801,
+      "sha256": "9ef5bdce071b06198e370d1f9eba09e2d471aeef7c64d14ad68d050d49acb3ca"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman1p25_attempt2.cir",
+      "bytes": 2243,
+      "sha256": "328db122148ca97097c6381cdb5779ae2aa002ebe90bc202f3033f7b9636bcae"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1.raw",
+      "bytes": 763,
+      "sha256": "6171c2dc017fc2b6335c77053715900ad1e74aaf9c93e1ae3e50e05241bbccf4"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman1.log",
+      "bytes": 777,
+      "sha256": "67f59875819f35f53e6f45b83e276516df609a2f82500ffb45554af90d250f91"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman1.cir",
+      "bytes": 2029,
+      "sha256": "008211f906b282f4e01ad07a5f54b247a59313062a81b4bef0ed0645d25ffd9d"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p75_attempt2.raw",
+      "bytes": 1528,
+      "sha256": "e4a0a61ce3f849da4097028148f51d583581b02c7da80491affd698fe2e0ff3e"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p75_attempt2.log",
+      "bytes": 800,
+      "sha256": "80ec55a4a48d244c91f35912b13193b97d5184c0580fdca57fd0edfba726bf6d"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman0p75_attempt2.cir",
+      "bytes": 2243,
+      "sha256": "6399d7b48dea4e7394451977949f83abdc841736778a5dc16f72dbdb9dd547c5"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.raw",
+      "bytes": 765,
+      "sha256": "b06fc99930a72fa4a214daa3a30f69dd33a0f506665e35bcc0a3b7dfb53d5336"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.log",
+      "bytes": 780,
+      "sha256": "5bdc3b6b30fa9b809d0f77c9a6275f0318d6121c87665766988bc8b327ba950a"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman0p5.cir",
+      "bytes": 2032,
+      "sha256": "bbc513fadb565f7425e30c03f877defa4f527ff6ce8849a16ae663a10117ed22"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.raw",
+      "bytes": 766,
+      "sha256": "b24db036175e13469f4ff3681a9eb807e9ee3eb2ec4dfa25389df2d7fbb2ba14"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.log",
+      "bytes": 783,
+      "sha256": "f7c6c1b24fe2268c1702786753ad39bd240149c34cb0ab96677f6e4a21e58610"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_sman0p25.cir",
+      "bytes": 2034,
+      "sha256": "4b38ec0ecb0349afa0eec936a534d28b27ad786304447ba2129f65460725ce26"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0.raw",
+      "bytes": 763,
+      "sha256": "14f5f0fd08f43ba11874e17ee48c516568e3947d61e469e52864cba47a503bda"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0.log",
+      "bytes": 776,
+      "sha256": "ca19a4c60c5d63fabf920472a81efdd6200c58ff19dc0fa3308bc37a1339b8ff"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0.cir",
+      "bytes": 2023,
+      "sha256": "3f6231aac84ab3ced3150572407fcad178fdde2df5514f03f1c2aaac502b4b8c"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.raw",
+      "bytes": 763,
+      "sha256": "d535d79669a5ea6c51f93b97c633af5d0e7d7f0adb58c614cb6a67ce1d695099"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.log",
+      "bytes": 782,
+      "sha256": "8777ba34dcb0d1edc05ae3da9acc7da9176d9a852805b6bd2fdd7f5ba193cffb"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0p25.cir",
+      "bytes": 2033,
+      "sha256": "b87f8fdae3f57c7c7ed01d8266cf8a65980dfb2840e31f3634f9fa3b229266c6"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5_attempt2.raw",
+      "bytes": 1524,
+      "sha256": "4d0ede7e0250dbfe0042b402edfb275ceed4576dc0cdd67af2f310ed4f6bb552"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p5_attempt2.log",
+      "bytes": 799,
+      "sha256": "01881b88701fda3146b9a9795127215a4f99975bafe8819ecf1a6eff20df09bf"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0p5_attempt2.cir",
+      "bytes": 2239,
+      "sha256": "1157b4604e7c7a4108836a9e2c8d24d139a40aafce82c494c7866c993069d587"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.raw",
+      "bytes": 763,
+      "sha256": "2a53d45e76f9772229a7d444bb2b5e171bc609b08bfd6ee599fc49d68119e098"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.log",
+      "bytes": 782,
+      "sha256": "9e8d40104b629b26b0325e38cac9707264afb73077c3f1b1e45f134b78fdc5a6"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap0p75.cir",
+      "bytes": 2033,
+      "sha256": "0d706bf51875656fee3ef4be62cdf5dcd562604c8f9eae65938be56bae04b357"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1.raw",
+      "bytes": 760,
+      "sha256": "192014b57a318584265225ca5692355259662d1158b6558845c24cba07597633"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1.log",
+      "bytes": 777,
+      "sha256": "25f9201dfd4b2e407d806b6c4b6cc2d87b1a476d40460541b738a275ece37f42"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1.cir",
+      "bytes": 2028,
+      "sha256": "a7b3bfce04a3d6cf7aaed27de28e7bf497ff7e278f701936087922880590a7ed"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.raw",
+      "bytes": 763,
+      "sha256": "75e2695c9a4dd96cea91e068b6ba9f3abddc7c2656770ddfc8d78595d6b68747"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.log",
+      "bytes": 783,
+      "sha256": "f8b51d0ddd0e5703c335ce0b4161cf666b3372d1a01cca1f12eeb632e8b5bc39"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1p25.cir",
+      "bytes": 2033,
+      "sha256": "68ddf7b706bca19a6d64d37680f99bb7eec83acd2d37c99d63cbe4c0372f27c8"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.raw",
+      "bytes": 762,
+      "sha256": "69cf11b23333c981aa2452cfbecd7866bb6f58683260f87e8d7047c2ae26ce8d"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.log",
+      "bytes": 781,
+      "sha256": "bcb6f3783069407abcfe4d9e1152fe71725e46e3eed26a40135659abaf6fc29e"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1p5.cir",
+      "bytes": 2031,
+      "sha256": "9b14891b4c27dcf3847a9dc15d0748f90d2e5b1d54d8b996db5c4c1f49b8e9de"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.raw",
+      "bytes": 763,
+      "sha256": "d653cd624e267f2aaaf054609a0ef45af70d79b792818416bef1a906753ffe92"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.log",
+      "bytes": 783,
+      "sha256": "621556e655cfb771cf82c5340b254d8edfa4845df874694816fa1e0fbb0919c5"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap1p75.cir",
+      "bytes": 2033,
+      "sha256": "353eab013657efa24a5cb8e4d3efc30d44b9cec34b4ddd93462a63d8bbd97615"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap2.raw",
+      "bytes": 760,
+      "sha256": "5665d743fc656918c3f6f968ad694f680eff278f63a62452d0c7153c9e767b47"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_nominal_v5p5_v3p3p3_smap2.log",
+      "bytes": 777,
+      "sha256": "b0ff50722005a77e759bd25b3865bd51e9aa71487e91c39f233fc68a12704694"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_nominal_v5p5_v3p3p3_smap2.cir",
+      "bytes": 2027,
+      "sha256": "b6aaeea1bd5d39ea2c8c3627fd7d76b3f5a94da1d6d73cef12e2ec63ff12cd8c"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_sman2.raw",
+      "bytes": 767,
+      "sha256": "9b5cfc32f7473d512fc1c5eb916fa3d1ec71ea6135f781b2285d36e59dd1d4eb"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_sman2.log",
+      "bytes": 784,
+      "sha256": "18f4b3b646f3ce0b20bc44acaa288b99b24d7a512e6a623c7e1d53c96699f7aa"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p135_sman2.cir",
+      "bytes": 2037,
+      "sha256": "681dd835c96d6650e89e7ab0d1493752fc4f6beb5a817d790e3f4cccbb6e66d7"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap0.raw",
+      "bytes": 767,
+      "sha256": "3aa8ff891511ef33b1402da0db2fbaa3fbdf22705cc55ab71875201f78515815"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap0.log",
+      "bytes": 785,
+      "sha256": "2678b7748ff7cf13c877bff11a6956670d2d283eb9db9b0dca706df599b9819d"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p135_smap0.cir",
+      "bytes": 2032,
+      "sha256": "c3f1ee8eb1c74266e9007e50fb442b223909e2126fe56f457a0c9f66accd5d94"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap2.raw",
+      "bytes": 764,
+      "sha256": "f689b4e627055cb5097d6a6702d42c3960918880ec1588b73f4c2259af8dd19b"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p135_smap2.log",
+      "bytes": 785,
+      "sha256": "469ab1a066e9e59957e4ef21880aa5f54550c7228151512870356b711c881b72"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p135_smap2.cir",
+      "bytes": 2036,
+      "sha256": "44b97efc7fc101b75265316fba3b919c2f9da656ae3fa24b1153390c6ed3f088"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_sman2.raw",
+      "bytes": 765,
+      "sha256": "06ce8ddaef4c8d5ea18b467e24212bd78c5c1ddce429cdee0b4fd4e73655a189"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_sman2.log",
+      "bytes": 781,
+      "sha256": "98a31eeb48c72f2ca15d56f0aceca936625aa9740f679a3490267aa73a0d0b71"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p3_sman2.cir",
+      "bytes": 2033,
+      "sha256": "52157440fd1aaa7c0dc41f373c986d09caef4ad9eb8d4f4d726d020dd54cb18f"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap0.raw",
+      "bytes": 765,
+      "sha256": "8c37738589a86876792c04efaf7dc9ac5b04d5581f5c497ab7444b61f4b857f0"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap0.log",
+      "bytes": 781,
+      "sha256": "ffe19e230e2149af6efe6f643b62ecd3c1683056d2c8d5d84a31382d87d8d839"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p3_smap0.cir",
+      "bytes": 2028,
+      "sha256": "ab5813423e9d11c349f72f52cbf12f68aee0b25066f0dd148d28120f5ce05dd2"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap2.raw",
+      "bytes": 762,
+      "sha256": "a28870a0190333772672ac97fcafc7351485a583ef54f0b31f242b702720c691"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p3_smap2.log",
+      "bytes": 781,
+      "sha256": "ac2a420ff152da3893ff72beddff55d99bf58be65c2230f4e96581c7355fa61b"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p3_smap2.cir",
+      "bytes": 2032,
+      "sha256": "19f09e5c1cb7f02664e0500ad7ee4ec8de9f58a7b494c38ea56526552deeadde"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_sman2.raw",
+      "bytes": 767,
+      "sha256": "d72eab479cf9543908324af3f6cd3a3d6f85829f58eef7d6b89036a2766cba14"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_sman2.log",
+      "bytes": 785,
+      "sha256": "55af0333f48fda83b78589808dc561a052539c7ca5aec10b18d1e30bf15a1bcf"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p465_sman2.cir",
+      "bytes": 2037,
+      "sha256": "fc963385b7b02c8209daaf3211c7083ff2a8bf40a20d2d4a4982f171feeb69e7"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap0.raw",
+      "bytes": 767,
+      "sha256": "0f6887673b2c1b8710f7210338664f38fa13f73cfe7a137fe07c02f9308710f1"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap0.log",
+      "bytes": 785,
+      "sha256": "d16985590280009d5bf615e9425eac3d88f292f76ea1f14a86e1aedf9c540c17"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p465_smap0.cir",
+      "bytes": 2032,
+      "sha256": "b0d70d331fddeef420c3cf09d227cea4dfa8e1a8b0f52e1e5976b05448d83ab2"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap2.raw",
+      "bytes": 764,
+      "sha256": "0e7e640a9f16877688c7e156d1b312a63509c348be2e626f87517cba52a798e0"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p4p75_v3p3p465_smap2.log",
+      "bytes": 785,
+      "sha256": "fb2bb011944b9012dc61f3075fddfd2d4b7b727ffea7d182fcef6982c1c489b1"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p4p75_v3p3p465_smap2.cir",
+      "bytes": 2036,
+      "sha256": "dc6af661fd81b7313c6e06f26fe5f63cefd2b112fc245d89193a7c6e518664c6"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_sman2.raw",
+      "bytes": 764,
+      "sha256": "0af4b941002a19a25ebc55399ad0dc1c9679cce73582553b49cceffdf53ef479"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_sman2.log",
+      "bytes": 778,
+      "sha256": "70865f1304d35b35b409c6c8227ce16547d777385b2c1bbff68a8e2aa02962e7"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p135_sman2.cir",
+      "bytes": 2031,
+      "sha256": "1896dbfef775a16070a558a8928bfbb48bf88d03146b43c99a7b4b192ce68487"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap0.raw",
+      "bytes": 764,
+      "sha256": "6b7a0270dc6fb8cf1adcc94c2aa7eb2fceaeca9bcaf8f837f8f4b084c27b66c6"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap0.log",
+      "bytes": 779,
+      "sha256": "f9e1fac29f497afcc7cf5f7e468847d45a0422ec51ef310ccd46d4b857820c40"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p135_smap0.cir",
+      "bytes": 2026,
+      "sha256": "e47a83e1c709b2da9255713a88d102b195c8d8f1508fb3e49f2bda54a36e2804"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap2.raw",
+      "bytes": 761,
+      "sha256": "3142c2fe145fe7332f77c780426dbda2205422f8570f4b0df2e8c00232be8371"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p135_smap2.log",
+      "bytes": 779,
+      "sha256": "07b278dca039beed3bcb9d61ce193e41c1e9284303f8b3f0cb03dadf1487851f"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p135_smap2.cir",
+      "bytes": 2030,
+      "sha256": "d9388c24dd6ba2aa7973505ef6766d3cb2e1d1cefb8169c4f1f52021b387378c"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_sman2_attempt2.raw",
+      "bytes": 1524,
+      "sha256": "a795daba24cf919a44772421759f2dfb0b351ca112e8d86d9124d4553e90745b"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_sman2_attempt2.log",
+      "bytes": 793,
+      "sha256": "73fe1f9c15af846ad112d1908c572826b614ba700bee5fedda979abc9496c7e3"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p3_sman2_attempt2.cir",
+      "bytes": 2232,
+      "sha256": "e0deb808147ae3e7621e56ccbd5b3bb97eab14dc845d44fda0f66fdf344b00c7"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap0.raw",
+      "bytes": 762,
+      "sha256": "651307d18c83fe2c74f68792461cf8d443266a2ca09ebfa1e09c0d0c62d791e4"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap0.log",
+      "bytes": 775,
+      "sha256": "0532811d30b5ec35a83055458f384c165f8e72af19e6c39e1520ff88b0869c2e"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p3_smap0.cir",
+      "bytes": 2022,
+      "sha256": "5c25f572b83cb03bf9e6485e653a04f9d3046e68d960ad642d7e8c8eee32b926"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap2.raw",
+      "bytes": 759,
+      "sha256": "3e20f8e621f4a0fe69a48ff205a48cd9ce6652a70b4d418eecde30ef54c75e28"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p3_smap2.log",
+      "bytes": 775,
+      "sha256": "62dde95c1aa850161f1efe81514ebab440916ad96b4aa9a7e8870e56829485da"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p3_smap2.cir",
+      "bytes": 2026,
+      "sha256": "d8952c3fddaf799bbb2beafcb2c4118d1794573996af83486fe2e96c3c150199"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_sman2.raw",
+      "bytes": 764,
+      "sha256": "ce0a00e78429b4c14343bc136a06b33296b218a10f7fc0cc706bd06e8ebc2a05"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_sman2.log",
+      "bytes": 778,
+      "sha256": "f6c25655b465f5e4a143d812661379eb7e49fc940a67c6069ee7aa61a61461bd"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p465_sman2.cir",
+      "bytes": 2031,
+      "sha256": "5235b5629b04683f30294a90805f03067fe2542f5d513e3421c3162a862ab999"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap0.raw",
+      "bytes": 764,
+      "sha256": "1f4a1ee06fc97d824d760cf9cce1f6937ff64c1300243af93352f37f3699dc12"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap0.log",
+      "bytes": 779,
+      "sha256": "ae4588a838a9c16d4c3b199e2668e755a8b1da8ce71cb2e7327c2fd5b6926ab2"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p465_smap0.cir",
+      "bytes": 2026,
+      "sha256": "021e2015f3461a5626161711e698a7e6d5593409614b457a63a382e1797d9c2b"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap2_attempt2.raw",
+      "bytes": 1523,
+      "sha256": "fe0bb5c8228b0f0b2393b03c21d6ff86f53fd0163241a174495a3d60af848ec8"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5_v3p3p465_smap2_attempt2.log",
+      "bytes": 797,
+      "sha256": "975cc33e1594d696e284c8cce23e1a63895a4d90c046cb4828e8cb528342ecd3"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5_v3p3p465_smap2_attempt2.cir",
+      "bytes": 2237,
+      "sha256": "35cf50bdb5dd99fd3b0faa1abbabf99b4ceceeb889cd763b49bd2a9949756a24"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_sman2.raw",
+      "bytes": 767,
+      "sha256": "4d431ab9a3b4b383746ff8c6c9ad78bbae0fbca155390f7f9243d29d36ab6d68"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_sman2.log",
+      "bytes": 785,
+      "sha256": "9e40f495d48005e9e95df3af88b110f5ca679885f0bde937e1f3213ee2209361"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p135_sman2.cir",
+      "bytes": 2037,
+      "sha256": "99a468115565e32847c89555947986786dcd1b8e880efaeffc60d8482b498246"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap0.raw",
+      "bytes": 767,
+      "sha256": "b83e0098756c044e1058055e2a57d58a87dda533110770a94d371d65b661d21b"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap0.log",
+      "bytes": 784,
+      "sha256": "ceedd08f80548f2bc9ebe4cd2f2d8ce25908dc5fa615c786ced6c3dc35da37df"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p135_smap0.cir",
+      "bytes": 2032,
+      "sha256": "84cafea926ef3f8ae8f7d14487e59fde06a4c7e9a0bb0a2f9d291a2155ff7534"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap2.raw",
+      "bytes": 764,
+      "sha256": "513732d969516a5839020160b7a282aa8e99b0d308621cd6b25d5696099454b6"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p135_smap2.log",
+      "bytes": 785,
+      "sha256": "c1619ac46a5e25bac00485a766e56794a835dfb2aa67ff2d40b240a5bc0e3545"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p135_smap2.cir",
+      "bytes": 2036,
+      "sha256": "5132a2f3ea42eb2d0baf4baff94ce77af6798c125a5fb201fe30234243ec0b59"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_sman2.raw",
+      "bytes": 765,
+      "sha256": "6de064be4474ce0c290c05afd7667c071366fb298d7e733cafa8c77d456436df"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_sman2.log",
+      "bytes": 781,
+      "sha256": "cef3151881cfda31186757c9247f750e38de683bcc614c0704d90275283a1aeb"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p3_sman2.cir",
+      "bytes": 2033,
+      "sha256": "438f03770e354215cb9e12419271d6840d4a1241918169f0dc288abf54902af4"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap0.raw",
+      "bytes": 765,
+      "sha256": "f123eedecfe6e4ee3e34ef32d12816570c090a25477edd5b81685de19e30a177"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap0.log",
+      "bytes": 781,
+      "sha256": "849813e0a454c506e5d2fb100b0e4146ca615c89af765b0ba0657f8c0ee3ad99"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p3_smap0.cir",
+      "bytes": 2028,
+      "sha256": "b74909f9b8f29ae8bd538b0e6c57bbc50a050abb229587e3131b2d6e225a5adb"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap2.raw",
+      "bytes": 762,
+      "sha256": "520e1220b23f8854bf4f8e15b82a79b3d3d6837708029cd327a1dccd1f426155"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p3_smap2.log",
+      "bytes": 779,
+      "sha256": "69bcd93e9b99ad464d2010fb890ee9de303cd3c331c48f74d0363c5979d36ae1"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p3_smap2.cir",
+      "bytes": 2032,
+      "sha256": "d8566630c7d88332b3dc31ca82c1eff6147d29f47a4dfff8381a8fe77460a4b7"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_sman2.raw",
+      "bytes": 767,
+      "sha256": "a733c62ff3b71b2dd3d5fe85df8af457c4dcb8c6ff4f2802472038e4a3bf6c23"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_sman2.log",
+      "bytes": 785,
+      "sha256": "4a2865bdf77e9f8e588c4396ff045ff7a4c2ebf62bccb67486d8f9b7244da575"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p465_sman2.cir",
+      "bytes": 2037,
+      "sha256": "5edb57fe486fbc3ff76c40b0f504bd3e84cfeb891c17f35768bb581cddf57a59"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap0.raw",
+      "bytes": 767,
+      "sha256": "e258c49e910d2346b311acbf140a3b11d2b7aece0e1d4fdec15ec9cf03d3a4b8"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap0.log",
+      "bytes": 785,
+      "sha256": "5269e191c447151b7e4e090a233b15e8278aacc10d0146ffdbf5de07f61282dc"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p465_smap0.cir",
+      "bytes": 2032,
+      "sha256": "a0e36f4b7f4bf5b74fec79a12cc9e739277dbab29077a729042bcc0c449c8701"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap2.raw",
+      "bytes": 764,
+      "sha256": "4e362a6359006671c295edefa7e85396e3fa68867b4c7c230430c2dd29185c9f"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\dcpoint_corner_v5p5p25_v3p3p465_smap2.log",
+      "bytes": 785,
+      "sha256": "5727314150115eb9d3f8b185acfb85e50172995b857be0adfc0fe55c2090d539"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\dcpoint_corner_v5p5p25_v3p3p465_smap2.cir",
+      "bytes": 2036,
+      "sha256": "d87e6639935d4301cbc28e0081aff70a1609d2bce79e8f2334ecfc7469d25f64"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\ac_ref_q1_trueDC.raw",
+      "bytes": 766105,
+      "sha256": "acc05fc7d3cdd01be8f0b4728e80a2f04736f1dce0096471f718fb1050df8769"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\ac_ref_q1_trueDC.log",
+      "bytes": 745,
+      "sha256": "48be3319b2f73f9d5e72fd83ccf870fdbb0902867090e906c7a4d908ca0c2f5b"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\ac_ref_q1_trueDC.cir",
+      "bytes": 2024,
+      "sha256": "f253c5249852531d17e1fba676fd5abc1e0719f33b8dbe74a3b67a5c9d21e4e2"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\noise_ref_q1_trueDC.raw",
+      "bytes": 82851,
+      "sha256": "f895cac8ec300e32cadf2d6e9c9a4b85d2bf748480c025ac1183161d0e7e6977"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\noise_ref_q1_trueDC.log",
+      "bytes": 802,
+      "sha256": "165013d6acd18e03c31de3baac88c70b482336922412c6e1c9c8cdc2d01f2fb2"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\noise_ref_q1_trueDC.cir",
+      "bytes": 1947,
+      "sha256": "cfb993d27d1497b6098e9154d1b1172d65de5f440f72acf5fef066bfc8d28186"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\smoke_ref_q1_trueDC.raw",
+      "bytes": 749,
+      "sha256": "9c89be24d1cdbc116a925963db7de38faec8023cb23d7c1f1eb99fd40bee33ae"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\smoke_ref_q1_trueDC.log",
+      "bytes": 749,
+      "sha256": "2149115565fb02ca4c31b853872f2420468137e6f9a273182c18726d8a63086f"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\smoke_ref_q1_trueDC.cir",
+      "bytes": 2009,
+      "sha256": "042b04712ecad3f780e65a903618cbbe6632f71fde830c182a8d2f7f3a3d5b0f"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\ac_ref_generic_crosscheck.raw",
+      "bytes": 766114,
+      "sha256": "d4dd247c813dc4d8539172798bf497dbfe2de17e314683a0a2acc56d1cf296b6"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\ac_ref_generic_crosscheck.log",
+      "bytes": 922,
+      "sha256": "85c632cd5ad5c989388d342159f2e6ef68f849dde69ea0149e95f01d47b776d4"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\ac_ref_generic_crosscheck.cir",
+      "bytes": 2040,
+      "sha256": "509fa2996eba21217eccf46b462b7e2eff3603d8b73e16bcc79be4250d0f0f92"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\noise_ref_generic_crosscheck.raw",
+      "bytes": 82869,
+      "sha256": "dd44f6b33729c9cc3add355bce6d91929fb11d2be888016bb0c0276151e6aae1"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\noise_ref_generic_crosscheck.log",
+      "bytes": 978,
+      "sha256": "c32bfa7b437ffa149091f42258f41f1a18d5b6f5ae413ab6a985cdb0c22deba4"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\noise_ref_generic_crosscheck.cir",
+      "bytes": 1963,
+      "sha256": "64897ecc7f382566185327cf01473268997df74885047a15bc8901a424b71e62"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\sine_ideal_q1_clean.raw",
+      "bytes": 8431608,
+      "sha256": "18c4cc929f9360c2ab44f4e98fee654c71cc075f8ed93d1b1c7568ac688e1680"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\sine_ideal_q1_clean.log",
+      "bytes": 17615,
+      "sha256": "dd7bdaf2cf784521030ac00d1c889a87f4df5d488dc1e951881913308aa73fb6"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\sine_ideal_q1_clean.cir",
+      "bytes": 1589,
+      "sha256": "dd39aa1b90b404e4bb543c2d98dcfea41491e043a5e611510e21dbc790c14f4d"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\step_ideal_q1_clean.raw",
+      "bytes": 8382675,
+      "sha256": "6903a42b889a67a089a44684432665db7a6a83fc41778ac6f52b893015cd17b6"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\step_ideal_q1_clean.log",
+      "bytes": 17614,
+      "sha256": "2292243b5d30e3a15124448437e64a0b81be6606d4ded87a225ecd9ebe668684"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\step_ideal_q1_clean.cir",
+      "bytes": 1617,
+      "sha256": "dba655a19c6ed65614f389317f880d9940ac30ad1f44e3e56a8f97b036f3cef3"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\reference_ref_q1.raw",
+      "bytes": 472,
+      "sha256": "32c353a5a2894587e764aadb2ec926cd8716a67a01c442da580c21552e0af9eb"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\reference_ref_q1.log",
+      "bytes": 699,
+      "sha256": "bea94387732e13b51af549e9a1a2a4163b304135f43f3aacd87b43f46ca36b52"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\reference_ref_q1.cir",
+      "bytes": 1020,
+      "sha256": "f053a69d02d4568180c23e97ef6687df0e94373fe9fa27f4b310d3bdf2799f55"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\reference-noise_ref_q1_allnoise.raw",
+      "bytes": 23514,
+      "sha256": "daf24aa1403fdd6ebe3b01c57b7f30627b84fc68f2f285f2d44b7e10c4bff699"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\reference-noise_ref_q1_allnoise.log",
+      "bytes": 782,
+      "sha256": "aab05599a911b174c2e3c88e01f64f6a735809e216d1e1e1d67e08f9a9a38e2b"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\reference-noise_ref_q1_allnoise.cir",
+      "bytes": 1030,
+      "sha256": "1efdfc09c7dac2001f03555623b1886c7ddb94789bfef0e033fe62af4a8ba0f3"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\reference-startup_ref_q1_gear.raw",
+      "bytes": 3084636,
+      "sha256": "bc90edd81c185c637a924b390a7ac89a3c2a7684d7e2501382232825a680a864"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\reference-startup_ref_q1_gear.log",
+      "bytes": 9429,
+      "sha256": "1c7d1983ad4e80fe6e0ade14e060ceb132b1eacaa1669c5a25025e080798ca2a"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\reference-startup_ref_q1_gear.cir",
+      "bytes": 1071,
+      "sha256": "e739389b7de5455f3de6609cd75173e18c1220e67ed26ee85ee623694aedc4d1"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\ldo_ref_q1.raw",
+      "bytes": 2573905,
+      "sha256": "c2c7699cfd58a4c43174862c24f3045a89ffadd967a6736ffbcb581becbf37cb"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\ldo_ref_q1.log",
+      "bytes": 2528,
+      "sha256": "3f08a26d436cfe09496fa8a126325fc36bbe56724ad9013fff9d2b9170c532af"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\ldo_ref_q1.cir",
+      "bytes": 692,
+      "sha256": "13d4839d93eb27384064c13207faa8c779a6cd99c3a1d63e4d4844b6522c52cd"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm.raw",
+      "bytes": 35470671,
+      "sha256": "8333e0861bff65a7cd29500233e8ba7afabbc6b9855b586a9d04ef1e5219a87c"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm.log",
+      "bytes": 17976,
+      "sha256": "6b6e91f37dc17a7c96f4642b4bfd7dcdc02611c8f79a87a2699662a6eb6ecf24"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\kick_ideal_q1_clean_32p_3000ohm.cir",
+      "bytes": 1939,
+      "sha256": "620a13ebefa8862d7f32c839094a1cf9a1304984d9242ce4ac35bd27192eadd4"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm_reverse.raw",
+      "bytes": 35300189,
+      "sha256": "3b7d2b524ba796d815f8ff895962d7b2ecd1584f50d0e72eb37610bdec56330a"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\kick_ideal_q1_clean_32p_3000ohm_reverse.log",
+      "bytes": 17992,
+      "sha256": "51c95ae6bdf9604c42048faab86c2aa5ebf658ca4ef5d0151805c76663025b27"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\kick_ideal_q1_clean_32p_3000ohm_reverse.cir",
+      "bytes": 1948,
+      "sha256": "6b03a8ef3ca0eeb5ec2a20c308940f9e35d9c66f3eb3eac6ca622b33cc963b0c"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\kick_ideal_q1_clean_4p_1000ohm.raw",
+      "bytes": 34950755,
+      "sha256": "c520376715304cee8b88bea7d748002e3652894c0bb7e55a744a7f739316a33b"
+    },
+    {
+      "path": "output\\simulation-20261018\\runs\\kick_ideal_q1_clean_4p_1000ohm.log",
+      "bytes": 17974,
+      "sha256": "f33b7b9abdd4e0df75ed22ddd29a64637ba670b1a187c6e7a16330a81d63dc0c"
+    },
+    {
+      "path": "output\\simulation-20261018\\decks\\kick_ideal_q1_clean_4p_1000ohm.cir",
+      "bytes": 1937,
+      "sha256": "c7dae0868b57be1381fc7babb9612f11e9546e52a0ed10040f3a6e98f3d84bb2"
+    },
+    {
+      "path": "output\\simulation-20261018\\plots\\ac.png",
+      "bytes": 37368,
+      "sha256": "1dc9872fcfb0de2c2153dd88aba33887a3561e11f717e1946df0a80ea0c7eb5f"
+    },
+    {
+      "path": "output\\simulation-20261018\\plots\\dc.png",
+      "bytes": 31064,
+      "sha256": "33c02f637475deca1125e18bd95422f8cc0db8ff179932e369fcda0350c08a13"
+    },
+    {
+      "path": "output\\simulation-20261018\\plots\\kick.png",
+      "bytes": 37248,
+      "sha256": "c50091d049d6dfa7e21b2cc533bfe943f731821762d2b3db80165060d5235b42"
+    },
+    {
+      "path": "output\\simulation-20261018\\plots\\noise.png",
+      "bytes": 36921,
+      "sha256": "d563e08fea13db560b8fc103f9277fecf18411c26e55fbc4420506df47bbf568"
+    },
+    {
+      "path": "output\\simulation-20261018\\plots\\reference.png",
+      "bytes": 34248,
+      "sha256": "ae02068cc18984952fb2c08d781858e3ddb6aea93593d55d558e34e2af1de224"
+    },
+    {
+      "path": "output\\simulation-20261018\\plots\\sine.png",
+      "bytes": 39449,
+      "sha256": "a66da05345783d719b788881c6f78b1ebc0205378799e2f8023033688bcfa64a"
+    },
+    {
+      "path": "output\\simulation-20261018\\plots\\step.png",
+      "bytes": 35260,
+      "sha256": "cb7d770b6ef64dafe8f6bc0512c91bbedc139f158eef0f11843a1e78db282475"
+    }
+  ]
+}
